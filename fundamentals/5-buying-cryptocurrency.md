@@ -57,6 +57,7 @@ Here is a list of trusted cryptocurrency exchanges where you can purchase Ethere
 * https://www.binance.com/en
 * https://www.coinbase.com
 * https://cex.io
+* https://www.kraken.com
 * https://global.bittrex.com
 * https://www.coinmama.com
 
