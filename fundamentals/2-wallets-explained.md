@@ -85,4 +85,3 @@ Hybrid wallets are rarer than a custodial or non-custodial wallet and offer a di
 The hybrid wallet system protects against hacking but opens the door for the wallet provider to censor the user in certain scenarios.
 
 To sum up, always look for non-custodial wallets. When using such a wallet you can be sure the funds are indeed under your control and not dependent on any third party.
-

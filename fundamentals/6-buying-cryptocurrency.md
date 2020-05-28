@@ -88,10 +88,3 @@ For the most part such exchanges operate in a peer to peer manner where buyer an
 Such exchanges do not require verification of any kind. There are no limitations in the amount that can be sold or purchased.
 
 At this point in time it's fairly difficult for a beginner level user to participate in those. So, we are going to be looking at them in detail later on.
-
-
-
-
-
-
-
