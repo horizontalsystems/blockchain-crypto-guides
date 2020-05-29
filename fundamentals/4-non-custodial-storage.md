@@ -93,21 +93,22 @@ Some of the more popular desktop-based wallets are:
 - https://electrum.org
 - https://www.exodus.io/bitcoin-wallet
 
-## The Right Wallet For You
+## So, Which One?
 
-The classification above was primarily based around the notion of private key security. While it's the most important factor it should not be the only one when choosing the right wallet for yourself.
+The classification above was primarily based around the notion of private key security. While it's the most important factor it should not be the only one when choosing the wallet.
 
-For instance, a non-custodial mobile-wallet may be potentially be more private than a hardware wallet. Or have helpful features not available in the hardware wallet.
+For instance, a non-custodial mobile-wallet may potentially be more private than a hardware wallet. Or have helpful features not available in the hardware wallet.
 
 As mentioned earlier, a balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.
 
 The absolute minimum requirements from any non-custodial wallet should be:
 
 - ability to migrate to another third-party wallet 
-- inbuilt security to prevent unauthorized access
-- adherence to engineering best practices
+- inbuilt security mechanisms to prevent unauthorized access
 
-On a practical level, below we define risk in terms of the capital amount to be stored on the wallet. Approach it as a third party opinion and ultimately use your own judgement to figure out the best strategy for yourself. It should give you an idea about how to choose the right wallet and yet not worry about potential security issues. 
+When your crypto capital is small stick to standard measures but as the capital grows become more demanding. You don't need cartel
+
+On a practical level, below we define risk in terms of the capital amount. It should give you an idea how to choose the wallet and not worry much about potential security issues. Ultimately use your own judgement to figure out the best strategy for yourself)
 
 ### For Capital < $ 10,000
 
@@ -139,6 +140,38 @@ The basic principle can be based around the concept of keeping a larger portion 
 When setting up a new wallet some wallet apps enable users to set a password next to 12 words as an additional recovery requirement. This allows the person to keep the 12 words separately from the password and by doing so remain safe even if someone finds the list with written words. The password can be memorized as well.
 
 If the sum to be stored in the hardware wallet is substantial then as a further precaution it's advised to split between two or more hardware wallets and place them in different locations.
+
+## Storing 12/24 Words Offline
+
+Offline storage of your private key(s) is essential. If for some reason the access to wallet device is lost the private key will be the only way to regain access to the funds.
+
+Keep in mind following when keeping your funds offline:
+
+- should be kept in separate location from wallet app or device.
+- take precautions against fire or floods. 
+- what if someone finds it
+
+So, how to store the backup:
+
+For mobile non-custodial wallets that are meant to be accessed frequently go with 12 words backup. Make sure it's stored safely as if someone finds it you're risking to lose your funds. There is nothing wrong with being creative here as long as it doesn't break your security. 
+
+Some people prefer to write them down on file and store encrypted version online. Note that it's not a good idea to have a digital version of the private key for any wallet with large amount of crypto. For smaller amounts should not be an issue as such as long as you understand the risks.
+
+For private key backups for hardware wallets with large sums it's recommended to set up private in a form of '12/24 words + password'. That option available on all hardware wallets. Those wallets enable creating and restore of such private keys.
+
+A backup of words can be stored in a metal container from Crypto Steel (link below). The additional password that was set up along with words should be kept separately. 
+
+- http://cryptosteel.com
+
+As a result you end up with:
+
+1. wallet device (protected by PIN)
+2. private key (protected by metal case and password)
+3. password for private key
+
+If all three items are stored separately you are achieving good level of crypto security. 
+
+It's also advised to share enough information with your close ones so that they can recover the access to funds should for some reason you become unreachable.
 
 ## Conclusion
 
