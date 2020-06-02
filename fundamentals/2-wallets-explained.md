@@ -32,9 +32,9 @@ Under the hood they key may look something like this:
 
 Revealing the cryptographic key to someone or loosing it essentially means loosing access to the crypto it controls. Note that it's impossible for someone(even the most powerful computer in the world) to guess that key, even if it tries to do it over a billion years. 
 
-It was not uncommon to see people loosing key to their Bitcoins in the early days. As a result a lot of Bitcoins (maybe 10-15%) ended up dormant this way. They are there bu the cryptographic key controlling these Bitcoins was lost.
+It was not uncommon to see people loosing key to their Bitcoins in the early days. As a result a lot of Bitcoins (maybe 10-15%) ended up dormant this way. The Bitcoins are still out there but the cryptographic key controlling these Bitcoins is lost.
 
-In practical terms, the private key can be thought of as a secure alternative to traditional username/password authentication method. The only difference it's not possible to recover it if it's lost or forgotten.
+In practical terms, the private key can be thought of as a secure alternative to traditional username/password authentication method.
 
 ## Cryptocurrency Wallets
 

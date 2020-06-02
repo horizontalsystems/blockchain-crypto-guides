@@ -55,7 +55,7 @@ Two well-known hardware wallet providers are:
 
 Both companies have a wide range of products to choose from. It's important to buy those directly from the provider's website.
 
-### Mobile Wallets
+### 2. Mobile Wallets
 
 The mobile based wallets for iOS and Android are the most common type of non-custodial wallets. These wallets are generally more user-friendly and usually designed for the new comers getting to know how crypto works.
 
@@ -75,7 +75,7 @@ A good non-custodial wallet likely to adhere to the standards recommended by the
 
 Most non-custodial wallet keep their code public allowing third-party engineers to evaluate it.
 
-### Desktop Wallets
+### 3. Desktop Wallets
 
 Desktop wallets are theoretically less secure when compared to a desktop based wallet for the same reason why a mobile wallet is less secure than a hardware wallet. 
 
@@ -94,7 +94,11 @@ The classification above was primarily based around the notion of private key se
 
 For instance, a non-custodial mobile wallet app may potentially be more private than a hardware wallet. Or have helpful features not available in the hardware wallet.
 
-The minimum requirements for mobile non-custodial wallet should be as follows.
+Keep in mind, you don't need cartel level security if you're just starting out. The out of the box security on most non-custodial wallets is already pretty good.
+
+> A balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.
+
+The minimum security requirements for using any non-custodial wallet should be as follows.
  
 - Security Basics
 
@@ -106,49 +110,51 @@ The minimum requirements for mobile non-custodial wallet should be as follows.
 
 - Unauthorized Access Measures
     
-    The smartphone access should be protected with the PIN. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
-        
-## Grow With Risks
+    The access to the wallet device should be protected with the PIN. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
+    
+## Multiple Wallets
 
-When your crypto capital is small stick to standard measures but as the capital grows become more demanding. You don't need cartel level security if you're just starting out. The out of the box security on most non-custodial wallets is already pretty good.
+While your crypto remains relatively small (ex: < $20,000) stick to standard security measures. As the capital grows gradually become more demanding by introducing additional security measures. 
 
-> A balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.
+For instance, someone may start with a single wallet with an initial crypto capital valued at $5000. As the value of the capital grows the user may move to a tiered approach as below.
 
-Below we define risk in terms of the capital amount. It should give you an idea how to choose the wallet and not worry too much about security issues. 
+- generic wallet : 
 
-> Disclaimer: Ultimately use your own judgement to figure out the best strategy for yourself)
+    mobile non-custodial wallet that always with you and stores smaller amounts for all-purpose transactions. 
+    
+- investment wallet : 
 
-### For Capital < $ 50,000
+    mobile non-custodial wallet that keeps the capital meant for active investments. Will have to be accessed frequently to move funds on a regular basis.
+    
+- storage wallet : 
 
+    hardware wallet that holds crypto meant for long term storage. Accessed rarely.
+    
 Those making their way into cryptocurrency for the first time are likely to find mobile-based wallets easier to use.
 
 Keeping your mobile wallet on your phone is handy. Your cryptocurrency remains close, easy to access, and you can use funds to invest, make payments wherever you are. 
 
-As long as you have properly backed up the private key and have a PIN lock on the app you should be good to go. 
-
-When it comes to hiding the backup of the private keys, some people prefer to write them down on a piece of paper and store them somehow somewhere. Some prefer encrypt the text using standard methods and store it online.
-
-> Note that it's not a good idea to have a digital version of the private key for any wallet with large amount of crypto. For smaller amounts should not be an issue as such as long as you understand the risks. 
-
-For mobile non-custodial wallets that are meant to be accessed frequently go with 12/24 words backup. Make sure it's stored safely and easily accessible on demand. 
-
-### For Capital > $ 50,000
-
-As your capital grows, and you become comfortable dealing with cryptocurrency start looking at improving your overall security.
-
-The basic principle can be based around the concept of keeping a larger portion of your holdings in a hardware wallet that's not meant to be accessed frequently. 
-
-The rest can be kept in a mobile based wallet that can be easily accessible on demand.
+Those holding large amounts in cryptocurrency can jump to a tiered approach from the start. The basic principle can be based around the concept of keeping a larger portion of the dormant holdings in a hardware wallet that's not meant to be accessed frequently.
 
 If the sum to be stored in the hardware wallet is substantial then as a further precaution it's advised to split between two or more hardware wallets.
 
 ## Wallet Backups
 
+Storing private key backup for each wallet is critical.
+
+Some people prefer to write the words down on a piece of paper and store it somehow somewhere. There are those that prefer encrypting the words list using standard methods and then store encrypted copy online.
+
+> Note that it's not a good idea to have a digital version of the private key for any wallet with large amount of crypto. For smaller amounts should not be an issue as such as long as you understand the risks. 
+
+For mobile non-custodial wallets that are meant to be accessed frequently go with 12/24 words backup. Make sure it's stored safely and easily accessible on demand.
+
+### Adding Password
+
 When setting up new wallets some wallet apps enable users to add a password next to 12/24 words.
 
-It's an additional security measure that allows the person to keep the 12/24 words separately from the password and by doing so remain safe even if someone finds the list with words. The password will be needed to access crypto funds.
+It's an additional security measure that allows the person to keep the 12/24 words separately from the password.  Doing so allows the owner of the wallet to remain safe even if someone finds the list with words. The password will be needed to access crypto funds.
 
-The password can be memorized or written down and kept separately from the list of words. Think of this a way to upgrade the security of your funds.
+The password can be memorized or written down and kept separately from the list of words.
 
 However, adding password next to 12/24 words to some extent limits the options when it comes to migrating to a third party wallet in the future.
 
@@ -158,12 +164,12 @@ Keep in mind following when keeping your private key backups offline:
 
 - private key should be kept in separate location from wallet app or device.
 - if the private key consists of 12/24 words and a password, the words should be kept separately from a password.
-- take precautions against fire or floods.
 - private key backup or wallet device can potentially be found by someone else.
+- take precautions against fire or floods.
 
 For private key backups for hardware wallets with large sums it's recommended to set up private in a form of '12/24 words + password'. That option available on all hardware wallets. Those wallets enable creating and restore of such private keys.
 
-A backup of words can be stored in a metal container from Crypto Steel (link below). The additional password that was set up along with words should be kept separately. 
+A backup of words can be stored in a metal container from Crypto Steel (link below).
 
 - http://cryptosteel.com
 
@@ -189,4 +195,4 @@ Therefore, should you start accumulating cryptocurrencies use a non-custodial wa
 
 Do not ever keep a substantial amount on wallets that are not non-custodial. Wallets provided by cryptocurrency exchanges are custodial and can censor or block the funds should there ever be a need for that.
 
-Those holding large amounts of crypto, should consider putting the sum not meant to be accessed frequently on a hardware wallet.
+Those holding large amounts of crypto should consider putting a larger portion of the sum on a hardware wallet.
