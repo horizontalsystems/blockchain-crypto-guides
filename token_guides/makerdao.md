@@ -4,49 +4,53 @@ Let’s start with a brief introduction to Decentralized Finance or DeFi as ever
 
 Bitcoin was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
 
-While this was a major achievement in itself the Bitcoin blockchain is limited to plain transfers of Bitcoins from one address to another.
+In its current state the Bitcoin blockchain is limited to plain transfers of Bitcoins from one address to another.
 
-> The Ethereum blockchain goes far beyong simple transfers and is not limited in complexity of logic that can be coded into a transaction. 
+> The Ethereum blockchain goes far beyond simple transfers and is not limited in complexity of logic that can be coded into a transaction. 
 >
 > Programmers can build any type of public services with complex logic describing the nature of a business or financial contract and let it operate autonomously without means for someone to interfere. 
 >
 > For as long as the Ethereum blockchain is online, these service remain operational and work exactly as intended.
 
-When people say DeFI they usually refer to financial services built on top of Ethereum or one of its smaller alternatives like EOSIO blockchain platform. 
+Ethereum expanded the idea of blockchain from tracking payments between addresses to all kinds of conditional contracts. As a result the concept of Decentralized Finance (DeFi) was born.
 
-That said, most of the high net worth projects which are live and already serving the public in the DeFI ecosystem are working on top of the Ethereum blockchain. 
+When people say DeFi they usually refer to financial services built on top of Ethereum or one of its smaller alternatives like the EOSIO blockchain platform. 
+
+That said, most of the high net worth projects serving the public in the DeFI ecosystem are working on top of the Ethereum blockchain. 
 
 If you would like to learn more about Ethereum and existing DeFi projects built on top of it, read our Ethereum guide.
 
-// Ethereum Guide Link
+link: token_guides/ethereum.md
 
 ## MakerDAO Overview
 
-Below, we’ll be going over MakerDAO, one of the very first DeFI projects built on top of Ethereum blockchain. 
+MakerDAO is one of the very first DeFI projects built on top of Ethereum blockchain. 
 
 The project currently controls worth over half a billion USD, all in an automated manner by a predefined set of rules (aka Smart Contracts) known as Maker Protocol.
 
-> Smart Contract is a computer program that leaves on a blockchain and transparent in the way it operates. 
+> Smart Contract is a computer program that leaves on a blockchain and transparent in the way it operates. Usually coded in a way s0 it's impossible to change it.
 >
 > Anyone with programming skills can locate the smart contract on the blockchain and verify that it works exactly as expected and is without loopholes. 
 
-MakerDAO was the first DeFi project to earn global adoption and remains a leader in the amount of funds it controls. It is governed by a geographically distributed set of entities ranging from organizations to private individuals.
+MakerDAO was the first DeFi project to earn global adoption and remains a leader in the amount of funds it controls. 
 
-The project was launched in 2014 and comes in a form of a Decentralized Autonomous Organization(DAO).
+It is governed by a geographically distributed set of entities ranging from organizations to private individuals.
 
-### It Is A DAO
+The project was launched in 2014 and comes in a form of a Decentralized Autonomous Organization (DAO).
+
+### DAO Explained
 
 If you’re not familiar with the concept of DAO, then simply think of it as a project or organization which meets following criteria: 
 
-- the code operates on an open public blockchain
 - controlled by a distributed group of entities
 - usually has no official address, office etc
 - governance of the DAO is exercised through ownership of some token
 - any public entity can verify that organization operates as described
+- the code operates on an open public blockchain
 
 In a way, DAO is an alternative to a traditional corporation where ownership structure is defined by the number of shares someone owns. 
 
-> Unlike traditional corporations, DAO exists on a blockchain and operates by precoded rules, without any means for someone to step in and change the rules of engagement. 
+> Unlike traditional corporations, DAO exists on a blockchain and operates according to pre-coded rules, without any means for someone to step in and change the rules of engagement. 
 
 If that concept looks somewhat blurry to you then no worries it’s a difficult concept to grasp for someone not familiar with the mechanics of blockchain tech. 
 
@@ -60,35 +64,20 @@ As will be illustrated later, the incentive for someone to be a part of MakerDAO
 
 MakerDAO consists of a set of public smart contracts known as Maker Protocol which autonomously handle the lending process.
 
-The DAI token is the core product of MakerDAO and its revenue source. More specifically, the DAI is the currency of every single loan Maker Protocol has issued to the public. 
+The DAI token is the core product of MakerDAO. The DAI is the currency of every single loan Maker Protocol issues to the public. The DAI token itself is a stablecoin. When people take out loans they have to pay service fees which benefit MakerDAO. 
 
-The DAI token itself is what known as a stablecoin. The term stablecoin refers to a cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.
+Most of the services provided by MakerDAO are built around DAI stablecoin.
 
-The Maker Protocol enables users to lock their Ether tokens as collateral and in return provide clients with DAI tokens. 
+> The term stablecoin refers to a cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.
 
-The process takes place in the following order:
+The Maker Protocol enables users to lock their Ether tokens as collateral and in return obtain DAI tokens. The collateral release on repayment of the loan.
 
-1. Every time the loan is issued by MakerDAO’s Maker Protocol to someone a new DAI enters circulating supply. 
-2. At the same time a new collateral in Ether (equivalent to 150% of the DAI value) deposited to the Maker Protocol reserves. 
-3. When the loan is returned, the collateral is released back to the user, and the returned DAI is destroyed by Maker Protocol. 
+1. Every time the loan is issued by MakerDAO’s Maker Protocol to someone a new DAI enters circulating supply. At the same time a new collateral in Ether (equivalent to 150% of the DAI value) deposited to the Maker Protocol reserves. 
+2. When the loan is returned, the collateral is released back to the user, and the returned DAI is destroyed by Maker Protocol. A service fee is paid by the borrower.
 
-The key takeaway point here is that Maker Protocol is what controls the circulating supply of DAI, and the automated process by which the price of DAI remains consistently close to 1$.
-
-Through various means that are available to it the protocol ensures that the price of DAI remains very close to or equal to 1 USD.
-
-In that regard, DAI is a trustless decentralized stablecoin:
+Maker Protocol is what controls the circulating supply of DAI. The Maker Protocol also ensures that the price of DAI remains very close to or equal to 1 USD at all times. As will be shown later on the protocol has many tools at its disposal for balancing the price of DAI.
  
-- trustless : anyone can verify that stablecoin is indeed backed by an amount of collateral to account for the circulating supply. That collateral can be used to buy out every single DAI out in circulation without the need to trust someone.
-    
-- decentralized : not controlled by a single entity, works exactly as programmed.
-
-Unlike DAI, most stablecoins are centralized and require a high level of trust from a person holding the coins towards the issuer of that stablecoin. USDT and USDC are such stablecoins. 
-
-The main difference between various stablecoins lies in the way the circulating supply of a stablecoin is being controlled. 
-
-In April 2020, the market cap of DAI token was about 80 million USD. Being a stablecoin on Ethereum blockchain anyone can verify the exact number of DAI in circulation.
-
-While anyone can see the amount of Tether's USDT tokens in circulation no one can say for sure if there is a sufficient amount of liquid collateral backing it.
+DAI is trustless because anyone can verify that stablecoin is indeed backed by an amount of collateral to account for the circulating supply. That collateral can be used to buy out every single DAI out in circulation without the need to trust someone. Unlike DAI, most stablecoins are centralized and require a high level of trust from a person holding the coins.
 
 ### MakerDAO Governance
 
