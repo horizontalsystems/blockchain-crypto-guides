@@ -1,7 +1,11 @@
+![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/TetherMain.png)
+
 # Tether in Simple Terms
 
 Tether (USDT) is a cryptocurrency stablecoin with a value meant to mirror the value of the US dollar. It is the biggest stablecoin in the cryptocurrency space essentially enables players in the crypto ecosystem to have easy exposure to USD.
- 
+
+![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/TetherExchange.png)
+
 Tether can be found on most cryptocurrency exchanges and supported by moat crypto currency wallets. On most cryptocurrency exchanges it's trading in pairs with the highest daily volume. For instance, BTCUSDT pair on Binance cryptocurrency exchange alone exceeds a billion USD in daily trading volume. 
 
 The Market Capitalization of Tether has been consistently growing over the years and in May 2020 exceeded 8 billion USD. You can see the exact values here, https://wallet.tether.to/transparency
@@ -9,6 +13,8 @@ The Market Capitalization of Tether has been consistently growing over the years
 While Tether tokens are issued on several blockchains with the largest amount being on Ethereum blockchain. There are over 5.5 billion Tether tokens issued via its Ethereum Smart Contract which can be explored under the link below:
 
 https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7
+
+![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/TetherVolatility.png)
 
 ## Tether Use Cases
 
@@ -27,6 +33,7 @@ When someone wants to deposit fiat money to buy Tether tokens via Tether's websi
 
 It goes without saying, in order to purchase Tether tokens from Tether's website or the cryptocurrency exchange the user will have to go through ID verification and KYC (Know Your Customer) checks.
 
+![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/Tetherequaldollar.png)
 
 ## How Reliable Is Tether
 
