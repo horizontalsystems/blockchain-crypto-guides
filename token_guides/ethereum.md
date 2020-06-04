@@ -112,9 +112,11 @@ You see, a DApp can take many forms. The versatility of the Ethereum blockchain 
 
 ## Interacting With DApps
 
-Most of the DApps built on Ethereum blockchain are financial services that use Ether some or some other tokens (also built on Ethereum). At this point the smart contracts powering these financial services cumulatively handle over 1 billion USD in value.
+Most of the DApps built on Ethereum blockchain are financial services. These services use Ether or some other Ethereum-based tokens. 
 
-https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone
+At this point the smart contracts powering these financial services cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value.
+
+
 
 ## Ethereum Privacy Explained
 
