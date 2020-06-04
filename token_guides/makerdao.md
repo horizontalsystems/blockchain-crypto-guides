@@ -60,11 +60,11 @@ MakerDAO is a DAO that operates a lending facility built on the Ethereum. The go
 
 As will be illustrated later, the incentive for someone to be a part of MakerDAO comes from various public-facing services provided by MakerDAO.
 
-### DAI Stablecoin As A Service
+### DAI As A Service
 
 MakerDAO consists of a set of public smart contracts known as Maker Protocol which autonomously handle the lending process.
 
-The DAI token is the core product of MakerDAO. The DAI is the currency of every single loan Maker Protocol issues to the public. The DAI token itself is a stablecoin. When people take out loans they have to pay service fees which benefit MakerDAO. 
+The DAI cryptocurrency is the core product of MakerDAO. The DAI is the currency of every single loan Maker Protocol issues to the public. The DAI token itself is a stablecoin. When people take out loans they have to pay service fees which benefit MakerDAO. 
 
 Most of the services provided by MakerDAO are built around DAI stablecoin.
 
@@ -79,7 +79,7 @@ Maker Protocol is what controls the circulating supply of DAI. The Maker Protoco
  
 DAI is trustless because anyone can verify that stablecoin is indeed backed by an amount of collateral to account for the circulating supply. That collateral can be used to buy out every single DAI out in circulation without the need to trust someone. Unlike DAI, most stablecoins are centralized and require a high level of trust from a person holding the coins.
 
-### MakerDAO Governance
+### Maker (MKR) Token
 
 Being a DAO the MakerDAO project is entirely governed by anyone in possession of an MKR token. The ownership of MKR token is directly proportional to the ownership and vote weight on any decisions in the MakerDAO. There are slightly over a million of MKR tokens in circulation.
 
@@ -104,98 +104,137 @@ At the moment, there are slightly over 1 million MKR tokens in circulation. MKR 
 
 Just like the DAI, the MKR token is an Ethereum based token and can be stored in pretty much any non-custodial crypto wallet like Unstoppable, https://unstoppable.money
 
-
-
-
-
-
-
-
-
-
-
 ## MakerDAO Services
 
-MakerDAO provides the following services to the general public.
-Oasis - Decentralized Cryptocurrency Exchange
-Ability to take a loan in DAI from Maker Protocol
-Ability to deposit / lend DAI to Maker Protocol and earn interest rate
+As briefly mentioned earlier the DAI cryptocurrency is the core product of MakerDAO. The public facing services provided by MakerDAO are one way or another built around DAI stablecoin. 
 
-Oasis Decentralized Marketplace
+The services are open to anyone globally. As more people use these services the MakerDAO grows and so is the value of MKR cryptocurrency.
 
-The Oasis is a service that provides access to a decentralized token exchange service on the Ethereum blockchain. The Oasis platform enables users to trade Ethereum and a number of other Ethereum based assets in a peer to peer manner, without the risk of being frauded. The  platform is free to use except for the actual blockchain fees originating from swapping tokens. 
+MakerDAO provides the following services:
 
-Oasis also provides means to access core MakerDAO services such as borrowing and lending DAI tokens. While the Oasis platform is accessible through a website https://oasis.app, the services it provides can be also accessed by communicating with the Ethereum blockchain directly.
+- Oasis cryptocurrency exchange
+- Ability to take a loan in DAI from Maker Protocol
+- Ability to lend DAI to Maker Protocol and earn interest rate
 
+### 1. Oasis Decentralized Marketplace
 
-The Oasis website is just one of the many ways to interact with the Maker Protocol. Those familiar with programming on Ethereum can access MakerDAO services by interacting with Maker Protocol smart contracts using various means and not use the website at all.
+The Oasis is platform where anyone can exchange Ethereum and Ethereum based crypto tokens (i.e. DAI, MKR etc). 
 
-To use the Oasis website users need one of the supported Ethereum wallets which will be used to deposit and withdraw funds to/from Oasis exchange. The easiest option is to install Chrome browser and use the Metamask browser plugin https://metamask.io. 
+The Oasis platform enables users to trade tokens(assets) in a peer-to-peer (decentralized) manner. 
 
-Metamask is an Ethereum wallet that works on top of the Chrome browser. Metamask wallet is non-custodial meaning that only the user has full control over the funds. 
+Being a decentralized platform, the service operates fully on Ethereum blockchain. The platform is open to all and free to use except for the actual Ethereum blockchain transaction fees. These fees do not go to Oasis but merely fee for using Ethereum blockchain when someone needs to swap one token for another.
 
-Here is a good guide on using Metamask, https://tokenmarket.net/what-is/how-to-install-and-setup-metamask/
+While the Oasis platform is accessible through a website https://oasis.app, the services it provides can be also accessed by communicating with the Ethereum blockchain directly.
 
+Oasis also provides means to access core MakerDAO services such as borrowing and lending DAI tokens. 
 
-Keep in mind when you interact with decentralized platforms like Oasis token exchange, MakerDAO services or instruments like Metamask there are no means to roll back anything should you make a mistake with funds somewhere like say sending transaction to a wrong address.
+> The Oasis website is just one of the many ways to interact with the Maker Protocol. Those familiar with programming on Ethereum can access MakerDAO services by interacting with Maker Protocol smart contracts using various means and not use the website at all.
 
+To use the Oasis website users need one of the supported Ethereum wallets which will be used to deposit and withdraw funds to/from Oasis exchange. 
 
-Borrowing DAI from Maker Protocol
+One option is to use Metamask browser plugin https://metamask.io that add non-custodial wallet capability to your browser. Or you may use other non-custodial wallet app on your phone like Unstoppable, https://unstoppable.money
+
+link: /fundamentals/4-safe-storage.md
+
+For those interested, here is a good starting guide for Metamask, https://tokenmarket.net/what-is/how-to-install-and-setup-metamask/
+
+Keep in mind when you interact with decentralized platforms like Oasis token exchange there are no means to roll back anything should you make a mistake with funds somewhere.
+
+### 2. Borrowing DAI
 
 One of the core services provided by MakerDAO is the ability to borrow DAI tokens from the Maker Protocol in exchange for locking Ether tokens as collateral.
 
-The steps are fairly straightforward, the user sends Ether as collateral to a smart contract known as Maker Vault. That smart contract locks in the received Ether and in exchange allows the user to generate a certain amount of DAI tokens, depending on the current market price of the Ether.
+Currently, the Maker Protocol accepts Ethereum and following Ethereum based tokens:
 
+- ETH : Ethereum cryptocurrency
+- BAT : Basic Attention Token
+- wBTC : Wrapped Bitcoin
+- USDC : USD pegged stablecoin from Coinbase
+
+The list of accepted tokens that can be used as collateral as well as individual requirements for each collateral type can change when the MakerDAO governance decides to do so.
+
+1. The borrowing steps are fairly straightforward, the user starts with sending Ethereum or other supported token as collateral to a smart contract known as Maker Vault. 
+
+2. Next, Maker Vault smart contract locks in the received Ether and in exchange allows the user to generate a certain amount of DAI tokens, depending on the current market price of the Ether.
 
 The Maker Vault is a core component of the Maker Protocol, which facilitates the generation of DAI against locked up collateral. All DAI in circulation are created by Maker Vaults and more importantly have underlying assets backing each DAI.
 
-
-Users interact with Maker Vaults and the Maker Protocol directly, and each user has complete and independent control over their deposited collateral as long the value of that collateral doesn’t fall below the required minimum level. 
+Users interact with Maker Vaults and the Maker Protocol directly. The user has complete and independent control over their deposited collateral as long the value of that collateral doesn’t fall below the required minimum level. 
 
 The mechanism by which Maker Vaults operate offer fairly flexible terms. There are no repayment schedules and no credit history requirements. Users can repay at their own pace as long as their Vault is properly collateralized. 
 
-Each user borrowing DAI generates a unique Maker Vault as a result of that action. That Vault is unique to the user usually varies from other Vaults in the ecosystem in the following ways:
+> Each user borrowing DAI generates a unique Maker Vault as a result of that action. That Vault is unique to the user usually varies from other Vaults in the ecosystem.
 
+The individual Maker Vaults created by users as a result of borrowing DAI are unique and may vary.
 
-Collateral Currency : The Maker Vaults currently accept Ether (Ethereum’s native token) or a BAT (Basic Attention Token) token. There may be other tokens in the future if MakerDAO votes on it.
+- Collateral Type
 
-Collateralization Ratio : Maker Vaults require a collateral 150% worth of the requested DAI amount. In other words, to borrow 100 DAI you will need to lock 150$ worth of Ether tokens as collateral. The collateralization ratio of 150% is a value set by MakerDAO and may change in the future. As the price of the Ether fluctuates the collateralization ratio for each vault changes along with it.
+    The type of collateral the Maker Vault holds. Depending on the collateral type the Maker Vault attributes may vary.
 
-Vault Health : When the price of Ether increases so is the collateralization ratio of each vault, allowing users to generate even more DAI from that vault without the need to add any more collateral. The reverse is true as well, if the price of Ether goes down significantly the vault can become under collateralized and be at risk of liquidating. The vault is considered healthy when it’s collateralization ratio is above 150%. It’s a responsibility of the user to continuously monitor the vault and ensure it remains healthy. When the collateralization ratio of the Vault nears 150$ the user may either deposit more collateral into it or return a portion of the borrowed DAI. Both of the options would increase the collateralization ratio of the Vault.
+- Collateralization Ratio
 
-Liquidation Price : Liquidation is the process that is automatically initiated by the Maker Protocol when the collateralization ratio of the vault falls below 150%. During the liquidation process the collateral that is locked in the vault is automatically auctioned on the market with an aim to buy on the market the amount of DAI the Vault has issued to the user. During the Liquidation process, enough collateral is sold to cover the debt along with a Liquidation Penalty (that is 13% of collateral). Whatever remains will be available for withdrawal to the user.
+    Maker Vaults require a collateral 150% worth of the requested DAI amount. In other words, to borrow 100 DAI you will need to lock 150$ worth of Ether tokens as collateral. The 150% is a requirement that may change at any time if the MakerDAO decides to do that.
+    
+    The ratio of 150% currently applies when user uses Ethereum as s collateral. For other tokens the value may be different.
+     
+    As the price of the collateral tokens fluctuates the collateralization ratio for each vault changes along with it, in real time. The 150% is a min requirement for the vault to remain operational.
 
-Stability Fee : To reclaim the collateral in the Vault, users must repay the borrowed amount of DAI and the accumulated stability fees. The Stability Fee is a fee paid by every Vault owner. At this point in time, it is an annual percentage yield (0.5%) that is calculated on top of the existing Vault debt. Stability Fees must be paid in DAI or MKR token. As will be explained below, Stability Fee is one of the mechanisms of MakerDAO to control the price of DAI and help it maintain the dollar peg. The stability fee amount can change as a result of voting by MKR token holders.
+- Vault Health 
 
-Lending DAI to Maker Protocol
+    When the price of Ether increases so is the collateralization ratio of each vault, allowing users to generate even more DAI from that vault without the need to add any more collateral. 
+    
+    The reverse is true as well, if the price of Ether goes down significantly the vault can become under collateralized and be at risk of liquidating. 
+    
+    The vault is considered healthy when it’s collateralization ratio is above 150%. It’s a responsibility of the user to continuously monitor the vault and ensure it remains healthy. 
+    
+    When the collateralization ratio of the Vault nears 150$ the user may either deposit more collateral into it or return a portion of the borrowed DAI. Both of the options would increase the collateralization ratio of the Vault.
+
+- Liquidation Price
+
+    Liquidation is the process that is automatically initiated by the Maker Protocol when the collateralization ratio of the vault falls below 150%. 
+    
+    During the liquidation process the collateral is automatically auctioned on the market with an aim to buy on the market the amount of DAI the Vault has issued to the user. 
+    
+    During the Liquidation process, enough collateral is sold to cover the debt along with a Liquidation Penalty (that is 13% of collateral). Whatever remains will be available for withdrawal to the user.
+
+- Stability Fee
+
+    To reclaim the collateral in the Vault, users must repay the borrowed amount of DAI, and the accumulated stability fees. 
+    
+    The Stability Fee is a fee paid by every Vault owner. At this point in time, it is an annual percentage yield (0.5%) that is calculated on top of the existing Vault debt. Stability Fees must be paid in DAI or MKR token. 
+    
+    As will be explained below, Stability Fee is one of the mechanisms of MakerDAO to control the price of DAI and help it maintain the 1-1 dollar peg. 
+    
+    Just like the other aspect of the Maker Protocol, the stability fee amount can change as a result of voting by MKR token holders.
+
+### 3. Lending DAI
+
 In November 2019 the MakerDAO project received a major upgrade. The upgrade introduced the capability for users to deposit their DAI holdings to Maker Protocol and earn an interest rate known as DAI Savings Rate (DSR). 
 
-The steps are really simple, the user sends DAI tokens to a smart contract which keeps the funds locked and tracks the accrued interest rate. Think of this service as a regular savings account that pays an interest on your savings. 
-There are no withdrawal limits, deposit limits, or liquidity constraints. The table below shows how the DSR rates have changed over time:
+The steps are simple, the user sends DAI tokens to a smart contract which keeps the funds locked and tracks the accrued interest rate. 
+
+Think of this service as a regular savings account that pays an interest on your savings. There are no withdrawal limits, deposit limits, or liquidity constraints. 
+
+The list below shows how the DSR rates have changed over time:
 
 
-DATE
-RATE
-November 18th 2019
-2.00 %
-December 6th 2019
-4.00 %
-January 8th 2020
-6.00 %
-January 26th 2020
-7.75 %
-February 4th 2020
-8.75 %
-February 9th 2020
-7.5 %
-February 20th 2020
-8.00 %
-March 15th 2020
-4.00 %
-March 17th 2020
-0 % *
+- Nov 2019 : 2.00 %
+- Dec 2019 : 4.00 %
+- Jan 2020 : 6.00 %  (Jan 8'th)
+- Jan 2020 : 7.75 %  (Jan 26'th)
+- Feb 2020 : 8.75 %  (Feb 4'th)
+- Feb 2020 : 7.50 %  (Feb 9'th)
+- Feb 2020 : 8.00 %  (Feb 20'th)
+- Mar 2020 : 4.00 %  (Mar 15'th)
+- Mar 2020 : 0.00 %  (Mar 17'th)
 
-* On March 17’th, MakerDAO dropped the DSR to 0% with an aim to bring the value of DAI closer to 1$.
+On March 17’th, MakerDAO dropped the DSR to 0% with an aim to bring the value of DAI closer to 1$.
+
+
+
+
+
+
 
 
 The Maker Protocol pays depositors an interest rate from the funds it accumulates from Stability Fees collected from Vaults. Since the Maker Protocol pays the DSR from funds earned through Stability Fee – the DSR can never exceed the Stability Fee. If the current Stability Fee is 0.5% then the DSR can not exceed that amount unless the MakerDAO votes on increasing the Stability Fee.
