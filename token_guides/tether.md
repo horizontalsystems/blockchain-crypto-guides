@@ -20,7 +20,9 @@ Tether tokens are primarily used by cryptocurrency traders to avoid volatility b
 
 For individuals, Tether also opens up ways for anyone to store assets in USD equivalent on exchanges or non-custodial wallets like Unstoppable without the need to have a bank account.
 
-For cryptocurrency exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow. Sending 20,000 USDT tokens from your wallet to your exchange account would take a few minutes in comparison to a few days when sent from a bank account.
+For cryptocurrency exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow. 
+
+Sending 20,000 USDT Tether tokens from your wallet to your exchange account would take a few minutes in comparison to a few days when sent from a bank account.
 
 Tether tokens in circulation exist as cryptocurrency tokens (primarily on Ethereum blockchain). As a result, Tether adopts some benefits of cryptocurrencies allowing parties to transact with each other pseudo anonymously, without any middlemen or intermediaries. 
 Any merchant accepting Tether tokens as payment may potentially do so without knowing the identity of the sender. The sender only needs a crypto wallet that supports sending and receiving of Tether tokens.
@@ -30,6 +32,8 @@ Tether tokens may be purchased directly from the [Tether’s website](https://te
 When someone wants to deposit fiat money to buy Tether tokens via Tether's website, there is a minimum deposit amount of 100,000 USD. The same minimum amount applies when redeeming Tether tokens into fiat currency.
 
 It goes without saying, in order to purchase Tether tokens from Tether's website or the cryptocurrency exchange the user will have to go through ID verification and KYC (Know Your Customer) checks.
+
+
 
 ![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/Tetherequaldollar.png)
 
@@ -53,11 +57,11 @@ Points above do not hold for Tether and users essentially have to place their tr
 
 The basic operating principle behind Tether and other centralized stablecoins is that there should be an equivalent amount of USD held in the deposit accounts belonging to the company issuing the stablecoin. 
 
-This deposit ensures that the Tether Limited can always act as a buyer of last resort to purchase all Tethers in circulation if for the market demand for Tether tokens goes to zero.
+This deposit ensures that the Tether Limited can always act as a buyer of last resort to purchase all Tethers in circulation should the market demand for Tether tokens go to zero.
 
-On 2020 alone, Tether Limited has printed several billions worth of USDT tokens nearly doubling the amount of tokens in circulation.
+> On 2020 alone, Tether Limited has printed several billions worth of USDT tokens nearly doubling the amount of tokens in circulation.
 
-The Tether Limited currently acts as a centralized custodian of the reserve assets. The company claims that all Tether tokens in circulation are 100% backed by cash and other liquid assets. There has been a lot of controversy around that and at this point there is no sure way to know that Tether Limited has the required amount of cash or other liquid reserves. 
+The Tether Limited currently acts as a centralized custodian of the reserve assets. The company claims that all Tether tokens in circulation are 100% backed by cash and other liquid assets. There has been a lot of controversy around tha. Aat this point there is no sure way to know that Tether Limited has the required amount of cash or other liquid reserves. 
 
 Trust aside, there are some other issues as well:
 
