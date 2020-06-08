@@ -4,19 +4,18 @@
 
 Tether (USDT) is a cryptocurrency stablecoin with a value meant to mirror the value of the US dollar. It is the biggest stablecoin in the cryptocurrency space essentially enables players in the crypto ecosystem to have easy exposure to USD.
 
-![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/TetherExchange.png)
-
 Tether can be found on most cryptocurrency exchanges and supported by moat crypto currency wallets. On most cryptocurrency exchanges it's trading in pairs with the highest daily volume. For instance, BTCUSDT pair on Binance cryptocurrency exchange alone exceeds a billion USD in daily trading volume. 
 
 The Market Capitalization of Tether has been consistently growing over the years and in May 2020 exceeded 8 billion USD. You can see the exact values [here](https://wallet.tether.to/transparency).
 
 While Tether tokens are issued on several blockchains with the largest amount being on Ethereum blockchain. There are over 5.5 billion Tether tokens issued via its Ethereum Smart Contract which can be explored on publicly accessible tools like [Etherscan.io](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7).
 
-![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/TetherVolatility.png)
 
 ## Tether Use Cases
 
 Tether tokens are primarily used by cryptocurrency traders to avoid volatility by converting crypto holdings to Tether and alike stablecoins. Given its highly liquid nature across a number of cryptocurrency exchanges there is an element of convenience to this.
+
+![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/TetherExchange.png)
 
 For individuals, Tether also opens up ways for anyone to store assets in USD equivalent on exchanges or non-custodial wallets like Unstoppable without the need to have a bank account.
 
@@ -34,12 +33,11 @@ When someone wants to deposit fiat money to buy Tether tokens via Tether's websi
 It goes without saying, in order to purchase Tether tokens from Tether's website or the cryptocurrency exchange the user will have to go through ID verification and KYC (Know Your Customer) checks.
 
 
-
-![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/Tetherequaldollar.png)
-
 ## How Reliable Is Tether
 
 In essence, Tether (USDT) is what is known as a centralized stablecoin, which unlike decentralized stablecoins such as DAI is neither fully transparent nor trustless (requires high level of trust). This distinction represents the core element when it comes to the risk assessment and reliability of Tether tokens.
+
+![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/Tetherequaldollar.png)
 
 The term ‘trustless’ is usually associated with crypto currency coins where the pre-programmed unchangeable rules guarantee that things work as expected without the need of trusting any entity. In that regard, good examples of trustless coins are Bitcoin, Ethereum, DAI, Bitcoin Cash etc.
 
