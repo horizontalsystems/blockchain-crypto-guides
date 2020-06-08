@@ -15,19 +15,11 @@ While Tether tokens are issued on several blockchains with the largest amount be
 
 Tether tokens are primarily used by cryptocurrency traders to avoid volatility by converting crypto holdings to Tether and alike stablecoins. Given its highly liquid nature across a number of cryptocurrency exchanges there is an element of convenience to this.
 
-<<<<<<< HEAD
-- For individuals
-    
-    Tether also opens up ways for anyone to store assets in USD equivalent on exchanges or non-custodial wallets like Unstoppable without the need to have a bank account.
-=======
 ![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/TetherExchange.png)
 
 For individuals, Tether also opens up ways for anyone to store assets in USD equivalent on exchanges or non-custodial wallets like Unstoppable without the need to have a bank account.
->>>>>>> fb2de107c3ac4424d9fdc0dd32a097e1725411aa
 
-- For cryptocurrency exchanges
-
-    Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow. 
+- For cryptocurrency exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow. 
 
 > Sending 20,000 USDT Tether tokens from your wallet to your exchange account would take a few minutes in comparison to a few days when sent from a bank account.
 
