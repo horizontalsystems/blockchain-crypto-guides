@@ -18,3 +18,5 @@ Time to Begin Your Ethereum Journey
 You've reached the beginning of your Ethereum journey. The knowledge you've amassed in this short Ethereum guide will hold you in good stead for your first steps into the world of Ethereum, and other cryptocurrencies, too. 
 As one final note, please understand that this isn't a comprehensive guide. Ethereum is a vast subject, and cryptocurrency and blockchain even more. However, you can use the information in this guide as your stepping stone onto bigger and greater things in the burgeoning world of cryptocurrency.
 Thank you for reading. 
+
+https://medium.com/mycrypto/the-journey-from-mnemonic-phrase-to-address-6c5e86e11e14
