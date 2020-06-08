@@ -19,7 +19,7 @@ Tether tokens are primarily used by cryptocurrency traders to avoid volatility b
 
 For individuals, Tether also opens up ways for anyone to store assets in USD equivalent on exchanges or non-custodial wallets like Unstoppable without the need to have a bank account.
 
-- For cryptocurrency exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow. 
+For cryptocurrency exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow. 
 
 > Sending 20,000 USDT Tether tokens from your wallet to your exchange account would take a few minutes in comparison to a few days when sent from a bank account.
 
@@ -34,8 +34,6 @@ In the same manner, users may redeem Tether tokens into fiat currency by selling
 When someone wants to deposit fiat money to buy Tether tokens via Tether's website, there is a minimum deposit amount of 100,000 USD. The same minimum amount applies when redeeming Tether tokens into fiat currency.
 
 It goes without saying, in order to purchase a significant amount of Tether tokens from the cryptocurrency exchange the user will have to go through ID verification and KYC (Know Your Customer) checks.
-
-![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/Tetherequaldollar.png)
 
 ## How Reliable Is Tether
 
