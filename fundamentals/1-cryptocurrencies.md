@@ -31,9 +31,7 @@ So, what is a blockchain? While so many definitions make it sound complicated it
 >
 > It can be a history of transactions, a history of votes submitted by electorates etc. 
 
-While the actual history of records is not that special in itself, when it's put on a blockchain it gains certain attributes that make it socially valuable.
-
-These attributes are:
+While the actual history of records is not that special in itself, when it's put on a blockchain it gains certain attributes that make it socially valuable. These attributes are:
 
 * Distributed Nature
 
@@ -59,7 +57,7 @@ So, blockchains are a lot more than just plain history of records. The technolog
 
 ## Cryptocurrencies Explained
 
-Now that you're familiar with the concept of blockchains lets try to understand the basic nature of cryptocurrency.
+Now when you're familiar with the concept of blockchains lets try to understand the basic nature of cryptocurrency.
 
 Cryptocurrencies are units of something on the blockchain. Depending on the characteristics of underlying blockchain one cryptocurrency may vary from another.
 
@@ -91,13 +89,15 @@ A simple way to think about the size of the network is looking at the number of 
 
 A good example to illustrate this is the Bitcoin blockchain. 
 
-The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a small group of people managed to attract millions over the years. 
+The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a small group of people managed to attract millions of people over the years. 
 
 Nowadays, thousands of people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of records. Every single one of them. 
 
-This status quo makes Bitcoin both global and censorship-resistant platform that is open to all. The fact that Bitcoin and alike platforms are open and censorship-resistant means that any individual can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. 
+This status quo makes Bitcoin both global and censorship-resistant platform that is open to all. 
 
-For example, any entity can build a wallet or some other service for Bitcoin or other blockchains without the need for a permission from a third party. 
+The fact that Bitcoin and alike platforms are open and censorship-resistant means that any individual can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. 
+
+For example, any entity can build a wallet or some other service for Bitcoin blockchain without the need for a permission from a third party.
 
 > The bigger the blockchain platform is the more attractive it's for the service providers. 
 
@@ -105,4 +105,4 @@ So, along with the above mentioned blockchain attributes the key element to valu
 
 The most valuable cryptocurrency is generally the one with the biggest network and not necessarily the one with most features. 
 
-The bigger the blockchain network is, the more attractive it as the platform for potential services.
+The bigger the blockchain network is, the more attractive it as the platform of choice for potential services.
