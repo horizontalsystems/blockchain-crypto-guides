@@ -10,7 +10,9 @@ For instance, [BTCUSDT](https://www.binance.com/en/trade/BTC_USDT) pair on Binan
 
 The Market Capitalization of Tether has been consistently growing over the years and in May 2020 exceeded 8 billion USD. You can see the exact values [here](https://coinmarketcap.com/currencies/tether/).
 
-While Tether tokens are issued on several blockchains, the largest amount are exists on Ethereum blockchain. There are over 5.5 billion Tether tokens issued via its Ethereum Smart Contract which can be explored on publicly accessible tools like [Etherscan.io](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7).
+While Tether tokens are issued on several blockchains, the largest amount are exists on Ethereum blockchain. There are over 5.5 billion Tether tokens issued via its Ethereum Smart Contract which can be explored using publicly accessible tools like [Etherscan.io](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7).
+
+Through the Etherscan link anyone can track the amount of Tether tokens that exists on Ethereum blockchain.
 
 ## Tether Use Cases
 
@@ -28,9 +30,7 @@ Tether tokens in circulation exist as cryptocurrency tokens (primarily on Ethere
 
 Any individual accepting Tether tokens as payment may potentially do so without knowing the identity of the sender. The sender only needs a crypto wallet that supports sending and receiving of Tether tokens.
 
-Tether tokens may be purchased directly from the [Tether’s website](https://tether.to) or on cryptocurrency exchanges using fiat or other crypto like Bitcoin. 
-
-In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website. 
+Tether tokens may be purchased directly from the [Tether’s website](https://tether.to) or on cryptocurrency exchanges using fiat money or other crypto like Bitcoin. In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website. 
 
 When someone wants to deposit fiat money to buy Tether tokens via Tether's website, there is a minimum deposit amount of 100,000 USD. The same minimum amount applies when redeeming Tether tokens into fiat currency.
 
@@ -44,11 +44,11 @@ This distinction represents the core element when it comes to the risk assessmen
 
 ![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/Tetherequaldollar.png)
 
-The term ‘trustless’ is usually associated with crypto currency coins where the pre-programmed unchangeable rules guarantee that things work as expected without the need of trusting any entity. In that regard, good examples of trustless coins are Bitcoin, Ethereum, DAI, Bitcoin Cash etc.
+The term ‘trustless’ is usually associated with crypto currency coins where the pre-programmed unchangeable rules guarantee that things work as expected without the need of trusting any entity. In that regard, good examples of trustless coins are Bitcoin, Ethereum, DAI, etc.
 
 ### DAI vs Tether
 
-For instance, unlike Tether, the DAI stablecoin is decentralized and trustless. When holding DAI tokens, users place trust on a pre-programmed code which by its very nature can't do anything beyond what it was programmed to do. The code is what ensures that DAI tokens in circulation are fully covered by real collateral.
+Both DAI and Tether are stablecoins. However, unlike Tether, the DAI stablecoin is decentralized and trustless. When holding DAI tokens, users place trust on a pre-programmed code which by its very nature can't do anything beyond what it was programmed to do. The code is what ensures that DAI tokens in circulation are fully covered by real collateral.
 
 [//]: # (link DAI guide)
 
@@ -56,17 +56,19 @@ Decentralized stablecoins like DAI are controlled by the pre-programmed protocol
 
 - no entity can block someone from using DAI
 - no entity can freeze someone's DAI balance
-- no entity part from the smart contract can access the collateral funds
+- no entity can misuse the collateral funds backing DAI
 
 Points above do not hold for Tether and users essentially have to place their trust in the company and people running the Tether Limited.
 
-The basic operating principle behind Tether and other centralized stablecoins is that there should be an equivalent amount of USD held in the deposit accounts belonging to the company issuing the stablecoin. 
+The basic operating principle behind  centralized stablecoins like Tether is that there should be an equivalent amount of USD held by the company issuing the stablecoin. 
 
 This deposit ensures that the Tether Limited can always act as a buyer of last resort to purchase all Tethers in circulation should the market demand for Tether tokens go to zero.
 
-The Tether Limited currently acts as a centralized custodian of the reserve assets. The company claims that all Tether tokens in circulation are 100% backed by cash and other liquid assets. There has been a lot of controversy around thaT. 
-
 > On 2020 alone, Tether Limited has printed several billions worth of USDT tokens nearly doubling the amount of tokens in circulation.
+>
+> If those newly minted Tether tokens are not properly collateralized then there is a significant risk for Tether holders.
+
+The Tether Limited currently acts as a centralized custodian of the reserve assets. The company claims that all Tether tokens in circulation are 100% backed by cash and other liquid assets. There has been a lot of controversy around that. 
 
 At this point there is no sure way to know that Tether Limited has the required amount of cash or other liquid reserves.
 
