@@ -20,7 +20,7 @@ That said, most of the high net worth projects serving the public in the DeFI ec
 
 If you would like to learn more about Ethereum and existing DeFi projects built on top of it, read our Ethereum guide.
 
-[//]: # (link Ethereum guide)
+[//]: # (link Ethereum)
 
 ## MakerDAO Overview
 
