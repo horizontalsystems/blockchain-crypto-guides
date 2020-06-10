@@ -1,3 +1,5 @@
+![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-Main-l.png)
+
 # MakerDAO & DAI in Simple Terms
 
 Let’s start with a brief introduction to Decentralized Finance or DeFi as everyone calls it these days.
@@ -25,6 +27,8 @@ If you would like to learn more about Ethereum and existing DeFi projects built 
 ## MakerDAO Overview
 
 MakerDAO is one of the very first DeFi projects built on top of Ethereum blockchain. 
+
+![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-Map-l.png)
 
 The project currently controls worth over half a billion USD, all in an automated manner by a predefined set of rules (aka Smart Contracts) known as Maker Protocol.
 
@@ -86,6 +90,8 @@ Unlike DAI, most stablecoins are centralized and require a high level of trust f
 ### MakerDAO Governance
 
 Being a DAO the MakerDAO project is entirely governed by anyone in possession of an MKR token. The ownership of MKR token is directly proportional to the ownership and vote weight on any decisions in the MakerDAO. 
+
+![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-holders-l.png)
 
 Ongoing governance of the MakerDAO works through formal proposals which can be voted on and approved by MKR token holders.
 
@@ -155,6 +161,8 @@ MakerDAO provides the following services:
 ### 1. Oasis Exchange
 
 The Oasis is peer-to-peer (decentralized) platform where anyone can exchange Ethereum and Ethereum based tokens (i.e. DAI, MKR etc). 
+
+![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-Oasisex-l.png)
 
 Being a decentralized platform, the service operates fully on Ethereum blockchain. The platform is open to all and free to use except for the actual Ethereum blockchain transaction fees. These fees do not go to Oasis but merely fee for using Ethereum blockchain when someone needs to swap one token for another.
 
@@ -281,6 +289,8 @@ Both Stability Fee and DAI Savings Rate, provide MakerDAO with the practical mea
 ### DAI Price 
 
 Let’s see how MakerDAO can keep the price of DAI token at $1 via supply and demand controlling mechanisms at its disposal.
+
+![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-Stable-l.png)
 
 To increase the price of DAI:
 
