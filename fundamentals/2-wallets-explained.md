@@ -6,9 +6,9 @@ It's vital for someone to understand what these capabilities are, and the respon
 
 When dealing with traditional financial instruments such us funds in the bank accounts (or stocks with the broker) there is a notion of someone keeping assets on behalf of the user. While it may seem the idea of full control over the assets is there in reality it's not. The ownership is conditional. The bank can go bankrupt as a result of bank run, or freeze customers' funds, etc. 
 
-When dealing with cryptocurrencies the owner of the funds is the entity that controls those funds. This is one of the core principles behind classical cryptocurrencies like Bitcoin.
+When dealing with cryptocurrencies the owner of the funds is the entity that controls those funds.
 
-For someone looking to safely store and subsequently accumulate crypto assets it's important to know how the ownership works and what it actually means to own cryptocurrency.
+For someone looking to safely store and subsequently accumulate crypto assets it's important to know how the aspect of ownership works.
 
 A lot of people enter the space and start accumulating cryptocurrencies without understanding these fundamentals. This exposes them to risks that cryptocurrencies were supposed to protect them from.
 
@@ -20,13 +20,13 @@ For instance, Bitcoin is the native currency of the Bitcoin blockchain, the Ethe
 
 These blockchains are separate entities and not really related although might be quite similar in many technological aspects.
 
-The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet or even bank account. 
+The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet. 
 
 > The ownership in cryptocurrency means the ownership of special cryptographic key which has a power to spend a certain amount of crypto. 
 
 So, when someone says s/he has 5 Bitcoins what this essentially means is that this person is in the possession of the cryptographic key that can spend 5 Bitcoins.
 
-When a person sends 1 Bitcoin to another person, the sender uses his/her cryptographic key to sign off 1 Bitcoin from the available balance and pass the ownership of that 1 Bitcoin to the recipient. After the transaction has taken place (i.e. was added to history of records), that 1 Bitcoin can only be spent by the cryptographic key belonging to the recipient.
+When a person sends 1 Bitcoin to another person, the sender uses his/her cryptographic key to sign off 1 Bitcoin from the available balance and pass the ownership of that 1 Bitcoin to the recipient. After the transaction has taken place, that 1 Bitcoin can only be spent by the cryptographic key belonging to the recipient.
 
 So, the takeaway point here is that the ownership of certain amount of crypto basically means the ownership of special cryptographic key.
 
@@ -42,7 +42,7 @@ In practical terms, the private key can be thought of as a secure alternative to
 
 ## Cryptocurrency Wallets
 
-Cryptocurrency wallets are merely the instruments meant to hold and manage cryptographic keye. 
+Cryptocurrency wallets are merely the instruments meant to hold and manage cryptographic keys. 
 
 > The wallets do not physically store cryptocurrencies, instead wallets store cryptographic keys which can exercise over certain amount of cryptocurrencies.
 
@@ -78,13 +78,13 @@ Such wallets are the least secure wallets. The users' funds are fully in the han
 
 > A wallet provider may easily block a user from accessing the wallet or even freeze the funds. 
 > 
-> Unlike banks which also act as a middleman wallet providers are not financial institutions and thus not as regulated. There is a lot of risk for users holding large amounts.
+> Unlike banks which also act as a middleman wallet providers are not financial institutions and thus not as regulated. There is a lot of risk for users holding large amount of cryptocurrency on those wallets.
 
 Furthermore, custodial wallets are not natively private as the provider knows full transaction history of the user.
 
 Most cryptocurrency exchanges provide users with custodial wallets. So, it's not advised to use those for keeping your crypto holdings for extended periods.
 
-> If you leave funds on exchange, or any type of custodial wallet, the funds are vulnerable to hacking or other types of data breaches involving the cryptocurrency exchange. This happened a lot in the past and likely to keep happening in the future. 
+> If you leave crypto funds on cryptocurrency exchange, or any type of custodial wallet, the funds are vulnerable to hacking or other types of data breaches. This happened a lot in the past and likely to keep happening in the future. 
 
 There is also the question of censorship. When your funds remain on the exchange, the exchange could feasibly freeze funds, restrict your usage, or even block you from your account without warning.
 
@@ -96,6 +96,6 @@ Hybrid wallets are rarer than a custodial or non-custodial wallet and offer a di
 
 The hybrid wallet system protects against hacking infrastructure on the side of wallet provider but opens the door for wallet provider to censor users in certain scenarios.
 
-> To sum up, always look for non-custodial wallets. 
+> To sum up, always use a non-custodial wallet. 
 
 When using non-custodial wallet you can be sure the funds are indeed under your control and not dependent on any third party.
