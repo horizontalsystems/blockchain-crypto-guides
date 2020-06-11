@@ -1,4 +1,4 @@
-![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/TetherMain.png)
+![landscape](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/usdt-Main-l.png)
 
 # Tether in Simple Terms
 
@@ -18,7 +18,7 @@ Through the Etherscan link anyone can track the amount of Tether tokens that exi
 
 Tether tokens are primarily used by cryptocurrency traders to avoid volatility by converting crypto holdings to Tether and alike stablecoins. Given its highly liquid nature across a number of cryptocurrency exchanges there is an element of convenience to this.
 
-![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/TetherExchange.png)
+![landscape](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/usdt-Exchange-l.png)
 
 For individuals, Tether also opens up ways for anyone to store assets in USD equivalent on exchanges or (non-custodial wallet like Unstoppable) without the need to have a bank account.
 
@@ -42,7 +42,7 @@ In essence, Tether (USDT) is what is known as a centralized stablecoin, which un
 
 This distinction represents the core element when it comes to the risk assessment and reliability of holding Tether tokens.
 
-![landscape](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/Tetherequaldollar.png)
+![landscape](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/usdt-equaldollar-l.png)
 
 The term ‘trustless’ is usually associated with crypto currency coins where the pre-programmed unchangeable rules guarantee that things work as expected without the need of trusting any entity. In that regard, good examples of trustless coins are Bitcoin, Ethereum, DAI, etc.
 

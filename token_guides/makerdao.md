@@ -1,4 +1,4 @@
-![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-Main-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Main-l.png)
 
 # MakerDAO & DAI in Simple Terms
 
@@ -28,7 +28,7 @@ If you would like to learn more about Ethereum and existing DeFi projects built 
 
 MakerDAO is one of the very first DeFi projects built on top of Ethereum blockchain. 
 
-![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-Map-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Map-l.png)
 
 The project currently controls worth over half a billion USD, all in an automated manner by a predefined set of rules (aka Smart Contracts) known as Maker Protocol.
 
@@ -91,7 +91,7 @@ Unlike DAI, most stablecoins are centralized and require a high level of trust f
 
 Being a DAO the MakerDAO project is entirely governed by anyone in possession of an MKR token. The ownership of MKR token is directly proportional to the ownership and vote weight on any decisions in the MakerDAO. 
 
-![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-holders-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-holders-l.png)
 
 Ongoing governance of the MakerDAO works through formal proposals which can be voted on and approved by MKR token holders.
 
@@ -162,7 +162,7 @@ MakerDAO provides the following services:
 
 The Oasis is peer-to-peer (decentralized) platform where anyone can exchange Ethereum and Ethereum based tokens (i.e. DAI, MKR etc). 
 
-![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-Oasisex-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Oasisex-l.png)
 
 Being a decentralized platform, the service operates fully on Ethereum blockchain. The platform is open to all and free to use except for the actual Ethereum blockchain transaction fees. These fees do not go to Oasis but merely fee for using Ethereum blockchain when someone needs to swap one token for another.
 
@@ -276,7 +276,7 @@ On March 17’th, MakerDAO dropped the DSR to 0% with an aim to bring the value 
 Just like the Stability Fee rate, the Dai Savings Rate (DSR) amount is decided by MakerDAO vote. 
 
 
-## DAI vs MKR
+## DAI Stability
 
 MakerDAO has been able to consistently sustain the price of its DAI token in the close range of 1$ over the last couple of years.
 
@@ -290,7 +290,7 @@ Both Stability Fee and DAI Savings Rate, provide MakerDAO with the practical mea
 
 Let’s see how MakerDAO can keep the price of DAI token at $1 via supply and demand controlling mechanisms at its disposal.
 
-![](https://github.com/horizontalsystems/blockchain-crypto-guides/blob/master/token_guides/images/mkr-Stable-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Stable-l.png)
 
 To increase the price of DAI:
 
@@ -340,7 +340,7 @@ Long story short, about 4.5 million worth of DAI that should have been destroyed
 
 To account for that, MakerDAO initiated a so called Debt Auction where [new MKR tokens were printed](https://www.theblockcrypto.com/post/58606/in-a-first-makerdao-protocol-to-auction-mkr-tokens-to-cover-4m-bad-debt) and sold for DAI to the bidders and then destroyed by the Maker Protocol.
 
-### The Maker (MKR) Value
+### The Maker (MKR) 
 
 As was shown earlier, the MKR token holders govern the MakerDAO and the Maker Protocol via voting. 
 
