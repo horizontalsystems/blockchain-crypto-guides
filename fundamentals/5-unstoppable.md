@@ -1,32 +1,32 @@
 # Getting A Wallet
 
-By now it should be clear that non-custodial cryptocurrency wallets come in various types. 
+By now you understand that non-custodial cryptocurrency wallets come in various types. 
 
 Next step is to go through 'things to know' when using the wallet app.
 
 While all non-custodial wallets built around the core principle of exclusive control over funds, on the surface the wallets may vary substantially.
 
-The wallet built for an active investor may differ substantially from a wallet built for someone with extensive privacy requirements. 
+The wallet built for an active investor may differ substantially from a wallet built for someone with long term accumulation and extensive privacy requirements. 
 
-From user's perspective, the basic expectation from any given wallet is the ability to independently store, send and receive the cryptocurrencies the wallet supports.
+From user's perspective, along with the ability to independently store and transact with cryptocurrencies, the basic expectations from any wallet should be:
 
-- A wallet should generate private keys in standard-compliant manner. That ensure that a wallet user is not tied to use a specific wallet to be able to access and manage your cryptocurrency.
+- wallet app should generate private keys in a standard-compliant manner. As a result, the user not restricted to a specific wallet to access owned cryptocurrency.
 
-- A wallet supporting multiple cryptocurrencies should correctly manage the "receive" address for each cryptocurrency. For example, the wallet user's address for receiving payments in Bitcoin varies from the address for Ethereum.
+- wallet supporting multiple cryptocurrencies should correctly manage the incoming payment addresses for each cryptocurrency. For example, the user's address for receiving payments in Bitcoin varies from the address for receiving Ethereum.
 
-- A wallet app is expected to check whether the payment is being sent to a 'valid' address. In other words, if the user mistakenly tries to send a Bitcoin payment to some Ethereum address the wallet app should be able to alert the user accordingly. The funds sent to an incorrect address are not recoverable.
+- It's generally expected from a wallet to check whether the destination payment address is a valid address for that specific currency. In other words, if the user mistakenly tries to send Bitcoins to some Ethereum address the wallet app should prevent that.
 
 ## Unstoppable Intro
 
-These guides were written for someone looking to invest in cryptocurrencies on an ongoing basis. So, moving forward we are going to focus on those planning to invest and grow cryptocurrency portfolio.
+These guides are for someone looking to invest in cryptocurrencies on an ongoing basis. Thus, moving forward we are going to focus on the needs of those users.
 
 We are going to use Unstoppable non-custodial wallet to illustrate things you should know when interacting with wallets.
 
 > Disclaimer:
 >
-> The [Unstoppable Wallet](https://unstoppable.money) was specifically build with the active investor in mind. 
+> The [Unstoppable Wallet](https://unstoppable.money) was specifically build for the active investor in crypto ecosystem.
 > 
-> This wallet is being built by [Horizontal Systems](https://horizontalsystems.io), the company behind these guides.
+> This wallet is build by [Horizontal Systems](https://horizontalsystems.io), the company behind these guides.
 
 Below are key features the investor-type users should expect from their wallet app.
 
@@ -59,29 +59,29 @@ It's a matter of convenience interacting with one app rather than switching betw
 
 ### 4. Historical Prices
 
-The wallet should display current and historical market exchange rates for each supported cryptocurrency. 
+It's important the wallet displays current as well as historical market exchange rates for each supported cryptocurrency. 
 
 ![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/price-charts.jpg 'Unstoppable Wallet - Send screen')
 
-The current rates are necessary for the wallet to calculate and display your asset balance in currency you're used to (like USD) but also for sending payments in cryptocurrency by entering the amount in fiat currency.
+The current rates are necessary for the wallet to calculate and display your asset balance in currency you're used to (like USD). Also for sending payments in cryptocurrency by entering the amount in fiat currency.
 
 ![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/send-screen.jpg 'Unstoppable Wallet - Send screen')
 
-Sending someone 100$ worth of Bitcoin is not easy if you don't know the current Bitcoin price.
+Sending someone 100$ worth of Bitcoin is not easy when you try to do the math in your head).
 
-### 5. Cryptocurrency Info
+### 5. Coin Overviews
 
 Each cryptocurrency is essentially a project with its own set of specifics. 
 
-While there are a lot of different cryptocurrencies out there the amount of well researched information describing these projects is limited. Due to the young nature of the industry most projects are fairly obscure even for the experienced newcomers.
+While there are a lot of different cryptocurrencies there is lack of well-researched information describing these projects in accessible manner. Due to the young nature of the industry most projects are fairly obscure even for the experienced newcomers with a technical background.
 
-Understanding problems each cryptocurrency project aims to solve on a practical level is key.
+An investor-friendly wallet app should provide detailed information about the project.
 
-An investor-friendly wallet app should provide detailed information about the project. the user should be able to understand what the project is about, where it's currently at, what kind of compeeting products are out there and so on.
+//
 
-It's critical for anyone looking to invest in cryptocurrencies over the long term to be able to identify the good, the bad and the ugly.
+What each project is about, problems its trying to address, where currently at and how far has it progressed.
 
-
+There is a strong need for the educational content on pretty much every aspect of the cryptocurrenceies and blockchain ecosystem. 
 
 ### 6. Movement Alerts 
 
