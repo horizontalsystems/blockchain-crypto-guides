@@ -1,4 +1,4 @@
-# Non-Custodial Wallets
+# Safe Storage
 
 Now when you understand the basic mechanics of private keys we are going to look at different types of non-custodial wallets.
 

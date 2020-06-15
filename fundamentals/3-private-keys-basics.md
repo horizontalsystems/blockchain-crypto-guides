@@ -1,4 +1,4 @@
-# Private Keys Explained
+# Private Keys
 
 So, by now you know the basics behind blockchains, cryptocurrencies and wallets. 
 

@@ -1,4 +1,4 @@
-# Getting Crypto
+# Buying Cryptocurrency
 
 By now you are expected to have a basic understanding of security when it comes to dealing with cryptocurrencies and wallets.
 

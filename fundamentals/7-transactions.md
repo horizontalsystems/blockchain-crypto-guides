@@ -1,4 +1,9 @@
+# Transactions
+
+
 Send & Receive Ethereum Tokens
+
+
 Now that you've bought your first Ethereum tokens, have a secure non-custodial wallet, and understand the importance of securing your private keys, you can begin sending and receiving cryptocurrency payments. 
 
 How to Receive Ethereum

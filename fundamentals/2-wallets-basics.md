@@ -1,4 +1,4 @@
-# Wallets Explained
+# Wallets
 
 By its very nature cryptocurrency gives the owner capabilities that are not available with traditional financial instruments. 
 
