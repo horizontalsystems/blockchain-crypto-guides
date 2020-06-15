@@ -1,12 +1,8 @@
 # Buying Cryptocurrency
 
-By now you are expected to have a basic understanding of security when it comes to dealing with cryptocurrencies and wallets.
+By now you are expected to have a solid understanding of basics when it comes to dealing with cryptocurrencies and wallets.
 
 In this section let's explore various ways of acquiring crypto.
-
-At this point we are still learning essentials and therefore we'll not cover all possible ways to obtain cryptocurrencies but the more obvious ones.
-
-Options to buy crypto:
 
 - buying with credit card
 - buying on centralized exchange
@@ -14,7 +10,7 @@ Options to buy crypto:
 - buying with cash
 - buying on decentralized exchange
 
-## 1. Buy Crypto With Credit Card
+## 1. Buying Crypto With Credit Card
 
 The easiest option for buying smaller amounts is using a credit or debit card. 
 
@@ -22,13 +18,12 @@ While the option to buy cryptocurrency is convenient, you often pay a slight pre
 
 The following list contains recommendations of safe websites and services to purchase cryptocurrency using a credit or debit card. 
 
-// add binance and coinbase links
-1. binance.com
+1. [Binance.com](https://www.binance.com/en/register?ref=42579924)
 2. [Cex.io](https://cex.io/r/2/up131140473/2)
 3. [Changelly.com](https://changelly.com/?ref_id=gj6utb868eyusrf7)
-4. coinbase.com
+4. [Coinbase.com]()
 5. [Coinmama.com](https://go.coinmama.com/visit/?bta=61248&nci=5370)
-6. bitpanda.com
+6. [Bitpanda.com]()
 
 The majority of these websites will work without fail for EU and US residents. However, those living in other areas of the world may find fewer opportunities.
 
@@ -60,11 +55,11 @@ For example, if you sign-up and verify your email address on an exchange, you ca
 
 While this is a fictional example, many exchanges use a similar tiered approach to user verification. Here is a list of trusted cryptocurrency exchanges where you can purchase Ethereum.
 
-* https://www.binance.com/en
-* https://www.coinbase.com
+* [Binance.com](https://www.binance.com/en/register?ref=42579924)
+* [Coinbase.com]()
 * [Cex.io](https://cex.io/r/0/up131140473/0)
-* https://www.kraken.com
-* https://global.bittrex.com
+* [Kraken.com]()
+* [Bittrex.com]()
 * [Coinmama.com](https://go.coinmama.com/visit/?bta=61248&nci=5343)
 
 ## 3. Getting Paid In Crypto
@@ -75,23 +70,34 @@ If you provide some kind of services online look for the ways to accept payments
 
 There are also free DIY solutions if you familiar with programming.
 
+Should you need a thorough overview of the options available check out [this video](https://www.youtube.com/watch?v=OA08wZNvN8c) on Youtube.
+
 You can always just use a non-custodial cryptocurrency wallet to receive payments directly.
 
 ## 4. Buying via P2P Platform
 
-If you know someone who would be willing to sell you some crypto then buying it with cash is not a bad idea. Infact most people make get their first cryptocurrency from someone they know.
+If you know someone who would be willing to sell you some crypto then buying it with cash is not a bad idea. In fact most people make get their first cryptocurrency from someone they know.
 
 For that you only need a non-custodial wallet. Send your 'receive' payment address to the person and wait for the cryptocurrency to arrive.
 
-There are also P2P platforms like [LocalBitcoins.com](https://localbitcoins.com) that connect buyers and sellers from different regions. Such platforms might be useful in regions where access to a regulated exchange is not an option. While a lot of people seem t be using those platforms note that there is a lot of risks. 
+There are also P2P platforms like [LocalBitcoins.com](https://localbitcoins.com) and [Bisq](https://bisq.network) which connect buyers and sellers from different regions allowing them to exchange assets via various options. 
 
-It's hard to know whether the selling party is a legit one and not a scammer trying to rob you.
+Such platforms might be useful in regions where access to a regulated exchange is not an option. While a lot of people seem to be using those platforms there is a lot of risks. 
+
+It's hard to know whether the selling party is a legit one and not a scammer trying to rob you. Thus, be careful and proceed with care before transacting with large sums.
 
 ## 5. Buying on Decentralized Exchange
 
-Decentralized exchanges are fairly new phenomena. Just like the cryptocurrency itself, decentralized exchanges utilize the blockchain technology to provide a platform for crypto exchange. 
+Decentralized Exchange (aka DEX) is a fairly new phenomena. Just like the cryptocurrency itself, decentralized exchanges utilize the blockchain technology to provide a platform for cryptocurrency exchange. 
 
-Generally, a decentralized exchange is the most secure and private way to purchase cryptocurrency. Decentralized exchanges connect buyers and sellers in manner where they trade in a peer to peer manner according to a pre-programmed protocol. There is no room to cheat for any party.
+Generally, a decentralized exchange is the most secure and private way to purchase cryptocurrency. At the moment, most such exchanges work only for exchanging Ethereum and Ethereum based tokens.
+
+Decentralized exchanges connect buyers and sellers in manner where they trade in a peer to peer manner according to a pre-programmed protocol. There is no room to cheat for any party.
+
+Decentralized Exchanges:
+
+- [https://kyberswap.com](https://kyberswap.com)
+- [https://uniswap.exchange](https://uniswap.exchange/swap)
 
 Here are some things you should know when dealing with decentralized exchange:
 
@@ -101,19 +107,13 @@ Here are some things you should know when dealing with decentralized exchange:
 
 Expect to encounter following issues on most decentralized exchanges:
 
-- low liquidity
-- few assets
-- complex to use
-- no fiat
-
-
-
- 
+- few crypto assets supported
+- no ways to deposit fiat currency
+- low trading liquidity 
+- technical and complex to use
 
 For the most part such exchanges operate in a peer to peer manner where buyer and seller are connected to complete the purchase. 
 
-Such exchanges do not require verification of any kind. There are no limitations in the amount that can be sold or purchased.
+Such exchanges do not require verification of any kind. There are no limitations in the amount that can be sold or purchased. Generally no data collected about the user.
 
 At this point in time it's fairly difficult for a beginner level user to participate in those. So, we are going to be looking at them in detail later on.
-
-// list some dexes
