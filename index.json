@@ -1,0 +1,96 @@
+[
+  {
+    "title": "Basics",
+    "guides": [
+      {
+        "title": "Cryptocurrency Basics",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/1-cryptocurrencies.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Wallets Explained",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/2-wallets-explained.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Private Keys Explained",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/3-private-keys.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Non-Custodial Wallets",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/4-safe-storage.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Getting A Wallet",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/5-unstoppable.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Getting Crypto",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/6-exchanges.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Transactions",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/7-transactions.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Privacy",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/8-privacy.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Investing",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/9-investing.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Decentralized Finance",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/10-defi.md",
+        "updated_at": "01-06-2020"
+      }
+    ]
+  },
+  {
+    "title": "Coins",
+    "guides": [
+      {
+        "title": "Bitcoin In Simple Terms",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/bitcoin.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Ethereum in Simple Terms",
+        "image_url": null,
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/ethereum.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Tether in Simple Terms",
+        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/usdt-Main-l.png",
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/tether.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "MakerDAO & DAI in Simple Terms",
+        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Main-l.png",
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/makerdao.md",
+        "updated_at": "01-06-2020"
+      }
+    ]
+  }
+]
