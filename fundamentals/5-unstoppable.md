@@ -99,6 +99,6 @@ This ensures that wallet app can connect to one of thousands of servers powering
 
 //
 
-### Exchanges integration
+### 9. Exchanges integration
 
 //
