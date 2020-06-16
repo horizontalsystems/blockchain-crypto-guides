@@ -2,26 +2,26 @@
 
 The aim of this guide is to onboard someone with little knowledge about cryptocurrencies to the comfortable level as quickly as possible.
 
-Cryptocurrencies are powered by a number of technologies, but primarily a blockchain technology. The blockchain technology used in cryptocurrencies like Bitcoin was built around a principle that 'no party can be trusted'. 
+Cryptocurrencies are powered by a number of technologies, but primarily a blockchain technology. 
 
-The technology designed in a way where doing anything outside the scope of agreed rules becomes impossible. When using a product built on top of such blockchain following statements hold true:
+> The blockchain technology used in cryptocurrency like Bitcoin was designed in a way where doing anything outside the scope of agreed rules becomes impossible.
+
+When using a product built on top of such blockchain following statements hold true:
 
 - user doesn't have to trust anyone on a blockchain
 - user doesn't need permission to participate in blockchain
-- user has an unconditional control over assets on a blockchain
+- user has an unconditional control over the assets on a blockchain
 - blockchain data is permanent and unchangeable
 
-Blockchain tech can potentially be applied to anything where notions like trust, censorship-resistance and immutability are essential. It can be used for elections, notary services, financial instruments and so on.
+Blockchain technology can potentially be applied to anything where notions like trust, censorship-resistance and immutability are essential. Think, notary services, financial instruments and so on.
 
-At the time being, a large chunk of financial, legal and governmental agencies exist to enforce things that can be enforced by blockchain technology in impartial manner. 
+At the time being, a large chunk of financial, legal and governmental agencies exist to enforce things that can be enforced by a blockchain in impartial manner. 
 
 Should the blockchain technology continue to grow these services are likely to be automated and ported over to a blockchain.
 
-Think about the transformation in telecommunication industry where not so long ago text messaging and voice calling were the main revenue sources. The emergence of messaging services i.e. Facebook Messenger and WhatsApp completely changed that.
-
 > The first generation of blockchain-based products like Bitcoin aim to deliver a financial platform for value exchange without the need for a system to rely on intermediaries such as banks. 
 
-That Bitcoin is the first product where the idea of blockchain was applied to challenge areas currently controlled by the present day monetary system.
+The Bitcoin is the first product where the idea of blockchain was applied to challenge areas currently controlled by the present day monetary system.
 
 ## Blockchain Attributes
 
@@ -71,13 +71,13 @@ Some blockchains like Ethereum enable ways to create your own 'units of somethin
 
 ### How Cryptocurrencies Grow
 
-Many people wonder why there are so many cryptocurrencies out there and why some are more popular or expensive than others. To give you an idea check out the rankings on [CoinMarketCap.com](https://coinmarketcap.com).
-
-> A size of the underlying network is what makes one cryptocurrency more valuable than the other.
+Many people wonder why there are so many cryptocurrencies out there and why some are more popular or expensive than others.
 
 Some cryptocurrencies are unique in the way the underlying blockchain is built. However, since blockchains have an open code anyone can take any blockchain and launch a duplicate without much effort. 
 
-In that regard, the duplicate won't really be any different from original substantially except for the size of the network. 
+In that regard, the duplicate won't really be any different from original substantially except for the size of the network.
+
+> A size of the underlying network is what makes one cryptocurrency more valuable than the other.
 
 A simple way to think about the size of the network is looking at the number of people interacting with the blockchain. 
 
@@ -85,19 +85,19 @@ A simple way to think about the size of the network is looking at the number of 
 
 2. As the blockchain network grows so is the security and decentralization of the blockchain.
 
-3. As the network grows further the blockchain becomes an independent and open platform for anyone to participate and offer services.
+3. As more and more people join the network the blockchain becomes an open platform for anyone to participate and offer services.
 
 A good example to illustrate this is the Bitcoin blockchain. 
 
 The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a small group of people managed to attract millions of people over the years. 
 
-> Nowadays, tens of thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of records. Every single one of them. 
+> Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.
+>
+> At the same time, even more people participate in the Bitcoin ecosystem as engineers building services for the ecosystem.
 
-This status quo makes Bitcoin both global and censorship-resistant platform that is open to all. 
+Nowadays, Bitcoin both global and censorship-resistant platform that is open to all. Any entity can build a service operating on top of Bitcoin blockchain.
 
-The fact that Bitcoin and alike platforms are open and censorship-resistant means that any individual can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. 
-
-For example, any entity can build a wallet or some other service for Bitcoin blockchain platform without the need for a permission from a third party.
+The fact that Bitcoin and alike platforms are open and permission-less means anyone can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. 
 
 > The bigger the network for a blockchain platform is, the more attractive it's for the service providers. 
 

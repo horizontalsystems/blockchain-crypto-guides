@@ -31,3 +31,6 @@ Any cryptocurrency wallet supporting Ethereum is likely to support stablecoins o
 Users of such wallets can seamlessly transact with each other using these stablecoins without involving any third party.
 
 The DAI token is generally considered to be a highly liquid asset in the crypto currency space. It’s available on nearly all major cryptocurrency exchanges and widely used as currency in DeFi services built on the Ethereum blockchain.
+
+
+// DEX Exchanges

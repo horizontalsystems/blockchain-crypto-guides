@@ -1,48 +1,43 @@
 # Transactions
 
 
-Send & Receive Ethereum Tokens
+sdfsdfsd
 
+## Send & Receive Crypto 
 
-Now that you've bought your first Ethereum tokens, have a secure non-custodial wallet, and understand the importance of securing your private keys, you can begin sending and receiving cryptocurrency payments. 
+- To Send
+    
+    Sending Ethereum is a very similar process to receiving. Within your Ethereum wallet app, select Send or the app's equivalent. You'll input the amount of Ethereum you want to send. Then, you need the recipient address. 
+    When you send Ethereum, you must also pay a transaction fee, known as gas. The average Ethereum transaction fee usually costs between $0.01 and $0.50, but on some peak times it has risen as high as $5.50. The network transaction fee you pay is awarded to the node that processes your transaction, in turn adding it to the blockchain and completing its processing. 
+    Once you click Send, the transaction begins processing. You cannot cancel the transaction. Once you hit send, the funds are irreversibly on their way to the destination Ethereum wallet.
 
-How to Receive Ethereum
-The first thing you need is your Ethereum wallet address. In your Ethereum wallet app, select Receive or the app's equivalent and send it to the person making you payment. You can also use that address to transfer your Ethereum tokens from crypto currency exchange to your wallet.
+- To Receive
 
-How to Send Ethereum
-Sending Ethereum is a very similar process to receiving. Within your Ethereum wallet app, select Send or the app's equivalent. You'll input the amount of Ethereum you want to send. Then, you need the recipient address. 
-When you send Ethereum, you must also pay a transaction fee, known as gas. The average Ethereum transaction fee usually costs between $0.01 and $0.50, but on some peak times it has risen as high as $5.50. The network transaction fee you pay is awarded to the node that processes your transaction, in turn adding it to the blockchain and completing its processing. 
-Once you click Send, the transaction begins processing. You cannot cancel the transaction. Once you hit send, the funds are irreversibly on their way to the destination Ethereum wallet.
+    The first thing you need is your Ethereum wallet address. In your Ethereum wallet app, select Receive or the app's equivalent and send it to the person making you payment. You can also use that address to transfer your Ethereum tokens from crypto currency exchange to your wallet.
 
 ## Transaction Fees
 
-How Fast Is an Ethereum Transaction?
 Theoretically, Ethereum transactions are fast, especially in comparison with Bitcoin. A new Ethereum block releases roughly every 15 seconds. Ethereum nodes process transactions as rapidly as they arrive, and cumulatively the network can process over 1 million transactions in a single day under the right circumstances.
 The actual answer lies in the Ethereum network processing power at any one time. When the Ethereum network is under considerable demand, a single transaction can take hours to complete. The result is a serious backlog of payment transactions and some DApps cannot function correctly because they cannot interact properly with the Ethereum blockchain.
 Your Ethereum transaction time, then, can vary. The processing time centers around the concept of gas, the transaction fee each Ethereum transaction carries. Certain Ethereum wallets allow you to modify the amount of gas you are willing to pay for your transaction. As you would expect, more gas means a faster transaction. Some of the better wallets out there would recommend the optimal gas amount taking into account current state of activity on the network.
 
 Ethereum network transactions experience the same limitations as the Bitcoin network, at least at the current time. A lot of open source blockchain engineers worldwide trying to address this issue in various ways.
 
-Bitcoin Transaction Explained
+## Transaction Confirmation
 
-Here’s the situation: Bart wants to send Lisa $100 worth of Bitcoin. 
+- pending
+- confirmed
+- complted
 
-This is how the entire process of that transaction works, breaking down the details on the services used and the Bitcoin network.
+## Transaction Privacy
 
-Disclaimer: This is an illustrative guide and therefore some aspects have been simplified, while still providing an accurate and good overview of how sending and receiving Bitcoins work.
+++++++++++++++++++++++++++
 
+## Bitcoin Transaction Illustrated
 
+Let's assume Bart wants to send Lisa $100 worth of Bitcoin. Step below show how the entire process of that transaction works.
 
 Bart and Lisa have wallets that support Bitcoin storage. They both might be using wallets made by different parties. 
-
-In this guide we will be using Unstoppable (https://unstoppable.money), a multi-cryptocurrency wallet, for illustration.
-
-https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907
-https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet
-
-
-
-
 
 To send Lisa some Bitcoin, Bart needs two things:
 
