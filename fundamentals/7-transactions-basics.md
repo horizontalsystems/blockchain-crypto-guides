@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/07-main-l.png)
 
-# Transactions
+# Transactions Explained
 
 Time to learn the ins and outs of cryptocurrency transactions.
 
