@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/06-main-l.png)
+
 # Buying Cryptocurrency
 
 By now you are expected to have a solid understanding of basics when it comes to dealing with cryptocurrencies and wallets.

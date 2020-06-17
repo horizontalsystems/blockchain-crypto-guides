@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/03-main-l.png)
+
 # Private Keys
 
 So, by now you know the basics behind blockchains, cryptocurrencies and wallets. 

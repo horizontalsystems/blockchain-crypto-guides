@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-main-l.png)
+
 # Unstoppable Wallet
 
 By now you understand that non-custodial cryptocurrency wallets come in various types. Next step is to go through 'things to know' when using the wallet app. 

@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-main-l.png)
+
 # Safe Storage
 
 Now when you understand the basic mechanics of private keys we are going to look at different types of non-custodial wallets.

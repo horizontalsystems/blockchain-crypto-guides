@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/02-main-l.png)
+
 # Wallets
 
 By its very nature cryptocurrency gives the owner capabilities that are not available with traditional financial instruments. 
