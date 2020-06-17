@@ -6,13 +6,13 @@ By its very nature cryptocurrency gives the owner capabilities that are not avai
 
 It's vital for someone to understand what these capabilities are, and the responsibilities that come with them.
 
-When dealing with traditional financial instruments such us funds in the bank accounts (or stocks with the broker) there is a notion of someone keeping assets on behalf of the user. While it may seem the idea of full control over the assets is there in reality it's not. The ownership is conditional. The bank can go bankrupt as a result of bank run, or freeze customers' funds, etc. 
+When dealing with traditional financial instruments such us deposits in the bank accounts (or stocks with the broker) there is a notion of someone keeping assets on behalf of the user. The entity that keeps funds acts as a custodian of the assets.
 
-When dealing with cryptocurrencies the owner of the funds is the entity that controls those funds.
+When dealing with cryptocurrencies the owner of the funds is generally the entity that controls those funds.
 
 For someone looking to safely store and subsequently accumulate crypto assets it's important to know how the aspect of ownership works.
 
-A lot of people enter the space and start accumulating cryptocurrencies without understanding these fundamentals. This exposes them to risks that cryptocurrencies were supposed to protect them from.
+A lot of people enter the space and start accumulating cryptocurrencies without understanding these fundamentals. This exposes them to risks that may result in the loss of funds.
 
 ## How Ownership Works
 

@@ -109,7 +109,7 @@ Here are some things you should know when dealing with decentralized exchange:
 
 Expect to encounter following issues on most decentralized exchanges:
 
-- few crypto assets supported
+- most work only with Ethereum-based assets
 - no ways to deposit fiat currency
 - low trading liquidity 
 - technical and complex to use
