@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-Main-l.png)
+
 # Ethereum in Simple Terms
 
 Ethereum is regularly mentioned alongside Bitcoin as one of the most popular decentralized cryptocurrencies. 
@@ -46,6 +48,8 @@ Each Ethereum node has a live copy of the Ethereum blockchain. All nodes talk to
 
 As the cases with all open blockchains, the Ethereum network nodes ensure decentralization, availability 24/7 and censorship-resistance. Anyone can unconditionally operate an Ethereum node. The more nodes there are online the more secure Ethereum blockchain is.
 
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-chain-l.png)
+
 Every node individually validates every transaction, ensuring only legitimate transactions enter the blockchain. A node cannot cheat the rest of the network.
 
 ## Ethereum Is A Platform
@@ -87,7 +91,10 @@ As we have mentioned, anyone can unconditionally operate an Ethereum node. Altho
 
 The Ethereum nodes earn Ether.
 
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-chain-node-l.png)
+
 The emission of new Ether currency is encoded into the code powering Ethereum blockchain. It is there to encourage people to run Ethereum nodes. The supply of new Ether is limited to 18 million tokens per year, although that limit has never been reached. The supply of new Ether has averaged just under 9 million per year since 2015. 
+
 
 
 
@@ -96,9 +103,13 @@ The emission of new Ether currency is encoded into the code powering Ethereum bl
 
 A smart contract is a piece of code that works on a blockchain to enforce the terms of a contractual agreement. In the simplest of terms, a smart contract is an example of a "when X takes place, do Y" scenario.
 
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-smartcontract-l.png)
+
 Every application/service residing on Ethereum or alike blockchain essentially consists of smart contracts. If someone decides to build a lottery on Ethereum it would be basically a set of smart contracts interacting with each other.
 
 To elaborate further, an engineer can program a smart contract that holds a balance of X Ether, that is programmed to pay out its entire balance when someone provides the correct solution to a puzzle outlined in the smart contract. When a user submits the correct answer, the smart contract executes its code and pays out the full balance to the user's Ethereum wallet address. The contract may also for instance require that all participants pay an entry fee to the contract (which will also be sent to the winner) to be able to participate in the challenge.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-chain-lottery-l.png)
 
 The development and use of smart contracts are one of the fundamental properties that differentiate Ethereum from other blockchains. It’s what makes it possible to build all kinds of services on Ethereum that can go far beyond the mere transfer of currency tokens from one address to another.
 
@@ -171,6 +182,8 @@ Most of the DApps built on Ethereum blockchain are financial services. These ser
 
 At this point the smart contracts powering these financial services cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value.
 
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-billion-l.png)
+
 
 
 ## Ethereum Privacy Explained
@@ -186,6 +199,8 @@ As a result, in its current state, Bitcoin transactions in wallets provide users
 
 The only thing that adds some minimal privacy element into the mix is the fact there is no way to check who that address belongs to. On the other hand, when you’re sending/receiving Ether, keep in mind that the other party can look up your balance as well as history of incoming/outgoing payments to/from that address.
 With enough time and resources, someone could feasibly link certain transactions to individual users. If one of the cryptocurrency exchanges gets hacked and hackers get their hands on user data, this would potentially mean that someone can map Ethereum payment addresses to real world identities.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-tx-l.png)
 
 Time to Begin Your Ethereum Journey
 You've reached the beginning of your Ethereum journey. The knowledge you've amassed in this short Ethereum guide will hold you in good stead for your first steps into the world of Ethereum, and other cryptocurrencies, too. 
