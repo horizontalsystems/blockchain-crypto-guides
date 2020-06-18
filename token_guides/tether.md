@@ -10,9 +10,9 @@ For instance, [BTCUSDT](https://www.binance.com/en/trade/BTC_USDT) pair on Binan
 
 The Market Capitalization of Tether has been consistently growing over the years and in May 2020 exceeded 8 billion USD. You can see the exact values [here](https://coinmarketcap.com/currencies/tether/).
 
-While Tether tokens are issued on several blockchains, the largest amount are exists on Ethereum blockchain. There are over 5.5 billion Tether tokens issued via its Ethereum Smart Contract which can be explored using publicly accessible tools like [Etherscan.io](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7).
+While Tether tokens are issued on several blockchains, the largest amount are exists on Ethereum blockchain. 
 
-Through the Etherscan link anyone can track the amount of Tether tokens that exists on Ethereum blockchain.
+There are over 5.5 billion Tether USDT tokens issued via its Ethereum Smart Contract which can be explored using publicly accessible tools like [Etherscan.io](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7).
 
 ## Tether Use Cases
 
@@ -48,11 +48,13 @@ The term ‘trustless’ is usually associated with crypto currency coins where 
 
 ### DAI vs Tether
 
-Both DAI and Tether are stablecoins. However, unlike Tether, the DAI stablecoin is decentralized and trustless. When holding DAI tokens, users place trust on a pre-programmed code which by its very nature can't do anything beyond what it was programmed to do. The code is what ensures that DAI tokens in circulation are fully covered by real collateral.
+Both DAI and Tether are stablecoins. However, unlike Tether, the DAI stablecoin is decentralized. 
+
+When holding DAI tokens, users place trust on a pre-programmed code which can't do anything beyond what it was programmed to do. That code is what ensures that DAI tokens in circulation are fully covered by real collateral.
 
 [//]: # (link DAI guide)
 
-Decentralized stablecoins like DAI are controlled by the pre-programmed protocol which can't go beyond its standard protocol.
+Asa result DAI stablecoin has following properties:
 
 - no entity can block someone from using DAI
 - no entity can freeze someone's DAI balance
@@ -60,7 +62,7 @@ Decentralized stablecoins like DAI are controlled by the pre-programmed protocol
 
 Points above do not hold for Tether and users essentially have to place their trust in the company and people running the Tether Limited.
 
-The basic operating principle behind  centralized stablecoins like Tether is that there should be an equivalent amount of USD held by the company issuing the stablecoin. 
+The basic operating principle behind any centralized stablecoins like Tether is that there should be an equivalent amount of USD held by the company issuing the stablecoin. 
 
 This deposit ensures that the Tether Limited can always act as a buyer of last resort to purchase all Tethers in circulation should the market demand for Tether tokens go to zero.
 
