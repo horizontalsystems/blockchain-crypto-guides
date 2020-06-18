@@ -1,12 +1,12 @@
 # Bitcoin In Simple Terms
 
-Crypto newcomers have a mountain of questions. What is Bitcoin? How does it work? What makes it special? 
+Crypto newcomers have a mountain of questions. 
+
+- What is Bitcoin? 
+- How does it work?
+- What makes it special? 
 
 The purpose of this guide is to answer those questions by introducing you to Bitcoin in simple terms and an easy-to-digest manner.
-
-This guide was written for someone who has little to no technical knowledge about Bitcoin, cryptocurrencies, or blockchains.
-
-To aid accessibility, some technical concepts have been simplified to make it easier for a non-technical person to grasp the essential information.
 
 Over the last few years, Bitcoin network has been labeled in many ways. It's been called everything from electronic cash to digital gold.
 
@@ -46,7 +46,7 @@ After a few years of growth via word-of-mouth marketing the Bitcoin turned into 
 
 As we have covered in our guide on blockchains, the cryptocurrency is a unit of measure on a blockchain. 
 
-The Bitcoin cryptocurrency is the native unit of measurement on Bitcoin blockchain.
+The Bitcoin cryptocurrency, denoted by a BTC symbol, is the native unit of measurement on Bitcoin blockchain.
 
 Bitcoins are limited and scarce. Eventually, there will be 21 million Bitcoins in existence.
 
@@ -66,7 +66,7 @@ Out of 18 million Bitcoins created so far, only about 14 million are actually av
 
 ## 4. Bitcoin As A Network
 
-Usually, the term Bitcoin used as a reference to cryptocurrency on the Bitcoin network, denoted by a BTC symbol.
+Usually, the term Bitcoin used as a reference to cryptocurrency on the Bitcoin network.
 
 > However, the Bitcoin is not just cryptocurrency. Bitcoin is a network, and an open platform for commerce where the value denominated in Bitcoins.
 
@@ -81,9 +81,11 @@ The entities above are essentially different members of the Bitcoin network. The
 
 > The systematic increase in the bitcoin price was ultimately due to the growing number of people interested in Bitcoin.
 
-Anyone can join the Bitcoin network as a node or as a wallet and start using it on equal terms as everyone else. 
+Anyone can join the Bitcoin network and start using it on equal terms as everyone else. 
 
 Bitcoin users typically participate in the role of a wallet. They send and receive payments.
+
+Some users participate by running one of the Bitcoin nodes hosting a live copy of the Bitcoin blockchain.
  
 Bitcoin nodes are the entities which process and validate transactions from wallets, as they happen on the Bitcoin network. Moreover, nodes keep the full history of transactions since very beginning.
 
@@ -97,7 +99,33 @@ Cumulatively, Bitcoin nodes guarantee the openness, availability, decentralizati
 
 There are at [https://bitnodes.io](least 10,000 Bitcoin nodes) powering the Bitcoin network at any given time. The nodes are spread around the world. All working for keeping Bitcoin network accessible and running 24/7.
 
-## 3. Bitcoin Price
+Anyone can set up a node without much effort. The node doesn't require any maintenance and can even operate on an old computer.
+
+Cumulatively, the nodes guarantee decentralization, availability, and security of the Bitcoin network.
+
+- As long as at least one node is online, the Bitcoin network will remain accessible for transactions.
+    
+- The more nodes there are on the network, the harder it is for an entity to cheat. The other nodes would all work against it.
+    
+While all nodes on Bitcoin network are equal, some nodes may do more things than others. 
+
+There are two main types:
+
+- Full Nodes
+
+    Full nodes keep a complete copy of the blockchain. Any full node can independently verify any transaction for validity.
+
+- Miner Nodes
+
+    All miner nodes continuously compete with each other to be the node that gets to add the next block to the blockchain. The miner node that is the first to solve a mathematical problem is the one that wins the associated Bitcoin reward. That's exactly how new Bitcoins added to circulation.
+
+If you want to run a miner node for the sake of making some money, you need to consider the cost-efficiency of doing so. 
+
+Making a profit from Bitcoin mining has become extremely difficult for single users due to widespread competition.
+
+After taking electricity prices into account, you're very likely to lose money. Mining is generally only profitable for people running a large number of specialized computers and who are buying electricity at industrial rates in countries like China.
+
+## 5. Bitcoin Price
 
 Back in the first few years, the idea that Bitcoin would someday be worth thousands of dollars appeared outlandish. One early adopter famously spent 10,000 BTC (around $100,000,000 USD at current prices) on a single pizza.
 
@@ -154,37 +182,12 @@ While modern-day regulators are able to censor what is being seen on search engi
 The only way for the Bitcoin network to cease having any meaningful value is for everyone to stop using it. Such an outcome would only realistically occur if someone discovered an irreparable fundamental flaw in the code powering the Bitcoin network.
 
 
+
+
+
 +++++++++++++++++++++++++++++++++++++
 
 
-
-## 5. Spending Bitcoin
-
-The ability to pay with Bitcoin in stores remains uncommon. While some merchants like Whole Foods are slowly starting to accept payments in Bitcoin, the vast majority of retailers are still not on board. 
-
-There are many reasons for the lack of adoption, ranging from the absence of legal guidelines for merchants to the technical architecture of the Bitcoin blockchain.
-
-However, there are already some reliable ways to spend your cryptocurrency. For example, some companies provide branded debit cards which can be used to pay anywhere that either Visa or MasterCard is accepted. 
-
-You pay with a card as you would normally do, and the amount is deducted from your crypto wallet balance using current market rates.
-
- Below, you will see some of the more popular providers of such cards. 
- 
- Most are only available to people living in the US or Europe. They all require the user to provide some identification documents.
- 
-// ToDo: links 
-- Crypterium.com
-- Coinbase.com
-- Nexo.io
-- 2gether.global
-- Cash.app
-- Cryptopay.me
-
-When using the services, the card provider will issue you with a crypto wallet. It will be a custodial wallet and, therefore, you should never keep too much funds on it.
-
-To reiterate---use a non-custodial wallet for your primary funds and occasionally top up the wallet provided by card provider with small amounts. Think of it as a prepaid debit card.
-
-At the end of the day, you get to protect your wealth and have access to it whenever needed.
 
 ## 6. Bitcoin Forks
 
@@ -226,56 +229,10 @@ Conversely, if the wallet user uses a new address for each new transaction, then
 Remember, this is an entry-level guide. It is not a complete picture of Bitcoin's privacy features. For an advanced user with a large amount of Bitcoin, or for someone living in a hostile environment, several other factors should be considered.
 
 
-## 9. Bitcoin Mining
 
-As mentioned earlier in the guide, over 10,000 nodes are powering the Bitcoin network.
-
-Anyone can set up a node without much effort. The node doesn't require any maintenance and can even operate on an old computer.
-
-Nodes are tasked with:
- 
- - validating every Bitcoin transaction
- - broadcasting transactions it receives to other nodes
-
-Cumulatively, the nodes guarantee decentralization, availability, and security of the network.
-
-- Decentralization
-    
-    Bitcoin nodes enable Bitcoin all network participants to communicate with the Bitcoin network using any node on the network (even their own).
-- Availability 
-    
-    As long as at least one node is online, the Bitcoin network will remain accessible for transactions.
-    
-- Security
-
-    The more nodes there are on the network, the harder it is for an entity to cheat. The other nodes would all work against it.
-    
-
-By running a Bitcoin node, therefore, you're contributing to the Bitcoin network and helping to maintain its existence.
-
-Also, keep in mind that there are some countries where Bitcoin currently is considered illegal. 
-
-While all nodes on Bitcoin Network are equal, some nodes may do more things than others. There are two main types:
-
-- Full Nodes
-
-    Full nodes keep a complete copy of the blockchain. Any full node can independently verify any transaction for validity.
-
-- Miner Nodes
-
-    All miner nodes continuously compete with each other to be the node that gets to add the next block to the blockchain. The miner node that is the first to solve a mathematical problem is the one that wins the associated Bitcoin reward.
-
-If you want to run a miner node for the sake of making some money, you need to consider the cost-efficiency of doing so. 
-
-Making a profit from Bitcoin mining has become extremely difficult for single users due to widespread competition.
-
-Indeed, after taking electricity prices into account, you're very likely to lose money. Mining is generally only profitable for people running a large number of specialized computers and who are buying electricity at industrial rates in countries like China.
-
-## 10. The End
+## 10. Conclusion
 
 That's about it! Now you know all the essential information about owning and using Bitcoin.
-
-Thanks for reading, and please remember to share this guide with people you know who are also keen to learn about the world of Bitcoin.
 
 And remember---this is only an introductory guide. If it has inspired you to learn more about the technical aspects of Bitcoin, we strongly recommend that you read the excellent Mastering Bitcoin guide by Andreas M. Antonopoulos. 
 

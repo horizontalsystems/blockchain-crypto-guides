@@ -105,9 +105,15 @@ A smart contract is a piece of code that works on a blockchain to enforce the te
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-smartcontract-l.png)
 
-Every application/service residing on Ethereum or alike blockchain essentially consists of smart contracts. If someone decides to build a lottery on Ethereum it would be basically a set of smart contracts interacting with each other.
+Every application/service residing on Ethereum or alike blockchain essentially consists of smart contracts. 
 
-To elaborate further, an engineer can program a smart contract that holds a balance of X Ether, that is programmed to pay out its entire balance when someone provides the correct solution to a puzzle outlined in the smart contract. When a user submits the correct answer, the smart contract executes its code and pays out the full balance to the user's Ethereum wallet address. The contract may also for instance require that all participants pay an entry fee to the contract (which will also be sent to the winner) to be able to participate in the challenge.
+If someone decides to build a lottery on Ethereum it would be basically a set of smart contracts interacting with each other.
+
+- An engineer can program a smart contract that holds a balance of X Ether, and programmed to pay out its entire balance when someone provides the correct solution to some puzzle. 
+
+- When a user submits the correct answer, the smart contract executes its code and pays out the full balance to the user's Ethereum wallet address. 
+
+- That contract may also require that all participants pay an entry fee to the contract (which will also be sent to the winner) to be able to participate in the challenge.
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-chain-lottery-l.png)
 
