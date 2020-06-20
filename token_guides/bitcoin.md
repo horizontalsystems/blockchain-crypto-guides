@@ -177,11 +177,23 @@ The only way for the Bitcoin network to cease having any meaningful value is for
 
 ## 7. Bitcoin Problems
 
-// speed and scalability
-// certain form of centralization
-// lack of know how
-// lack of adoption
-// lack of privacy
+Despite Bitcoin network continuously growing there are some issues which can inhibit its future growth.
+
+- Bitcoin is slow
+
+    The underlying blockchain powering Bitcoin can not currently process more than a few million transactions per day. While this aspect is being addressed on various fronts we are yet to see a widely adopted solution.
+
+- Bitcoin is complicated
+
+    Bitcoin is still fairly complicated to grasp for newcomers. A lot of people find the entry step to Bitcoin and other cryptocurrencies fairly complex. There is a barrier.
+
+- Lack of adoption
+
+    These days Bitcoin mainly used as a store of value or as an instrument for speculative trading. There is a growing need for more ways to be able to spend Bitcoins. The more ways there are to spebd the Bitcoin the more attractive it becomes as payment option.
+
+- Lack of privacy
+    
+    Bitcoin is not that private. The privacy aspect is expanded below, meanwhile it's suffice to say that in the world of cryptocurrencies Bitcoin ranks fairly weak on privacy. Using Bitcoin for anything illegal is a bad idea.
 
 ## 9. Bitcoin Forks
 
@@ -209,11 +221,26 @@ For a comprehensive list of all the cryptocurrencies in existence, check out [Co
 
 ## 10. Storage & Usage
 
-// refer to fundamentals (1-8)
+When you're ready to get involved with the Bitcoin on a practical level you're welcome to check out following guides:
+
+1. Cryptocurrency Basics
+2. Wallet Basics
+3. Private Keys Explained
+4. Safe Storage Tips
+5. Unstoppable Wallet
+6. Buying Cryptocurrency
+7. Spending Cryptocurrency
+8. Transactions Explained
 
 ## 11. Bitcoin Address Formats
 
-// 44, 49, 84
+// the wallet app geenrally has one key
+// each private key can operate in 3 modes
+// it's cheaper to use some
+
+- Legacy
+- Segwit
+- Native Segwit
 
 ## 12. Bitcoin Privacy 
 
