@@ -10,15 +10,11 @@ The purpose of this guide is to answer those questions by introducing you to Bit
 
 Over the last few years, Bitcoin network and its underlying cryptocurrency 'Bitcoin', has been labeled in many ways. It's been called everything from electronic cash to digital gold.
 
-While Bitcoin's definition may change depends on whom you ask, it holds certain properties which makes it useful.
+Increasingly people begin to perceive Bitcoin as wealth preservation instrument just like money, stocks or precious metals. The idea of having Bitcoin as another asset class doesn't seem too distant anymore.
 
-More and more people begin to perceive Bitcoin as wealth preservation instrument just like money, stocks or precious metals. The idea of having Bitcoin as another asset class doesn't seem too distant anymore.
+Despite being around for 10 years, Bitcoin is still fairly complex and obscure to newcomers. Way until 2014 storing Bitcoin was not even a thing everyone could do. It has improved a lot since then but there are still complexities.
 
-Bitcoin is still fairly complex and obscure to newcomers. That's changing fast as thousands of engineers worldwide work on improving the Bitcoin ecosystem by building services around Bitcoin. 
-
-Way until 2014 the idea of storing Bitcoin safely in a mobile wallet app was not really an option. It's constantly improving on all sides, primarily driven by a decentralized force of engineers, ideologists, speculators worldwide.
-
-Most newcomers fail to grasp the value of the Bitcoin network on a first encounter. The Bitcoin often perceived purely as cryptocurrency rather than a platform that can expand to host a large ecosystem of services.  
+Most newcomers fail to grasp the value of the Bitcoin network on a first encounter. The Bitcoin often perceived purely as a cryptocurrency rather than a decentralized platform that can expand to host a large ecosystem of services.  
 
 ## 1. Bitcoin Origins
 
@@ -50,19 +46,19 @@ After a few years of growth via word-of-mouth marketing the Bitcoin turned into 
 
 As we have covered in our guide on blockchains, the cryptocurrency is a unit of measure on a blockchain. 
 
-The Bitcoin cryptocurrency, denoted by a BTC symbol, is the native unit of measurement on Bitcoin blockchain.
+The Bitcoin cryptocurrency, denoted by a BTC symbol, is the native unit of measurement on the Bitcoin blockchain.
 
-Bitcoins are limited and scarce. Eventually, there will be 21 million Bitcoins in existence.
+Bitcoins are limited and scarce. Eventually, there will be 21 million Bitcoins in existence. The steps below outline how the Bitcoins were created in entered circulation.
 
-- Starting from early 2009, Bitcoin blockchain started functioning and every 10 minutes the program powering Bitcoin blockchain been adding certain amount of Bitcoins to the network. So far, almost 18 million Bitcoins have been released to the market.
+- Starting from early 2009, Bitcoin blockchain started functioning and every 10 minutes the program powering the blockchain been adding certain amount of Bitcoins to the network. So far, nearly 18.5 million Bitcoins have been released to the market this way.
 
-- The network is designed to add a certain number of Bitcoins to the network roughly every 10 minutes. Newly created Bitcoins are awarded to one of the nodes operating the Bitcoin network. 
+- Roughly every 10 minutes, new Bitcoins are created and awarded to one of the nodes operating the Bitcoin network. 
 
-- The award goes to the node that is the first to solve a mathematical problem successfully. Although all nodes are trying to solve it, only the first one gets the pay-out. The process of solving the mathematical problem is what essentially called as mining.
+- The award goes to a node that is first to solve a mathematical problem successfully. Although all nodes are trying to solve it, only the first one gets the pay-out. The process of solving the mathematical problem is what essentially called as mining.
 
 - The Bitcoin network will create the remaining three million Bitcoins over the next 130 years in the manner described above.
 
-No single entity controls the release of new Bitcoins into circulation. It's an automated process that's regulated by algorithms. The algorithms were coded into Bitcoin at the start of its existence.
+- No single entity controls the release of new Bitcoins into circulation. It's an automated process that's regulated by algorithms. The algorithms were coded into Bitcoin at the start of its existence.
 
 It's estimated that about four million Bitcoins have been already "lost." Typically, coins are lost because users have lost the wallets with Bitcoins on them without having a backup. 
 
@@ -74,16 +70,14 @@ Usually, the term Bitcoin used as a reference to cryptocurrency on the Bitcoin n
 
 > However, the Bitcoin is not just cryptocurrency. Bitcoin is a network, and an open platform for commerce where the value denominated in Bitcoins.
 
-Bitcoin network consisting of:
+Bitcoin network consists of different groups:
  
  - parties running Bitcoin node software
- - parties promoting Bitcoin
  - people accumulating Bitcoin in wallets
  - anyone who transacts in Bitcoin
- - traders trading Bitcoin on exchanges
  - engineers building services for Bitcoin
 
-These are the people that drive the adoption and demand for the Bitcoin cryptocurrency, some more than others.
+These are the people that drive the Bitcoin technology, adoption and demand for the Bitcoin cryptocurrency.
 
 > The systematic increase in the bitcoin price was ultimately due to the growing number of people interested in Bitcoin.
 
@@ -91,19 +85,19 @@ Anyone can join the Bitcoin network and start using it on equal terms as everyon
 
 Most Bitcoin users typically participate in the role of a wallet. They send and receive payments.
 
-Some users participate by running one of the Bitcoin nodes hosting a live copy of the Bitcoin blockchain. Bitcoin nodes process and validate transactions from wallets, as they happen on the Bitcoin network. 
+Some users participate by running one of the Bitcoin nodes hosting a live copy of the Bitcoin blockchain. 
 
-Moreover, nodes keep the full history of transactions since very beginning.
+Bitcoin nodes process and validate transactions from wallets. Nodes also keep the full history of transactions since very beginning.
 
-> The history of all Bitcoin transactions is also called the 'Bitcoin blockchain'. New transactions added to the history in blocks.
+> The history of all Bitcoin transactions is also called the 'Bitcoin blockchain'.
 >
-> The history of all Bitcoin transactions is a chain of blocks. The new block added roughly every 10 minutes.
+> The Bitcoin blockchain is a chain of blocks where each block holds a batch of transactions. A new block added to Bitcoin blockchain roughly every 10 minutes.
 
-Nodes are also tasked with validating every new transaction and ensuring that only legitimate transactions are added to the blockchain. 
+Nodes ensure that only legitimate transactions are added to the blockchain. 
 
 Cumulatively, Bitcoin nodes guarantee the openness, availability, decentralization, and security of the Bitcoin network. 
 
-There are at [https://bitnodes.io](least 10,000 Bitcoin nodes) powering the Bitcoin network at any given time. The nodes are spread around the world. All working for keeping Bitcoin network accessible and running 24/7.
+There are at [https://bitnodes.io](least 10,000 Bitcoin nodes) powering the Bitcoin network at any given time. All working for keeping Bitcoin network accessible and running 24/7.
 
 Anyone can set up a node without much effort. The node doesn't require any maintenance and can even operate on an old computer.
 
@@ -125,9 +119,7 @@ There are two main types:
 
 If you want to run a miner node for the sake of making some money, you need to consider the cost-efficiency of doing so. 
 
-Making a profit from Bitcoin mining has become extremely difficult for single users due to widespread competition.
-
-After taking electricity prices into account, you're very likely to lose money. Mining is generally only profitable for people running a large number of specialized computers and who are buying electricity at industrial rates in countries like China.
+After taking electricity prices into account, you're very likely to lose money. Mining is generally only profitable for people running specialized computers and who are buying electricity at industrial rates in countries like China.
 
 ## 4. Bitcoin Price
 
@@ -139,15 +131,15 @@ It broke $1,000 in 2014 and reached an all-time high of $20,000 just three years
 
 Bitcoin's price remains exceptionally volatile. Within nine months of its all-time high, the price had dropped back to $3,000. 
 
-Even though Bitcoin has a 200 billion market cap, it's still common to see a daily price swing above five percent. 
+Even though Bitcoin has a close to 200 billion market cap, it's still common to see a daily price swing above five percent. 
 
 The market cap of Bitcoin would need to hit the trillions before hype, panic, and large transactions would no longer affect the price.
 
-Today, the perception of Bitcoin is very different from what it was 10 years ago. These days, nearly all mainstream financial channels regularly talk about Bitcoin. 
+Today, the perception of Bitcoin is very different from what it was 10 years ago. 
 
-Wall Street and world leaders are all starting to take notice. It's no longer perceived as "fun money for geeks" but as a valuable financial asset. 
+These days, nearly all mainstream financial channels regularly talk about Bitcoin. Wall Street and world leaders are all starting to take notice as well.
 
-The current Bitcoin price, as well as the current market capitalization, is an indication of the new reality.
+While the price reflects the market sentiment the technology around Bitcoin is being improved non-stop by engineers worldwide.
 
 ## 5. Why Bitcoin Growing
 
@@ -155,17 +147,19 @@ To understand what drives Bitcoin's growth, it's essential to look at Bitcoin as
 
 The technology seeks to provide a solution to some major socioeconomic and geopolitical problems, rather than merely being a new asset class. 
 
-> Bitcoin is not only an improvement on how we perform financial transactions and preserve wealth. It's a whole new way to own and exercise control over your assets.
+> Bitcoin is not only an improvement on how we perform financial transactions and preserve wealth. It's a whole new way to own and exercise control over assets.
 
-Unlike traditional assets and financial instruments, which are generally enforced by governments or other centralized organizations, the core driving force of Bitcoin is its global community. 
+Unlike traditional financial instruments, which are generally imposed by governments or other centralized organizations, the core driving force of Bitcoin is its global community. 
 
-In the face of modern-day problems like excessive money printing, currency debasements, sanctioning, a growing number of people are moving towards Bitcoin. That growing trend in Bitcoin's popularity is likely to continue. 
+In the face of modern-day problems like money printing, currency debasements, over-regulation, sanctioning, more people are moving towards Bitcoin. That trend in Bitcoin's popularity is likely to continue. 
+
+A widespread availability of cryptocurrency exchanges amid economic issues worldwide made it easier for people to acquire Bitcoins.
 
 ## 6. Is Bitcoin Stoppable?
 
 A lot of new people entering the Bitcoin ecosystem remain skeptical about its ability to succeed. 
 
-The narrative that one day Bitcoin (or a similar decentralized system) may replace centrally regulated financial institutions seems fanciful--- especially when the core beneficiaries of the current status quo are some of the most world's most powerful entities.
+The narrative is that one day Bitcoin (or a similar decentralized system) may replace centrally regulated financial institutions seems fanciful--- especially when the core beneficiaries of the current status quo are some of the most world's most powerful entities.
 
 Many people also assume that governments are going to try banning Bitcoin. However, those beliefs are founded on a misunderstanding about how Bitcoin operates on a technical level.
 
@@ -177,7 +171,7 @@ Yes, lawmakers can make it more difficult for people to participate in the netwo
 
 Taking down the Bitcoin network would be more difficult than taking down the entire internet. 
 
-While modern-day regulators are able to censor what is being seen on search engines, YouTube, or in mainstream media, censoring people from Bitcoin network is a new level of complexity.
+While modern-day regulators are able to censor what is being seen on search engines, YouTube, or in mainstream media, censoring access to Bitcoin network is a new level of complexity.
 
 The only way for the Bitcoin network to cease having any meaningful value is for everyone to stop using it. Such an outcome would only realistically occur if someone discovered an irreparable fundamental flaw in the code powering the Bitcoin network.
 
@@ -195,19 +189,19 @@ While learning about Bitcoin, crypto newcomers quickly discover about alternativ
 
 You can subdivide the various cryptocurrencies in following groups:
 
-- Some try to portray themselves as a better alternative to Bitcoin when it comes to privacy or scalability aspects of the underlying blockchain. As mentioned above Bitcoin is neither fully private nor currently capable of processing a lot of transactions. Cryptocurrencies like, [Dash](https://www.dash.org), [Monero](https://www.getmonero.org) or [Zcash](https://z.cash) try to excel in areas where Bitcoin currently lags.
+- Some portray themselves as a better alternative to Bitcoin when it comes to privacy or scalability aspects. As mentioned above Bitcoin is neither fully private nor currently capable of processing a lot of transactions. Cryptocurrencies like, [Dash](https://www.dash.org), [Monero](https://www.getmonero.org) or [Zcash](https://z.cash) try to excel in areas where Bitcoin currently lags.
 
-- There are ones which actually emerged from the Bitcoin blockchain itself through a process knows as fork. These are known as "Bitcoin fork" cryptocurrencies and may have the word 'Bitcoin' in the name. Keep in mind that those represent a different asset though share a lof of fundamentals and have some differences. These include cryptocurrencies like [Bitcoin Cash](https://www.bitcoincash.org) and [Litecoin](https://litecoin-foundation.org).
+- There are cryptocurrencies which emerged from the Bitcoin through a process knows as fork. These are known as "Bitcoin fork" cryptocurrencies and represent a different cryptocurrency and a different network. Mostly share a lof of fundamentals and have some differences. This group includes [Bitcoin Cash](https://www.bitcoincash.org) and [Litecoin](https://litecoin-foundation.org).
 
-- There is a number of significant cryptocurrencies which represent all-purpose blockchains that go beyond payments. The most notable examples are Ethereum and EOS cryptocurrencies.
+- There is a number of major cryptocurrencies which represent all-purpose blockchains that go beyond payment transfers. The most notable examples are Ethereum and EOS cryptocurrencies.
 
-- Finally, the largest segment of cryptocurrencies are so called tokens which were created on an all-purpose blockchain such as Ethereum. There are a number of widely used tokens which are created and successfully operate on top of Ethereum blockchain.
+- Finally, the largest segment of cryptocurrencies are known as tokens which are created on a blockchain like Ethereum. There are a number of widely used tokens which are created and successfully operate on top of Ethereum blockchain.
 
 The original Bitcoin---created by Nakamoto---has the ticker symbol BTC. It's generally referred to as Bitcoin, or Bitcoin classic. You might also see it called Bitcoin Core, which is the name of the program used to run a Bitcoin node on a computer. 
 
 The Bitcoin forks are cryptocurrencies which have split from the original Bitcoin. Due to the open-source nature of Bitcoin, anyone with programming experience can create a Bitcoin-esque cryptocurrency with some modifications, then market it as a separate cryptocurrency. 
 
-The most noteworthy example is Bitcoin Cash. It managed to attract a significant community and gain significant market share.
+The most noteworthy example is Bitcoin Cash. It managed to attract a significant community and gain significant market share. It actually emerged as a result of original Bitcoin community splitting into two camps in 2017.
 
 In the ecosystem of cryptocurrencies the most valuable is usually considered to be the one with the largest network and community around it. Some cryptocurrencies may be very similar to Bitcoin and yet not able to compete with it price wise due to smaller network.
 
@@ -223,15 +217,15 @@ For a comprehensive list of all the cryptocurrencies in existence, check out [Co
 
 ## 12. Bitcoin Privacy 
 
-Bitcoin is semi-private. Although all transactions in the Bitcoin network are public, they simply appear as a transaction from one Bitcoin address to another.
+Bitcoin is semi-private. Although all transactions in the Bitcoin network are public, they appear as a transaction from one Bitcoin address to another.
 
-- there is no way to know the identity of the sender or recipient by looking at an individual transaction. The sender and recipient could even be the same person.
+- there is no way to know the identity of the sender or recipient by looking at an individual transaction. The sender and the recipient can be the same person.
 
-- by knowing sender's or receiver's address, it's possible to see other transactions where that address was involved in the past. 
+- by looking at addresses involved in transaction, it's possible to see other transactions where that address was involved in the past. 
 
-- if the wallet user always used the same address for incoming transactions, all those transactions are visible on a blockchain.
+- if the user always used the same address for incoming transactions, anyone could lookup all those different transactions on a blockchain and see that recipient is the same person.
 
-- if the wallet user uses a new address for each new transaction, then identifying the user's incoming transactions becomes close to impossible.
+- if the wallet user uses a new address for each new transaction, then linking various different transactions to the same entity becomes impossible.
 
 Remember, this is an entry-level guide. It is not a complete picture of Bitcoin's privacy features. 
 
