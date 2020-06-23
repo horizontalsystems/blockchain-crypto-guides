@@ -4,7 +4,7 @@
 
 By now you are expected to have a solid understanding of basics when it comes to dealing with cryptocurrencies and wallets.
 
-In this section let's explore various ways of acquiring crypto.
+In this section let's explore various ways of acquiring cryptocurrency.
 
 - buying with credit card
 - buying on centralized exchange
