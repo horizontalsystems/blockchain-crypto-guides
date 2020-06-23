@@ -232,15 +232,55 @@ When you're ready to get involved with the Bitcoin on a practical level you're w
 7. Spending Cryptocurrency
 8. Transactions Explained
 
-## 11. Bitcoin Address Formats
+## 11. Address Formats
 
-// the wallet app geenrally has one key
-// each private key can operate in 3 modes
-// it's cheaper to use some
+Assuming you're familiar with the fundamentals related to storage and usage of cryptocurrencies there is one more thing to know about Bitcoin.
 
-- Legacy
-- Segwit
-- Native Segwit
+This section will focus on practical knowledge you need to know when dealing with Bitcoin transactions and restoring your Bitcoin wallet in any wallet app.
+
+Bitcoin has three commonly-used address formats that can be used to receive Bitcoin payments. Usually the wallet app handles this for you and just shows you the address.
+
+> Depending on the wallet app you use it may support receiving funds only to one of those formats or even all three formats.
+
+The new formats emerged as a result of more and more people transacting on the Bitcoin network. The newer address formats were introduced to make transactions smaller in size and by doing so allow the Bitcoin network to process more transactions in each block.
+
+Bitcoin Address formats:
+
+- Legacy Address Format (or P2PKH)
+
+    The oldest address format, sometimes referred to as BIP44, usually starts with a number "1....". Being the oldest format most wallets support both receiving and sending payments to these addresses. 
+
+    The issue with such addresses are the higher transaction fees when transacting on Bitcoin network. 
+    
+    Sending a payment from a wallet that operates with funds received to Legacy Address Format is more expensive than when sending to other formats.
+
+- Segwit Address Format (or P2SH)
+
+    A more recent address format, sometimes referred to as BIP49, usually starts with a number "3....". Supported by many newer wallet apps.  
+    
+    Sending a payment from a wallet that operates with funds received to SegWit addresses is cheaper when compared to a wallet operating with legacy addresses.
+
+- Native-Segwit Address Format (bech 32)
+
+    The newest address format, and the cheapest to work with when it comes transacting on Bitcoin network. 
+    
+    The beck32 address format starts with "bc1...". 
+
+There’s a good chance your preferred wallet or exchange doesn’t support at least one of these formats, with bech32 the likeliest to be omitted.
+
+An easy way to find out would be to open your wallet app and check the first few symbols of the address wallet uses to receive Bitcoin.
+
+On a practical level, apart from the difference in transaction fees there is just one thing to keep in mind. Knowing the address format is usually needed when restoring the Bitcoin wallet.
+
+> When restoring your Bitcoin wallet in some wallet app, along with the private key you also need to indicate the address format for the Bitcoin.
+>
+> Indicating an incorrect address format will result in wallet app not seeing your past transactions and hence the balance. 
+>    
+> Therefore, when setting app a new wallet in any wallet app always make sure to note the Bitcoin address format used by the wallet. 
+> 
+> To restore that wallet in future, it should be restored in a same wallet app or the one that claims to support the address format of the Bitcoin wallet.
+
+In that regard, the [Unstoppable wallet](https://unstoppable.money) is able to both create and restore wallets operating in any of the three available address formats.
 
 ## 12. Bitcoin Privacy 
 
