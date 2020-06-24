@@ -2,7 +2,7 @@
 
 # MakerDAO & DAI in Simple Terms
 
-Let’s start with a brief introduction to Decentralized Finance or DeFi as everyone calls it these days.
+Let’s start with a brief introduction to Decentralized Finance or DeFi as everyone calls it.
 
 Bitcoin was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
 
@@ -150,9 +150,7 @@ It operates solely on the basis of objective and rigid statutes that define its 
 
 As briefly mentioned earlier the DAI cryptocurrency is the core product of MakerDAO. The public facing services provided by MakerDAO are one way or another built around the DAI stablecoin. 
 
-The MakerDAO services are open to anyone globally. 
-
-MakerDAO provides the following services:
+MakerDAO provides following services:
 
 - Oasis decentralized cryptocurrency exchange
 - Ability to take a loan in DAI from Maker Protocol
@@ -172,11 +170,11 @@ Oasis also provides means to access core MakerDAO services such as borrowing and
 
 > The Oasis website is just one of the many ways to interact with the Maker Protocol. Those familiar with programming on Ethereum can access MakerDAO services by interacting with Maker Protocol smart contracts using various means and not use the website at all.
 
-To use the Oasis website users need one of the supported Ethereum wallets which will be used to deposit and withdraw funds to/from Oasis exchange. 
+To interact with the Oasis website users need one of the supported Ethereum wallets which will be used to deposit and withdraw funds to and from Oasis exchange. 
 
-One option is to use [Metamask](https://metamask.io), a non-custodial wallet for Chrome browser. Or you may use other non-custodial wallet app on your phone like [Unstoppable](https://unstoppable.money).
+One option is to use [Metamask](https://metamask.io), a non-custodial wallet for Chrome browser. 
 
-Keep in mind when you interact with decentralized platforms like Oasis token exchange there are no means to roll back anything should you make a mistake with funds somewhere.
+Keep in mind when you interact with decentralized platforms like Oasis token exchange there are no means to roll back anything should you make a mistake with funds somewhere. All transactions are final and irreversible.
 
 ### 2. Borrowing DAI
 

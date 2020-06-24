@@ -1,29 +1,36 @@
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/07-main-l.png)
 
-## 5. Spending Bitcoin
+# Spending Bitcoin
 
-The ability to pay with Bitcoin in stores remains uncommon. While some merchants like Whole Foods are slowly starting to accept payments in Bitcoin, the vast majority of retailers are still not on board. 
+The ability to pay with Bitcoin in stores remains uncommon. 
 
-There are many reasons for the lack of adoption, ranging from the absence of legal guidelines for merchants to the technical architecture of the Bitcoin blockchain.
+While some merchants are slowly starting to accept payments in Bitcoin, the vast majority of retailers are still not on board. 
 
-However, there are already some reliable ways to spend your cryptocurrency. For example, some companies provide branded debit cards which can be used to pay anywhere that either Visa or MasterCard is accepted. 
+There are many reasons for the lack of adoption, primarily the absence of legal and regulatory guidelines when it comes to transacting and taxing cryptocurrencies.
 
-You pay with a card as you would normally do, and the amount is deducted from your crypto wallet balance using current market rates.
+## Crypto Debit Cards
 
- Below, you will see some of the more popular providers of such cards. 
+That said, there are ways to spend your cryptocurrency. A number of companies provide debit cards which are tied to your crypto balance and can be used to pay anywhere where Visa, MasterCard etc is accepted. 
+
+1. You pay with a card as you would normally do. The card can also be used to withdraw cash from an ATM.
+2. The debit amount is deducted from your crypto wallet balance using the current market rates.
+3. Depending on the card provider some additional perks such as cashback rewards may be provided.
+
+Below, you will see some of the more popular providers of crypto debit cards. Most of them are currently available to people living in the US or Europe. 
  
- Most are only available to people living in the US or Europe. They all require the user to provide some identification documents.
- 
-// ToDo: links 
-- Crypterium.com
-- Coinbase.com
-- Nexo.io
-- 2gether.global
-- Cash.app
-- Cryptopay.me
+- [Crypterium.com](https://cards.crypterium.com)
+- [Crypto.com](https://crypto.com/en/cards.html)
+- [Coinbase.com](https://www.coinbase.com/card)
+- [Cash.app](https://cash.app)
+- [Cryptopay.me](https://cryptopay.me/bitcoin-debit-card)
+- [2gether.global](https://www.2gether.global/card.html)
 
-When using the services, the card provider will issue you with a crypto wallet. It will be a custodial wallet and, therefore, you should never keep too much funds on it.
+Note that, all crypto debit card providers will require some kind of identification documents.
 
-To reiterate---use a non-custodial wallet for your primary funds and occasionally top up the wallet provided by card provider with small amounts. Think of it as a prepaid debit card.
+## What To Know
 
-At the end of the day, you get to protect your wealth and have access to it whenever needed.
+When using the services, the card provider will issue you with a cryptocurrency wallet that will be used as a source of funds for your card. 
+
+> The wallet provided by a debit card provider will be a custodial wallet and therefore, you should never keep a lot of funds on it.
+
+To reiterate---use a non-custodial wallet for your primary funds and occasionally top up the wallet provided by card provider with amounts you're a looking to spend in the near term. 
