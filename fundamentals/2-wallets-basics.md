@@ -92,6 +92,9 @@ There is also the question of censorship. When your funds remain on the exchange
 
 Most of the popular wallets out there are unfortunately of custodial nature.
 
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/02-02-l.png)
+
 ### 3) Hybrid Wallets
 
 Hybrid wallets are rarer than a custodial or non-custodial wallet and offer a different take on asset ownership. Neither the wallet owner or the wallet provider has full control over the wallet funds. A hybrid wallet programmed to require approval from both parties before the funds can be spent. 

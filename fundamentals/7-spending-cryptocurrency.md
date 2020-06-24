@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/07-main-l.png)
 
 ## 5. Spending Bitcoin
 

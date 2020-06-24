@@ -24,6 +24,9 @@ As the user's crypto capital grows so does the potential cost of loosing it. In 
 
 All non-custodial wallets out there provide users with full control over the crypto. That's an underlying characteristic of such a wallet. There 3 main types of non-custodial wallets:
 
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-02-l.png)
+
 1. hardware wallets 
 2. mobile app wallets
 3. desktop software wallets
@@ -37,8 +40,6 @@ For instance, ensuring a safe storage of the private key in an up-to-date iOS or
 ### 1. Hardware Wallets
 
 The hardware wallets usually come in a form of small hardware devices resembling USB thumb drives and engineered for the sole purpose of storing large amount of cryptocurrencies securely.
-
-![landscape](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/hardware-wallets.jpg 'Hardware Wallets' )
 
 Without going into technicals, it's enough to know that these devices are widely considered as ones with the highest level of security. The security considerations are built around the idea of making the physical extraction of the private keys impossible, even if the attacker has your wallet device in physical possession.
 

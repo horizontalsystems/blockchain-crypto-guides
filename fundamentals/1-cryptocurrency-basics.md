@@ -29,9 +29,11 @@ The Bitcoin is the first product where the idea of blockchain was applied to cha
 
 So, what is a blockchain? While so many definitions make it sound complicated it's fairly simple in reality.
 
-> Without going technical, think about a blockchain as a chronological history of records. 
+> Without going technical, think about a blockchain as a chronological history of records.
 >
 > It can be a history of transactions, a history of votes submitted by electorates etc. 
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-02-l.png)
 
 While the actual history of records is not that special in itself, when it's put on a blockchain it gains certain attributes that make it socially valuable. These attributes are:
 
@@ -54,6 +56,8 @@ While the actual history of records is not that special in itself, when it's put
 * Business Logic
 
     In our 'history of records' example we might have unintentionally assumed that these records are of specific type like "User1 paid User2 X bitcoins". The present day blockchain technologies allow adding conditional logic to records. Instead of regular 'A paid B x bitcoins' it can have a record like 'A paid B x bitcoins, but B can't spend them for 10 years'.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-03-l.png)
    
 So, blockchains are a lot more than just plain history of records. The technology opened up ways for a society to organize and exchange in ways that previously required a third party to operate.
 
@@ -62,6 +66,8 @@ So, blockchains are a lot more than just plain history of records. The technolog
 Now when you're familiar with the concept of blockchains lets try to understand the basic nature of cryptocurrency.
 
 Cryptocurrencies are units of something on a blockchain. Depending on the characteristics of underlying blockchain one cryptocurrency may vary from another.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-04-l.png)
 
 For instance:
 

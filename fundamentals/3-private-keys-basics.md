@@ -38,7 +38,7 @@ To make it easier for the average person to backup the private key, blockchain e
 
 Most non-custodial wallets will display the private key in a human-readable form, generally in a form 12/24 words.
 
-![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/private-key.jpg 'Unstoppable Wallet: demo private key image' )
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/03-02-l.png)
 
 Backup the private key and make sure there are no typos in your backup. Other than actual words, the ordering is just as important. 
 

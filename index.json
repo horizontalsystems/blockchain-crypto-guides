@@ -3,50 +3,50 @@
     "title": "Basics",
     "guides": [
       {
-        "title": "Cryptocurrency",
+        "title": "1. Cryptocurrency",
         "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-main-l.png",
         "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/1-cryptocurrency-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "Wallets",
+        "title": "2. Wallets",
         "image_url":"https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/02-main-l.png",
         "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/2-wallets-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "Private Keys",
+        "title": "3. Private Keys",
         "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/03-main-l.png",
         "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/3-private-keys-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "Safe Storage Tips",
+        "title": "4. Safe Storage Tips",
         "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-main-l.png",
         "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/4-safe-storage-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "Unstoppable Wallet",
+        "title": "5. Unstoppable Wallet",
         "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-main-l.png",
         "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/5-unstoppable-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "Buying Cryptocurrency",
+        "title": "6. Buying Cryptocurrency",
         "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/06-main-l.png",
         "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/6-buying-cyrptocurrency-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "Spending Cryptocurrency",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/06-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/6-buying-cyrptocurrency-basics.md",
-        "updated_at": "01-06-2020"
-      },
-      {
-        "title": "Transactions",
+        "title": "7. Spending Cryptocurrency",
         "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/07-main-l.png",
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/6-buying-cyrptocurrency-basics.md",
+        "updated_at": "01-06-2020"
+      },
+      {
+        "title": "8. Transactions",
+        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/08-main-l.png",
         "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/7-transactions-basics.md",
         "updated_at": "01-06-2020"
       }
