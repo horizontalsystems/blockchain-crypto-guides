@@ -41,13 +41,13 @@
       {
         "title": "7. Spending Cryptocurrency",
         "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/07-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/6-buying-cyrptocurrency-basics.md",
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/7-sepnding-cyrptocurrency.md",
         "updated_at": "01-06-2020"
       },
       {
         "title": "8. Transactions",
         "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/08-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/7-transactions-basics.md",
+        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/8-transactions-basics.md",
         "updated_at": "01-06-2020"
       }
     ]
@@ -57,13 +57,13 @@
     "guides": [
       {
         "title": "Bitcoin in Simple Terms",
-        "image_url": "(https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-Main-l.png)",
+        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-Main-l.png",
         "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/bitcoin.md",
         "updated_at": "01-06-2020"
       },
       {
         "title": "Ethereum in Simple Terms",
-        "image_url": "(https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-Main-l.png)",
+        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-Main-l.png",
         "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/ethereum.md",
         "updated_at": "01-06-2020"
       },
