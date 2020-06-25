@@ -32,7 +32,7 @@ So, Ethereum platform is well suited for any type of service where reliability a
 
 For example, a lottery or voting app built on Ethereum cannot cheat. These apps are transparent and work exactly as programmed. Anyone with sufficient technical knowledge can check the logic powering these services and confirm there are no workarounds or vulnerabilities. 
 
-Conversely, with a regular lottery or voting apps, there is no way of checking the code. You have to place your trust in the developer of the service or some regulatory body.
+Conversely, with a regular lottery or voting apps, there is no way of checking the code. You have to place your trust in the developer of the service or some regulatory body. 
 
 ## 2. Ethereum Blockchain
 
@@ -114,7 +114,7 @@ A smart contract is a piece of code that works on a blockchain to enforce the te
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-smartcontract-l.png)
 
-Every application or service residing on Ethereum or alike blockchain essentially consists of smart contracts. 
+Every application or service residing on Ethereum or alike blockchain essentially consists of smart contracts.
 
 If someone decides to build a lottery on Ethereum it would be basically a set of smart contracts interacting with each other.
 
@@ -202,48 +202,81 @@ Basic Attention Token (BAT) is the native token powering the Brave advertising p
 
 The BAT token integrated into the privacy-focused Brave web browser which is currently used by [over 8 million](https://brave.com/brave-reaches-8-million-monthly-active-users-and-delivers-nearly-400-privacy-preserving-ad-campaigns/) people per month. 
 
-To sum up, a DApp can take many forms. The versatility of the Ethereum blockchain and its native programming language, Solidity, attracts a lot of engineers and entrepreneurs.
+To sum up, a DApp can take many forms and all of that happened in just 5-6 years.
 
+The versatility of the Ethereum blockchain and its native programming language, Solidity, attracts a lot of engineers, entrepreneurs and investments.
 
-
-
-+++++++++++++++git
-
-
-
-
-## Interacting With DApps
-
-Most of the DApps built on Ethereum blockchain are financial services. These services use Ether or some other Ethereum-based tokens. 
-
-At this point the smart contracts powering these financial services cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value.
+Most of the popular DApps on Ethereum blockchain are currently financial services. Ethereum based financial services cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value.
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-billion-l.png)
 
+Accessing these services and interacting with them on a comfortable level is still a bit problematic though.
 
+Engineers worldwide are currently building user facing smartphone apps or websites for various DApps residing on Ethereum blockchain. There is a lot of engineering activity in that sector now.
 
-## Ethereum Privacy Explained
+A non-custodial cryptocurrency wallet is an example of such app.
 
-In the case of Bitcoin blockchain the address for receiving payments can change (but don’t have to) with each transaction. Keeping privacy in mind, most Bitcoin wallets generate a new address after each incoming payment making it considerably more difficult to connect two different transactions to a single party.
+## 8. Ethereum Problems
 
-When it comes to Ethereum blockchain your address to receive Ether payments will always be the same. Nearly all Ethereum wallets work this way nowadays. This is likely to change in the future but for the time being that’s how most Ethereum wallets work. The wallets generate and use a single Ethereum address. There are other technical reasons for that.
-The balance and transactions originating to/from specific payment addresses are stored in a visible manner on Ethereum blockchain.
+Just like Bitcoin, Ethereum has its own challenges. There are issues that can inhibit its future growth.
 
-The key takeaway point here is that Ethereum blockchain is fully transparent allowing anyone to see all incoming/outgoing transactions for the given payment address. On the other hand, when it comes to Bitcoin blockchain the relationship between transactions breaks when a user uses a new payment address for each incoming payment. 
+- Ethereum is slow
 
-As a result, in its current state, Bitcoin transactions in wallets provide users with more privacy than Ethereum transactions in that same wallet. 
+    The underlying blockchain powering Ethereum can't currently process more than a few million transactions per day. While this aspect is being addressed on various fronts we are yet to see a widely adopted solution.
 
-The only thing that adds some minimal privacy element into the mix is the fact there is no way to check who that address belongs to. On the other hand, when you’re sending/receiving Ether, keep in mind that the other party can look up your balance as well as history of incoming/outgoing payments to/from that address.
-With enough time and resources, someone could feasibly link certain transactions to individual users. If one of the cryptocurrency exchanges gets hacked and hackers get their hands on user data, this would potentially mean that someone can map Ethereum payment addresses to real world identities.
+- Ethereum is complicated
+
+    Ethereum is still fairly complicated to grasp for newcomers. A lot of people find the entry step to Ethereum and other cryptocurrencies fairly complex. There is a barrier.
+
+- Lack of adoption
+
+    These days Ethereum mainly used as an instrument for speculative trading rather than a platform for decentralized finance.
+
+- Lack of privacy
+    
+    Ethereum is not private. If you send someone Ether or any other ethereum based token then the recipient can potentially see your balance and transaction history.
+
+## 9. Storage & Usage
+
+When you're ready to get involved with holding Ethereum or Ethereum-based tokens you're welcome to check out following guides:
+
+1. Cryptocurrency Basics
+2. Wallet Basics
+3. Private Keys Explained
+4. Safe Storage Tips
+5. Unstoppable Wallet
+6. Buying Cryptocurrency
+7. Spending Cryptocurrency
+8. Transactions Explained
+
+## 10. Ethereum Privacy
+
+In the case of Bitcoin blockchain the address for receiving payments can change (but don’t have to) with each transaction. 
+
+Most Bitcoin wallets generate a new address after each incoming payment making it considerably more difficult to connect two different transactions to a single party.
+
+> When it comes to Ethereum blockchain your address to receive Ether payments will always be the same. Nearly all Ethereum wallets work this way nowadays. 
+
+This is likely to change, but for the time being most wallets and use a single Ethereum address. 
+
+That address becomes your ID when you interact with smart contracts on Ethereum blockchain.
+
+The balance and transactions belonging to specific payment addresses are openly available for anyone on Ethereum blockchain.
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-tx-l.png)
 
-Time to Begin Your Ethereum Journey
-You've reached the beginning of your Ethereum journey. The knowledge you've amassed in this short Ethereum guide will hold you in good stead for your first steps into the world of Ethereum, and other cryptocurrencies, too. 
-As one final note, please understand that this isn't a comprehensive guide. Ethereum is a vast subject, and cryptocurrency and blockchain even more. However, you can use the information in this guide as your stepping stone onto bigger and greater things in the burgeoning world of cryptocurrency.
-Thank you for reading. 
-## Ethereum Is Independent
+Ethereum blockchain is fully transparent allowing anyone to see all incoming/outgoing transactions for the given payment address. 
 
-// controls
-// censorship
-// survival
+> So when you transact with Ether, keep in mind that the other party can look up your balance as well as history of incoming/outgoing payments to/from that address.
+
+The only thing that adds some minimal privacy element into the mix is the fact there is no way to check who that address belongs to. 
+
+With enough time and resources, someone could feasibly link certain transactions to individual users. 
+
+If one of the cryptocurrency exchanges gets hacked and hackers get their hands on user data, this would mean someone can map Ethereum payment addresses to real world identities.
+
+## Conclusion
+
+You've reached the beginning of your Ethereum journey. The knowledge you've amassed in this short Ethereum guide will hold you in good stead for your first steps into the world of Ethereum, and other cryptocurrencies, too. 
+
+As one final note, please understand that this isn't a comprehensive guide. Ethereum is a vast subject, and cryptocurrency and blockchain even more. However, you can use the information in this guide as your stepping stone onto bigger and greater things in the burgeoning world of cryptocurrency.
