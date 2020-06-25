@@ -61,6 +61,16 @@ While the actual history of records is not that special in itself, when it's put
    
 So, blockchains are a lot more than just plain history of records. The technology opened up ways for a society to organize and exchange in ways that previously required a third party to operate.
 
+## Blockchains Are Free
+
+Generally speaking, blockchains have open source code making it possible for anyone to reuse it for whatever purpose. Both Bitcoin and Ethereum are open source.
+
+Thousands of engineers worldwide work on improving these blockchains and others like them. Major blockchains are constant work in progress and tend to attract more engineers.
+
+As a result these blockchains become less dependent on a single party. While most blockchains were created by a small group of people at first, the major blockchain projects now are driven by a large group of independent engineers.
+
+It's impossible for any party to shut down compromise or censor the blockchain network like Bitcoin or Ethereum.
+
 ## Cryptocurrencies Explained
 
 Now when you're familiar with the concept of blockchains lets try to understand the basic nature of cryptocurrency.
