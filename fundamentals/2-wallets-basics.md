@@ -6,7 +6,7 @@ By its very nature cryptocurrency gives the owner capabilities that are not avai
 
 It's vital for someone to understand what these capabilities are, and the responsibilities that come with them.
 
-When dealing with traditional financial instruments such us deposits in the bank accounts (or stocks with the broker) there is a notion of someone keeping assets on behalf of the user. The entity that keeps funds acts as a custodian of the assets.
+When dealing with traditional financial instruments such as bank deposits (or stocks with the broker) there is a notion of someone keeping assets on behalf of the user. The entity that keeps funds acts as a custodian of the assets.
 
 When dealing with cryptocurrencies the owner of the funds is generally the entity that controls those funds.
 
@@ -24,7 +24,7 @@ These blockchains are separate entities and not really related although might be
 
 The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet. 
 
-> The ownership in cryptocurrency means the ownership of special cryptographic key which has a power to spend a certain amount of crypto. 
+> The ownership in cryptocurrency means the ownership of special cryptographic key which has a power to spend a certain amount of cryptocurrency. 
 
 So, when someone says s/he has 5 Bitcoins what this essentially means is that this person is in the possession of the cryptographic key that can spend 5 Bitcoins.
 
