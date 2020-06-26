@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-main-l.png)
+
 # Bitcoin In Simple Terms
 
 Crypto newcomers have a mountain of questions. 
@@ -59,6 +61,8 @@ Bitcoins are limited and scarce. Eventually, there will be 21 million Bitcoins i
 - The Bitcoin network will create the remaining three million Bitcoins over the next 130 years in the manner described above.
 
 - No single entity controls the release of new Bitcoins into circulation. It's an automated process that's regulated by algorithms. The algorithms were coded into Bitcoin at the start of its existence.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-numbers-l.png)
 
 It's estimated that about four million Bitcoins have been already "lost." Typically, coins are lost because users have lost the wallets with Bitcoins on them without having a backup. 
 
@@ -151,6 +155,8 @@ The technology seeks to provide a solution to some major socioeconomic and geopo
 
 Unlike traditional financial instruments, which are generally imposed by governments or other centralized organizations, the core driving force of Bitcoin is its global community. 
 
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-vs-p.png)
+
 In the face of modern-day problems like money printing, currency debasements, over-regulation, sanctioning, more people are moving towards Bitcoin. That trend in Bitcoin's popularity is likely to continue. 
 
 A widespread availability of cryptocurrency exchanges amid economic issues worldwide made it easier for people to acquire Bitcoins.
@@ -171,7 +177,10 @@ Yes, lawmakers can make it more difficult for people to participate in the netwo
 
 Taking down the Bitcoin network would be more difficult than taking down the entire internet. 
 
-While modern-day regulators are able to censor what is being seen on search engines, YouTube, or in mainstream media, censoring access to Bitcoin network is a new level of complexity.
+While modern-day regulators are able to censor what is being seen on search engines, YouTube, or in mainstream media, censoring access to Bitcoin network is a new 
+level of complexity.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-stop-l.png)
 
 The only way for the Bitcoin network to cease having any meaningful value is for everyone to stop using it. Such an outcome would only realistically occur if someone discovered an irreparable fundamental flaw in the code powering the Bitcoin network.
 
@@ -208,6 +217,8 @@ You can subdivide the various cryptocurrencies in following groups:
 - There is a number of major cryptocurrencies which represent all-purpose blockchains that go beyond payment transfers. The most notable examples are Ethereum and EOS cryptocurrencies.
 
 - Finally, the largest segment of cryptocurrencies are known as tokens which are created on a blockchain like Ethereum. There are a number of widely used tokens which are created and successfully operate on top of Ethereum blockchain.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-fork-l.png)
 
 The original Bitcoin---created by Nakamoto---has the ticker symbol BTC. It's generally referred to as Bitcoin, or Bitcoin classic. You might also see it called Bitcoin Core, which is the name of the program used to run a Bitcoin node on a computer. 
 
@@ -280,6 +291,8 @@ On a practical level, apart from the difference in transaction fees there is jus
 > 
 > To restore that wallet in future, it should be restored in a same wallet app or the one that claims to support the address format of the Bitcoin wallet.
 
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-addresses-l.png)
+
 In that regard, the [Unstoppable wallet](https://unstoppable.money) is able to both create and restore wallets operating in any of the three available address formats.
 
 ## 12. Bitcoin Privacy 
@@ -293,6 +306,8 @@ Bitcoin is semi-private. Although all transactions in the Bitcoin network are pu
 - if the user always used the same address for incoming transactions, anyone could lookup all those different transactions on a blockchain and see that recipient is the same person.
 
 - if the wallet user uses a new address for each new transaction, then linking various different transactions to the same entity becomes impossible.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-Privacy-l.png)
 
 Remember, this is an entry-level guide. It is not a complete picture of Bitcoin's privacy features. 
 
