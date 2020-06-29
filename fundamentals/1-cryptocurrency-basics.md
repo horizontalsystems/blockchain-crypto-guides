@@ -83,9 +83,13 @@ For instance:
 
 - Bitcoin cryptocurrency is a native unit of measurement on the Bitcoin blockchain. It's denoted by a 'BTC' symbol. A single unit of Bitcoin is divisible into 100 million sub-units called Satoshi. By design Bitcoin blockchain caps the total amount to 21 million Bitcoins. The Bitcoin blockchain limited in the type of records it can store, mostly records of Bitcoin transactions from one address to another.
 
-- Ether cryptocurrency is a native unit of measurement on Ethereum blockchain, denoted by a 'ETH' symbol. A single unit of Ethereum consists of 100,000,000,000,000,000 wei. Unlike the Bitcoin, Ethereum blockchain doesn't cap the amount of Ethers that can potentially exist on the blockchain. Ethereum blockchain doesn't put any limitations in a type of records it can hold. 
+- Ether cryptocurrency is a native unit of measurement on Ethereum blockchain, denoted by a 'ETH' symbol. A single unit of Ethereum consists of 100,000,000,000,000,000 wei. Unlike the Bitcoin, Ethereum blockchain doesn't cap the amount of Ethers that can potentially exist on the blockchain. Ethereum blockchain doesn't put any limitations in a type of records it can hold.
 
 Some blockchains like Ethereum enable ways to create your own 'units of something' for whatever purpose. These are often referred to as cryptocurrency tokens and can be used for various purposes as will be shown later.
+
+Tokens make up 80-90% of [all cryptocurrencies](https://coinmarketcap.com) out there.
+
+The Ethereum blockchain is usually preferred blockchain platform for creating cryptocurrency tokens.
 
 ### How Cryptocurrencies Grow
 

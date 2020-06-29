@@ -58,7 +58,7 @@ Every node individually validates every transaction, ensuring only legitimate tr
     
 Cumulatively, Ethereum nodes guarantee the openness, availability, decentralization, and security of the Ethereum network. 
 
-## 3. Ethereum Currency
+## 3. Ether Currency
 
 Just like Bitcoin blockchain, Ethereum blockchain has it own native cryptocurrency known as Ether, denoted by symbol ETH.
 
@@ -202,11 +202,13 @@ Basic Attention Token (BAT) is the native token powering the Brave advertising p
 
 The BAT token integrated into the privacy-focused Brave web browser which is currently used by [over 8 million](https://brave.com/brave-reaches-8-million-monthly-active-users-and-delivers-nearly-400-privacy-preserving-ad-campaigns/) people per month. 
 
-To sum up, a DApp can take many forms and all of that happened in just 5-6 years.
+To sum up, a DApp can take many forms and usually has its own token used for governance, voting etc.
 
 The versatility of the Ethereum blockchain and its native programming language, Solidity, attracts a lot of engineers, entrepreneurs and investments.
 
-Most of the popular DApps on Ethereum blockchain are currently financial services. Ethereum based financial services cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value.
+A large chunk of all cryptocurrencies out there are essentially tokens belonging to some kind of Ethereum based service or a project.
+
+Most of the popular services on Ethereum blockchain are currently financial services. Ethereum based financial services cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value.
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-billion-l.png)
 
@@ -216,27 +218,23 @@ Engineers worldwide are currently building user facing smartphone apps or websit
 
 A non-custodial cryptocurrency wallet is an example of such app.
 
-## 8. Ethereum Problems
+## 7. Ethereum Problems
 
 Just like Bitcoin, Ethereum has its own challenges. There are issues that can inhibit its future growth.
 
-- Ethereum is slow
+- Slow
 
-    The underlying blockchain powering Ethereum can't currently process more than a few million transactions per day. While this aspect is being addressed on various fronts we are yet to see a widely adopted solution.
+    The underlying blockchain powering Ethereum can't currently process more than a few million transactions per day. There is a great deal of active work being done worldwide trying to scale the Ethereum blockchain.
 
-- Ethereum is complicated
+- Complicated
 
-    Ethereum is still fairly complicated to grasp for newcomers. A lot of people find the entry step to Ethereum and other cryptocurrencies fairly complex. There is a barrier.
-
-- Lack of adoption
-
-    These days Ethereum mainly used as an instrument for speculative trading rather than a platform for decentralized finance.
+    Ethereum is still fairly complicated to grasp for newcomers. A lot of people find it difficult to grasp the application of Ethereum blockchain beyond payment transfers. The decentrazlied financial applications 
 
 - Lack of privacy
     
     Ethereum is not private. If you send someone Ether or any other ethereum based token then the recipient can potentially see your balance and transaction history.
 
-## 9. Storage & Usage
+## 8. Storage & Usage
 
 When you're ready to get involved with holding Ethereum or Ethereum-based tokens you're welcome to check out following guides:
 
@@ -249,7 +247,7 @@ When you're ready to get involved with holding Ethereum or Ethereum-based tokens
 7. Spending Cryptocurrency
 8. Transactions Explained
 
-## 10. Ethereum Privacy
+## 9. Ethereum Privacy
 
 In the case of Bitcoin blockchain the address for receiving payments can change (but don’t have to) with each transaction. 
 
