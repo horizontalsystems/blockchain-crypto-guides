@@ -6,7 +6,7 @@ The aim of this guide is to onboard someone with little knowledge about cryptocu
 
 Cryptocurrencies are powered by a number of technologies, but primarily a blockchain technology. 
 
-> The blockchain technology used in cryptocurrency like Bitcoin was designed in a way where doing anything outside the scope of agreed rules becomes impossible.
+**The blockchain technology used in cryptocurrency like Bitcoin was designed in a way where doing anything outside the scope of agreed rules becomes impossible.**
 
 When using a product built on top of such blockchain following statements hold true:
 
