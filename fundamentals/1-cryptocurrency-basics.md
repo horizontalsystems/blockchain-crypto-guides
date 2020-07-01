@@ -21,7 +21,7 @@ At the time being, a large chunk of financial, legal and governmental agencies e
 
 Should the blockchain technology continue to grow these services are likely to be automated and ported over to a blockchain.
 
-> The first generation of blockchain-based products like Bitcoin aim to deliver a financial platform for value exchange without the need for a system to rely on intermediaries such as banks. 
+**The first generation of blockchain-based products like Bitcoin aim to deliver a financial platform for value exchange without the need for a system to rely on intermediaries such as banks.**
 
 The Bitcoin is the first product where the idea of blockchain was applied to challenge areas currently controlled by the present day monetary system.
 
@@ -29,31 +29,31 @@ The Bitcoin is the first product where the idea of blockchain was applied to cha
 
 So, what is a blockchain? While so many definitions make it sound complicated it's fairly simple in reality.
 
-> Without going technical, think about a blockchain as a chronological history of records.
->
-> It can be a history of transactions, a history of votes submitted by electorates etc. 
+**Without going technical, think about a blockchain as a chronological history of records.**
+
+**It can be a history of transactions, a history of votes submitted by electorates etc.**
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-02-l.png)
 
 While the actual history of records is not that special in itself, when it's put on a blockchain it gains certain attributes that make it socially valuable. These attributes are:
 
-* Distributed Nature
+**Distributed Nature**
 
     Instead of being held in one centralized location, the blockchain allows for the 'history of records' to be held in thousands or millions of locations at the same time. Every copy connected to the internet gets updated in close to real time.   
 
-* Peer-to-peer Transmission
+**Peer-to-peer Transmission**
 
     Anyone can add new records to a global 'history of records' by communicating with any entity out of thousands that keeps the records. This ensures availability 24/7 and unconditional access to participation.  
 
-* Transparency & Pseudonymity
+**Transparency & Pseudonymity**
 
     Blockchains are generally transparent where the entire 'history of records' is public and accessible for anyone for scrutiny. While all records are public the entities involved in those records are masked. Any third party can see what's taking place but can't tell who exactly was involved.
 
-* Irreversibility Of Records
+**Irreversibility Of Records**
 
     The blockchains are designed in a way where after an action took place it's impossible to change it. This ensures that no entity is able to change something in the history of records.
 
-* Business Logic
+**Business Logic**
 
     In our 'history of records' example we might have unintentionally assumed that these records are of specific type like "User1 paid User2 X bitcoins". The present day blockchain technologies allow adding conditional logic to records. Instead of regular 'A paid B x bitcoins' it can have a record like 'A paid B x bitcoins, but B can't spend them for 10 years'.
 
@@ -79,7 +79,7 @@ Cryptocurrencies are units of something on a blockchain. Depending on the charac
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-04-l.png)
 
-For instance:
+**For instance:**
 
 - Bitcoin cryptocurrency is a native unit of measurement on the Bitcoin blockchain. It's denoted by a 'BTC' symbol. A single unit of Bitcoin is divisible into 100 million sub-units called Satoshi. By design Bitcoin blockchain caps the total amount to 21 million Bitcoins. The Bitcoin blockchain limited in the type of records it can store, mostly records of Bitcoin transactions from one address to another.
 
@@ -99,7 +99,7 @@ Some cryptocurrencies are unique in the way the underlying blockchain is built. 
 
 In that regard, the duplicate won't really be any different from original substantially except for the size of the network.
 
-> A size of the underlying network is what makes one cryptocurrency more valuable than the other.
+**A size of the underlying network is what makes one cryptocurrency more valuable than the other.**
 
 A simple way to think about the size of the network is looking at the number of people interacting with the blockchain. 
 
@@ -113,15 +113,15 @@ A good example to illustrate this is the Bitcoin blockchain.
 
 The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a small group of people managed to attract millions of people over the years. 
 
-> Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.
->
-> At the same time, even more people participate in the Bitcoin ecosystem as engineers building services for the ecosystem.
+**Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.**
+
+**At the same time, even more people participate in the Bitcoin ecosystem as engineers building services for the ecosystem.**
 
 Nowadays, Bitcoin both global and censorship-resistant platform that is open to all. Any entity can build a service operating on top of Bitcoin blockchain.
 
 The fact that Bitcoin and alike platforms are open and permission-less means anyone can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. 
 
-> The bigger the network for a blockchain platform is, the more attractive it's for the service providers. 
+**The bigger the network for a blockchain platform is, the more attractive it's for the service providers.**
 
 So, along with the above mentioned blockchain attributes the key element to valuing blockchain is its network size. 
 
