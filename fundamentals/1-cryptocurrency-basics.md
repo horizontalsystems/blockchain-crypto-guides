@@ -6,7 +6,7 @@ The aim of this guide is to onboard someone with little knowledge about cryptocu
 
 Cryptocurrencies are powered by a number of technologies, but primarily a blockchain technology. 
 
-_**The blockchain technology used in cryptocurrency like Bitcoin was designed in a way where doing anything outside the scope of agreed rules becomes impossible.**_
+>_**The blockchain technology used in cryptocurrency like Bitcoin was designed in a way where doing anything outside the scope of agreed rules becomes impossible.**_
 
 When using a product built on top of such blockchain following statements hold true:
 
@@ -21,7 +21,7 @@ At the time being, a large chunk of financial, legal and governmental agencies e
 
 Should the blockchain technology continue to grow these services are likely to be automated and ported over to a blockchain.
 
-_**The first generation of blockchain-based products like Bitcoin aim to deliver a financial platform for value exchange without the need for a system to rely on intermediaries such as banks.**_
+>_**The first generation of blockchain-based products like Bitcoin aim to deliver a financial platform for value exchange without the need for a system to rely on intermediaries such as banks.**_
 
 The Bitcoin is the first product where the idea of blockchain was applied to challenge areas currently controlled by the present day monetary system.
 
@@ -29,9 +29,9 @@ The Bitcoin is the first product where the idea of blockchain was applied to cha
 
 So, what is a blockchain? While so many definitions make it sound complicated it's fairly simple in reality.
 
-_**Without going technical, think about a blockchain as a chronological history of records.**_
-
-_**It can be a history of transactions, a history of votes submitted by electorates etc.**_
+>_**Without going technical, think about a blockchain as a chronological history of records.**_
+>
+>_**It can be a history of transactions, a history of votes submitted by electorates etc.**_
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-02-l.png)
 
@@ -113,7 +113,7 @@ A good example to illustrate this is the Bitcoin blockchain.
 
 The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a small group of people managed to attract millions of people over the years. 
 
-_**Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.**_
+>_**Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.**_
 
 _**At the same time, even more people participate in the Bitcoin ecosystem as engineers building services for the ecosystem.**_
 
@@ -121,7 +121,7 @@ Nowadays, Bitcoin both global and censorship-resistant platform that is open to 
 
 The fact that Bitcoin and alike platforms are open and permission-less means anyone can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. 
 
-_**The bigger the network for a blockchain platform is, the more attractive it's for the service providers.**_
+>_**The bigger the network for a blockchain platform is, the more attractive it's for the service providers.**_
 
 So, along with the above mentioned blockchain attributes the key element to valuing blockchain is its network size. 
 
