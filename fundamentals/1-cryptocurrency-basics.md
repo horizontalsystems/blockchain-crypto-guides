@@ -115,7 +115,7 @@ The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a s
 
 >_**Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.**_
 
-_**At the same time, even more people participate in the Bitcoin ecosystem as engineers building services for the ecosystem.**_
+>_**At the same time, even more people participate in the Bitcoin ecosystem as engineers building services for the ecosystem.**_
 
 Nowadays, Bitcoin both global and censorship-resistant platform that is open to all. Any entity can build a service operating on top of Bitcoin blockchain.
 
