@@ -37,23 +37,23 @@ So, what is a blockchain? While so many definitions make it sound complicated it
 
 While the actual history of records is not that special in itself, when it's put on a blockchain it gains certain attributes that make it socially valuable. These attributes are:
 
-**Distributed Nature**
+- **Distributed Nature**
 
     Instead of being held in one centralized location, the blockchain allows for the 'history of records' to be held in thousands or millions of locations at the same time. Every copy connected to the internet gets updated in close to real time.   
 
-**Peer-to-peer Transmission**
+- **Peer-to-peer Transmission**
 
     Anyone can add new records to a global 'history of records' by communicating with any entity out of thousands that keeps the records. This ensures availability 24/7 and unconditional access to participation.  
 
-**Transparency & Pseudonymity**
+- **Transparency & Pseudonymity**
 
     Blockchains are generally transparent where the entire 'history of records' is public and accessible for anyone for scrutiny. While all records are public the entities involved in those records are masked. Any third party can see what's taking place but can't tell who exactly was involved.
 
-**Irreversibility Of Records**
+- **Irreversibility Of Records**
 
     The blockchains are designed in a way where after an action took place it's impossible to change it. This ensures that no entity is able to change something in the history of records.
 
-**Business Logic**
+- **Business Logic**
 
     In our 'history of records' example we might have unintentionally assumed that these records are of specific type like "User1 paid User2 X bitcoins". The present day blockchain technologies allow adding conditional logic to records. Instead of regular 'A paid B x bitcoins' it can have a record like 'A paid B x bitcoins, but B can't spend them for 10 years'.
 
