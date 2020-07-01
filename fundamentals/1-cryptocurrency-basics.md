@@ -99,7 +99,7 @@ Some cryptocurrencies are unique in the way the underlying blockchain is built. 
 
 In that regard, the duplicate won't really be any different from original substantially except for the size of the network.
 
-_**A size of the underlying network is what makes one cryptocurrency more valuable than the other.**_
+>_**A size of the underlying network is what makes one cryptocurrency more valuable than the other.**_
 
 A simple way to think about the size of the network is looking at the number of people interacting with the blockchain. 
 
