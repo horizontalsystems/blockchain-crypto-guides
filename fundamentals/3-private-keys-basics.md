@@ -8,9 +8,9 @@ As we have explained, genuine cryptocurrency wallets store cryptographic keys th
 
 From that cryptographic key the wallet app can understand the amount of cryptocurrency user owns as well as past transactions. This cryptographic key is usually referred to as private key. 
 
-> The wallet app is an instrument that essentially stores your private key. This private key is what gives you control over certain amount of cryptocurrency.
+> _**The wallet app is an instrument that essentially stores your private key. This private key is what gives you control over certain amount of cryptocurrency.**_
 >
-> The non-custodial wallet app uses private key to retrieve balance and past transactions from the blockchain.
+> _**The non-custodial wallet app uses private key to retrieve balance and past transactions from the blockchain.**_
 
 To keep this guide simple we are not going to explain how the private keys work under the hood. Just know that a term private key usually refers to a cryptographic key we talked about earlier.
 
@@ -20,9 +20,9 @@ Below, we are going to be looking a bit deeper into security aspects to give you
 
 Quite often scammers (by impersonating wallet support teams) trick users into sharing their private keys. When the user shares the key the scammer steals the funds on the balance. 
 
-> There is absolutely no valid reason for you as a wallet app user to ever share the private keys with anyone. This applies to all wallets.
+> _**There is absolutely no valid reason for you as a wallet app user to ever share the private keys with anyone. This applies to all wallets.**_
 >
-> Never reveal your private key to anyone, even when you're communicating with people who built your wallet app.
+> _**Never reveal your private key to anyone, even when you're communicating with people who built your wallet app.**_
 
 You may reveal your private key to someone only when you intentionally want to pass the ownership of your funds to that person.
 
