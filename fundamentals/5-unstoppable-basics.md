@@ -18,11 +18,11 @@ Moving forward, we are going to focus on the needs of users looking to invest in
 
 We are going to use Unstoppable non-custodial wallet to illustrate things you should know when interacting with wallets.
 
-> _**Disclaimer:
+> _**Disclaimer:**_
 >
-> The [Unstoppable Wallet](https://unstoppable.money) was specifically build for the active investor in crypto ecosystem.
+> _**The [Unstoppable Wallet](https://unstoppable.money) was specifically build for the active investor in crypto ecosystem.**_
 > 
-> This wallet is build by [Horizontal Systems](https://horizontalsystems.io), the company behind these guides.**_
+> _**This wallet is build by [Horizontal Systems](https://horizontalsystems.io), the company behind these guides.**_
 
 Below are key features the investor-type users should expect from their wallet app.
 
@@ -103,17 +103,17 @@ When it comes to non-custodial wallets, the privacy aspect has many sides and ma
 
 Certain points should be taken into consideration when evaluating non-custodial wallet for privacy features:
 
-- Basic User Data 
+- **Basic User Data**
     
     Depending on how the wallet built, it may be possible for the wallet provider to know some non identifiable data like the user's IP address and location. When that data kept on some server there is always a risk of leak.
     
-- Balance and Transactions
+- **Balance and Transactions**
 
     Non-custodial wallets allow users to restore existing wallets via private keys. Generally, wallet providers keep a special blockchain server to server those users. While this method is convenient for wallet providers it potentially means that wallet provider may to some extent know the balance and transaction history.
     
     To address the issue above, some wallets like Unstoppable support restoring from the blockchain network rather than some specific server. This ensures that wallet provider has no clue about balance or transactions.
     
-- Blockchain Privacy
+- **Blockchain Privacy**
 
     Different blockchains provide varying level of privacy depending on hwo that blockchain is built. 
     

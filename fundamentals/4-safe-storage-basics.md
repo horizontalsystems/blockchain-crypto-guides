@@ -119,15 +119,15 @@ While your crypto remains relatively small (ex: < $10,000) stick to standard sec
 
 For instance, someone may start with a single wallet with an initial crypto capital valued at $10,000. As the value of the capital grows the user may move to a tiered approach as below.
 
-- Generic Wallet
+- **Generic Wallet**
 
     Mobile or a desktop non-custodial wallet that always with you and stores smaller amounts for all-purpose transactions. 
     
-- Investment Wallet
+- **Investment Wallet**
 
     Mobile non-custodial wallet that keeps the capital meant for active investments. Will have to be accessed frequently to move funds on a regular basis.
     
-- Storage Wallet
+- **Storage Wallet**
 
     Hardware wallet that holds crypto meant for long term storage. Accessed rarely.
     

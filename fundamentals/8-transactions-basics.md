@@ -12,13 +12,13 @@ In this section we'll go over the essentials to give you a clear understanding o
 
 The process of Sending and Receiving crypto is pretty much the same on all wallets.
 
-- To Send Crypto
+- **To Send Crypto**
     
     Within your wallet app, look for the option to "send" or the app's equivalent. If the wallet app supports multiple currencies make sure to select the correct cryptocurrency.
     
     Enter the amount, the address of the recipient, the transaction fee (more on that below) and click on the send button.
     
-- To Receive Crypto
+- **To Receive Crypto**
 
     Open the wallet app and look for the option to "receive" or the app's equivalent. As mentioned earlier if the app supports multiple cryptocurrencies make sure you're copying the address for the right coin.
     
@@ -28,7 +28,7 @@ The process of Sending and Receiving crypto is pretty much the same on all walle
 
 Cryptocurrency transactions are not instant. For some cryptocurrencies it takes a second while for other it may easily span a few hours.
 
-> -**Note that this mainly applies to non-custodial wallets as those wallets communicate with the blockchain directly.**_ 
+> _**Note that this mainly applies to non-custodial wallets as those wallets communicate with the blockchain directly.**_
 >
 > _**The custodial wallets will usually process transactions instantly as you're not really dealing with the blockchain directly.**_
 
@@ -58,9 +58,9 @@ When transacting using non-custodial wallet transactions will go through followi
 
 When sending cryptocurrencies the sender is expected to pay a transaction fee. That fee goes as compensation to one of the blockchain nodes which adds your transaction to the blockchain.
 
-> _**You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction shortly after it's sent but only one of them will ultimately add it to a blockchain. 
+> _**You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction shortly after it's sent but only one of them will ultimately add it to a blockchain.**_ 
 >
-> That one node will get the fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee paid to the network.**_
+> _**That one node will get the fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee paid to the network.**_
 
 Depending on the cryptocurrency you're sending the transaction fees may vary. For some blockchains the fee may be as low as a fraction of a cent, for other like Bitcoin it can easily exceed 1$.
 
@@ -70,9 +70,9 @@ The fee amount depends on how busy the underlying blockchain is. If on a given d
 
 In such cases, the transaction fee is what gives one transaction a priority against other currently pending transaction. If the fee is far below the network average your transaction may remain pending in queue for hours, if it's well above the average expect it to be added to the blockchain in the next batch.
 
-> _**Keep in mind, if transaction remains pending for a few days due to a low fee it may be rejected (as it was never sent).
+> _**Keep in mind, if transaction remains pending for a few days due to a low fee it may be rejected (as it was never sent).**_
 >
-> If you have a pending transaction that taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**_
+> _**If you have a pending transaction that taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**_
 
 Some wallets out there would recommend the optimal transaction fee amount taking into account the current state of activity on the network.
 
