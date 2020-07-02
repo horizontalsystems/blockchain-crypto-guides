@@ -24,7 +24,9 @@ These blockchains are separate entities and not really related although might be
 
 The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet. 
 
-> The ownership in cryptocurrency means the ownership of special cryptographic key which has a power to spend a certain amount of cryptocurrency. 
+> _**The ownership in cryptocurrency means the ownership of special cryptographic key which has a power to spend a certain amount of cryptocurrency.**_
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/02-01-l.png)
 
 So, when someone says s/he has 5 Bitcoins what this essentially means is that this person is in the possession of the cryptographic key that can spend 5 Bitcoins.
 
@@ -34,7 +36,7 @@ So, the takeaway point here is that the ownership of certain amount of crypto ba
 
 Under the hood they key may look something like this:
 
-> 5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF
+> _**5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF**_
 
 Revealing the cryptographic key to someone or loosing it essentially means loosing access to the crypto it controls. Note that it's impossible for someone(even the most powerful computer in the world) to guess that key, even if it tries to do it over a billion years. 
 
@@ -46,7 +48,7 @@ In practical terms, the private key can be thought of as a secure alternative to
 
 Cryptocurrency wallets are merely the instruments meant to hold and manage cryptographic keys. 
 
-> The wallets do not physically store cryptocurrencies, instead wallets store cryptographic keys which can exercise over certain amount of cryptocurrencies.
+>_**The wallets do not physically store cryptocurrencies, instead wallets store cryptographic keys which can exercise over certain amount of cryptocurrencies.**_
 
 Genuine cryptocurrency wallets enable safe and private storage of cryptographic keys. We deliberately said "genuine" because cryptocurrency wallets come in many forms. 
 
@@ -66,9 +68,9 @@ A non-custodial wallet is theoretically the most secure form of a cryptocurrency
 
 Such wallets known as "trustless" as the user doesn't have to trust any entity with his/her funds. Non-custodial wallets keep the wallet code open to the public for scrutiny.
 
-> Users of non-custodial wallets are expected to have an understanding that the funds are under exclusive control of the user.
+> _**Users of non-custodial wallets are expected to have an understanding that the funds are under exclusive control of the user.**_
 >
-> The user gets full control and responsibility when dealing with crypto assets on the wallet.
+> _**The user gets full control and responsibility when dealing with crypto assets on the wallet.**_
 
 This is the only type of wallet we recommend for safe storage. In the later sections we are going to look deeper into the differences between various non-custodial wallets and risks associated with them.
 
@@ -78,15 +80,15 @@ A custodial wallet does not give the user exclusive control over the crypto fund
 
 Such wallets are the least secure wallets. The users' funds are fully in the hands of the wallet provider. 
 
-> A wallet provider may easily block a user from accessing the wallet or even freeze the funds. 
+> _**A wallet provider may easily block a user from accessing the wallet or even freeze the funds.**_
 > 
-> Unlike banks which also act as a middleman wallet providers are not financial institutions and thus not as regulated. There is a lot of risk for users holding large amount of cryptocurrency on those wallets.
+> **_Unlike banks which also act as a middleman wallet providers are not financial institutions and thus not as regulated. There is a lot of risk for users holding large amount of cryptocurrency on those wallets.**_
 
 Furthermore, custodial wallets are not natively private as the provider knows full transaction history of the user.
 
 Most cryptocurrency exchanges provide users with custodial wallets. So, it's not advised to use those for keeping your crypto holdings for extended periods.
 
-> If you leave crypto funds on cryptocurrency exchange, or any type of custodial wallet, the funds are vulnerable to hacking or other types of data breaches. This happened a lot in the past and likely to keep happening in the future. 
+> _**If you leave crypto funds on cryptocurrency exchange, or any type of custodial wallet, the funds are vulnerable to hacking or other types of data breaches. This happened a lot in the past and likely to keep happening in the future.**_
 
 There is also the question of censorship. When your funds remain on the exchange, the exchange could feasibly freeze funds, restrict your usage, or even block you from your account without warning.
 
@@ -101,6 +103,6 @@ Hybrid wallets are rarer than a custodial or non-custodial wallet and offer a di
 
 The hybrid wallet system protects against hacking infrastructure on the side of wallet provider but opens the door for wallet provider to censor users in certain scenarios.
 
-> To sum up, always use a non-custodial wallet. 
+> _**To sum up, always use a non-custodial wallet.**_ 
 
 When using non-custodial wallet you can be sure the funds are indeed under your control and not dependent on any third party.

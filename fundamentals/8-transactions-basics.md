@@ -28,25 +28,27 @@ The process of Sending and Receiving crypto is pretty much the same on all walle
 
 Cryptocurrency transactions are not instant. For some cryptocurrencies it takes a second while for other it may easily span a few hours.
 
-> Note that this mainly applies to non-custodial wallets as those wallets communicate with the blockchain directly. 
+> -**Note that this mainly applies to non-custodial wallets as those wallets communicate with the blockchain directly.**_ 
 >
-> The custodial wallets will usually process transactions instantly as you're not really dealing with the blockchain directly.
+> _**The custodial wallets will usually process transactions instantly as you're not really dealing with the blockchain directly.**_
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/08-02-l.png)
 
 When transacting using non-custodial wallet transactions will go through following phases:
 
-1. Transaction Is Pending
+1. **Transaction Is Pending**
 
     After the transaction is sent from a wallet, it reaches the underlying blockchain network nearly instantly. Bitcoin transactions sent to Bitcoin network, Ether transactions to Ethereum blockchain etc.
     
     At this stage, both sender and recipient can already monitor the state of transaction in their wallet apps or public blockchain explorer i.e. [blockchair.com](https://blockchair.com).
 
-2. Transaction Gets Confirmed
+2. **Transaction Gets Confirmed**
 
     Given that the transaction is valid, all nodes on that blockchain race to include it to the blockchain. Transactions are added in batches, the duration of that steps vary from one blockchain to another. 
     
     For Bitcoin it can roughly take 10 minutes, for Ethereum about 2-3 minutes etc. A transaction is considered complete after it has been added to the blockchain.
 
-3. Transaction Is Final
+3. **Transaction Is Final**
 
     Once the transaction has been added to the blockchain it can be considered final. That said, for some blockchains it's recommended to wait until a certain number of new blocks added. 
     
@@ -56,9 +58,9 @@ When transacting using non-custodial wallet transactions will go through followi
 
 When sending cryptocurrencies the sender is expected to pay a transaction fee. That fee goes as compensation to one of the blockchain nodes which adds your transaction to the blockchain.
 
-> You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction shortly after it's sent but only one of them will ultimately add it to a blockchain. 
+> _**You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction shortly after it's sent but only one of them will ultimately add it to a blockchain. 
 >
-> That one node will get the fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee paid to the network.
+> That one node will get the fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee paid to the network.**_
 
 Depending on the cryptocurrency you're sending the transaction fees may vary. For some blockchains the fee may be as low as a fraction of a cent, for other like Bitcoin it can easily exceed 1$.
 
@@ -68,9 +70,9 @@ The fee amount depends on how busy the underlying blockchain is. If on a given d
 
 In such cases, the transaction fee is what gives one transaction a priority against other currently pending transaction. If the fee is far below the network average your transaction may remain pending in queue for hours, if it's well above the average expect it to be added to the blockchain in the next batch.
 
-> Keep in mind, if transaction remains pending for a few days due to a low fee it may be rejected (as it was never sent).
+> _**Keep in mind, if transaction remains pending for a few days due to a low fee it may be rejected (as it was never sent).
 >
-> If you have a pending transaction that taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.
+> If you have a pending transaction that taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**_
 
 Some wallets out there would recommend the optimal transaction fee amount taking into account the current state of activity on the network.
 
@@ -90,11 +92,13 @@ Lastly, there are some vital considerations to keep in mind when it comes to tra
 
 Transactions on most blockchains are stored openly. Anyone can see when the transaction was made, amount, and the sender receiver addresses. While a third party can see the addresses involved there is no connection to a real world identity.
 
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/08-03-l.png)
+
 While some privacy focused cryptocurrencies (i.e. Monero) do not reveal any information about the transaction, for the most cryptocurrencies incl. Bitcoin and Ethereum transaction data is stored openly.
 
 Below we are going to specifically look at privacy risks when transacting using Bitcoin and Ethereum.
 
-- Bitcoin Privacy
+- **Bitcoin Privacy**
 
     The Bitcoin wallets built in a way where user can potentially generate millions of addresses which user can use to receive payments within one wallet app. Each payment address can be used once, many times or not used at all. It's up to the user. 
     
@@ -104,7 +108,7 @@ Below we are going to specifically look at privacy risks when transacting using 
     
     So, try to use new receive address for each party you're transacting with.
 
-- Ethereum Privacy
+- **Ethereum Privacy**
 
     As mentioned above, in case of Bitcoin the address for receiving payments can change with each transaction.
 
