@@ -1,136 +1,137 @@
 # Bitcoin Cash In Simple Terms
 
-Bitcoin Cash is a cryptocurrency that is a "fork" of a Bitcoin. It was created out of the Bitcoin blockchain in August, 2017.
+Bitcoin Cash, denoted by a symbol BCH, is a cryptocurrency that is a fork of a Bitcoin. Being a fork means that it was created from the original Bitcoin cryptocurrency. 
 
-While it shares the fundamentals with the Bitcoin (BTC) it's a different cryptocurrency.
+Bitcoin Cash emerged out of the Bitcoin blockchain in August 2017. While it shares the fundamentals with the Bitcoin (BTC) it's a different cryptocurrency.
 
-In this guide we'll explain the process of how Bitcoin Cash came into existence, its relevance to Bitcoin(BTC) and some of its specifics.
+In this guide we'll explain the process of how Bitcoin Cash came into existence, its relevance to Bitcoin(BTC) and how it's different from the original Bitcoin.
 
 > Bitcoin (BTC) and what's now known as Bitcoin Cash (BCH) used to be one cryptocurrency until August 2017.
 
-Right now, despite having some similarities and 'bitcoin' in its names, they represent different cryptocurrencies and traded at different prices.
+Right now, despite having some similarities and 'bitcoin' in its names, represent different cryptocurrencies and traded at different prices.
  
-Each powered by its own blockchain network of servers, with its own user community and engineering resources.
+Each powered by its own blockchain network of servers, has its own community, engineering resources and distinct vision for the future.
+
+In this guide we'll mainly look at how the Bitcoin Cash (BCH) is different from Bitcoin (BTC). As both currencies share fundamentals, it's recommended for you to read our guide on Bitcoin first.
 
 ## 1. Bitcoin Cash Origins
 
-The Bitcoin cash emerged as a result of Bitcoin community's effort to address the blockchain speed issues.
+As you may know by now (from the Bitcoin guide) the Bitcoin blockchain is limited to a few million transactions per day. 
 
-As was previously mentioned, the Bitcoin blockchain is limited to a few million transactions per day.
+For instance, the payment network like Visa alone can process a lot more transactions per day then Bitcoin.
 
-> In its current state, the Bitcoin network can process about 10 transactions per second. On some busy days, it's not uncommon for Bitcoin transactions to remain in pending state for hours. 
+The Bitcoin Cash emerged as a result of the original Bitcoin community trying to find ways to increase that limit.
+ 
+> In its current state, the Bitcoin network can process about 10 transactions per second. On some busy days, it's not uncommon for Bitcoin transactions to remain in pending state for hours, sometimes even days. 
+>
+> Visa network does around 1,700 transactions per second on average and can scale up to [24,000 transactions](https://usa.visa.com/run-your-business/small-business-tools/retail.html) per second.
 
-Back in 2017, when trying to address this issue, prominent engineers and cryptocurrency miners have come up with two solutions to a problem.
+Back in 2017, when trying to address this issue, prominent engineers and entities representing largest Bitcoin miners have come up with two different solutions to a problem.
 
-The debate was primarily around changing the size of the blocks holding transactions in the blockchain. 
+Transactions are added to blockchain in blocks. Therefore, the more transactions fit in the block the more transactions can takes place.
 
-   - One group wanted to increase the block size limited from 1 MB to a higher value (specifically 8MB) and by doing so enable Bitcoin blockchain to process 8x more transactions per block. 
+   - One group wanted to increase the Bitcoin blockchain block size limit from 1 MB to 8 MBs and subsequently even more. This would enable Bitcoin blockchain to process 8x more transactions per block. 
 
-   - The other group was against increasing the block size limit and insisted on addressing the scalability issues via other means which are somewhat technical to describe here. 
+   - The other group was against increasing the block size and insisted on addressing the scalability via other means. This group argued that increasing block size provides a temporary fix and won't solve the problem in the long run.
 
-A core group of conservatives wanted to keep blocks as is, so that Bitcoin network nodes could be operated with less resources. The more nodes there are the more decentralized and secure the Bitcoin blockchain is.
+While this disagreement was at the center there were many other factors both technical and social which led to the split of opinion around the problem.
 
-> The group in favor of increasing the block size felt the proposed solutions by the other camp are inadequate to address scaling issues and felt that increasing the block size is the way to go.
+As a result, the original Bitcoin community which had been united since 2009 has split into two camps.
 
-As a result of tha disagreement, the original Bitcoin community has split into two camps.
+That split in community resulted in the split of the Bitcoin blockchain itself and the emergence of Bitcoin Cash blockchain and its native cryptocurrency BCH.
 
-The split in community resulted in the split of the blockchain and the emergence of Bitcoin Cash blockchain and its native cryptocurrency BCH.
-
-## 2. The Fork
+## 2. Bitcoin Cash Fork
 
 As cryptocurrencies are open-source and no entity has exclusive rights ove the code powering them. 
 
-Anyone can create a duplicate of the Bitcoin or any other cryptocurrency via process known as "fork" and market it as something else.
+Anyone can create a duplicate of the Bitcoin or any other cryptocurrency via process known as ["fork"](https://en.wikipedia.org/wiki/Fork_(software_development)) and market it as something else.
 
-The fork is a technical term used to describe the process of deriving one software product from another.
+The 'fork' is a technical term in software engineering used to describe the process of deriving one software product from another.
 
-In cryptocurrency space where no one owns software, the forks occur when the community members are not able to agree on the way forward. In that regard, the fork provides a natural dispute resolution mechanism resulting in community splits. 
+// image https://miro.medium.com/max/1400/0*gK2d_M52XhfeWLrO
 
-> While anyone can create a whatever cryptocurrency, it will not see the adoption among community unless there is a significant value proposition which can attract support of engineers, users and speculators.
+In cryptocurrency space where the code is public and free for all, forks may occur when the community members are not able to agree on the way forward.
 
-In August 2017, the proponents of larger block sizes initiated what is known as a hard fork, effectively creating a new blockchain and cryptocurrency.
+> In open source software, the fork provides a natural dispute resolution mechanism resulting in community splits. 
+>
+> While anyone can create a whatever cryptocurrency, it will not see the adoption among community unless there is a significant value proposition which can attract support of engineers, users and speculators. 
+>
+> Without the community the cryptocurrency has no network and subsequently no market value.
 
-The group consisted of major Bitcoin miners, early-adopters, influencers and engineers.
+In August 2017, the proponents of larger block size initiated a fork, effectively creating a new blockchain and cryptocurrency.
 
-> As mentioned before, the key element when it comes to understanding the value of one cryptocurrency is the size of its network. 
+While that group didn't represent the majority of the community, it had support of some major Bitcoin miners, and a number of known early-adopters, influencers and engineers.
 
-When the Bitcoin Cash was born, the original Bitcoin network lost a chunk of users which began to regard Bitcoin Cash as the 'true Bitcoin'.
+The Bitcoin Cash fork was not the only fork Bitcoin had, another known fork is the [Litecoin](https://en.wikipedia.org/wiki/Litecoin) cryptocurrency. 
 
-Today, the ecosystem regards the original Bitcoin as the one with ticker BTC. It's the cryptocurrency people have in mind when talking about Bitcoin.
+However, the birth of Bitcoin Cash was by far more significant in terms of the impact it had on community
 
-That said, the Bitcoin Cash managed to attract significant following, established itself as one of the major cryptocurrency projects and keeps growing on various fronts.
+## 3. After The Fork
 
-The Bitcoin Cash fork was not the only fork Bitcoin had but definitely the biggest one in terms of impact it had.
+After the fork took place, the Bitcoin Cash was born. 
 
-## 3. What Happened
+// images of BCH fork
 
-On 1 August 2017 Bitcoin Cash began trading at about $240, while bitcoin traded at about $2,700.
+The original Bitcoin network lost a chunk of its users which effectively migrated to the new blockchain, which became known as the Bitcoin Cash blockchain.
 
-At the time of the software upgrade anyone owning bitcoin came into possession of the same number of Bitcoin Cash units.
+> Today, the ecosystem regards the original Bitcoin as the one with ticker BTC. It's the cryptocurrency people have in mind when talking about the Bitcoin cryptocurrency.
+>
+> That said, there is an ongoing debate between Bitcoin and Bitcoin Cash communities as to which of the two cryptocurrencies is the 'true Bitcoin' that Satoshi Nakamoto intended to create.
 
+Over the last couple of years, Bitcoin Cash has managed to attract significant following. It became one of the major cryptocurrency projects that keeps evolving on various fronts.
 
+On 1 August 2017 Bitcoin Cash began trading at about $240, while the Bitcoin traded at about $2,700. Since then, [BCH price](https://coinmarketcap.com/currencies/bitcoin-cash/) hasn't changed significantly while [BTC price](https://coinmarketcap.com/currencies/bitcoin/) been ranging between $3,500 - $12,000.
 
+Without going into details here are some key points you should understand regarding the Bitcoin Cash fork :
 
+- both Bitcoin and Bitcoin Cash blockchains share identical history of transactions until the fork date. The history transactions of transaction in both blockchains are identical until the split.
 
+- both blockchains have the same amount of cryptocurrency units, capped at 21 million.
 
+- anyone who had Bitcoins in the non-custodial wallet at the time of fork also ended up with an equivalent amount of Bitcoin Cash units on the balance. 
 
+## 4. Sending BCH vs BTC
 
+Although both cryptocurrencies share origins the subsequent changes to the code powering BTC and BCH blockchains led to a different future vision for each project.
 
+Bitcoin Cash (BCH):
 
+- Bitcoin Cash community views the BCH as a peer-to-peer digital cash which can be used to pay for anything, quickly and with close to zero transaction fees. 
 
+- Although sending transaction on Bitcoin Cash costs about a cent at the moment it should be noted that the Bitcoin Cash network doesn't have as many transactions as Bitcoin does.
 
+Bitcoin (BTC):
 
-Tokens - Bitcoin Cash has tokens to start taking some marketshare from Ethereum. You can get some free tokens by joining the discord chat at 1BCH.com
+- Bitcoin on the other hand, it's generally perceived as a store of value rather than digital cash. In that regard, more emphasis being put on security and privacy of the blockchain rather than the speed.
 
+- While there is an ongoing work to improve the speed of Bitcoin transactions on various fronts, transacting with Bitcoin is expensive. On a busy day, it's not uncommon to pay a few dollars as transaction fees, regardless of the amount.
 
-## 3. BCH vs BTC
-
-Bitcoin Cash cryptocurrency, denoted by a symbol BCH, and id sometimes also referred to as BCash.
-
-Being a spin-off from the classic Bitcoin blockchain it shares nearly all properties of Bitcoin:
-
-- Circulation
-
-    sdfsfdsd
-
-- Ownership
-
-    sdfdsfsd
-
-When it comes to transacting in Bitcoin Cash, expect to notice some differences:
+Therefore, when it comes to transacting in Bitcoin Cash, expect to notice following differences:
 
 - Improved Confirmation Times 
 
-    Bitcoin Cash transaction confirmation times are currently faster. BCH transactions reach finality faster making it more usable for everyday transactions.
+    Bitcoin Cash (BCH) transactions reach finality faster making it more usable for everyday transactions. The Bitcoin Cash transactions can generally be considered final as soon as they reach the network, few seconds after the were sent.
     
-    The difference is due to the fact that Bitcoin has a feature called RBF, which allows to sender to change the transaction while it remains in pending stage. Bitcoin Cash doesn't have that.
+    When it comes to Bitcoin transaction, after the transaction reaches the network it also needs to be included in the blockchain before it can be considered final. That process may easily take a few hours on busy days.
 
 - Low Transaction Fees 
 
-    Due to larger block limit and lower volume of transactions on the BCH blockchain, the transaction fess are much lower. It's not uncommon to pay fees as low as 1 cent.
-    
-    At the same time, transacting on the Bitcoin (BTC) blockchain can easily cost as much as 1-2$ per transaction.
-    
+    Due to larger block limit and in general lower volume of transactions on the BCH blockchain, the transaction fees are much lower. It's not uncommon to pay fees as low as 1 cent. 
 
+## 5. BCH Differences
 
+Many seem to look at Bitcoin Cash as an alternative to Bitcoin, giving an impression that's either one or the other.
 
-- BTC is limited to 1MB block size and even with Segwit activated, the capacity increase is only around 1.7x whereas the upgraded Bitcoin Cash blocks capacity is currently at 32x with no limitations. 
+Taking into account different direction of the engineering efforts on both projects these projects are very likely to coexist by serving different groups.
 
-Supply Scarcity – During the fork from Bitcoin, some Bitcoin Cash supply were removed from active circulation due to users unable to claim their Bitcoin Cash from unsupported exchanges and wallets among other reasons. This means each Bitcoin Cash is actually more scarce than BTC.
+While Bitcoin Cash is capable of handling anything Bitcoin can, it can also be used for other things:
 
+- Platform For DApps
 
-## 4. BCH Blockchain
+- Decentralized Storage
 
-// while many look at it as an alternative it's complimentary
+- Smart Contracts
 
-// smart contracts
-// cheap
-// demo some BCH apps
-// can be a platform
+- Tokens
 
-## 5. BCH Network
-
-In 2018 Bitcoin Core developer Cory Fields found a bug in the Bitcoin ABC software that would have allowed an attacker to create a block causing a chain split.
-
-// strong community
-// has value 
+    Bitcoin Cash has tokens to start taking some market share from Ethereum. You can get some free tokens by joining the discord chat at 1BCH.com
