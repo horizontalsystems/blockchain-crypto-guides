@@ -164,9 +164,9 @@ Most of the DApps built on Ethereum are financial services and often referred to
 
 MakerDAO is a decentralized autonomous organization that functions entirely on Ethereum blockchain. With about half a billion USD under its control MakerDAO is an ideal example for a type of financial services that can be built on Ethereum blockchain. 
 
-It is governed and owned by those in possession of special MKR tokens. Although the MKR token supply is fixed anyone can purchase the MKR token from someone else using cryptocurrency exchanges.
+It is governed and owned by those in possession of special MKR tokens. Although the MKR token supply is fixed anyone can purchase the MKR token from someone else on cryptocurrency exchanges.
 
-In practical terms, MakerDAO is a lending facility that gives out loans in exchange for fees. The fees for loans have to be paid in MKR tokens which increases the value for MKR token holders.
+MakerDAO is a lending facility that gives out loans in exchange for fees. The fees for loans have to be paid in MKR tokens which increases the value for MKR token holders.
 
 The DAI is a stablecoin, pegged 1:1 to the US dollar, and the currency of the loans given by MakerDAO. Anyone can take out a loan in DAI from the MakerDAO smart contract. 
 
@@ -202,13 +202,11 @@ Basic Attention Token (BAT) is the native token powering the Brave advertising p
 
 The BAT token integrated into the privacy-focused Brave web browser which is currently used by [over 8 million](https://brave.com/brave-reaches-8-million-monthly-active-users-and-delivers-nearly-400-privacy-preserving-ad-campaigns/) people per month. 
 
-To sum up, a DApp can take many forms and usually has its own token used for governance, voting etc.
+As shown above, a DApp can take many forms. The versatility of the Ethereum blockchain and its native programming language, Solidity, attracts a lot of engineers, entrepreneurs and investments.
 
-The versatility of the Ethereum blockchain and its native programming language, Solidity, attracts a lot of engineers, entrepreneurs and investments.
+A large chunk of all cryptocurrencies out there are essentially tokens belonging to some kind of Ethereum-based financial service or a project. These projects usually have own a custom token used for governance, voting etc.
 
-A large chunk of all cryptocurrencies out there are essentially tokens belonging to some kind of Ethereum based service or a project.
-
-Most of the popular services on Ethereum blockchain are currently financial services. Ethereum based financial services cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value.
+Ethereum-based financial services cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value.
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-billion-l.png)
 
@@ -228,11 +226,11 @@ Just like Bitcoin, Ethereum has its own challenges. There are issues that can in
 
 - Complicated
 
-    Ethereum is still fairly complicated to grasp for newcomers. A lot of people find it difficult to grasp the application of Ethereum blockchain beyond payment transfers. The decentrazlied financial applications 
+    Ethereum is still fairly complicated to grasp for newcomers. A lot of people find it difficult to grasp the application of Ethereum blockchain beyond payment transfers.
 
 - Lack of privacy
     
-    Ethereum is not private. If you send someone Ether or any other ethereum based token then the recipient can potentially see your balance and transaction history.
+    Ethereum is not private. If you send someone Ether or any other Ethereum-based token then the recipient can potentially see your balance and transaction history on Ethereum.
 
 ## 8. Storage & Usage
 
@@ -255,7 +253,7 @@ Most Bitcoin wallets generate a new address after each incoming payment making i
 
 > When it comes to Ethereum blockchain your address to receive Ether payments will always be the same. Nearly all Ethereum wallets work this way nowadays. 
 
-This is likely to change, but for the time being most wallets and use a single Ethereum address. 
+This is likely to change, but for the time being most wallets use a single Ethereum address. 
 
 That address becomes your ID when you interact with smart contracts on Ethereum blockchain.
 
