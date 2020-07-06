@@ -12,7 +12,14 @@ Right now, despite having some similarities and 'bitcoin' in its names, represen
  
 Each powered by its own blockchain network of servers, has its own community, engineering resources and distinct vision for the future.
 
-In this guide we'll mainly look at how the Bitcoin Cash (BCH) is different from Bitcoin (BTC). As both currencies share fundamentals, it's recommended for you to read our guide on Bitcoin first.
+The official websites for each:
+
+- Bitcoin Cash - [bitcoin.com](https://www.bitcoin.com)
+- Bitcoin - [bitcoin.org](https://www.bitcoin.org) / [bitcointalk.org](https://bitcointalk.org)
+
+In this guide we'll mainly look at how the Bitcoin Cash (BCH) is different from Bitcoin (BTC). 
+
+As both currencies share fundamentals, it's recommended for you to read our guide on Bitcoin first.
 
 ## 1. Bitcoin Cash Origins
 
@@ -122,15 +129,25 @@ Therefore, when it comes to transacting in Bitcoin Cash, expect to notice follow
 
 Many seem to look at Bitcoin Cash as an alternative to Bitcoin, giving an impression that's either one or the other.
 
-Taking into account different direction of the engineering efforts on both projects these projects are very likely to coexist by serving different groups.
+Taking into account different direction of the engineering efforts on both sides these projects are very likely to coexist by serving different groups.
+
+As both blockchains are powered by networks of servers, there are many ways in which the underlying blockchain can be used.
 
 While Bitcoin Cash is capable of handling anything Bitcoin can, it can also be used for other things:
 
-- Platform For DApps
+-  Data Platform
 
-- Decentralized Storage
+    due to lower fees and 
+    
+- Instant payments
+
+    shorter confirmation times 
 
 - Smart Contracts
+
+- Privacy
+
+    privacy through non-optional coin mixing
 
 - Tokens
 
