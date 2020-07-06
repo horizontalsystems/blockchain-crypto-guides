@@ -30,7 +30,7 @@ Tether tokens in circulation exist as cryptocurrency tokens (primarily on Ethere
 
 Any individual accepting Tether tokens as payment may potentially do so without knowing the identity of the sender. The sender only needs a crypto wallet that supports sending and receiving of Tether tokens.
 
-Tether tokens may be purchased directly from the [Tether’s website](https://tether.to) or on cryptocurrency exchanges using fiat money or other crypto like Bitcoin. In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website. 
+Tether tokens may be purchased directly from the [Tether’s website](https://tether.to) or on cryptocurrency exchanges using fiat money (USD, EUR etc) or other cryptocurrency like Bitcoin. In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website. 
 
 When someone wants to deposit fiat money to buy Tether tokens via Tether's website, there is a minimum deposit amount of 100,000 USD. The same minimum amount applies when redeeming Tether tokens into fiat currency.
 
@@ -38,21 +38,19 @@ It goes without saying, in order to purchase a significant amount of Tether toke
 
 ## How Reliable Is Tether
 
-In essence, Tether (USDT) is what is known as a centralized stablecoin, which unlike decentralized stablecoins such as DAI is neither fully transparent nor trustless (requires high level of trust). 
+In essence, Tether (USDT) is what is known as a centralized stablecoin, which unlike decentralized stablecoins such as DAI is neither fully transparent nor trustless. Tether's currency requires high level of trust from its holder towards the issuer.
 
 This distinction represents the core element when it comes to the risk assessment and reliability of holding Tether tokens.
 
 ![landscape](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/usdt-equaldollar-l.png)
 
-The term ‘trustless’ is usually associated with crypto currency coins where the pre-programmed unchangeable rules guarantee that things work as expected without the need of trusting any entity. In that regard, good examples of trustless coins are Bitcoin, Ethereum, DAI, etc.
+The term ‘trustless’ is usually associated with cryptocurrency where the pre-programmed unchangeable rules guarantee that things work as expected without the need of trusting any entity. In that regard, good examples of trustless cryptocurrencies are Bitcoin, Ethereum, DAI, etc.
 
 ### DAI vs Tether
 
 Both DAI and Tether are stablecoins. However, unlike Tether, the DAI stablecoin is decentralized. 
 
 When holding DAI tokens, users place trust on a pre-programmed code which can't do anything beyond what it was programmed to do. That code is what ensures that DAI tokens in circulation are fully covered by real collateral.
-
-[//]: # (link DAI guide)
 
 Asa result DAI stablecoin has following properties:
 
@@ -70,7 +68,7 @@ This deposit ensures that the Tether Limited can always act as a buyer of last r
 >
 > If those newly minted Tether tokens are not properly collateralized then there is a significant risk for Tether holders.
 
-The Tether Limited currently acts as a centralized custodian of the reserve assets. The company claims that all Tether tokens in circulation are 100% backed by cash and other liquid assets. There has been a lot of controversy around that. 
+The Tether Limited currently acts as a centralized custodian of the reserve assets. The company claims that all Tether tokens in circulation are 100% backed by cash and other liquid assets. There has been some controversy around that. 
 
 At this point there is no sure way to know that Tether Limited has the required amount of cash or other liquid reserves.
 
