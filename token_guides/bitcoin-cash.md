@@ -58,9 +58,7 @@ The fork is a technical term in software engineering used to describe the proces
 
 // image 
 
-In cryptocurrency space where the code is public and free for all, forks may occur when the community members are not able to agree on the way forward.
-
-In open source software, the fork provides a natural dispute resolution mechanism resulting in community splits. 
+In cryptocurrency space where the code is public and free for all, forks may occur when the community members are not able to agree on the way forward. It provides a natural dispute resolution mechanism by allowing community to split and continue the project with a distinct vision. 
 
 > While anyone can create a whatever cryptocurrency, it will not see the adoption among community unless there is a significant value proposition which can attract support of engineers, users and speculators. 
 >
@@ -70,9 +68,7 @@ In August 2017, the proponents of larger block size initiated a fork, effectivel
 
 While that group didn't represent the majority of the community, it had support of some major Bitcoin miners, and a number of influential early-adopters, and engineers.
 
-The Bitcoin Cash fork was not the only fork Bitcoin had, another known fork is the [Litecoin](https://en.wikipedia.org/wiki/Litecoin) cryptocurrency. 
-
-However, the birth of Bitcoin Cash was by far more significant in terms of the impact it had on community. 
+Although, the Bitcoin Cash is not the only cryptocurrency that was forked from Bitcoin (there was [Litecoin](https://en.wikipedia.org/wiki/Litecoin) as well), it's the most significant in terms of the impact it had on community.
 
 In a way, the fork of Bitcoin Cash was a good demonstration of how the ideological conflicts may be resolved for open-source cryptocurrencies which are not owned by any entity.
 
@@ -84,15 +80,15 @@ After the fork took place, the Bitcoin Cash was born.
 
 The original Bitcoin network lost a chunk of its users which effectively migrated to the new blockchain, the Bitcoin Cash blockchain.
 
-> Today, the ecosystem regards the original Bitcoin as the one with ticker BTC. It's the cryptocurrency people have in mind when talking about the Bitcoin cryptocurrency.
+> Today, the cryptocurrency community regards the original Bitcoin as the one with ticker BTC. It's the cryptocurrency people have in mind when talking about the Bitcoin.
 >
 > That said, there is an ongoing debate between Bitcoin and Bitcoin Cash communities as to which of the two cryptocurrencies is the 'true Bitcoin' that Satoshi Nakamoto intended to create.
 
-Today, Bitcoin Cash has managed to attract significant following. It became one of the major cryptocurrency projects that keeps evolving on various fronts.
+Over the last few years Bitcoin Cash has managed to attract significant following and became one of the few cryptocurrency projects that keeps evolving on various fronts.
 
 Here are some key points you should understand regarding the way Bitcoin Cash fork took place:
 
-- both Bitcoin and Bitcoin Cash blockchains share identical history of transactions until the fork date. The history of transactions in both blockchains are identical until the split moment.
+- both Bitcoin and Bitcoin Cash blockchains share identical history of transactions until the fork date.
 
 - both blockchains have the same amount of cryptocurrency units, capped at 21 million.
 
@@ -112,35 +108,33 @@ Bitcoin (BTC):
 
 - While there is an ongoing work to improve the speed of Bitcoin transactions on various fronts, transacting with Bitcoin is expensive. On a busy day, it's not uncommon to pay a few dollars as transaction fees, regardless of the amount.
 
-## 4. BCH Transactions
-
-As a result of increased block size, subsequent code changes and overall lower transaction volume on the Bitcoin Cash blockchain the transactions on Bitcoin Cash blockchain are now cheaper and faster.
-
-- Improved Confirmation Times 
-
-    Bitcoin Cash (BCH) transactions reach finality faster making it more usable for everyday transactions. The Bitcoin Cash transactions can generally be considered final as soon as they reach the network, few seconds after the were sent.
-    
-    When it comes to Bitcoin transaction, after the transaction reaches the network it also needs to be included in the blockchain before it can be considered final. That process may easily take a few hours on busy days.
-
-- Low Transaction Fees 
-
-    Due to larger block limit and in general lower volume of transactions on the BCH blockchain, the transaction fees are much lower. It's not uncommon to pay fees as low as 1 cent. 
-
-## 5. BCH Highlights
+## 4. BCH Highlights
 
 Many seem to look at Bitcoin Cash as an alternative to Bitcoin, giving an impression that's either one or the other.
 
 However, taking into account different direction of the engineering efforts on both sides these projects are likely to coexist.
 
-Bitcoin Cash blockchain highlights:
+As a result of increased block size and post-fork blockchain code changes, the Bitcoin Cash blockchain got some significant differences.
 
-- Low-fee Payments
+- Instant Confirmation
 
-    Bitcoin Cash blockchain is capable of handling a lot more transactions than Bitcoin blockchain. As a result the fee on Bitcoin Cash blockchain are very low, usually in the range of a few cents.
+    Bitcoin Cash (BCH) transactions reach finality faster making it more usable for everyday payments like paying for coffee, or a taxi ride. 
     
-- Instant Settlements
+    The Bitcoin Cash transactions can generally be considered final as soon as they reach the network, few seconds after the transaction is sent. 
+    
+    When it comes to Bitcoin transaction, after the transaction reaches the network it also needs to be included in the blockchain before it can be considered final. That may easily take a few hours on a busy day, or even a few days. 
+    
+- Low Transaction Fees
 
-    Due to some differences in the payment protocols, Bitcoin Cash transactions can be considered as soon as they reach the network which usually take a few seconds. 
+    The transaction fees are relevant when a blockchain receives more transactions than it can fit in the block. In such cases, fees are used to prioritize transactions, giving priority to those that pay higher fees.
+
+    Due to larger block size limit on Bitcoin Cash and generally lower volume of transactions on the BCH blockchain, the transaction fees are much lower there. Even when someone pays 1 cent per transaction there is always enough space to have it included in the block.
+    
+    That may change in the future if more people start transacting on Bitcoin Cash but now it's common to pay transaction fees as low as 1 cent. Sending a similar transaction on a Bitcoin blockchain can easily cost a couple of dollars or more.
+    
+    Note that if the Bitcoin blockchain suddenly becomes less busy than transaction fees will go down as well.
+    
+Apart from enabling cheaper and faster transactions on a blockchain, there are some other differences as well.
     
 -  Decentralized Data Storage
 
@@ -155,6 +149,12 @@ Bitcoin Cash blockchain highlights:
     The Bitcoin Cash blockchain is capable of having 'smart contract' like entities which can be pre-programmed to work autonomously, have its own balance and perform condition-based transactions.
     
     This capability is fairly new, and we are yet to see any Ethereum-style decentralized apps utilizing that aspect of Bitcoin Cash blockchain.   
+
+Note that both Bitcoin and bitcoin Cash blockchains evolve very fast, and the highlights listed above may no longer be relevant in the next year or so.
+
+Both Bitcoin and Bitcoin Cash blockchains have a distributed engineering community constantly looking for ways to get rid of the current limitations. 
+
+So, the highlights listed above may no longer be relevant in a year from now. Keep that in mind.
 
 ## 6. Bitcoin Cash Price
 
