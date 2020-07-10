@@ -56,27 +56,27 @@ When transacting using non-custodial wallet transactions will go through followi
 
 ## Transaction Fees
 
-When sending cryptocurrencies the sender is expected to pay a transaction fee. That fee goes as compensation to one of the blockchain nodes which adds your transaction to the blockchain.
+When sending cryptocurrencies like Bitcoin or Ethereum the sender is expected to pay a transaction fee. That fee goes as compensation to one of the blockchain nodes which will be the first to add the transaction to a blockchain.
 
-> _**You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction shortly after it's sent but only one of them will ultimately add it to a blockchain.**_ 
+> You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction within a few seconds after it's sent. 
 >
-> _**That one node will get the fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee paid to the network.**_
+> The node that adds it first to the blockchain will get the associated fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee for using the network.
 
 Depending on the cryptocurrency you're sending the transaction fees may vary. For some blockchains the fee may be as low as a fraction of a cent, for other like Bitcoin it can easily exceed 1$.
 
-Blockchains like Bitcoin and Ethereum are currently limited to a few million transactions per day. 
+As blockchains powering cryptocurrencies like Bitcoin and Ethereum are currently limited to a few million transactions per day, the fee amount depends on how busy the underlying blockchain is. 
 
-The fee amount depends on how busy the underlying blockchain is. If on a given day you have many people sending payments the network may become overloaded with a long queue of pending transactions. 
+If you have many people sending payments in a short period the blockchain can become overloaded with a long queue of pending transactions. 
 
-In such cases, the transaction fee is what gives one transaction a priority against other currently pending transaction. If the fee is far below the network average your transaction may remain pending in queue for hours, if it's well above the average expect it to be added to the blockchain in the next batch.
+In such cases, the transaction fee is what gives one transaction a priority against other pending transactions. If the fee is far below the network average your transaction may remain pending for hours, if it's well above the average expect it to be added to the blockchain usually within a few minutes.
 
-> _**Keep in mind, if transaction remains pending for a few days due to a low fee it may be rejected (as it was never sent).**_
+> If transaction remains pending for a few days due to a low fee it may be rejected (as it was never sent).
 >
-> _**If you have a pending transaction that taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**_
+> If you have a pending transaction that taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.
 
 Some wallets out there would recommend the optimal transaction fee amount taking into account the current state of activity on the network.
 
-When sending large sums or time critical payments always try to provide a fee amount well above average.
+When sending large sums or time critical payments always try to provide a fee amount well above average. That would ensure that your transaction reaches the recipient without delay.
 
 ## Cancelling Transaction
 
