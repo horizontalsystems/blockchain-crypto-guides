@@ -92,7 +92,7 @@ When you import the private key to another standard-compliant wallet that other 
 
 That's basically how a wallet app can take a private key used on another app, and from that key restore balances and transactions for multiple cryptocurrencies
 
-> _**If a private key was initially generated in standard-compliant manner, then any other standard-compliant wallet should be able to derive payment addresses and past transactions for each supported cryptocurrency.**_ 
+> _**If a private key generated in a standard-compliant manner, then any other standard-compliant wallet should be able to derive payment addresses and past transactions for each supported cryptocurrency.**_ 
 
 Once the app knows the addresses for say Bitcoin, it connects to the Bitcoin blockchain and looks for transactions involving those addresses. 
 
