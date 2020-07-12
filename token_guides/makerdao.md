@@ -32,7 +32,7 @@ MakerDAO is one of the very first DeFi projects built on top of Ethereum blockch
 
 The project currently controls worth over half a billion USD, all in an automated manner by a predefined set of rules (aka Smart Contracts) known as Maker Protocol.
 
-> Smart Contract is a computer program that leaves on a blockchain and transparent in the way it operates. Usually coded in a way it's impossible to change it later.
+> Smart Contract is a computer program that lives on a blockchain and transparent in the way it operates. Usually coded in a way it's impossible to change it later.
 >
 > Anyone with programming skills can locate the smart contract on the blockchain and verify that it works exactly as expected and is without loopholes. 
 
@@ -174,7 +174,7 @@ To interact with the Oasis website users need one of the supported Ethereum wall
 
 One option is to use [Metamask](https://metamask.io), a non-custodial wallet for Chrome browser. 
 
-Keep in mind when you interact with decentralized platforms like Oasis token exchange there are no means to roll back anything should you make a mistake with funds somewhere. All transactions are final and irreversible.
+Keep in mind when you interact with decentralized platforms like Oasis token exchange there are no means to roll back anything if you make a mistake with funds somewhere. All transactions are final and irreversible.
 
 ### 2. Borrowing DAI
 
