@@ -86,7 +86,7 @@ The original Bitcoin still has a much bigger network and more engineers working 
 
 Today, the community regards as Bitcoin the one with ticker symbol BTC. It's the cryptocurrency people refer to when talking about the Bitcoin.
 
-> It shpould be noted, there is an ongoing debate between Bitcoin and Bitcoin Cash communities as to which of the two cryptocurrencies is the 'true Bitcoin' that Satoshi Nakamoto intended to create.
+> It should be noted, there is an ongoing debate between Bitcoin and Bitcoin Cash communities as to which of the two cryptocurrencies is the 'true Bitcoin' that Satoshi Nakamoto intended to create.
 
 Although both cryptocurrencies share origins the post-fork changes to blockchain code reflect a different vision for each project.
 
@@ -134,7 +134,7 @@ As a result of increased block size and post-fork blockchain code changes, the B
 
     The transaction fees are relevant when a blockchain receives more transactions than it can fit in the block. In such cases, fees used to prioritize transactions, giving priority to transactions that pay higher fees.
 
-    Due to larger block size limit on Bitcoin Cash and generally lower volume of transactions on the BCH blockchain, the transaction fees are much lower there. Even when someone pays 1 cent per transaction there is always enough space in the block to add it.
+    Due to larger block size limit and generally lower volume of transactions on the BCH blockchain, the transaction fees are much lower there. Even when someone pays 1 cent per transaction there is always enough space in the block to add it.
     
     That may change in the future if more people start transacting on Bitcoin Cash but now it's common to pay transaction fees as low as 1 cent. Sending a similar transaction on a Bitcoin blockchain can easily cost a couple of dollars or more.
     
@@ -156,9 +156,7 @@ Apart from enabling cheaper and faster transactions on a blockchain, there are s
     
     This capability is fairly new, and we are yet to see any Ethereum-style decentralized apps utilizing that aspect of Bitcoin Cash blockchain.   
 
-Note that both Bitcoin and bitcoin Cash blockchains evolve very fast, and the highlights listed above may no longer be relevant in the future. Both Bitcoin and Bitcoin Cash blockchains have a distributed engineering community constantly working on expanding the capabilities of the blockchain. 
-
-So, the highlights listed above may no longer be relevant in a year from now. Keep that in mind.
+Note that both Bitcoin and Bitcoin Cash blockchains evolve very fast, and the highlights listed above may no longer be relevant in the future. Both blockchains have a distributed engineering community constantly working on expanding the capabilities of the blockchain. 
 
 ## 5. Storage & Usage
 
@@ -175,10 +173,10 @@ When you're ready to get involved with the Bitcoin Cash on a practical level you
 
 ## 6. Bitcoin Cash Price
 
-On 1 August 2017, shortly after the split, Bitcoin Cash emerged as a cryptocurrency coin and began trading at about $240, while the Bitcoin traded at about $2,700. 
+On 1 August 2017, shortly after the split, Bitcoin Cash emerged as a cryptocurrency and began trading at about $240, while the Bitcoin traded at about $2,700. 
 
 Since then, [BCH price](https://coinmarketcap.com/currencies/bitcoin-cash/) hasn't changed significantly while [BTC price](https://coinmarketcap.com/currencies/bitcoin/) been ranging between $3,500 - $12,000.
 
-In the long run, the price of the cryptocurrency likely to reflect the growth of its blockchain network and engineering/user community around the project.
+In the long run, the price of the cryptocurrency likely to reflect the growth of its blockchain network and the size of engineering/user community around the project.
 
-Although Bitcoin Cash has one of the largest social communities around it's still significantly behind Ethereum and Bitcoin in that regard. In order for it to overtake the Bitcoin the demand for BCH coins should exceed the demand for BTC.
+Although Bitcoin Cash has one of the largest social media communities around it's still significantly behind Ethereum and Bitcoin in that regard. In order for it to overtake the Bitcoin the demand for Bitcoin Cash cryptocurrency should exceed the demand for BTC.
