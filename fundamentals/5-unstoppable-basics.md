@@ -2,29 +2,25 @@
 
 # Unstoppable Wallet
 
-By now you understand that non-custodial cryptocurrency wallets come in various types. Next step is to go through 'things to know' when using the wallet app. 
+In this section we go through 'things to know' when using the non-custodial wallet app. 
 
-From user's perspective, along with the ability to independently store and transact with cryptocurrencies, basic expectations from any wallet should be:
+We are going to use Unstoppable non-custodial wallet to illustrate things you should know when interacting with wallets. 
 
-1. Wallet app should generate private keys in a standard-compliant manner. This ensures that keys are safe and are compatible with pother wallet apps.
+From user's perspective, basic expectations from any non-custodial wallet app should be:
 
-2. Wallet app supporting multiple cryptocurrencies should correctly manage the incoming payment addresses for each cryptocurrency. For example, the user's address for receiving payments in Bitcoin varies from the address for receiving Ethereum.
+1. the wallet app should generate private keys in a standard-compliant manner. This ensures that private keys are safe and are compatible with other third party wallet apps.
 
-3. Wallet app should store private keys as per recommended guidelines. The iOS and Android wallet apps should keep the private in safe storage provided by the operating system.
+2. the wallet app supporting multiple cryptocurrencies should correctly manage the payment addresses for each cryptocurrency. For example, the user's address for receiving payments in Bitcoin varies from the address for receiving Ethereum.
 
-Other than these basics non-custodial wallets may vary substantially depending on the target user. For instance, a privacy focused wallets may have a lot of features around that which may not be necessary for most.
+3. the wallet app should store private keys as per documented guidelines. The iOS and Android wallet apps should keep the private in safe storage provided by the operating system.
 
-Moving forward, we are going to focus on the needs of users looking to invest into cryptocurrencies on an ongoing basis.
-
-We are going to use Unstoppable non-custodial wallet to illustrate things you should know when interacting with wallets.
+Apart from above non-custodial wallets may vary substantially depending on the target user. For instance, a privacy focused wallets may have a lot of privacy features which are not needed for most.
 
 > _**Disclaimer:**_
 >
-> _**The [Unstoppable Wallet](https://unstoppable.money) was specifically build for the active investor in crypto ecosystem.**_
-> 
-> _**This wallet is build by [Horizontal Systems](https://horizontalsystems.io), the company behind these guides.**_
+> _**The [Unstoppable Wallet](https://unstoppable.money) was built by [Horizontal Systems](https://horizontalsystems.io), the company behind these guides.**_
 
-Below are key features the investor-type users should expect from their wallet app.
+Below are essential features to look for  expect from their wallet app.
 
 ### 1. Setup / Restore 
 
