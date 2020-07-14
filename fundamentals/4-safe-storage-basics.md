@@ -2,28 +2,29 @@
 
 # Safe Storage
 
-Now when you understand the basic mechanics of private keys we are going to look at different types of non-custodial wallets.
+Now let's look at different types of non-custodial wallets.
 
 First, there is no such thing as the most suitable wallet for all. Certain non-custodial wallets may be more appropriate for some and not for others. It depends on things like:
 
 * familiarity with security aspects
 * the place the person lives in
-* the amount of crypto to store
+* the amount of cryptocurrency to store
 * whether the person is a potential target
 * how frequently the wallet to be accessed
 
 Some wallets are more user-friendly and appropriate for new people with smaller balances. At the same time, for people with a crypto capital in millions and extensive security knowledge the expectations from wallets are considerably higher. Those people may prefer to use wallets engineered for higher security needs.
 
-In this section we will try to look at common non-custodial wallets and get a balanced overview of the security aspects. 
+In this section we will try to look at common non-custodial wallets and get a balanced overview of the security aspects. A balanced approach involves a tiered approach, where the higher security requirements introduced as the risk factor grows. 
 
-A balanced approach involves a tiered approach, where the higher security requirements introduced as the risk factor grows. An ideal wallet for someone new with a capital below 10K is not the same as for someone in space for years and capital over 100K.
+An ideal wallet for someone new with a capital below 10K is not the same as for someone in space for years and capital over 100K.
 
-As the user's crypto capital grows so does the potential cost of loosing it. In such cases the capital might be divided into multiple wallets, where a larger chunk kept with extra secure considerations in mind while the remaining in potentially less secure but easily accessible wallet. 
+As the user's crypto capital grows so does the potential cost of loosing it. In such cases the capital can be divided into multiple wallets, where a larger chunk kept with extra secure considerations in mind while the remaining in potentially less secure but easily accessible wallet. 
 
 ## Non-custodial Wallet Types
 
-All non-custodial wallets out there provide users with full control over the crypto. That's an underlying characteristic of such a wallet. There 3 main types of non-custodial wallets:
+All non-custodial wallets out there provide users with full control over the crypto. That's an underlying characteristic of such a wallet. 
 
+There 3 main types of non-custodial wallets:
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-02-l.png)
 
@@ -31,11 +32,9 @@ All non-custodial wallets out there provide users with full control over the cry
 2. mobile app wallets
 3. desktop software wallets
 
-Non-custodial wallets potentially differ in the extent to which wallet private keys are protected. Some are designed taking into account even the most unlikely scenarios.
+Non-custodial wallets potentially differ in the extent to which wallet private keys are protected. Some wallets are designed taking into account even the most unlikely scenarios.
 
-Depending on the above wallet type there are elements in its architecture which may potentially affect the safe-storage of the private key. 
-
-For instance, ensuring a safe storage of the private key in an up-to-date iOS or Android based wallet is easier than on a desktop wallet running on all-purpose Windows computer that's few generations behind.
+For instance, ensuring a safe storage of the private key in an up-to-date iOS or Android wallet app is easier than on a desktop wallet running on all-purpose Windows computer.
 
 ### 1. Hardware Wallets
 
@@ -46,6 +45,7 @@ Without going into technicals, it's enough to know that these devices are widely
 From usability point of view hardware wallets are somewhat more difficult to use. It's not very difficult for someone familiar with ins and outs of cryptocurrencies but definitely not as easy for those new to the field.
 
 Generally speaking, for someone with a large amount of crypto assets ( > $ 50,000) it would be advisable to use the hardware wallet. Or at the very least start exploring these wallets with the intent to move a chunk of their assets to a hardware wallet in the future.
+
 Two well-known hardware wallet providers are:
 
 - [Trezor](https://trezor.io)
@@ -55,9 +55,9 @@ Both companies have a wide range of products to choose from. It's important to b
 
 ### 2. Mobile Wallets
 
-The mobile based wallets for iOS and Android are the most common type of non-custodial wallets. 
+The mobile based wallets for iOS and Android are the most common type of non-custodial wallet apps. These wallets are generally more user-friendly. 
 
-These wallets are generally more user-friendly. Some of our favorites are:
+Some of our favorites are:
 
 - [Unstoppable Wallet](https://unstoppable.money)
 - [Bread Wallet](https://brd.com)
@@ -68,11 +68,7 @@ The main point here is that there are more ways to attack a wallet running on a 
 
 Mobile wallets operate on an all-purpose operating system (iOS, Android) with a lot of software components. The smartphone device itself has a lot of hardware components that potentially open up new attack surfaces.
 
-Both Google's Android and Apple's iOS operating system come with so called 'secure element' which is specifically designed for handling highly sensitive data. 
-
-Good mobile app wallets keep the private key unreachable (secure) even if the phone ends up in the hands of someone looking to extract it.
-
-Good non-custodial wallets likely to adhere to the standards recommended by the operating systems and best practices documented by the engineers worldwide. 
+Both Google's Android and Apple's iOS operating system come with so called 'secure element' which is specifically designed for handling highly sensitive data. Good wallets make use of that and therefore keep the private key unreachable even if the phone ends up in the hands of someone looking to extract it.
 
 ### 3. Desktop Wallets
 
@@ -80,7 +76,7 @@ Desktop wallets are theoretically less secure when compared to a mobile wallet f
 
 The potential attack surface on a desktop operating system is even larger than that of mobile. That's just the nature of a desktop platform.
 
-It doesn't necessarily mean some desktop wallet is less secure than some mobile-based wallet just because of the platform. 
+It doesn't necessarily mean some desktop wallet is less secure than some mobile-based wallet app. 
 
 Some of the more popular desktop-based wallets are:
 
@@ -93,13 +89,11 @@ The classification above was primarily based around the notion of private key se
 
 For instance, a non-custodial mobile wallet app may potentially be more private than a hardware wallet. Or may have essential features not available in the hardware wallet.
 
-Keep in mind, you don't need cartel level security if you're just starting out. The out of the box security on most well-known non-custodial wallets is already pretty good.
+Keep in mind, you don't need a cartel level security if you're just starting out. The out of the box security on most well-known non-custodial wallet apps is already pretty good.
 
 > _**A balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.**_
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-03-l.png)
-
-The minimum security requirements for using any non-custodial wallet should be as follows.
+The minimum security requirements for using any non-custodial wallet app should be as follows.
  
 - Security Basics
 
@@ -107,15 +101,17 @@ The minimum security requirements for using any non-custodial wallet should be a
  
 - Standard Compliant
 
-    The wallet should generate private keys in a standard manner. This will allow for seamless migration to a third party wallet should there ever be a need for that.
+    The wallet should generate private keys per publicly documented security standards. This will allow for seamless migration to a third party wallet should there ever be a need for that.
 
 - Unauthorized Access
     
-    The access to the wallet device should be protected with the PIN. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
+    The access to the wallet device should be protected with the PIN or somilar mechanism. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
     
 ## Multiple Wallets
 
-While your crypto remains relatively small (ex: < $10,000) stick to standard security measures. As the capital grows gradually become more demanding by introducing additional security measures. 
+While your crypto remains relatively small (ex: < $10,000) stick to standard security measures. As the capital grows gradually become more demanding by introducing additional security measures like splitting the capital into multiple wallets.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-03-l.png) 
 
 For instance, someone may start with a single wallet with an initial crypto capital valued at $10,000. As the value of the capital grows the user may move to a tiered approach as below.
 
@@ -125,11 +121,11 @@ For instance, someone may start with a single wallet with an initial crypto capi
     
 - **Investment Wallet**
 
-    Mobile non-custodial wallet that keeps the capital meant for active investments. Will have to be accessed frequently to move funds on a regular basis.
+    Mobile non-custodial wallet that keeps the capital meant for active investments. Meant for easy and frequent access to the funds.
     
-- **Storage Wallet**
+- **Cold Storage Wallet**
 
-    Hardware wallet that holds crypto meant for long term storage. Accessed rarely.
+    Hardware wallet that holds crypto meant for long term storage without the need for regular access.
     
 Those making their way into cryptocurrency for the first time are likely to find mobile-based wallets easier to use.
 
@@ -141,22 +137,21 @@ Those holding large amounts in cryptocurrency can jump to a tiered approach from
 
 If the sum to be stored in the hardware wallet is substantial then as a further precaution it's advised to split between two or more hardware wallets.
 
-
 ## Wallet Backup Tips
 
 As was mentioned earlier, having a backup of a private key for each wallet is critical.
 
-Some people prefer to write the private key (presented in a form words) down on a piece of paper and store it somehow somewhere. There are those that prefer encrypting the words list using standard methods and then store encrypted copy online.
+Some people prefer to write the private key (presented in a form words) down on a piece of paper and store it somehow somewhere. Some prefer writing the words on a file and then store the encrypted copy online.
 
-> _**Note that it's not a good idea to have a digital version of the private key for any wallet with large amount of crypto.**_
+> _**Note that it's not a good idea to have a digital version of the private key (even if it's encrypted) for any wallet with large amount of crypto.**_
 > 
 > _**For smaller amounts should not be a significant issue as long as you understand the risks.**_ 
 
-For mobile non-custodial wallets that are meant to be accessed frequently go with 12/24 words backup. Make sure it's stored safely and easily accessible on demand.
+For mobile non-custodial wallets that are meant to be accessed frequently make sure backup of the private key stored safely and easily accessible on demand.
 
-### 1. Adding Password
+### 1. Optional Password
 
-When setting up new wallets some wallet apps enable users to add a password next to 12/24 words.
+When setting up new wallet apps some wallet apps enable users to add a password next to the 12/24 words.
 
 It's an additional security measure that allows the person to keep the 12/24 words separately from the password. 
 
@@ -166,25 +161,25 @@ The password can be memorized or written down and kept separately from the list 
 
 That said, adding a password next to 12/24 words to some extent limits the options when it comes to migrating to a third party wallet in the future. Not many non-custodial wallets support passwords.
 
-### Keeping Backups Safe
+For private key backups of hardware wallets holding large sums it's recommended to set up private in a form of '12/24 words + password'. That option available on all hardware wallets. Those wallets enable creating and restore of such private keys.
+
+### 2. Offline Backups
 
 When storing private keys or hardware wallets offline take into account following:
 
-- Private key backup should be kept in separate location from wallet device. 
-- If private key consists of words and a password, both should be kept separately.
-- Private key backup or wallet device can potentially be found by someone else.
-- The hardware wallet should be protected by a PIN lock.
+- private key backup should be kept in separate location from wallet device. 
+- if private key consists of words and a password, both should be kept separately.
+- private key backup or wallet device can potentially be found by someone else.
+- the hardware wallet should be protected by a PIN lock.
 - take necessary precautions against fire or floods.
 
-For private key backups for hardware wallets with large sums it's recommended to set up private in a form of '12/24 words + password'. That option available on all hardware wallets. Those wallets enable creating and restore of such private keys.
-
-A backup of words can be stored in a metal container from [Crypto Steel](http://cryptosteel.com). As a result you end up with:
+A backup of words can be stored in a metal container from [Crypto Steel](http://cryptosteel.com). The password can be memorized or stored physically in a separate location. As a result you end up with:
 
 1. hardware wallet device that is protected by a PIN.
 2. private key (useless without password)
 3. password (useless without words)
 
-If all three items are stored separately you are achieving a fairly good level of crypto security. To access your funds you will either need a wallet device + pin, or the private key + password.
+If all three items stored separately you are achieving a fairly good level of crypto security. To access your funds you will either need a wallet device + pin, or the private key + password.
 
 It's also advised to share enough information with your close ones so that they can recover the access to funds should for some reason you become unreachable.
 

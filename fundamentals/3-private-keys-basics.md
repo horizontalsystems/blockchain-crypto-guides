@@ -2,31 +2,27 @@
 
 # Private Keys
 
-So, by now you know the basics behind blockchains, cryptocurrencies and wallets. 
+As we covered earlier, genuine cryptocurrency wallets store cryptographic keys that have control over certain amount of cryptocurrency.
 
-As we have explained, genuine cryptocurrency wallets store cryptographic keys that have control over certain amount of cryptocurrency.
-
-From that cryptographic key the wallet app can understand the amount of cryptocurrency user owns as well as past transactions. This cryptographic key is usually referred to as private key. 
+From that cryptographic key the wallet app can understand the amount of cryptocurrency user owns as well as derive past transactions associated with the wallet. This cryptographic key usually referred to as private key. 
 
 > _**The wallet app is an instrument that essentially stores your private key. This private key is what gives you control over certain amount of cryptocurrency.**_
 >
-> _**The non-custodial wallet app uses private key to retrieve balance and past transactions from the blockchain.**_
+> _**The non-custodial wallet app uses private key to retrieve cryptocurrency balances and past transactions from the blockchain.**_
 
-To keep this guide simple we are not going to explain how the private keys work under the hood. Just know that a term private key usually refers to a cryptographic key we talked about earlier.
+Wwe are not going to explain how the private keys work under the hood. Just know that a term private key usually refers to a cryptographic key we talked about earlier.
 
-Below, we are going to be looking a bit deeper into security aspects to give you a better understanding of private keys, and the related security aspects.
+Below, we are going to look a bit deeper into security aspects to give you a better understanding of private keys, and the related security aspects.
 
 ## 1. Keep Key Private
 
-Quite often scammers (by impersonating wallet support teams) trick users into sharing their private keys. When the user shares the key the scammer steals the funds on the balance. 
+Quite often scammers (by impersonating wallet support teams) trick users into sharing their private keys. When a user shares the key the scammer steals the funds on the balance. 
 
 > _**There is absolutely no valid reason for you as a wallet app user to ever share the private keys with anyone. This applies to all wallets.**_
 >
 > _**Never reveal your private key to anyone, even when you're communicating with people who built your wallet app.**_
 
-You may reveal your private key to someone only when you intentionally want to pass the ownership of your funds to that person.
-
-Any non-custodial wallet provides means for the user to access and view private key from within the wallet app.
+You may reveal your private key to someone only when you intentionally want to pass the ownership of your funds to that person. Almost all non-custodial wallet provides means for the user to access and view private key from within the wallet app.
 
 ## 2. Backup Key
 
@@ -34,7 +30,7 @@ Most non-custodial wallet apps show the private key during the wallet app setup.
  
 > _**The private key is the only way to restore access to funds in case the device with the wallet app become inaccessible i.e. if it gets stolen or simply stops working.**_
 
-To make it easier for the average person to backup the private key, blockchain engineers came up with a way to convert the private key to a plain set of 12 or 24 regular words. 
+To make it easier to backup the private key, blockchain engineers came up with a way to convert the private key to a plain set of 12 or 24 regular words. 
 
 Most non-custodial wallets will display the private key in a human-readable form, generally in a form 12/24 words.
 
@@ -42,7 +38,7 @@ Most non-custodial wallets will display the private key in a human-readable form
 
 Backup the private key and make sure there are no typos in your backup. Other than actual words, the ordering is just as important. 
 
-> _**If you lose or unknowingly expose the private key to someone, they can get control of your crypto. That's the only thing you need to understand when it comes to private keys.**_
+> _**If you lose or unknowingly expose the private key to someone, they can get control of your cryptocurrency.**_
 
 The 12/24 words should be backed up in the correct order. A non-custodial wallet may understand if you make a typo in one of the words and show an appropriate warning. 
 
@@ -50,25 +46,21 @@ If the words positioned incorrectly a non-custodial wallet will still restore so
 
 ## 3. Private Key Generation
 
-When you first setup a non-custodial wallet app, the code powering the wallet app randomly generates a secure Private Key for you.
-
-For the private key to be truly secure it's important for a wallet app to generate a private key which is truly random. If it's not random it's potentially not as safe.
-
-That's one of the reasons why non-custodial wallets keep the code open. Third-party engineers can then analyze the code and check whether the wallet app generates private key correctly.
-
-There are websites like [WalletScrutiny.com](https://walletscrutiny.com) which exist to ensure wallets published on Google Play in fact use the same code as the code publicly shared with the community.
+When you first setup a non-custodial wallet app, the code powering the wallet app randomly generates a secure private key for you. For the private key to be truly secure it's important for a wallet app to generate a private key which is truly random.
 
 >_**If the private key generated by a non-custodial wallet is not random then the wallet is not safe.**_
+
+That's one of the reasons why non-custodial wallets keep the code open. Third-party engineers can then analyze the code and check whether the wallet app generates the private key correctly.
+
+There are websites like [WalletScrutiny.com](https://walletscrutiny.com) which exist to ensure wallets published on Google Play in fact use the same code as the code publicly shared with the community.
    
-There are well documented manuals for engineers describing how to do that on a platform on which the wallet is built for. Any good non-custodial wallet app is built in accordance with those standards.
+Any good non-custodial wallet app generally engineered in accordance with the publicly documented security guidelines and standards.
 
 ## 4. One Key, Many Coins
 
-So, now you know what a private key is and how it's generated. 
+Another essential aspect, a single private key can be used to control balances for multiple cryptocurrencies. When using such key the wallet apps can automatically locate the balances for all supported cryptocurrencies.
 
-Another essential aspect, a single private key can be used to control balances for multiple cryptocurrencies. When using such key the wallet apps can locate the balances for all supported cryptocurrencies.
-
-For instance, when creating the wallet on [Unstoppable wallet](https://unstoppable.money) user gets a single private key for 5 cryptocurrencies:
+For instance, when creating the wallet on [Unstoppable wallet](https://unstoppable.money) the user gets a single private key for 5 cryptocurrencies:
 
 - Bitcoin
 - Dash
@@ -76,7 +68,7 @@ For instance, when creating the wallet on [Unstoppable wallet](https://unstoppab
 - Litecoin
 - Ethereum
 
-The same private is used to control multiple cryptocurrencies, each with its own balance.
+The same private key used to control multiple cryptocurrencies, each with its own balance and transactions.
 
 ## 5. Balances & Transactions
 
@@ -94,27 +86,17 @@ That's basically how a wallet app can take a private key used on another app, an
 
 > _**If a private key generated in a standard-compliant manner, then any other standard-compliant wallet should be able to derive payment addresses and past transactions for each supported cryptocurrency.**_ 
 
-Once the app knows the addresses for say Bitcoin, it connects to the Bitcoin blockchain and looks for transactions involving those addresses. 
-
-As a result of that process the wallet app can display the balances and past transactions associated with that private key.
+Once the app knows the addresses for say Bitcoin, it connects to the Bitcoin blockchain and looks for transactions involving those addresses. As a result of that process the wallet app can display the balances and past transactions associated with that private key.
 
 ## 6. Moving Between Wallets
 
-Moreover, good non-custodial wallets enable private key migration between wallets. 
- 
-A private key created on one non-custodial wallet can be used (restored) in another non-custodial wallet. 
+Good non-custodial wallets enable private key migration between wallets. In other words, a private key created on one non-custodial wallet app should be compatible with other non-custodial wallet apps. 
 
-> _**This means that the user is not restricted to a single wallet provider and may easily migrate between non-custodial wallets built by different parties.**_ 
+> _**The user should not be restricted to a single wallet provider and should be able easily migrate to other non-custodial wallet apps built by different parties.**_ 
 
-If your phone breaks, or the wallet app stops working, your funds are still safe; you will always be able to restore access to your crypto funds using the private key the wallet generated. 
+If your phone breaks, or the wallet app stops working, your funds are safe; you will always be able to restore access to your cryptocurrency using the private key. There are no time frames---the same key would work years later.
 
-There are no time frames---the same key would work years later.
-
-Not all non-custodial wallets provide an Import (or Restore) wallet feature. 
-
-When choosing a wallet you should look for one that's standard compliant in that regard and supports import/export of private keys.
-
-A good breed of non-custodial wallet handle private keys in a way where a person can easily migrate to another wallet and vice versa.
+When choosing a wallet look for one that is standard compliant and supports import/export of private keys.
 
 > _**Note: When migrating your private key from one wallet to another you need the destination wallet to support all cryptocurrencies that private key controls.**_
 
