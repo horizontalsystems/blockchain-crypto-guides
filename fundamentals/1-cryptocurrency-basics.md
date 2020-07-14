@@ -12,10 +12,10 @@ When using a product built on top of such blockchain following statements hold t
 
 - user doesn't have to trust anyone
 - user doesn't need permission to participate
-- user has an unconditional control over the assets
-- data is permanent and unchangeable
+- user has an unconditional control over assets
+- blockchain records are unchangeable
 
-Blockchain technology can potentially be applied to anything where notions like trust, censorship-resistance and immutability are essential. Think, notary services, financial instruments and so on.
+Blockchain technology can potentially be applied to anything where notions like trust, censorship-resistance and immutability are essential. Think notary services, elections and so on.
 
 At the time being, a lot of financial and legal agencies exist to enforce things that can be enforced by a blockchain in impartial manner. Should the blockchain technology continue to grow these services are likely to be automated and ported over to a blockchain.
 
@@ -107,9 +107,9 @@ A good example to illustrate this is the Bitcoin blockchain.
 
 The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a small group of people has attracted millions of people over the years. 
 
->Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.
-
->Even more people participate in the Bitcoin ecosystem by using Bitcoin or by building services around the Bitcoin ecosystem.
+>_**Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.**_
+>
+>_**Even more people participate in the Bitcoin ecosystem by using Bitcoin or by building services around the Bitcoin ecosystem.**_
 
 Today, Bitcoin became global and censorship-resistant platform that is open to all. 
 
