@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/bch-Main-l.png)
+
 # Bitcoin Cash In Simple Terms
 
 Bitcoin Cash, denoted by a symbol BCH, is a cryptocurrency that is a fork of a Bitcoin. Being a fork means that it was created from the Bitcoin cryptocurrency. 
@@ -48,7 +50,7 @@ As cryptocurrencies are open-source and no entity has exclusive rights ove the c
 
 The fork is a technical term in software engineering used to describe the process of deriving one software product from another.
 
-// image 
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/bch-fork-l.png)
 
 Forks may occur when the community members are not able to agree on the way forward. It provides a natural dispute resolution mechanism by allowing the conflicting parties to split and continue with a distinct vision.
 
@@ -121,6 +123,8 @@ Many tend to look at Bitcoin Cash as an alternative to Bitcoin, giving an impres
 However, taking into account different direction of the engineering efforts on both sides these projects are likely to coexist. 
 
 As a result of increased block size and post-fork blockchain code changes, the Bitcoin Cash blockchain got some significant differences.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/bch-highlights-l.png)
 
 - Instant Confirmation
 
