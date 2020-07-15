@@ -1,8 +1,8 @@
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/07-main-l.png)
 
-# Spending Bitcoin
+# Spending Cryptocurrency
 
-The ability to pay with Bitcoin in stores remains uncommon. 
+The ability to pay with Bitcoin or with some other cryptocurrency in stores remains uncommon. 
 
 While some merchants are slowly starting to accept payments in Bitcoin, the vast majority of retailers are still not on board. 
 
