@@ -2,7 +2,7 @@
 
 # Ethereum in Simple Terms
 
-Ethereum is regularly mentioned alongside Bitcoin as one of the most popular decentralized cryptocurrencies. 
+Ethereum is regularly mentioned alongside Bitcoin as one of the most popular [decentralized cryptocurrencies](/fundamentals/1-cryptocurrency-basics.md). 
 
 Ethereum was first proposed in 2013 but came to prominence in 2015, some six years after Bitcoin. The Ethereum platform was developed by [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), along with several other contributors and co-founders. 
 
@@ -10,7 +10,7 @@ Many wonder what makes Ethereum different from Bitcoin and why there is so much 
 
 > Bitcoin blockchain enables value transfers where value is denominated in Bitcoin (denoted by BTC). Anyone in the world can connect to Bitcoin network and send receive Bitcoins without intermediaries.
 >
-> Ethereum on the other hand is the platform for decentralized services. It can be used to build public services which are always online, unblockable and operate as advertised without any means to cheat. 
+> Ethereum on the other hand is the platform for decentralized services. It can be used to build public services which are always online, unblockable and operate exactly as advertised without any means to cheat. 
 
 Think of Ethereum as a global computer that's open to everyone to participate in.
 
@@ -22,11 +22,11 @@ What makes Ethereum attractive is the fact that it's open and trustless:
 
 - Anyone without the need for permission can use the Ethereum platform to host a decentralized service. It can be an online store, a crowdfunding campaign, a game etc. 
 
-- The services running on Ethereum are accessible anywhere in the world and are permanent. For as long there is at least one Ethereum network server (also known as node) the service will remain operational and accessible to the public. 
+- The services running on Ethereum are permanent and accessible to anyone anywhere in the world. For as long there is at least one Ethereum network server (also known as node) the service will remain operational and accessible to the public. The page here shows the number of [nodes online](https://ethernodes.org) at any give moment.
 
-- The services that operate on Ethereum are transparent in their operations. Anyone can lookup a service operating on Ethereum blockchain and verify that it works as expected as well as the full history of everything that took place on it.
+- The services operating on Ethereum are transparent. Anyone can lookup any service and verify that it works as expected as well as the full history of everything that took place on it.
 
-- Keeping min mind that anyone can operate an Ethereum node, censoring such a network is extremely difficult. Blocking a service running on Ethereum is considerably more difficult than blocking a website.
+- Keeping in mind that anyone can operate an Ethereum node, censoring such a network is extremely difficult. Blocking a service running on Ethereum is considerably more difficult than blocking a website.
 
 So, Ethereum platform is well suited for any type of service where reliability and transparency is critical.
 
@@ -36,9 +36,9 @@ Conversely, with a regular lottery or voting apps, there is no way of checking t
 
 ## 2. Ethereum Blockchain
 
-Under the hood, Ethereum is a blockchain. If you are new to this concept then read our short guide to blockchains.
+Under the hood, Ethereum is a blockchain. If you are new to this concept then read our short [guide to blockchains](/fundamentals/1-cryptocurrency-basics.md).
 
-The Ethereum blockchain is basically a history of all actions (aka transaction) that ever happened on Ethereum, starting from the very beginning.
+The Ethereum blockchain is basically a history of all actions (aka transactions) that ever happened on Ethereum, starting from the very beginning.
 
 A transaction can range from a simple transfer of Ether tokens from one wallet to another, to more complex processes such as the execution of an action on some decentralized service (aka, smart contract---more on these in a moment!). 
 
@@ -46,7 +46,7 @@ Every transaction made on the Ethereum, reaches all Ethereum nodes within a few 
 
 Each Ethereum node has a live copy of the Ethereum blockchain. All nodes talk to each other. If one is down the others are there to keep the system running.
 
-As the cases with all open blockchains, the Ethereum network nodes ensure decentralization, availability 24/7 and censorship-resistance. Anyone can unconditionally operate an Ethereum node. The more nodes there are online the more secure Ethereum blockchain is.
+As the case with all open blockchains, the Ethereum network nodes ensure availability 24/7 and censorship-resistance. Anyone can unconditionally operate an Ethereum node. The more nodes there are online the more secure Ethereum blockchain is.
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-chain-l.png)
 
@@ -60,9 +60,9 @@ Cumulatively, Ethereum nodes guarantee the openness, availability, decentralizat
 
 ## 3. Ether Currency
 
-Just like Bitcoin blockchain, Ethereum blockchain has it own native cryptocurrency known as Ether, denoted by symbol ETH.
+Just like [Bitcoin blockchain](/token_guides/bitcoin.md), Ethereum blockchain has it own native cryptocurrency known as Ether, denoted by symbol ETH.
 
-Usually people refer to Ether crypto currency as Ethereum. A unit of Ether consists of smaller units knows as wei.
+Usually people refer to Ether cryptocurrency as Ethereum. A unit of Ether consists of smaller units knows as wei.
 
 > 1 ETH = 1000,000,000,000,000,000 wei
 
@@ -70,7 +70,7 @@ Ether is required in a form of fees for doing anything on Ethereum blockchain. T
 
 Users pay small transaction fees to the Ethereum network nodes when:
  
- - transferring Ether between addresses
+ - transferring Ether
  - transferring Ethereum-based tokens
  - interacting with decentralized services
  
@@ -86,27 +86,21 @@ The supply of new Ether is limited to 18 million tokens per year, although that 
 
 The terms Ethereum network, Ethereum blockchain, Ethereum platform often used as a reference to the network of servers that run Ethereum node software. 
 
-The Ethereum network consists of all servers worldwide which run Ethereum node software. Usually, when talking about Ethereum people focus on Ether cryptocurrency rather than the massive network it has.
+The Ethereum network consists of all servers worldwide running Ethereum node software. Usually, when talking about Ethereum people focus on Ether cryptocurrency rather than the network it has and potential applications.
 
 Anyone can join the Ethereum network and start using it on equal terms as everyone else.
 
-> The Ethereum is not just cryptocurrency. Ethereum is a network, and an open platform for financial applications and other type of services where trust, transparency and reliability is crucial.
+> The Ethereum is not just cryptocurrency. Ethereum is a network, and an open decentralized platform for financial and other type of services where trust, transparency and reliability is crucial.
 
-Being an open network where anyone can deploy services, the Ethereum can be regarded as a global platform for decentralized services. It has already proven itself as a viable platform for financial applications.
+In that sense, Ethereum has significantly more applications than say Bitcoin blockchain which is currently limited to serve only those looking at Bitcoin as a store of value.
 
-Just like the Amazon or Ebay are the go to platforms for selling and buying, Ethereum is a leading platform for decentralized financial services. 
+Ethereum has attracted a lot of engineers and entrepreneurs interested in potential services that can be built on Ethereum rather than Ether currency itself.
 
-In that sense, Ethereum has significantly more applications than say Bitcoin blockchain which is currently limited to serve those looking at Bitcoin as store of value.
+Over the last few years, Ethereum managed to attract over a million engineers worldwide. Most of those are currently building autonomous services that control significant amount of funds. 
 
-Ethereum has attracted a lot of users who are more interested in various services built on it rather than Ether currency itself.
+The large size of the Ethereum network is what attracts most engineers specifically to Ethereum and not competing projects like say EOS blockchain. The Bitcoin blockchain is the only blockchain that potentially has an even larger network.
 
-Over the last few years, Ethereum managed to attract over a million engineers worldwide. Most of those are currently building all kinds of autonomous services that control significant amount of funds. 
-
-These services ultimately attract more users pushing the Ethereum ecosystem further.
-
-The large size of the Ethereum network is what attracts most engineers specifically to Ethereum and not competing projects like say EOS blockchain.
-
-The Bitcoin blockchain is the only blockchain that potentially has an even larger network.
+The services built on top of Ethereum ultimately attract even more to Ethereum pushing the ecosystem further.
 
 ## 5. Smart Contracts
 
@@ -118,15 +112,17 @@ Every application or service residing on Ethereum or alike blockchain essentiall
 
 If someone decides to build a lottery on Ethereum it would be basically a set of smart contracts interacting with each other.
 
+To give you a better idea, it may be something as follows:
+
 - An engineer can program a smart contract that holds a balance of X Ether, and programmed to pay out its entire balance when someone provides the correct solution to some puzzle. 
 
 - When a user submits the correct answer, the smart contract executes its code and pays out the full balance to the user's Ethereum wallet address. 
 
-- That contract may also require that all participants pay an entry fee to the contract (which will also be sent to the winner) to be able to participate in the challenge.
+- That contract may also require for participants to pay an entry fee to the contract (which will also be sent to the winner) to be able to participate in the challenge.
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-chain-lottery-l.png)
 
-The development and use of smart contracts are one of the fundamental properties that differentiate Ethereum from other blockchains. It’s what makes it possible to build services on Ethereum that can go far beyond the mere transfer of currency tokens from one address to another.
+The development and use of smart contracts are one of the fundamental properties that differentiates Ethereum from other blockchains. It’s what makes it possible to build services on Ethereum that can go far beyond the mere transfer of currency tokens from one address to another.
 
 The major difference between a regular physical paper contract and a smart contract is enforcement. 
 
@@ -147,14 +143,16 @@ Although it may sound complicated, there is a very easy way to consider how DApp
 > A regular website or mobile app is centralized, using a centralized server where a single entity or organization controls everything to do with the service. 
 >
 > The website or app could disappear at any time without warning, or the service users could experience censorship, outages and sudden changes.
-
-Whereas, a decentralized app uses a distributed structure to protect against those issues. Once the DApp published on the blockchain and the service goes live, no single entity can make sweeping changes, and not even the author of the contract can censor users from interacting with it. Unless the creator of the DApp deliberately adds means to do so. When such means are in place people can easily spot them as well.
+>
+> Whereas, a decentralized app (DApp) uses a distributed structure to protect against those issues. Once the DApp published on the blockchain, and the service goes live, no single entity can make sweeping changes. 
+> 
+> Not even the author of the contract can censor users from interacting with it. Unless the creator deliberately adds means to do so. When such means are in place people can easily spot them as well.
 
 At this point in time, there are thousands of DApps residing on Ethereum blockchain. Usually, DApps have some kind of token (unit of something) coded into its business logic as a means of measuring the value of something in the service the DApp aims to provide. 
 
-> For instance, if a smart contract is built of an organization management a token can be used to identify the voting power or even a revenue share. 
+For instance, if a smart contract is built for organization management a token can be used to identify the voting power or even a revenue share. 
 
-Tokens belonging to popular DApps usually become tradeable on public cryptocurrency exchanges. In that regard, these tokens are just like stocks that can rise and fall in value depending on the nature of the DApps and the market demand for it.
+Tokens belonging to popular DApps usually become tradable on public cryptocurrency exchanges. In that regard, these tokens are just like stocks that can rise and fall in value depending on the nature of the DApps, and the market demand for it.
 
 Below we explore some real Ethereum DApps which managed to grow to a large service and currently valued in the range of hundreds of millions USD.
 
@@ -164,7 +162,7 @@ Most of the DApps built on Ethereum are financial services and often referred to
 
 MakerDAO is a decentralized autonomous organization that functions entirely on Ethereum blockchain. With about half a billion USD under its control MakerDAO is an ideal example for a type of financial services that can be built on Ethereum blockchain. 
 
-It is governed and owned by those in possession of special MKR tokens. Although the MKR token supply is fixed anyone can purchase the MKR token from someone else on cryptocurrency exchanges.
+It is governed and owned by those in possession of special MKR tokens. Anyone can purchase the MKR token from someone else on cryptocurrency exchanges.
 
 MakerDAO is a lending facility that gives out loans in exchange for fees. The fees for loans have to be paid in MKR tokens which increases the value for MKR token holders.
 
@@ -236,14 +234,14 @@ Just like Bitcoin, Ethereum has its own challenges. There are issues that can in
 
 When you're ready to get involved with holding Ethereum or Ethereum-based tokens you're welcome to check out following guides:
 
-1. Cryptocurrency Basics
-2. Wallet Basics
-3. Private Keys Explained
-4. Safe Storage Tips
-5. Unstoppable Wallet
-6. Buying Cryptocurrency
-7. Spending Cryptocurrency
-8. Transactions Explained
+1. [Cryptocurrency Explained](/fundamentals/1-cryptocurrency-basics.md)
+2. [Wallet Basics](/fundamentals/2-wallets-basics.md)
+3. [Private Keys Explained](/fundamentals/3-private-keys-basics.md)
+4. [Safe Storage Tips](/fundamentals/4-safe-storage-basics.md)
+5. [Unstoppable Wallet](/fundamentals/5-unstoppable-basics.md)
+6. [Buying Cryptocurrency](/fundamentals/6-buying-cryptocurrency-basics.md)
+7. [Spending Cryptocurrency](/fundamentals/7-spending-cryptocurrency.md)
+8. [Transactions Explained](/fundamentals/8-transactions-basics.md)
 
 ## 9. Ethereum Privacy
 
