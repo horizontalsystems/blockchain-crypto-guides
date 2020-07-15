@@ -95,15 +95,15 @@ Keep in mind, you don't need a cartel level security if you're just starting out
 
 The minimum security requirements for using any non-custodial wallet app should be as follows.
  
-- Security Basics
+- **Security Basics**
 
     The owner of the device should have a basic understanding of digital security. If it's a mobile wallet the mobile OS should remain clean of unauthorized applications and stay up to date.
  
-- Standard Compliant
+- **Standard Compliant**
 
     The wallet should generate private keys per publicly documented security standards. This will allow for seamless migration to a third party wallet should there ever be a need for that.
 
-- Unauthorized Access
+- **Unauthorized Access**
     
     The access to the wallet device should be protected with the PIN or somilar mechanism. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
     
