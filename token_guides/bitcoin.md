@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-main-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-Main-l.png)
 
 # Bitcoin In Simple Terms
 
@@ -62,7 +62,7 @@ Bitcoins are limited and scarce. Eventually, there will be 21 million Bitcoins i
 
 - No single entity controls the release of new Bitcoins into circulation. It's an automated process that's regulated by algorithms. The algorithms were coded into Bitcoin at the start of its existence.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-numbers-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-numbers-s.png)
 
 It's estimated that about four million Bitcoins have been already "lost." Typically, coins are lost because users have lost the wallets with Bitcoins on them without having a backup. 
 
