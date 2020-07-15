@@ -97,7 +97,7 @@ Bitcoin network nodes ensure that only legitimate transactions are added to the 
 
 Cumulatively, Bitcoin nodes guarantee the openness, availability, decentralization, and security of the Bitcoin network. 
 
-There are at [https://bitnodes.io](least 10,000 Bitcoin nodes) powering the Bitcoin network at any given time. All working for keeping Bitcoin network accessible and running 24/7.
+There are at least [10,000 nodes](https://bitnodes.io) powering the Bitcoin network at any given time. All working for keeping Bitcoin network accessible and running 24/7.
 
 Anyone can set up a node without much effort. The node doesn't require any maintenance and can even operate on an old computer.
 
@@ -182,7 +182,7 @@ Despite Bitcoin network continuously growing there are some issues which can inh
 
 - **Bitcoin is slow**
 
-    The underlying blockchain powering Bitcoin cannot currently process more than a few million transactions per day. While this aspect is being addressed on various fronts we are yet to see a widely adopted solution.
+    The underlying blockchain powering Bitcoin cannot currently process more than half a million transactions per day. While this aspect is being addressed on various fronts we are yet to see a widely adopted solution.
 
 - **Bitcoin is complicated**
 
@@ -259,7 +259,7 @@ The new formats emerged as a result of more and more people transacting on the B
 
 - **Native-Segwit Address Format (bech 32)**
 
-    The newest address format, and the cheapest to work with when it comes transacting on Bitcoin network. The beck32 address format starts with "bc1...". 
+    The newest address format, and the cheapest to work with when it comes transacting on Bitcoin network. The bech32 address format starts with "bc1...". 
 
 There’s a good chance your preferred wallet or exchange doesn’t support at least one of these formats, with bech32 the likeliest to be omitted.
 
