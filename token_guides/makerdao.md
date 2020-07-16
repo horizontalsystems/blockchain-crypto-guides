@@ -4,27 +4,25 @@
 
 Let’s start with a brief introduction to Decentralized Finance or DeFi as everyone calls it.
 
-Bitcoin was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
+[Bitcoin](/token_guides/bitcoin.md). was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
 
 In its current state the Bitcoin blockchain is limited to plain transfers of Bitcoins from one address to another.
 
-Ethereum expanded the idea of blockchain from tracking payments between addresses to all kinds of conditional contracts. As a result the concept of Decentralized Finance (DeFi) was born.
+Ethereum expanded the idea of blockchain from tracking payments between addresses to all kinds of conditional transfers which opened up ways to hardcode contractual agreements into a blockchain. As a result the concept of Decentralized Finance (DeFi) was born.
 
 > The Ethereum blockchain goes far beyond simple transfers and is not limited in complexity of logic that can be coded into a transaction. 
 >
 > Programmers can build any type of public services with complex logic describing the nature of a business or financial contract and let it operate autonomously without means for someone to interfere. 
 >
-> For as long as the Ethereum blockchain is online, these services remain operational and work exactly as intended.
+> For as long as the Ethereum blockchain is online, these services remain operational, accessible and work exactly as intended.
 
-The term DeFi they usually refers to financial services built on top of Ethereum blockchain or one of its smaller alternatives like EOSIO. 
+The term DeFi they usually used as a reference to financial services built on top of Ethereum blockchain or one of its smaller alternatives like EOSIO. 
 
 That said, most of the high net worth projects serving the public in the DeFI ecosystem are currently working on top of the Ethereum blockchain. 
 
-If you would like to learn more about Ethereum and existing DeFi projects built on top of it, read our Ethereum guide.
+If you would like to learn more about Ethereum and existing DeFi projects built on top of it, read our [Ethereum guide](/token_guides/ethereum.md).
 
-[//]: # (link Ethereum)
-
-## MakerDAO Overview
+## 1. MakerDAO Overview
 
 MakerDAO is one of the very first DeFi projects built on top of Ethereum blockchain. 
 
@@ -38,9 +36,13 @@ The project currently controls worth over half a billion USD, all in an automate
 
 MakerDAO was the first DeFi project to earn global adoption and remains a leader in the amount of funds it controls. 
 
-The project was launched in 2014 and comes in a form of a Decentralized Autonomous Organization (DAO). It is governed by a geographically distributed set of entities ranging from organizations to private individuals.
+The project launched in 2014 and comes in a form of a Decentralized Autonomous Organization (DAO) which is governed by a geographically distributed set of entities ranging from organizations to private individuals.
 
-### DAO Explained
+> MakerDAO operates a lending facility built on the Ethereum where anyone can take out a loan in cryptocurrency in exchange for a small fee. 
+
+The governance of the MakerDAO is executed through voting by those in possession of MKR tokens. The incentive for someone to be a part of MakerDAO comes from various public-facing services provided by MakerDAO which drive the value of MKR tokens.
+
+### 1.1 DAO Explained
 
 If you’re not familiar with the concept of DAO, then simply think of it as a project or organization which meets following criteria: 
 
@@ -60,93 +62,85 @@ If that concept looks somewhat blurry to you then no worries it’s a difficult 
 
 At this point you can just take it for granted that such systems have been around for a few years and MakerDAO is one of such systems.
 
-MakerDAO is a DAO that operates a lending facility built on the Ethereum. The governance of the MakerDAO is executed through voting by those in possession of MKR tokens. 
-
-As will be illustrated later, the incentive for someone to be a part of MakerDAO comes from various public-facing services provided by MakerDAO.
-
-### DAI As A Service
+### 1.2 DAI As A Service
 
 MakerDAO consists of a set of public smart contracts known as Maker Protocol which autonomously handle the lending process.
 
-The DAI cryptocurrency is the core product of MakerDAO. It is the currency of every single loan Maker Protocol issues to the public. 
+The DAI cryptocurrency stablecoin is the core product of MakerDAO. It has a fixed value (very close to 1 USD) and is the currency of every single loan Maker Protocol issues to the public. 
 
-The DAI token itself is a stablecoin (has fixed value). Most of the services provided by MakerDAO are built around DAI stablecoin.
+Most of the services provided by MakerDAO are built around the DAI stablecoin.
 
 > The term stablecoin refers to a cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.
 
-When people take out DAI denominated loans from MakerDAO they have to pay service fees which ultimately benefit MakerDAO. 
+The Maker Protocol enables users to lock their Ether tokens as collateral and in return obtain DAI tokens. The collateral released on repayment of the loan and associated service fees.
 
-The Maker Protocol enables users to lock their Ether tokens as collateral and in return obtain DAI tokens. The collateral released on repayment of the loan.
+- Every time the loan is issued by MakerDAO’s Maker Protocol to someone a new DAI enters circulating supply. At the same time a new collateral in Ether (equivalent to 150% of the DAI loan value) deposited to the Maker Protocol reserves.
 
-1. Every time the loan is issued by MakerDAO’s Maker Protocol to someone a new DAI enters circulating supply. At the same time a new collateral in Ether (equivalent to 150% of the DAI value) deposited to the Maker Protocol reserves. 
-2. When the loan is returned, the collateral is released back to the user, and the returned DAI is destroyed by Maker Protocol. A service fee is paid by the borrower.
+- When the loan returned and associated service fee gets paid, the collateral instantly released back to the user. 
 
-Maker Protocol is what controls the circulating supply of DAI. The Maker Protocol also ensures that the price of DAI remains very close to or equal to 1 USD at all times. As will be shown later on the protocol has many tools at its disposal for balancing the price of DAI.
+- As the collateral released back to the user the DAI amount retuned by the borrower gets destroyed by the MakerDAO's Maker Protocol.
+
+The Maker Protocol controls the circulating supply of DAI and ensures tha price of DAI remains very close or equal to 1 USD at all times. As will be shown later on the MakerDAO has many tools at its disposal for balancing the price of DAI.
  
-DAI is trustless because anyone can verify that DAI in circulation is indeed backed by an amount of collateral to account for the amount in circulation. That collateral can be used to buy out every single DAI out in circulation without the need to trust someone. 
+> DAI is known as trustless stablecoin because anyone can verify that DAI in circulation indeed backed by a collateral worth 150% of circulating DAI. 
+>
+> That collateral is always there to ensure that every single DAI in circulation can be bought by the MakerDAO smart contracts even if the market demand for DAI goes to zero. 
 
-Unlike DAI, most stablecoins are centralized and require a high level of trust from a person holding the coins.
+Unlike DAI, most stablecoins (including [Tether](/token_guides/tether.md)) are centralized and require a high level of trust from a person holding these coins. 
 
-### MakerDAO Governance
+### 1.3 MakerDAO Governance
 
-Being a DAO the MakerDAO project is entirely governed by anyone in possession of an MKR token. The ownership of MKR token is directly proportional to the ownership and vote weight on any decisions in the MakerDAO. 
+Being a DAO the MakerDAO project is entirely governed by anyone in possession of MKR tokens. The ownership of MKR token is directly proportional to the ownership and vote weight on any decision in the MakerDAO. 
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-holders-l.png)
 
 Ongoing governance of the MakerDAO works through formal proposals which can be voted on and approved by MKR token holders.
 
-- When the proposal meets a certain threshold the code powering the MakerDAO ecosystem gets updated to implement the proposed changes. 
-- There is no way to bypass this process to implement changes in the Maker Protocol. Only via voting of MKR token holders.
+- When the proposal meets a certain threshold the code powering the MakerDAO ecosystem gets updated to implement the proposed changes.
+ 
+- There is no way to bypass this process to implement changes in the Maker Protocol. Only via formal proposals and voting of MKR token holders.
 
-The active proposals can be monitored here, [https://vote.makerdao.com](https://vote.makerdao.com)
+The active proposals can be monitored at [https://vote.makerdao.com](https://vote.makerdao.com)
 
-The MKR token holders benefit when someone uses one of the services offered by MakerDAO i.e. taking a loan. 
+Primary MakerDAO services require MKR tokens as payment. As a result, MKR token holders benefit when someone uses MakerDAO services i.e. taking a loan. 
 
-Primary MakerDAO services for the public require MKR tokens as payment. As more people use MakerDAO services the demand for MKR goes up which in turn increases the value for those already in possession of MKR tokens due to the increased demand. 
+> MKR token holders financially benefit from the growth of the MakerDAO network. As more people use MakerDAO services the higher is demand for MKR tokens.
 
-> MKR token holders financially benefit from the growth of the MakerDAO network. As more people use MakerDAO services the higher is demand for MKR cryptocurrency.
+At the same time, token holders collectively share the financial risks of DAI stablecoin to ensure its stability, transparency, and efficiency. 
 
-The token holders also collectively share the financial risks of DAI stablecoin to ensure its stability, transparency, and efficiency. 
+> Any stability issues with DAI will have a direct impact on the price of MKR token, as the latter will have to be minted (increasing the total supply of MKR tokens) and sold to cover the losses of the Maker Protocol.
 
-> Any stability issues with DAI will have a direct impact on the price of MKR token, as the latter will have to be minted (increasing the total supply of MKR tokens in circulation) and sold to cover the losses of the Maker Protocol.
+At this point, there are slightly over a million of MKR tokens in circulation. The current [MKR market cap](https://coinmarketcap.com/currencies/maker/) exceeds half a billion USD.
 
-At this point, there are slightly over a million of MKR tokens in circulation. The current [market cap](https://coinmarketcap.com/currencies/maker/) exceeds half a billion USD.
+MKR tokens can be bought and sold on [cryptocurrency exchanges](/fundamentals/6-buying-cryptocurrency-basics.md) just like Bitcoin or Ethereum. The price of the MKR token is determined by the open market forces.
 
-MKR tokens can be bought and sold on cryptocurrency exchanges just like Bitcoin or Ethereum. The price of the MKR token is determined by the open market forces.
+Just like the DAI, the MKR token is an Ethereum based token and can be stored in pretty much any [non-custodial wallet](/fundamentals/2-wallets-basics.md) like Unstoppable, [https://unstoppable.money](https://unstoppable.money).
 
-Just like the DAI, the MKR token is an Ethereum based token and can be stored in pretty much any non-custodial crypto wallet like Unstoppable, [https://unstoppable.money](https://unstoppable.money).
+### 1.4 Key Players
 
-### Key Players
-
-It should be noted that at the moment there is a key entity in the MakerDAO community known as Maker Foundation. The Maker Foundation built and launched the Maker Protocol in conjunction with a number of outside partners.
+It should be noted that at the moment there is a key entity in the MakerDAO community known as Maker Foundation. This foundation built and launched the Maker Protocol in conjunction with a number of outside partners.
 
 While the governance of the MakerDAO are exercised through token ownership there are some organizational aspects which are currently overseen by Maker Foundation. 
 
 Some of such aspects are the weekly Governance and Risk meetings where the MKR holders talk about the key issues for the present day. 
 
-The link [here](https://calendar.google.com/calendar/embed?src=makerdao.com_3efhm2ghipksegl009ktniomdk%40group.calendar.google.com&ctz=America%2FLos_Angeles) shows the schedule and agenda for the past and upcoming meetings. Most of the past meetings are also available on [Youtube](https://www.youtube.com/watch?v=AcOm5yhqY38).
+The link [here](https://calendar.google.com/calendar/embed?src=makerdao.com_3efhm2ghipksegl009ktniomdk%40group.calendar.google.com&ctz=America%2FLos_Angeles) shows the agenda for the past and upcoming meetings. Most of the past meetings are also available on [Youtube](https://www.youtube.com/watch?v=AcOm5yhqY38).
 
-The Maker Foundation is currently working with the MakerDAO community to further decentralize the governance of the project. 
-
-The aim is to achieve complete decentralization in the near term where all organizational aspects are overseen by the community rather than the Maker Foundation.
+The Maker Foundation is currently working with the MakerDAO community to achieve complete decentralization of the project where all organizational aspects will be managed by the community.
 
 - [Self Sustaining MakerDAO](https://forum.makerdao.com/t/announcement-kickstarting-the-self-sustaining-makerdao-initiative/1864)
 - [Governance After Decentralization](https://blog.makerdao.com/what-will-maker-governance-look-like-after-complete-decentralization/)
 - [Design For Self Governing DAO](https://www.theblockcrypto.com/post/60702/maker-foundation-reveals-its-design-for-a-self-governing-dao-to-replace-its-role-in-the-ecosystem)
 
-Until recently the Maker Foundation had an exclusive control over the smart contract that controlled the operational mechanics of the MKR token. 
+For instance, until recently the Maker Foundation had an exclusive control over the smart contract that controlled the operational mechanics of the MKR token. While any changes to that smart contract can't go unnoticed, the Maker Foundation been privileged in ability to control it. 
 
-While any changes to the mechanics of that smart contract can't go unnoticed, the Maker Foundation was uniquely privileged in their ability to control it. 
+In March 2020, the control of that contract passed to the MakerDAO community. You can [read more](https://blog.makerdao.com/the-transfer-of-mkr-token-control-to-governance-the-final-step/) about it here. There are means to verify that this change actually took place by exploring the relevant transaction on Ethereum blockchain itself.
 
-In March 2020, the control of that contract was changed and passed fully to the MakerDAO community. You can [read more](https://blog.makerdao.com/the-transfer-of-mkr-token-control-to-governance-the-final-step/) about it here. There are means to verify that this change actually took place by exploring the relevant transaction on Ethereum blockchain itself.
+There is also an entity known as DAI foundation which was formed to oversee and legally control MakerDAO's key intangible assets, such as trademarks and code copyrights. 
 
-There is also an entity known as DAI foundation. It's based in Denmark and independent of the Maker Foundation. 
+It's based in Denmark and operates solely on the basis of objective and rigid statutes that define its mandate.
 
-It was formed to oversee and legally control the MakerDAO's key intangible assets, such as trademarks and code copyrights. 
-
-It operates solely on the basis of objective and rigid statutes that define its mandate. Its purpose, as noted in the Dai Foundation Trust Deed, is to safeguard what cannot be technologically decentralized in the Maker Protocol.
-
-## MakerDAO Services
+## 2. MakerDAO Services
 
 As briefly mentioned earlier the DAI cryptocurrency is the core product of MakerDAO. The public facing services provided by MakerDAO are one way or another built around the DAI stablecoin. 
 
