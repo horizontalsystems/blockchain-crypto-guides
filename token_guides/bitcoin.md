@@ -44,7 +44,6 @@ After a few years of growth via word-of-mouth marketing the Bitcoin turned into 
 
 ## 2. Bitcoin Cryptocurrency
 
-//ToDo
 As we have covered in our [guide on blockchains](/fundamentals/1-cryptocurrency-basics.md), the cryptocurrency is a unit of measure on a blockchain. 
 
 The Bitcoin cryptocurrency, denoted by a BTC symbol, is the native unit of measurement on the Bitcoin blockchain.
@@ -190,7 +189,7 @@ Despite Bitcoin network continuously growing there are some issues which can inh
 
 - **Lack of adoption**
 
-    These days Bitcoin mainly used as a store of value or as an instrument for speculative trading. There is a growing need for more ways to be able to spend Bitcoins. The more ways there are to spebd the Bitcoin the more attractive it becomes as payment option.
+    These days Bitcoin mainly used as a store of value or as an instrument for speculative trading. There is a growing need for more ways to be able to spend Bitcoins. The more ways there are to spend the Bitcoin the more attractive it becomes as payment option.
 
 - **Lack of privacy**
     

@@ -43,15 +43,17 @@ The more currencies the wallet able to handle the better. It's a matter of conve
 
 ![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-04-p.png)
 
-The wallet app also needs to have access to current cryptocurrency prices. Current prices necessary for the wallet to calculate and display your asset balance in currency you're used to (like USD). 
+The wallet app also needs to have access to current cryptocurrency prices to display your cryptocurrency balances in a currency you're used to such as USD or EUR. 
 
 Moreover, current prices are necessary for sending payments. Sending someone 90$ worth of Bitcoin is not easy when you try to do the math in your head.
 
 ### 4. Coin Overviews
 
-Each cryptocurrency is essentially a project with its own set of specifics. 
+Each cryptocurrency is essentially a project with its own set of specifics. It's important to know about these specifics for anyone looking to purchase these cryptocurrencies.
 
-While there are a lot of different cryptocurrencies there is lack of well-researched information describing these projects in accessible manner. Many projects are fairly obscure even for the experienced newcomers with a technical background.
+While for some cryptocurrencies transactions are cheap for other the fees can be high. Moreover, the speed and privacy of individual transactions can also vary greatly between cryptocurrencies.
+
+While there are a lot of different cryptocurrencies there is lack of information describing these projects in accessible manner. Many projects are fairly obscure even for the experienced newcomers with a technical background.
 
 Unstoppable aims to provide a comprehensive overview for various cryptocurrencies in simple terms.
 
@@ -91,16 +93,18 @@ Certain points should be taken into consideration when evaluating non-custodial 
     
 - **Balance and Transactions**
 
-    Non-custodial wallets allow users to restore existing wallets via private keys. Generally, wallet providers keep a special server to serve these users. While this method is convenient for wallet provider it potentially means that provider may to some extent know about user's balance and transaction history.
+    Non-custodial wallet apps usually allow users to restore or migrate an existing wallet to the wallet app. To serve those users, wallet providers may keep a special server specifically optimized for that task. 
     
-    To address this, some wallets like Unstoppable support restoring directly from the blockchain network itself rather than via a third-party server. This ensures that wallet provider has no clue about balance or transactions.
+    While this method is convenient for the wallet provider it can potentially expose some info about user's balance and transactions.
+    
+    To address this, some wallets like Unstoppable support restoring directly from the blockchain network itself rather than via a third-party server. This ensures that wallet provider has no clue about balance or transactions of the user.
     
 - **Blockchain Privacy**
 
-    Different blockchains provide varying level of privacy. For instance, when you transact in Bitcoin the level of privacy is higher than when transacting with Ethereum. 
+    Different blockchains provide varying level of privacy: when you transact in Bitcoin the level of privacy is higher than when compared to Ethereum. 
     
-    The transaction privacy aspect will be covered in detail later on. Meanwhile, keep in mind that certain non-custodial wallets may have additional features which increase the privacy on that specific blockchain.
-
+    Certain non-custodial wallets may have additional features which increase the privacy on that specific blockchain. For instance, Unstoppable wallet app integrates certain instruments which make it significantly more difficult linking different blockchain transactions to a single entity. 
+    
 While many wallets brand themselves as non-custodial and peer to peer they may still have privacy risks. The most private wallet is the one which knows absolutely nothing about the user.
 
 ### 8. Censorship-Resistance
