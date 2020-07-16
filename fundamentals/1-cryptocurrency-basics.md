@@ -6,7 +6,7 @@ The aim of this guide is to onboard someone with little knowledge about cryptocu
 
 Cryptocurrencies are powered by a number of technologies, but primarily a blockchain technology. 
 
->_**The blockchain technology used in cryptocurrency like Bitcoin was designed in a way where doing anything outside the scope of agreed rules becomes impossible.**_
+>**The blockchain technology used in cryptocurrency like Bitcoin was designed in a way where doing anything outside the scope of agreed rules becomes impossible.**
 
 When using a product built on top of such blockchain following statements hold true:
 
@@ -19,7 +19,7 @@ Blockchain technology can potentially be applied to anything where notions like 
 
 At the time being, a lot of financial and legal agencies exist to enforce things that can be enforced by a blockchain in impartial manner. Should the blockchain technology continue to grow these services are likely to be automated and ported over to a blockchain.
 
->_**The first generation of blockchain-based products like Bitcoin aim to deliver a financial platform for value exchange without the need for a system to rely on intermediaries such as banks.**_
+>**The first generation of blockchain-based products like Bitcoin aim to deliver a financial platform for value exchange without the need for a system to rely on intermediaries such as banks.**
 
 The Bitcoin is the first product where the idea of blockchain was applied to challenge areas currently controlled by financial system.
 
@@ -27,9 +27,9 @@ The Bitcoin is the first product where the idea of blockchain was applied to cha
 
 So, what is a blockchain? While so many definitions make it sound complicated it's fairly simple in reality.
 
->_**Without going technical, think about a blockchain as a chronological history of records.**_
+>**Without going technical, think about a blockchain as a chronological history of records.**
 >
->_**It can be a history of transactions, a history of votes submitted by electorates etc.**_
+>**It can be a history of transactions, a history of votes submitted by electorates etc.**
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-02-l.png)
 
@@ -93,7 +93,7 @@ While some cryptocurrencies are unique in the way the underlying blockchain is b
 
 As blockchains have an open code anyone can launch a duplicate cryptocurrency without much effort. In that regard, the duplicate won't really be any different from original substantially except for the size of the network.
 
->_**A size of the underlying network is what makes one cryptocurrency more valuable than the other.**_
+>**A size of the underlying network is what makes one cryptocurrency more valuable than the other.**
 
 A simple way to think about the size of the network is the number of people interacting with the given blockchain. 
 
@@ -107,15 +107,15 @@ A good example to illustrate this is the Bitcoin blockchain.
 
 The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a small group of people has attracted millions of people over the years. 
 
->_**Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.**_
+>**Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.**
 >
->_**Even more people participate in the Bitcoin ecosystem by using Bitcoin or by building services around the Bitcoin ecosystem.**_
+>**Even more people participate in the Bitcoin ecosystem by using Bitcoin or by building services around the Bitcoin ecosystem.**
 
 Today, Bitcoin became global and censorship-resistant platform that is open to all. 
 
 The fact that Bitcoin and alike platforms are open and permission-less means anyone can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. Any entity can build a service operating on top of Bitcoin blockchain.
 
->_**The bigger the network of a blockchain, the more attractive it's for the service providers.**_
+>**The bigger the network of a blockchain, the more attractive it's for the service providers.**
 
 So, along with the previously mentioned blockchain attributes the key element for evaluating blockchain is its network size. 
 

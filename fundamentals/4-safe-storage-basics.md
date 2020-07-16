@@ -91,7 +91,7 @@ For instance, a non-custodial mobile wallet app may potentially be more private 
 
 Keep in mind, you don't need a cartel level security if you're just starting out. The out of the box security on most well-known non-custodial wallet apps is already pretty good.
 
-> _**A balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.**_
+> **A balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.**
 
 The minimum security requirements for using any non-custodial wallet app should be as follows.
  
@@ -133,7 +133,7 @@ Keeping your mobile wallet on your phone is handy. Your cryptocurrency remains c
 
 Those holding large amounts in cryptocurrency can jump to a tiered approach from the start. 
 
-> _**The basic principle can be based around the concept of keeping a larger portion of the dormant holdings in a hardware wallet that's not meant to be accessed frequently.**_
+> **The basic principle can be based around the concept of keeping a larger portion of the dormant holdings in a hardware wallet that's not meant to be accessed frequently.**
 
 If the sum to be stored in the hardware wallet is substantial then as a further precaution it's advised to split between two or more hardware wallets.
 
@@ -143,9 +143,9 @@ As was mentioned earlier, having a backup of a private key for each wallet is cr
 
 Some people prefer to write the private key (presented in a form words) down on a piece of paper and store it somehow somewhere. Some prefer writing the words on a file and then store the encrypted copy online.
 
-> _**Note that it's not a good idea to have a digital version of the private key (even if it's encrypted) for any wallet with large amount of crypto.**_
+> **Note that it's not a good idea to have a digital version of the private key (even if it's encrypted) for any wallet with large amount of crypto.**
 > 
-> _**For smaller amounts should not be a significant issue as long as you understand the risks.**_ 
+> **For smaller amounts should not be a significant issue as long as you understand the risks.** 
 
 For mobile non-custodial wallets that are meant to be accessed frequently make sure backup of the private key stored safely and easily accessible on demand.
 
@@ -155,7 +155,7 @@ When setting up new wallet apps some wallet apps enable users to add a password 
 
 It's an additional security measure that allows the person to keep the 12/24 words separately from the password. 
 
-> _**Doing so allows the owner of the wallet to remain safe even if someone finds the list with words. The password will still be needed to access crypto funds.**_
+> **Doing so allows the owner of the wallet to remain safe even if someone finds the list with words. The password will still be needed to access crypto funds.**
 
 The password can be memorized or written down and kept separately from the list of words.
 

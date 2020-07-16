@@ -56,9 +56,9 @@ When transacting using а non-custodial wallet transactions will go directly thr
 
 When sending cryptocurrencies like Bitcoin or Ethereum the sender expected to pay a transaction fee. That fee goes as compensation to one of the blockchain nodes which will be the first to add the transaction to a blockchain.
 
-> You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction within a few seconds after it's sent. 
+> **You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction within a few seconds after it's sent.** 
 >
-> The node that adds it first to the blockchain will get the associated fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee for using the network.
+> **The node that adds it first to the blockchain will get the associated fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee for using the network.**
 
 Depending on the cryptocurrency you're sending the transaction fees may vary. For some blockchains the fee may be as low as a fraction of a cent, for other like Bitcoin it can easily exceed 1$.
 
@@ -66,9 +66,9 @@ The blockchains powering cryptocurrencies like Bitcoin and Ethereum currently li
 
 If the fee is far below the network average your transaction may remain pending for hours, if it's well above the average expect it to be added to the blockchain usually within a few minutes.
 
-> If transaction remains pending for a few days due to a low fee it may be rejected (as it was never sent).
+> **If transaction remains pending for a few days due to a low fee it may be rejected (as it was never sent).**
 >
-> If you have a pending transaction that taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.
+> **If you have a pending transaction that taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**
 
 Some wallets out there would recommend the optimal transaction fee amount taking into account the current state of activity on the network.
 
@@ -110,7 +110,7 @@ Below we are going to expand a bit and specifically look at privacy risks when t
 
     When it comes to Ethereum wallets your address to receive Ether payments will always be the same. Although it may change in the future, nearly all Ethereum wallets work with the single address nowadays. There are some technical reasons for that.
     
-    > The Ethereum blockchain is fully transparent allowing anyone to see all incoming and outgoing transactions for the given payment address. 
+    > **The Ethereum blockchain is fully transparent allowing anyone to see all incoming and outgoing transactions for the given payment address.** 
     
     So, when you send or receive Ethereum keep in mind that the party you're transacting with can potentially lookup your balance of Ether and other Ethereum based tokens just by knowing your address.
     

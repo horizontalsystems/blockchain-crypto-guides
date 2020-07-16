@@ -31,6 +31,6 @@ Note that, all crypto debit card providers will require some kind of identificat
 
 When using the services, the card provider will usually issue you with a custodial cryptocurrency wallet that will be used as a source of funds for your card. 
 
-> The wallet provided by a debit card provider will be a custodial wallet and therefore, you should never keep a lot of funds on it.
+> **The wallet provided by a debit card provider will be a custodial wallet and therefore, you should never keep a lot of funds on it.**
 
 Use a non-custodial wallet for your primary funds and occasionally top up the wallet provided by a card provider with amounts you're a planning to spend in the near term. 
