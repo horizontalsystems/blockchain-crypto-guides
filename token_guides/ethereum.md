@@ -138,7 +138,7 @@ Smart contracts can hold large balances and operate their funds independently, f
 
 Decentralized Applications (aka DApps) are services built with the help of smart contracts. Smart contracts hold the rules according to which the DApp operates. A single DApp may consist of one or more interconnected smart contracts.
 
-Although it may sound complicated, there is a very easy way to consider how DApps operate. 
+Although it may sound complicated, there is an easy way to consider how DApps operate. 
 
 > A regular website or mobile app is centralized, using a centralized server where a single entity or organization controls everything to do with the service. 
 >
@@ -146,51 +146,49 @@ Although it may sound complicated, there is a very easy way to consider how DApp
 >
 > Whereas, a decentralized app (DApp) uses a distributed structure to protect against those issues. Once the DApp published on the blockchain, and the service goes live, no single entity can make sweeping changes. 
 > 
-> Not even the author of the contract can censor users from interacting with it. Unless the creator deliberately adds means to do so. When such means are in place people can easily spot them as well.
+> Not even the author of the DApp can censor users from interacting with it unless the author deliberately adds means to do so. When such means are in place people can easily spot them as well.
 
-At this point in time, there are thousands of DApps residing on Ethereum blockchain. Usually, DApps have some kind of token (unit of something) coded into its business logic as a means of measuring the value of something in the service the DApp aims to provide. 
+At this point in time, there are thousands of DApps residing on Ethereum blockchain. Usually, DApps have some kind of token (unit of something) coded into its business logic as a means of measuring something in the service the DApp aims to provide. 
 
-For instance, if a smart contract is built for organization management a token can be used to identify the voting power or even a revenue share. 
+For instance, in a smart contract that is built for organization management a token can be used to grant members voting power or allocate profit share. 
 
-Tokens belonging to popular DApps usually become tradable on public cryptocurrency exchanges. In that regard, these tokens are just like stocks that can rise and fall in value depending on the nature of the DApps, and the market demand for it.
-
-Below we explore some real Ethereum DApps which managed to grow to a large service and currently valued in the range of hundreds of millions USD.
+Tokens belonging to popular DApps are usually tradable on public [cryptocurrency exchanges](/fundamentals/6-buying-cryptocurrency-basics.md). In that regard, these tokens are just like stocks that can rise and fall in value depending on the nature of the DApps, and the market demand for it.
 
 Most of the DApps built on Ethereum are financial services and often referred to as Decentralized Finance services.
 
+Listed below are some real Ethereum DApps which managed to grow substantially and currently valued in the range of hundreds of millions USD.
+
 ### MakerDAO 
 
-MakerDAO is a decentralized autonomous organization that functions entirely on Ethereum blockchain. With about half a billion USD under its control MakerDAO is an ideal example for a type of financial services that can be built on Ethereum blockchain. 
+MakerDAO is a decentralized autonomous organization that functions entirely on Ethereum blockchain. With about half a billion USD under its control MakerDAO is an ideal example for a type of financial service that can be built on Ethereum. 
 
-It is governed and owned by those in possession of special MKR tokens. Anyone can purchase the MKR token from someone else on cryptocurrency exchanges.
+It is governed and owned by those in possession of special MKR token which can be purchased from someone on cryptocurrency exchange.
 
-MakerDAO is a lending facility that gives out loans in exchange for fees. The fees for loans have to be paid in MKR tokens which increases the value for MKR token holders.
+MakerDAO is a lending facility that gives out cryptocurrency loans in exchange for a fee. The fee for each loans have to be paid in MKR tokens driving the value for MKR token holders.
 
-The DAI is a stablecoin, pegged 1:1 to the US dollar, and the currency of the loans given by MakerDAO. Anyone can take out a loan in DAI from the MakerDAO smart contract. 
+The DAI stablecoin, pegged 1:1 to the US dollar, is the currency of the loans given by MakerDAO. Anyone can take out a DAI denominated loan from the MakerDAO smart contract. 
 
 ### 0x Protocol 
 
-There are many organizations launching all kinds of tokens on Ethereum blockchain. 
+There are many tokens belonging to all kinds of DApps on Ethereum blockchain. Just like the MakerDAO's MKR token, many of those tokens represent value and are traded on cryptocurrency exchanges. 
 
-Just like the MakerDAO, many of those tokens represent value and are traded on cryptocurrency exchanges. 
+0x protocol is a set of smart contracts on Ethereum which enables users to exchange Ethereum-based tokens. 
 
-0x protocol is a set of smart contracts on Ethereum which enables exchanging these tokens in a decentralized manner. 
-
-ZRX is the native token for the 0x Protocol and plays a key role in exchanging tokens represented by different smart contracts. Moreover, holding ZRX token enables users to vote on improvements to 0x Protocol.
+ZRX is the native token for the 0x Protocol and plays a key role in exchanging tokens represented by different smart contracts. Moreover, holding ZRX tokens allows users to vote on improvements to 0x Protocol.
 
 ### Exchange Tokens 
 
-Several multi-billion dollar cryptocurrency exchanges provide a token that’s controlled by a smart contract on Ethereum. 
+Several multi-billion dollar cryptocurrency exchanges launched an Ethereum-based token to compliment services offered by an exchange.
 
-For the most part, these exchange tokens reduce transaction fees on the host exchange, offering users the chance to pay vastly reduced fees. The prominent examples of such tokens are Binance Coin (BNB) and Huobi Token (HT).
+Among other things, holders of these tokens pay vastly reduced exchange fees. Binance Coin (BNB) and Huobi Token (HT) are good examples of such tokens.
 
-Having those tokens on a blockchain adds transparency to the issuance as well as provides means for the exchanges to raise funds.
+Having those tokens on a blockchain adds transparency to the issuance as well as provides means for the exchanges to raise funds and incentivize user activity.
 
 ### Stablecoins
 
 There are a number of smart contracts on Ethereum representing stablecoins. Stablecoins are tokens that pegged to the value of something (usually USD) and generally 1 to 1 backed by liquid reserves. The biggest such stablecoin is Tether (USDT).
 
-Tether often used by cryptocurrency users for quick swapping their holdings to USD at a 1:1 ratio. USDC is another such stablecoin run by a different organization. 
+Tether often used by cryptocurrency users for quick swapping their holdings to USD equivalent at a 1:1 ratio. USDC is another such stablecoin run by a different organization. 
 
 Both organizations utilize Ethereum blockchain to manage a public token representing value.
 
@@ -200,21 +198,21 @@ Basic Attention Token (BAT) is the native token powering the Brave advertising p
 
 The BAT token integrated into the privacy-focused Brave web browser which is currently used by [over 8 million](https://brave.com/brave-reaches-8-million-monthly-active-users-and-delivers-nearly-400-privacy-preserving-ad-campaigns/) people per month. 
 
-As shown above, a DApp can take many forms. The versatility of the Ethereum blockchain and its native programming language, Solidity, attracts a lot of engineers, entrepreneurs and investments.
+As shown above, a DApp can take many forms. A large chunk of all cryptocurrencies out there are tokens belonging to some kind of Ethereum-based financial service where a token used for governance, voting, discount etc.
 
-A large chunk of all cryptocurrencies out there are essentially tokens belonging to some kind of Ethereum-based financial service or a project. These projects usually have own a custom token used for governance, voting etc.
+## 7. DApps Ecosystem
 
-Ethereum-based financial services cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value.
-
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-billion-l.png)
-
-Accessing these services and interacting with them on a comfortable level is still a bit problematic though.
+The versatility of the Ethereum blockchain and its native programming language, Solidity, attracts a lot of engineers, entrepreneurs and investors into the ecosystem. 
 
 Engineers worldwide are currently building user facing smartphone apps or websites for various DApps residing on Ethereum blockchain. There is a lot of engineering activity in that sector now.
 
-A non-custodial cryptocurrency wallet is an example of such app.
+These days Ethereum-based financial DApps cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value. 
 
-## 7. Ethereum Problems
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-billion-l.png)
+
+Accessing, understanding and interacting with these DApps on a comfortable level is still a bit problematic for someone not familiar with blockchain and related technology. 
+
+## 8. Ethereum Problems
 
 Just like Bitcoin, Ethereum has its own challenges. There are issues that can inhibit its future growth.
 
@@ -224,13 +222,33 @@ Just like Bitcoin, Ethereum has its own challenges. There are issues that can in
 
 - Complicated
 
-    Ethereum is still fairly complicated to grasp for newcomers. A lot of people find it difficult to grasp the application of Ethereum blockchain beyond payment transfers.
+    Ethereum is complicated to grasp, especially for newcomers. A lot of people find it difficult to grasp the application of Ethereum blockchain beyond the payment transfers. The services built on Ethereum are generally hard to use.
 
 - Lack of privacy
     
     Ethereum is not private. If you send someone Ether or any other Ethereum-based token then the recipient can potentially see your balance and transaction history on Ethereum.
 
-## 8. Storage & Usage
+## 9. Ethereum Privacy
+
+As mentioned above, Ethereum is not private at all. Ethereum blockchain is fully transparent allowing anyone to see all incoming/outgoing transactions for the given payment address.
+
+People you've transacted with can see your balances and full history of activity.
+
+> In the case of Bitcoin blockchain the address for receiving payments can change (but don’t have to) with each transaction. Most Bitcoin wallets generate a new address after each incoming payment making it considerably more difficult to connect two different transactions to a single party.
+>
+> When it comes to Ethereum blockchain your address to receive Ether payments will always be the same. That address becomes your ID when you interact with smart contracts on Ethereum blockchain. Nearly all Ethereum wallets work this way nowadays. Therefore, there is a privacy issue.
+
+This is likely to change, but for the time being most wallets use a single Ethereum address. The balance and transactions belonging to any payment address are openly available for anyone on Ethereum blockchain.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-tx-l.png)
+
+So, when you transact with Ether, keep in mind that the other party can look up your balance as well as history of incoming/outgoing payments to/from that address.
+
+The only thing that adds some minimal privacy element into the mix is the fact there is no way to check who that address belongs to. However, with enough time and resources, someone could feasibly link certain transactions to individual users. 
+
+If one of the cryptocurrency exchanges gets hacked and hackers get their hands on user data, this would mean someone can map Ethereum payment addresses to real world identities.
+
+## 10. Storage & Usage
 
 When you're ready to get involved with holding Ethereum or Ethereum-based tokens you're welcome to check out following guides:
 
@@ -243,34 +261,10 @@ When you're ready to get involved with holding Ethereum or Ethereum-based tokens
 7. [Spending Cryptocurrency](/fundamentals/7-spending-cryptocurrency.md)
 8. [Transactions Explained](/fundamentals/8-transactions-basics.md)
 
-## 9. Ethereum Privacy
-
-In the case of Bitcoin blockchain the address for receiving payments can change (but don’t have to) with each transaction. 
-
-Most Bitcoin wallets generate a new address after each incoming payment making it considerably more difficult to connect two different transactions to a single party.
-
-> When it comes to Ethereum blockchain your address to receive Ether payments will always be the same. Nearly all Ethereum wallets work this way nowadays. 
-
-This is likely to change, but for the time being most wallets use a single Ethereum address. 
-
-That address becomes your ID when you interact with smart contracts on Ethereum blockchain.
-
-The balance and transactions belonging to specific payment addresses are openly available for anyone on Ethereum blockchain.
-
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-tx-l.png)
-
-Ethereum blockchain is fully transparent allowing anyone to see all incoming/outgoing transactions for the given payment address. 
-
-> So when you transact with Ether, keep in mind that the other party can look up your balance as well as history of incoming/outgoing payments to/from that address.
-
-The only thing that adds some minimal privacy element into the mix is the fact there is no way to check who that address belongs to. 
-
-With enough time and resources, someone could feasibly link certain transactions to individual users. 
-
-If one of the cryptocurrency exchanges gets hacked and hackers get their hands on user data, this would mean someone can map Ethereum payment addresses to real world identities.
-
 ## Conclusion
 
 You've reached the beginning of your Ethereum journey. The knowledge you've amassed in this short Ethereum guide will hold you in good stead for your first steps into the world of Ethereum, and other cryptocurrencies, too. 
 
-As one final note, please understand that this isn't a comprehensive guide. Ethereum is a vast subject, and cryptocurrency and blockchain even more. However, you can use the information in this guide as your stepping stone onto bigger and greater things in the burgeoning world of cryptocurrency.
+As one final note, please understand that this isn't a comprehensive guide. Ethereum is a vast subject, and cryptocurrency and blockchain even more. 
+
+However, you can use the information in this guide as your stepping stone onto bigger and greater things in the burgeoning world of cryptocurrency.
