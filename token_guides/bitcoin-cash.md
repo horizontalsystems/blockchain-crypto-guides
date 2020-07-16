@@ -44,7 +44,7 @@ While the block size limit was at the center of the argument there were many oth
 
 This disagreement resulted in the split of the Bitcoin network and the emergence of Bitcoin Cash blockchain and its native cryptocurrency BCH. The group which was in favor of larger block size limit has split from the Bitcoin community and created Bitcoin Cash.
 
-## 2. Bitcoin Cash Fork
+## 2. The Fork
 
 As cryptocurrencies are open-source and no entity has exclusive rights ove the code powering them, anyone can create a duplicate via a simple process known as ['fork'](https://en.wikipedia.org/wiki/Fork_(software_development)) and market it as another product.
 
@@ -82,47 +82,45 @@ The project has a strong marketing community encouraging merchants worldwide to 
 
 Today, the community regards as Bitcoin the one with a symbol BTC. It's the cryptocurrency people refer to when talking about the Bitcoin.
 
-> It should be noted, there is an ongoing debate between Bitcoin and Bitcoin Cash communities as to which of the two cryptocurrencies is the 'true Bitcoin' that Satoshi Nakamoto [intended](https://bitcoin.org/en/bitcoin-paper) to create.
+> It should be noted, there is an ongoing debate between Bitcoin and Bitcoin Cash communities as to which of the two cryptocurrencies is the 'true' Bitcoin that Satoshi Nakamoto [intended](https://bitcoin.org/en/bitcoin-paper) to create.
 
-Although both cryptocurrencies share origins the post-fork changes to blockchain code took each project in its own direction.
+Although both cryptocurrencies share origins, the post-fork changes to blockchain code took each project in its own direction.
 
-**Bitcoin Cash (BCH)**
-
-Bitcoin Cash community views the BCH as a peer-to-peer 'digital cash' which can be used to pay for anything, quickly and with close to zero transaction fees.
-
-- As a result of post-fork block size limit changes, a single block on Bitcoin Cash can now hold up to 32 times more transactions than Bitcoin. The average transaction size for a Bitcoin Cash transaction is around 250 bytes. With 32 MB blocks generated every 10 minutes, the Bitcoin Cash is theoretically capable of supporting 18,000,000 transactions per day. So, so there is a lot of room to grow.
-
-- Despite the 32 MB block size limit the blocks on Blockchain Cash blockchain [rarely](https://bitinfocharts.com/comparison/bitcoin%20cash-size.html) go over 1MB in size. The blockchain currently processes less than [30,000 - 40,000](https://bitinfocharts.com/comparison/bitcoin%20cash-transactions.html) transactions per day.
-
-- Transacting with Bitcoin Cash is very cheap and often costs below 1 cent. Combine it with the fact that Bitcoin Cash payments reach finality faster (more on that below) you get both fast and cheap payments. 
-
-**Bitcoin (BTC)**
-
-Bitcoin is generally perceived as a 'store of value' rather than digital cash. In that regard, more emphasis being put on security and privacy of the blockchain rather than the speed.
-
-- While there is an ongoing work to improve the speed of Bitcoin transactions on various fronts, transacting with Bitcoin is still fairly slow and expensive. The Bitcoin(BTC) community believes that slow speed and high fees will be resolved by independent projects like [Lightning Network](https://lightning.network). While a lot of progress taking place on Lightning project it's still in early stages, and we are yet to see any global retailer accepting Bitcoin directly or via Lightning Network. 
-
-- Throughout 2020, there have been [on average](https://bitinfocharts.com/comparison/bitcoin-transactions.html) 300K Bitcoin transactions per day. As can be seen [here](https://bitinfocharts.com/comparison/size-btc.html), the Bitcoin blockchain is very close to reaching the capacity with the average block size being about 80-90% of capacity. Taking into account that most transactions occur during peak hours the high fees is pretty much a daily issue at this point.
-
-- The chart [here](https://bitinfocharts.com/comparison/bitcoin-transactionfees.html) shows that the average transaction fee for Bitcoin was generally in the range of 1 USD throughout 2020. There was a brief period in May 2020 where the average fee was as high as 6$. During the peak hours it's not uncommon to pay a few dollars as transaction fees, regardless of the amount sent.
+> Bitcoin Cash (BCH) community views the BCH as a peer-to-peer 'digital cash' which can be used to pay for anything, quickly and with close to zero transaction fees.
+>
+> Bitcoin (BTC) is generally perceived as a 'store of value' rather than digital cash. In that regard, more emphasis being put on security and privacy of the blockchain rather than the speed. While there is an ongoing work to improve the speed of Bitcoin via projects like [Lightning Network](https://lightning.network), we are yet to see a widely adopted solution.
 
 While it can be assumed that original Bitcoin network lost a chunk of its network as a result of the fork it's hard to quantify the extent of this. 
 
-When you look at the amount of activity taking place on the blockchain itself, the original Bitcoin still has a much larger network and more engineers working on its ecosystem.
+**Bitcoin Cash (BCH)**
 
-- **Number of Network Nodes**
+- As a result of post-fork block size limit increases, a single block on Bitcoin Cash can now hold up to 32 times more transactions than Bitcoin. With such blocks the Bitcoin Cash is theoretically capable of handling 18,000,000 transactions per day.
 
-    There are on average 10 times more network [nodes online for Bitcoin](https://bitnodes.io) blockchain then [Bitcoin Cash](https://cash.coin.dance/nodes). As was mentioned bfore, nodes guarantee security, availability and decentralization of the blockchain.
-    
--  **Transaction Count**
+- Despite larger blocks, Blockchain Cash sees less than [30,000 - 40,000](https://bitinfocharts.com/comparison/bitcoin%20cash-transactions.html#6m) transactions per day with transaction blocks [rarely](https://bitinfocharts.com/comparison/bitcoin%20cash-size.html#6m) going over 1 MB in size.
 
-    There are on average 10-15 times more entities transacting on Bitcoin blockchain when compared to Bitcoin Cash. The page [here](https://bitinfocharts.com/comparison/activeaddresses-btc-bch.html) compares both blockchain by the number of addresses involved in transactions over the 24-hour period.
+- Transacting with Bitcoin Cash is very cheap and often costs [below 1 cent](https://bitinfocharts.com/comparison/transactionfees-bch.html#6m). Combine it with the fact that Bitcoin Cash payments reach finality faster (more on that below) you get both fast and cheap payments. 
 
+**Bitcoin (BTC)**
+
+- Throughout 2020, there have been [on average](https://bitinfocharts.com/comparison/bitcoin-transactions.html#6m) 300K Bitcoin transactions per day. At this stage, the Bitcoin blockchain is close to reaching the capacity with the average block now being about [90% of capacity](https://bitinfocharts.com/comparison/size-btc.html#6m). Taking into account that most transactions occur during peak hours the high fees is pretty much a daily issue at this point.
+
+- The average fee for Bitcoin transactions been generally in the range of [1 USD throughout 2020](https://bitinfocharts.com/comparison/bitcoin-transactionfees.html#6m) with a brief period in May 2020 where it reached as high as 6$. 
+
+Transactions aside, when you look at the amount of activity taking place on the blockchain itself, the original Bitcoin still has a much larger network and more engineers working on its ecosystem.
+
+- **Network Nodes**
+
+    There are on average 10 times more network [nodes online for Bitcoin](https://bitnodes.io) blockchain then [Bitcoin Cash](https://cash.coin.dance/nodes). As was mentioned before, nodes guarantee security, availability and decentralization of the blockchain.
+  
 - **Hashrate** 
 
     Another parameter indicating both the size and power of the blockchain network is a [hashare](https://bitinfocharts.com/comparison/difficulty-btc-bch.html). It reflects the number of network nodes involved in mining of the given cryptocurrency. The more nodes there are on the network competing in mining the harder it's for someone to attack the network.
 
-That said, while Bitcoin Cash is considerably smaller than Bitcoin blockchain, it's still big in comparison to other cryptocurrencies. 
+- **Active Addresses**
+
+    The page [here](https://bitinfocharts.com/comparison/activeaddresses-btc-bch.html#6m) compares both blockchains by the number of unique entities involved in transactions over the 24-hour period. Bitcoin outperforms Bitcoin Cash on average by 10-15 times.
+
+So, looking at stats above we can conclude that Bitcoin Cash is considerably smaller than Bitcoin blockchain. However, it's still big in comparison to other cryptocurrencies. 
 
 ## 4. BCH Highlights
 
@@ -148,21 +146,15 @@ As a result of the increased block size and post-fork blockchain code changes, t
 
     Due to larger block size limit and generally lower volume of transactions on the BCH blockchain, it has much lower fees. Even when someone pays 1 cent per transaction there is always enough space in the current block to process it.
     
-    That may change in the future if more people start transacting on Bitcoin Cash but now it's common to pay transaction fees as low as 1 cent. Sending a similar transaction on a Bitcoin blockchain can easily cost a couple of dollars or more.
-    
-    It should be also noted that if the Bitcoin blockchain suddenly becomes less busy than transaction fees will go down there as well.
-    
-Apart from enabling cheaper and faster transactions on a blockchain, there are some other differences as well.
-    
--  Decentralized Storage
+-  **Decentralized Storage**
 
-    Due to low transaction fees and larger block sizes the Bitcoin Cash blockchain can also be used as a decentralized and censorship-resistant data storage layer for decentralized applications.
+    Due to low transaction fees and larger block sizes the Bitcoin Cash blockchain can also be used as a decentralized and censorship-resistant data storage layer for decentralized applications (DApps).
     
-    There are already third party applications utilizing the cheap storage aspect of the Bitcoin Cash blockchain. [Memo.cash](https://memo.cash) is one such app.
+    There are already third party applications like [Memo.cash](https://memo.cash) utilizing the cheap storage aspect of the Bitcoin Cash blockchain.
     
     Practically speaking, using that feature of Bitcoin Cash someone can build a Twitter-like application where the user data stored on the blockchain privately and not controlled by any entity.
 
-- Smart Contracts
+- **Smart Contracts**
 
     The Bitcoin Cash blockchain is capable of having 'smart contract' like programs/entities which can be pre-programmed to work autonomously, have its own balance and perform condition-based transactions.
     
