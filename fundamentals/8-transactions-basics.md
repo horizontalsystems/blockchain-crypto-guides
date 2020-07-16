@@ -34,9 +34,9 @@ When transacting using а non-custodial wallet transactions will go directly thr
 
 1. **Transaction Is Pending**
 
-    After the transaction sent from a wallet, it reaches the underlying blockchain network nearly instantly. Bitcoin transactions sent to Bitcoin network, Ether transactions to Ethereum blockchain etc.
+    After the transaction sent from a wallet, it reaches the underlying blockchain network nearly instantly. Bitcoin transactions sent to Bitcoin network, Ether transactions to Ethereum network etc.
     
-    At this stage, both sender and recipient can already monitor the state of transaction in their wallet apps or public blockchain explorer i.e. [blockchair.com](https://blockchair.com).
+    At this stage, both sender and recipient can already monitor the state of transaction in their wallet apps or on public blockchain explorer i.e. [blockchair.com](https://blockchair.com).
 
 2. **Transaction Gets Confirmed**
 
@@ -66,9 +66,9 @@ The blockchains powering cryptocurrencies like Bitcoin and Ethereum currently li
 
 If the fee is far below the network average your transaction may remain pending for hours, if it's well above the average expect it to be added to the blockchain usually within a few minutes.
 
-> **If transaction remains pending for a few days due to a low fee it may be rejected (as it was never sent).**
+> **If transaction remains pending for a few days due to a low fee it may be rejected, as if it was never sent.**
 >
-> **If you have a pending transaction that taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**
+> **If you have a pending transaction that is taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**
 
 Some wallets out there would recommend the optimal transaction fee amount taking into account the current state of activity on the network.
 

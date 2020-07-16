@@ -30,7 +30,7 @@ When a person sends 1 Bitcoin to another person, the sender uses his/her cryptog
 
 So, the takeaway point here is that the ownership of certain amount of crypto basically means the ownership of special cryptographic key.
 
-Under the hood they key may look something like this:
+Under the hood the key may look something like this:
 
 >**5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF**
 
@@ -74,7 +74,7 @@ This is the only type of wallet we recommend for safe storage. In the later sect
 
 A custodial wallet does not give the user exclusive control over the crypto funds on the wallet. A wallet provider basically gives "pseudo" wallet that shows balance and transactions. 
 
-Whenever user executes a transaction it's the wallet provider who actually sends those funds on user's behalf. Such wallets are the least secure wallets. The users' funds snd access to them are fully in the hands of the wallet provider. 
+Whenever user executes a transaction it's the wallet provider who actually sends those funds on user's behalf. Such wallets are the least secure wallets. The users' funds and access to them are fully in the hands of the wallet provider. 
 
 >**A wallet provider may easily block a user from accessing the wallet or even freeze the funds.**
 > 
@@ -86,7 +86,7 @@ It should be noted that cryptocurrency exchanges usually provide users with cust
 
 >**If you leave crypto funds on cryptocurrency exchange, or any type of custodial wallet, the funds are vulnerable to hacking or other types of data breaches. This happened a lot in the past and likely to happen in the future.**
 
-When your funds remain on the custodial wallet, the waller provider could feasibly freeze funds, restrict your usage, or even block you from your wallet/account without warning.
+When your funds remain on the custodial wallet, the wallet provider could feasibly freeze funds, restrict your usage, or even block you from your wallet/account without warning.
 
 Majority of the popular wallets out there are unfortunately of custodial nature.
 

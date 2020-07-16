@@ -161,11 +161,11 @@ The password can be memorized or written down and kept separately from the list 
 
 That said, adding a password next to 12/24 words to some extent limits the options when it comes to migrating to a third party wallet in the future. Not many non-custodial wallets support passwords.
 
-For private key backups of hardware wallets holding large sums it's recommended to set up private in a form of '12/24 words + password'. That option available on all hardware wallets. Those wallets enable creating and restore of such private keys.
+For private key backup for hardware wallets holding large sums it's recommended to set up private key in a form of 12/24 words + password. That option should be available on all hardware wallets. Those wallets enable creating and restore of such private keys.
 
 ### 2. Offline Backups
 
-When storing private keys or hardware wallets offline take into account following:
+When storing private keys or hardware wallets offline, take into account following:
 
 - private key backup should be kept in separate location from wallet device. 
 - if private key consists of words and a password, both should be kept separately.

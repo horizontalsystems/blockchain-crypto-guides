@@ -57,7 +57,7 @@ Unstoppable aims to provide a comprehensive overview for various cryptocurrencie
 
 ![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-05-p.png)
 
-An investor-friendly wallet app should provide detailed information about each supported cryptocurrency. . 
+An investor-friendly wallet app should provide detailed information about each supported cryptocurrency.
 
 ### 5. Price Charts
 
@@ -107,7 +107,7 @@ While many wallets brand themselves as non-custodial and peer to peer they may s
 
 Due to the young and revolutionary nature of cryptocurrencies some governments are reluctant to legalize cryptocurrencies and provide clear regulations.
 
-Therefore, look for a wallet app which is engineered in a way where it's impossible for someone:
+Therefore, look for a wallet app which is engineered in a way where it's impossible for someone to:
 
 - censor your access to the app
 - censor the app in your region

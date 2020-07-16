@@ -10,7 +10,7 @@ From that cryptographic key the wallet app can understand the amount of cryptocu
 >
 > **The non-custodial wallet app uses private key to retrieve cryptocurrency balances and past transactions from the blockchain.**
 
-Wwe are not going to explain how the private keys work under the hood. Just know that a term private key usually refers to a cryptographic key we talked about earlier.
+We are not going to explain how the private keys work under the hood. Just know that a term private key usually refers to a cryptographic key we talked about earlier.
 
 Below, we are going to look a bit deeper into security aspects to give you a better understanding of private keys, and the related security aspects.
 
@@ -54,7 +54,7 @@ That's one of the reasons why non-custodial wallets keep the code open. Third-pa
 
 There are websites like [WalletScrutiny.com](https://walletscrutiny.com) which exist to ensure wallets published on Google Play in fact use the same code as the code publicly shared with the community.
    
-Any good non-custodial wallet app generally engineered in accordance with the publicly documented security guidelines and standards.
+Any good non-custodial wallet app should be engineered in accordance with the publicly documented security guidelines and wallet standards.
 
 ## 4. One Key, Many Coins
 
@@ -84,7 +84,7 @@ When you import the private key to another standard-compliant wallet that other 
 
 That's basically how a wallet app can take a private key used on another app, and from that key restore balances and transactions for multiple cryptocurrencies
 
-> **If a private key generated in a standard-compliant manner, then any other standard-compliant wallet should be able to derive payment addresses and past transactions for each supported cryptocurrency.**
+> **If a private key generated in a standard-compliant manner, then any other standard-compliant wallet should be able to correctly derive payment addresses and past transactions for each supported cryptocurrency.**
 
 Once the app knows the addresses for say Bitcoin, it connects to the Bitcoin blockchain and looks for transactions involving those addresses. As a result of that process the wallet app can display the balances and past transactions associated with that private key.
 
