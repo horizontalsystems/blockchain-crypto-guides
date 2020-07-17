@@ -4,7 +4,7 @@
 
 Let’s start with a brief introduction to Decentralized Finance or DeFi as everyone calls it.
 
-[Bitcoin](/token_guides/bitcoin.md). was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
+[Bitcoin](/token_guides/bitcoin.md) was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
 
 In its current state the Bitcoin blockchain is limited to plain transfers of Bitcoins from one address to another.
 
