@@ -22,7 +22,7 @@ Most newcomers fail to grasp the value of the Bitcoin network on a first encount
 
 The idea of Bitcoin was first proposed by [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto) back in 2008. Satoshi created a blueprint outlining the mechanics of a network where the value exchanging transactions can happen without the middle man. 
 
-> The ideas put forward in the paper required a good understanding of the contemporary monetary system and graduate-level knowledge of mathematics, cryptography, and computer science. 
+> **The ideas put forward in the paper required a good understanding of the contemporary monetary system and graduate-level knowledge of mathematics, cryptography, and computer science.** 
 
 In the paper, Satoshi proposed Bitcoin as a decentralized network which :
 
@@ -70,7 +70,7 @@ Out of 18.5 million Bitcoins created so far, roughly about 14 million are actual
 
 Usually, the term Bitcoin used as a reference to cryptocurrency on the Bitcoin network.
 
-> However, the Bitcoin is not just cryptocurrency. Bitcoin is a network, and an open platform for commerce where the value denominated in Bitcoin (BTC) units.
+> **However, the Bitcoin is not just cryptocurrency. Bitcoin is a network, and an open platform for commerce where the value denominated in Bitcoin (BTC) units.**
 
 Bitcoin network consists of various groups:
  
@@ -82,15 +82,15 @@ Bitcoin network consists of various groups:
 
 These are the people that drive the Bitcoin technology, adoption and demand for the Bitcoin cryptocurrency.
 
-> The systematic increase in the bitcoin price was ultimately due to the growing number of people interested in Bitcoin.
+> **The systematic increase in the bitcoin price was ultimately due to the growing number of people interested in Bitcoin.**
 
 Anyone can join the Bitcoin network and start transacting on it on equal terms as everyone else. Most Bitcoin users typically participate in the role of a wallet. They send and receive payments.
 
 Some users participate by running a Bitcoin node hosting a live copy of the Bitcoin blockchain. Bitcoin nodes process and validate transactions from wallets. Nodes also keep the full history of transactions since very beginning.
 
-> The history of all Bitcoin transactions is also called the 'Bitcoin blockchain'.
+> **The history of all Bitcoin transactions is also called the 'Bitcoin blockchain'.**
 >
-> The Bitcoin blockchain is literally a chronological chain of blocks where each block holds a batch of transactions. A new block added to Bitcoin blockchain roughly every 10 minutes.
+> **The Bitcoin blockchain is literally a chronological chain of blocks where each block holds a batch of transactions. A new block added to Bitcoin blockchain roughly every 10 minutes.**
 
 Bitcoin network nodes ensure that only legitimate transactions are added to the blockchain. 
 
@@ -124,7 +124,7 @@ Mining is generally only profitable for people running specialized computers and
 
 Back in the first few years, the idea that Bitcoin would someday be worth thousands of dollars appeared outlandish. One early adopter famously spent 10,000 BTC (around $100,000,000 USD at current prices) on a single pizza.
 
-> Fast-forward to June 2020, and Bitcoin is consistently trading around the $10,000 mark. It’s impressive, but in practice, the biggest challenge for Bitcoin was to grow from $0 to $100. 
+> **Fast-forward to June 2020, and Bitcoin is consistently trading around the $10,000 mark. It’s impressive, but in practice, the biggest challenge for Bitcoin was to grow from $0 to $100.** 
 
 Bitcoin broke $1,000 in 2014 and reached an all-time high of $20,000 just three years later, at the end of 2017. Bitcoin's price remains exceptionally volatile. Within nine months of its all-time high, the price had dropped back to $3,000. 
 
@@ -144,7 +144,7 @@ To understand what drives Bitcoin's growth, it's essential to look at Bitcoin as
 
 The technology seeks to provide a solution to some major socioeconomic and geopolitical problems, rather than merely being a new asset class. 
 
-> Bitcoin is not only an improvement on how we perform financial transactions and preserve wealth. It's a whole new way to own and exercise control over assets.
+> **Bitcoin is not only an improvement on how we perform financial transactions and preserve wealth. It's a whole new way to own and exercise control over assets.**
 
 Unlike traditional financial instruments, which are generally imposed by governments or other centralized organizations, the core driving force of Bitcoin is its global community. 
 
@@ -162,7 +162,7 @@ The narrative is that one day Bitcoin (or a similar decentralized system) may re
 
 Many people also assume that governments are going to try banning Bitcoin. However, those beliefs are founded on a misunderstanding about how Bitcoin operates on a technical level.
 
-> The real question, do governments (or other organizations) have the ability to stop Bitcoin?
+> **The real question, do governments (or other organizations) have the ability to stop Bitcoin?**
 
 Even if a government tries to outlaw Bitcoin, enforcing such a ban would be impossible. As long as there is electricity powering computers, phones, and other smart devices, the Bitcoin network can exist. 
 
@@ -211,9 +211,9 @@ While learning about Bitcoin, crypto newcomers quickly discover about other cryp
 
 The most popular fork on Bitcoin is a cryptocurrency known as [Bitcoin Cash](/token_guides/bitcoin-cash.md). It succeeded in building strong community and gain significant market share. It actually emerged as a result of original Bitcoin community splitting into two camps in 2017.
 
-> The original Bitcoin---created by Nakamoto---has the ticker symbol BTC. It's generally referred to as Bitcoin, or Bitcoin classic. 
+> **The original Bitcoin---created by Nakamoto---has the ticker symbol BTC. It's generally referred to as Bitcoin, or Bitcoin classic.** 
 > 
-> You might also see it called Bitcoin Core, which is the name of the program used to run a Bitcoin node on a computer. 
+> **You might also see it called Bitcoin Core, which is the name of the program used to run a Bitcoin node on a computer.** 
 
 For a comprehensive list of all the cryptocurrencies in existence, check out [CoinMarketCap](https://coinmarketcap.com).
 
@@ -238,7 +238,7 @@ Here we focus on a practical knowledge you need to know when dealing with Bitcoi
 
 Bitcoin has three commonly-used address formats that can be used to receive Bitcoin payments. Usually the wallet app handles this for you and just shows you the address.
 
-> Depending on the wallet app you use it may support receiving funds only to one of those formats or even all three formats.
+> **Depending on the wallet app you use it may support receiving funds only to one of those formats or even all three formats.**
 
 The new formats emerged as a result of more and more people transacting on the Bitcoin network. The newer address formats were introduced to make transaction sizes smaller and thus allow network to process more transactions in each block.
 
@@ -266,13 +266,13 @@ An easy way to find out would be to open your wallet app and check the first few
 
 On a practical level, apart from the difference in transaction fees there is just one thing to keep in mind. Knowing the address format is usually needed when restoring your Bitcoin wallet in a wallet app.
 
-> When restoring your Bitcoin wallet in some wallet app, along with the private key you also need to indicate the address format for the Bitcoin.
+> **When restoring your Bitcoin wallet in some wallet app, along with the private key you also need to indicate the address format for the Bitcoin.**
 >
-> Indicating an incorrect address format will result in wallet app not seeing your past transactions and hence the balance. 
+> **Indicating an incorrect address format will result in wallet app not seeing your past transactions and hence the balance.** 
 >    
-> Therefore, when setting app a new cryptocurrency wallet always make sure to note the Bitcoin address format used by the wallet. 
+> **Therefore, when setting app a new cryptocurrency wallet always make sure to note the Bitcoin address format used by the wallet.** 
 > 
-> When restoring that wallet in the future, it should be restored the wallet app that claims to support the given address format.
+> **When restoring that wallet in the future, it should be restored the wallet app that claims to support the given address format.**
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-addresses-l.png)
 

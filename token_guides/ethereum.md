@@ -8,9 +8,9 @@ Ethereum was first proposed in 2013 but came to prominence in 2015, some six yea
 
 Many wonder what makes Ethereum different from Bitcoin and why there is so much hype around it. Ethereum proposed a different approach to cryptocurrency and blockchain, in comparison to existing blockchain projects like Bitcoin. 
 
-> Bitcoin blockchain enables value transfers where value is denominated in Bitcoin (denoted by BTC). Anyone in the world can connect to Bitcoin network and send receive Bitcoins without intermediaries.
+> **Bitcoin blockchain enables value transfers where value is denominated in Bitcoin (denoted by BTC). Anyone in the world can connect to Bitcoin network and send receive Bitcoins without intermediaries.**
 >
-> Ethereum on the other hand is the platform for decentralized services. It can be used to build public services which are always online, unblockable and operate exactly as advertised without any means to cheat. 
+> **Ethereum on the other hand is the platform for decentralized services. It can be used to build public services which are always online, unblockable and operate exactly as advertised without any means to cheat.** 
 
 Think of Ethereum as a global computer that's open to everyone to participate in.
 
@@ -64,7 +64,7 @@ Just like [Bitcoin blockchain](/token_guides/bitcoin.md), Ethereum blockchain ha
 
 Usually people refer to Ether cryptocurrency as Ethereum. A unit of Ether consists of smaller units knows as wei.
 
-> 1 ETH = 1000,000,000,000,000,000 wei
+> **1 ETH = 1000,000,000,000,000,000 wei**
 
 Ether is required in a form of fees for doing anything on Ethereum blockchain. That's where Ether gets the value from, and the reason it has been [increasing](https://coinmarketcap.com/currencies/ethereum/) in value over the years.
 
@@ -90,7 +90,7 @@ The Ethereum network consists of all servers worldwide running Ethereum node sof
 
 Anyone can join the Ethereum network and start using it on equal terms as everyone else.
 
-> The Ethereum is not just cryptocurrency. Ethereum is a network, and an open decentralized platform for financial and other type of services where trust, transparency and reliability is crucial.
+> **The Ethereum is not just cryptocurrency. Ethereum is a network, and an open decentralized platform for financial and other type of services where trust, transparency and reliability is crucial.**
 
 In that sense, Ethereum has significantly more applications than say Bitcoin blockchain which is currently limited to serve only those looking at Bitcoin as a store of value.
 
@@ -126,7 +126,7 @@ The development and use of smart contracts are one of the fundamental properties
 
 The major difference between a regular physical paper contract and a smart contract is enforcement. 
 
-> Where a regular contract outlines the terms of the agreement, a smart contract takes that one step further and enforces the terms of the agreement automatically on the blockchain, once the smart contract criteria are met.
+> **Where a regular contract outlines the terms of the agreement, a smart contract takes that one step further and enforces the terms of the agreement automatically on the blockchain, once the smart contract criteria are met.**
 
 Anyone with sufficient knowledge can write up a smart contract and add it to Ethereum blockchain. Once written and signed off by the vested parties, the smart contract is broadcast to the Ethereum network and stored there permanently.
 
@@ -140,13 +140,13 @@ Decentralized Applications (aka DApps) are services built with the help of smart
 
 Although it may sound complicated, there is an easy way to consider how DApps operate. 
 
-> A regular website or mobile app is centralized, using a centralized server where a single entity or organization controls everything to do with the service. 
+> **A regular website or mobile app is centralized, using a centralized server where a single entity or organization controls everything to do with the service.** 
 >
-> The website or app could disappear at any time without warning, or the service users could experience censorship, outages and sudden changes.
+> **The website or app could disappear at any time without warning, or the service users could experience censorship, outages and sudden changes.**
 >
-> Whereas, a decentralized app (DApp) uses a distributed structure to protect against those issues. Once the DApp published on the blockchain, and the service goes live, no single entity can make sweeping changes. 
+> **Whereas, a decentralized app (DApp) uses a distributed structure to protect against those issues. Once the DApp published on the blockchain, and the service goes live, no single entity can make sweeping changes.** 
 > 
-> Not even the author of the DApp can censor users from interacting with it unless the author deliberately adds means to do so. When such means are in place people can easily spot them as well.
+> **Not even the author of the DApp can censor users from interacting with it unless the author deliberately adds means to do so. When such means are in place people can easily spot them as well.**
 
 At this point in time, there are thousands of DApps residing on Ethereum blockchain. Usually, DApps have some kind of token (unit of something) coded into its business logic as a means of measuring something in the service the DApp aims to provide. 
 
@@ -216,15 +216,15 @@ Accessing, understanding and interacting with these DApps on a comfortable level
 
 Just like Bitcoin, Ethereum has its own challenges. There are issues that can inhibit its future growth.
 
-- Slow
+- **Slow**
 
     The underlying blockchain powering Ethereum can't currently process more than a few million transactions per day. There is a great deal of active work being done worldwide trying to scale the Ethereum blockchain.
 
-- Complicated
+- **Complicated**
 
     Ethereum is complicated to grasp, especially for newcomers. A lot of people find it difficult to grasp the application of Ethereum blockchain beyond the payment transfers. The services built on Ethereum are generally hard to use.
 
-- Lack of privacy
+- **Lack of privacy**
     
     Ethereum is not private. If you send someone Ether or any other Ethereum-based token then the recipient can potentially see your balance and transaction history on Ethereum.
 
@@ -234,9 +234,9 @@ As mentioned above, Ethereum is not private at all. Ethereum blockchain is fully
 
 People you've transacted with can see your balances and full history of activity.
 
-> In the case of Bitcoin blockchain the address for receiving payments can change (but don’t have to) with each transaction. Most Bitcoin wallets generate a new address after each incoming payment making it considerably more difficult to connect two different transactions to a single party.
+> **In the case of Bitcoin blockchain the address for receiving payments can change (but don’t have to) with each transaction. Most Bitcoin wallets generate a new address after each incoming payment making it considerably more difficult to connect two different transactions to a single party.**
 >
-> When it comes to Ethereum blockchain your address to receive Ether payments will always be the same. That address becomes your ID when you interact with smart contracts on Ethereum blockchain. Nearly all Ethereum wallets work this way nowadays. Therefore, there is a privacy issue.
+> **When it comes to Ethereum blockchain your address to receive Ether payments will always be the same. That address becomes your ID when you interact with smart contracts on Ethereum blockchain. Nearly all Ethereum wallets work this way nowadays. Therefore, there is a privacy issue.**
 
 This is likely to change, but for the time being most wallets use a single Ethereum address. The balance and transactions belonging to any payment address are openly available for anyone on Ethereum blockchain.
 

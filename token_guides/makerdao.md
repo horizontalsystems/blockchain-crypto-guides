@@ -10,11 +10,11 @@ In its current state the Bitcoin blockchain is limited to plain transfers of Bit
 
 Ethereum expanded the idea of blockchain from tracking payments between addresses to all kinds of conditional transfers which opened up ways to hardcode contractual agreements into a blockchain. As a result the concept of Decentralized Finance (DeFi) was born.
 
-> The Ethereum blockchain goes far beyond simple transfers and is not limited in complexity of logic that can be coded into a transaction. 
+> **The Ethereum blockchain goes far beyond simple transfers and is not limited in complexity of logic that can be coded into a transaction.** 
 >
-> Programmers can build any type of public services with complex logic describing the nature of a business or financial contract and let it operate autonomously without means for someone to interfere. 
+> **Programmers can build any type of public services with complex logic describing the nature of a business or financial contract and let it operate autonomously without means for someone to interfere.** 
 >
-> For as long as the Ethereum blockchain is online, these services remain operational, accessible and work exactly as intended.
+> **For as long as the Ethereum blockchain is online, these services remain operational, accessible and work exactly as intended.**
 
 The term DeFi they usually used as a reference to financial services built on top of Ethereum blockchain or one of its smaller alternatives like EOSIO. 
 
@@ -30,15 +30,15 @@ MakerDAO is one of the very first DeFi projects built on top of Ethereum blockch
 
 The project currently controls worth over half a billion USD, all in an automated manner by a predefined set of rules (aka Smart Contracts) known as Maker Protocol.
 
-> Smart Contract is a computer program that lives on a blockchain and transparent in the way it operates. Usually coded in a way it's impossible to change it later.
+> **Smart Contract is a computer program that lives on a blockchain and transparent in the way it operates. Usually coded in a way it's impossible to change it later.**
 >
-> Anyone with programming skills can locate the smart contract on the blockchain and verify that it works exactly as expected and is without loopholes. 
+> **Anyone with programming skills can locate the smart contract on the blockchain and verify that it works exactly as expected and is without loopholes.** 
 
 MakerDAO was the first DeFi project to earn global adoption and remains a leader in the amount of funds it controls. 
 
 The project launched in 2014 and comes in a form of a Decentralized Autonomous Organization (DAO) which is governed by a geographically distributed set of entities ranging from organizations to private individuals.
 
-> MakerDAO operates a lending facility built on the Ethereum where anyone can take out a loan in cryptocurrency in exchange for a small fee. 
+> **MakerDAO operates a lending facility built on the Ethereum where anyone can take out a loan in cryptocurrency in exchange for a small fee.** 
 
 The governance of the MakerDAO is executed through voting by those in possession of MKR tokens. The incentive for someone to be a part of MakerDAO comes from various public-facing services provided by MakerDAO which drive the value of MKR tokens.
 
@@ -54,9 +54,9 @@ If you’re not familiar with the concept of DAO, then simply think of it as a p
 
 In a way, DAO is an alternative to a traditional corporation where ownership structure is defined by the number of shares someone owns. 
 
-> Unlike traditional corporations, DAO exists on a blockchain and operates according to pre-coded rules without means for someone to step in and change the rules. 
+> **Unlike traditional corporations, DAO exists on a blockchain and operates according to pre-coded rules without means for someone to step in and change the rules.** 
 >
-> The DAO controlled by entities holding a special token.
+> **The DAO controlled by entities holding a special token.**
 
 If that concept looks somewhat blurry to you then no worries it’s a difficult concept to grasp for someone not familiar with the mechanics of blockchain tech. 
 
@@ -70,7 +70,7 @@ The DAI cryptocurrency stablecoin is the core product of MakerDAO. It has a fixe
 
 Most of the services provided by MakerDAO are built around the DAI stablecoin.
 
-> The term stablecoin refers to a cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.
+> **The term stablecoin refers to a cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.**
 
 The Maker Protocol enables users to lock their Ether tokens as collateral and in return obtain DAI tokens. The collateral released on repayment of the loan and associated service fees.
 
@@ -82,9 +82,9 @@ The Maker Protocol enables users to lock their Ether tokens as collateral and in
 
 The Maker Protocol controls the circulating supply of DAI and ensures tha price of DAI remains very close or equal to 1 USD at all times. As will be shown later on the MakerDAO has many tools at its disposal for balancing the price of DAI.
  
-> DAI is known as trustless stablecoin because anyone can verify that DAI in circulation indeed backed by a collateral worth 150% of circulating DAI. 
+> **DAI is known as trustless stablecoin because anyone can verify that DAI in circulation indeed backed by a collateral worth 150% of circulating DAI.** 
 >
-> That collateral is always there to ensure that every single DAI in circulation can be bought by the MakerDAO smart contracts even if the market demand for DAI goes to zero. 
+> **That collateral is always there to ensure that every single DAI in circulation can be bought by the MakerDAO smart contracts even if the market demand for DAI goes to zero.** 
 
 Unlike DAI, most stablecoins (including [Tether](/token_guides/tether.md)) are centralized and require a high level of trust from a person holding these coins. 
 
@@ -104,11 +104,11 @@ The active proposals can be monitored at [https://vote.makerdao.com](https://vot
 
 Primary MakerDAO services require MKR tokens as payment. As a result, MKR token holders benefit when someone uses MakerDAO services i.e. taking a loan. 
 
-> MKR token holders financially benefit from the growth of the MakerDAO network. As more people use MakerDAO services the higher is demand for MKR tokens.
+> **MKR token holders financially benefit from the growth of the MakerDAO network. As more people use MakerDAO services the higher is demand for MKR tokens.**
 
 At the same time, token holders collectively share the financial risks of DAI stablecoin to ensure its stability, transparency, and efficiency. 
 
-> Any stability issues with DAI will have a direct impact on the price of MKR token, as the latter will have to be minted (increasing the total supply of MKR tokens) and sold to cover the losses of the Maker Protocol.
+> **Any stability issues with DAI will have a direct impact on the price of MKR token, as the latter will have to be minted (increasing the total supply of MKR tokens) and sold to cover the losses of the Maker Protocol.**
 
 At this point, there are slightly over a million of MKR tokens in circulation. The current [MKR market cap](https://coinmarketcap.com/currencies/maker/) exceeds half a billion USD.
 
@@ -160,7 +160,7 @@ Being a decentralized platform, the service operates fully on Ethereum blockchai
 
 While the Oasis platform is accessible through a [website](https://oasis.app), the services it provides can be also accessed by communicating with the Ethereum blockchain directly.
 
-> The Oasis website is just one of the many ways to interact with the Maker Protocol. Those familiar with programming on Ethereum can access MakerDAO services by interacting with Maker Protocol smart contracts using various means and not use the website at all.
+> **The Oasis website is just one of the many ways to interact with the Maker Protocol. Those familiar with programming on Ethereum can access MakerDAO services by interacting with Maker Protocol smart contracts using various means and not use the website at all.**
 
 To deposit or withdraw funds from the Oasis website user needs one of the supported Ethereum wallets like [Metamask](https://metamask.io). Metamask is a non-custodial wallet built for Google Chrome. 
 
@@ -193,21 +193,21 @@ Users interact with Maker Vaults and the Maker Protocol directly. The user has c
 
 The Maker Vault is a core component of the Maker Protocol, which facilitates the generation of DAI against locked up collateral. All DAI in circulation are created by Maker Vaults and more importantly have underlying assets backing each DAI.
 
-> Each user borrowing DAI generates a unique Maker Vault as a result of that action.
+> **Each user borrowing DAI generates a unique Maker Vault as a result of that action.**
 >
-> The individual Maker Vaults created by users as a result of borrowing DAI are unique and may vary.
+> **he individual Maker Vaults created by users as a result of borrowing DAI are unique and may vary.**
 
-- Collateral Type
+- **Collateral Type**
 
     Depending on the collateral asset the generated Maker Vault will have some custom collateral-based attributes.
 
-- Collateralization Ratio
+- **Collateralization Ratio**
 
     Maker Vaults require a collateral 150% worth of the requested DAI amount. In other words, to borrow 100 DAI you will need to lock 150$ worth of Ether tokens as collateral. 
     
     The 150% requirement for Ether collateral may change if the MakerDAO decides to do that. The ratio of 150% currently applies when user uses Ether as s collateral. For other tokens the value may be different.
 
-- Vault Health 
+- **Vault Health** 
 
     As the price of the collateral assets fluctuate the collateralization ratio for each vault changes along with it, in real time. The 150% is a minimum requirement for the vault to remain operational.
 
@@ -219,7 +219,7 @@ The Maker Vault is a core component of the Maker Protocol, which facilitates the
     
     It’s a responsibility of the user to regularly monitor the vault and ensure it remains healthy. 
     
-- Liquidation
+- **Liquidation**
 
     The vault is considered healthy when it’s collateralization ratio is above 150%. Liquidation is the process that is automatically initiated by the Maker Protocol when the collateralization ratio of the vault falls below 150%. 
     
@@ -227,7 +227,7 @@ The Maker Vault is a core component of the Maker Protocol, which facilitates the
     
     During the Liquidation process, enough collateral is sold to cover the debt along with a liquidation penalty (equivalent to 13% of collateral). Whatever remains will be returned to the user.
 
-- Stability Fee
+- **Stability Fee**
 
     To reclaim the collateral in the Vault, users must repay the borrowed amount of DAI, and the accumulated stability fees. 
     
@@ -269,7 +269,7 @@ MakerDAO has been able to consistently sustain the price of its DAI token in the
 
 With active borrowing and lending mechanisms in place, the DAI can be considered a fairly robust stablecoin. Merchants worldwide both online and offline can potentially consider accepting it as a means of payment. 
 
-> Someone can sell the merchandise for DAI and then deposit received DAI to Maker Protocol and earn an interest rate.
+> **Someone can sell the merchandise for DAI and then deposit received DAI to Maker Protocol and earn an interest rate.**
 
 Both Stability Fee and DAI Savings Rate, provide MakerDAO with the practical means to control the supply and demand side of the DAI stablecoin.
 
@@ -279,7 +279,7 @@ Let’s see how MakerDAO can keep the price of DAI token at $1 via supply and de
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Stable-l.png)
 
-To increase the price of DAI:
+**To increase the price of DAI:**
 
 - Let’s assume the DAI price on the market fell to 0.99$ and the MakerDAO needs to bring it back to 1$. To address this the MakerDAO may increase the demand (or reduce supply) for DAI tokens.
 
@@ -287,7 +287,7 @@ To increase the price of DAI:
 
 - At the same time, the increase in Stability Fees can make it more expensive to create new DAI and prevent the supply from increasing supply. 
 
-To decrease the price of DAI:
+**To decrease the price of DAI:**
 
 - Now, let’s say that at some point the price of DAI went to 1.01$. At this point the MakerDAO needs to reduce the price, bringing it closer to 1$. To address this MakerDAO may reduce the demand (or increase the supply) for DAI tokens.
 
@@ -309,9 +309,9 @@ That said, there is always a chance for the price of collateral assets to change
 
 Such setup encourages the MKR tokwn holders to govern the MakerDAO system well and charge an appropriate Stability Fees for the loans they are insuring. 
 
-> If the MakerDAO governors issue bad debt, it is the Maker governors (MKR token holders) who pay. 
+> **If the MakerDAO governors issue bad debt, it is the Maker governors (MKR token holders) who pay.** 
 >
-> The cost comes in a form of new MKR tokens entering circulation and diluting the value for the MKR token holders.
+> **The cost comes in a form of new MKR tokens entering circulation and diluting the value for the MKR token holders.**
 
 If for some reason the value of the MKR token gets wiped out, then DAI holders would ultimately suffer, but there is no situation where MKR holders are bailed out at the expense of DAI holders.
 
