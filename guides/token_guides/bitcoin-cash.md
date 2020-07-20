@@ -2,7 +2,7 @@
 
 # Bitcoin Cash In Simple Terms
 
-Bitcoin Cash, denoted by a symbol BCH, is a cryptocurrency that is a fork of a Bitcoin. Being a fork means that it was created from the [Bitcoin (BTC)](/guides/token_guides/bitcoin.md) cryptocurrency. 
+Bitcoin Cash, denoted by a symbol BCH, is a cryptocurrency that is a fork of a Bitcoin. Being a fork means that it was created from the [Bitcoin (BTC)](../token_guides/bitcoin.md) cryptocurrency. 
 
 Bitcoin Cash emerged out of the Bitcoin blockchain in August 2017. While it shares the fundamentals with the Bitcoin (BTC) it's a different cryptocurrency with its own blockchain.
 
@@ -22,7 +22,7 @@ The official websites for each:
 - Bitcoin Cash - [bitcoin.com](https://www.bitcoin.com) / [bitcoincash.org](https://www.bitcoincash.org)
 - Bitcoin - [bitcoin.org](https://www.bitcoin.org) / [bitcointalk.org](https://bitcointalk.org)
 
-Below we'll look at how the Bitcoin Cash (BCH) is different from the Bitcoin (BTC). As both currencies share fundamentals it's recommended for you to go over the [Bitcoin guide](/guides/token_guides/bitcoin.md) first.
+Below we'll look at how the Bitcoin Cash (BCH) is different from the Bitcoin (BTC). As both currencies share fundamentals it's recommended for you to go over the [Bitcoin guide](../token_guides/bitcoin.md) first.
 
 ## 1. Bitcoin Cash Origins
 
@@ -72,7 +72,7 @@ Here are some key points regarding how Bitcoin Cash fork took place:
 
 - both blockchains have the same amount of cryptocurrency units, capped at 21 million.
 
-- anyone who had Bitcoins in a [non-custodial wallet](/guides/fundamentals/2-wallets-basics.md) at the time of fork also ended up with a [same amount](https://www.smh.com.au/business/markets/bitcoin-cash-is-essentially-printing-money-20170803-gxo981.html) of Bitcoin Cash units on the balance. While there were strong fork opponents on both camps, for the most users the event turned out to be an opportunity to get some free cryptocurrency.
+- anyone who had Bitcoins in a [non-custodial wallet](../fundamentals/2-wallets-basics.md) at the time of fork also ended up with a [same amount](https://www.smh.com.au/business/markets/bitcoin-cash-is-essentially-printing-money-20170803-gxo981.html) of Bitcoin Cash units on the balance. While there were strong fork opponents on both camps, for the most users the event turned out to be an opportunity to get some free cryptocurrency.
 
 Over the last few years Bitcoin Cash has managed to foster a significant community and became one of the few cryptocurrency projects that keeps evolving on various fronts.
 
@@ -142,7 +142,7 @@ As a result of the increased block size and post-fork blockchain code changes, t
     
 - **Low Transaction Fees**
 
-    The [transaction fees](/guides/fundamentals/8-transactions-basics.md) become relevant when a blockchain receives more transactions than it can fit in the block. In such cases, fees used to prioritize transactions, giving priority to transactions that pay higher fees.
+    The [transaction fees](../fundamentals/8-transactions-basics.md) become relevant when a blockchain receives more transactions than it can fit in the block. In such cases, fees used to prioritize transactions, giving priority to transactions that pay higher fees.
 
     Due to larger block size limit and generally lower volume of transactions on the BCH blockchain, it has much lower fees. Even when someone pays 1 cent per transaction there is always enough space in the current block to process it.
     
@@ -176,11 +176,11 @@ Although Bitcoin Cash has one of the largest social media communities around it'
 
 When you're ready to get involved with the Bitcoin Cash on a practical level you're welcome to check out following guides:
 
-1. [Cryptocurrency Explained](/guides/fundamentals/1-cryptocurrency-basics.md)
-2. [Wallet Basics](/guides/fundamentals/2-wallets-basics.md)
-3. [Private Keys Explained](/guides/fundamentals/3-private-keys-basics.md)
-4. [Safe Storage Tips](/guides/fundamentals/4-safe-storage-basics.md)
-5. [Unstoppable Wallet](/guides/fundamentals/5-unstoppable-basics.md)
-6. [Buying Cryptocurrency](/guides/fundamentals/6-buying-cryptocurrency-basics.md)
-7. [Spending Cryptocurrency](/guides/fundamentals/7-spending-cryptocurrency.md)
-8. [Transactions Explained](/guides/fundamentals/8-transactions-basics.md)
+1. [Cryptocurrency Explained](../fundamentals/1-cryptocurrency-basics.md)
+2. [Wallet Basics](../fundamentals/2-wallets-basics.md)
+3. [Private Keys Explained](../fundamentals/3-private-keys-basics.md)
+4. [Safe Storage Tips](../fundamentals/4-safe-storage-basics.md)
+5. [Unstoppable Wallet](../fundamentals/5-unstoppable-basics.md)
+6. [Buying Cryptocurrency](../fundamentals/6-buying-cryptocurrency-basics.md)
+7. [Spending Cryptocurrency](../fundamentals/7-spending-cryptocurrency.md)
+8. [Transactions Explained](../fundamentals/8-transactions-basics.md)

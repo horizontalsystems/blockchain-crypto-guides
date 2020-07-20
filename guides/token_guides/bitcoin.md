@@ -44,7 +44,7 @@ After a few years of growth via word-of-mouth marketing the Bitcoin turned into 
 
 ## 2. Bitcoin Cryptocurrency
 
-As we have covered in our [guide on blockchains](/guides/fundamentals/1-cryptocurrency-basics.md), the cryptocurrency is a unit of measure on a blockchain. 
+As we have covered in our [guide on blockchains](../fundamentals/1-cryptocurrency-basics.md), the cryptocurrency is a unit of measure on a blockchain. 
 
 The Bitcoin cryptocurrency, denoted by a BTC symbol, is the native unit of measurement on the Bitcoin blockchain.
 
@@ -201,15 +201,15 @@ While learning about Bitcoin, crypto newcomers quickly discover about other cryp
 
 - Some portray themselves as a better alternative to Bitcoin when it comes to privacy or scalability aspects. As you will find out below Bitcoin is not fully private and cryptocurrencies like, [Dash](https://www.dash.org), [Monero](https://www.getmonero.org) or [Zcash](https://z.cash) try to address this aspect.
 
-- There are cryptocurrencies which emerged from the Bitcoin through a process knows as fork. Due to the open-source nature of Bitcoin, anyone with programming experience can create a Bitcoin-esque cryptocurrency with some modifications, then market it as a separate cryptocurrency. This group includes [Bitcoin Cash](/guides/token_guides/bitcoin-cash.md) and [Litecoin](https://litecoin-foundation.org).
+- There are cryptocurrencies which emerged from the Bitcoin through a process knows as fork. Due to the open-source nature of Bitcoin, anyone with programming experience can create a Bitcoin-esque cryptocurrency with some modifications, then market it as a separate cryptocurrency. This group includes [Bitcoin Cash](../token_guides/bitcoin-cash.md) and [Litecoin](https://litecoin-foundation.org).
 
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-fork-l.png)
 
-- There is a number of major cryptocurrencies which represent all-purpose blockchains that go beyond payment transfers. The most notable examples are [Ethereum](/guides/token_guides/ethereum.md) and EOS cryptocurrencies.
+- There is a number of major cryptocurrencies which represent all-purpose blockchains that go beyond payment transfers. The most notable examples are [Ethereum](../token_guides/ethereum.md) and EOS cryptocurrencies.
 
 - Finally, the largest segment of cryptocurrencies are known as tokens which are created on a blockchain like Ethereum. There are a number of widely used tokens which are created and successfully operate on top of Ethereum blockchain.
 
-The most popular fork on Bitcoin is a cryptocurrency known as [Bitcoin Cash](/guides/token_guides/bitcoin-cash.md). It succeeded in building strong community and gain significant market share. It actually emerged as a result of original Bitcoin community splitting into two camps in 2017.
+The most popular fork on Bitcoin is a cryptocurrency known as [Bitcoin Cash](../token_guides/bitcoin-cash.md). It succeeded in building strong community and gain significant market share. It actually emerged as a result of original Bitcoin community splitting into two camps in 2017.
 
 > **The original Bitcoin---created by Nakamoto---has the ticker symbol BTC. It's generally referred to as Bitcoin, or Bitcoin classic.** 
 > 
@@ -221,14 +221,14 @@ For a comprehensive list of all the cryptocurrencies in existence, check out [Co
 
 When you're ready to get involved with the Bitcoin on a practical level you're welcome to check out following guides:
 
-1. [Cryptocurrency Explained](/guides/fundamentals/1-cryptocurrency-basics.md)
-2. [Wallet Basics](/guides/fundamentals/2-wallets-basics.md)
-3. [Private Keys Explained](/guides/fundamentals/3-private-keys-basics.md)
-4. [Safe Storage Tips](/guides/fundamentals/4-safe-storage-basics.md)
-5. [Unstoppable Wallet](/guides/fundamentals/5-unstoppable-basics.md)
-6. [Buying Cryptocurrency](/guides/fundamentals/6-buying-cryptocurrency-basics.md)
-7. [Spending Cryptocurrency](/guides/fundamentals/7-spending-cryptocurrency.md)
-8. [Transactions Explained](/guides/fundamentals/8-transactions-basics.md)
+1. [Cryptocurrency Explained](../fundamentals/1-cryptocurrency-basics.md)
+2. [Wallet Basics](../fundamentals/2-wallets-basics.md)
+3. [Private Keys Explained](../fundamentals/3-private-keys-basics.md)
+4. [Safe Storage Tips](../fundamentals/4-safe-storage-basics.md)
+5. [Unstoppable Wallet](../fundamentals/5-unstoppable-basics.md)
+6. [Buying Cryptocurrency](../fundamentals/6-buying-cryptocurrency-basics.md)
+7. [Spending Cryptocurrency](../fundamentals/7-spending-cryptocurrency.md)
+8. [Transactions Explained](../fundamentals/8-transactions-basics.md)
 
 ## 11. Address Formats
 
