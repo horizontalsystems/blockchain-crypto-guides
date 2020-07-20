@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-Main-l.png)
+![](images/eth-Main-l.png)
 
 # Ethereum in Simple Terms
 
@@ -48,7 +48,7 @@ Each Ethereum node has a live copy of the Ethereum blockchain. All nodes talk to
 
 As the case with all open blockchains, the Ethereum network nodes ensure availability 24/7 and censorship-resistance. Anyone can unconditionally operate an Ethereum node. The more nodes there are online the more secure Ethereum blockchain is.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-chain-l.png)
+![](images/eth-chain-l.png)
 
 Every node individually validates every transaction, ensuring only legitimate transactions enter the blockchain. A node cannot cheat the rest of the network.
 
@@ -106,7 +106,7 @@ The services built on top of Ethereum ultimately attract even more to Ethereum p
 
 A smart contract is a piece of code that works on a blockchain to enforce the terms of a contractual agreement. In the simplest of terms, a smart contract is an example of a "when X takes place, do Y" scenario.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-smartcontract-l.png)
+![](images/eth-smartcontract-l.png)
 
 Every application or service residing on Ethereum or alike blockchain essentially consists of smart contracts.
 
@@ -120,7 +120,7 @@ To give you a better idea, it may be something as follows:
 
 - That contract may also require for participants to pay an entry fee to the contract (which will also be sent to the winner) to be able to participate in the challenge.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-chain-lottery-l.png)
+![](images/eth-chain-lottery-l.png)
 
 The development and use of smart contracts are one of the fundamental properties that differentiates Ethereum from other blockchains. It’s what makes it possible to build services on Ethereum that can go far beyond the mere transfer of currency tokens from one address to another.
 
@@ -208,7 +208,7 @@ Engineers worldwide are currently building user facing smartphone apps or websit
 
 These days Ethereum-based financial DApps cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value. 
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-billion-l.png)
+![](images/eth-billion-l.png)
 
 Accessing, understanding and interacting with these DApps on a comfortable level is still a bit problematic for someone not familiar with blockchain and related technology. 
 
@@ -240,7 +240,7 @@ People you've transacted with can see your balances and full history of activity
 
 This is likely to change, but for the time being most wallets use a single Ethereum address. The balance and transactions belonging to any payment address are openly available for anyone on Ethereum blockchain.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-tx-l.png)
+![](images/eth-tx-l.png)
 
 So, when you transact with Ether, keep in mind that the other party can look up your balance as well as history of incoming/outgoing payments to/from that address.
 

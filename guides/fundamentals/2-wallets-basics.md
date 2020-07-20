@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/02-main-l.png)
+![](images/02-main-l.png)
 
 # Wallets Explained
 
@@ -24,7 +24,7 @@ The notion of someone owning Bitcoin or Ethereum is quite different from the ide
 
 So, when someone says s/he has 5 Bitcoins what this essentially means is that this person is in the possession of the cryptographic key which can spend 5 Bitcoins.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/02-01-l.png)
+![](images/02-01-l.png)
 
 When a person sends 1 Bitcoin to another person, the sender uses his/her cryptographic key to sign off 1 Bitcoin from the available balance and pass the ownership of that 1 Bitcoin to the recipient. After the transaction took place, that 1 Bitcoin can only be spent by the cryptographic key belonging to the recipient.
 
@@ -90,7 +90,7 @@ When your funds remain on the custodial wallet, the wallet provider could feasib
 
 Majority of the popular wallets out there are unfortunately of custodial nature.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/02-02-l.png)
+![](images/02-02-l.png)
 
 ### 3) Hybrid Wallets
 

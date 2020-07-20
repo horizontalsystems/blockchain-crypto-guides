@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/09-main-l.png)
+![](images/09-main-l.png)
 
 # Investing
 

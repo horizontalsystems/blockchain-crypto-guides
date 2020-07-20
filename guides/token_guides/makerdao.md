@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Main-l.png)
+![](images/mkr-Main-l.png)
 
 # MakerDAO & DAI in Simple Terms
 
@@ -26,7 +26,7 @@ If you would like to learn more about Ethereum and existing DeFi projects built 
 
 MakerDAO is one of the very first DeFi projects built on top of Ethereum blockchain. 
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Map-l.png)
+![](images/mkr-Map-l.png)
 
 The project currently controls worth over half a billion USD, all in an automated manner by a predefined set of rules (aka Smart Contracts) known as Maker Protocol.
 
@@ -92,7 +92,7 @@ Unlike DAI, most stablecoins (including [Tether](../token_guides/tether.md)) are
 
 Being a DAO the MakerDAO project is entirely governed by anyone in possession of MKR tokens. The ownership of MKR token is directly proportional to the ownership and vote weight on any decision in the MakerDAO. 
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-holders-l.png)
+![](images/mkr-holders-l.png)
 
 Ongoing governance of the MakerDAO works through formal proposals which can be voted on and approved by MKR token holders.
 
@@ -154,7 +154,7 @@ MakerDAO provides following services:
 
 The Oasis is peer-to-peer (decentralized) platform where anyone can exchange Ethereum and Ethereum based tokens including DAI. 
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Oasisex-l.png)
+![](images/mkr-Oasisex-l.png)
 
 Being a decentralized platform, the service operates fully on Ethereum blockchain. It is open to all and free to use except for the actual Ethereum transaction fees for exchanging tokens.
 
@@ -277,7 +277,7 @@ Both Stability Fee and DAI Savings Rate, provide MakerDAO with the practical mea
 
 Let’s see how MakerDAO can keep the price of DAI token at $1 via supply and demand controlling mechanisms at its disposal.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Stable-l.png)
+![](images/mkr-Stable-l.png)
 
 **To increase the price of DAI:**
 

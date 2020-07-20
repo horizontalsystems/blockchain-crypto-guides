@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-Main-l.png)
+![](images/btc-Main-l.png)
 
 # Bitcoin In Simple Terms
 
@@ -60,7 +60,7 @@ Bitcoins are limited and scarce. Eventually, there will be 21 million Bitcoins i
 
 - No single entity controls the release of new Bitcoins into circulation. It's an automated process that's regulated by algorithms that were coded into Bitcoin at the start of its existence.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-numbers-s.png)
+![](images/btc-numbers-s.png)
 
 It's estimated that about four million Bitcoins have been already lost. Typically, coins are lost because users have lost the wallets with Bitcoins on them without having a backup. 
 
@@ -148,7 +148,7 @@ The technology seeks to provide a solution to some major socioeconomic and geopo
 
 Unlike traditional financial instruments, which are generally imposed by governments or other centralized organizations, the core driving force of Bitcoin is its global community. 
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-vs-p.png)
+![](images/btc-vs-p.png)
 
 In the face of modern-day problems like money printing, currency debasements, over-regulation, sanctioning, growing number of people are moving towards Bitcoin. That trend in Bitcoin's popularity is likely to continue. 
 
@@ -171,7 +171,7 @@ Yes, lawmakers can make it more difficult for people to participate in the netwo
 While modern-day regulators are able to censor what is being seen on search engines, YouTube, or in mainstream media, censoring access to Bitcoin network is a new 
 level of complexity.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-stop-l.png)
+![](images/btc-stop-l.png)
 
 The only way for the Bitcoin network to cease having any meaningful value is for everyone to stop using it. Such an outcome would only realistically occur if someone discovered an irreparable fundamental flaw in the code powering the Bitcoin network.
 
@@ -203,7 +203,7 @@ While learning about Bitcoin, crypto newcomers quickly discover about other cryp
 
 - There are cryptocurrencies which emerged from the Bitcoin through a process knows as fork. Due to the open-source nature of Bitcoin, anyone with programming experience can create a Bitcoin-esque cryptocurrency with some modifications, then market it as a separate cryptocurrency. This group includes [Bitcoin Cash](../token_guides/bitcoin-cash.md) and [Litecoin](https://litecoin-foundation.org).
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-fork-l.png)
+![](images/btc-fork-l.png)
 
 - There is a number of major cryptocurrencies which represent all-purpose blockchains that go beyond payment transfers. The most notable examples are [Ethereum](../token_guides/ethereum.md) and EOS cryptocurrencies.
 
@@ -274,7 +274,7 @@ On a practical level, apart from the difference in transaction fees there is jus
 > 
 > **When restoring that wallet in the future, it should be restored the wallet app that claims to support the given address format.**
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-addresses-l.png)
+![](images/btc-addresses-l.png)
 
 In that regard, the [Unstoppable wallet](https://unstoppable.money) is able to both create and restore wallets operating in any of the three available address formats.
 
@@ -292,7 +292,7 @@ Although all transactions on the Bitcoin network are public, they appear as tran
 
 - if the wallet user uses a new address for each new transaction, then linking various different transactions to the same entity becomes impossible.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-Privacy-l.png)
+![](images/btc-Privacy-l.png)
 
 Remember, this is an entry-level guide. It is not a complete picture of Bitcoin's privacy features. For someone with a large amount of Bitcoins, or living in a hostile environment, several other factors should be taken into account.
 

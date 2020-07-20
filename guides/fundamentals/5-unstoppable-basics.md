@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-main-l.png)
+![](images/05-main-l.png)
 
 # Unstoppable Wallet
 
@@ -22,7 +22,7 @@ Below we will go through some important points to keep in mind when using non-cu
 
 Every non-custodial wallet starts either with the process of a wallet setup or migration of the existing wallet.
 
-![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-02-p.png)
+![portrait](images/05-02-p.png)
 
 - The 'Create Wallet' button generates a new private key and shows it in a form of 12 words which needs to be backed up.
 - The 'Restore Wallet' option restores an existing wallet that might have been created earlier in Unstoppable or some other standard compliant wallet. 
@@ -33,7 +33,7 @@ Keep in mind that non-custodial wallets will require anywhere from a few minutes
 
 It's important for any non-custodial wallet app to come with inbuilt unauthorized access measures. Both mobile and hardware wallets implement that in a form of unlock code which is required in order to access the wallet.
 
-![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-03-p.png)
+![portrait](images/05-03-p.png)
 
 This measure is essential to keep your funds safe even when an unauthorized entity gets your wallet device.
 
@@ -41,7 +41,7 @@ This measure is essential to keep your funds safe even when an unauthorized enti
        
 The more currencies the wallet able to handle the better. It's a matter of convenience interacting with one app rather than switching between many apps for different cryptocurrencies.
 
-![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-04-p.png)
+![portrait](images/05-04-p.png)
 
 The wallet app also needs to have access to current cryptocurrency prices to display your cryptocurrency balances in a currency you're used to such as USD or EUR. 
 
@@ -57,7 +57,7 @@ While there are a lot of different cryptocurrencies there is lack of information
 
 Unstoppable aims to provide a comprehensive overview for various cryptocurrencies in simple terms.
 
-![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-05-p.png)
+![portrait](images/05-05-p.png)
 
 An investor-friendly wallet app should provide detailed information about each supported cryptocurrency.
 
@@ -65,7 +65,7 @@ An investor-friendly wallet app should provide detailed information about each s
 
 Always look for the wallet that displays historical market exchange rates for each supported cryptocurrency. 
 
-![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-06-p.png)
+![portrait](images/05-06-p.png)
 
 Historical prices provide an overview of how the price of the cryptocurrency has changed in the past.
 
@@ -75,7 +75,7 @@ In addition to price charts it is helpful to have notifications for price change
 
 A wallet like Unstoppable can notify the user when the asset price has experienced a change over 2/3/5% in 24-hour period. 
 
-![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-07-p.png)
+![portrait](images/05-07-p.png)
 
 Moreover, the Unstoppable can send alerts when the price trend for cryptocurrency changes indicating a good time to purchase or sell any given cryptocurrency.
 
@@ -83,7 +83,7 @@ Moreover, the Unstoppable can send alerts when the price trend for cryptocurrenc
 
 When it comes to non-custodial wallets, the privacy aspect has many sides and may vary substantially between wallets.
 
-![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-08-p.png)
+![portrait](images/05-08-p.png)
 
 Certain points should be taken into consideration when evaluating non-custodial wallet for privacy features:
 

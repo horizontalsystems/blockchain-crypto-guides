@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/03-main-l.png)
+![](images/03-main-l.png)
 
 # Private Keys
 
@@ -34,7 +34,7 @@ To make it easier to backup the private key, blockchain engineers came up with a
 
 Most non-custodial wallets will display the private key in a human-readable form, generally in a form 12/24 words.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/03-02-l.png)
+![](images/03-02-l.png)
 
 Backup the private key and make sure there are no typos in your backup. Other than actual words, the ordering is just as important. 
 
@@ -76,7 +76,7 @@ As was mentioned above there are 'private key' standards designed by engineers t
 
 > **The wallet uses your private key to derive your payment address for each cryptocurrency. The payment address is the address you are sharing with others that want to pay you in cryptocurrency.**
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/03-03-l.png)
+![](images/03-03-l.png)
 
 Just by looking at your private key the wallet app should be able to derive your address for Bitcoin, Ethereum and many other cryptocurrencies. Different address for each cryptocurrency.
 

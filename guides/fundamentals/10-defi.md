@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/010-main-l.png)
+![](images/010-main-l.png)
 
 Let’s start with a brief introduction to Decentralized Finance or DeFi as everyone calls it these days.
 
