@@ -4,11 +4,11 @@
 
 Tether (symbol: USDT) is a cryptocurrency stablecoin with a value meant to mirror the value of the US dollar. It is the biggest stablecoin in the cryptocurrency space. Tether enables easy exposure to USD.
 
-Tether can be found on most [cryptocurrency exchanges](/guides/fundamentalsmentals/6-buying-cryptocurrency-basics.md) and supported by most crypto currency wallets. It's usually traded in pairs with the highest daily trading volume. The [BTCUSDT](https://www.binance.com/en/trade/BTC_USDT) pair on Binance exchange alone occasionally exceeds half a billion USD in daily trading volume. 
+Tether can be found on most [cryptocurrency exchanges](/guides/fundamentals/6-buying-cryptocurrency-basics.md) and supported by most crypto currency wallets. It's usually traded in pairs with the highest daily trading volume. The [BTCUSDT](https://www.binance.com/en/trade/BTC_USDT) pair on Binance exchange alone occasionally exceeds half a billion USD in daily trading volume. 
 
 The Market Capitalization of Tether has been consistently growing over the years and in May 2020 has exceeded [8 billion USD](https://coinmarketcap.com/currencies/tether/).
 
-While Tether tokens are issued on several blockchains, the largest amount are exists on [Ethereum blockchain](/guides/token_guides_guides/ethereum.md). 
+While Tether tokens are issued on several blockchains, the largest amount are exists on [Ethereum blockchain](/guides/token_guides/ethereum.md). 
 
 There are over 5.5 billion Tether USDT tokens issued via its [smart contract](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7) on Ethereum blockchain. This smart contract can be explored using publicly accessible tools like [Etherscan.io](https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7).
 
@@ -18,7 +18,7 @@ Tether tokens are primarily used by cryptocurrency traders to avoid volatility b
 
 ![landscape](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/usdt-Exchange-l.png)
 
-For individuals Tether opens up ways for anyone to store assets in USD equivalent on exchanges or ([non-custodial wallet](/guides/fundamentalsmentals/2-wallets-basics.md) like Unstoppable) without the need to have a bank account.
+For individuals Tether opens up ways for anyone to store assets in USD equivalent on exchanges or ([non-custodial wallet](/guides/fundamentals/2-wallets-basics.md) like Unstoppable) without the need to have a bank account.
 
 For cryptocurrency exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow. 
 
@@ -28,7 +28,7 @@ Tether tokens in circulation exist as cryptocurrency tokens (primarily on Ethere
 
 Any individual accepting Tether tokens as payment may potentially do so without knowing the identity of the sender. The sender only needs a [crypto wallet](https://unstoppable.money) that supports sending and receiving of Tether tokens.
 
-Tether tokens may be purchased directly from the [Tether’s website](https://tether.to) or on [cryptocurrency exchanges](/guides/fundamentalsmentals/6-buying-cryptocurrency-basics.md) using fiat money (USD, EUR etc) or other cryptocurrency like Bitcoin. In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website. 
+Tether tokens may be purchased directly from the [Tether’s website](https://tether.to) or on [cryptocurrency exchanges](/guides/fundamentals/6-buying-cryptocurrency-basics.md) using fiat money (USD, EUR etc) or other cryptocurrency like Bitcoin. In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website. 
 
 When someone wants to deposit fiat money to buy Tether tokens via Tether's website, there is a minimum deposit amount of 100,000 USD. The same minimum amount applies when redeeming Tether tokens into fiat currency.
 
@@ -42,11 +42,11 @@ This distinction represents the core element when it comes to the risk assessmen
 
 ![landscape](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/usdt-equaldollar-l.png)
 
-The term ‘trustless’ is usually associated with cryptocurrency where the pre-programmed unchangeable rules guarantee that things work as expected without the need of trusting any entity. In that regard, good examples of trustless cryptocurrencies are [Bitcoin](/guides/token_guides_guides/bitcoin.md), [Ethereum](/guides/token_guides_guides/ethereum.md), or [DAI stablecoin](/guides/token_guides_guides/makerdao.md).
+The term ‘trustless’ is usually associated with cryptocurrency where the pre-programmed unchangeable rules guarantee that things work as expected without the need of trusting any entity. In that regard, good examples of trustless cryptocurrencies are [Bitcoin](/guides/token_guides/bitcoin.md), [Ethereum](/guides/token_guides/ethereum.md), or [DAI stablecoin](/guides/token_guides/makerdao.md).
 
 ### DAI vs Tether
 
-Both DAI and Tether are stablecoins. However, unlike Tether, the DAI stablecoin is decentralized. If you are interested to learn more about it check out here [how DAI works](/guides/token_guides_guides/makerdao.md).
+Both DAI and Tether are stablecoins. However, unlike Tether, the DAI stablecoin is decentralized. If you are interested to learn more about it check out here [how DAI works](/guides/token_guides/makerdao.md).
 
 When holding DAI tokens, users place trust on a pre-programmed code which can't do anything beyond what it was programmed to do. That code is what ensures that DAI tokens in circulation are fully covered by a real collateral.
 

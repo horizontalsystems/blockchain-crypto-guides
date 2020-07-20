@@ -4,7 +4,7 @@
 
 Let’s start with a brief introduction to Decentralized Finance or DeFi as everyone calls it.
 
-[Bitcoin](/guides/token_guides_guides/bitcoin.md) was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
+[Bitcoin](/guides/token_guides/bitcoin.md) was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
 
 In its current state the Bitcoin blockchain is limited to plain transfers of Bitcoins from one address to another.
 
@@ -20,7 +20,7 @@ The term DeFi they usually used as a reference to financial services built on to
 
 That said, most of the high net worth projects serving the public in the DeFI ecosystem are currently working on top of the Ethereum blockchain. 
 
-If you would like to learn more about Ethereum and existing DeFi projects built on top of it, read our [Ethereum guide](/guides/token_guides_guides/ethereum.md).
+If you would like to learn more about Ethereum and existing DeFi projects built on top of it, read our [Ethereum guide](/guides/token_guides/ethereum.md).
 
 ## 1. MakerDAO Overview
 
@@ -86,7 +86,7 @@ The Maker Protocol controls the circulating supply of DAI and ensures tha price 
 >
 > **That collateral is always there to ensure that every single DAI in circulation can be bought by the MakerDAO smart contracts even if the market demand for DAI goes to zero.** 
 
-Unlike DAI, most stablecoins (including [Tether](/guides/token_guides_guides/tether.md)) are centralized and require a high level of trust from a person holding these coins. 
+Unlike DAI, most stablecoins (including [Tether](/guides/token_guides/tether.md)) are centralized and require a high level of trust from a person holding these coins. 
 
 ### 1.3 MakerDAO Governance
 
