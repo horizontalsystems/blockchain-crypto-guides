@@ -22,7 +22,7 @@ For individuals Tether opens up ways for anyone to store assets in USD equivalen
 
 For cryptocurrency exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow. 
 
-> Sending 20,000 USDT Tether tokens from your wallet to your exchange account would take a few minutes in comparison to a few days when sent from a bank account.
+> **Sending 20,000 USDT Tether tokens from your wallet to your exchange account would take a few minutes in comparison to a few days when sent from a bank account.**
 
 Tether tokens in circulation exist as cryptocurrency tokens (primarily on Ethereum blockchain). Being a token on Ethereum blockchain, Tether adopts some benefits of Ethereum-based cryptocurrency allowing parties to transact with each other pseudo anonymously. 
 
@@ -58,13 +58,13 @@ Asa result DAI stablecoin has following properties:
 
 Points above do not hold for Tether and users essentially have to place their trust in the company and people running the Tether Limited.
 
-> The basic operating principle behind any centralized stablecoins like Tether is that there should be an equivalent amount of USD held by the company issuing the stablecoin. 
+> **The basic operating principle behind any centralized stablecoins like Tether is that there should be an equivalent amount of USD held by the company issuing the stablecoin.** 
 
 This deposit ensures that the Tether Limited can always act as a buyer of last resort to purchase all Tethers in circulation should every Tether token holder decide to sell it.
 
-> On 2020 alone, Tether Limited has printed several billions worth of USDT tokens nearly doubling the amount of tokens in circulation.
+> **On 2020 alone, Tether Limited has printed several billions worth of USDT tokens nearly doubling the amount of tokens in circulation.**
 >
-> If those newly minted Tether tokens are not properly collateralized then there is a significant risk for Tether holders.
+> **If those newly minted Tether tokens are not properly collateralized then there is a significant risk for Tether holders.**
 
 The Tether Limited currently acts as a centralized custodian of the reserve assets. The company claims that all Tether tokens in circulation are 100% backed by cash and other liquid assets. 
 

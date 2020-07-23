@@ -8,7 +8,7 @@ Bitcoin Cash emerged out of the Bitcoin blockchain in August 2017. While it shar
 
 In this guide we'll explain the process of how Bitcoin Cash (BCH) came into existence, its relevance to Bitcoin and how it's different from the original Bitcoin.
 
-> Bitcoin (BTC) and what's now known as Bitcoin Cash (BCH) technically used to be one cryptocurrency until August 2017.
+> **Bitcoin (BTC) and what's now known as Bitcoin Cash (BCH) technically used to be one cryptocurrency until August 2017.**
 
 Right now, despite having some similarities and 'Bitcoin' in its names, both represent different cryptocurrencies and traded at different prices.
 
@@ -28,9 +28,9 @@ Below we'll look at how the Bitcoin Cash (BCH) is different from the Bitcoin (BT
 
 The underlying blockchain powering Bitcoin is limited to about half a million transactions per day. 
  
-> In its current state, the Bitcoin network can only process about 5 transactions per second. On some busy days, it's not uncommon for Bitcoin transactions to remain in pending state for hours, sometimes even days. 
+>**In its current state, the Bitcoin network can only process about 5 transactions per second. On some busy days, it's not uncommon for Bitcoin transactions to remain in pending state for hours, sometimes even days.** 
 >
-> For comparison, the Visa network does around 1,700 transactions per second on average and can scale up to [24,000 transactions](https://usa.visa.com/run-your-business/small-business-tools/retail.html) per second.
+> **For comparison, the Visa network does around 1,700 transactions per second on average and can scale up to [24,000 transactions](https://usa.visa.com/run-your-business/small-business-tools/retail.html) per second.**
 
 The Bitcoin Cash emerged as a result of the original Bitcoin community trying to find ways to increase the capacity of the Bitcoin blockchain. Back in 2017, when trying to address this issue, the community couldn't reach consensus on the best way forward. 
 
@@ -54,15 +54,15 @@ The term fork is a technical term in software engineering and used to describe t
 
 Forks may occur when the community members are not able to agree on the way forward. It provides a natural dispute resolution mechanism by allowing the conflicting parties to split and continue with a distinct vision.
 
-> While anyone can create a cryptocurrency by forking the existing one, it will not see the adoption unless there is a significant value proposition which can attract support of engineers, users and speculators. 
+> **While anyone can create a cryptocurrency by forking the existing one, it will not see the adoption unless there is a significant value proposition which can attract support of engineers, users and speculators.** 
 >
-> Without the community the cryptocurrency has no organic network that can guarantee its survival and growth.
+> **Without the community the cryptocurrency has no organic network that can guarantee its survival and growth.**
 
 In August 2017, the proponents of larger block size initiated a fork, effectively creating a new blockchain and cryptocurrency.
 
 While that group didn't represent the majority, it had support of major Bitcoin miners, and a number of influential early-adopters, and some engineers. 
 
-> In a way, the fork of Bitcoin Cash was a good demonstration of how the ideological conflicts can be resolved for open-source cryptocurrency projects which are not owned by any entity.
+> **In a way, the fork of Bitcoin Cash was a good demonstration of how the ideological conflicts can be resolved for open-source cryptocurrency projects which are not owned by any entity.**
 
 Although, the Bitcoin Cash is not the only cryptocurrency that was forked from Bitcoin (there was [Litecoin](https://en.wikipedia.org/wiki/Litecoin) as well), it's the most significant in terms of the impact it had on community.
 
@@ -82,13 +82,13 @@ The project has a strong marketing community encouraging merchants worldwide to 
 
 Today, the community regards as Bitcoin the one with a symbol BTC. It's the cryptocurrency people refer to when talking about the Bitcoin.
 
-> It should be noted, there is an ongoing debate between Bitcoin and Bitcoin Cash communities as to which of the two cryptocurrencies is the 'true' Bitcoin that Satoshi Nakamoto [intended](https://bitcoin.org/en/bitcoin-paper) to create.
+> **It should be noted, there is an ongoing debate between Bitcoin and Bitcoin Cash communities as to which of the two cryptocurrencies is the 'true' Bitcoin that Satoshi Nakamoto [intended](https://bitcoin.org/en/bitcoin-paper) to create.**
 
 Although both cryptocurrencies share origins, the post-fork changes to blockchain code took each project in its own direction.
 
-> Bitcoin Cash (BCH) community views the BCH as a peer-to-peer 'digital cash' which can be used to pay for anything, quickly and with close to zero transaction fees.
+> **Bitcoin Cash (BCH) community views the BCH as a peer-to-peer 'digital cash' which can be used to pay for anything, quickly and with close to zero transaction fees.**
 >
-> Bitcoin (BTC) is generally perceived as a 'store of value' rather than digital cash. In that regard, more emphasis being put on security and privacy of the blockchain rather than the speed. While there is an ongoing work to improve the speed of Bitcoin via projects like [Lightning Network](https://lightning.network), we are yet to see a widely adopted solution.
+> **Bitcoin (BTC) is generally perceived as a 'store of value' rather than digital cash. In that regard, more emphasis being put on security and privacy of the blockchain rather than the speed. While there is an ongoing work to improve the speed of Bitcoin via projects like [Lightning Network](https://lightning.network), we are yet to see a widely adopted solution.**
 
 While it can be assumed that original Bitcoin network lost a chunk of its network as a result of the fork it's hard to quantify the extent of this. 
 
