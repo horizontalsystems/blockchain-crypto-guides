@@ -1,5 +1,31 @@
 @import "~normalize.css";
 @import "utils";
+@import "../../components/Container/Container";
+@import "../../components/Footer/Footer";
+@import "../../components/Contact/ContactForm";
+@import "../../components/Header/Header";
+@import "../../components/Card/Card";
+@import "../../components/Button/Button";
+//@import "../../components/Contact/SubscribeForm";
+
+body {
+  font-family: $font-family-base;
+  font-size: 62.6%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  background: $light-steal;
+  color: $grey;
+}
+
+.text-yellow {
+  color: $yellow-l;
+}
+
+.text-grey {
+  color: $grey;
+}
 
 @tailwind base;
 

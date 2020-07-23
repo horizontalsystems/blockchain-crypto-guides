@@ -1,0 +1,55 @@
+@import "../../pages/styles/utils";
+
+.Button {
+  @apply font-bold py-2 px-4 rounded text-white;
+}
+
+.Button-filter {
+  @apply rounded-full py-2 px-4;
+}
+
+.Button-circle {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 40px;
+  border: 1px solid $grey-light;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button-circle-yellow {
+  border: 1px solid $yellow-l;
+  background: $yellow-l;
+  color: white;
+
+  path {
+    fill: white;
+  }
+}
+
+.Arrow-right path {
+  transform: translate(100%, 100%) rotate(180deg);
+}
+
+.Button-page-number {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.Button-grey {
+  background: $grey;
+
+  &:hover {
+    background: lighten($grey, 2%);
+  }
+}
+
+.Button-yellow {
+  background: $yellow-l;
+
+  &:hover {
+    background: lighten($yellow-l, 2%);
+  }
+}

@@ -1,5 +1,7 @@
 .markdown {
   @apply text-lg leading-relaxed;
+  background: white;
+  padding: 42px 88px;
 }
 
 .markdown p,

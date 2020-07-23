@@ -11,9 +11,7 @@ export default function Guide({ guide = {} }) {
         <meta property="og:image" content="/image.png" />
       </Head>
       <Container>
-        <article className="mb-32">
-          <Markdown content={guide.content || ''} />
-        </article>
+        <Markdown content={guide.content || ''} />
       </Container>
     </Layout>
   )

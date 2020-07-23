@@ -14,7 +14,7 @@ async function markdownToHtml(markdown) {
 
 export async function getStaticProps({ params }) {
   const slug = params.slug.join('/')
-  const guide = getGuideBySlug(slug, ['slug', 'content'])
+  const guide = getGuideBySlug(slug, ['title', 'image', 'date', 'slug', 'content'])
   const content = await markdownToHtml(guide.content)
 
   return {

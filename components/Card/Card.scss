@@ -1,0 +1,31 @@
+@import "../../pages/styles/utils";
+
+.Card {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.Card-image {
+}
+
+.Card-info {
+  padding: 22px 24px 24px;
+  background: #FFFFFF;
+  height: 100%;
+}
+
+.Card-date {
+  font-size: 14px;
+  line-height: 19px;
+  color: $grey;
+}
+
+.Card-title {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: $darkest;
+}
