@@ -1,5 +1,7 @@
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/010-main-l.png)
 
+# What Is DeFi
+
 Let’s start with a brief introduction to Decentralized Finance or DeFi as everyone calls it these days.
 
 Bitcoin was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
@@ -16,23 +18,27 @@ When people say DeFI they usually refer to financial services built on top of Et
 
 That said, most of the high net worth projects which are live and already serving the public in the DeFI ecosystem are working on top of the Ethereum blockchain. 
 
+## 1. Decentralized Products
 
-======
+Examples:
 
-
-stablecoins
-
-If interested, here is stablecoin cheat sheet created by Horizontal Systems, https://horizontalsystems.io/guides/stablecoins.pdf
-
-===
-
-A single stablecoin can be present on multiple blockchains in a form of a crypto token on that blockchain. For instance, Tether (USDT) is available on several blockchains including Ethereum and Tron. The DAI stablecoin on the other hand is present only on the Ethereum blockchain.
-
-Any cryptocurrency wallet supporting Ethereum is likely to support stablecoins on Ethereum blockchain allowing users to store their stablecoins privately. 
-
-Users of such wallets can seamlessly transact with each other using these stablecoins without involving any third party.
-
-The DAI token is generally considered to be a highly liquid asset in the crypto currency space. It’s available on nearly all major cryptocurrency exchanges and widely used as currency in DeFi services built on the Ethereum blockchain.
+- Bitcoin
+- Ethereum
 
 
-// DEX Exchanges
+
+## 2. Decentralized Finance
+
+- defi is a segment in decentralized services, finance related
+- explain centralized finance vs decentralized finance
+- usually means no regulation
+- full security 
+- full freedom of action
+
+Following service already available in DeFi:
+
+- Exchanges
+- Staking Pools
+- Liquidity Pools
+
+List one two examples
