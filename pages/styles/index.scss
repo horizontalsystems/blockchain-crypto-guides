@@ -1,12 +1,17 @@
+@import "~tailwindcss/base.css";
+@import "~tailwindcss/components.css";
+@import "~tailwindcss/utilities";
 @import "~normalize.css";
 @import "utils";
+
 @import "../../components/Container/Container";
+@import "../../components/Header/Header";
+@import "../../components/Banner/Banner";
+@import "../../components/Button/Button";
 @import "../../components/Footer/Footer";
 @import "../../components/Contact/ContactForm";
-@import "../../components/Header/Header";
 @import "../../components/Card/Card";
-@import "../../components/Button/Button";
-//@import "../../components/Contact/SubscribeForm";
+@import "../../components/Guide/Guide";
 
 body {
   font-family: $font-family-base;
@@ -27,18 +32,6 @@ body {
   color: $grey;
 }
 
-@tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
-@tailwind components;
-/* Stop purging. */
-
-/* Write you own custom component styles here */
-
-/* Start purging... */
-@tailwind utilities;
-/* Stop purging. */
-
-/* Your own custom utilities */
+.text-dark {
+  color: $darkest;
+}

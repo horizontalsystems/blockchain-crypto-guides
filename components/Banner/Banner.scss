@@ -1,0 +1,76 @@
+@import "../../pages/styles/utils";
+
+.Container-banner {
+  padding-top: 36px !important;
+}
+
+.Banner-wrap {
+  position: relative;
+}
+
+.Banner-half {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  background: #F3F3F3;
+}
+
+.Banner {
+  width: 100%;
+  height: 420px;
+  background: #FFFFFF;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+
+  @include md {
+    display: flex;
+  }
+}
+
+.Banner-start, .Banner-end {
+  border: 1px solid #000;
+  flex: 1;
+  position: relative;
+}
+
+.Banner-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Banner-info {
+  padding: 24px;
+
+  @include md {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  @include lg {
+    padding: 0 96px;
+  }
+}
+
+.Banner-title {
+  color: $darkest;
+  font-size: 36px;
+  line-height: 49px;
+
+  @include md {
+    font-size: 52px;
+    line-height: 71px;
+  }
+}
+
+.Banner-description {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: $grey;
+}
+
+.Banner-image {
+}

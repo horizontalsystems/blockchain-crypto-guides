@@ -14,9 +14,8 @@ class Footer extends React.Component {
           <div className="Footer-top">
             <div className="Footer-nav">
               <a className="Footer-nav-item" href="/">Home</a>
-              <a className="Footer-nav-item" href="https://t.me/unstoppable_development">Support</a>
-              <a className="Footer-nav-item" href="https://horizontalsystems.io">About us</a>
-              <a className="Footer-nav-item" href="https://github.com/horizontalsystems">Github</a>
+              <a className="Footer-nav-item" href="https://horizontalsystems.io">About</a>
+              <a className="Footer-nav-item" href="https://t.me/unstoppable_development">Contact</a>
               <a className="Footer-nav-item" href="/">Unstoppable Academy</a>
             </div>
             <div className="Footer-subscribe">

@@ -1,11 +1,21 @@
 @import "../../pages/styles/utils";
 
 .Button {
-  @apply font-bold py-2 px-4 rounded text-white;
+  font-family: $ibm-plex-sans;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  line-height: 18px;
+  padding: 11px 24px;
+  border-radius: 8px;
 }
 
 .Button-filter {
-  @apply rounded-full py-2 px-4;
+  @apply rounded-full;
+}
+
+.Button-bordered {
+  border: 1px solid $grey-light;
 }
 
 .Button-circle {

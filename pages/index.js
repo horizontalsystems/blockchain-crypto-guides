@@ -1,12 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
-import cn from 'classnames'
 import Link from 'next/link'
+import cn from 'classnames'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
 import Card from '../components/Card'
 import Button from '../components/Button'
 import Icon from '../components/Icon'
+import Banner from '../components/Banner'
 import getAllGuides from '../guides/api'
 
 class Home extends React.Component {
@@ -89,8 +90,12 @@ class Home extends React.Component {
         <Head>
           <title>Cryptopedia</title>
         </Head>
-        <Container>
-          <div className="py-8">
+        <div className="Banner-wrap">
+          <div className="Banner-half" />
+          <Banner />
+        </div>
+        <Container clipped={false}>
+          <div className="Guides-filter">
             {filters.map((item, i) =>
               <Button
                 key={i}
@@ -103,7 +108,7 @@ class Home extends React.Component {
               />
             )}
           </div>
-          <div className="grid gap-5 grid-cols-1 md:grid-cols-4">
+          <div className="grid gap-5 grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
             {items.map((item, i) =>
               <Link key={i} href="/guide/[...slug]" as={`/guide/${item.slug}`}>
                 <a><Card title={item.title} date={item.date} image={item.image} /></a>
@@ -111,7 +116,7 @@ class Home extends React.Component {
             )}
           </div>
 
-          <div className="py-8 text-center">
+          <div className="Guides-pagination text-center">
             <div className={cn('Button-circle mr-6', { 'Button-circle-yellow': pageActive !== 1 })}
                  onClick={() => this.selectPage(Math.max(pageActive - 1, 1))}>
               <Icon name="arrow" />

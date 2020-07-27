@@ -27,10 +27,12 @@
   }
 }
 
+.Footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
 .Footer-nav-item {
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
   padding: 6px 0;
   border-radius: 4px;
   cursor: pointer;

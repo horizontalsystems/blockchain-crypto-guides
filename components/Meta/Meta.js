@@ -10,6 +10,7 @@ export default function Meta() {
       <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#000000" />
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Noto+Sans&display=swap" />
       <title>Academy</title>
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Container from '../Container'
 import HeaderLogo from './HeaderLogo.svg'
 import Icon from '../Icon'
+import Button from '../Button'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 class Header extends React.Component {
@@ -40,9 +41,13 @@ class Header extends React.Component {
   render() {
     const navigation = (
       <div className="nav">
-        <a className="nav-item" href="https://t.me/unstoppable_development" onClick={this.onClickMenu}>Support</a>
-        <a className="nav-item" href="https://horizontalsystems.io/">About us</a>
-        <a className="nav-item" href="https://github.com/horizontalsystems">Github</a>
+        <a href="https://horizontalsystems.io">
+          <Button className="Button-filter Button-bordered text-dark nav-item" title="About" />
+        </a>
+        <a href="https://t.me/unstoppable_development">
+          <Button className="Button-filter Button-bordered text-dark nav-item" title="Contact" />
+        </a>
+        <Button className="Button-yellow nav-item nav-item-subscribe" title="Subscribe" />
       </div>
     )
 

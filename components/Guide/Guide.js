@@ -10,7 +10,7 @@ export default function Guide({ guide = {} }) {
         <title>Guide</title>
         <meta property="og:image" content="/image.png" />
       </Head>
-      <Container>
+      <Container clipped={false}>
         <Markdown content={guide.content || ''} />
       </Container>
     </Layout>
