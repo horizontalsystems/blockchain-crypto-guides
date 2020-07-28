@@ -1,0 +1,114 @@
+@import "../../pages/styles/utils.scss";
+
+.Markdown-container {
+  display: flex;
+  position: relative;
+
+  @include sm {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+}
+
+.Markdown-section {
+  margin-top: 36px;
+  border-radius: 16px;
+
+  @include sm {
+    border-radius: 0;
+  }
+}
+
+.Markdown-content {
+  background: #FFFFFF;
+  width: 75%;
+  margin-right: 24px;
+  @apply text-lg leading-relaxed;
+  padding: 12px 24px; // 36px - 24px from paragraph
+
+  @include md {
+    padding: 18px 88px; // 42px - 24px from paragraph
+    margin-top: 36px;
+    margin-bottom: 58px;
+  }
+
+  @include sm {
+    margin-top: 0;
+  }
+
+  p, ul, ol, blockquote {
+    @apply my-6;
+  }
+
+  h2 {
+    @apply text-3xl mt-12 mb-4 leading-snug;
+  }
+
+  h3 {
+    @apply text-2xl mt-8 mb-4 leading-snug;
+  }
+}
+
+.Markdown-side {
+  width: 25%;
+  position: relative;
+}
+
+.Markdown-content, .Markdown-side {
+  @include sm {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.Markdown-side-content {
+  background: #FFFFFF;
+  border-radius: 16px;
+  position: sticky;
+  top: 0;
+
+  @include sm {
+    border-radius: 0;
+  }
+}
+
+.Markdown-side-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 22px 32px;
+  color: $yellow-l;
+  cursor: pointer;
+}
+
+.Markdown-side-bottom {
+  @include sm {
+    display: none;
+  }
+}
+
+.Markdown-menu {
+  background: #F5F5F5;
+
+  @include sm {
+    display: none;
+  }
+}
+
+.Markdown-menu-head {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.Markdown-menu-item {
+  padding: 12px 32px;
+  border-bottom: 1px solid #DBDAE0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.Markdown-menu-bordered {
+  border-bottom: 1px solid #DBDAE0;
+}

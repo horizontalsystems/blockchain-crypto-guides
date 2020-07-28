@@ -29,23 +29,23 @@ export function getGuideBySlug(slug, fields = []) {
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const cached = cache[slug]
 
-  const items = {}
+  const data = {}
 
   fields.forEach(field => {
     if (field === 'slug') {
-      items[field] = slug
+      data[field] = slug
     }
 
     if (field === 'content') {
-      items[field] = fileContents
+      data[field] = fileContents
     }
 
     if (cached[field]) {
-      items[field] = cached[field]
+      data[field] = cached[field]
     }
   })
 
-  return items
+  return data
 }
 
 export default function getAllGuides(fields = []) {
