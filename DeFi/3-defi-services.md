@@ -1,20 +1,35 @@
-- stablecoins
-- exachnages
+# DeFi Apps
+
+// intro to various types of service being built
+
+Below, we will go over some of the most popular DeFi product types that already exist and function.
+
+- Stablecoins
+
+    DAI, BiDAO and alike products....A single stablecoin can be present on multiple blockchains in a form of a crypto token on that blockchain. For instance, Tether (USDT) is available on several blockchains including Ethereum and Tron. The DAI stablecoin on the other hand is present only on the Ethereum blockchain.
+
+- Decentralized Exchanges
+
+    Uniswap, REN, Oasis etc ... 
+    
 - Staking Pools
+
+    // purpose of these insutrments
+        
 - Liquidity Pools
-- Flashloans etc
-- etc 
 
-stablecoins
+    // purpose of these insutrments
+    
+- Flashloans
 
-If interested, here is stablecoin cheat sheet created by Horizontal Systems, https://horizontalsystems.io/guides/stablecoins.pdf
+    // purpose of these insutrments
 
-===
+## Top DeFi Apps
 
-A single stablecoin can be present on multiple blockchains in a form of a crypto token on that blockchain. For instance, Tether (USDT) is available on several blockchains including Ethereum and Tron. The DAI stablecoin on the other hand is present only on the Ethereum blockchain.
+- MakerDAO // DAI
+- Uniswap
+- Compound
 
-Any cryptocurrency wallet supporting Ethereum is likely to support stablecoins on Ethereum blockchain allowing users to store their stablecoins privately. 
-
-Users of such wallets can seamlessly transact with each other using these stablecoins without involving any third party.
-
-The DAI token is generally considered to be a highly liquid asset in the crypto currency space. It’s available on nearly all major cryptocurrency exchanges and widely used as currency in DeFi services built on the Ethereum blockchain.
+// Share links that aggregate and explain DeFi products
+// ideally, list top 10 based on the liquidty amount it controls
+// amount of funds under control by DeFi products

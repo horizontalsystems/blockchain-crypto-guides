@@ -1,4 +1,4 @@
-# How DeFi Works
+# How DeFi Built
 
 // intro
 - ethereum blockchain is a preferred platform (tron and eos trailing)
@@ -17,9 +17,6 @@
 - code reuse
 - building blocks
 
-## DeFi Examples
+## Building Blocks
 
-- MakerDAO
-- Uniswap
-
-Share links that aggregate and explain DeFi products
+- lego concept
