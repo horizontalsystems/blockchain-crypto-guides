@@ -16,6 +16,8 @@ import { ReactComponent as Anonym } from './anonym.svg'
 import { ReactComponent as Tor } from './tor.svg'
 import { ReactComponent as Sort } from './sort.svg'
 import { ReactComponent as Arrow } from './arrow.svg'
+import { ReactComponent as TBig } from './TBig.svg'
+import { ReactComponent as TSmall } from './TSmall.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -25,6 +27,10 @@ const iconComponent = name => {
       return <Close />
     case 'arrow':
       return <Arrow />
+    case 'tbig':
+      return <TBig />
+    case 'tsmall':
+      return <TSmall />
 
     //  Buttons
     case 'google-play':

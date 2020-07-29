@@ -22,7 +22,8 @@
 .Markdown-content {
   background: #FFFFFF;
   margin-right: 24px;
-  @apply text-lg leading-relaxed;
+  font-size: 16px;
+  line-height: 22px;
   padding: 12px 24px; // 36px - 24px from paragraph
 
   @include md {
@@ -87,7 +88,27 @@
   line-height: 25px;
   padding: 22px 32px;
   color: $yellow-l;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Markdown-title-action {
+  display: flex;
+  align-items: center;
+  border: 1px solid $yellow-l;
+  border-radius: 8px;
+}
+
+.Markdown-title-icon {
+  margin: 10px 12px;
   cursor: pointer;
+}
+
+.Markdown-title-divider {
+  width: 1px;
+  height: 36px;
+  background: $yellow-l;
 }
 
 .Markdown-side-bottom {

@@ -3,8 +3,16 @@ import GithubSlugger from 'github-slugger'
 import throttle from 'lodash.throttle'
 import Container from '../Container'
 import BannerGuide from '../Banner/BannerGuide'
+import Icon from '../Icon'
 
 class Markdown extends React.Component {
+  state = {
+    fontSize: 16,
+    lineHeight: 22,
+    fontSizeMax: 24,
+    fontSizeMin: 12
+  }
+
   componentDidMount() {
     window.addEventListener('scroll', throttle(this.handleScroll, 100));
 
@@ -105,13 +113,32 @@ class Markdown extends React.Component {
     });
   }
 
+  onChangeTexSize(fontSize) {
+    this.setState({
+      fontSize,
+      lineHeight: Math.floor(fontSize * 1.5)
+    })
+  }
+
   render() {
+    const { fontSize, fontSizeMax, fontSizeMin, lineHeight } = this.state
     const { guide } = this.props
 
     const sidebar = (
       <div className="Markdown-side-content">
-        <div className="Markdown-side-title Markdown-menu-bordered" onClick={() => this.onClickToggle()}>
-          Contents
+        <div className="Markdown-side-title Markdown-menu-bordered">
+          <div className="cursor-pointer" onClick={() => this.onClickToggle()}>Contents</div>
+          <div className="Markdown-title-action">
+            <div className="Markdown-title-icon"
+                 onClick={() => this.onChangeTexSize(Math.min(fontSize + 1, fontSizeMax))}>
+              <Icon name="tbig" />
+            </div>
+            <div className="Markdown-title-divider" />
+            <div className="Markdown-title-icon"
+                 onClick={() => this.onChangeTexSize(Math.max(fontSize - 1, fontSizeMin))}>
+              <Icon name="tsmall" />
+            </div>
+          </div>
         </div>
         <div className="Markdown-menu">
           {this.mapMenu(guide.headings)}
@@ -130,7 +157,11 @@ class Markdown extends React.Component {
           <div className="md:w-1/4 sm:w-full Markdown-section Markdown-side-fixed sm-show md-hidden">
             {sidebar}
           </div>
-          <div className="Markdown-section Markdown-content" dangerouslySetInnerHTML={{ __html: guide.content }} />
+          <div
+            className="Markdown-section Markdown-content"
+            style={{ fontSize, lineHeight: `${lineHeight}px` }}
+            dangerouslySetInnerHTML={{ __html: guide.content }}
+          />
         </div>
         <div className="md:w-1/4 sm:w-full Markdown-section Markdown-side sm-hidden">
           {sidebar}
