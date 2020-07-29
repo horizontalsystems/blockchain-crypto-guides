@@ -22,7 +22,7 @@ Unlike traditional counterparts, these products usually have following attribute
 
 - Open Participation
 
-    Anyone worldwide with an internet connection and some cryptocurrency can access and interact with the financial service regardless of location, age etc. 
+    Anyone worldwide with an internet connection and some cryptocurrency can access and interact with the financial service regardless of location, age, experience, status etc. 
     
 - Censorship Resistant
 
