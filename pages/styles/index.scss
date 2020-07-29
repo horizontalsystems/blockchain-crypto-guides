@@ -25,6 +25,14 @@ body {
   color: $grey;
 }
 
+main {
+  padding-top: $header-height;
+
+  @include sm {
+    padding-top: $header-sm;
+  }
+}
+
 .text-yellow {
   color: $yellow-l;
 }

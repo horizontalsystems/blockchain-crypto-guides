@@ -127,7 +127,7 @@ class Markdown extends React.Component {
           <div className="Markdown-banner">
             <BannerGuide title={guide.title} image={guide.image} type={guide.type} />
           </div>
-          <div className="md:w-1/4 sm:w-full Markdown-section Markdown-side sm-show md-hidden">
+          <div className="md:w-1/4 sm:w-full Markdown-section Markdown-side-fixed sm-show md-hidden">
             {sidebar}
           </div>
           <div className="Markdown-section Markdown-content" dangerouslySetInnerHTML={{ __html: guide.content }} />

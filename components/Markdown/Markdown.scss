@@ -68,11 +68,17 @@
   background: #FFFFFF;
   border-radius: 16px;
   position: sticky;
-  top: 0;
+  top: $header-height;
 
   @include sm {
     border-radius: 0;
   }
+}
+
+.Markdown-side-fixed {
+  position: sticky;
+  width: 100%;
+  top: 80px;
 }
 
 .Markdown-side-title {

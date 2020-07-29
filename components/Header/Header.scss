@@ -1,13 +1,18 @@
 @import "../../pages/styles/utils";
 
 .Header {
-  //position: absolute;
-  height: 110px;
+  position: fixed;
+  top: 0;
+  height: $header-sm;
   width: 100%;
   z-index: 1;
   background: $white;
   display: flex;
   align-items: center;
+
+  @include md {
+    height: $header-height;
+  }
 }
 
 .Header-logo {
