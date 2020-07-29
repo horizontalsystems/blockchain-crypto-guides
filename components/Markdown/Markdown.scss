@@ -107,6 +107,10 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
+
+  a.current {
+    text-decoration: underline;
+  }
 }
 
 .Markdown-menu-bordered {
