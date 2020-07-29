@@ -21,7 +21,6 @@
 
 .Markdown-content {
   background: #FFFFFF;
-  width: 75%;
   margin-right: 24px;
   @apply text-lg leading-relaxed;
   padding: 12px 24px; // 36px - 24px from paragraph
@@ -49,12 +48,16 @@
   }
 }
 
-.Markdown-side {
-  width: 25%;
-  position: relative;
+.Markdown-banner {
+  margin-top: 36px;
+  margin-right: 24px;
+
+  @include sm {
+    padding: 0 24px;
+  }
 }
 
-.Markdown-content, .Markdown-side {
+.Markdown-banner, .Markdown-content, .Markdown-side {
   @include sm {
     margin-right: 0;
     width: 100%;

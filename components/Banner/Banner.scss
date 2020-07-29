@@ -22,10 +22,8 @@
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   overflow: hidden;
-
-  @include md {
-    display: flex;
-  }
+  display: flex;
+  align-items: center;
 }
 
 .Banner-start, .Banner-end {
@@ -73,4 +71,29 @@
 }
 
 .Banner-image {
+}
+
+.Banner-guide {
+  height: 344px;
+  align-items: flex-start;
+  background: #F0A63E;
+
+  .Banner-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+
+    @include md {
+      font-size: 48px;
+      line-height: 65px;
+    }
+  }
+
+  .Banner-description {
+    color: white;
+  }
+
+  .Banner-info {
+    padding: 24px !important;
+  }
 }

@@ -3,7 +3,7 @@ import Container from '../Container'
 export default function Banner() {
   return (
     <Container className="Container-banner" clipped={false}>
-      <div className="Banner flex items-center flex-col md:flex-row">
+      <div className="Banner flex-col md:flex-row">
         <div className="Banner-info md:w-1/2">
           <div className="Banner-title">Learn, Invest, Make</div>
           <div className="Banner-description">

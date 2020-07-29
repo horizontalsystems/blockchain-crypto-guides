@@ -2,6 +2,7 @@ import React from 'react'
 import GithubSlugger from 'github-slugger'
 import throttle from 'lodash.throttle'
 import Container from '../Container'
+import BannerGuide from '../Banner/BannerGuide'
 
 class Markdown extends React.Component {
   componentDidMount() {
@@ -19,7 +20,8 @@ class Markdown extends React.Component {
     const actives = []
 
     this.mainNavLinks.forEach(link => {
-      const section = document.querySelector(link.hash)
+      const id = link.hash.replace(/^#/, '')
+      const section = document.getElementById(id)
       if (!section) return
       if (section.offsetTop <= fromTop) {
         actives.push(link)
@@ -75,17 +77,28 @@ class Markdown extends React.Component {
   }
 
   onClickToggle() {
-    const { display } = this.menu.style
+    const menu = document.querySelectorAll('.Markdown-menu')
+    if (!menu.length) return
+    const { display } = menu[0].style
+
+    let newDisplay
     if (display === 'none' || display === '') {
-      this.menu.style.display = 'block'
+      newDisplay = 'block'
     } else {
-      this.menu.style.display = 'none'
+      newDisplay = 'none'
     }
+
+    menu.forEach(item => {
+      item.style.display = newDisplay
+    })
   }
 
   onClickLink(event) {
     event.preventDefault();
-    const target = document.querySelector(event.target.hash);
+    const id = event.target.hash.replace(/^#/, '')
+    const target = document.getElementById(id);
+    if (!target) return
+
     target.scrollIntoView({
       behavior: 'smooth',
       block: 'start'
@@ -95,23 +108,32 @@ class Markdown extends React.Component {
   render() {
     const { guide } = this.props
 
+    const sidebar = (
+      <div className="Markdown-side-content">
+        <div className="Markdown-side-title Markdown-menu-bordered" onClick={() => this.onClickToggle()}>
+          Contents
+        </div>
+        <div className="Markdown-menu">
+          {this.mapMenu(guide.headings)}
+        </div>
+        <div className="Markdown-side-title Markdown-side-bottom">
+        </div>
+      </div>
+    )
+
     return (
       <Container className="Markdown-container" clipped={false}>
-        <div
-          className="Markdown-section Markdown-content"
-          dangerouslySetInnerHTML={{ __html: guide.content }}
-        />
-        <div className="Markdown-section Markdown-side">
-          <div className="Markdown-side-content">
-            <div className="Markdown-side-title Markdown-menu-bordered" onClick={() => this.onClickToggle()}>
-              Contents
-            </div>
-            <div className="Markdown-menu" ref={r => this.menu = r}>
-              {this.mapMenu(guide.headings)}
-            </div>
-            <div className="Markdown-side-title Markdown-side-bottom">
-            </div>
+        <div className="md:w-3/4 sm:w-full">
+          <div className="Markdown-banner">
+            <BannerGuide title={guide.title} image={guide.image} type={guide.type} />
           </div>
+          <div className="md:w-1/4 sm:w-full Markdown-section Markdown-side sm-show md-hidden">
+            {sidebar}
+          </div>
+          <div className="Markdown-section Markdown-content" dangerouslySetInnerHTML={{ __html: guide.content }} />
+        </div>
+        <div className="md:w-1/4 sm:w-full Markdown-section Markdown-side sm-hidden">
+          {sidebar}
         </div>
       </Container>
     )

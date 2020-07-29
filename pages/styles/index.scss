@@ -36,3 +36,19 @@ body {
 .text-dark {
   color: $darkest;
 }
+
+@include md {
+  .md-hidden {
+    display: none;
+  }
+}
+
+@include sm {
+  .sm-show {
+    display: block;
+  }
+
+  .sm-hidden {
+    display: none;
+  }
+}
