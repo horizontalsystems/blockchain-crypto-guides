@@ -7,16 +7,37 @@ const cache = indexedData()
 function indexedData() {
   const cached = {}
 
-  json.forEach(({ title, guides }) => {
-    guides.forEach(item => {
-      const image = item.image_url.replace(/^guides\//, '/guide/')
-      const slug = item.file_url.replace(/^guides\//, '')
+  const getNext = (list, i, max = 4) => {
+    if (list.length <= max) {
+      return list
+    }
 
-      cached[slug] = {
+    const res = list.slice(i, i + max)
+    if (res.length < max) {
+      return [...res, ...list.slice(0, max - res.length)]
+    }
+
+    return res
+  }
+
+  json.forEach(({ title, guides }) => {
+    const mapped = guides.map(item => {
+      const slug = item.file_url.replace(/^guides\//, '')
+      const image = item.image_url.replace(/^guides\//, '/guide/')
+
+      return {
+        slug,
         image,
         title: item.title,
         date: item.updated_at,
         type: title
+      }
+    })
+
+    mapped.forEach(({ slug, ...guide }, index) => {
+      cached[slug] = {
+        ...guide,
+        next: getNext(mapped, index + 1)
       }
     })
   })

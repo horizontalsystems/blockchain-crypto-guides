@@ -47,7 +47,9 @@ function mapChild(children) {
 
 export async function getStaticProps({ params }) {
   const slug = params.slug.join('/')
-  const guide = getGuideBySlug(slug, ['type', 'title', 'image', 'date', 'slug', 'content'])
+  const guide = getGuideBySlug(slug, [
+    'type', 'title', 'image', 'date', 'slug', 'content', 'next'
+  ])
 
   const { content, node } = await parse(guide.content)
   const children = node.children.filter(child => child.type === 'heading')
