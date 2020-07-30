@@ -1,6 +1,6 @@
 import React from 'react'
 
-class ContactForm extends React.Component {
+class SubscribeFormModal extends React.Component {
   componentDidMount() {
     const script = document.createElement('script');
     script.async = true;
@@ -16,22 +16,21 @@ class ContactForm extends React.Component {
       <div id={`mlb2-${formId}`} className={`ml-subscribe-form ml-subscribe-form-${formId}`} ref={e => (this.div = e)}>
         <form className="Contact-form" action={action} data-code={formCode} method="post">
           <input type="hidden" name="ml-submit" value="1" />
-
-          <div className="Contact-form-group">
-            <input type="text" className="form-control" name="fields[name]" placeholder="Name" />
-            <input type="email" className="form-control" name="fields[email]" placeholder="Email" required />
+          <div className="Contact-form-info">
+            Subscribe to our newsletter to get new products, guides and cheat sheets when they are published.
           </div>
           <div className="Contact-form-group">
-            <textarea name="fields[message]" maxLength="255" rows="5" placeholder="Message" required />
+            <input type="email" className="form-control bg-white" name="fields[email]" placeholder="Email" required />
           </div>
-
+          <label className="Subscribe-checkbox-wrap">
+            <input type="checkbox" className="Contact-checkbox" defaultChecked={true} required />
+            <div className="Contact-checkbox-description">
+              By signing up, you agree to Horizontal Systems Privacy Policy
+            </div>
+          </label>
           <div className="Contact-form-group">
-            <label className="Contact-checkbox-wrap">
-              <div className="Contact-action">
-                <button type="submit" className="btn primary">Send</button>
-                <button type="button" className="btn loading" disabled="disabled">Send</button>
-              </div>
-            </label>
+            <button type="submit" className="btn primary btn-yellow w-full">Subscribe</button>
+            <button type="button" className="btn loading w-full" disabled="disabled">Subscribe</button>
           </div>
         </form>
 
@@ -44,4 +43,4 @@ class ContactForm extends React.Component {
   }
 }
 
-export default ContactForm
+export default SubscribeFormModal

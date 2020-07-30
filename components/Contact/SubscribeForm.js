@@ -14,7 +14,7 @@ class SubscribeForm extends React.Component {
 
     return (
       <div id={`mlb2-${formId}`} className={`ml-subscribe-form ml-subscribe-form-${formId}`} ref={e => (this.div = e)}>
-        <form className="Contact-form" action={action} data-code={formCode} method="post">
+        <form action={action} data-code={formCode} method="post">
           <input type="hidden" name="ml-submit" value="1" />
 
           <div className="Contact-form-group">
@@ -23,7 +23,7 @@ class SubscribeForm extends React.Component {
             <button type="button" className="btn loading" disabled="disabled">Subscribe</button>
           </div>
           <label className="Subscribe-checkbox-wrap">
-            <input type="checkbox" className="Contact-checkbox" required />
+            <input type="checkbox" className="Contact-checkbox" defaultChecked={true} required />
             <div className="Contact-checkbox-description">
               By signing up, you agree to Horizontal Systems Privacy Policy
             </div>

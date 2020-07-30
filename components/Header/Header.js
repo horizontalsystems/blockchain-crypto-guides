@@ -3,10 +3,13 @@ import Container from '../Container'
 import HeaderLogo from './HeaderLogo.svg'
 import Icon from '../Icon'
 import Button from '../Button'
+import SubscribeFormModal from '../Contact/SubscribeFormModal'
+import events from '../EventEmitter'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 class Header extends React.Component {
   dropdown = false
+
   static defaultProps = {
     navigate: true
   }
@@ -38,6 +41,10 @@ class Header extends React.Component {
     }
   }
 
+  onClickSubscribe = () => {
+    events.showModal(<SubscribeFormModal formId="2166978" formCode="d8h6h7" />)
+  }
+
   render() {
     const navigation = (
       <div className="nav">
@@ -47,7 +54,10 @@ class Header extends React.Component {
         <a href="https://t.me/unstoppable_development">
           <Button className="Button-filter Button-bordered text-dark nav-item" title="Contact" />
         </a>
-        <Button className="Button-yellow nav-item nav-item-subscribe" title="Subscribe" />
+        <Button
+          className="Button-yellow nav-item nav-item-subscribe" title="Subscribe"
+          onClick={this.onClickSubscribe}
+        />
       </div>
     )
 

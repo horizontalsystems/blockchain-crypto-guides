@@ -1,7 +1,43 @@
 @import "../../pages/styles/utils";
 
-.Contact-form {
-  min-width: 700px;
+.Contact-form, .Contact-success {
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 20px 26px;
+
+  @include sm {
+    min-width: auto;
+  }
+
+  @include md {
+    width: 424px;
+  }
+}
+
+.Contact-form-group {
+  display: flex;
+  justify-content: space-between;
+
+  input, textarea, .btn {
+    margin: 16px 10px;
+
+    @include sm {
+      margin: 16px 0;
+    }
+  }
+
+  @include sm {
+    display: block;
+  }
+}
+
+.Contact-form-info {
+  font-size: 18px;
+  line-height: 23px;
+  color: $grey;
+  margin: 16px 10px;
 }
 
 .Contact-success {
@@ -21,14 +57,117 @@ input, textarea, .btn {
   box-sizing: border-box;
   border: none;
   border-radius: 8px;
-  margin: 16px 10px;
   display: inline-block;
   font-size: 14px;
   line-height: 18px;
+
+  @include sm {
+    margin: 16px 0;
+  }
 }
 
 input, textarea {
   border: 1px solid $grey-light;
-  padding: 15px 24px;
+  padding: 15px 24px !important;
+  background: black;
   width: 100%;
+  color: $grey;
+  outline: none;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: $white;
+  text-decoration: none;
+
+  &.loading {
+    display: none;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  @include sm {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.btn-green {
+  background: $green;
+  color: white;
+
+  &:hover {
+    background: lighten($green, 2%);
+  }
+}
+
+.btn-dark {
+  background: $black;
+  color: white;
+
+  &:hover {
+    background: lighten($dark-steal, 2%);
+  }
+}
+
+.btn-grey {
+  background: $grey;
+  color: white;
+
+  &:hover {
+    background: lighten($grey, 2%);
+  }
+}
+
+.btn-yellow {
+  background: $yellow-l;
+  color: white;
+
+  &:hover {
+    background: lighten($yellow-l, 2%);
+  }
+}
+
+.Subscribe-checkbox-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+
+  &:hover {
+    color: $grey;
+  }
+
+  .Contact-checkbox {
+    width: 20px;
+  }
+
+  .Contact-checkbox-description {
+    padding-left: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    color: $grey;
+
+    @include sm {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    &:hover, &:hover > a  {
+      color: $grey-light;
+    }
+  }
+
+  a {
+    color: #3D3D42;
+  }
+
+  @include sm {
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+  }
 }

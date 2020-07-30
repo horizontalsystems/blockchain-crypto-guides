@@ -52,10 +52,6 @@
   width: 40%;
   color: $grey;
 
-  .Contact-form {
-    min-width: auto;
-  }
-
   @include sm {
     width: 100%;
     margin-top: 50px;
