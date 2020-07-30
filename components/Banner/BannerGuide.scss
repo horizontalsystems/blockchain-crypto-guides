@@ -1,0 +1,25 @@
+.Banner-guide {
+  height: 344px;
+  align-items: flex-start;
+  background: #F0A63E;
+
+  .Banner-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+
+    @include md {
+      font-size: 48px;
+      line-height: 65px;
+    }
+  }
+
+  .Banner-description {
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .Banner-info {
+    padding: 24px !important;
+  }
+}

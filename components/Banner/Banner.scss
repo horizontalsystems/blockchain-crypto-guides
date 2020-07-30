@@ -26,18 +26,6 @@
   align-items: center;
 }
 
-.Banner-start, .Banner-end {
-  border: 1px solid #000;
-  flex: 1;
-  position: relative;
-}
-
-.Banner-start {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .Banner-info {
   padding: 24px;
 
@@ -70,31 +58,5 @@
   color: $grey;
 }
 
-.Banner-image {
-}
-
-.Banner-guide {
-  height: 344px;
-  align-items: flex-start;
-  background: #F0A63E;
-
-  .Banner-title {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 38px;
-
-    @include md {
-      font-size: 48px;
-      line-height: 65px;
-    }
-  }
-
-  .Banner-description {
-    color: white;
-    padding-bottom: 10px;
-  }
-
-  .Banner-info {
-    padding: 24px !important;
-  }
-}
+@import "BannerGuide";
+@import "BannerWallet";

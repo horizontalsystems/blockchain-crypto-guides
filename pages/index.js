@@ -8,6 +8,7 @@ import Card from '../components/Card'
 import Button from '../components/Button'
 import Icon from '../components/Icon'
 import Banner from '../components/Banner'
+import BannerWallet from '../components/Banner/BannerWallet'
 import getAllGuides from '../guides/api'
 
 class Home extends React.Component {
@@ -90,10 +91,7 @@ class Home extends React.Component {
         <Head>
           <title>Cryptopedia</title>
         </Head>
-        <div className="Banner-wrap">
-          <div className="Banner-half" />
-          <Banner />
-        </div>
+        <Banner />
         <Container clipped={false}>
           <div className="Guides-filter">
             {filters.map((item, i) =>
@@ -142,6 +140,7 @@ class Home extends React.Component {
             </div>
           </div>
         </Container>
+        <BannerWallet />
       </Layout>
     )
   }
