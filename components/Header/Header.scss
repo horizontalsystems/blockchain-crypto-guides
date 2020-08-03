@@ -21,6 +21,18 @@
 
 .Header-logo {
   cursor: pointer;
+
+  @include sm {
+    height: 24px;
+  }
+}
+
+.light-mode .HeaderLogo_svg__brand {
+  fill: black;
+}
+
+.dark-mode .HeaderLogo_svg__brand {
+  fill: white;
 }
 
 .navbar {

@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import Container from '../Container'
-import HeaderLogo from './HeaderLogo.svg'
 import Icon from '../Icon'
 import Button from '../Button'
 import SubscribeFormModal from '../Contact/SubscribeFormModal'
+import { ReactComponent as HeaderLogo } from './HeaderLogo.svg'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 import events from '../EventEmitter'
 
@@ -62,7 +62,7 @@ class Header extends React.Component {
         <Container>
           <div className="navbar">
             <Link href="/">
-              <img className="Header-logo" src={HeaderLogo} alt="Home" />
+              <HeaderLogo className="Header-logo" />
             </Link>
 
             {navigation}
