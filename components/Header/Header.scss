@@ -15,6 +15,10 @@
   }
 }
 
+.dark-mode .Header {
+  background: $dark;
+}
+
 .Header-logo {
   cursor: pointer;
 }
@@ -30,8 +34,9 @@
   font-size: 14px;
   align-items: center;
 
-  .nav-item {
-    margin-left: 18px;
+  .nav-item, .nav-icon {
+    margin-left: 20px;
+    cursor: pointer;
   }
 
   .nav-item-subscribe {
@@ -95,4 +100,12 @@
   path {
     fill: $dark-steal;
   }
+}
+
+.light-mode .Button-nav {
+  color: $darkest;
+}
+
+.dark-mode .Button-nav {
+  color: $grey-light;
 }

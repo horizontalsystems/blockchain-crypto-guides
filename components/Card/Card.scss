@@ -23,6 +23,10 @@
   height: 100%;
 }
 
+.dark-mode .Card-info {
+  background: $dark;
+}
+
 .Card-date {
   font-size: 14px;
   line-height: 19px;
@@ -35,4 +39,8 @@
   font-size: 18px;
   line-height: 25px;
   color: $darkest;
+}
+
+.dark-mode .Card-title {
+  color: $grey-light;
 }

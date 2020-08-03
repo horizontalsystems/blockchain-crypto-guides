@@ -63,3 +63,15 @@
     background: lighten($yellow-l, 2%);
   }
 }
+
+.Button-filter-inactive {
+  @apply Button-grey;
+}
+
+.dark-mode .Button-filter-inactive {
+  background: $dark;
+
+  &:hover {
+    background: lighten($dark, 2%);
+  }
+}

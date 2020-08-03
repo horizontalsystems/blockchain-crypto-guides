@@ -6,6 +6,7 @@ import { ReactComponent as GooglePlay } from './google-play.svg'
 import { ReactComponent as AppStore } from './app-store.svg'
 import { ReactComponent as Download } from './download.svg'
 import { ReactComponent as Globe } from './globe.svg'
+import { ReactComponent as DarkLight } from './dark-light.svg'
 import { ReactComponent as Graphic } from './graphic.svg'
 import { ReactComponent as Guide } from './guide.svg'
 import { ReactComponent as Decentralized } from './decentralized.svg'
@@ -46,6 +47,8 @@ const iconComponent = name => {
     //  Pages
     case 'globe':
       return <Globe />
+    case 'dark-light':
+      return <DarkLight />
     case 'graphic':
       return <Graphic />
     case 'guide':

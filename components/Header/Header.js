@@ -4,8 +4,8 @@ import HeaderLogo from './HeaderLogo.svg'
 import Icon from '../Icon'
 import Button from '../Button'
 import SubscribeFormModal from '../Contact/SubscribeFormModal'
-import events from '../EventEmitter'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
+import events from '../EventEmitter'
 
 class Header extends React.Component {
   dropdown = false
@@ -32,28 +32,24 @@ class Header extends React.Component {
     this.dropdown = !this.dropdown
   }
 
-  onClickMenu = () => {
-    this.onToggleMenu()
-    this.dropdownNav.style.display = 'none'
-
-    if (!this.props.navigate) {
-      window.location.href = '/'
-    }
-  }
-
   onClickSubscribe = () => {
     events.showModal(<SubscribeFormModal formId="2166978" formCode="d8h6h7" />)
   }
 
   render() {
+    const { darkMode } = this.props
+
     const navigation = (
       <div className="nav">
         <a href="https://horizontalsystems.io">
-          <Button className="Button-filter Button-bordered text-dark nav-item" title="About" />
+          <div className="Button-nav nav-item">About</div>
         </a>
         <a href="https://t.me/unstoppable_development">
-          <Button className="Button-filter Button-bordered text-dark nav-item" title="Contact" />
+          <div className="Button-nav nav-item">Contact</div>
         </a>
+        <div className="nav-icon" onClick={darkMode.toggle}>
+          <Icon name="dark-light" />
+        </div>
         <Button
           className="Button-yellow nav-item nav-item-subscribe" title="Subscribe"
           onClick={this.onClickSubscribe}

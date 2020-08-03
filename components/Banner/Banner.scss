@@ -15,6 +15,10 @@
   background: #F3F3F3;
 }
 
+.dark-mode .Banner-half {
+  background: $dark-soft;
+}
+
 .Banner {
   width: 100%;
   height: 420px;
@@ -24,6 +28,10 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+}
+
+.dark-mode .Banner {
+  background: $dark;
 }
 
 .Banner-info {
@@ -49,6 +57,22 @@
     font-size: 52px;
     line-height: 71px;
   }
+}
+
+.dark-mode .Banner-title {
+  color: $grey-light;
+}
+
+.Banner-light, .Banner-dark {
+  display: none;
+}
+
+.light-mode .Banner-light {
+  display: block;
+}
+
+.dark-mode .Banner-dark {
+  display: block;
 }
 
 .Banner-description {

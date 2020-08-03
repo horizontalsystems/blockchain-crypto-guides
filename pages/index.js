@@ -91,7 +91,7 @@ class Home extends React.Component {
         <Head>
           <title>Cryptopedia</title>
         </Head>
-        <Banner />
+        <Banner title="Learn, Invest, Make" info="Master fundamentals and learn about crypto projects in simple terms." />
         <Container clipped={false}>
           <div className="Guides-filter">
             {filters.map((item, i) =>
@@ -101,7 +101,7 @@ class Home extends React.Component {
                 onClick={() => this.select(item)}
                 className={cn('Button-filter mr-4', {
                   'Button-yellow': item === filterActive,
-                  'Button-grey': item !== filterActive
+                  'Button-filter-inactive': item !== filterActive
                 })}
               />
             )}

@@ -22,8 +22,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
-  background: $light-steal;
-  color: $grey;
+
+  &.light-mode {
+    background: $light-steal;
+    color: $darkest;
+    transition: background-color 0.3s ease;
+  }
+
+  &.dark-mode {
+    background-color: #000000;
+    color: $grey-light;
+  }
 }
 
 main {
@@ -32,18 +41,6 @@ main {
   @include sm {
     padding-top: $header-sm;
   }
-}
-
-.text-yellow {
-  color: $yellow-l;
-}
-
-.text-grey {
-  color: $grey;
-}
-
-.text-dark {
-  color: $darkest;
 }
 
 @include md {
