@@ -6,6 +6,7 @@
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   padding: 20px 26px;
+  position: relative;
 
   @include sm {
     min-width: auto;
@@ -14,6 +15,12 @@
   @include md {
     width: 424px;
   }
+}
+
+.close-form {
+  position: absolute;
+  right: -3px;
+  top: 5px;
 }
 
 .Contact-form-group {
@@ -43,13 +50,18 @@
 .Contact-success {
   display: none;
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
-  h4 {
-    font-size: 40px;
+  .done {
+    display: flex;
+    justify-content: center;
   }
 
-  p {
-    font-size: 30px;
+  .done-text {
+    padding-top: 18px;
+    font-size: 18px;
+    line-height: 23px;
   }
 }
 
@@ -156,7 +168,7 @@ input, textarea {
       line-height: 18px;
     }
 
-    &:hover, &:hover > a  {
+    &:hover, &:hover > a {
       color: $grey-light;
     }
   }

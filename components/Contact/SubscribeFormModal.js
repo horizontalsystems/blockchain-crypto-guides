@@ -1,4 +1,6 @@
 import React from 'react'
+import Icon from '../Icon'
+import events from '../EventEmitter'
 
 class SubscribeFormModal extends React.Component {
   componentDidMount() {
@@ -11,10 +13,15 @@ class SubscribeFormModal extends React.Component {
   render() {
     const { formId, formCode } = this.props
     const action = `https://app.mailerlite.com/webforms/submit/${formCode}`
+    const className = `ml-subscribe-form ml-subscribe-form-${formId}`
 
     return (
-      <div id={`mlb2-${formId}`} className={`ml-subscribe-form ml-subscribe-form-${formId}`} ref={e => (this.div = e)}>
+      <div id={`mlb2-${formId}`} className={className} ref={e => (this.div = e)}>
         <form className="Contact-form" action={action} data-code={formCode} method="post">
+          <div className="close-form">
+            <span className="close" onClick={() => events.hideModal('')}>&times;</span>
+          </div>
+
           <input type="hidden" name="ml-submit" value="1" />
           <div className="Contact-form-info">
             Subscribe to our newsletter to get new products, guides and cheat sheets when they are published.
@@ -30,13 +37,17 @@ class SubscribeFormModal extends React.Component {
           </label>
           <div className="Contact-form-group">
             <button type="submit" className="btn primary btn-yellow w-full">Subscribe</button>
-            <button type="button" className="btn loading w-full" disabled="disabled">Subscribe</button>
+            <button type="button" className="btn loading btn-yellow w-full" disabled="disabled">Subscribe</button>
           </div>
         </form>
 
         <div className="Contact-success">
-          <h4>Thank you!</h4>
-          <p>Done! Check your email.</p>
+          <div className="done">
+            <Icon name="done" />
+          </div>
+          <p className="done-text">
+            Done! Check your email.
+          </p>
         </div>
       </div>
     )

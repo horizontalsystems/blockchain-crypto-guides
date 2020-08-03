@@ -18,6 +18,7 @@ import { ReactComponent as Sort } from './sort.svg'
 import { ReactComponent as Arrow } from './arrow.svg'
 import { ReactComponent as TBig } from './TBig.svg'
 import { ReactComponent as TSmall } from './TSmall.svg'
+import { ReactComponent as Done } from './done.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -31,6 +32,8 @@ const iconComponent = name => {
       return <TBig />
     case 'tsmall':
       return <TSmall />
+    case 'done':
+      return <Done />
 
     //  Buttons
     case 'google-play':
