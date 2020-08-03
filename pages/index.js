@@ -89,7 +89,7 @@ class Home extends React.Component {
     return (
       <Layout>
         <Head>
-          <title>Cryptopedia</title>
+          <title>Litrex academy</title>
         </Head>
         <Banner title="Learn, Invest, Make" info="Master fundamentals and learn about crypto projects in simple terms." />
         <Container clipped={false}>
