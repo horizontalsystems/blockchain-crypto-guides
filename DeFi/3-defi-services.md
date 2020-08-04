@@ -8,6 +8,8 @@ Below, we will go over some of the most popular DeFi product types that already 
 
     DAI, BiDAO and alike products....A single stablecoin can be present on multiple blockchains in a form of a crypto token on that blockchain. For instance, Tether (USDT) is available on several blockchains including Ethereum and Tron. The DAI stablecoin on the other hand is present only on the Ethereum blockchain.
 
+    This category include gold representing tokens like DGX, PAX gold etc
+
 - Decentralized Exchanges
 
     Uniswap, REN, Oasis etc ... 

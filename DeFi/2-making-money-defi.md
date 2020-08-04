@@ -5,7 +5,10 @@
 important:
 
 - understanding
-- research
+- research. a lot of crap (research needed)
+
+
+
 
 ## Risk Factors
 
