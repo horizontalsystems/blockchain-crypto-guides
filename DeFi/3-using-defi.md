@@ -1,7 +1,8 @@
 # Using DeFi
 
-- people interact with those in non-custodial manner
+// people interact with those in non-custodial manner
 // metamask or via wallet connect
+// wallet connect
 
 ## DeFi privacy
 
