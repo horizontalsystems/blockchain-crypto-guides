@@ -1,6 +1,5 @@
 import React from 'react'
 import Icon from '../Icon'
-import events from '../EventEmitter'
 
 class SubscribeFormModal extends React.Component {
   componentDidMount() {
@@ -11,7 +10,7 @@ class SubscribeFormModal extends React.Component {
   }
 
   render() {
-    const { formId, formCode } = this.props
+    const { formId, formCode, onClose } = this.props
     const action = `https://app.mailerlite.com/webforms/submit/${formCode}`
     const className = `ml-subscribe-form ml-subscribe-form-${formId}`
 
@@ -19,7 +18,7 @@ class SubscribeFormModal extends React.Component {
       <div id={`mlb2-${formId}`} className={className} ref={e => (this.div = e)}>
         <form className="Contact-form" action={action} data-code={formCode} method="post">
           <div className="close-form">
-            <span className="close" onClick={() => events.hideModal('')}>&times;</span>
+            <span className="close" onClick={onClose}>&times;</span>
           </div>
 
           <input type="hidden" name="ml-submit" value="1" />

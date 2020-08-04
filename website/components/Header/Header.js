@@ -5,7 +5,6 @@ import Button from '../Button'
 import SubscribeFormModal from '../Contact/SubscribeFormModal'
 import { ReactComponent as HeaderLogo } from './HeaderLogo.svg'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
-import events from '../EventEmitter'
 
 class Header extends React.Component {
   dropdown = false
@@ -33,7 +32,8 @@ class Header extends React.Component {
   }
 
   onClickSubscribe = () => {
-    events.showModal(<SubscribeFormModal formId="2166978" formCode="d8h6h7" />)
+    const { showModal } = this.props
+    showModal(<SubscribeFormModal formId="2166978" formCode="d8h6h7" onClose={() => showModal(null)} />)
   }
 
   render() {
@@ -62,7 +62,7 @@ class Header extends React.Component {
         <Container>
           <div className="navbar">
             <Link href="/">
-              <HeaderLogo className="Header-logo" />
+              <a><HeaderLogo className="Header-logo" /></a>
             </Link>
 
             {navigation}
