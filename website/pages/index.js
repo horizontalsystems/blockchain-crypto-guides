@@ -9,7 +9,7 @@ import Button from '../components/Button'
 import Icon from '../components/Icon'
 import Banner from '../components/Banner'
 import BannerWallet from '../components/Banner/BannerWallet'
-import getAllGuides from '../guides/api'
+import getAllGuides from '../api/guides-api'
 
 class Home extends React.Component {
   state = {

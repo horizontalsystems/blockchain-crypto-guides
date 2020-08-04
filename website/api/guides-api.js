@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import json from '../index.json'
+import json from '../../index.json'
 
 const cache = indexedData()
 
@@ -46,7 +46,7 @@ function indexedData() {
 }
 
 export function getGuideBySlug(slug, fields = []) {
-  const fullPath = path.join(process.cwd(), 'guides', slug)
+  const fullPath = path.join(process.cwd(), '../guides', slug)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const cached = cache[slug]
 

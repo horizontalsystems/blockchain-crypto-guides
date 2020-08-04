@@ -2,7 +2,7 @@ import remark from 'remark'
 import html from 'remark-html'
 import slug from 'remark-slug'
 import autolink from 'remark-autolink-headings'
-import getAllGuides, { getGuideBySlug } from '../../guides/api'
+import getAllGuides, { getGuideBySlug } from '../../api/guides-api'
 
 export { default } from '../../components/Guide'
 
