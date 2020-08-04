@@ -9,4 +9,16 @@
   padding-bottom: 61px;
 }
 
+.text-yellow {
+  color: $yellow-l;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.text-dark {
+  color: $darkest;
+}
+
 @import "GuideNext";
