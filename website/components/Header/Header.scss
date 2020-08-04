@@ -20,10 +20,11 @@
 }
 
 .Header-logo {
+  width: 100%;
   cursor: pointer;
 
   @include sm {
-    height: 24px;
+    width: 70%;
   }
 }
 
@@ -38,6 +39,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav {
@@ -77,10 +79,11 @@
     margin: 0;
   }
 
-  .nav-item {
-    margin-top: 18px;
+  .nav-item, .nav-icon {
     border: none;
     background: transparent;
+    margin-left: 0;
+    margin-top: 40px;
     font-size: 22px;
     line-height: 29px;
   }
@@ -88,6 +91,10 @@
   .nav-item-subscribe {
     color: $yellow-l;
   }
+}
+
+.dark-mode .navbar-dropdown {
+  background: $dark;
 }
 
 .Menu-wrap {
@@ -108,10 +115,6 @@
   display: flex;
   justify-content: center;
   padding-top: 30%;
-
-  path {
-    fill: $dark-steal;
-  }
 }
 
 .light-mode .Button-nav {
