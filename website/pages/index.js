@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import cn from 'classnames'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
@@ -10,6 +9,7 @@ import Icon from '../components/Icon'
 import Banner from '../components/Banner'
 import BannerWallet from '../components/Banner/BannerWallet'
 import getAllGuides from '../api/guides-api'
+import { Link, withTranslation } from '../i18n'
 
 class Home extends React.Component {
   state = {
@@ -89,9 +89,13 @@ class Home extends React.Component {
     return (
       <Layout>
         <Head>
-          <title>Litrex academy</title>
+          <title>{this.props.t('title')}</title>
         </Head>
-        <Banner title="Learn, Invest, Make" info="Master fundamentals and learn about crypto projects in simple terms." />
+        <Banner
+          title="Learn, Invest, Make"
+          info="Master fundamentals and learn about crypto projects in simple terms."
+        />
+
         <Container clipped={false}>
           <div className="Guides-filter">
             {filters.map((item, i) =>
@@ -108,7 +112,7 @@ class Home extends React.Component {
           </div>
           <div className="grid gap-5 grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
             {items.map((item, i) =>
-              <Link key={i} href="/guide/[...slug]" as={`/guide/${item.slug}`}>
+              <Link key={i} href={`/guide/${item.slug}`}>
                 <a><Card title={item.title} date={item.date} image={item.image} /></a>
               </Link>
             )}
@@ -147,11 +151,19 @@ class Home extends React.Component {
 }
 
 export async function getStaticProps() {
-  const guides = getAllGuides(['title', 'date', 'image', 'slug', 'type'])
+  const guides = getAllGuides([
+    'title',
+    'date',
+    'image',
+    'slug',
+    'type'
+  ])
 
   return {
-    props: { guides },
+    props: {
+      guides
+    },
   }
 }
 
-export default Home
+export default withTranslation('common')(Home)

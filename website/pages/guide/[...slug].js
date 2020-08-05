@@ -2,9 +2,11 @@ import remark from 'remark'
 import html from 'remark-html'
 import slug from 'remark-slug'
 import autolink from 'remark-autolink-headings'
+import Guide from '../../components/Guide'
+import { withTranslation } from '../../i18n'
 import getAllGuides, { getGuideBySlug } from '../../api/guides-api'
 
-export { default } from '../../components/Guide'
+export default withTranslation()(Guide)
 
 async function parse(markdown) {
   const processor = remark()
@@ -45,8 +47,10 @@ function mapChild(children) {
   return result
 }
 
-export async function getStaticProps({ params }) {
-  const slug = params.slug.join('/')
+export async function getStaticProps(ctx) {
+  console.log('==========================')
+  console.log(ctx)
+  const slug = ctx.params.slug.join('/')
   const guide = getGuideBySlug(slug, [
     'type', 'title', 'image', 'date', 'slug', 'content', 'next'
   ])
@@ -72,7 +76,7 @@ export async function getStaticPaths() {
   return {
     paths: guides.map(guide => ({
       params: {
-        slug: guide.slug.split('/')
+        slug: ['ru',  ...guide.slug.split('/')]
       }
     })),
     fallback: false

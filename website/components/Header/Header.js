@@ -1,10 +1,10 @@
-import Link from 'next/link'
 import Container from '../Container'
 import Icon from '../Icon'
 import Button from '../Button'
 import SubscribeFormModal from '../Contact/SubscribeFormModal'
 import { ReactComponent as HeaderLogo } from './HeaderLogo.svg'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
+import { i18n, Link, withTranslation } from '../../i18n'
 
 class Header extends React.Component {
   dropdown = false
@@ -37,21 +37,25 @@ class Header extends React.Component {
   }
 
   render() {
-    const { darkMode } = this.props
+    const { darkMode, t } = this.props
+    const onChangeLanguage = () => i18n.changeLanguage(i18n.language === 'en' ? 'ru' : 'en')
 
     const navigation = (
       <div className="nav">
         <a href="https://horizontalsystems.io">
-          <div className="Button-nav nav-item">About</div>
+          <div className="Button-nav nav-item">{t('about')}</div>
         </a>
         <a href="https://t.me/unstoppable_development">
-          <div className="Button-nav nav-item">Contact</div>
+          <div className="Button-nav nav-item">{t('contact')}</div>
         </a>
+        <div className="nav-icon" onClick={onChangeLanguage}>
+          <Icon name="globe" />
+        </div>
         <div className="nav-icon" onClick={darkMode.toggle}>
           <Icon name="dark-light" />
         </div>
         <Button
-          className="Button-yellow nav-item nav-item-subscribe" title="Subscribe"
+          className="Button-yellow nav-item nav-item-subscribe" title={t('subscribe')}
           onClick={this.onClickSubscribe}
         />
       </div>
@@ -88,4 +92,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header
+export default withTranslation('common')(Header)

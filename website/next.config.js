@@ -2,19 +2,11 @@ const withPlugins = require('next-compose-plugins')
 const withSvgr = require('next-svgr')
 const withImages = require('next-images')
 
-module.exports = withPlugins([
-  {
-    webpack: (config, { isServer }) => {
-      // Fixes npm packages that depend on `fs` module
-      if (!isServer) {
-        config.node = {
-          fs: 'empty'
-        }
-      }
+const { localeSubpaths } = require('./i18n')
+const { nextI18NextRewrites } = require('next-i18next/rewrites')
 
-      return config
-    }
-  },
-  [withImages],
-  [withSvgr]
-])
+module.exports = withPlugins([[withImages], [withSvgr]], {
+  rewrites: async () => nextI18NextRewrites(localeSubpaths),
+  publicRuntimeConfig: { localeSubpaths }
+})
+s
