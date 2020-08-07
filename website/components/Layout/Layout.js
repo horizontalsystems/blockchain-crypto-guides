@@ -5,7 +5,7 @@ import Header from '../Header'
 import Footer from '../Footer/Footer'
 import Modal from '../Modal/Modal'
 
-export default function Layout({ children }) {
+function Layout({ children }) {
   const darkMode = useDarkMode();
   const [modal, setModal] = useState(null)
 
@@ -19,3 +19,5 @@ export default function Layout({ children }) {
     </>
   )
 }
+
+export default Layout

@@ -1,17 +1,16 @@
+import Link from 'next-translate/Link'
+import withTranslation from 'next-translate/withTranslation'
+import Router from 'next-translate/Router'
+import { withRouter } from 'next/router'
 import Container from '../Container'
 import Icon from '../Icon'
 import Button from '../Button'
 import SubscribeFormModal from '../Contact/SubscribeFormModal'
 import { ReactComponent as HeaderLogo } from './HeaderLogo.svg'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
-import { i18n, Link, withTranslation } from '../../i18n'
 
 class Header extends React.Component {
   dropdown = false
-
-  static defaultProps = {
-    navigate: true
-  }
 
   onToggleMenu = () => {
     const close = this.menuClose
@@ -36,26 +35,43 @@ class Header extends React.Component {
     showModal(<SubscribeFormModal formId="2166978" formCode="d8h6h7" onClose={() => showModal(null)} />)
   }
 
+  onChangeLng = () => {
+    const { i18n, router } = this.props
+    const { query } = router
+
+    const lang = i18n.lang === 'ru' ? 'en' : 'ru'
+
+    if (!query.slug || !query.lang) {
+      router.push(`/${lang}`)
+      // Router.pushI18n({ url: '/', options: { lang } })
+      return
+    }
+
+    const re = new RegExp(`^\/${query.lang}`, 'i');
+    const newRoute = router.asPath.replace(re, '')
+
+    Router.pushI18n({ url: newRoute, options: { lang } })
+  }
+
   render() {
-    const { darkMode, t } = this.props
-    const onChangeLanguage = () => i18n.changeLanguage(i18n.language === 'en' ? 'ru' : 'en')
+    const { darkMode, i18n } = this.props
 
     const navigation = (
       <div className="nav">
         <a href="https://horizontalsystems.io">
-          <div className="Button-nav nav-item">{t('about')}</div>
+          <div className="Button-nav nav-item">{i18n.t('common:about')}</div>
         </a>
         <a href="https://t.me/unstoppable_development">
-          <div className="Button-nav nav-item">{t('contact')}</div>
+          <div className="Button-nav nav-item">{i18n.t('common:contact')}</div>
         </a>
-        <div className="nav-icon" onClick={onChangeLanguage}>
+        <div className="nav-icon" onClick={this.onChangeLng}>
           <Icon name="globe" />
         </div>
         <div className="nav-icon" onClick={darkMode.toggle}>
           <Icon name="dark-light" />
         </div>
         <Button
-          className="Button-yellow nav-item nav-item-subscribe" title={t('subscribe')}
+          className="Button-yellow nav-item nav-item-subscribe" title={i18n.t('common:subscribe')}
           onClick={this.onClickSubscribe}
         />
       </div>
@@ -65,7 +81,7 @@ class Header extends React.Component {
       <header className="Header">
         <Container>
           <div className="navbar">
-            <Link href="/">
+            <Link href="/[lang]" as="/">
               <a><HeaderLogo className="Header-logo" /></a>
             </Link>
 
@@ -92,4 +108,4 @@ class Header extends React.Component {
   }
 }
 
-export default withTranslation('common')(Header)
+export default withTranslation(withRouter(Header))

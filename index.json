@@ -6,7 +6,14 @@
         "title": "1. Cryptocurrency",
         "image_url": "guides/fundamentals/images/01-main-l.png",
         "file_url": "guides/fundamentals/1-cryptocurrency-basics.md",
-        "updated_at": "01-06-2020"
+        "updated_at": "01-06-2020",
+        "translation":{
+          "ru": {
+            "title": "1. Криптовалюта",
+            "image_url": "guides/fundamentals/images/01-main-l.png",
+            "file_url": "guides/fundamentals/ru/1-cryptocurrency-basics.md"
+          }
+        }
       },
       {
         "title": "2. Wallets",

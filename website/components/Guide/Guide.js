@@ -7,8 +7,8 @@ export default function Guide({ guide }) {
   return (
     <Layout>
       <Head>
-        <title>{guide.title}</title>
-        <meta property="og:image" content={guide.image} />
+        {guide.title && <title>{guide.title}</title>}
+        {guide.image && <meta property="og:image" content={guide.image} />}
       </Head>
       <Markdown guide={guide} />
       <GuideNext list={guide.next} />
