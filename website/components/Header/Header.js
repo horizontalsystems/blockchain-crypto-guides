@@ -35,11 +35,9 @@ class Header extends React.Component {
     showModal(<SubscribeFormModal formId="2166978" formCode="d8h6h7" onClose={() => showModal(null)} />)
   }
 
-  onChangeLng = () => {
+  onChangeLng = lang => {
     const { i18n, router } = this.props
     const { query } = router
-
-    const lang = i18n.lang === 'ru' ? 'en' : 'ru'
 
     if (!query.slug || !query.lang) {
       router.push(`/${lang}`)
@@ -64,8 +62,12 @@ class Header extends React.Component {
         <a href="https://t.me/unstoppable_development">
           <div className="Button-nav nav-item">{i18n.t('common:contact')}</div>
         </a>
-        <div className="nav-icon" onClick={this.onChangeLng}>
+        <div className="nav-icon nav-language">
           <Icon name="globe" />
+          <div className="dropdown-menu dropdown-menu-right">
+            <a className="dropdown-item" onClick={() => this.onChangeLng('en')}>English</a>
+            <a className="dropdown-item" onClick={() => this.onChangeLng('ru')}>Russian</a>
+          </div>
         </div>
         <div className="nav-icon" onClick={darkMode.toggle}>
           <Icon name="dark-light" />
@@ -79,7 +81,7 @@ class Header extends React.Component {
 
     return (
       <header className="Header">
-        <Container>
+        <Container clipped={false}>
           <div className="navbar">
             <Link href="/[lang]" as="/">
               <a><HeaderLogo className="Header-logo" /></a>
