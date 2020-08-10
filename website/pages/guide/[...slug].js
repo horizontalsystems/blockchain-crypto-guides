@@ -4,7 +4,6 @@ import slug from 'remark-slug'
 import autolink from 'remark-autolink-headings'
 import Guide from '../../components/Guide'
 import getAllGuides, { getGuideBySlug } from '../../api/guides-api'
-import { getI18nProps, withI18n } from '../../i18n'
 
 export default Guide
 
@@ -48,8 +47,6 @@ export function mapChild(children) {
 }
 
 export async function getStaticProps(ctx) {
-  // const i18nProps = await getI18nProps(ctx, ['common'])
-
   const slug = ctx.params.slug.join('/')
   const guide = getGuideBySlug(slug, [
     'type', 'title', 'image', 'date', 'slug', 'content', 'next'
@@ -61,7 +58,6 @@ export async function getStaticProps(ctx) {
 
   return {
     props: {
-      // ...i18nProps,
       guide: {
         ...guide,
         headings,

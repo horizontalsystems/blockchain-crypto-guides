@@ -152,4 +152,4 @@ class Home extends React.Component {
   }
 }
 
-export default withTranslation(withI18n(Home))
+export default withI18n(withTranslation(Home))

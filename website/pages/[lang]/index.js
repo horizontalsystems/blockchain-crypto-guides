@@ -26,4 +26,4 @@ export const getStaticPaths = async () => ({
   fallback: false
 })
 
-export default withI18n(Home)
+export default Home
