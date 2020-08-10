@@ -79,10 +79,10 @@ export function getGuideByLang(lang, slug, fields) {
   return getGuideBySlug(slug.join('/'), fields)
 }
 
-export function getGuideBySlug(slug, fields = []) {
+export function getGuideBySlug(slug, fields = [], cacheSlug) {
   const fullPath = path.join(process.cwd(), '../guides', slug)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const cached = cache[slug] || {}
+  const cached = cache[cacheSlug] || cache[slug] || {}
 
   const data = {}
 
@@ -104,17 +104,19 @@ export function getGuideBySlug(slug, fields = []) {
 }
 
 export default function getAllGuides(fields = [], lang = 'en') {
-  const files = []
+  const files = {}
 
   const mapSlugs = item => {
-    const url = item.file_url.replace(/^guides\//, '')
+    const folderName = /^guides\//
+    const url = item.file_url.replace(folderName, '')
+
     if (lang === 'en') {
-      files.push(url)
+      files[url] = url
     } else {
       const trMap = item.translation || {}
       const trElement = trMap[lang]
       if (trElement) {
-        files.push(url)
+        files[url] = trElement.file_url.replace(folderName, '')
       }
     }
   }
@@ -123,7 +125,7 @@ export default function getAllGuides(fields = [], lang = 'en') {
     guides.forEach(mapSlugs)
   })
 
-  return files.map(slug =>
-    getGuideBySlug(slug, fields)
+  return Object.keys(files).map(slug =>
+    getGuideBySlug(slug, fields, files[slug])
   )
 }
