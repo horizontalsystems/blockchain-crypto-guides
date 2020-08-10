@@ -11,8 +11,16 @@ import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 class Header extends React.Component {
   dropdown = false
+  state = {
+    language: null
+  }
 
   onToggleMenu = () => {
+    if (this.state.language) {
+      this.setState({ language: null })
+      return
+    }
+
     const close = this.menuClose
     const toggle = this.menuToggle
     const dropdownNav = this.dropdownNav
@@ -22,7 +30,7 @@ class Header extends React.Component {
       close.style.display = 'none'
       toggle.style.display = 'block'
     } else {
-      dropdownNav.style.display = 'block'
+      dropdownNav.style.display = 'flex'
       close.style.display = 'block'
       toggle.style.display = 'none'
     }
@@ -36,7 +44,7 @@ class Header extends React.Component {
   }
 
   onChangeLng = lang => {
-    const { i18n, router } = this.props
+    const { router } = this.props
     const { query } = router
 
     if (!query.slug || !query.lang) {
@@ -51,33 +59,17 @@ class Header extends React.Component {
     Router.pushI18n({ url: newRoute, options: { lang } })
   }
 
-  render() {
-    const { darkMode, i18n } = this.props
+  showLanguages = () => {
+    const { style } = this.dropdownNav
+    if (style.display === 'none') {
+      return
+    }
 
-    const navigation = (
-      <div className="nav">
-        <a href="https://horizontalsystems.io">
-          <div className="Button-nav nav-item">{i18n.t('common:about')}</div>
-        </a>
-        <a href="https://t.me/unstoppable_development">
-          <div className="Button-nav nav-item">{i18n.t('common:contact')}</div>
-        </a>
-        <div className="nav-icon nav-language">
-          <Icon name="globe" />
-          <div className="dropdown-menu dropdown-menu-right">
-            <a className="dropdown-item" onClick={() => this.onChangeLng('en')}>English</a>
-            <a className="dropdown-item" onClick={() => this.onChangeLng('ru')}>Russian</a>
-          </div>
-        </div>
-        <div className="nav-icon" onClick={darkMode.toggle}>
-          <Icon name="dark-light" />
-        </div>
-        <Button
-          className="Button-yellow nav-item nav-item-subscribe" title={i18n.t('common:subscribe')}
-          onClick={this.onClickSubscribe}
-        />
-      </div>
-    )
+    this.setState({ language: !this.state.language })
+  }
+
+  render() {
+    const { language } = this.state
 
     return (
       <header className="Header">
@@ -87,7 +79,7 @@ class Header extends React.Component {
               <a><HeaderLogo className="Header-logo" /></a>
             </Link>
 
-            {navigation}
+            {this.navigationMenu(this.props)}
 
             <div className="Menu-wrap" onClick={this.onToggleMenu}>
               <div className="Menu-close" ref={r => this.menuClose = r}>
@@ -99,8 +91,8 @@ class Header extends React.Component {
             </div>
           </div>
         </Container>
-        <div className="navbar-dropdown" ref={r => this.dropdownNav = r}>
-          {navigation}
+        <div className="navbar-dropdown" ref={r => this.dropdownNav = r} style={{ display: 'none' }}>
+          {language ? this.languageMenu() : this.navigationMenu(this.props)}
           <div className="nav-logo">
             <Logo className="Logo" />
           </div>
@@ -108,6 +100,38 @@ class Header extends React.Component {
       </header>
     )
   }
+
+  navigationMenu = ({ darkMode, i18n }) => (
+    <div className="nav">
+      <a href="https://horizontalsystems.io">
+        <div className="Button-nav nav-item">{i18n.t('common:about')}</div>
+      </a>
+      <a href="https://t.me/unstoppable_development">
+        <div className="Button-nav nav-item">{i18n.t('common:contact')}</div>
+      </a>
+      <div className="nav-icon nav-language" onClick={this.showLanguages}>
+        <Icon name="globe" />
+        <div className="dropdown-menu dropdown-menu-center">
+          <a className="dropdown-item" onClick={() => this.onChangeLng('en')}>English</a>
+          <a className="dropdown-item" onClick={() => this.onChangeLng('ru')}>Russian</a>
+        </div>
+      </div>
+      <div className="nav-icon" onClick={darkMode.toggle}>
+        <Icon name="dark-light" />
+      </div>
+      <Button
+        className="Button-yellow nav-item-subscribe" title={i18n.t('common:subscribe')}
+        onClick={this.onClickSubscribe}
+      />
+    </div>
+  )
+
+  languageMenu = () => (
+    <div className="nav">
+      <div className="Button-nav nav-item" onClick={() => this.onChangeLng('en')}>English</div>
+      <div className="Button-nav nav-item" onClick={() => this.onChangeLng('ru')}>Russian</div>
+    </div>
+  )
 }
 
 export default withTranslation(withRouter(Header))

@@ -8,6 +8,10 @@
   line-height: 18px;
   padding: 11px 24px;
   border-radius: 8px;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .Button-filter {
@@ -66,6 +70,10 @@
 
 .Button-filter-inactive {
   @apply Button-grey;
+
+  &:hover {
+    background: $yellow-l;
+  }
 }
 
 .dark-mode .Button-filter-inactive {

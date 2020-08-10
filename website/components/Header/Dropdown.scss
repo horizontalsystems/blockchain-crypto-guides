@@ -24,9 +24,10 @@
   }
 }
 
-.dropdown-menu-right {
+.dropdown-menu-center {
   right: 0;
   left: auto;
+  transform: translateX(40%);
 }
 
 .dropdown-item {

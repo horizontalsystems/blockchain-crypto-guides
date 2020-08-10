@@ -5,7 +5,7 @@ import { ReactComponent as UWallet } from './uw.svg'
 export default function Banner() {
   return (
     <div className="Banner-wrap-wallet">
-      <Container className="Container-banner" clipped={false}>
+      <Container className="Container-banner-wallet" clipped={false}>
         <div className="Banner Banner-wallet flex-col md:flex-row">
           <div className="Banner-start">
             <div className="Banner-icon">

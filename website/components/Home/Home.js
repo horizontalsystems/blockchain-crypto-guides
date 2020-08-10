@@ -112,7 +112,7 @@ class Home extends React.Component {
               />
             )}
           </div>
-          <div className="grid gap-5 grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+          <div className="Guides grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
             {items.map((item, i) =>
               <Link key={i} href="[lang]/guide/[...slug]" as={`/guide/${item.slug}`}>
                 <a><Card title={item.title} date={item.date} image={item.image} /></a>
