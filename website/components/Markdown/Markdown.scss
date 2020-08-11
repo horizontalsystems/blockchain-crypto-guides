@@ -65,11 +65,13 @@
 }
 
 .Markdown-side-content {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   position: sticky;
-  top: $header-height;
+  top: $header-height+36px;
 
   @include sm {
+    box-shadow: none;
     border-radius: 0;
   }
 }
@@ -90,11 +92,20 @@
   top: 80px;
 }
 
+.Markdown-side-head {
+  flex: 1;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
 .Markdown-side-title {
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  padding: 22px 32px;
+  padding: 16px 32px;
+  min-height: 50px;
+  max-height: 72px;
   color: $yellow-l;
   display: flex;
   justify-content: space-between;
@@ -106,11 +117,23 @@
   align-items: center;
   border: 1px solid $yellow-l;
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .Markdown-title-icon {
-  margin: 10px 12px;
+  padding: 10px 12px;
   cursor: pointer;
+  height: 36px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background: $yellow-l;
+
+    path {
+      fill: white;
+    }
+  }
 }
 
 .Markdown-title-divider {
@@ -126,8 +149,13 @@
 }
 
 .Markdown-menu {
+  max-height: 300px;
+  overflow: auto;
+
   @include sm {
     display: none;
+    position: absolute;
+    width: 100%;
   }
 }
 
@@ -151,19 +179,28 @@
   font-size: 16px;
   line-height: 22px;
 
-  a.current {
-    text-decoration: underline;
+  a {
+    color: $grey;
+    padding: 12px 0;
   }
 }
 
-.light-mode .Markdown-menu-item {
-  border-bottom: 1px solid #DBDAE0;
+.light-mode .Markdown-menu-item,
+.light-mode .Markdown-menu-bordered {
+  border-bottom: 1px solid #E1E1E5;
+
+  a:hover,
+  a.current {
+    color: $darkest;
+  }
 }
 
-.dark-mode .Markdown-menu-item {
-  border-bottom: 1px solid #37393C;
-}
+.dark-mode .Markdown-menu-item,
+.dark-mode .Markdown-menu-bordered {
+  border-bottom: 1px solid #37393B;
 
-.Markdown-menu-bordered {
-  border-bottom: 1px solid #DBDAE0;
+  a:hover,
+  a.current {
+    color: $grey-light;
+  }
 }

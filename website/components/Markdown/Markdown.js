@@ -127,7 +127,7 @@ class Markdown extends React.Component {
     const sidebar = (
       <div className="Markdown-side-content">
         <div className="Markdown-side-title Markdown-menu-bordered">
-          <div className="cursor-pointer" onClick={() => this.onClickToggle()}>Contents</div>
+          <div className="Markdown-side-head cursor-pointer" onClick={() => this.onClickToggle()}>Contents</div>
           <div className="Markdown-title-action">
             <div className="Markdown-title-icon"
                  onClick={() => this.onChangeTexSize(Math.min(fontSize + 1, fontSizeMax))}>
