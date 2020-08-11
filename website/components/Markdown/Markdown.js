@@ -7,6 +7,7 @@ import Icon from '../Icon'
 
 class Markdown extends React.Component {
   state = {
+    scrolled: 0,
     fontSize: 16,
     lineHeight: 22,
     fontSizeMax: 24,
@@ -14,7 +15,7 @@ class Markdown extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', throttle(this.handleScroll, 100));
+    window.addEventListener('scroll', this.scrollProgress);
 
     this.mainNavLinks = document.querySelectorAll('.Markdown-menu a');
   }
@@ -23,7 +24,20 @@ class Markdown extends React.Component {
     window.removeEventListener('scroll', this.handleScroll);
   }
 
-  handleScroll = () => {
+  scrollProgress = () => {
+    const doc = document.documentElement
+    const scrollPx = doc.scrollTop;
+    const winHeightPx = doc.scrollHeight - doc.clientHeight;
+    const scrolled = `${scrollPx / winHeightPx * 100}%`;
+
+    this.setState({
+      scrolled: scrolled
+    });
+
+    this.handleScroll()
+  }
+
+  handleScroll = throttle(() => {
     const fromTop = window.scrollY;
     const actives = []
 
@@ -45,7 +59,7 @@ class Markdown extends React.Component {
         link.classList.remove('current');
       }
     })
-  }
+  }, 100)
 
   mapMenu(headings) {
     const slugger = new GithubSlugger()
@@ -120,11 +134,8 @@ class Markdown extends React.Component {
     })
   }
 
-  render() {
-    const { fontSize, fontSizeMax, fontSizeMin, lineHeight } = this.state
-    const { guide } = this.props
-
-    const sidebar = (
+  sidebar({ fontSize, fontSizeMax, fontSizeMin }) {
+    return (
       <div className="Markdown-side-content">
         <div className="Markdown-side-title Markdown-menu-bordered">
           <div className="Markdown-side-head cursor-pointer" onClick={() => this.onClickToggle()}>Contents</div>
@@ -141,30 +152,41 @@ class Markdown extends React.Component {
           </div>
         </div>
         <div className="Markdown-menu">
-          {this.mapMenu(guide.headings)}
+          {this.mapMenu(this.props.guide.headings)}
         </div>
-        <div className="Markdown-side-title Markdown-side-bottom">
-        </div>
+        <div className="Markdown-side-title Markdown-side-bottom" />
       </div>
     )
+  }
+
+  render() {
+    const { scrolled, fontSize, lineHeight } = this.state
+    const { guide } = this.props
 
     return (
       <Container className="Markdown-container" clipped={false}>
-        <div className="md:w-3/4 sm:w-full">
-          <div className="Markdown-banner">
-            <BannerGuide title={guide.title} image={guide.image} type={guide.type} />
-          </div>
-          <div className="md:w-1/4 sm:w-full Markdown-section Markdown-side-fixed sm-show md-hidden">
-            {sidebar}
-          </div>
-          <div
-            className="Markdown-section Markdown-content"
-            style={{ fontSize, lineHeight: `${lineHeight}px` }}
-            dangerouslySetInnerHTML={{ __html: guide.content }}
-          />
+        <div className="Progress-container">
+          <div className="Progress-bar" style={{ width: scrolled }} />
         </div>
-        <div className="md:w-1/4 sm:w-full Markdown-section Markdown-side sm-hidden">
-          {sidebar}
+
+        <div className="md:w-3/4 sm:w-full">
+          <div className="md:w-1/4 sm:w-full Markdown-side-fixed sm-show md-hidden">
+            {this.sidebar(this.state)}
+          </div>
+          <div>
+            <div className="Markdown-banner">
+              <BannerGuide title={guide.title} image={guide.image} type={guide.type} />
+            </div>
+
+            <div
+              className="Markdown-content"
+              style={{ fontSize, lineHeight: `${lineHeight}px` }}
+              dangerouslySetInnerHTML={{ __html: guide.content }} />
+          </div>
+
+        </div>
+        <div className="md:w-1/4 sm:w-full Markdown-side sm-hidden">
+          {this.sidebar(this.state)}
         </div>
       </Container>
     )
