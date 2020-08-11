@@ -42,7 +42,7 @@ The hardware wallets usually come in a form of small hardware devices resembling
 
 Without going into technicals, it's enough to know that these devices are widely considered as ones with the highest level of security. The security considerations are built around the idea of making the physical extraction of the private keys impossible, even if the attacker has your wallet device in physical possession.
 
-From usability point of view hardware wallets are somewhat more difficult to use. It's not very difficult for someone familiar with ins and outs of cryptocurrencies but definitely not as easy for those new to the field.
+From usability point of view hardware wallets are somewhat more difficult to use. It's not difficult for someone familiar with ins and outs of cryptocurrencies but definitely not as easy for those new to the field.
 
 Generally speaking, for someone with a large amount of crypto assets ( > $ 50,000) it would be advisable to use the hardware wallet. Or at the very least start exploring these wallets with the intent to move a chunk of their assets to a hardware wallet in the future.
 
@@ -88,6 +88,8 @@ Some of the more popular desktop-based wallets are:
 The classification above was primarily based around the notion of private key security. While it's the most important factor it should not be the only one when choosing the wallet. There are a lot of factors to consider.
 
 For instance, a non-custodial mobile wallet app may potentially be more private than a hardware wallet. Or may have essential features not available in the hardware wallet.
+
+> The privacy aspect has many sides and generally should be taken into account as well. For instance, a hardware wallet may offer a superior security but unintentionally expose customers' personal data. A [recent breach](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) of company selling Ledger hardware wallets is a good example of that.
 
 Keep in mind, you don't need a cartel level security if you're just starting out. The out of the box security on most well-known non-custodial wallet apps is already pretty good.
 
