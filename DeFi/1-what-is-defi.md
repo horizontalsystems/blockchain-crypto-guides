@@ -6,7 +6,7 @@ The aim of this guide is to onboard someone into Decentralized Finance ecosystem
 
 We aim to give you a clear guidance on what that new phenomena is, what makes it special, what kind of products exist, and more importantly how to approach it from an investment point of view.
 
-Decentralized Finance, or DeFi in short, describes a category of financial products which provide financial services but are not controlled by a centralized entity.
+Decentralized Finance, or DeFi in short, describes a category of products which provide financial services but are not controlled by a centralized entity.
 
 > Traditional financial services like deposit accounts, money remittances, stock brokerages etc. are 'centralized'. There is a regulated legal entity that administers user's access to the service and keeps assets on behalf of the user. 
 >
@@ -16,7 +16,7 @@ In general, DeFi services provide users with full control over the assets, and a
 
 DeFi services generally built on top of [Ethereum](/token_guides/ethereum.md) blockchain. Thus, if you're new to Ethereum then it's recommended for you to go over the [Ethereum guide](/token_guides/ethereum.md) first. A good understanding of Ethereum, Smart Contracts and DApps is essential for this section.
 
-These days, there are DeFi services for cryptocurrency lending, borrowing, trading, derivatives, insurance and much more. Other than dealing with cryptocurrency they work similar to traditional finance counterparts.
+Today there are DeFi services for cryptocurrency lending, borrowing, trading, derivatives, insurance and much more. Other than dealing with cryptocurrency and being decentralized they work similar to traditional finance counterparts.
 
 > DeFi is an ecosystem, perhaps even a movement, which aims to create a financial system that’s open to everyone and minimizes one’s need to trust and rely on central authorities.
 
