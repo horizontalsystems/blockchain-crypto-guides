@@ -54,7 +54,7 @@ While some major DeFi services go through extensive theird-party audits not all 
 
 This risk is present in all DeFi products, especially once which are not audited and have a lot of logic encoded into a smart contract.
 
-To give, you a better understanding of what can go wrong, look at some of the biggest [DeFi hacks](https://defirate.com/hacks/) in 2020. While hacks are not uncommon the majority of DeFi protocols remain safe while operating large sums. That said, the possibility of a hack in such young industry is always there. Therefore, keep that in mind and never invest more than you're willing to lose should something go wrong.
+To give you a better understanding of what can go wrong, look at some of the biggest [DeFi hacks](https://defirate.com/hacks/) in 2020. While hacks are not uncommon the majority of DeFi protocols remain safe while operating large sums. That said, the possibility of a hack in such young industry is always there. Therefore, keep that in mind and never invest more than you're willing to lose should something go wrong.
 
 There are some DeFi projects which allow someone to get insured against vulnerabilities in the code powering major DeFi services. One such service is [Nexus Mutual](https://nexusmutual.io). The service allows DeFi user to purchase insurance for various DeFi products and get paid if the product is hacked.
 
@@ -66,7 +66,7 @@ All DeFi related transactions will expose your Ethereum address. While there is 
 
 One simple tip to mitigate this is to use multiple Ethereum wallets: 
 
-- Storage Wallet
+- For Asset Storage
 
     This wallet can be used for [safely storing](/fundamentals/4-safe-storage-basics.md) your Ethereum tokens and assets. It should not be used for transacting with other entities as it will expose you balances to the receiving party.
      
@@ -74,20 +74,35 @@ One simple tip to mitigate this is to use multiple Ethereum wallets:
 
     Setup another wallet for all-purpose transactions. It can be used for transacting with people you know or for paying for services online.
     
-- DeFi transactions
+- For DeFi Transactions
 
     Consider setting up yet another wallet for DeFi transactions. Just like the 'storage wallet' this wallet should be used for transacting with people you know.
 
 ## DeFi Transactions
 
-Unlike [regular transactions](/fundamentals/8-transactions-basics.md) that send Ethereum or Ethereum-based tokens from one address to another, DeFi transactions are typically a lot more expensive.
+Generic [Ethereum transactions](/fundamentals/8-transactions-basics.md) that send Ethereum or Ethereum-based tokens from one address to another are typically a lot cheaper than DeFi transactions.
 
-Typical DeFi transaction (like say exchanging tokens on a DEX) consist of a lot of computational steps which take significantly more computing resources when executed on a blockchain. 
+Generic Transaction:
 
-> DeFi transactions are expensive because the blockchain transaction fees go in parallel with the computational resources needed to execute transaction.
+> SEND x Ethereum (ETH) FROM addressA TO addressB
 
-While sending ETH from one address to another may cost less than a dollar, executing a DeFi transaction can easily cost 10$.
+Generic transactions are cheaper to execute as they consume minimum computational resources.
+    
+Generic DeFi Transaction:
 
-This problem may no longer be relevant when Ethereum blockchain expands its capacity so that it can handle more transactions. Until then DeFi transactions costs are leikly to keep increasing, especially as the DeFi services attract more and mroe people.
+> 1. SEND X Ethereum (ETH) FROM addressC TO a smart contract belonging to a Uniswap DEX.
+> 2. Convert ETH to some USDC stablecoin.
+> 3. Send USDC stablecoins to Curve.fi DEX
+> 4. Convert USDC on Curve.fi to USDT stablecoin
+> 5. Send USDT to Kyber Netwrok DEX
+> 6. Convert USDT to Ethereum on Kyber DEX
+
+Typical DeFi transaction (like the one above) can consist of a lot of computational steps which take significantly more computing resources when executed on a blockchain. therefore, DeFi transactions are costly.
+
+> DeFi transactions are expensive because the blockchain transaction fees go in parallel with the computational and other blockchain resources (i.e. size of transaction) needed to execute a transaction.
+
+While sending ETH from one address to another may cost less than a dollar, executing a DeFi transaction involving can sometimes cost 1000$. It goes without saying that such transaction operate with large sums so paying such fees usually is not an issue. We will look at such transactions in the upcoming section about [earning on DeFi](/DeFi/4-making-money-defi.md).
+
+The high fee issue may no longer be relevant when Ethereum blockchain expands its capacity to be able to handle more transactions. Until then DeFi transactions costs are likely to keep increasing, especially as DeFi ecosystem and services attract more and more people.
 
 So, keeping in mind above, it makes more sense to use DeFi for transacting with larger sums. A DeFi transactions involving 20$ worth of funds may require a fee equivalent to the half of the amount. Paying a 10$ fee for a transaction that involves $5000 worth of cryptocurrency may be acceptable.
