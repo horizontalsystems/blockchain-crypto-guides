@@ -1,4 +1,4 @@
-# DeFi Apps
+# DeFi Services
 
 In just a few years DeFi ecosystem managed to grow from zero to a state where decentralized financial services manage cryptocurrency measured in billions USD. 
 
