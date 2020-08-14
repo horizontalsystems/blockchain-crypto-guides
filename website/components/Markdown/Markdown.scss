@@ -30,15 +30,9 @@
   background: $yellow-l;
 }
 
-.Markdown-content {
-  margin-right: 24px;
-  font-size: 16px;
-  line-height: 22px;
-  padding: 12px 24px; // 36px - 24px from paragraph
-
-  @include md {
-    padding: 18px 88px; // 42px - 24px from paragraph
-    margin-bottom: 58px;
+.Markdown {
+  @include sm {
+    border-radius: 0
   }
 
   p, ul, ol, blockquote {
@@ -54,6 +48,39 @@
   }
 }
 
+.Markdown-content {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 36px;
+  margin-right: 24px;
+  padding-bottom: 12px;
+  border-radius: 16px;
+  overflow: hidden;
+
+  > * {
+    padding: 0 24px;
+  }
+
+  > img {
+    padding: 0;
+    width: 100%;
+  }
+
+  @include md {
+    padding-bottom: 18px;
+    margin-bottom: 58px;
+
+    > * {
+      padding: 0 88px;
+    }
+
+    img {
+      padding: 0;
+    }
+  }
+}
+
+
 .Markdown-banner {
   margin-top: 36px;
   margin-right: 24px;
@@ -63,13 +90,6 @@
   }
 }
 
-.Markdown-content {
-  border-radius: 0 0 16px 16px;
-
-  @include sm {
-    border-radius: 0
-  }
-}
 
 .Markdown-banner, .Markdown-content, .Markdown-side {
   @include sm {
@@ -83,6 +103,7 @@
   border-radius: 16px;
   position: sticky;
   top: $header-height+36px;
+  margin-bottom: 58px;
 
   @include sm {
     box-shadow: none;

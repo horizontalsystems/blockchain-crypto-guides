@@ -1,6 +1,6 @@
 @import "../../pages/styles/utils";
 
-.Contact-form, .Contact-success {
+.Modal-form, .Contact-success {
   margin: auto;
   background: #FFFFFF;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
@@ -79,7 +79,7 @@ input, textarea, .btn {
 }
 
 input, textarea {
-  border: 1px solid $grey-light;
+  border: 1px solid #37393B;
   padding: 15px 24px !important;
   background: black;
   width: 100%;

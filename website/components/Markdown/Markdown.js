@@ -2,7 +2,6 @@ import React from 'react'
 import GithubSlugger from 'github-slugger'
 import throttle from 'lodash.throttle'
 import Container from '../Container'
-import BannerGuide from '../Banner/BannerGuide'
 import Icon from '../Icon'
 
 class Markdown extends React.Component {
@@ -173,11 +172,7 @@ class Markdown extends React.Component {
           <div className="md:w-1/4 sm:w-full Markdown-side-fixed sm-show md-hidden">
             {this.sidebar(this.state)}
           </div>
-          <div>
-            <div className="Markdown-banner">
-              <BannerGuide title={guide.title} image={guide.image} type={guide.type} />
-            </div>
-
+          <div className="Markdown">
             <div
               className="Markdown-content"
               style={{ fontSize, lineHeight: `${lineHeight}px` }}

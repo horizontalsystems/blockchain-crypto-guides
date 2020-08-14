@@ -16,7 +16,7 @@ class SubscribeFormModal extends React.Component {
 
     return (
       <div id={`mlb2-${formId}`} className={className} ref={e => (this.div = e)}>
-        <form className="Contact-form" action={action} data-code={formCode} method="post">
+        <form className="Contact-form Modal-form" action={action} data-code={formCode} method="post">
           <div className="close-form">
             <span className="close" onClick={onClose}>&times;</span>
           </div>

@@ -16,7 +16,7 @@ class SubscribeForm extends React.Component {
 
     return (
       <div id={`mlb2-${formId}`} className={className} ref={e => (this.div = e)}>
-        <form action={action} data-code={formCode} method="post">
+        <form className="Contact-form Bottom-form" action={action} data-code={formCode} method="post">
           <input type="hidden" name="ml-submit" value="1" />
 
           <div className="Contact-form-group">

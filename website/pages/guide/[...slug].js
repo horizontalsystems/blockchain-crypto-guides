@@ -2,6 +2,7 @@ import remark from 'remark'
 import html from 'remark-html'
 import slug from 'remark-slug'
 import autolink from 'remark-autolink-headings'
+import flattenImageParagraphs from 'mdast-flatten-image-paragraphs'
 import Guide from '../../components/Guide'
 import getAllGuides, { getGuideBySlug } from '../../api/guides-api'
 
@@ -11,6 +12,7 @@ export async function parse(markdown) {
   const processor = remark()
     .use(slug)
     .use(autolink)
+    .use(flattenImageParagraphs)
     .use(html)
 
   const result = await processor.process(markdown)
