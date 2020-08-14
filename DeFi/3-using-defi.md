@@ -2,9 +2,11 @@
 
 The only requirements for someone to start engaging with most DeFi services are the working internet and some amount in cryptocurrency. 
 
-When it comes to DeFi there are no age, experience, geographical or any other requirements. DeFi services are open to all, at any time.
+When it comes to DeFi there are no age, experience, geographical or any other conditions. DeFi services are open to all, at any time.
 
-## Getting Ready
+However, there are some caveats. DeFi is a far riskier place to park money. Should something go wrong with the service, there’s no insurance (i.e. Federal Deposit Insurance Corporation) protecting these funds.
+
+## Get Started
 
 Let's go over tools and know-how needed to get you started on a practical level.
 
@@ -42,7 +44,7 @@ To Setup Metamask:
 
 Metamask is not the only wallet that you can use for DeFi, but it's by far the most popular one.
 
-## DeFi Security & Risks
+## DeFi Risks
 
 Majority of DeFi services operate in non-custodial manner where user communicates directly with the smart contracts that control the service. The user always remain in control of the funds and can withdraw funds from the service at any time without relying on intermediary, or an entity that built the DeFi service.
 
