@@ -113,7 +113,7 @@ The minimum security requirements for using any non-custodial wallet app should 
 
 While your crypto remains relatively small (ex: < $10,000) stick to standard security measures. As the capital grows gradually become more demanding by introducing additional security measures like splitting the capital into multiple wallets.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-03-l.png) 
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-03-l.png)
 
 For instance, someone may start with a single wallet with an initial crypto capital valued at $10,000. As the value of the capital grows the user may move to a tiered approach as below.
 
@@ -128,6 +128,8 @@ For instance, someone may start with a single wallet with an initial crypto capi
 - **Cold Storage Wallet**
 
     Hardware wallet that holds crypto meant for long term storage without the need for regular access.
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-04-l.png)
     
 Those making their way into cryptocurrency for the first time are likely to find mobile-based wallets easier to use.
 

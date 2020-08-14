@@ -73,7 +73,7 @@ Now let's try to understand the basic nature of cryptocurrency.
 
 Cryptocurrencies are units of something on a blockchain. Depending on the characteristics of underlying blockchain one cryptocurrency may vary from another.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-04-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-03-l.png)
 
 **For instance:**
 

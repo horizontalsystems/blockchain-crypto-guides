@@ -90,7 +90,7 @@ Lastly, there are some vital considerations to keep in mind when it comes to tra
 
 Transactions on most blockchains stored openly. Anyone can see when the transaction took place, the amounts involved, and the sender receiver addresses. While a third party can see the addresses involved there is no connection to a real world identity.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/08-03-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/08-02-l.png)
 
 While some privacy focused cryptocurrencies (i.e. Monero) do not reveal any information about the transaction, for the most cryptocurrencies incl. Bitcoin and Ethereum blockchains store transaction data openly.
 
