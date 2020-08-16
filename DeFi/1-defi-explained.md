@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/010-main-l.png)
 
-# What Is DeFi
+# DeFi Explained
 
 The aim of this guide is to onboard someone into Decentralized Finance ecosystem as quickly as possible without going into technicals.
 
@@ -89,3 +89,9 @@ To give you a better understanding of the DeFi development process let's outline
     As mentioned above, the entities working on DeFi projects raise funds through an ICO or alike token sale. The ownership of the token usually enables its owner to become a beneficiary of the DeFi project.
     
     There are a number of DeFi projects which are currently governed by a geographically-distributed entities which may not even know each other. The governance usually takes place via proposals and voting mechanisms.
+
+## Size Of DeFi
+
+// amount of funds locked
+// market caps
+// trading volumes for DeFi
