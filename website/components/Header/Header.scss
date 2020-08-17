@@ -6,7 +6,7 @@
   top: 0;
   height: $header-sm;
   width: 100%;
-  z-index: 2;
+  z-index: 4;
   background: $white;
   display: flex;
   align-items: center;
@@ -23,10 +23,6 @@
 .Header-logo {
   width: 100%;
   cursor: pointer;
-
-  @include sm {
-    width: 70%;
-  }
 }
 
 .light-mode .HeaderLogo_svg__brand {
@@ -138,7 +134,7 @@
 }
 
 .Menu-wrap {
-  z-index: 2;
+  z-index: 5;
   display: none;
   cursor: pointer;
 
