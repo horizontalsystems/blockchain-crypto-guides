@@ -1,23 +1,39 @@
-# Decentralized Exchanges Explained
+# Decentralized Exchanges
 
-While there are a number of major [cryptocurrency exchanges](/fundamentals/6-buying-cryptocurrency-basics.md) exists today pretty much all of them are centralized. Centralized exchanges provide ways to buy/sell cryptocurrency with/for fiat currency like USD, EUR etc. 
+While there are a number of major [cryptocurrency exchanges](/fundamentals/6-buying-cryptocurrency-basics.md) exists today pretty much all of them are centralized. 
 
-Centralized exchanges:
+In simple terms, centralized exchanges provide a platform where people can buy/sell cryptocurrency with/for fiat currency like USD, EUR etc. 
+
+Centralized exchanges typically have following attributes:
  
-- support buying/selling a wide range of cryptocurrencies for fiat
+- support a wide range of cryptocurrencies
 - have high liquidity for major trading pairs i.e. BTC/USD
-- require every user to go through identity verification and KYC/AML checks. 
-- available in some countries.
+- allow deposits/withdrawals for fiat currencies i.e. US Dollar.
+- allow deposits/withdrawals of cryptocurrencies
+- require users to go through identity verification and KYC/AML checks.
+- hosted on some centralized servers and can go offline
 
-The decentralized exchanges began to emerge fairly recently as the Ethereum ecosystem started to mature. There are already some decentralized exchanges which average over 100 million worth of USD in trading volume over 24-hour period.
+- available in certain countries
 
-Unlike the centralized counterparts, decentralized exchange (aka DEX) enables cryptocurrency trading without any limitations or requirements. There are no limitations on the amount the user can trade on decentralized exchange.
+The decentralized exchanges(or DEXes) began to emerge fairly recently as the Ethereum ecosystem began to attract more and more engineers. 
+
+In just about 2-3 years we have seen a number of decentralized exchanges emerge. At this point, there are already DEXes that average over 100 million worth of USD in trading volume over 24-hour period.
+
+Unlike the centralized counterparts, DEX enables cryptocurrency trading without any limitations or requirements. 
 
 > Anyone with some cryptocurrency can trade on a decentralized exchange without the need to go through identity checks or account verification procedures. 
 >
-> DEXes operate solely with cryptocurrency (mainly ETH and Ethereum based tokens) without any means to use the fiat currency. 
+> DEXes operate solely with cryptocurrency (mainly ETH and Ethereum based tokens) usually without any means to use the fiat currency. 
 
-When trading on DEX the cryptocurrency exchange occurs without having to rely on the exchange operator which acts as intermediary between buyer and seller. The trades are governed by smart contracts which cannot do anything outside the standard feature set. 
+When trading on DEX the exchange occurs without having to rely on the exchange operator which acts as intermediary between the buyer and seller. The trades are usually governed by smart contracts which cannot do anything outside the standard feature set. 
+
+
+
+
+
+
+
+
 
 Automated Market Makers (AMMs) use algorithmic “Money Robots” to mimic these price actions within electronic markets like DeFi. 
 While different designs of Decentralized Exchanges exist, AMM-based DEXs have consistently achieved the most liquidity and the highest amount of average daily trading volume.
@@ -52,16 +68,25 @@ Some of the currently popular decentralized exchanges are:
     Similar effects hold across DeFi, so markets want more liquidity. Uniswap solves this by charging a tiny fee on every trade. It does this by shaving off a little bit from each trade and leaving that in the pool (so one DAI would actually trade for 0.997 USDC, after the fee, growing the overall pool by 0.003 USDC). This benefits liquidity providers because when someone puts liquidity in the pool they own a share of the pool. If there has been lots of trading in that pool, it has earned a lot of fees, and the value of each share will grow.
     
     Liquidity added to Uniswap is represented by a token, not an account. So there’s no ledger saying, “Bob owns 0.000000678% of the DAI/USDC pool.” Bob just has a token in his wallet. And Bob doesn’t have to keep that token. He could sell it. Or use it in another product. We’ll circle back to this, but it helps to explain why people like to talk about DeFi products as “money Legos.”
+    
+    Note the instance of fake coins being listed on Uniswap.
+    
 - [Curve Finance](https://curve.fi)
 
     Curve is a decentralized, UniSwap-like exchange but built specifically for stablecoins. Curve selling point comes from the fact that it's trading algorithm can provide better rates when buying or selling large amount of cryptocurrency stablecoins.
 
 - [Balancer](https://balancer.exchange/#/swap)
 
+Balancer, an AMM that allows users to set up self-rebalancing crypto index funds.
+
 
 - Kyber
 
 - Bancor
+
+- dYdX
+
+https://www.reddit.com/r/btc/comments/gj21cg/dydxs_btc_perpetual_market_is_live/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
 
 Bancor V2 takes this a step further by enabling liquidity providers to maintain exposure to a single token, removing the two-sided liquidity deposit requirement. By pegging liquidity reserves via Chainlink oracles, users can maintain exposure to any token in the AMM ranging from 100% exposure to any ERC20 token, 100% exposure to BNT, or any distribution between the two. This is ideal for cryptocurrency investors wanting to keep full exposure to their preferred assets, especially when combined with mitigation of impermanent loss. This is likely to attract token teams and investment funds wanting to provide low risk liquidity on an AMM without needing to purchase additional reserves.
 
