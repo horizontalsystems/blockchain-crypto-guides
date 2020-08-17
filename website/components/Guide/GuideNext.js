@@ -1,6 +1,7 @@
 import Link from 'next-translate/Link'
 import Container from '../Container'
 import Card from '../Card'
+import Slider from '../Slider/Slider'
 
 export default function GuideNext({ list }) {
   if (!list || !list.length) {
@@ -14,15 +15,15 @@ export default function GuideNext({ list }) {
           <div className="Guide-next-title">
             Next Guides
           </div>
-          <div className="grid gap-5 grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+          <Slider slidesToScroll={4} slidesToShow={4}>
             {list.map((item, i) =>
               <Link key={i} href="/[lang]/guide/[...slug]" as={`/guide/${item.slug}`}>
-                <a className={i === 0 ? '' : 'sm-hidden'}>
+                <a className="Guide-next-card">
                   <Card title={item.title} date={item.date} image={item.image} />
                 </a>
               </Link>
             )}
-          </div>
+          </Slider>
         </div>
       </Container>
     </div>
