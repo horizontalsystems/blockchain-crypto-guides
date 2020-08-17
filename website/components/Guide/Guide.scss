@@ -6,7 +6,23 @@
 }
 
 .Guides-filter {
-  padding: 58px 0;
+  width: 100vw;
+  margin: 36px - 24px -5px;
+  padding: 24px 5px;
+  display: flex;
+  overflow-y: auto;
+  position: sticky;
+  top: $header-sm - 1px;
+  background: $light-steal;
+
+  @include md {
+    top: $header-height - 1px;
+    margin: 58px - 24px -5px;
+  }
+}
+
+.dark-mode .Guides-filter {
+  background: $black;
 }
 
 .Guides-pagination {
