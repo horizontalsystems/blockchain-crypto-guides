@@ -44,7 +44,7 @@ Unlike their traditional 'centralized' counterparts, DeFi services usually (not 
     
 - Censorship Resistant
 
-    The service is online and accessible 24/7 from anywhere in the world. Thousands of nodes powering the blockchain ensure constant availability and access to the service.
+    The service is online and accessible 24/7 from anywhere in the world. Thousands of nodes powering the blockchain ensure constant availability and access to the service. Censoring such network is extremely difficult.
 
 - Non-Custodial
 
@@ -70,7 +70,7 @@ To be considered a 'DeFi' service, a DApp has to exhibit one or more decentraliz
 
 > Generally, it's expected for a service to ensure that users always maintain unconditional control over the assets on the platform.
 
-For instance, someone may build a service on Ethereum blockchain that has a special admin level account that can freeze other users' funds on the service. Such services may have some DeFi properties but cannot be really called DeFi.
+For instance, someone may build a service on Ethereum blockchain that has a special admin level account that can freeze other users' funds on the service. Such services may have some DeFi properties but cannot be really classified as DeFi service.
     
 ## DeFi History
 
@@ -120,6 +120,12 @@ To give you a better understanding of the DeFi development process let's outline
 
 ## Size Of DeFi
 
-// amount of funds locked
-// market caps
-// trading volumes for DeFi
+Decentralized finance is still a small but fast-growing industry:
+
+- The total amount of value locked in smart contracts powering DeFi services broke [$4B threshold](https://news.bitcoin.com/total-value-locked-in-defi-surpasses-4-billion-eth-up-over-70-last-30-days/) in August 2020
+
+- While $4B may seem like a large amount of money to an individual, it’s only a tiny fraction of the amount locked in centralized counterparts which measured in trillions.
+
+- In Aug 2020, top cryptocurrency projects been valued at about $250-300B total, where top DeFi services accounted for less than 10% of that. The page [here](https://defimarketcap.io) lists top DeFi services by market cap. 
+
+While we can’t necessarily expect DeFi to retain that level of growth, there’s a strong momentum as more and more people grow interested in digital assets and new ways to engage with financial markets.
