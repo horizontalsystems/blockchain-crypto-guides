@@ -1,10 +1,15 @@
 @import "../../pages/styles/utils";
 
 .Card {
+  background: $light;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   overflow: hidden;
   height: 100%;
+}
+
+.dark-mode .Card {
+  background: $dark-soft;
 }
 
 .Card-image {
