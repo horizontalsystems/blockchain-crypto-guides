@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from '../Icon'
+import Done from '../Icon/done.svg'
 
 class SubscribeForm extends React.Component {
   componentDidMount() {
@@ -32,8 +32,8 @@ class SubscribeForm extends React.Component {
           </label>
         </form>
 
-        <div className="Contact-success">
-          <p>Done! Check your email.</p>
+        <div className="Contact-success Contact-success-footer">
+          <img className="Contact-success-img" src={Done} alt="Done" /> Done! Check your email.
         </div>
       </div>
     )

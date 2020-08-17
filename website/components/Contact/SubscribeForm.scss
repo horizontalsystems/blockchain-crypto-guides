@@ -65,6 +65,20 @@
   }
 }
 
+.Contact-success-footer {
+  background: $dark;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+}
+
+.Contact-success-img {
+  width: 16px;
+  margin-top: 3px;
+  margin-right: 12px;
+  float: left;
+}
+
 input, textarea, .btn {
   box-sizing: border-box;
   border: none;
