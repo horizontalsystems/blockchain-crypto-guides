@@ -8,11 +8,23 @@ We aim to give you a clear guidance on what that new phenomena is, what makes it
 
 Decentralized Finance, or DeFi in short, describes a category of products which provide financial services but are not controlled by a centralized entity.
 
-> Traditional financial services like deposit accounts, money remittances, stock brokerages etc. are 'centralized'. There is a regulated legal entity that administers user's access to the service and keeps assets on behalf of the user. 
->
-> In DeFi, the same type of services are (generally) not governed by a centralized entity, not regulated, and operate autonomously without the need to be administered by a human.
+> Traditional financial services like deposit accounts, money remittances, stock brokerages etc. are 'centralized'. There is a regulated legal entity that administers user's access to the service and keeps assets on behalf of the user.
 
-In general, DeFi services provide users with full control over the assets, and accessible to anyone worldwide, 24/7. DeFi services operate with cryptocurrency, usually Ethereum or some other Ethereum-based tokens.
+- Banks place minimum account balances, withdrawal caps and transfer limits on savings account.
+
+- Credit card issuers can cancel your card and service if they see any activity they deem suspicious. 
+
+- Both banks and credit cards providers can freeze accounts for no apparent reason.
+
+- Offshore banks may seize uninsured savings in times of economic uncertainty.
+
+- Investment opportunities are often conditional and exclude most but the wealthiest members of society.
+
+In DeFi, the same type of services are (generally) not governed by a centralized entity, not regulated, and operate autonomously without the need to be administered by a human.
+
+In general, DeFi services provide its users with full control over the assets, and accessible to anyone worldwide, 24/7. DeFi services operate with cryptocurrency, usually Ethereum or some other Ethereum-based tokens.
+
+The majority of DeFi services take the form of decentralized apps, more commonly known as DApps.
 
 DeFi services generally built on top of [Ethereum](/token_guides/ethereum.md) blockchain. Thus, if you're new to Ethereum then it's recommended for you to go over the [Ethereum guide](/token_guides/ethereum.md) first. A good understanding of Ethereum, Smart Contracts and DApps is essential for this section.
 
@@ -26,7 +38,7 @@ Technologies like the internet, cryptography, and blockchain provided means to b
 
 Unlike their traditional 'centralized' counterparts, DeFi services usually (not always) built around following principles:
 
-- Open Participation
+- Open / Unconditional
 
     Anyone worldwide with an internet connection and some cryptocurrency can access and interact with the financial service regardless of location, age, experience, status etc. 
     
@@ -41,8 +53,24 @@ Unlike their traditional 'centralized' counterparts, DeFi services usually (not 
 - Trustless
 
     DeFi services are public and have an open code. The service cannot do anything outside the scope of the pre-programmed rules. It cannot cheat, steal or misuse funds. Anyone can lookup the code powering DeFi service and verify that it works exactly as it claims to.
-    
+
+- Governed by Community
+
+    DeFi services are generally governed by a distributed group of entities where each entity has a vote weight proportional to their holdings of the governance token.
+
 Keeping above in mind, the goal of DeFi is to reconstruct the financial system for the whole world by building open and decentralized alternatives.
+
+While most DeFi projects are label themselves as 'decentralized' the degree of decentralization will vary from one service to another, depending on how the project is built. 
+
+There are a number of DeFi services built on Ethereum which label itself as decentralized but at the same time operate and governed like a centralized service. A project may score high on some points and rank poorly on other.
+
+> There are currently no 100% decentralized financial platforms on the market.
+
+To be considered a 'DeFi' service, a DApp has to exhibit one or more decentralized characteristics, and has to operate in a spirit of decentralization.
+
+> Generally, it's expected for a service to ensure that users always maintain unconditional control over the assets on the platform.
+
+For instance, someone may build a service on Ethereum blockchain that has a special admin level account that can freeze other users' funds on the service. Such services may have some DeFi properties but cannot be really called DeFi.
     
 ## DeFi History
 
@@ -62,7 +90,7 @@ Being a disruptive technology, the upside potential of the industry is extremely
 
 ## Building DeFi
 
-The DeFi been growing extremely fast. There are currently a lot of well-financed startups, entrepreneurs, finance people working in DeFi ecosystem. It's difficult to stay on top even for someone involved in the industry on a full-time basis.
+The DeFi been growing extremely fast. There are currently a lot of well-financed startups, entrepreneurs, and finance people working in DeFi ecosystem. It's difficult to stay on top even for someone involved in the industry on a full-time basis.
  
 In essence, DeFi services consist of smart contracts that outline the operational logic of the service. Once that smart contract coded by engineers and added to the Ethereum blockchain it becomes public, permanent and accessible to all.
 
