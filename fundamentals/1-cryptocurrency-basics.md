@@ -85,7 +85,9 @@ Some blockchains like Ethereum enable ways to create your own 'units of somethin
 
 Tokens make up 80-90% of [all cryptocurrencies](https://coinmarketcap.com) out there. The Ethereum blockchain is usually a preferred blockchain platform for creating cryptocurrency tokens.
 
-### How Cryptocurrencies Grow
+In a technical sense, the word 'token' should be used to refer to those cryptocurrencies which are built on top of an existing blockchain, rather than having their own unique blockchain. A cryptocurrency token can take many forms depending on its use cases.
+
+## How Cryptocurrencies Grow
 
 Many people wonder why there are so many cryptocurrencies out there and why some are more popular or expensive than others.
 
