@@ -30,6 +30,17 @@ The basic strategy here is to learn how to find and evaluate promising DeFi proj
 
 > Finding good, reliable, decentralized projects that can deliver requires a lot of research and a fairly solid understanding of the ecosystem.
 
+The most important skill you can develop for engaging with DeFi is due diligence. Once you know how to research platforms and projects, you’ll be able to protect yourself from scams and embarrassing mistakes. 
+
+Here are a few tips on how to research DeFi projects for investment purposes:
+
+- Familiarize yourself with fundamentals of storing and using cryptocurrencies.
+- Get familiar with how DeFi services operate.
+- Make sure you understand what you are buying and what the risks are.
+- Look for well-respected sources before making any financial decisions.
+- Be wary of anything that make promises that seem 'too good to be true'.
+- Don't ever invest more than you can afford to lose!
+
 Keep in mind that over the long run majority of DeFi projects are going to fail. Moreover, there are a lot of scam projects built for the sole purpose of tricking people in buying a token which represents no value and cannot be used for anything.
 
 ## 2. Trading DeFi
@@ -76,9 +87,9 @@ This 'yield farming' concept enabled cryptocurrency investors to earn passive in
 
 Common methods:
 
-- DEX Liquidity Pools
+- Liquidity Pools
 
-    Decentralized exchanges require liquidity to be usable. In other words, when someone wants to buy a cryptocurrency on a decentralized exchange (DEX) there should be someone online willing to sell it.
+    Decentralized exchanges and other public facing DeFi services require liquidity to be usable. In other words, when someone wants to buy a cryptocurrency on a decentralized exchange (DEX) there should be someone online willing to sell it.
     
     To solve liquidity problems DEXes incentivize cryptocurrency owners to enroll as liquidity providers via liquidity pools. Users looking for passive income pay potentially deposit some amount of crypto assets into a smart contract which uses these funds to serve buy/sell orders originating from DEX. Liquidity providers earn resulting trading fees.
 
@@ -90,19 +101,34 @@ Common methods:
 
     There are a number of major DeFi services which facilitate cryptocurrency lending and borrowing services in non-custodial manner.
     
-    Those with crypto assets can lend their assets to a DeFi service (smart contract) at specific interest rates. At the same time these services allow others to borrow cryptocurrency from a smart contract at higher rates. 
+    Those with crypto assets can lend their assets to a DeFi service (smart contract) at given interest rates. At the same time these services allow others to borrow cryptocurrency at higher rates. 
     
     Practically speaking, someone can potentially borrow crypto assets from one service and then invest them in some profitable liquidity pool. The user can then make a profit given that earnings from the liquidity pool outweighs the cost of borrowing.
     
-    In one of the coming sections we are looking in depth at major [DeFi lending pools](/DeFi/7-lending-borrowing.md).
+    In the coming sections we are looking in depth at major [DeFi lending pools](/DeFi/7-lending-borrowing.md).
 
+## 4. Other
 
+The classification above mean to provide a basic overview of the type of DeFi services that currently exist. As DeFi continues to grow expect to see more creative ways to put your crypto assets to work.
 
+While the categories above account for most DeFi services, there are also those which do not belong to any. Let's go over some of those service below:
+    
+- Prediction Markets
 
+    Prediction markets allow users to bet on sports, economics, world events and more. One of the most popular DeFi services in that category is [Augur](https://augur.net).
+    
+- Flash Loans
+    
+    There are smart contracts which can lend users large amounts without collateral, provided they pay back the loan within the same transaction (i.e. immediately). 
+        
+    Someone may ask, why take out a loan if you have to pay it back immediately? There are a few legitimate applications for flash loans i.e. refinancing crypto loans, or for arbitrage opportunities on a decentralized exchange.
+        
+The concept of flash loans is fairly advanced to grasp and therefore no worries if you don't understand it yet. We will go over some real life examples in later section.
+    
+> It should be noted that DeFi services are inter-operable. For instance, a person may borrow some money on one DeFi service, then pass the money to another service for something else, then to another and another. 
+>
+> The aim is to end up with more funds at the end of the transaction, repay the borrowed loan at the very end of the transaction and earn some profit as a result. All of that in a single transaction.
 
+This interoperability enabled more experienced and technical users utilize DeFi services as lego building blocks and create complex transactions which go far beyond the standard 'transfer X tokens FROM address1 TO address2'. 
 
-## Other
-
-- flashloans
-- lego blocks >> experimenting with DeFi products
-- prediction markets
+It's fine if that concept appears somewhat unclear to you at this point. You don't need to understand that at this point.
