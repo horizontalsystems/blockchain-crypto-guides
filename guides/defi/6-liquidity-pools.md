@@ -50,7 +50,7 @@ As demonstrated below the steps are fairly straightforward:
 5. Anyone buying/selling ETH for DAI on Uniswap pays a 0.3% trading fee which goes to the liquidity providers.
 6. User can withdraw deposited funds at any time and claim a portion of the trading fees generated as a result of each trade.
 
-For an in-depth and simple overview of how liquidity pools work, the differences between popular pools and expected profits explained in a standalone section dedicated to [liquidity pools](/DeFi/6-liquidity-pools.md). Meanwhile, think of them as automated instruments that pay you for utilizing your cryptocurrency.
+For an in-depth and simple overview of how liquidity pools work, the differences between popular pools and expected profits explained in a standalone section dedicated to [liquidity pools](/guides/defies/defi/6-liquidity-pools.md). Meanwhile, think of them as automated instruments that pay you for utilizing your cryptocurrency.
 
 ## Curve Liquidity Pools
 

@@ -38,7 +38,7 @@ Copyright 2020 Cointelligence LTD. All rights reserved. 43
         
 Some top DeFi services in that category include [Compound Finance](https://compound.finance/markets), [Aave](https://app.aave.com/home) and [Oasis](https://oasis.app/).
 
-If you would like to get a thorough overview of popular borrowing/lending DeFi services and how they differ head on to our [DeFi borrowing and lending](/DeFi/7-lending-borrowing.md) guide.
+If you would like to get a thorough overview of popular borrowing/lending DeFi services and how they differ head on to our [DeFi borrowing and lending](/guides/defies/defi/7-lending-borrowing.md) guide.
 
 ## Flash Loans
 

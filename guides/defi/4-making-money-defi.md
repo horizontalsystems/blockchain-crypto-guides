@@ -12,9 +12,9 @@ The information presented here, is purely for educational purpose and none of th
 
 The most common and straightforward way is investing in DeFi Projects while they are still small. The idea is to buy when project is young and cash out once it grows. 
 
-Being a new and booming ecosystem with a lot of capital there are a lot new projects appearing daily. As covered in [DeFi Explained](/DeFi/1-defi-explained.md), governance and ownership of many DeFi services are tied to the ownership of the specific token.
+Being a new and booming ecosystem with a lot of capital there are a lot new projects appearing daily. As covered in [DeFi Explained](/guides/defies/defi/1-defi-explained.md), governance and ownership of many DeFi services are tied to the ownership of the specific token.
 
-- These DeFi cryptocurrency tokens are generally limited in supply from start and represent the ownership of the project or profit share. These tokens are publicly tradable, just like stocks, primarily on [DEXes](/DeFi/5-decentralized-exchanges.md) and [centralized exchanges](/fundamentals/6-buying-cryptocurrency-basics.md).
+- These DeFi cryptocurrency tokens are generally limited in supply from start and represent the ownership of the project or profit share. These tokens are publicly tradable, just like stocks, primarily on [DEXes](/guides/defies/defi/5-decentralized-exchanges.md) and [centralized exchanges](/fundamentals/6-buying-cryptocurrency-basics.md).
 
 - On project launch the price of the token is usually low reflecting the low interest and demand from the market. Typically, as service starts attracting people the demand for the token goes up pushing the price higher. 
 
@@ -53,7 +53,7 @@ It's not uncommon for some DeFi token to change 10% over the 24-hour period as a
 
 - Decentralized exchanges where these tokens are traded are open to anyone worldwide unconditionally. There are no geographical, age or any other requirements.
 
-- Some DeFi services provide instruments to trade in amounts significantly higher than trader's holdings. A decentralized exchange [dYdX](/DeFi/5-decentralized-exchanges.md) provides ways to trade with a 5-10x leverage. 
+- Some DeFi services provide instruments to trade in amounts significantly higher than trader's holdings. A decentralized exchange [dYdX](/guides/defies/defi/5-decentralized-exchanges.md) provides ways to trade with a 5-10x leverage. 
 
 - There are also instruments enabling user to borrow large amounts of cryptocurrency as loan and use it for trading. In DeFi, you can borrow money without anyone even asking for your name.
 
@@ -93,7 +93,7 @@ Common methods:
     
     To solve liquidity problems DEXes incentivize cryptocurrency owners to enroll as liquidity providers via liquidity pools. Users looking for passive income pay potentially deposit some amount of crypto assets into a smart contract which uses these funds to serve buy/sell orders originating from DEX. Liquidity providers earn resulting trading fees.
 
-    Most liquidity pools are built in a way where user remains in control of the assets and can withdraw his/her share from the pool at any time. There is no custody risk. There are many models exist for [liquidity pools](/DeFi/6-liquidity-pools.md) which are covered in great detail in coming sections. 
+    Most liquidity pools are built in a way where user remains in control of the assets and can withdraw his/her share from the pool at any time. There is no custody risk. There are many models exist for [liquidity pools](/guides/defies/defi/6-liquidity-pools.md) which are covered in great detail in coming sections. 
     
     As will be explained the profitability of the liquidity pool depends on various factors and tends to change on a real-time basis. Sometimes participation in a liquidity pool may be even unprofitable.
     
@@ -105,7 +105,7 @@ Common methods:
     
     Practically speaking, someone can potentially borrow crypto assets from one service and then invest them in some profitable liquidity pool. The user can then make a profit given that earnings from the liquidity pool outweighs the cost of borrowing.
     
-    In the coming sections we are looking in depth at major [DeFi lending pools](/DeFi/7-lending-borrowing.md).
+    In the coming sections we are looking in depth at major [DeFi lending pools](/guides/defies/defi/7-lending-borrowing.md).
 
 ## 4. Other
 

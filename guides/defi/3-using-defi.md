@@ -103,7 +103,7 @@ Typical DeFi transaction (like the one above) can consist of a lot of computatio
 
 > DeFi transactions are expensive because the blockchain transaction fees go in parallel with the computational and other blockchain resources (i.e. size of transaction) needed to execute a transaction.
 
-While sending ETH from one address to another may cost less than a dollar, executing a DeFi transaction involving can sometimes cost 1000$. It goes without saying that such transaction operate with large sums so paying such fees usually is not an issue. We will look at such transactions in the upcoming section about [earning on DeFi](/DeFi/4-making-money-defi.md).
+While sending ETH from one address to another may cost less than a dollar, executing a DeFi transaction involving can sometimes cost 1000$. It goes without saying that such transaction operate with large sums so paying such fees usually is not an issue. We will look at such transactions in the upcoming section about [earning on DeFi](/guides/defies/defi/4-making-money-defi.md).
 
 The high fee issue may no longer be relevant when Ethereum blockchain expands its capacity to be able to handle more transactions. Until then DeFi transactions costs are likely to keep increasing, especially as DeFi ecosystem and services attract more and more people.
 

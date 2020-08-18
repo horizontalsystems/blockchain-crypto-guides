@@ -39,7 +39,7 @@ Some popular decentralized exchanges are:
 
 Each DEX comes with its own features and unique selling points. While Uniswap may have large selection of trading pairs the Curve Finance can provide better rates when exchanging stablecoins in larg volumes. 
 
-We have explored each mentioned exchange in detail in the coming sections dedicated to [decentralized exchanges](/DeFi/5-decentralized-exchanges.md).
+We have explored each mentioned exchange in detail in the coming sections dedicated to [decentralized exchanges](/guides/defies/defi/5-decentralized-exchanges.md).
 
 ## 2. Liquidity Pools
 
@@ -72,7 +72,7 @@ For demo purposes, let's assume the user has some Ethereum and [MakerDAO tokens]
 4. From each trade using user's assets Uniswap pays a 0.3% trading fee (split between all liquidity providers).
 5. User able to withdraw deposited funds at any time and claim a portion of the trading fees.
 
-For an in-depth overview, examples, differences between pools and expected profits jump to a section about [liquidity pools](/DeFi/6-liquidity-pools.md). 
+For an in-depth overview, examples, differences between pools and expected profits jump to a section about [liquidity pools](/guides/defies/defi/6-liquidity-pools.md). 
 
 Meanwhile, regard liquidity pools as automated instruments that for let cryptocurrency holders earn some passive income from their cryptocurrency.
 
@@ -98,7 +98,7 @@ These services imitate the functionality of traditional lending and borrowing se
     
     The interest rate for lending usually is higher than it's for borrowing. This ensures that smart contract are always able to serve both borrowers and lenders.
         
-Some top DeFi services in that category include [Compound Finance](https://compound.finance/markets), [Aave](https://app.aave.com/home) and [Oasis](https://oasis.app/). The borrowing and lending rates, loan terms and collateral requirements usually vary from one service to another. We'll go over them in detail in [DeFi borrowing and lending](/DeFi/7-lending-borrowing.md) guide.
+Some top DeFi services in that category include [Compound Finance](https://compound.finance/markets), [Aave](https://app.aave.com/home) and [Oasis](https://oasis.app/). The borrowing and lending rates, loan terms and collateral requirements usually vary from one service to another. We'll go over them in detail in [DeFi borrowing and lending](/guides/defies/defi/7-lending-borrowing.md) guide.
 
 ## 4. Stablecoins
 
