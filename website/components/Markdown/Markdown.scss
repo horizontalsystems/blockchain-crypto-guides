@@ -18,11 +18,11 @@
 }
 
 .light-mode .Progress-container {
-  background: #E1E1E5;
+  background: $light-soft;
 }
 
 .dark-mode .Progress-container {
-  background: #37393B;
+  background: $dark-light;
 }
 
 .Progress-bar {
@@ -254,7 +254,7 @@
 
 .light-mode .Markdown-menu-item,
 .light-mode .Markdown-menu-bordered {
-  border-bottom: 1px solid #E1E1E5;
+  border-bottom: 1px solid $light-soft;
 
   a:hover,
   a.current {
@@ -264,7 +264,7 @@
 
 .dark-mode .Markdown-menu-item,
 .dark-mode .Markdown-menu-bordered {
-  border-bottom: 1px solid #37393B;
+  border-bottom: 1px solid $dark-light;
 
   a:hover,
   a.current {
