@@ -6,7 +6,7 @@ The aim of this guide is to onboard someone with little knowledge about cryptocu
 
 Cryptocurrencies are powered by a number of technologies, but primarily a blockchain technology. 
 
->**The blockchain technology used in cryptocurrency like Bitcoin was designed in a way where doing anything outside the scope of agreed rules becomes impossible.**
+>**The blockchain technology was first applied in creating Bitcoin cryptocurrency. By applying this technology it was possible to design an all-accessible platform for value exchange where doing anything outside the scope of agreed rules becomes impossible.**
 
 When using a product built on top of such blockchain following statements hold true:
 
@@ -17,11 +17,11 @@ When using a product built on top of such blockchain following statements hold t
 
 Blockchain technology can potentially be applied to anything where notions like trust, censorship-resistance and immutability are essential. Think notary services, elections and so on.
 
-At the time being, a lot of financial and legal agencies exist to enforce things that can be enforced by a blockchain in impartial manner. Should the blockchain technology continue to grow these services are likely to be automated and ported over to a blockchain.
+At the time being, a lot of financial and legal agencies exist to enforce things that can be enforced by a blockchain in impartial manner. Should the blockchain technology continue to grow these services are likely to be ported over to a blockchain.
 
 >**The first generation of blockchain-based products like Bitcoin aim to deliver a financial platform for value exchange without the need for a system to rely on intermediaries such as banks.**
 
-The Bitcoin is the first product where the idea of blockchain was applied to challenge areas currently controlled by financial system.
+In that regard, the Bitcoin is the first product where the idea of blockchain was applied to challenge areas currently controlled by financial system.
 
 ## Blockchain Attributes
 
@@ -73,13 +73,13 @@ Now let's try to understand the basic nature of cryptocurrency.
 
 Cryptocurrencies are units of something on a blockchain. Depending on the characteristics of underlying blockchain one cryptocurrency may vary from another.
 
-![](images/01-04-l.png)
+![](images/01-03-l.png)
 
 **For instance:**
 
-- Bitcoin cryptocurrency is a native unit of measurement on the Bitcoin blockchain. It's denoted by a 'BTC' symbol. A single unit of Bitcoin is divisible into 100 million sub-units called Satoshi. By design Bitcoin blockchain caps the total amount to 21 million Bitcoins. The Bitcoin blockchain limited in the type of records it can store, mostly records of transactions from one address to another.
+- Bitcoin cryptocurrency is a native unit of measurement on the [Bitcoin](/token_guides/bitcoin.md) blockchain. It's denoted by a 'BTC' symbol. A single unit of Bitcoin is divisible into 100 million sub-units called Satoshi. By design Bitcoin blockchain caps the total amount to 21 million Bitcoins. The Bitcoin blockchain limited in the type of records it can store, mostly records of transactions from one address to another.
 
-- Ether cryptocurrency is a native unit of measurement on Ethereum blockchain, denoted by a 'ETH' symbol. A single unit of Ethereum consists of 100,000,000,000,000,000 wei. Unlike the Bitcoin, Ethereum blockchain doesn't cap the amount of Ether that can potentially exist on the blockchain. Also, Ethereum blockchain doesn't put any limitations in a type of records it can hold.
+- Ether cryptocurrency is a native unit of measurement on [Ethereum]((/token_guides/ethereum.md)) blockchain, denoted by a 'ETH' symbol. A single unit of Ethereum consists of 100,000,000,000,000,000 wei. Unlike the Bitcoin, Ethereum blockchain doesn't cap the amount of Ether that can potentially exist on the blockchain. Also, Ethereum blockchain doesn't put any limitations in a type of records it can hold.
 
 Some blockchains like Ethereum enable ways to create your own 'units of something' for whatever purpose. These are often referred to as cryptocurrency tokens and can be used for various purposes as will be shown later.
 
