@@ -60,7 +60,7 @@ Bitcoins are limited and scarce. Eventually, there will be 21 million Bitcoins i
 
 - No single entity controls the release of new Bitcoins into circulation. It's an automated process that's regulated by algorithms that were coded into Bitcoin at the start of its existence.
 
-![](images/btc-numbers-s.png)
+![](images/btc-numbers-l.png)
 
 It's estimated that about four million Bitcoins have been already lost. Typically, coins are lost because users have lost the wallets with Bitcoins on them without having a backup. 
 
@@ -148,7 +148,8 @@ The technology seeks to provide a solution to some major socioeconomic and geopo
 
 Unlike traditional financial instruments, which are generally imposed by governments or other centralized organizations, the core driving force of Bitcoin is its global community. 
 
-![](images/btc-vs-p.png)
+![](images/btc-centralized-l.png)
+![](images/btc-decentralized-l.png)
 
 In the face of modern-day problems like money printing, currency debasements, over-regulation, sanctioning, growing number of people are moving towards Bitcoin. That trend in Bitcoin's popularity is likely to continue. 
 
