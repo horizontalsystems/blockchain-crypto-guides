@@ -30,7 +30,7 @@ DeFi provides users with full control over the assets, and typically accessible 
 
 > The majority of DeFi services take the form of decentralized apps, more commonly known as DApps. 
 
-DeFi services usually built on top of [Ethereum](/token_guides/ethereum.md) blockchain. Thus, if you're new to Ethereum then it's recommended for you to go over the [Ethereum guide](/token_guides/ethereum.md) first. A good understanding of Ethereum, Smart Contracts and DApps is essential to understand material described in this section.
+DeFi services usually built on top of Ethereum blockchain. Thus, if you're new to Ethereum then it's recommended for you to go over the [Ethereum guide](/guides/token_guides/ethereum.md) first. A good understanding of Ethereum, Smart Contracts and DApps is essential to understand material described in this section.
 
 Today there are DeFi services for cryptocurrency lending, borrowing, trading, derivatives, insurance and other financial instruments people are used to. Other than being decentralized and dealing with cryptocurrency these services work similar to traditional finance counterparts.
 

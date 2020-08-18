@@ -10,7 +10,7 @@ Other than dealing with cryptocurrency these services provide alternative to tra
 
 ## 1. Decentralized Exchanges
 
-While there are a number of major [cryptocurrency exchanges](/fundamentals/6-buying-cryptocurrency-basics.md) exists today pretty much all of them are centralized. Centralized exchanges provide ways to buy/sell cryptocurrency with/for fiat currency like USD, EUR etc. 
+While there are a number of major [cryptocurrency exchanges](/guides/fundamentals/6-buying-cryptocurrency-basics.md) exist today pretty much all of them are centralized. Centralized exchanges provide ways to buy/sell cryptocurrency with/for fiat currency like USD, EUR etc. 
 
 Centralized exchanges:
  
@@ -19,7 +19,7 @@ Centralized exchanges:
 - require every user to go through identity verification and KYC/AML checks
 - available in some countries, depending on local regulations
 
-The decentralized exchanges (or DEXes) began to emerge fairly recently as the [Ethereum ecosystem](/token_guides/ethereum.md)) started to mature. Ethereum blockchain provided the needed foundational infrastructure for such services.
+The decentralized exchanges (or DEXes) began to emerge fairly recently as the [Ethereum ecosystem](/guides/token_guides/ethereum.md)) started to mature. Ethereum blockchain provided the needed foundational infrastructure for such services.
 
 After just a couple of years, we have a decentralized exchange which average over 100 million worth of USD 24-hour trading volume. These exchanges already serve a large segment of users which are located in countries where access to centralized exchanges restricted or severely limited in functionality.
 
@@ -37,9 +37,9 @@ Some popular decentralized exchanges are:
 - [Curve Finance](https://curve.fi)
 - [Balancer](https://balancer.exchange/#/swap)
 
-Each DEX comes with its own features and unique selling points. While Uniswap may have large selection of trading pairs the Curve Finance can provide better rates when exchanging stablecoins in larg volumes. 
+Each DEX comes with its own features and unique selling points. While Uniswap may have large selection of trading pairs the Curve Finance can provide better rates when exchanging stablecoins in large volumes. 
 
-We have explored each mentioned exchange in detail in the coming sections dedicated to [decentralized exchanges](/guides/defies/defi/5-decentralized-exchanges.md).
+We have explored each mentioned exchange in detail in the coming sections dedicated to [decentralized exchanges](/guides/defi/5-decentralized-exchanges.md).
 
 ## 2. Liquidity Pools
 
@@ -65,14 +65,14 @@ Liquidity pools have no listing fees, or other barriers: anyone can invest their
 
 Pretty much all major DEXes including [Uniswap](https://uniswap.info/home) and [Balancer](https://pools.balancer.exchange/#/) support creation of liquidity pools and earn some passive income as a result.
 
-For demo purposes, let's assume the user has some Ethereum and [MakerDAO tokens](/token_guides/makerdao.md) and decides to add them into a liquidity pool.
+For demo purposes, let's assume the user has some Ethereum and [MakerDAO tokens](/guides/token_guides/makerdao.md) and decides to add them into a liquidity pool.
 
 1. The user locks some cryptocurrency assets into a liquidity pool smart contract on a DEX like Uniswap.
 3. Smart contract then uses these funds to provide liquidity using user's locked assets.
 4. From each trade using user's assets Uniswap pays a 0.3% trading fee (split between all liquidity providers).
 5. User able to withdraw deposited funds at any time and claim a portion of the trading fees.
 
-For an in-depth overview, examples, differences between pools and expected profits jump to a section about [liquidity pools](/guides/defies/defi/6-liquidity-pools.md). 
+For an in-depth overview, examples, differences between pools and expected profits jump to a section about [liquidity pools](/guides/defi/6-liquidity-pools.md). 
 
 Meanwhile, regard liquidity pools as automated instruments that for let cryptocurrency holders earn some passive income from their cryptocurrency.
 
@@ -98,20 +98,20 @@ These services imitate the functionality of traditional lending and borrowing se
     
     The interest rate for lending usually is higher than it's for borrowing. This ensures that smart contract are always able to serve both borrowers and lenders.
         
-Some top DeFi services in that category include [Compound Finance](https://compound.finance/markets), [Aave](https://app.aave.com/home) and [Oasis](https://oasis.app/). The borrowing and lending rates, loan terms and collateral requirements usually vary from one service to another. We'll go over them in detail in [DeFi borrowing and lending](/guides/defies/defi/7-lending-borrowing.md) guide.
+Some top DeFi services in that category include [Compound Finance](https://compound.finance/markets), [Aave](https://app.aave.com/home) and [Oasis](https://oasis.app/). The borrowing and lending rates, loan terms and collateral requirements usually vary from one service to another. We'll go over them in detail in [DeFi borrowing and lending](/guides/defi/7-lending-borrowing.md) guide.
 
 ## 4. Stablecoins
 
 The term stablecoin refers to a cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.
 
-DeFi enabled creation of cryptocurrencies which have a fixed value i.e. 1 USD or 1 oz (ca. 38 g) of gold. Usually stablecoins usee Ethereum blockchain to create a stablecoin in a form of Ethereum-based token.
+DeFi enabled creation of cryptocurrencies which have a fixed value i.e. 1 USD or 1 oz (ca. 38 g) of gold. Usually stablecoins use Ethereum blockchain to create a stablecoin in a form of Ethereum-based token.
 
 Most cryptocurrency stablecoins are built on the Ethereum blockchain. While there are a lot of stablecoins in DeFi ecosystem each comes with its own specifics.
 
 Stablecoins pegged to USD:
 
-- [DAI](/token_guides/makerdao.md)
-- [USDT](/token_guides/tether.md)
+- [DAI](/guides/token_guides/makerdao.md)
+- [USDT](/guides/token_guides/tether.md)
 - sUSD
 
 Stablecoins pegged to other assets:
