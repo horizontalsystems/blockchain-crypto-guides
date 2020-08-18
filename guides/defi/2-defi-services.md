@@ -76,7 +76,7 @@ For an in-depth overview, examples, differences between pools and expected profi
 
 Meanwhile, regard liquidity pools as automated instruments that for let cryptocurrency holders earn some passive income from their cryptocurrency.
 
-## 3. Lending / Borrowing
+## 3. Lending Pools
 
 A large segment of DeFi services built to facilitate borrowing and lending cryptocurrencies in a decentralized and reliable manner. 
 
@@ -102,39 +102,37 @@ Some top DeFi services in that category include [Compound Finance](https://compo
 
 ## 4. Stablecoins
 
-The term stablecoin refers to a cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.
+The term stablecoin refers to a type of cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.
 
-DeFi enabled creation of cryptocurrencies which have a fixed value i.e. 1 USD or 1 oz (ca. 38 g) of gold. Usually stablecoins use Ethereum blockchain to create a stablecoin in a form of Ethereum-based token.
+DeFi enabled creation of cryptocurrencies which have a fixed value i.e. equal to 1 USD or say 1 oz (ca. 38 g) of gold. Usually stablecoins appear in a form of an Ethereum-based cryptocurrency token and are built with the help of smart contracts on Ethereum blockchain.
 
-Most cryptocurrency stablecoins are built on the Ethereum blockchain. While there are a lot of stablecoins in DeFi ecosystem each comes with its own specifics.
+While there are a lot of stablecoins in DeFi ecosystem each comes with its own specifics.
 
 Stablecoins pegged to USD:
 
-- [DAI](/guides/token_guides/makerdao.md)
-- [USDT](/guides/token_guides/tether.md)
-- sUSD
+- MakerDAO's [DAI](/guides/token_guides/makerdao.md)
+- Tether's [USDT](/guides/token_guides/tether.md)
 
 Stablecoins pegged to other assets:
 
-- PAX (equal to 1 oz of gold)
 - DGX (equal to 1 gram of gold)
 - renBTC (equal to 1 Bitcoin)
 
-Depending on how the stablecoin built it has various mechanisms in place which ensure that the price of the stablecoin always remains very close to the peg. 
+Depending on how the stablecoin built it has various mechanisms in place to ensure its price always remains very close to the peg. 
 
 The smart contracts governing stablecoins constantly monitor the price of the target asset and take necessary measures to push the price as close to the target asset as possible. 
 
-> The page [here](https://coinmarketcap.com/currencies/multi-collateral-dai/) shows the price of DAI stablecoin over time. As can be seen on that page the DAI price always remained in close range to 1 USD. 
+> The page [here](https://coinmarketcap.com/currencies/multi-collateral-dai/) shows the price of a decentralized DAI stablecoin over time. As can be seen on that page the DAI price always remained in close range to 1 USD. 
 
 Not all stablecoins are built as per DeFi principles. 
 
-- The DAI stablecoin is decentralized and fully governed by smart contracts without any priviledged parties.
+- The DAI stablecoin is decentralized and fully governed by smart contracts without any privileged parties.
 
-- The Tether's USDT is also a stablecoin built on Ethereum. However, unlike the DAI, Tether' USDT is centralized where there are certain priviledged parties to mint/issue new tokens at will as well as freeze USDT assets belonging to other users.
+- The Tether's USDT is also a stablecoin built on Ethereum. However, unlike the DAI, it is centralized where certain privileged parties can issue new tokens at will as well as freeze USDT tokens belonging to other users.
 
 So, while there are a lot of stablecoins built on Ethereum not all of them are built per DeFi attributes.
 
-## Derivatives
+## 5. Derivatives
 
 Decentralized financial derivatives is another category representing a growing segment of DeFi services.
 
@@ -148,14 +146,16 @@ Examples:
 
 - [Synthetix](https://www.synthetix.io)
 
-    With Synthetix, anyone in the world can gain exposure to financial assets or securities which are not present on Ethereum blockchain like say like USD, EUR, Bitcoin or stocks (Apple, Tesla, etc) without having to deal with the high frictions of financial regulations.
+    With Synthetix, anyone in the world can gain exposure to financial assets or securities (which are not natively present on Ethereum blockchain) like say like USD, EUR, Bitcoin or stocks (Apple, Tesla, etc) without having to deal with the high frictions of financial regulations.
+    
+    Synthetix enables creation of tokens (called Synths) which are backed (collateralized) by other cryptocurrency tokens. For instance, there is sBTC cryptocurrency token issued via Synthetix smart contracts: it is a stablecoin that's pegged to Bitcoin.
+    
+    In order for someone to create an sBTC token the person needs to pass to the smart contract SNX cryptocurrency tokens equivalent to 750% of Bitcoin value. In other words, roughly 7.5 worth of Bitcoin in SNX tokens. Such a high collateral is there to ensure that the value of sBTC never falls below the Bitcoin price.
     
 - [Augur](https://augur.net)
     
     Global, no-limit betting platform. Bet how much you want on sports, economics, world events and more.
     
-- dYdX
+    Each bet position represents an asset that either delivers or not when the event occurs.
 
-    Powerful open trading platform for crypto assets. Trade on margin with up to 4x leverage. Back your positions with any supported collateral.
-
-As DeFi continues to grow expect to see a lot more DeFi services covering all possible use cases.
+The list above is by no means complete but merely some highlights. As DeFi continues to grow expect to see a lot more DeFi services covering all possible use cases.
