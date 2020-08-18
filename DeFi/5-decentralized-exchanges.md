@@ -8,12 +8,12 @@ Centralized exchanges typically have following attributes:
  
 - support a wide range of cryptocurrencies
 - have high liquidity for major trading pairs i.e. BTC/USD
-- allow deposits/withdrawals for fiat currencies i.e. US Dollar.
+- allow deposits/withdrawals of fiat currencies i.e. US Dollar.
 - allow deposits/withdrawals of cryptocurrencies
 - require users to go through identity verification and KYC/AML checks.
 - hosted on some centralized servers and can go offline
-
-- available in certain countries
+- the exchanges take a role of a custodian of assets users deposit for trading
+- regulated and available in certain countries
 
 The decentralized exchanges(or DEXes) began to emerge fairly recently as the Ethereum ecosystem began to attract more and more engineers. 
 
@@ -25,33 +25,29 @@ Unlike the centralized counterparts, DEX enables cryptocurrency trading without 
 >
 > DEXes operate solely with cryptocurrency (mainly ETH and Ethereum based tokens) usually without any means to use the fiat currency. 
 
-When trading on DEX the exchange occurs without having to rely on the exchange operator which acts as intermediary between the buyer and seller. The trades are usually governed by smart contracts which cannot do anything outside the standard feature set. 
+When trading on a DEX the exchange occurs without having to rely on the exchange operator which acts as intermediary between the buyer and seller. 
+
+- The trades are governed by a smart contract code which cannot do anything outside the standard feature set.
+
+- The DEX lives on a blockchain which keeps the service online and accessible to anyone worldwide.
+
+- There are no traditional accounts, no identity checks or any other kind of conditions for participation.
+
+- The DEXes typically designed in non-custodial way to ensure that user always maintains full control over the assets.
+ 
+While different designs of Decentralized Exchanges exist, some managed to achieve high liquidity and trading volume.
+
+Let's look at currently popular decentralized exchanges and go over the differences between them.
 
 
 
 
 
+## 1. Uniswap 
 
+[Uniswap](https://uniswap.info/home) is a peer-to-peer, decentralized cryptocurrency exchange which allows you to trade Ethereum and Ethereum based tokens. 
 
-
-
-Automated Market Makers (AMMs) use algorithmic “Money Robots” to mimic these price actions within electronic markets like DeFi. 
-While different designs of Decentralized Exchanges exist, AMM-based DEXs have consistently achieved the most liquidity and the highest amount of average daily trading volume.
-
-Constant Function Market Makers (CFMMs) are the most popular class of AMMs, and are specifically designed to enable the decentralized exchange of digital assets. These AMM exchanges are based on a constant function, where the combined asset reserves of trading pairs must remain unchanged. In non-custodial AMMs, user deposits for trading pairs are pooled within a smart contract, which any trader can leverage for token swap liquidity. Thus, users trade against the smart contract (pooled assets) as opposed to directly with counterparty like in order book exchanges.
-
-There are three primary designs of Constant Function Market Makers that have emerged since 2017.
-
-The first type to emerge was the Constant Product Market Maker (CPMM) and it was popularized in the first AMM-based DEXs, Bancor and Uniswap. CPMMs are based on the function x*y=k, which establishes a range of prices for two tokens according to the available quantities (liquidity) of each token. When the supply of token X increases, the token supply of Y must decrease, and vice-versa, to maintain the constant product K. When plotted, the result is a hyperbola where liquidity is always available, but at increasingly higher prices that approach infinity at both ends.
-
-
-
-
-Some of the currently popular decentralized exchanges are: 
-
-- [Uniswap](https://uniswap.info/home)
-
-    Uniswap is a peer-to-peer, decentralized cryptocurrency exchange which allows you to trade Ethereum and Ethereum based tokens. Uniswap is one of the first and to this day still one of the biggest DEXes with [over 100 million](https://migrate.uniswap.info/home) in 24-hour trading volume.
+Uniswap is one of the first and to this day still one of the biggest DEXes with [over 100 million](https://migrate.uniswap.info/home) in 24-hour trading volume.
     
     Let’s take Uniswap as an example. Uniswap is an “automated market maker,” or AMM (another DeFi term of art). This means Uniswap is a robot on the internet that is always willing to buy and it’s also always willing to sell any cryptocurrency for which it has a market.
     
@@ -71,34 +67,41 @@ Some of the currently popular decentralized exchanges are:
     
     Note the instance of fake coins being listed on Uniswap.
     
-- [Curve Finance](https://curve.fi)
+    
+## 2. Curve Finance    
 
-    Curve is a decentralized, UniSwap-like exchange but built specifically for stablecoins. Curve selling point comes from the fact that it's trading algorithm can provide better rates when buying or selling large amount of cryptocurrency stablecoins.
+[Curve Finance](https://curve.fi) is a decentralized, UniSwap-like exchange but built specifically for stablecoins. 
 
-- [Balancer](https://balancer.exchange/#/swap)
-
-Balancer, an AMM that allows users to set up self-rebalancing crypto index funds.
-
-
-- Kyber
-
-- Bancor
-
-- dYdX
-
-https://www.reddit.com/r/btc/comments/gj21cg/dydxs_btc_perpetual_market_is_live/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
-
-Bancor V2 takes this a step further by enabling liquidity providers to maintain exposure to a single token, removing the two-sided liquidity deposit requirement. By pegging liquidity reserves via Chainlink oracles, users can maintain exposure to any token in the AMM ranging from 100% exposure to any ERC20 token, 100% exposure to BNT, or any distribution between the two. This is ideal for cryptocurrency investors wanting to keep full exposure to their preferred assets, especially when combined with mitigation of impermanent loss. This is likely to attract token teams and investment funds wanting to provide low risk liquidity on an AMM without needing to purchase additional reserves.
-
-
-- DeversiFi
-- Oasis
-
-
-## Curve Finance
+Curve selling point comes from the fact that it's trading algorithm can provide better rates when buying or selling large amount of cryptocurrency stablecoins.
 
 Stablecoins have become an inherent part of cryptocurrency for a long time but they now come in many different flavours (DAI, TUSD, sUSD, bUSD, USDC and so on). 
 
 There is a much bigger need for cryptocurrency users to move from a stablecoin to another. Centralised exchanges tend to have high fees which are problematic for those trying to move from a stable coin to another. 
 
 As a result, Curve.fi has become the best place to exchange stable coins because of its low fees and low slippage.
+
+## 3. Balancer
+
+[Balancer](https://balancer.exchange/#/swap) an AMM that allows users to set up self-rebalancing crypto index funds.
+
+
+## 4. Kyber
+
+sdfsdfsdf
+
+## 5. Bancor
+
+adasdas
+
+## 6. dYdX
+
+https://www.reddit.com/r/btc/comments/gj21cg/dydxs_btc_perpetual_market_is_live/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
+Bancor V2 takes this a step further by enabling liquidity providers to maintain exposure to a single token, removing the two-sided liquidity deposit requirement. By pegging liquidity reserves via Chainlink oracles, users can maintain exposure to any token in the AMM ranging from 100% exposure to any ERC20 token, 100% exposure to BNT, or any distribution between the two. This is ideal for cryptocurrency investors wanting to keep full exposure to their preferred assets, especially when combined with mitigation of impermanent loss. This is likely to attract token teams and investment funds wanting to provide low risk liquidity on an AMM without needing to purchase additional reserves.
+
+## 7. DeversiFi
+
+## 8. Oasis
+
+// not all
+// only currently popular
