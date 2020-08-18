@@ -60,7 +60,7 @@ class Markdown extends React.Component {
     })
   }, 100)
 
-  mapMenu(headings) {
+  mapMenu(headings, closeOnClick) {
     const slugger = new GithubSlugger()
     const menu = []
 
@@ -74,7 +74,11 @@ class Markdown extends React.Component {
 
       const child = item.children[0]
       const slug = slugger.slug(child.value)
-      const link = <a href={`#${slug}`} onClick={this.onClickLink}>{child.value}</a>
+      const link = (
+        <a href={`#${slug}`} onClick={v => this.onClickLink(v, closeOnClick)}>
+          {child.value}
+        </a>
+      )
       switch (item.depth) {
         case 2:
           value = <div className="pl-3">{link}</div>
@@ -97,13 +101,15 @@ class Markdown extends React.Component {
     return menu
   }
 
-  onClickToggle() {
+  onClickToggle(forceHide) {
     const menu = document.querySelectorAll('.Markdown-menu')
     if (!menu.length) return
     const { display } = menu[0].style
 
     let newDisplay
-    if (display === 'none' || display === '') {
+    if (forceHide) {
+      newDisplay = 'none'
+    } else if (display === 'none' || display === '') {
       newDisplay = 'block'
     } else {
       newDisplay = 'none'
@@ -114,7 +120,7 @@ class Markdown extends React.Component {
     })
   }
 
-  onClickLink(event) {
+  onClickLink(event, closeSidebar) {
     event.preventDefault();
     const id = event.target.hash.replace(/^#/, '')
     const target = document.getElementById(id);
@@ -124,6 +130,10 @@ class Markdown extends React.Component {
       behavior: 'smooth',
       block: 'start'
     });
+
+    if (closeSidebar) {
+      this.onClickToggle(true)
+    }
   }
 
   onChangeTexSize(fontSize) {
@@ -133,7 +143,7 @@ class Markdown extends React.Component {
     })
   }
 
-  sidebar({ fontSize, fontSizeMax, fontSizeMin }) {
+  sidebar({ fontSize, fontSizeMax, fontSizeMin }, closeOnClick) {
     return (
       <div className="Markdown-side-content">
         <div className="Markdown-side-title Markdown-menu-bordered">
@@ -151,7 +161,7 @@ class Markdown extends React.Component {
           </div>
         </div>
         <div className="Markdown-menu">
-          {this.mapMenu(this.props.guide.headings)}
+          {this.mapMenu(this.props.guide.headings, closeOnClick)}
         </div>
         <div className="Markdown-side-title Markdown-side-bottom" />
       </div>
@@ -170,7 +180,7 @@ class Markdown extends React.Component {
 
         <div className="md:w-3/4 sm:w-full">
           <div className="md:w-1/4 sm:w-full Markdown-side-fixed sm-show md-hidden">
-            {this.sidebar(this.state)}
+            {this.sidebar(this.state, true)}
           </div>
           <div className="Markdown">
             <div

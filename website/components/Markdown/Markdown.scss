@@ -41,6 +41,14 @@
     padding-left: 1.1em;
   }
 
+  h1, h2, h3 {
+    scroll-margin-top: 160px;
+
+    @include md {
+      scroll-margin-top: 120px;
+    }
+  }
+
   h1 {
     font-size: 32px;
     line-height: 44px;
