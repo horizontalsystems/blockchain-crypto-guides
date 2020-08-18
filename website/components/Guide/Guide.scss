@@ -6,8 +6,7 @@
 }
 
 .Guides-filter {
-  margin: 36px - 24px -5px;
-  padding: 24px 5px;
+  padding: 12px 5px;
   display: flex;
   overflow-y: auto;
   position: sticky;
@@ -16,11 +15,13 @@
 
   @include md {
     top: $header-height - 1px;
-    margin: 58px - 24px -5px;
+    margin: 34px -5px;
+    margin-right: -24px;
+    padding: 24px 5px;
   }
 
   @include sm {
-    margin: 0 -24px;
+    margin: 12px -24px;
     padding-left: 24px;
   }
 }
