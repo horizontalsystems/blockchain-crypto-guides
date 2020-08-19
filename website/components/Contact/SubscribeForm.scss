@@ -17,6 +17,15 @@
   }
 }
 
+.dark-mode .Modal-form,
+.dark-mode .Contact-success {
+  background: $dark;
+
+  input {
+    background: $dark;
+  }
+}
+
 .close-form {
   position: absolute;
   right: -3px;
