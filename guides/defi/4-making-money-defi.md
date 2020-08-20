@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi4-Main-l.png)
 # Earning on DeFi
 
 Given that you have a basic understanding of what DeFi is and how it works let's look at various ways early adopters make profit on DeFi ecosystem.

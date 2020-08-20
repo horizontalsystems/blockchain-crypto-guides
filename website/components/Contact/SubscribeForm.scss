@@ -17,6 +17,15 @@
   }
 }
 
+.dark-mode .Modal-form,
+.dark-mode .Contact-success {
+  background: $dark;
+
+  input {
+    background: $dark;
+  }
+}
+
 .close-form {
   position: absolute;
   right: -3px;
@@ -93,7 +102,7 @@ input, textarea, .btn {
 }
 
 input, textarea {
-  border: 1px solid #37393B;
+  border: 1px solid $dark-light;
   padding: 15px 24px !important;
   background: black;
   width: 100%;

@@ -18,11 +18,11 @@
 }
 
 .light-mode .Progress-container {
-  background: #E1E1E5;
+  background: $light-soft;
 }
 
 .dark-mode .Progress-container {
-  background: #37393B;
+  background: $dark-light;
 }
 
 .Progress-bar {
@@ -41,21 +41,71 @@
     padding-left: 1.1em;
   }
 
+  .icon-link {
+    width: 18px;
+    height: 18px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC0SURBVHgBzZExDsIwDEV/TBbE0iPkZpyBFTGABMxcgZPRI2SpmIhxo2ZpnaaqMvRLUSTb+t95MVD0feL4C3gZoEFJjJZ2uBqt1z3wkQGH5fI2k+L663CBKTl0d5mWzQmVVM3IrAG7P+OdSsPTQIEj8bJJjIULEqq1rAY2pYxhJ7Ca0fZgVzOymbqX0yRWY03q/W9qgxxwEswtFkgcPRNu0T2XrG2Sm90m7FmwE7HOjlaBVfQHgRxLA83TDB0AAAAASUVORK5CYII=');
+    background-size: cover;
+    display: block;
+    visibility: hidden;
+  }
+
+  h1, h2, h3 {
+    scroll-margin-top: 160px;
+    position: relative;
+
+    @include md {
+      scroll-margin-top: 120px;
+    }
+
+    a {
+      position: absolute;
+      left: -30px;
+      padding: 5px 10px 5px 5px;
+    }
+
+    &:hover .icon, a:hover .icon {
+      visibility: visible;
+    }
+  }
+
   h1 {
     font-size: 32px;
     line-height: 44px;
     font-weight: 600;
+
+    a {
+      top: 9px;
+    }
   }
 
   h2 {
     font-size: 24px;
     line-height: 33px;
     font-weight: 500;
+
+    a {
+      top: 3px;
+    }
+
+    .icon {
+      width: 17px;
+      height: 17px;
+    }
   }
 
   h3 {
     font-size: 20px;
     line-height: 27px;
+
+    a {
+      top: 1px;
+    }
+
+    .icon {
+      width: 16px;
+      height: 16px;
+    }
   }
 
   blockquote {
@@ -254,7 +304,7 @@
 
 .light-mode .Markdown-menu-item,
 .light-mode .Markdown-menu-bordered {
-  border-bottom: 1px solid #E1E1E5;
+  border-bottom: 1px solid $light-soft;
 
   a:hover,
   a.current {
@@ -264,7 +314,7 @@
 
 .dark-mode .Markdown-menu-item,
 .dark-mode .Markdown-menu-bordered {
-  border-bottom: 1px solid #37393B;
+  border-bottom: 1px solid $dark-light;
 
   a:hover,
   a.current {
