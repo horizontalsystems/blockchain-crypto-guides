@@ -93,7 +93,7 @@ Common methods:
 
     Most liquidity pools are built in a way where user remains in control of the assets and can withdraw his/her share from the pool at any time. There is no custody risk. As will be explained the profitability of the liquidity pool depends on various factors and tends to change on a real-time basis. Sometimes participation in a liquidity pool may be even unprofitable.
     
-    There are many models exist for [liquidity pools](/guides/defi/6-liquidity-pools.md) which are covered in great detail in coming sections. 
+    There are many models exist for [liquidity pools](/guides/defi/5-decentralized-exchanges.md) which are covered in great detail in coming sections. 
     
 - Lending Pools
 

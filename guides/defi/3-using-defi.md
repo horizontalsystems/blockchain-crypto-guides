@@ -46,7 +46,7 @@ To Setup Metamask:
     
     Once you have funded your Metamask wallet, open the browser (where you installed Metamask) and navigate to the DeFi service website you would like to use. 
     
-    Once on DeFi site look for 'connect wallet', or a similar option. When you have connected your Metamask wallet you can begin utilize the services it provides.
+    Once on DeFi site look for 'connect wallet' button or a similar option. When you have connected your Metamask wallet you can begin utilize the services it provides.
 
 Metamask is not the only wallet that you can use for DeFi, but it's by far the most popular one.
 

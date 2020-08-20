@@ -72,7 +72,7 @@ For demo purposes, let's assume the user has some Ethereum and [MakerDAO tokens]
 4. From each trade using user's assets Uniswap pays a 0.3% trading fee (split between all liquidity providers).
 5. User able to withdraw deposited funds at any time and claim a portion of the trading fees.
 
-For an in-depth overview, examples, differences between pools and expected profits jump to a section about [liquidity pools](/guides/defi/6-liquidity-pools.md). 
+For an in-depth overview, examples, differences between pools and expected profits jump to a section about [DEX liquidity pools](/guides/defi/5-decentralized-exchanges.md). 
 
 Meanwhile, regard liquidity pools as automated instruments that for let cryptocurrency holders earn some passive income from their cryptocurrency.
 
