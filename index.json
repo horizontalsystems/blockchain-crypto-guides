@@ -91,12 +91,41 @@
         "image_url": "guides/token_guides/images/mkr-Main-l.png",
         "file_url": "guides/token_guides/makerdao.md",
         "updated_at": "01-06-2020"
+      }
+    ]
+  },
+  {
+    "title": "DeFi",
+    "guides": [
+      {
+        "title": "DeFi Explained",
+        "image_url": "guides/defi/images/defi-Main-l.png",
+        "file_url": "guides/defi/1-defi-explained.md",
+        "updated_at": "01-09-2020"
       },
       {
-        "title": "Bitcoin Cash in Simple Terms",
-        "image_url": "guides/token_guides/images/bch-Main-l.png",
-        "file_url": "guides/token_guides/bitcoin-cash.md",
-        "updated_at": "01-06-2020"
+        "title": "DeFi Products",
+        "image_url": "guides/defi/images/defi2-Main-l.png",
+        "file_url": "guides/defi/2-defi-services.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Using DeFi",
+        "image_url": "guides/defi/images/defi3-Main-l.png",
+        "file_url": "guides/defi/3-using-defi.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Earning on DeFi",
+        "image_url": "guides/defi/images/defi4-Main-l.png",
+        "file_url": "guides/defi/4-making-money-defi.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Decentralized Exchanges",
+        "image_url": "guides/defi/images/defi5-Main-l.png",
+        "file_url": "guides/defi/5-decentralized-exchanges.md",
+        "updated_at": "01-09-2020"
       }
     ]
   }
