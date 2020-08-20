@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/010-main-l.png)
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi-Main-l.png)
 
 # DeFi Explained
 
@@ -41,6 +41,8 @@ Technologies like the internet, cryptography, and blockchain provided means to b
 ## DeFi Attributes
 
 Unlike their traditional centralized counterparts, DeFi services usually (not always) built around following principles:
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi-attributes-l.png)
 
 - Open (Unconditional)
 
@@ -99,6 +101,8 @@ The DeFi been growing extremely fast. There are currently a lot of well-financed
 In essence, DeFi services consist of smart contracts that outline the operational logic of the service. Once that smart contract coded by engineers and added to the Ethereum blockchain it becomes public, permanent and accessible to all.
 
 To give you a better understanding of the DeFi development process let's outline some essential points about how the DeFi services are built, financed and governed:
+
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi-building-l.png)
 
 - Building
 

@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/defi3-Main-l.png)
 # Using DeFi
 
 The only requirements for someone to start engaging with most DeFi services are the working internet and some amount in cryptocurrency. 
