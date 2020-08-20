@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi2-Main-l.png)
+![](images/defi2-Main-l.png)
 # DeFi Products
 
 In just a few years DeFi ecosystem managed to grow from zero to a state where decentralized financial services manage cryptocurrency measured in billions USD. 
@@ -9,7 +9,7 @@ Below we cover some of the most popular DeFi product categories that already exi
 
 Other than dealing with cryptocurrency these services provide alternative to traditional financial services but without the means for someone to oversee your access to the service or interfere with your assets.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi2-exchanges-l.png)
+![](images/defi2-exchanges-l.png)
 
 ## 1. Decentralized Exchanges
 
@@ -44,7 +44,7 @@ Each DEX comes with its own features and unique selling points. While Uniswap ma
 
 We have explored each mentioned exchange in detail in the coming sections dedicated to [decentralized exchanges](/guides/defi/5-decentralized-exchanges.md).
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi2-pools-l.png)
+![](images/defi2-pools-l.png)
 
 ## 2. Liquidity Pools
 
@@ -81,7 +81,7 @@ For an in-depth overview, examples, differences between pools and expected profi
 
 Meanwhile, regard liquidity pools as automated instruments that for let cryptocurrency holders earn some passive income from their cryptocurrency.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi2-lendborrow-l.png)
+![](./images/defi2-lendborrow-l.png)
 
 ## 3. Lending Pools
 
@@ -107,7 +107,7 @@ These services imitate the functionality of traditional lending and borrowing se
         
 Some top DeFi services in that category include [Compound Finance](https://compound.finance/markets), [Aave](https://app.aave.com/home) and [Oasis](https://oasis.app/). The borrowing and lending rates, loan terms and collateral requirements usually vary from one service to another. We'll go over them in detail in [DeFi borrowing and lending](/guides/defi/7-lending-borrowing.md) guide.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi2-stablecoins-l.png)
+![](images/defi2-stablecoins-l.png)
 
 ## 4. Stablecoins
 
@@ -141,7 +141,7 @@ Not all stablecoins are built as per DeFi principles.
 
 So, while there are a lot of stablecoins built on Ethereum not all of them are built per DeFi attributes.
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi2-derivatives-l.png)
+![](images/defi2-derivatives-l.png)
 
 ## 5. Derivatives
 
