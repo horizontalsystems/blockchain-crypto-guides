@@ -2,81 +2,68 @@
 
 # DeFi Explained
 
-The aim of this guide is to onboard someone into Decentralized Finance ecosystem as quickly as possible without going into technicals.
+The aim of this guide is to onboard someone into Decentralized Finance, or DeFi in short, as quickly as possible without going into technicals.
 
-We aim to give you a clear guidance on what that new phenomena is, what makes it special, what kind of products exist, and more importantly how to approach it from an investment point of view.
+We aim to give you a clear guidance on:
+ 
+- what DeFi phenomena is
+- what makes it special
+- what kind of products exist
+- how people invest in it
 
-Decentralized Finance, or DeFi in short, describes a category of products which provide financial services but are not controlled by a centralized entity.
+Decentralized Finance, describes a category of products which provide financial services but are not controlled by a centralized entity.
 
-> Traditional financial services i.e. deposit accounts, money remittances, stock brokerages etc. are centralized. 
->
-> There is always a regulated service provider entity that administers user's access to the service and keeps assets on behalf of the user.
+In traditional finance, also called centralized finance, services providers act as intermediaries between the user and service. User's access and participation in the service is conditional and regulated by that service provider. 
 
-In traditional finance services providers act as intermediaries between the user and service. As a result user's access and participation in the service is conditional and regulated by that intermediary entity. 
-
-- Banks place minimum account balances, withdrawal caps and transfer limits on savings account.
+- Banks place minimum account balances, withdrawal caps and transfer limits on savings accounts.
 
 - Credit card issuers can cancel your card and service if they see any activity they deem suspicious. 
 
-- Both banks and credit cards providers can freeze accounts without disclosing the reason.
+- Investment opportunities are conditional and exclude most but the wealthiest members of society.
 
-- Offshore banks may seize uninsured savings in times of economic uncertainty.
+In DeFi, offered services are (generally) not governed by a centralized entity, not regulated, and operate autonomously without the need to be administered by a human.
 
-- Investment opportunities are often conditional and exclude most but the wealthiest members of society.
+Technologies like the internet, cryptography, and blockchain provided means to create financial instruments where trust and reliability guaranteed by computer programs removing the need for a human intermediary.
 
-In DeFi, the same type of services are (generally) not governed by a centralized entity, not regulated, and operate autonomously without the need to be administered by a human.
+> DeFi is an ecosystem, even a movement, driven by an aim to create a financial system that’s open to everyone and minimizes one’s need to trust and rely on central authorities.
 
-DeFi provides users with full control over the assets, and typically accessible to anyone worldwide, 24/7. DeFi services operate with cryptocurrency, usually Ethereum or some other Ethereum-based tokens.
+The majority of DeFi services take the form of decentralized apps, more commonly known as DApps, are built on Ethereum blockchain. Therefore, it's recommended to go over the [Ethereum guide](/guides/token_guides/ethereum.md) first. 
 
-> The majority of DeFi services take the form of decentralized apps, more commonly known as DApps. 
+> A good understanding of Ethereum, Smart Contracts and DApps is essential to understand material described in this section.
 
-DeFi services usually built on top of Ethereum blockchain. Thus, if you're new to Ethereum then it's recommended for you to go over the [Ethereum guide](/guides/token_guides/ethereum.md) first. A good understanding of Ethereum, Smart Contracts and DApps is essential to understand material described in this section.
-
-Today there are DeFi services for cryptocurrency lending, borrowing, trading, derivatives, insurance and other financial instruments people are used to. Other than being decentralized and dealing with cryptocurrency these services work similar to traditional finance counterparts.
-
-> DeFi is an ecosystem, perhaps even a movement, driven by an aim to create a financial system that’s open to everyone and minimizes one’s need to trust and rely on central authorities.
-
-Technologies like the internet, cryptography, and blockchain provided means to build an open and reliable financial system without the need for central authorities or some kind of agencies to mediate. These technologies enable creation of financial instruments where trust and reliability guaranteed by computer programs removing the need for a human intermediary.
+Today there are DeFi services for cryptocurrency lending, borrowing, trading, derivatives, insurance and other financial instruments.
 
 ## DeFi Attributes
 
-Unlike their traditional centralized counterparts, DeFi services usually (not always) built around following principles:
+DeFi services usually built around following principles:
 
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi-attributes-l.png)
+![](./images/defi-attributes-l.png)
 
-- Open (Unconditional)
+- Open To All
 
-    Anyone worldwide with an internet connection and some cryptocurrency can access and interact with the financial service regardless of location, age, experience, status etc. 
+    Anyone worldwide with an internet connection and some cryptocurrency can access and interact with the DeFi service regardless of location, age, experience, status etc. 
     
 - Censorship Resistant
 
-    DeFi services live on a blockchain, which is accessible 24/7 from anywhere in the world. Thousands of nodes powering the blockchain ensure constant availability and access to services that reside on it to anyone worldwide.
+    DeFi services live on a distributed blockchain, which is accessible 24/7 from anywhere in the world. Thousands of nodes powering the blockchain ensure uninterrupted access to services to anyone worldwide.
 
 - Non-Custodial
 
-    When operating with cryptocurrency assets on DeFi services you always maintain full unconditional control over the assets without passing custodianship. No dependence on some entity that acts as custodian of assets.
+    DeFi services operate with cryptocurrency assets. The service user always maintain full unconditional control over the assets. No dependence on other external factors, or some entity that acts as custodian of assets.
     
 - Guarantee Trust
 
-    DeFi services are public and have an open code. The service cannot do anything outside the scope of the pre-programmed rules. It cannot cheat, steal or misuse funds. Anyone can lookup the code powering given DeFi service and verify that it works exactly as it claims to and cannot do anything outside its scope.
+    DeFi services are public and have an open code. The service cannot do anything outside the scope of the pre-programmed rules. It cannot cheat, steal or misuse funds. Anyone can verify that it works exactly as it claims to.
 
-- Governed by Community
+- Owned By Many
 
-    In general, DeFi services are governed by a distributed group of entities where each entity has a vote weight proportional to their holdings of the governance token specific to that service. Some simpler DeFi services do not have any governance mechanism at all. More on that below.
+    In general, DeFi services don't belong to anyone and have no governance mechanism at all, or governed by a geographically distributed group of anonymous entities.
 
-Keeping above in mind, the goal of DeFi is to reconstruct the financial system for the whole world by building open and decentralized alternatives.
+Keeping above in mind, the goal of DeFi is to reconstruct the financial system for the whole world by building open, censorship-resistant, decentralized alternatives.
 
-While most DeFi projects are label themselves as 'decentralized' the degree of decentralization will vary from one service to another, depending on how it's built.
+> A minimum requirement for a DeFi service is to ensure that access to service is unconditional and users always maintain full control over their assets.
 
-There are a number of DeFi services built on Ethereum which label itself as decentralized but at the same time operate and governed like a centralized service. A project may score high on some attributes above and rank poorly on others.
-
-> There are currently no 100% decentralized financial platforms on the market.
-
-To be considered a DeFi service, a DApp has to exhibit one or more decentralized characteristics, and has to operate in a spirit of decentralization.
-
-It's expected for a DeFi service to ensure that users always maintain unconditional control over the assets.
-
-For instance, someone may build a service on Ethereum that implements some DeFi attributes but at the same time keeps a 'special' admin account accessible only to the service provider and can freeze other users' funds or censor someone from using the service. Such services cannot be classified as DeFi service.
+If a service built per can freeze other users' funds or censor someone from using the service it cannot be classified as a DeFi service.
     
 ## DeFi History
 
@@ -94,48 +81,22 @@ Despite some deficiencies Ethereum ecosystem it managed to produce a number of l
 
 Being a disruptive technology, the upside potential of the industry is extremely high.
 
-## Building DeFi
+## DeFi Today
 
-The DeFi been growing extremely fast. There are currently a lot of well-financed startups, entrepreneurs, and finance people working in DeFi ecosystem. It's difficult to stay on top even for someone involved in the industry on a full-time basis.
- 
-In essence, DeFi services consist of smart contracts that outline the operational logic of the service. Once that smart contract coded by engineers and added to the Ethereum blockchain it becomes public, permanent and accessible to all.
-
-To give you a better understanding of the DeFi development process let's outline some essential points about how the DeFi services are built, financed and governed:
-
-![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/defi/images/defi-building-l.png)
-
-- Building
-
-    The open nature of the Ethereum blockchain makes it possible for anyone to evaluate and reuse the code from existing projects.
-
-    All genuine DeFi projects are open source. The open source is a requirement if the project is to be trusted by a community.
-        
-    As a result engineers working on DeFi products are able to quickly assemble all kinds of services by utilizing the code powering other DeFi products.
-   
-- Financing
-
-    DeFi projects are decentralized which in many cases mean that service is not directly tied to some legal entity or corporation. It also usually means that service is not really regulated by any government authority or agency.
-
-    To raise funds, DeFi projects generally conduct so called token sale via a process such as ICO (Initial Coin Offering) or similar. In simple terms, the ICO is an equivalent of public stock listing (IPO), but a process that is open to all and hassle-free. During the ICO the project sells a project-specific Ethereum token which typically represents the vote weight or profit share in that DeFi project. 
-    
-    The ICO takes place on Ethereum blockchain and typically open to anyone, unconditionally. Anyone in possession of Ethereum or some other cryptocurrency can typically invest in those projects by buying the token during the sale. While many solid projects raised funds this way, there were also a lot of ICOs raising funds on empty promises.
-
-- Governance
-
-    As mentioned above, the entities working on DeFi projects raise funds through an ICO or alike token sale. The ownership of the token usually enables its owner to become a beneficiary of the DeFi project.
-    
-    There are a number of DeFi projects which are currently governed by a geographically-distributed entities which may not even know each other. The governance usually takes place via proposals and voting mechanisms.
-
-So, that's a basic overview of how building, financing and governance of DeFi services take place.
-
-## Size Of DeFi
-
-Decentralized finance is still a small but fast-growing industry:
+There are currently a lot of well-financed startups, entrepreneurs, and finance people working in DeFi ecosystem. 
 
 - The total amount of value locked in smart contracts powering DeFi services broke [$4B threshold](https://news.bitcoin.com/total-value-locked-in-defi-surpasses-4-billion-eth-up-over-70-last-30-days/) in August 2020.
 
-- While $4B may seem like a large amount of money to an individual, it’s only a tiny fraction of the amount locked in centralized finance counterparts which measured in trillions.
+- While $4B may seem like a large amount of money to an individual, it’s only a tiny fraction of the amount locked in centralized finance counterparts.
 
-- In Aug 2020, the market cap for all major cryptocurrency projects been valued at about 300B total, where top DeFi services accounted for less than 10% of that. The page [here](https://defimarketcap.io) lists top DeFi services by market cap. 
+- In Aug 2020, the market cap for all major cryptocurrency projects was at about 300B total, where top DeFi services accounted for [less than 10%](https://defimarketcap.io) of that.
 
-While we can’t necessarily expect DeFi to retain that level of growth, there’s a strong momentum as more and more people grow interested in digital assets and new ways to engage with financial instruments in a decentralized, unconditional and private manner.
+While we can’t necessarily expect DeFi to retain that level of growth, there’s a strong momentum. Growing number of people are getting interested in digital assets that work in a decentralized and private manner.
+
+Below is a basic overview of how building, financing and governance of DeFi services takes place:
+
+- All genuine DeFi projects expected to have open source code and free to reuse by public. Such status quo speeds up building by letting engineers reuse the code from other projects.
+        
+- To raise funds, DeFi projects generally conduct so called anonymous token sale via a process such as ICO (Initial Coin Offering) or similar. During the ICO the project sells a specific cryptocurrency token which may represent the governance weight or profit share in that DeFi project. 
+
+- DeFi projects usually governed by a geographically-distributed entities which may not even know each other. The governance usually takes place via proposals and voting mechanisms.
