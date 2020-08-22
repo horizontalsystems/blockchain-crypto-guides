@@ -78,16 +78,16 @@ Being a disruptive technology, the upside potential of the industry remains extr
 
 There are currently a lot of well-financed startups, entrepreneurs, and finance people working in DeFi ecosystem.
 
-- In August 2020, the total sum controlled by DeFi smart contracts has exceeded [4 billion USD](https://news.bitcoin.com/total-value-locked-in-defi-surpasses-4-billion-eth-up-over-70-last-30-days/) in value. While $4B may seem like a large amount of money to an individual, it’s only a tiny fraction of the amount locked in centralized finance counterparts.
+- In August 2020, the total sum controlled by DeFi smart contracts has exceeded [4 billion USD](https://news.bitcoin.com/total-value-locked-in-defi-surpasses-4-billion-eth-up-over-70-last-30-days/) in value. While $4B may seem a lot, it’s a small fraction of the total amount locked in centralized finance counterparts.
 
 - The market cap around this time for all major cryptocurrency projects was at about 300 billion USD, where top DeFi services accounted for [less than 10%](https://defimarketcap.io) of that.
 
-While we can’t necessarily expect DeFi to retain that level of growth, there’s a strong momentum as more people getting interested in digital assets that work in a decentralized and private manner.
+Today there’s a strong upside momentum as more people become interested in decentralized digital assets.
 
 Below is a basic overview of how building, financing and governance of DeFi services takes place:
 
-- All genuine DeFi projects expected to have an open source code and free to reuse by public. Such status quo speeds up development of the ecosystem by letting engineers reuse various components from other projects.
+- All genuine DeFi projects expected to have an open source code. This speeds up development of the entire ecosystem by enabling engineers reuse various components from other projects.
         
-- To raise funds DeFi projects generally conduct anonymous token sale via a process such as ICO (Initial Coin Offering) or similar. During the ICO the project sells a specific cryptocurrency token which represent the governance weight or profit share in that DeFi project. 
+- To raise funds DeFi projects generally conduct anonymous token sale via a process such as ICO (Initial Coin Offering) or similar. The project sells a specific cryptocurrency token representing governance weight or profit share in a project. 
 
-- DeFi projects usually governed by a geographically-distributed entities which may not even know each other. The governance may take place via proposals and voting mechanisms.
+- DeFi projects usually governed by a group of entities which may not even know each other. The governance may take place via proposals and voting mechanisms.
