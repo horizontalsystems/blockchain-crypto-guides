@@ -1,4 +1,28 @@
-# DeFi Lending & Borrowing
+![](./images/defi2-lendborrow-l.png)
+
+# Lending Pools
+
+
+A large segment of DeFi services built to facilitate borrowing and lending cryptocurrencies in a decentralized and secure manner. 
+
+- For borrowers:
+
+    Borrowing services allow someone to borrow cryptocurrency from a smart contract in exchange for a collateral in a form of another cryptocurrency as well as the service fee in a form interest.
+    
+    The borrower can generally repay the loan at any time and withdraw the deposited collateral. The smart contract is pre-programmed to repay the collateral back to the borrower when the loan returned.
+    
+    Generally speaking, borrowing services allow someone to access liquidity without having to sell their cryptocurrency. As will be shown later on there are many ways to make use of such services.
+    
+- For lenders:
+
+    Lending DeFi services allow cryptocurrency holders to lend their assets to a smart contract and earn interest from a smart contract.
+    
+    The smart contract's interest rate for lending is higher than it's for borrowing. As a result, smart contract is able to serve both borrowers and lenders.
+        
+Some top DeFi services in that category include [Compound Finance](https://compound.finance/markets), [Aave](https://app.aave.com/home) and [Oasis](https://oasis.app/). 
+
+The borrowing and lending rates, loan terms and collateral requirements usually vary from one service to another.
+
 
 A large segment of DeFi services built for enabling borrowing and lending cryptocurrencies in a decentralized manner.
 
