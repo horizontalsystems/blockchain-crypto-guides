@@ -91,6 +91,48 @@
         "image_url": "guides/token_guides/images/mkr-Main-l.png",
         "file_url": "guides/token_guides/makerdao.md",
         "updated_at": "01-06-2020"
+      },
+      {
+        "title": "Uniswap in Simple Terms",
+        "image_url": "guides/token_guides/images/",
+        "file_url": "guides/token_guides/uniswap.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Synthetix in Simple Terms",
+        "image_url": "guides/token_guides/images/",
+        "file_url": "guides/token_guides/synthetix.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Curve in Simple Terms",
+        "image_url": "guides/token_guides/images/",
+        "file_url": "guides/token_guides/curve-finance.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Balancer in Simple Terms",
+        "image_url": "guides/token_guides/images/",
+        "file_url": "guides/token_guides/balancer-dex.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Kyber Network in Simple Terms",
+        "image_url": "guides/token_guides/images/",
+        "file_url": "guides/token_guides/kyber-network.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Bancor in Simple Terms",
+        "image_url": "guides/token_guides/images/",
+        "file_url": "guides/token_guides/bancor-dex.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "dYdX in Simple Terms",
+        "image_url": "guides/token_guides/images/",
+        "file_url": "guides/token_guides/dydx-dex.md",
+        "updated_at": "01-09-2020"
       }
     ]
   },
@@ -104,27 +146,45 @@
         "updated_at": "01-09-2020"
       },
       {
-        "title": "DeFi Products",
-        "image_url": "guides/defi/images/defi2-Main-l.png",
-        "file_url": "guides/defi/2-defi-services.md",
-        "updated_at": "01-09-2020"
-      },
-      {
         "title": "Using DeFi",
         "image_url": "guides/defi/images/defi3-Main-l.png",
         "file_url": "guides/defi/3-using-defi.md",
         "updated_at": "01-09-2020"
       },
       {
-        "title": "Earning on DeFi",
-        "image_url": "guides/defi/images/defi4-Main-l.png",
-        "file_url": "guides/defi/4-making-money-defi.md",
+        "title": "Decentralized Exchanges",
+        "image_url": "guides/defi/images/defi2-exchanges-l.png",
+        "file_url": "guides/defi/3-decentralized-exchanges.md",
         "updated_at": "01-09-2020"
       },
       {
-        "title": "Decentralized Exchanges",
-        "image_url": "guides/defi/images/defi5-Main-l.png",
-        "file_url": "guides/defi/5-decentralized-exchanges.md",
+        "title": "Lending Pools",
+        "image_url": "guides/defi/images/defi2-lendborrow-l.png",
+        "file_url": "guides/defi/4-lending-borrowing.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Stablecoins",
+        "image_url": "guides/defi/images/defi2-stablecoins-l.png",
+        "file_url": "guides/defi/5-stablecoins.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Derivatives",
+        "image_url": "guides/defi/images/defi2-derivatives-l.png",
+        "file_url": "guides/defi/6-defi-derivatives.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Earning on DeFi",
+        "image_url": "guides/defi/images/defi4-Main-l.png",
+        "file_url": "guides/defi/7-making-money-defi.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "DeFi Transactions",
+        "image_url": "guides/defi/images/",
+        "file_url": "guides/defi/8-defi-transactions.md",
         "updated_at": "01-09-2020"
       }
     ]
