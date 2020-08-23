@@ -1,13 +1,12 @@
-
 ![](images/defi2-stablecoins-l.png)
 
-## Stablecoins Explained
+# Stablecoins
 
 The term stablecoin refers to a type of cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.
 
-> DeFi technologies like smart contracts enabled creation of cryptocurrencies which have a fixed value i.e. equal to 1 USD or say 1 oz (ca. 38 g) of gold. 
+> DeFi smart contracts enabled creation of cryptocurrencies which have a fixed value i.e. equal to 1 USD or say 1 oz (ca. 38 g) of gold. 
 >
-> Depending on how the stablecoin built it has various mechanisms in place to ensure its price always remains very close to the peg. 
+> Depending on how a stablecoin is built it may various mechanisms in place to ensure its price always remains very close to the peg. 
 
 While there are a lot of stablecoins in DeFi ecosystem each comes with its own specifics:
 
@@ -17,33 +16,33 @@ While there are a lot of stablecoins in DeFi ecosystem each comes with its own s
 
 So, while there are a lot of stablecoins built on Ethereum not all of them are built per DeFi attributes.
 
-
-## Stablecoins
-
-
+## Top Stablecoins
 
 - DAI
+
+    brief description
+    
 - USDT
+
+    brief description
+        
 - USDC
+
+     brief description
+        
 - TUSD
+
+    brief description
+    
 - BUSD
+
+    brief description
+    
 - sUSD
+
+    brief description
+    
 - PAX
 - renBTC
 - sBTC
 - wBTC (backed 1:1 by bitcoin)
-
-## Stablecoins
-
-The term stablecoin refers to a cryptocurrency which attempts to peg its market value to some external reference, usually it’s USD, EUR or Gold.
-
-DeFi enabled creation of cryptocurrencies which have a fixed value i.e. 1 USD or 1 oz (ca. 38 g) of gold. 
-
-- DAI (pegged to USD)
-- USDT (pegged to USD)
-- sUSD (pegged to USD)
-- PAX (pegged to a price of 1 oz (37.8 g) of gold)
-- renBTC (pegged to a price of Bitcoin)
-
-Most cryptocurrency stablecoins are built on the Ethereum blockchain. While there are a lot of stablecoins in the DeFi ecosystem each has its own specifics and built differently.
-

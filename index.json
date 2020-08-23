@@ -146,9 +146,9 @@
         "updated_at": "01-09-2020"
       },
       {
-        "title": "Using DeFi",
+        "title": "How To DeFi",
         "image_url": "guides/defi/images/defi3-Main-l.png",
-        "file_url": "guides/defi/3-using-defi.md",
+        "file_url": "guides/defi/2-howto-defi.md",
         "updated_at": "01-09-2020"
       },
       {
@@ -170,21 +170,15 @@
         "updated_at": "01-09-2020"
       },
       {
-        "title": "Derivatives",
-        "image_url": "guides/defi/images/defi2-derivatives-l.png",
-        "file_url": "guides/defi/6-defi-derivatives.md",
-        "updated_at": "01-09-2020"
-      },
-      {
-        "title": "Earning on DeFi",
-        "image_url": "guides/defi/images/defi4-Main-l.png",
-        "file_url": "guides/defi/7-making-money-defi.md",
-        "updated_at": "01-09-2020"
-      },
-      {
-        "title": "DeFi Transactions",
+        "title": "DeFi Fees & Privacy",
         "image_url": "guides/defi/images/",
-        "file_url": "guides/defi/8-defi-transactions.md",
+        "file_url": "guides/defi/6-fees-privacy.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Programming DeFi",
+        "image_url": "guides/defi/images/",
+        "file_url": "guides/defi/7-programmable.md",
         "updated_at": "01-09-2020"
       }
     ]

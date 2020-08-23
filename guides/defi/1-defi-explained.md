@@ -20,13 +20,11 @@ Technologies like the internet, cryptography, and blockchain provided means to c
 
 > DeFi is an ecosystem, even a movement, driven by an aim to create a financial system that’s open to everyone and minimizes one’s need to trust and rely on central authorities.
 
-The majority of DeFi services operate on top of Ethereum blockchain and take the form of decentralized apps, more commonly known as DApps. Therefore, it's recommended to go over the [Ethereum guide](/guides/token_guides/ethereum.md) first. 
+The majority of DeFi services operate on top of Ethereum blockchain and take the form of decentralized apps, more commonly known as DApps. 
 
-A good understanding of Ethereum, Smart Contracts and DApps is essential to understand DeFi.
+It's recommended to go over the [Ethereum guide](/guides/token_guides/ethereum.md) if you're not familiar with it. A good understanding of Ethereum, Smart Contracts and DApps is essential to understand DeFi.
 
 ## DeFi Attributes
-
-Today there are DeFi services for cryptocurrency lending, borrowing, trading, derivatives, insurance and other financial instruments.
 
 Typically, DeFi services usually built around following principles:
 
@@ -56,7 +54,7 @@ Keeping above in mind, the goal of DeFi is to reconstruct the financial system f
 
 > An absolute minimum requirement for a DeFi service is to ensure that access to service is unconditional and users always maintain full control over their assets.
 
-If a service provides means to some parties to freeze other users' funds or censor someone from using the service it cannot be classified as a DeFi service.
+If a service provides means to freeze funds or censor someone it cannot be classified as a DeFi service.
     
 ## DeFi History
 
@@ -78,9 +76,9 @@ Being a disruptive technology, the upside potential of the industry remains extr
 
 There are currently a lot of well-financed startups, entrepreneurs, and finance people working in DeFi ecosystem.
 
-- In August 2020, the total sum controlled by DeFi smart contracts has exceeded [4 billion USD](https://news.bitcoin.com/total-value-locked-in-defi-surpasses-4-billion-eth-up-over-70-last-30-days/) in value. While $4B may seem a lot, it’s a small fraction of the total amount locked in centralized finance counterparts.
+- In August 2020, the total sum controlled by DeFi smart contracts has exceeded [4 billion USD](https://news.bitcoin.com/total-value-locked-in-defi-surpasses-4-billion-eth-up-over-70-last-30-days/) in value.
 
-- The market cap around this time for all major cryptocurrency projects was at about 300 billion USD, where top DeFi services accounted for [less than 10%](https://defimarketcap.io) of that.
+- Around the same, cumulative market cap for DeFi projects accounted for [less than 10%](https://defimarketcap.io) of entire cryptocurrency ecosystem valued at 300 billion.
 
 Today there’s a strong upside momentum as more people become interested in decentralized digital assets.
 
