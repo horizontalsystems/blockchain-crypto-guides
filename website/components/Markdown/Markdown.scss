@@ -1,5 +1,11 @@
 @import "../../pages/styles/utils.scss";
 
+@mixin sm1024 {
+  @media (min-width: 1025px) {
+    @content;
+  }
+}
+
 .Markdown-container {
   display: flex;
   position: relative;
@@ -138,57 +144,73 @@
   }
 }
 
-.dark-mode .Markdown {
-  blockquote {
-    background: $dark-soft;
-  }
+.dark-mode .Markdown blockquote {
+  background: $dark-soft;
 }
 
 .Markdown-content {
   font-size: 16px;
   line-height: 22px;
   margin-top: 0;
-  margin-right: 24px;
   padding: 0 24px 24px;
   border-radius: 0;
   overflow: hidden;
 
   @include md {
     padding: 36px 88px;
-    margin-bottom: 58px;
-    margin-top: 36px;
+  }
+
+  @include sm1024 {
     border-radius: 16px;
+    margin-top: 36px;
+    margin-right: 24px;
+    margin-bottom: 58px;
   }
 }
 
-.Markdown-banner {
-  margin-top: 36px;
-  margin-right: 24px;
+.Markdown {
+  width: 100%;
 
-  @include sm {
-    margin-top: 0
+  @include sm1024 {
+    width: 75%;
   }
 }
 
+.Markdown-sidebar {
+  width: 100%;
 
-.Markdown-banner, .Markdown-content, .Markdown-side {
-  @include sm {
-    margin-right: 0;
-    width: 100%;
+  @include sm1024 {
+    width: 25%;
+  }
+}
+
+.Markdown-side {
+  display: none;
+
+  @include sm1024 {
+    display: block;
+  }
+}
+
+.Markdown-side-top {
+  display: block;
+
+  @include sm1024 {
+    display: none;
   }
 }
 
 .Markdown-side-content {
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
+  box-shadow: none;
+  border-radius: 0;
   position: sticky;
   top: $header-height+36px;
-  margin-bottom: 58px;
+  margin-bottom: 0;
 
-  @include sm {
-    box-shadow: none;
-    border-radius: 0;
-    margin-bottom: 0;
+  @include sm1024 {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-bottom: 58px;
   }
 }
 
@@ -202,11 +224,15 @@
   background: $dark;
 }
 
-.Markdown-side-fixed {
+.Markdown-side-top {
   position: sticky;
   width: 100%;
   top: 80px;
   z-index: 1;
+
+  @include md {
+    top: 110px;
+  }
 }
 
 .Markdown-side-head {
@@ -260,19 +286,23 @@
 }
 
 .Markdown-side-bottom {
-  @include sm {
-    display: none;
+  display: none;
+
+  @include sm1024 {
+    display: block;
   }
 }
 
 .Markdown-menu {
+  width: 100%;
   max-height: 300px;
   overflow: auto;
+  display: none;
+  position: absolute;
 
-  @include sm {
-    display: none;
-    position: absolute;
-    width: 100%;
+  @include sm1024 {
+    position: relative;
+    display: block;
   }
 }
 

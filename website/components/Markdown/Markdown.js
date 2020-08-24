@@ -178,19 +178,17 @@ class Markdown extends React.Component {
           <div className="Progress-bar" style={{ width: scrolled }} />
         </div>
 
-        <div className="md:w-3/4 sm:w-full">
-          <div className="md:w-1/4 sm:w-full Markdown-side-fixed sm-show md-hidden">
+        <div className="Markdown">
+          <div className="Markdown-sidebar Markdown-side-top">
             {this.sidebar(this.state, true)}
           </div>
-          <div className="Markdown">
-            <div
-              className="Markdown-content"
-              style={{ fontSize, lineHeight: `${lineHeight}px` }}
-              dangerouslySetInnerHTML={{ __html: guide.content }} />
-          </div>
-
+          <div
+            className="Markdown-content"
+            style={{ fontSize, lineHeight: `${lineHeight}px` }}
+            dangerouslySetInnerHTML={{ __html: guide.content }}
+          />
         </div>
-        <div className="md:w-1/4 sm:w-full Markdown-side sm-hidden">
+        <div className="Markdown-sidebar Markdown-side">
           {this.sidebar(this.state)}
         </div>
       </Container>
