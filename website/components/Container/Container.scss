@@ -2,6 +2,7 @@
 
 .Container {
   width: 100%;
+  max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
   word-wrap: break-word;
@@ -14,20 +15,20 @@
   }
 
   @include md {
-    max-width: 720px;
+    padding: 0 60px;
   }
 
-  @include lg {
-    max-width: 960px;
-  }
-
-  @include xl {
-    max-width: 1170px;
-  }
-
-  @include xxl {
-    max-width: 1530px;
-  }
+  //@include md {
+  //  max-width: 720px;
+  //}
+  //
+  //@include lg {
+  //  max-width: 960px;
+  //}
+  //
+  //@include xl {
+  //  max-width: 1170px;
+  //}
 }
 
 .Container-fluid {

@@ -51,4 +51,3 @@ $screen-xxl: 1441px !default;
 @mixin md { @media (min-width: $screen-md) { @content; } }
 @mixin lg { @media (min-width: $screen-lg) { @content; } }
 @mixin xl { @media (min-width: $screen-xl) { @content; } }
-@mixin xxl { @media (min-width: $screen-xxl) { @content; } }
