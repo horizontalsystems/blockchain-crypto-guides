@@ -47,7 +47,7 @@ $screen-lg: 992px  !default;
 $screen-xl: 1200px !default;
 $screen-xxl: 1441px !default;
 
-@mixin sm { @media (max-width: $screen-md) { @content; } }
+@mixin sm { @media (max-width: $screen-md - 1px) { @content; } } // -1px for cover 768th size
 @mixin md { @media (min-width: $screen-md) { @content; } }
 @mixin lg { @media (min-width: $screen-lg) { @content; } }
 @mixin xl { @media (min-width: $screen-xl) { @content; } }
