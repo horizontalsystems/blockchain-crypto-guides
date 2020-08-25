@@ -83,15 +83,33 @@
 }
 
 .dark-mode {
+  .Button-circle {
+    border: 1px solid $dark-light;
+
+    path {
+      fill: #37393B;
+    }
+  }
+
+  .Button-circle-yellow {
+    border: 1px solid $yellow-l;
+
+    path {
+      fill: $darkest;
+    }
+  }
+
   .Button-yellow {
     color: $darkest;
   }
 
   .Button-filter-inactive {
     background: $dark;
+    color: $yellow-l;
 
     &:enabled:hover {
       background: $yellow-l;
+      color: $darkest;
     }
   }
 }
