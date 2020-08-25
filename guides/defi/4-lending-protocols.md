@@ -3,68 +3,99 @@
 # Lending Pools
 
 There are DeFi services which facilitate cryptocurrency lending and borrowing services in non-custodial manner.
-    
-Those with crypto assets can lend their assets to a DeFi service and earn interest. At the same time these smart contract powered services allow others to borrow cryptocurrency at higher rates. 
 
-- For borrowers:
+- For borrowers
 
-    Borrowing services allow someone to borrow cryptocurrency from a smart contract in exchange for a collateral in a form of another cryptocurrency as well as the service fee in a form interest.
+    Decentralized borrowing services allow someone to borrow cryptocurrency from a smart contract in exchange for a collateral in other cryptocurrency.
     
-    The borrower can generally repay the loan at any time and withdraw the deposited collateral. The smart contract is pre-programmed to repay the collateral back to the borrower when the loan returned.
+    The borrower may repay the loan at any time and return the collateral.
     
-    Generally speaking, borrowing services allow someone to access liquidity without having to sell their cryptocurrency. As will be shown later on there are many ways to make use of such services.
+    Generally speaking, borrowing services allow someone to access liquidity without having to sell their cryptocurrency. 
     
-- For lenders:
-
-    Lending DeFi services allow cryptocurrency holders to lend their assets to a smart contract and earn interest from a smart contract.
-    
-    The smart contract's interest rate for lending is higher than it's for borrowing. As a result, smart contract is able to serve both borrowers and lenders.
+    There are also loans where the borrower can borrow without a collateral. More on that below.
         
-Some top DeFi services in that category include:
- 
-- [Compound Finance](https://compound.finance/markets), 
-- [Aave](https://app.aave.com/home)
-- [Oasis](https://oasis.app/)
+- For lenders
 
-The borrowing and lending rates, loan terms and collateral requirements usually vary from one service to another.
+    Lending DeFi services allow cryptocurrency holders to lend assets to a smart contract and earn interest. 
+    
+    The lender can pull deposits out of smart contract at any time along with accrued interest.
 
-A large segment of DeFi services built for enabling borrowing and lending cryptocurrencies in a decentralized manner.
+Typically, cryptocurrency market participants borrow assets from smart contract in order to utilize these funds in activity where these assets can make more returns than the cost of borrowing them.
 
-People can lock up funds in smart contracts and set certain conditions for them to release to each participant. This can take the form of contributing to lending pools, or to offering personal loans. Borrows can gain access to the crypto they need, often using their existing crypto as collateral.
- 
+For instance, someone may borrow one cryptocurrency from one DeFi service and then lend it to another DeFi service with higher returns.
 
-The problem with many of the DeFi lending platforms that have been developed so far is that they offer over-collateralized loans. That means that in order to borrow one type of crypto, you have to put up a greater amount of another coin as collateral. This does not do much to make borrowing more accessible to people of limited means, as it requires them to have excess funds. 
+## Collateralized Loans
 
-Why take out an over-collateralized crypto loan? Why not just use an exchange to trade your ETH for some other sort of crypto? This primarily comes down to the different earning potentials of various cryptocurrencies. If you have a significant sum of ETH that you want to continue to hold because you believe it will gain in value, but in the short term you need some money to pay bills or make a purchase, you can collateralize your ETH, get the loan of the other cryptocurrency, convert it to fiat, and your ETH will continue to earn value while it is held in escrow on the loaning platform.
+There is a growing segment of DeFi services which provide access to collateralized loans:
 
-Some users also like to use DeFi loans to perform a sort of leverage trading, where they put their ETH up as collateral to take out a loan of another cryptocurrency, then convert the funds they borrowed into more ETH. This sort of strategy counts on ETH gaining in value faster than the borrowed cryptocurrency, allowing the user to pay off their loan after earning a profit on the ETH they purchased with the loan. Like any form of leverage trading, this involves taking on a certain amount of risk, since they could lose value rather than gaining if the market does not go in the borrower’s favor.
+- The borrower has to put up another cryptocurrency as collateral, often significantly more than borrowed amount.
 
-Users of DeFi lending platforms must closely monitor the value of ETH and the currency they have borrowed, as well. If the values of these currencies change and your collateral falls below the required percentage, your collateral will be liquidated.
+- High collateral is necessary to protect the lenders on the platform should the value of collateral assets drop sharply.
 
-Why Do These Platforms Require Such High Collateral?
+- If collateral value falls below the required, smart contract attempts to liquidate the collateral in an effort to repurchase lent assets. 
 
-The high collateral requirements of DeFi lending platforms are intended as a sort of insurance policy, to protect the platform but especially to protect the funds which users have dedicated to the lending pool. 
-
-If you are contributing your DAI to the lending pool, you want to know you are going to get it back. Thus you rely on the fact that the borrower will want to be able to redeem the ETH which they have put up as collateral.
-
-In general, you can trust that no one is going to willingly give up on a large amount of crypto which they have staked on their loan. Any economically rational actor will do everything within their power to pay back their loan and prevent their collateral from being liquidated. Thus, lenders can invest their funds into the pool confident that either the loan will be paid back, or they will receive recompense from the liquidated collateral.
- 
-On the surface it appears that there is no risk for lenders in these situations. However, there is still potential for things to go wrong that could cause a lender to lose their funds. Some protocols, such as the MakerDAO system, have to sell the liquidated collateral. If the value of ETH were to drop rapidly and the system took a while to find a buyer, the lender could end up receiving less value back than they lent out.
- 
-Likewise, as with all DeFi ecosystems, there is the possibility of a hack or exploit which could drain the liquidity pool, causing lenders to lose their assets. And as with all financial systems (and life in general, really) one must keep in mind the remote possibility of a totally unforeseen event that could have negative or positive effects on the market (one example being the coronavirus pandemic of 2020).
-
-Decentralized lending protocols are designed to give lenders the best possible chance of getting their funds back, but as with everything, lenders must be sure not to commit more money than they can afford to lose. It is also advisable to research any lending pool before participating in it to determine if there is a history of hacks or exploits, and if so, what steps were taken to address them.
+A borrower is incentivized to pay back loan and prevent their collateral from being liquidated in order not to lose part of the collateral.
 
 ## Flash Loans
 
-Flash Loans
-There is another form of crypto lending and borrowing which does not involve collateral, called
-6
-7
-A flash loan allows the lender to borrow funds without any collateral, provided they pay back the loan within the same transaction. This sounds confusing on the surface. Why take out a loan if you have to pay it back immediately?
-There are a few legitimate applications for flash loans. They are primarily designed to allow users to essentially refinance their crypto loans, or perform arbitrage to take advantage of better rates on various exchanges. They do this by allowing the user to set up a chain of actions that happen within a single smart contract. This set of actions is considered “atomic” -- meaning it either happens or it doesn’t. If the end result of the contract does not allow the borrower to pay back their original loan and any required gas or interest, then the entire contract is reverted and none of the transactions happen.
-It is really easy to conceptualize this if you play video games. Imagine if you will that you are playing a game where you have a “time stop” ability. Using this ability, you can take all of the
-a flash loan . Flash loans made major news in 2020 when they were used to perform the attacks
-on bZx , inspiring arguments as to the utility and value of this technology. Indeed, many of the articles you will find about flash loans discuss how they can be used to exploit the system, and you have to dig deeper to find non-exploitative applications.
-Copyright 2020 Cointelligence LTD. All rights reserved. 44
- time you need to set up a chain of abilities which will all go off when time resumes. A flash loan allows you to essentially simultaneously perform multiple financial transactions in an instant: borrowing the funds, using them to make several arbitrage trades across multiple DeFi platforms, and then paying them back to the original lender, all in one go.
+There is another form of cryptocurrency borrowing which does not involve the collateral at all. 
+
+> A flash loan allows the lender to borrow funds without any collateral, provided they pay back the loan within the same transaction. 
+
+A single DeFi transaction may consist of multiple steps interacting with various DeFi services. 
+
+> While most DeFi transactions are simple and involve a single action it's practically possible to create transactions that interact with any number of services, in a single transaction.
+
+To demo this, let's assume a sample DeFi transaction that may look as below: 
+
+1. take out a flash tokenA from a smart contract
+2. convert tokenA on DEX1 to tokenB
+3. convert tokenB to tokenC on DEX2
+4. convert tokenC to tokenA on DEX3
+5. repay borrowed tokenA to a smart contract
+
+If any steps in transaction chain fail then preceding steps would be reverted and transaction would fail as well, like it never happened.
+
+Practically speaking, anyone and anywhere can make use of flash loans and borrow as much as needed without a collateral, given that loan is returned within the same transaction.
+
+> Taking advantage of flash loans as a method of arbitrage or leverage trading requires having an intimate knowledge of the market, as well how various DApps work and where favorable price fluctuations can be found.
+
+A flash loan allows you to essentially simultaneously perform multiple financial transactions in an instant: borrowing the funds, using them to make several arbitrage trades across multiple DeFi platforms, and then paying them back to the original lender, all in one go.
+
+## Top Services for Borrowing
+
+There are a lot of DeFi services where someone can borrow cryptocurrency. The borrowing rate, terms and collateral requirements will vary from one service to another.
+
+- [Compound Finance](https://compound.finance/markets)
+
+    Perhaps the most popular decentralized service for borrowing and lending. 
+    
+    Compound loans typically require a collateral that may change between 0-90% of the borrowed asset. Each asset on Compound can have a different collateral requirement.
+    
+    Read: [Compound in Simple Terms](/guides/token_guides/compound.md)
+    
+- [Aave](https://app.aave.com/home)
+
+    Aave has one feature that sets it apart from others: Flash loans allow customers or to take out loans without any collateral. It's a type of loan that is made on the condition that the loan is returned before the transaction ends. 
+    
+    The flash loans are provided from a liquidity pool which is financed by other users. Aave charges a 0.09% fee on flash loans.
+    
+    Aave provides collateralized loans as well, a 0.01% of the loan amount is collected on loan origination.
+    
+    Read: [Aave in Simple Terms](/guides/token_guides/aave.md)    
+    
+- [Oasis Exchange](https://oasis.app/)
+
+    Oasis is a DEX developed by MakerDAO which facilitates lending and borrowing of DAI stablecoin. 
+    
+    Users may borrow DAI from MakerDAO smart contracts which creates new DAI (increasing total circulation) in exchange for a cryptocurrency collateral (i.e. 150% of loan value) from a borrower.
+    
+    When DAI tokens are returned, the collateral paid back to the borrower and returned DAI tokens are destroyed by a smart contract.
+    
+    Read: [MakerDAO in Simple Terms](/guides/token_guides/makerdao.md)
+  
+Keep in mind that despite being fully automated and human free there are significant risks when dealing with these services.
+
+> As with other DeFi services, there is always a possibility of a hack or exploit which could drain the liquidity pool of the smart contract, causing lenders to lose their assets.
+
+Therefore, lenders must be sure not to commit more money than they can afford to lose. 
