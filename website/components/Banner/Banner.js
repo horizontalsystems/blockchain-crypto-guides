@@ -11,13 +11,13 @@ export default function Banner({ title, info }) {
             <div className="Banner-description">{info}</div>
           </div>
           <img
-            className="Banner-light md:h-full md:w-1/2 object-cover md:object-left"
+            className="Banner-light md:h-full md:w-1/2 object-contain"
             src="/images/banner.png"
             srcSet={`/images/banner@2x.png 2x, /images/banner@3x.png 3x`}
             alt={title}
           />
           <img
-            className="Banner-dark md:h-full md:w-1/2 object-cover md:object-left"
+            className="Banner-dark md:h-full md:w-1/2 object-contain"
             src="/images/banner-d.png"
             srcSet={`/images/banner-d@2x.png 2x, /images/banner-d@3x.png 3x`}
             alt={title}

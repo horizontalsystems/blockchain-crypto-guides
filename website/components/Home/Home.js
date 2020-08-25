@@ -67,6 +67,10 @@ class Home extends React.Component {
       items: items.slice(0, filterSize),
       pages: this.pages(items.length)
     })
+
+    if (this.guides) {
+      this.guides.scrollIntoView()
+    }
   }
 
   selectPage = active => {
@@ -112,7 +116,7 @@ class Home extends React.Component {
               />
             )}
           </div>
-          <div className="Guides grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+          <div className="Guides grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4" ref={r => this.guides = r}>
             {items.map((item, i) =>
               <Link key={i} href="[lang]/guide/[...slug]" as={`/guide/${item.slug}`}>
                 <a><Card title={item.title} date={item.date} image={item.image} /></a>

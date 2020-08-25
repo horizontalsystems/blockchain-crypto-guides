@@ -1,4 +1,5 @@
 @import "../../pages/styles/utils";
+@import "Input";
 
 .Modal-form, .Contact-success {
   margin: auto;
@@ -36,7 +37,7 @@
   display: flex;
   justify-content: space-between;
 
-  input, textarea, .btn {
+  input, textarea, button {
     margin: 16px 10px;
 
     @include sm {
@@ -88,41 +89,9 @@
   float: left;
 }
 
-input, textarea, .btn {
-  box-sizing: border-box;
-  border: none;
-  border-radius: 8px;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 18px;
-
-  @include sm {
-    margin: 16px 0;
-  }
-}
-
-input, textarea {
-  border: 1px solid $dark-light;
-  padding: 15px 24px !important;
-  background: black;
-  width: 100%;
-  color: $grey;
-  outline: none;
-}
-
-.btn {
-  cursor: pointer;
-  padding: 10px 24px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 23px;
-  color: $white;
-  text-decoration: none;
-
+.Button-submit {
   &.loading {
     display: none;
-    opacity: 0.6;
-    cursor: not-allowed;
   }
 
   @include sm {
@@ -131,57 +100,14 @@ input, textarea {
   }
 }
 
-.btn-green {
-  background: $green;
-  color: white;
-
-  &:hover {
-    background: lighten($green, 2%);
-  }
-}
-
-.btn-dark {
-  background: $black;
-  color: white;
-
-  &:hover {
-    background: lighten($dark-steal, 2%);
-  }
-}
-
-.btn-grey {
-  background: $grey;
-  color: white;
-
-  &:hover {
-    background: lighten($grey, 2%);
-  }
-}
-
-.btn-yellow {
-  background: $yellow-l;
-  color: white;
-
-  &:hover {
-    background: lighten($yellow-l, 2%);
-  }
-}
-
 .Subscribe-checkbox-wrap {
   display: flex;
   align-items: center;
-  margin: 0 10px;
-
-  &:hover {
-    color: $grey;
-  }
-
-  .Contact-checkbox {
-    width: 20px;
-  }
+  margin: 5px 10px 18px;
+  width: 100%;
 
   .Contact-checkbox-description {
-    padding-left: 12px;
+    padding-left: 28px;
     font-size: 14px;
     line-height: 18px;
     color: $grey;
@@ -190,14 +116,11 @@ input, textarea {
       font-size: 14px;
       line-height: 18px;
     }
-
-    &:hover, &:hover > a {
-      color: $grey-light;
-    }
   }
 
   a {
-    color: #3D3D42;
+    color: $grey;
+    text-decoration: underline;
   }
 
   @include sm {

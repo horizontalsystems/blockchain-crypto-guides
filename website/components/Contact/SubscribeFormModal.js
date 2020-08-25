@@ -28,15 +28,16 @@ class SubscribeFormModal extends React.Component {
           <div className="Contact-form-group">
             <input type="email" className="form-control bg-white" name="fields[email]" placeholder="Email" required />
           </div>
-          <label className="Subscribe-checkbox-wrap">
-            <input type="checkbox" className="Contact-checkbox" defaultChecked={true} required />
+          <label className="checkbox-label Subscribe-checkbox-wrap">
+            <input type="checkbox" defaultChecked={true} required />
+            <span className="checkbox-custom" />
             <div className="Contact-checkbox-description">
-              By signing up, you agree to Horizontal Systems Privacy Policy
+              By signing up, you agree to Horizontal Systems <a href="https://horizontalsystems.io/privacy">Privacy Policy</a>
             </div>
           </label>
           <div className="Contact-form-group">
-            <button type="submit" className="btn primary btn-yellow w-full">Subscribe</button>
-            <button type="button" className="btn loading btn-yellow w-full" disabled="disabled">Subscribe</button>
+            <button type="submit" className="Button Button-yellow Button-submit primary w-full">Subscribe</button>
+            <button type="button" className="Button Button-yellow Button-submit loading w-full" disabled="disabled">Subscribe</button>
           </div>
         </form>
 

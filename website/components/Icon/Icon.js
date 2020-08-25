@@ -20,6 +20,7 @@ import { ReactComponent as Arrow } from './arrow.svg'
 import { ReactComponent as TBig } from './TBig.svg'
 import { ReactComponent as TSmall } from './TSmall.svg'
 import { ReactComponent as Done } from './done.svg'
+import { ReactComponent as Logo } from './logo.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -69,6 +70,8 @@ const iconComponent = name => {
     //  Wallet
     case 'rect':
       return <Rect />
+    case 'logo':
+      return <Logo />
 
     default:
       return null
