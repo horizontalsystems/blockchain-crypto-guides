@@ -29,6 +29,10 @@ The high fee issue may no longer be relevant when Ethereum blockchain expands it
 
 So, keeping in mind above, it makes more sense to use DeFi for transacting with larger sums. A DeFi transactions involving 20$ worth of funds may require a fee equivalent to the half of the amount. Paying a 10$ fee for a transaction that involves $5000 worth of cryptocurrency may be acceptable.
 
+## Approvals & Allowance
+
+sdfsdfsdf
+
 # DeFi Privacy
 
 As most of the DeFi projects built on top of Ethereum blockchain the privacy on DeFi is basically the privacy you get with the Ethereum. 
