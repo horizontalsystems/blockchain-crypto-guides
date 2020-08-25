@@ -3,6 +3,11 @@
 .Guides {
   row-gap: 36px;
   column-gap: 24px;
+  scroll-margin-top: 160px;
+
+  @include md {
+    scroll-margin-top: 110px + 88px;
+  }
 }
 
 .Guides-filter {

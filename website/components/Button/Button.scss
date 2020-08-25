@@ -1,16 +1,22 @@
 @import "../../pages/styles/utils";
 
 .Button {
+  color: white;
   font-family: $ibm-plex-sans;
   font-weight: 500;
   font-size: 14px;
-  color: white;
   line-height: 18px;
   padding: 11px 24px;
   border-radius: 8px;
 
   &:focus {
     outline: none;
+  }
+
+  &:disabled {
+    color: $light-steal;
+    background: $grey-light;
+    cursor: not-allowed;
   }
 }
 
@@ -55,7 +61,7 @@
 .Button-grey {
   background: $grey;
 
-  &:hover {
+  &:enabled:hover {
     background: lighten($grey, 2%);
   }
 }
@@ -63,7 +69,7 @@
 .Button-yellow {
   background: $yellow-l;
 
-  &:hover {
+  &:enabled:hover {
     background: lighten($yellow-l, 2%);
   }
 }
@@ -71,15 +77,39 @@
 .Button-filter-inactive {
   @apply Button-grey;
 
-  &:hover {
+  &:enabled:hover {
     background: $yellow-l;
   }
 }
 
-.dark-mode .Button-filter-inactive {
-  background: $dark;
+.dark-mode {
+  .Button-circle {
+    border: 1px solid $dark-light;
 
-  &:hover {
-    background: $yellow-l;
+    path {
+      fill: #37393B;
+    }
+  }
+
+  .Button-circle-yellow {
+    border: 1px solid $yellow-l;
+
+    path {
+      fill: $darkest;
+    }
+  }
+
+  .Button-yellow {
+    color: $darkest;
+  }
+
+  .Button-filter-inactive {
+    background: $dark;
+    color: $yellow-l;
+
+    &:enabled:hover {
+      background: $yellow-l;
+      color: $darkest;
+    }
   }
 }

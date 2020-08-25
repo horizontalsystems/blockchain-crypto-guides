@@ -21,13 +21,14 @@ class SubscribeForm extends React.Component {
 
           <div className="Contact-form-group">
             <input type="email" className="form-control" name="fields[email]" placeholder="Email" required />
-            <button type="submit" className="btn primary btn-yellow">Subscribe</button>
-            <button type="button" className="btn loading btn-yellow" disabled="disabled">Subscribe</button>
+            <button type="submit" className="Button Button-yellow Button-submit primary">Subscribe</button>
+            <button type="button" className="Button Button-yellow Button-submit loading" disabled="disabled">Subscribe</button>
           </div>
-          <label className="Subscribe-checkbox-wrap">
-            <input type="checkbox" className="Contact-checkbox" defaultChecked={true} required />
+          <label className="checkbox-label Subscribe-checkbox-wrap">
+            <input type="checkbox" defaultChecked={true} required />
+            <span className="checkbox-custom" />
             <div className="Contact-checkbox-description">
-              By signing up, you agree to Horizontal Systems Privacy Policy
+              By signing up, you agree to Horizontal Systems <a href="https://horizontalsystems.io/privacy">Privacy Policy</a>
             </div>
           </label>
         </form>

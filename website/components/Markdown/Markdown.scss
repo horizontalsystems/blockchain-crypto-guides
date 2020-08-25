@@ -1,5 +1,11 @@
 @import "../../pages/styles/utils.scss";
 
+@mixin sm1024 {
+  @media (min-width: 1025px) {
+    @content;
+  }
+}
+
 .Markdown-container {
   display: flex;
   position: relative;
@@ -32,8 +38,8 @@
 
 .Markdown {
   p, ul, ol, blockquote {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 12px;
+    margin-bottom: 24px;
   }
 
   ul, ol {
@@ -42,9 +48,9 @@
   }
 
   .icon-link {
-    width: 18px;
-    height: 18px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC0SURBVHgBzZExDsIwDEV/TBbE0iPkZpyBFTGABMxcgZPRI2SpmIhxo2ZpnaaqMvRLUSTb+t95MVD0feL4C3gZoEFJjJZ2uBqt1z3wkQGH5fI2k+L663CBKTl0d5mWzQmVVM3IrAG7P+OdSsPTQIEj8bJJjIULEqq1rAY2pYxhJ7Ca0fZgVzOymbqX0yRWY03q/W9qgxxwEswtFkgcPRNu0T2XrG2Sm90m7FmwE7HOjlaBVfQHgRxLA83TDB0AAAAASUVORK5CYII=');
+    width: 16px;
+    height: 16px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADiSURBVHgBzZLNDYJAEIXfAhcPJpZAJ5ZACdbA1cSA8edsC5ZgB1qJlEBiiCd2nFkBCcye9uK7wM7uvJn5dg0Uvc/YtBYXA6zgE6GKYpRG22tOePKB2hJuvvzIIONPmnjcU07eL3cofQavgzMpIgQq2CDxAZP2miMKt+iALba4zgx4ViFZjYFJMsfuLeHRrTPLRfh3bqABk8qS3Md6YNoI4Qw88Vralsqi2GBN307KobK8A2ajGpBFbmJ3x65t+iUNY3Cs5v5zmZfGzppkX85pe3/wkDABplbpgKkGU2CaBmCKPsIJXILYmYoSAAAAAElFTkSuQmCC');
     background-size: cover;
     display: block;
     visibility: hidden;
@@ -64,7 +70,8 @@
       padding: 5px 10px 5px 5px;
     }
 
-    &:hover .icon, a:hover .icon {
+    &:hover .icon,
+    a:hover .icon {
       visibility: visible;
     }
   }
@@ -75,7 +82,11 @@
     font-weight: 600;
 
     a {
-      top: 9px;
+      top: 10px;
+
+      @include sm {
+        left: -25px;
+      }
     }
   }
 
@@ -85,12 +96,13 @@
     font-weight: 500;
 
     a {
-      top: 3px;
+      top: 5px;
+      left: -25px;
     }
 
     .icon {
-      width: 17px;
-      height: 17px;
+      width: 15px;
+      height: 15px;
     }
   }
 
@@ -99,19 +111,22 @@
     line-height: 27px;
 
     a {
-      top: 1px;
+      top: 3px;
+      left: -23px;
     }
 
     .icon {
-      width: 16px;
-      height: 16px;
+      width: 13px;
+      height: 13px;
     }
   }
 
   blockquote {
     background: $light;
+    color: $grey;
     padding: 12px 12px 12px 16px;
     position: relative;
+    font-weight: 600;
 
     &:before {
       position: absolute;
@@ -138,57 +153,73 @@
   }
 }
 
-.dark-mode .Markdown {
-  blockquote {
-    background: $dark-soft;
-  }
+.dark-mode .Markdown blockquote {
+  background: $dark-soft;
 }
 
 .Markdown-content {
   font-size: 16px;
   line-height: 22px;
   margin-top: 0;
-  margin-right: 24px;
   padding: 0 24px 24px;
   border-radius: 0;
   overflow: hidden;
 
   @include md {
     padding: 36px 88px;
-    margin-bottom: 58px;
-    margin-top: 36px;
+  }
+
+  @include sm1024 {
     border-radius: 16px;
+    margin-top: 36px;
+    margin-right: 24px;
+    margin-bottom: 58px;
   }
 }
 
-.Markdown-banner {
-  margin-top: 36px;
-  margin-right: 24px;
+.Markdown {
+  width: 100%;
 
-  @include sm {
-    margin-top: 0
+  @include sm1024 {
+    width: 75%;
   }
 }
 
+.Markdown-sidebar {
+  width: 100%;
 
-.Markdown-banner, .Markdown-content, .Markdown-side {
-  @include sm {
-    margin-right: 0;
-    width: 100%;
+  @include sm1024 {
+    width: 25%;
+  }
+}
+
+.Markdown-side {
+  display: none;
+
+  @include sm1024 {
+    display: block;
+  }
+}
+
+.Markdown-side-top {
+  display: block;
+
+  @include sm1024 {
+    display: none;
   }
 }
 
 .Markdown-side-content {
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
+  box-shadow: none;
+  border-radius: 0;
   position: sticky;
   top: $header-height+36px;
-  margin-bottom: 58px;
+  margin-bottom: 0;
 
-  @include sm {
-    box-shadow: none;
-    border-radius: 0;
-    margin-bottom: 0;
+  @include sm1024 {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-bottom: 58px;
   }
 }
 
@@ -202,11 +233,15 @@
   background: $dark;
 }
 
-.Markdown-side-fixed {
+.Markdown-side-top {
   position: sticky;
   width: 100%;
   top: 80px;
   z-index: 1;
+
+  @include md {
+    top: 110px;
+  }
 }
 
 .Markdown-side-head {
@@ -214,6 +249,8 @@
   height: 70px;
   display: flex;
   align-items: center;
+  font-family: $ibm-plex-sans;
+  font-weight: 500;
 }
 
 .Markdown-side-title {
@@ -241,8 +278,10 @@
   padding: 10px 12px;
   cursor: pointer;
   height: 36px;
+  width: 42px;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   &:hover {
     background: $yellow-l;
@@ -253,6 +292,10 @@
   }
 }
 
+.dark-mode .Markdown-title-icon:hover path {
+  fill: $darkest;
+}
+
 .Markdown-title-divider {
   width: 1px;
   height: 36px;
@@ -260,19 +303,23 @@
 }
 
 .Markdown-side-bottom {
-  @include sm {
-    display: none;
+  display: none;
+
+  @include sm1024 {
+    display: block;
   }
 }
 
 .Markdown-menu {
+  width: 100%;
   max-height: 300px;
   overflow: auto;
+  display: none;
+  position: absolute;
 
-  @include sm {
-    display: none;
-    position: absolute;
-    width: 100%;
+  @include sm1024 {
+    position: relative;
+    display: block;
   }
 }
 
