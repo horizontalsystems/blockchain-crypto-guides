@@ -292,6 +292,10 @@
   }
 }
 
+.dark-mode .Markdown-title-icon:hover path {
+  fill: $darkest;
+}
+
 .Markdown-title-divider {
   width: 1px;
   height: 36px;
