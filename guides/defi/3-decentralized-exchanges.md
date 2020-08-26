@@ -16,7 +16,7 @@ When trading on a DEX the exchange occurs without having to rely on an entity wh
 
 - Decentralized exchanges typically operate only with cryptocurrency and do not provide any means to use fiat currency.
 
-Today there are decentralized exchanges which average over 100 million worth of USD 24-hour trading volume. 
+Today there are decentralized exchanges which average over 100 million worth of USD 24-hour trading volume. More DEX related stats can be seen on [Dune Analytics](https://explore.duneanalytics.com/public/dashboards/c87JEtVi2GlyIZHQOR02NsfyJV48eaKEQSiKplJ7) website.
 
 As of August 2020, most popular decentralized exchanges to trade cryptocurrencies are:
  
