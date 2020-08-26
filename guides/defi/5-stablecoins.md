@@ -64,21 +64,23 @@ So, while there are a lot of stablecoins built on Ethereum not all of them are b
     
     PAX is has a large daily trading volume and currently now listed on multiple crypto exchanges.
 
-- sUSD (pegged to US Dollar)
+- sUSD / sBTC
 
-    brief description
-     
-- renBTC (pegged to Bitoin)
+    sUSD and sBTC are decentralized stablecoins pegged to the price of USD and BTC, respectively. Both tokens are derivatives that can be created on Synthetix DeFi platform.
+    
+    SNX is a native cryptocurrency token of Synthetix platform. To receive a single sUSD token, $7.5 worth in SNX tokens should be placed as collateral in Synthetix smart contract. Same applied to sBTC token.
 
-    brief description
+    Read: [Synthetix in Simple Terms](/guides/token_guides/synthetix.md)
+    
+- renBTC (pegged to Bitcoin)
 
-- sBTC (pegged to Bitoin)
-
-    brief description
+    A bitcoin representation in Ethereum blockchain. Any asset minted on Ethereum by RenVM is a 1:1 backed ERC-20. If you have 1 renBTC (an ERC-20), you can always redeem it for 1 BTC delivered to your Bitcoin address. 
+    
+    renBTC is a one-to-one representation of Bitcoin on Ethereum that can be redeemed for BTC at any time, in any amount." 
     
 - wBTC (pegged to Bitoin)
 
-     Wrapped Bitcoin (WBTC) is the first Ethereum-based cryptocurrency token which is backed 1:1 with Bitcoin.
+     [Wrapped Bitcoin](https://www.wbtc.network) (WBTC) is the first Ethereum-based cryptocurrency token which is backed 1:1 with Bitcoin.
     
      There are certain selected entities which take the role of custodians which can create and destroy wBTC tokens.
      
