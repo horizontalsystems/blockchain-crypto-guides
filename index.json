@@ -170,15 +170,9 @@
         "updated_at": "01-09-2020"
       },
       {
-        "title": "DeFi Fees & Privacy",
+        "title": "DeFi Transactions",
         "image_url": "guides/defi/images/",
-        "file_url": "guides/defi/6-fees-privacy.md",
-        "updated_at": "01-09-2020"
-      },
-      {
-        "title": "Programming DeFi",
-        "image_url": "guides/defi/images/",
-        "file_url": "guides/defi/7-programmable.md",
+        "file_url": "guides/defi/6-defi-transactions.md",
         "updated_at": "01-09-2020"
       }
     ]
