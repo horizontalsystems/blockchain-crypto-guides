@@ -2,23 +2,39 @@
 
 [Curve Finance](https://curve.fi) is a decentralized, Uniswap-like exchange but built specifically for [stablecoins](/guides/defi/8-stablecoins.md).
 
-Curve has a lot of trading volume, frequently exceeding over 50 million USD in [trading volume](https://www.curve.fi/dailystats). 
+With DeFi growing in popularity there is a bigger demand now for trading between pairs of stablecoins, and that’s where Curve comes into play. Stablecoins are typically in high demand in DeFi ecosystem. 
 
-For traders:
+Curve has a large turnover volume, frequently exceeding over [50 million USD](https://www.curve.fi/dailystats). 
+
+## Trading on Curve
 
 - Curve's uniques selling point comes from its trading algorithm which provides better prices when buying or selling large amount of cryptocurrency stablecoins.
 
-- There is a 0.04% fee for each trade.
+- In comparison to [Uniswap](/guides/token_guides/uniswap.md), Curve has a slightly higher fee for each trade measured at 0.04% of the trading amount.
 
-For liquidity providers:
+## Liquidity Providers
 
-- Curve's liquidity pools typically provide better return on investments than pools on Uniswap.
+- Apart from collecting trading fees, Curve's liquidity pools lend spare funds to external [DeFi lending](/guides/defi/4-lending-protocols.md) services and earn liquidity providers even more income. Only some liquidity pools on Curve use lending protocols.
 
-- Curve's liquidity pools can lend spare funds to external [DeFi lending](/guides/defi/7-lending-borrowing.md) services and earn liquidity providers passive income even when there is no trading activity. Some liquidity pools do not use any lending protocols.
+- Curve liquidity pools do not require liquidity provider to deposit all tokens involved in the pool. The provider can just deposit one stablecoin.
 
-- The DEX trading fees are split between liquidity providers.
+- Liquidity pools on Curve are generally more profitable also due to the fact that liquidity pools consist of 'stable' assets. 
 
-- Curve liquidity pools do not require liquidity provider to deposit all pool tokens. The provider can just deposit one stablecoin, it then gets split between each token in the pool.
+- Liquidity providers may also deposit just one token and choose to provide liquidity to all the pools instead of just one. 
+
+- At present, 4 out of 7 liquidity pools on Curve earn liquidity providers not only from trading fees but from lending liquidity to Compound lending pool as well.
+
+- Some Curve pools offer additional bonuses: if a deposited token has a low share of the pool, you may earn a deposit bonus. Conversely, you may earn a bonus if you withdraw a particular stablecoin that's predominant in the pool.
+
+## Pool Profitability
+ 
+- when depositing funds to a liquidity pool, regardless of whether you are depositing multiple tokens or just one, your deposits will be auto-split into multiple tokens based on token distribution in the pool.
+
+- if you decide to deposit 4 DAI tokens to the pool that has 200 DAI (50%), 100 USDT (25%) and 100 USDC(25%) tokens, then your deposit will be split in 2 DAI, 1 USDT and 1 USDC.
+
+- when withdrawing from a pool you will be typically withdrawing in all pool tokens, regardless of which token you deposit.
+
+## Curve Token
 
 Curve DEX has a governance token CRV which provides [additional perks](https://guides.curve.fi/crv-launches-curve-dao-and-crv/) when interacting with Curve services including voting capabilities on important decisions.
 

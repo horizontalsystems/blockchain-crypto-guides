@@ -68,7 +68,9 @@ This simple formula is nicely explained [here](https://medium.com/@pintail/unisw
 
 A general rule of thumb here, from the perspective of a liquidity provider, any price change on deposited assets would cause a reduction in the value of the stake, relative to just holding the original assets. 
 
-> Therefore, when it comes to Uniswap, the liquidity pools are likely to perform best for trading pairs that involves stable assets i.e. stablecoins.
+> Therefore, when it comes to Uniswap, the liquidity pools are likely to perform better for pairs that involve stable assets i.e. stablecoins.
+
+As the price changes of assets plays an important role in profit calculation, it complicates analysis of potential future returns.
 
 ## Uniswap Token
 
