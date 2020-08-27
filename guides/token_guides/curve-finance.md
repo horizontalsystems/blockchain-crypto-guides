@@ -6,6 +6,17 @@ With DeFi growing in popularity there is a bigger demand now for trading between
 
 Curve has a large turnover volume, frequently exceeding over [50 million USD](https://www.curve.fi/dailystats). 
 
+## Curve Token
+
+Curve DEX plans to become a DAO and has a governance token (symbol: CRV) which provides [additional perks](https://guides.curve.fi/crv-launches-curve-dao-and-crv/) when interacting with Curve services including voting capabilities on important decisions.
+
+Total supply: about 3 billion
+
+- 61% to liquidity providers
+- 31% to shareholders
+- 5% to burnable reserves
+- 3% to employees
+
 ## Trading on Curve
 
 - Curve's uniques selling point comes from its trading algorithm which provides better prices when buying or selling large amount of cryptocurrency stablecoins.
@@ -20,7 +31,7 @@ Curve has a large turnover volume, frequently exceeding over [50 million USD](ht
 
 - Liquidity pools on Curve are generally more profitable also due to the fact that liquidity pools consist of 'stable' assets. 
 
-- Liquidity providers may also deposit just one token and choose to provide liquidity to all the pools instead of just one. 
+- Liquidity providers may also deposit just one token and choose to provide liquidity to all the pools instead of just one.
 
 - At present, 4 out of 7 liquidity pools on Curve earn liquidity providers not only from trading fees but from lending liquidity to Compound lending pool as well.
 
@@ -28,14 +39,14 @@ Curve has a large turnover volume, frequently exceeding over [50 million USD](ht
 
 ## Pool Profitability
  
-- when depositing funds to a liquidity pool, regardless of whether you are depositing multiple tokens or just one, your deposits will be auto-split into multiple tokens based on token distribution in the pool.
+- When depositing funds to a liquidity pool, regardless of whether you are depositing multiple tokens or just one, your deposits will be auto-split into multiple tokens based on token distribution in the pool.
 
-- if you decide to deposit 4 DAI tokens to the pool that has 200 DAI (50%), 100 USDT (25%) and 100 USDC(25%) tokens, then your deposit will be split in 2 DAI, 1 USDT and 1 USDC.
+- If you decide to deposit 4 DAI tokens to the pool that has 200 DAI (50%), 100 USDT (25%) and 100 USDC(25%) tokens, then your deposit will be split in 2 DAI, 1 USDT and 1 USDC.
 
-- when withdrawing from a pool you will be typically withdrawing in all pool tokens, regardless of which token you deposit.
+- When withdrawing from a pool you will be typically withdrawing in all pool tokens, regardless of which token you deposit.
 
-## Curve Token
+- Due to versatile pool deposit mechanisms, adding funds to liquidity pools can be quite expensive when Ethereum network is busy.
 
-Curve DEX has a governance token CRV which provides [additional perks](https://guides.curve.fi/crv-launches-curve-dao-and-crv/) when interacting with Curve services including voting capabilities on important decisions.
+Curve Finance significantly more complex than Uniswap and integrates more third party DeFi services into its products. 
 
-For more info on Curve check out the [FAQ page](https://www.curve.fi/rootfaq) on project website.
+Therefore, Curve Finance carries more security risks.
