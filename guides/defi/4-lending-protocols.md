@@ -2,21 +2,17 @@
 
 # Lending Pools
 
-There are DeFi services which facilitate cryptocurrency lending and borrowing services in non-custodial manner.
+These are DeFi services which facilitate cryptocurrency lending and borrowing services in non-custodial manner.
 
-- For borrowers
+- Borrowing
 
-    Decentralized borrowing services allow someone to borrow cryptocurrency from a smart contract in exchange for a collateral in other cryptocurrency.
+    Borrowing services allow someone to borrow cryptocurrency from a smart contract in exchange for a collateral in other cryptocurrency.
     
-    The borrower may repay the loan at any time and return the collateral.
-    
-    Generally speaking, borrowing services allow someone to access liquidity without having to sell their cryptocurrency. 
-    
-    There are also loans where the borrower can borrow without a collateral. More on that below.
+    Borrowing services allow someone to access liquidity without having to sell their cryptocurrency. The borrower may repay the loan at any time and return the collateral.
         
-- For lenders
+- Lending
 
-    Lending DeFi services allow cryptocurrency holders to lend assets to a smart contract and earn interest. 
+    Lending services allow cryptocurrency holders to lend assets to a smart contract and earn interest. 
     
     The lender can pull deposits out of smart contract at any time along with accrued interest.
 
@@ -25,8 +21,6 @@ Typically, cryptocurrency market participants borrow assets from smart contract 
 For instance, someone may borrow one cryptocurrency from one DeFi service and then lend it to another DeFi service with higher returns.
 
 ## Collateralized Loans
-
-There is a growing segment of DeFi services which provide access to collateralized loans:
 
 - The borrower has to put up another cryptocurrency as collateral, often significantly more than borrowed amount.
 
@@ -42,60 +36,56 @@ There is another form of cryptocurrency borrowing which does not involve the col
 
 > A flash loan allows the lender to borrow funds without any collateral, provided they pay back the loan within the same transaction. 
 
-A single DeFi transaction may consist of multiple steps interacting with various DeFi services. 
+Flash loans are currently limited to those with inner knowledge of the ecosystem. A sample DeFi transaction below illustrates how someone may make use of flash loans. 
 
-> While most DeFi transactions are simple and involve a single action it's practically possible to create transactions that interact with any number of services, in a single transaction.
+While most Ethereum transactions are simple and involve a 1-2 actions it's practically possible to have transactions that interact with multiple DeFi services, in a single transaction.
 
-To demo this, let's assume a sample DeFi transaction that may look as below: 
+1. take out a flash loan (in tokenX) from a smart contract.
 
-1. take out a flash tokenA from a smart contract
-2. convert tokenA on DEX1 to tokenB
-3. convert tokenB to tokenC on DEX2
-4. convert tokenC to tokenA on DEX3
-5. repay borrowed tokenA to a smart contract
+2. swap borrowed tokenX on some DEX1 to tokenB.
+
+3. then convert tokenB to tokenC on some DEX2.
+
+4. then convert tokenC to tokenA on some DEX3.
+
+5. finally, repay flash loan to a smart contract.
 
 If any steps in transaction chain fail then preceding steps would be reverted and transaction would fail as well, like it never happened.
 
-Practically speaking, anyone and anywhere can make use of flash loans and borrow as much as needed without a collateral, given that loan is returned within the same transaction.
-
-> Taking advantage of flash loans as a method of arbitrage or leverage trading requires having an intimate knowledge of the market, as well how various DApps work and where favorable price fluctuations can be found.
+> Anyone and anywhere can make use of flash loans and borrow as much as needed without a collateral, given that loan is returned within the same transaction.
 
 A flash loan allows you to essentially simultaneously perform multiple financial transactions in an instant: borrowing the funds, using them to make several arbitrage trades across multiple DeFi platforms, and then paying them back to the original lender, all in one go.
 
-## Top Services for Borrowing
+## Compound
 
-There are a lot of DeFi services where someone can borrow cryptocurrency. The borrowing rate, terms and collateral requirements will vary from one service to another.
+Perhaps the most popular decentralized service for borrowing and lending. 
+    
+[Compound Finance](https://compound.finance/markets) loans typically require a collateral which may change between 0-90% of the borrowed asset. 
 
-- [Compound Finance](https://compound.finance/markets)
+Each asset on Compound can have a different collateral requirements.
+    
+Read: [Compound in Simple Terms](/guides/token_guides/compound.md)
+    
+## Aave
 
-    Perhaps the most popular decentralized service for borrowing and lending. 
+[Aave](https://app.aave.com/home) provides access both to collateralized and uncollateralized flash loans.
     
-    Compound loans typically require a collateral that may change between 0-90% of the borrowed asset. Each asset on Compound can have a different collateral requirement.
+The flash loans are provided from a liquidity pool which is financed by other users. Aave charges a 0.09% fee on flash loans.
     
-    Read: [Compound in Simple Terms](/guides/token_guides/compound.md)
+For collateralized loans a 0.01% fee of the loan amount is collected on loan origination.
     
-- [Aave](https://app.aave.com/home)
+Read: [Aave in Simple Terms](/guides/token_guides/aave.md)    
+    
+## Oasis
 
-    Aave has one feature that sets it apart from others: Flash loans allow customers or to take out loans without any collateral. It's a type of loan that is made on the condition that the loan is returned before the transaction ends. 
+[Oasis](https://oasis.app/) is a DEX developed by MakerDAO which facilitates lending and borrowing of DAI stablecoin. 
     
-    The flash loans are provided from a liquidity pool which is financed by other users. Aave charges a 0.09% fee on flash loans.
+Users may borrow DAI from MakerDAO smart contracts which creates new DAI in exchange for a cryptocurrency collateral (i.e. 150% of loan value) from a borrower.
     
-    Aave provides collateralized loans as well, a 0.01% of the loan amount is collected on loan origination.
+When DAI tokens are returned, the collateral paid back to the borrower and returned DAI tokens are destroyed by a smart contract.
     
-    Read: [Aave in Simple Terms](/guides/token_guides/aave.md)    
-    
-- [Oasis Exchange](https://oasis.app/)
+Read: [MakerDAO in Simple Terms](/guides/token_guides/makerdao.md)
 
-    Oasis is a DEX developed by MakerDAO which facilitates lending and borrowing of DAI stablecoin. 
-    
-    Users may borrow DAI from MakerDAO smart contracts which creates new DAI (increasing total circulation) in exchange for a cryptocurrency collateral (i.e. 150% of loan value) from a borrower.
-    
-    When DAI tokens are returned, the collateral paid back to the borrower and returned DAI tokens are destroyed by a smart contract.
-    
-    Read: [MakerDAO in Simple Terms](/guides/token_guides/makerdao.md)
-  
-Keep in mind that despite being fully automated and human free there are significant risks when dealing with these services.
-
-> As with other DeFi services, there is always a possibility of a hack or exploit which could drain the liquidity pool of the smart contract, causing lenders to lose their assets.
-
-Therefore, lenders must be sure not to commit more money than they can afford to lose. 
+> As with other DeFi services, there is always a possibility of a hack or exploit which could drain the liquidity pool of the lending service, causing lenders to lose their assets.
+>
+> Therefore, lenders must be sure not to commit more money than they can afford to lose. 

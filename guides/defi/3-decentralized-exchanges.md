@@ -56,34 +56,32 @@ To sum up, each trading pair on a DEX powered by a community-funded liquidity po
 
 Pretty much all major use liquidity pools that generate liquidity on the trading markets.
 
-## Top DEXes
+## Uniswap Exchange
 
-- UNISWAP
+The biggest and one of the most decentralized cryptocurrency exchanges. Exchange operators cannot censor service users nor shut it down.
+    
+Exchange lists a lot of cryptocurrency tokens and has a free listing policy, allowing anyone to list any token and provide liquidity for it.
+    
+For traders, it costs 0.03% of the traded amount to execute transaction on Uniswap.
+    
+Read: [Uniswap in Simple Terms](/guides/token_guides/uniswap.md)
+    
+## Curve Finance
 
-    The biggest and one of the most decentralized cryptocurrency exchanges. Exchange operators cannot censor service users nor shut it down.
+Another major DEX that only supports stablecoins. Curve provides better prices when trading large amounts on cryptocurrency.
     
-    Exchange lists a lot of cryptocurrency tokens and has a free listing policy, allowing anyone to list any token and provide liquidity for it.
+Liquidity pools on Curve are somewhat more profitable and can offer slightly better returns on deposited assets.
     
-    For traders, it costs 0.03% of the traded amount to execute transaction on Uniswap.
-    
-    Read: [Uniswap in Simple Terms](/guides/token_guides/uniswap.md)
-    
-- CURVE FINANCE
+Unlike Uniswap, Curve has a governance token which is aimed at decentralizing various aspects of the platform which are not yet decentralized.
 
-    Another major DEX that only supports stablecoins. Curve provides better prices when trading large amounts on cryptocurrency.
-    
-    Liquidity pools on Curve are somewhat more profitable and can offer slightly better returns on deposited assets.
-    
-    Unlike Uniswap, Curve has a governance token which is aimed at decentralizing various aspects of the platform which are not yet decentralized.
+Read: [Curve in Simple Terms](/guides/token_guides/curve-finance.md)
 
-    Read: [Curve in Simple Terms](/guides/token_guides/curve-finance.md)
+## Balancer
+    
+Uniswap like DEX for trading all kinds of Ethereum-based tokens but with lower exchange fees.
+    
+Just like Curve and Uniswap, Balancer has a custom mechanism for liquidity pools.
 
-- BALANCER
+One of the key uniques selling points of Balancer lies in ability to create cryptocurrency index funds without undertaking complex re-balancing actions.
     
-    Uniswap like DEX for trading all kinds of Ethereum-based tokens but with lower exchange fees.
-    
-    Just like Curve and Uniswap, Balancer has a custom mechanism for liquidity pools.
-
-    One of the key uniques selling points of Balancer lies in ability to create cryptocurrency index funds without undertaking complex re-balancing actions.
-    
-    Read: [Balancer in Simple Terms](/guides/token_guides/balancer-dex.md)
+Read: [Balancer in Simple Terms](/guides/token_guides/balancer-dex.md)

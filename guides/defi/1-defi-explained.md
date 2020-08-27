@@ -36,7 +36,7 @@ Typically, DeFi services usually built around following principles:
     
 - Censorship Resistant
 
-    DeFi services live on a distributed blockchain powered by thousands of server. This ensures uninterrupted access to service to anyone worldwide at any time.
+    DeFi services live on a distributed blockchain powered by thousands of servers. This ensures uninterrupted access to service to anyone worldwide at any time.
 
 - Non Custodial
 

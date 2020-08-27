@@ -58,8 +58,4 @@ While some major DeFi services go through third-party security audits not all se
 
 Therefore, the risk is present in all DeFi products. Keep that in mind and never invest more than you're willing to lose.
 
-Too often, it seems that projects are rolled out without audits and testing.
-
-> As a potential user, you cannot simply take a project at their word if they say they have been audited. Do your own due diligence and review project audits before putting any substantial sum into it.
-
 There are some DeFi services, like [Nexus Mutual](https://nexusmutual.io) which allow DeFi users to get insured against hacks and vulnerabilities.

@@ -20,7 +20,7 @@ While there are a lot of stablecoins in DeFi ecosystem each comes with its own s
 
 So, while there are a lot of stablecoins built on Ethereum not all of them are built per DeFi principles.
 
-### DAI ( ~ US Dollar))
+### DAI ( ~ USD)
 
 Currently, the most decentralized stablecoin on Ethereum ecosystem. 
     
@@ -28,60 +28,60 @@ The DAI stablecoin is the financial service offered by DeFi entity known as Make
     
 Read: [DAI in Simple Terms](/guides/token_guides/makerdao.md)
     
-### USDT ( ~ US Dollar)
+### USDT ( ~ USD)
 
-The biggest stablecoin on the market. Despite being a centralized service USDT was among the very first stablecoins in cryptocurrency ecosystem with a market cap over 10 billion USD.
+The very first cryptocurrency stablecoin with a market cap over 10 billion USD.
     
-USDT token is highly liquid and has one of the biggest trading volumes across cryptocurrency exchnages.
+USDT token is highly liquid and has one of the biggest trading volumes across cryptocurrency exchanges.
 
 Read: [USDT in Simple Terms](/guides/token_guides/tether.md)
             
-### USDC ( ~ US Dollar)
+### USDC ( ~ USD)
 
-Conceptually this stablecoins is very similar to USDC. The USDC stablecoin was introduced by the Centre Consortium, an organization co-founded by Circle and Coinbase cryptocurrency exchange.
+Introduced by the Centre Consortium, an organization co-founded by Circle and Coinbase cryptocurrency exchange.
     
-Centre Consortium has full control over the stablecoin and claims to have each coin backed by USD held on its bank accounts on a 1-1 basis.
+Centre Consortium has full control over the stablecoin and claims to have each coin backed by USD on a 1-1 basis, held on its bank accounts.
     
 Read: [Introducing USD Coin (USDC)](https://www.centre.io/usdc)
     
-### TUSD ( ~ US Dollar)
+### TUSD ( ~ USD)
 
-This stablecoin is issued and maintained by TrustToken, TUSD is recognized as the first stablecoin launched with a core focus on transparency. 
+This stablecoin is issued and maintained by TrustToken, TUSD is recognized as the first stablecoin launched with a core focus on a transparency. 
     
 Users can purchase and redeem TUSD at a 1:1 rate on the TrustToken platform for US Dollars.
     
-### BUSD ( ~ US Dollar)
+### BUSD ( ~ USD)
 
-A US dollar backed stablecoin from Binance, a biggest cryptocurrency exchange in the world. 
+A US dollar backed stablecoin from Binance, the biggest cryptocurrency exchange in the world. 
     
-Just like above mentioned USDT, USDC and TUSD, it's a centralized stablecoin fully conrolled by the Binance.
+Just like above mentioned USDT, USDC and TUSD, it's a centralized stablecoin fully controlled by the Binance.
     
-- PAX ( ~ US Dollar)
+### PAX ( ~ USD)
 
-    Another centralized stablecoin that claims to be backed 1:1 with the US Dollar. PAX tokens are issued by the Paxos Trust Company.
-    
-    PAX is has a large daily trading volume and currently now listed on multiple crypto exchanges.
+Another centralized stablecoin that claims to be backed 1:1 with the US Dollar. 
+
+PAX tokens are issued by the Paxos Trust Company.
 
 ### sUSD / sBTC
 
-sUSD and sBTC are decentralized stablecoins pegged to the price of USD and BTC, respectively. Both tokens are derivatives that can be created on Synthetix DeFi platform.
-    
-SNX is a native cryptocurrency token of Synthetix platform. To receive a single sUSD token, $7.5 worth in SNX tokens should be placed as collateral in Synthetix smart contract. Same applied to sBTC token.
+sUSD and sBTC are decentralized stablecoins pegged to the price of USD and BTC, respectively. 
+
+Both tokens are derivatives created on Synthetix DeFi platform where each such token backed by the collateral up to 800% of the asset value the token represents.
 
 Read: [Synthetix in Simple Terms](/guides/token_guides/synthetix.md)
     
-### renBTC  ( ~ Bitcoin)
+### renBTC  ( ~ BTC)
 
-A bitcoin representation in Ethereum blockchain. Any asset minted on Ethereum by RenVM is a 1:1 backed ERC-20. If you have 1 renBTC (an ERC-20), you can always redeem it for 1 BTC delivered to your Bitcoin address. 
-    
-renBTC is a one-to-one representation of Bitcoin on Ethereum that can be redeemed for BTC at any time, in any amount." 
+A bitcoin representation in Ethereum blockchain. Any asset minted on Ethereum by RenVM is a 1:1 backed by a token on Ethereum. 
+
+If you have 1 renBTC (an ERC-20), you can always redeem it for 1 BTC delivered to your Bitcoin address. 
     
 ### wBTC  ( ~ Bitcoin)
 
-[Wrapped Bitcoin](https://www.wbtc.network) (WBTC) is the first Ethereum-based cryptocurrency token which is backed 1:1 with Bitcoin.
+Wrapped Bitcoin (WBTC) is the first Ethereum-based cryptocurrency token which is backed 1:1 with Bitcoin.
     
 There are certain selected entities which take the role of custodians which can create and destroy wBTC tokens.
      
-A single wBTC token is created when 1 Bitcoin is deposited to an address belonging to custodian. In the same way, a person can exchange wBTC to BTC via the custodian.
+A single wBTC token is created when 1 Bitcoin is deposited to an address belonging to custodian. In the same way, a person can exchange wBTC to a real BTC via the custodian.
      
-All custodian activity is transparent allowing anyone to see how wBTC tokens are created/burned as well as the respective changes in BTC reserves.
+All custodian activity is transparent allowing anyone to see how wBTC tokens are created and burned as well as the respective changes in BTC reserves.
