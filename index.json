@@ -86,7 +86,7 @@
     "title": "DeFi",
     "guides": [
       {
-        "title": "Defi Explained",
+        "title": "DeFi Explained",
         "image_url": "guides/defi/images/defi-Main-l.png",
         "file_url": "guides/defi/1-defi-explained.md",
         "updated_at": "01-09-2020"
@@ -118,7 +118,7 @@
       {
         "title": "DeFi Transactions",
         "image_url": "guides/defi/images/images/defi6-Main-l.png",
-        "file_url": "guides/defi/6-defi6-Main.md",
+        "file_url": "guides/defi/6-defi-transactions.md",
         "updated_at": "01-09-2020"
       }
     ]
