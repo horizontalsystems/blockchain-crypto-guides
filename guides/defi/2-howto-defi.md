@@ -1,4 +1,4 @@
-![](/guides/fundamentals/images/defi3-Main-l.png)
+![](/guides/fundamentals/images/defi2-Main-l.png)
 
 # How To DeFi
 
@@ -15,6 +15,8 @@ Let's go over tools and know-how needed to get you started on a practical level.
 The most common way is to use a [Chrome](https://www.google.com/chrome/) browser and a [Metamask](https://metamask.io) non-custodial wallet addon for Chrome. There are also versions for Firefox, Opera and Brave browsers.
 
 Metamask is not the only wallet that you can use for DeFi, but it's by far the most popular one.
+
+![](/guides/fundamentals/images/defi2-start-l.png)
 
 ## Getting Started
 
@@ -37,6 +39,8 @@ Once Metamask has been installed, an icon the shape of a fox will appear on the 
     Finally, deposit some funds from a wallet where you keep your crypto to your Metamask wallet.
 
 Once funded, open the browser and navigate to the DeFi service website you would like to use and look for 'connect wallet' button or a similar option. Click on it, follow through steps and done.
+
+![](/guides/fundamentals/images/defi2-risk-l.png)
 
 ## DeFi Risks
 

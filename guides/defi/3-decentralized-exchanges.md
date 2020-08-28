@@ -1,4 +1,4 @@
-![](images/defi2-exchanges-l.png)
+![](images/defi3-exchanges-l.png)
 
 # Decentralized Exchanges
 
@@ -32,7 +32,7 @@ There are a lot of fake websites for various DEXes which look just like the orig
 
 There were also reports of numerous fake coins being listed on DEX where token listing is open to all
 
-![](images/defi2-pools-l.png)
+![](images/defi3-pools-l.png)
 
 ## Liquidity Pools
 

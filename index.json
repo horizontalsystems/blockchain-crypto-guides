@@ -93,32 +93,32 @@
       },
       {
         "title": "Getting Started",
-        "image_url": "guides/defi/images/defi3-Main-l.png",
+        "image_url": "guides/defi/images/defi2-Main-l.png",
         "file_url": "guides/defi/2-howto-defi.md",
         "updated_at": "01-09-2020"
       },
       {
         "title": "Decentralized Exchanges",
-        "image_url": "guides/defi/images/defi2-exchanges-l.png",
+        "image_url": "guides/defi/images/defi3-exchanges-l.png",
         "file_url": "guides/defi/3-decentralized-exchanges.md",
         "updated_at": "01-09-2020"
       },
       {
         "title": "Decentralized Lending",
-        "image_url": "guides/defi/images/defi2-lendborrow-l.png",
+        "image_url": "guides/defi/images/defi4-Main-l.png",
         "file_url": "guides/defi/4-lending-protocols.md",
         "updated_at": "01-09-2020"
       },
       {
         "title": "Stablecoins Explained",
-        "image_url": "guides/defi/images/defi2-stablecoins-l.png",
+        "image_url": "guides/defi/images/defi5-Main-l.png",
         "file_url": "guides/defi/5-stablecoins.md",
         "updated_at": "01-09-2020"
       },
       {
         "title": "DeFi Transactions",
         "image_url": "guides/defi/images/",
-        "file_url": "guides/defi/6-defi-transactions.md",
+        "file_url": "guides/defi/6-defi6-Main.md",
         "updated_at": "01-09-2020"
       }
     ]
@@ -128,31 +128,31 @@
     "guides": [
       {
         "title": "Uniswap in Simple Terms",
-        "image_url": "guides/token_guides/images/",
+        "image_url": "guides/token_guides/images/uniswap-Main-l.png",
         "file_url": "guides/token_guides/uniswap.md",
         "updated_at": "01-09-2020"
       },
       {
         "title": "Curve in Simple Terms",
-        "image_url": "guides/token_guides/images/",
+        "image_url": "guides/token_guides/images/curve-Main-l.png",
         "file_url": "guides/token_guides/curve-finance.md",
         "updated_at": "01-09-2020"
       },
       {
         "title": "Balancer in Simple Terms",
-        "image_url": "guides/token_guides/images/",
+        "image_url": "guides/token_guides/images/bal-Main-l.png",
         "file_url": "guides/token_guides/balancer-dex.md",
         "updated_at": "01-09-2020"
       },
       {
         "title": "Synthetix in Simple Terms",
-        "image_url": "guides/token_guides/images/",
+        "image_url": "guides/token_guides/images/snx-Main-l.png",
         "file_url": "guides/token_guides/synthetix.md",
         "updated_at": "01-09-2020"
       },
       {
         "title": "Kyber in Simple Terms",
-        "image_url": "guides/token_guides/images/",
+        "image_url": "guides/token_guides/images/knc-Main-l.png",
         "file_url": "guides/token_guides/kyber-network.md",
         "updated_at": "01-09-2020"
       }

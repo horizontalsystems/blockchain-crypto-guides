@@ -80,6 +80,8 @@ There are currently a lot of well-financed startups, entrepreneurs, and finance 
 
 - Around the same, cumulative market cap for DeFi projects accounted for [less than 10%](https://defimarketcap.io) of entire cryptocurrency ecosystem valued at 300 billion.
 
+![](./images/defi-indefi-l.png)
+
 Below is a basic overview of how building, financing and governance of DeFi services takes place:
 
 - All DeFi projects expected to have an open source code. This speeds up development of the entire ecosystem by enabling engineers reuse various components from other projects.
