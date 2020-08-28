@@ -3,7 +3,7 @@
     "title": "Basics",
     "guides": [
       {
-        "title": "1. Cryptocurrency",
+        "title": "Cryptocurrency Explained",
         "image_url": "guides/fundamentals/images/01-main-l.png",
         "file_url": "guides/fundamentals/1-cryptocurrency-basics.md",
         "updated_at": "01-06-2020",
@@ -16,43 +16,43 @@
         }
       },
       {
-        "title": "2. Wallets",
+        "title": "Crypto Wallets",
         "image_url": "guides/fundamentals/images/02-main-l.png",
         "file_url": "guides/fundamentals/2-wallets-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "3. Private Keys",
+        "title": "Private Keys",
         "image_url": "guides/fundamentals/images/03-main-l.png",
         "file_url": "guides/fundamentals/3-private-keys-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "4. Safe Storage Tips",
+        "title": "Safe Storage Tips",
         "image_url": "guides/fundamentals/images/04-main-l.png",
         "file_url": "guides/fundamentals/4-safe-storage-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "5. Unstoppable Wallet",
+        "title": "Unstoppable Intro",
         "image_url": "guides/fundamentals/images/05-main-l.png",
         "file_url": "guides/fundamentals/5-unstoppable-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "6. Buying Cryptocurrency",
+        "title": "Buying Cryptocurrency",
         "image_url": "guides/fundamentals/images/06-main-l.png",
         "file_url": "guides/fundamentals/6-buying-cryptocurrency-basics.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "7. Spending Cryptocurrency",
+        "title": "Spending Cryptocurrency",
         "image_url": "guides/fundamentals/images/07-main-l.png",
         "file_url": "guides/fundamentals/7-spending-cryptocurrency.md",
         "updated_at": "01-06-2020"
       },
       {
-        "title": "8. Transactions",
+        "title": "Transactions Explained",
         "image_url": "guides/fundamentals/images/08-main-l.png",
         "file_url": "guides/fundamentals/8-transactions-basics.md",
         "updated_at": "01-06-2020"
@@ -86,37 +86,37 @@
     "title": "DeFi",
     "guides": [
       {
-        "title": "1. DeFi Explained",
+        "title": "What Is DeFi",
         "image_url": "guides/defi/images/defi-Main-l.png",
         "file_url": "guides/defi/1-defi-explained.md",
         "updated_at": "01-09-2020"
       },
       {
-        "title": "2. How To DeFi",
+        "title": "Getting Started",
         "image_url": "guides/defi/images/defi3-Main-l.png",
         "file_url": "guides/defi/2-howto-defi.md",
         "updated_at": "01-09-2020"
       },
       {
-        "title": "3. Decentralized Exchanges",
+        "title": "Decentralized Exchanges",
         "image_url": "guides/defi/images/defi2-exchanges-l.png",
         "file_url": "guides/defi/3-decentralized-exchanges.md",
         "updated_at": "01-09-2020"
       },
       {
-        "title": "4. Lending Pools",
+        "title": "Decentralized Lending",
         "image_url": "guides/defi/images/defi2-lendborrow-l.png",
         "file_url": "guides/defi/4-lending-protocols.md",
         "updated_at": "01-09-2020"
       },
       {
-        "title": "5. Stablecoins",
+        "title": "Stablecoins Explained",
         "image_url": "guides/defi/images/defi2-stablecoins-l.png",
         "file_url": "guides/defi/5-stablecoins.md",
         "updated_at": "01-09-2020"
       },
       {
-        "title": "6. DeFi Transactions",
+        "title": "DeFi Transactions",
         "image_url": "guides/defi/images/",
         "file_url": "guides/defi/6-defi-transactions.md",
         "updated_at": "01-09-2020"
@@ -124,18 +124,12 @@
     ]
   },
   {
-    "title": "DEX",
+    "title": "Exchanges",
     "guides": [
       {
         "title": "Uniswap in Simple Terms",
         "image_url": "guides/token_guides/images/",
         "file_url": "guides/token_guides/uniswap.md",
-        "updated_at": "01-09-2020"
-      },
-      {
-        "title": "Synthetix in Simple Terms",
-        "image_url": "guides/token_guides/images/",
-        "file_url": "guides/token_guides/synthetix.md",
         "updated_at": "01-09-2020"
       },
       {
@@ -151,28 +145,22 @@
         "updated_at": "01-09-2020"
       },
       {
+        "title": "Synthetix in Simple Terms",
+        "image_url": "guides/token_guides/images/",
+        "file_url": "guides/token_guides/synthetix.md",
+        "updated_at": "01-09-2020"
+      },
+      {
         "title": "Kyber in Simple Terms",
         "image_url": "guides/token_guides/images/",
         "file_url": "guides/token_guides/kyber-network.md",
-        "updated_at": "01-09-2020"
-      },
-      {
-        "title": "Bancor in Simple Terms",
-        "image_url": "guides/token_guides/images/",
-        "file_url": "guides/token_guides/bancor-dex.md",
-        "updated_at": "01-09-2020"
-      },
-      {
-        "title": "dYdX in Simple Terms",
-        "image_url": "guides/token_guides/images/",
-        "file_url": "guides/token_guides/dydx-dex.md",
         "updated_at": "01-09-2020"
       }
     ]
   }
 ,
   {
-    "title": "Stablecoin",
+    "title": "Stablecoins",
     "guides": [
       {
         "title": "Tether in Simple Terms",
