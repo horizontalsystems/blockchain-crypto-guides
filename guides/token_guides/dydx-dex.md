@@ -1,3 +1,5 @@
+![](images/dydx-Main-l.png)
+
 ### 6. dYdX DEX
 
 Most DEX platforms allow investors to take long positions in various cryptocurrency assets. However, it is currently very difficult to take short, hedged, or more complex financial positions.

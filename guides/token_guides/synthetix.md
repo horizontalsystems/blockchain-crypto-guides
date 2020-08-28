@@ -1,3 +1,5 @@
+![](images/snx-Main-l.png)
+
 # Synthetix In Simple Terms 
 
 Synthetix was founded in 2017 by Kain Warwick, co-founder and CEO of Blueshyft, a retail payment network of more than 1,250 locations across Australia. Blueshyft has become the largest cryptocurrency payment gateway in Australia, processing tens of millions of dollars in transaction volume. Major backers of Synthetix include BlockTower, BlockAsset, GBIC, AlphaBlock Investments, and Astronaut Capital.

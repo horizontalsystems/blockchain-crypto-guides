@@ -1,3 +1,5 @@
+![](images/bnt-Main-l.png)
+
 ## 5. Bancor DEX
 
 [Bancor](https://www.bancor.network/) is Uniswap-like decentralized exchange that offers yet another place to trade Ethereum-based tokens.

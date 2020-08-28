@@ -1,3 +1,5 @@
+![](images/comp-Main-l.png)
+
 # Compound in Simple Terms
 
 https://compound.finance/docs/comptroller#account-liquidity

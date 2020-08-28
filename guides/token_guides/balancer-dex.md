@@ -1,3 +1,5 @@
+![](images/bal-Main-l.png)
+
 # Balancer in Simple Terms
 
 [Balancer](https://balancer.exchange/) is a newer DEX that launched in March 2020 that supports trading Ethereum-based cryptocurrency tokens.

@@ -1,3 +1,5 @@
+![](images/knc-Main-l.png)
+
 ### 4. Kyber DEX
 
 [Kyber](https://kyberswap.com/) DEX launched back in 2017, Kyber raised approximately $50 million through its successful ICO sale of the KNC token and Vitalik Buterin (founder of Ethereum) is listed as an advisor. 

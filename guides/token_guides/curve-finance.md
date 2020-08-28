@@ -1,3 +1,5 @@
+![](images/curve-Main-l.png)
+
 ### 2. Curve Finance DEX
 
 [Curve Finance](https://curve.fi) is a decentralized, Uniswap-like exchange but built specifically for [stablecoins](/guides/defi/8-stablecoins.md).
