@@ -1,4 +1,4 @@
-![](/guides/defi/images/defi-Main-l.png)
+![](images/defi-Main-l.png)
 
 # DeFi Explained
 
