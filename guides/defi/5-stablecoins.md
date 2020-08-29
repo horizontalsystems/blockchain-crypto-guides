@@ -1,4 +1,4 @@
-![](images/defi2-stablecoins-l.png)
+![](images/defi5-Main-l.png)
 
 # Stablecoins
 
@@ -17,6 +17,8 @@ While there are a lot of stablecoins in DeFi ecosystem each comes with its own s
 - The [DAI](/guides/token_guides/makerdao.md) stablecoin is decentralized and fully governed by smart contracts without any privileged parties. It's a stablecoin that built per DeFi principles and to a large extent fully autonomous.
 
 - The Tether's [USDT](/guides/token_guides/tether.md) is also a stablecoin built on Ethereum. Unlike DAI, it is centralized where certain privileged parties (i.e. Tether Limited) can add new tokens into circulation at will as well as freeze tokens belonging to other users.
+
+![](images/defi5-Stablecoins-l.png)
 
 So, while there are a lot of stablecoins built on Ethereum not all of them are built per DeFi principles.
 

@@ -1,3 +1,5 @@
+![](images/uniswap-Main-l.png)
+
 # Uniswap in Simple Terms
 
 [Uniswap](https://uniswap.info/home) is a peer-to-peer, decentralized cryptocurrency exchange to trade Ethereum and Ethereum-based tokens. 

@@ -1,4 +1,4 @@
-![](/guides/defi/images/defi-Main-l.png)
+![](images/defi-Main-l.png)
 
 # DeFi Explained
 
@@ -79,6 +79,8 @@ There are currently a lot of well-financed startups, entrepreneurs, and finance 
 - In August 2020, the total sum controlled by DeFi smart contracts has exceeded [4 billion USD](https://news.bitcoin.com/total-value-locked-in-defi-surpasses-4-billion-eth-up-over-70-last-30-days/) in value.
 
 - Around the same, cumulative market cap for DeFi projects accounted for [less than 10%](https://defimarketcap.io) of entire cryptocurrency ecosystem valued at 300 billion.
+
+![](./images/defi-indefi-l.png)
 
 Below is a basic overview of how building, financing and governance of DeFi services takes place:
 

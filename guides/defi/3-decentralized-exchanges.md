@@ -1,4 +1,4 @@
-![](images/defi2-exchanges-l.png)
+![](images/defi3-exchanges-l.png)
 
 # Decentralized Exchanges
 
@@ -32,7 +32,7 @@ There are a lot of fake websites for various DEXes which look just like the orig
 
 There were also reports of numerous fake coins being listed on DEX where token listing is open to all
 
-![](images/defi2-pools-l.png)
+![](images/defi3-pools-l.png)
 
 ## Liquidity Pools
 
@@ -64,7 +64,7 @@ Exchange lists a lot of cryptocurrency tokens and has a free listing policy, all
     
 For traders, it costs 0.03% of the traded amount to execute transaction on Uniswap.
     
-Read: [Uniswap in Simple Terms](/guides/token_guides/uniswap.md)
+Read: **[Uniswap in Simple Terms](/guides/token_guides/uniswap.md)**
     
 ## Curve Finance
 
@@ -74,7 +74,7 @@ Liquidity pools on Curve are somewhat more profitable and can offer slightly bet
     
 Unlike Uniswap, Curve has a governance token which is aimed at decentralizing various aspects of the platform which are not yet decentralized.
 
-Read: [Curve in Simple Terms](/guides/token_guides/curve-finance.md)
+Read: **[Curve in Simple Terms](/guides/token_guides/curve-finance.md)**
 
 ## Balancer
     
@@ -84,4 +84,4 @@ Just like Curve and Uniswap, Balancer has a custom mechanism for liquidity pools
 
 One of the key uniques selling points of Balancer lies in ability to create cryptocurrency index funds without undertaking complex re-balancing actions.
     
-Read: [Balancer in Simple Terms](/guides/token_guides/balancer-dex.md)
+Read: **[Balancer in Simple Terms](/guides/token_guides/balancer-dex.md)**

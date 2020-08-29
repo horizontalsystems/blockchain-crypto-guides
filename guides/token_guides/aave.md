@@ -1,3 +1,5 @@
+![](images/aave-Main-l.png)
+
 # Aave in Simple Terms
 
 Aave Protocol is a non-custodial Ethereum-based decentralized service that allows users to lend, borrow and trade.

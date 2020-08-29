@@ -1,3 +1,5 @@
+![](images/bal-Main-l.png)
+
 # Balancer in Simple Terms
 
 [Balancer](https://balancer.exchange/) is a relatively new decentralized exchange that was launched in March 2020.

@@ -20,6 +20,8 @@ Typically, cryptocurrency market participants borrow assets from smart contract 
 
 For instance, someone may borrow one cryptocurrency from one DeFi service and then lend it to another DeFi service with higher returns.
 
+![](images/defi4-colleteralloans-l.png)
+
 ## Collateralized Loans
 
 - The borrower has to put up another cryptocurrency as collateral, often significantly more than borrowed amount.
@@ -29,6 +31,8 @@ For instance, someone may borrow one cryptocurrency from one DeFi service and th
 - If collateral value falls below the required, smart contract attempts to liquidate the collateral in an effort to repurchase lent assets. 
 
 A borrower is incentivized to pay back loan and prevent their collateral from being liquidated in order not to lose part of the collateral.
+
+![](images/defi4-flashloans-l.png)
 
 ## Flash Loans
 

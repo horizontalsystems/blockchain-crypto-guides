@@ -1,3 +1,5 @@
+![](images/defi6-Main-l.png)
+
 # DeFi Transactions
 
 Generally speaking, there are a number of things someone should know about transacting on DeFi.
@@ -31,6 +33,8 @@ To see a real life example of such transactions, checkout [this post](https://ww
 
 Anyone and anywhere can start experimenting with this using personal cryptocurrency or flash loans if access to capital is limited.
 
+![](images/defi6-Fees-l.png)
+
 ## Transaction Fee
 
 Generic Ethereum transactions that send Ethereum or Ethereum-based tokens from one address to another are typically a lot cheaper than DeFi transactions.
@@ -63,6 +67,8 @@ When user interacts with a smart contract it's not uncommon for a smart contract
 > Depending on how the smart contract built it may require a permission from a user before it can do anything with user's funds.
 
 Granting a permission works in a form of another 'approval transaction' which is basically a permission granted to someone (i.e. some smart contract) to spend X amount of some token on your balance.
+
+![](images/defi6-defiprivacy-l.png)
 
 ## Privacy
 
