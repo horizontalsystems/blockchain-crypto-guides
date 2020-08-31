@@ -25,7 +25,7 @@ The example below assumes a transaction with 8 steps but potentially someone can
 7. On DEX3, convert USDC to ETH
 8. Return ETH loan (keep profits, if any)
 
-By its very nature, DeFi smart contract are interoperable allowing anyone to programmatically connect multiple DeFi services just like lego blocks.
+By its very nature, DeFi smart contracts are interoperable allowing anyone to programmatically connect multiple DeFi services just like lego blocks.
 
 So, complex DeFi transactions are not uncommon albeit currently limited to those that know the inner mechanics of the ecosystem and some programming experience.
 
@@ -37,36 +37,32 @@ Anyone and anywhere can start experimenting with this using personal cryptocurre
 
 ## Transaction Fee
 
-Generic Ethereum transactions that send Ethereum or Ethereum-based tokens from one address to another are typically a lot cheaper than DeFi transactions.
+Generic Ethereum transactions that send Ethereum or Ethereum-based tokens from one address to another are typically simple (and therefore lot cheaper) than DeFi transactions.
 
-As has been covered in our earlier guide about [blockchain transactions](/guides/fundamentals/8-transactions-basics.md) more complex transactions require higher fees.
-
-> Ethereum DeFi transaction are typically more complex and therefore require higher processing fees than typical token transfer transactions.
->
-> The transaction processing fee is directly proportional to the complexity of the transaction.
+> Ethereum DeFi transaction are typically complex and require higher processing fees than typical token transfer transactions.
 
 The high fee issue may no longer be relevant when Ethereum blockchain expands its capacity to handle more transactions. 
 
 Until then DeFi transactions costs are likely to keep increasing, especially as DeFi ecosystem and services attract more and more people.
 
-## DeFi Service Fee
+## DeFi Service Fees
 
-DeFi services typically charge small fees for the service. The fees change from one DeFi service to another, some do not have any fees at all. 
+DeFi services usually charge small fees for the service. However, some do not have any fees at all. 
 
-For instance, a decentralized exchange charges a trader a fee for each trade. When executing a trade transaction on a DEX trader is paying two fees:
+For instance, a decentralized exchange charges trader a small service fee for each trade. As a result, with each trade the trader expected to pay:
 
-- a service fee (0.02 % - 0.04 %) paid to the DEX smart contract
-- a transaction fee paid to Ethereum network nodes
+- a service fee (ex: 0.02 % - 0.04 %) paid to a DEX smart contract
+- a transaction fee paid to the Ethereum network nodes
 
 ## Approval Transactions
 
 Transaction approvals is another important aspect to grasp.
 
-When user interacts with a smart contract it's not uncommon for a smart contract to require access to user's capital in order to execute the service.
+When user interacts with a smart contract it's not uncommon for a smart contract to require an owner's approval to access his/her capital in order to execute its service.
 
-> Depending on how the smart contract built it may require a permission from a user before it can do anything with user's funds.
+> Granting a permission works in a form of another 'approval transaction' which is a transaction which doesn't transfer any money but only grants someone (can be a smart contract) a permission to spend a certain amount of your balance for a given token.
 
-Granting a permission works in a form of another 'approval transaction' which is basically a permission granted to someone (i.e. some smart contract) to spend X amount of some token on your balance.
+Most DeFi services will require an approval transaction to be completed before a uesr can make use of the DeFi service.
 
 ![](images/defi6-defiprivacy-l.png)
 

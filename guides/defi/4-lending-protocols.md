@@ -60,9 +60,9 @@ If any steps in transaction chain fail then preceding steps would be reverted an
 
 A flash loan allows you to essentially simultaneously perform multiple financial transactions in an instant: borrowing the funds, using them to make several arbitrage trades across multiple DeFi platforms, and then paying them back to the original lender, all in one go.
 
-## Compound
+## 1. Compound
 
-Perhaps the most popular decentralized service for borrowing and lending. 
+A currently popular decentralized service for borrowing and lending. 
     
 [Compound Finance](https://compound.finance/markets) loans typically require a collateral which may change between 0-90% of the borrowed asset. 
 
@@ -70,9 +70,9 @@ Each asset on Compound can have a different collateral requirements.
     
 Read: [Compound in Simple Terms](/guides/token_guides/compound.md)
     
-## Aave
+## 2. Aave
 
-[Aave](https://app.aave.com/home) provides access both to collateralized and uncollateralized flash loans.
+[Aave](https://app.aave.com/home) provides access both to collateralized and non-collateralized flash loans.
     
 The flash loans are provided from a liquidity pool which is financed by other users. Aave charges a 0.09% fee on flash loans.
     
@@ -80,16 +80,18 @@ For collateralized loans a 0.01% fee of the loan amount is collected on loan ori
     
 Read: [Aave in Simple Terms](/guides/token_guides/aave.md)    
     
-## Oasis
+## 3. Oasis
 
 [Oasis](https://oasis.app/) is a DEX developed by MakerDAO which facilitates lending and borrowing of DAI stablecoin. 
     
-Users may borrow DAI from MakerDAO smart contracts which creates new DAI in exchange for a cryptocurrency collateral (i.e. 150% of loan value) from a borrower.
+- Users may borrow DAI from MakerDAO smart contracts which creates new DAI in exchange for a cryptocurrency collateral (i.e. 150% of loan value) from a borrower.
     
-When DAI tokens are returned, the collateral paid back to the borrower and returned DAI tokens are destroyed by a smart contract.
+- When DAI tokens are returned, the collateral paid back to the borrower and returned DAI tokens are destroyed by a smart contract.
     
 Read: [MakerDAO in Simple Terms](/guides/token_guides/makerdao.md)
 
-> As with other DeFi services, there is always a possibility of a hack or exploit which could drain the liquidity pool of the lending service, causing lenders to lose their assets.
->
-> Therefore, lenders must be sure not to commit more money than they can afford to lose. 
+## Risks
+
+As with other DeFi services, there is always a possibility of a hack or exploit which could drain the liquidity pool of the lending service, causing lenders to lose their assets.
+
+Therefore, lenders must be sure not to commit more money than they can afford to lose. 

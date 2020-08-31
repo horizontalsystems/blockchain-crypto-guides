@@ -14,7 +14,7 @@ Uniswap is one of the first decentralized exchange services to emerge out of the
     
 - lists a lot of cryptocurrency trading pairs and has a free token listing policy, allowing anyone to list any token and provide liquidity for it.
 
-- uses a simple math formula and tokens available in its liquidity pool to determine price of listed assets and execute trades. An overview of this model can be found [here](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works) and [here](https://uniswap.org/docs/v2/core-concepts/swaps/)
+- uses a simple math formula and tokens available in its liquidity pool to determine price of listed assets and execute trades. An overview of this model can be found [here](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works) and [here](https://uniswap.org/docs/v2/core-concepts/swaps/).
 
 - has two versions, Uniswap V1 and newer Uniswap V2. As it was built per deFi principles it's not possible for Uniswap to shut down earlier versions. 
 

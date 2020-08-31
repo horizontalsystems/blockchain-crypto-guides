@@ -22,7 +22,7 @@ While there are a lot of stablecoins in DeFi ecosystem each comes with its own s
 
 So, while there are a lot of stablecoins built on Ethereum not all of them are built per DeFi principles.
 
-### DAI ( ~ USD)
+## 1. DAI ( ~ USD)
 
 Currently, the most decentralized stablecoin on Ethereum ecosystem. 
     
@@ -30,15 +30,15 @@ The DAI stablecoin is the financial service offered by DeFi entity known as Make
     
 Read: [DAI in Simple Terms](/guides/token_guides/makerdao.md)
     
-### USDT ( ~ USD)
+### 2. USDT ( ~ USD)
 
 The very first cryptocurrency stablecoin with a market cap over 10 billion USD.
     
-USDT token is highly liquid and has one of the biggest trading volumes across cryptocurrency exchanges.
+USDT token is highly liquid and has one of the biggest trading volumes across centralzied and decentralized cryptocurrency exchanges.
 
 Read: [USDT in Simple Terms](/guides/token_guides/tether.md)
             
-### USDC ( ~ USD)
+### 3. USDC ( ~ USD)
 
 Introduced by the Centre Consortium, an organization co-founded by Circle and Coinbase cryptocurrency exchange.
     
@@ -46,25 +46,25 @@ Centre Consortium has full control over the stablecoin and claims to have each c
     
 Read: [Introducing USD Coin (USDC)](https://www.centre.io/usdc)
     
-### TUSD ( ~ USD)
+### 4. TUSD ( ~ USD)
 
 This stablecoin is issued and maintained by TrustToken, TUSD is recognized as the first stablecoin launched with a core focus on a transparency. 
     
 Users can purchase and redeem TUSD at a 1:1 rate on the TrustToken platform for US Dollars.
     
-### BUSD ( ~ USD)
+### 5. BUSD ( ~ USD)
 
 A US dollar backed stablecoin from Binance, the biggest cryptocurrency exchange in the world. 
     
 Just like above mentioned USDT, USDC and TUSD, it's a centralized stablecoin fully controlled by the Binance.
     
-### PAX ( ~ USD)
+### 6. PAX ( ~ USD)
 
 Another centralized stablecoin that claims to be backed 1:1 with the US Dollar. 
 
 PAX tokens are issued by the Paxos Trust Company.
 
-### sUSD / sBTC
+### 7. sUSD / sBTC
 
 sUSD and sBTC are decentralized stablecoins pegged to the price of USD and BTC, respectively. 
 
@@ -72,13 +72,13 @@ Both tokens are derivatives created on Synthetix DeFi platform where each such t
 
 Read: [Synthetix in Simple Terms](/guides/token_guides/synthetix.md)
     
-### renBTC  ( ~ BTC)
+### 8. renBTC  ( ~ BTC)
 
 A bitcoin representation in Ethereum blockchain. Any asset minted on Ethereum by RenVM is a 1:1 backed by a token on Ethereum. 
 
 If you have 1 renBTC (an ERC-20), you can always redeem it for 1 BTC delivered to your Bitcoin address. 
     
-### wBTC  ( ~ Bitcoin)
+### 9. wBTC  ( ~ Bitcoin)
 
 Wrapped Bitcoin (WBTC) is the first Ethereum-based cryptocurrency token which is backed 1:1 with Bitcoin.
     

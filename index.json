@@ -157,8 +157,7 @@
         "updated_at": "01-09-2020"
       }
     ]
-  }
-,
+  },
   {
     "title": "Stablecoins",
     "guides": [
@@ -173,6 +172,23 @@
         "image_url": "guides/token_guides/images/mkr-Main-l.png",
         "file_url": "guides/token_guides/makerdao.md",
         "updated_at": "01-06-2020"
+      }
+    ]
+  },
+  {
+    "title": "Lending",
+    "guides": [
+      {
+        "title": "Aave",
+        "image_url": "guides/token_guides/images/aave-Main-l.png",
+        "file_url": "guides/token_guides/aave.md",
+        "updated_at": "01-09-2020"
+      },
+      {
+        "title": "Compound",
+        "image_url": "guides/token_guides/images/comp-Main-l.png",
+        "file_url": "guides/token_guides/compound.md",
+        "updated_at": "01-09-2020"
       }
     ]
   }

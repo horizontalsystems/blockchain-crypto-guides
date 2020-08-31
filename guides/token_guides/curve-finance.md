@@ -8,7 +8,7 @@ Curve has a large turnover volume, frequently exceeding over [50 million USD](ht
 
 ## Curve Token
 
-Curve DEX plans to become a DAO and has a governance token (symbol: CRV) which provides [additional perks](https://guides.curve.fi/crv-launches-curve-dao-and-crv/) when interacting with Curve services including voting capabilities on important decisions.
+Curve plans to become a DAO and has a governance token CRV which provides [additional perks](https://guides.curve.fi/crv-launches-curve-dao-and-crv/) when interacting with Curve services including voting capabilities on important decisions.
 
 Total supply: about 3 billion
 
@@ -25,17 +25,19 @@ Total supply: about 3 billion
 
 ## Liquidity Providers
 
-- Apart from collecting trading fees, Curve's liquidity pools lend spare funds to external [DeFi lending](/guides/defi/4-lending-protocols.md) services and earn liquidity providers even more income. Only some liquidity pools on Curve use lending protocols.
+Liquidity pools on Curve are generally more profitable than pools on uniswap. 
 
-- Curve liquidity pools do not require liquidity provider to deposit all tokens involved in the pool. The provider can just deposit one stablecoin.
+Apart from collecting trading fees, Curve's liquidity pools lend spare funds to external [DeFi lending](/guides/defi/4-lending-protocols.md) services and earn liquidity providers even more income. 
 
-- Liquidity pools on Curve are generally more profitable also due to the fact that liquidity pools consist of 'stable' assets. 
+- At present, 4 out of 7 liquidity pools on Curve earn liquidity providers not only from trading fees but from lending liquidity to [Compound](/guides/token_guides/compound.md) lending pool as well.
 
-- Liquidity providers may also deposit just one token and choose to provide liquidity to all the pools instead of just one.
+- Curve's liquidity pools do not require liquidity provider to deposit all tokens involved in the pool. The provider can just deposit one stablecoin.
 
-- At present, 4 out of 7 liquidity pools on Curve earn liquidity providers not only from trading fees but from lending liquidity to Compound lending pool as well.
+- Liquidity providers may deposit a single asset and use it to provide liquidity to multiple Curve pools.
 
-- Some Curve pools offer additional bonuses: if a deposited token has a low share of the pool, you may earn a deposit bonus. Conversely, you may earn a bonus if you withdraw a particular stablecoin that's predominant in the pool.
+- Some Curve pools offer additional bonuses aimed at keeping pools balanced. When user deposits token that has a low share of the pool, s/he earns a deposit bonus. 
+
+- Conversely, there are also bonuses for withdrawing a stablecoin that's predominant in the given pool.
 
 ## Pool Profitability
  
@@ -47,6 +49,10 @@ Total supply: about 3 billion
 
 - Due to versatile pool deposit mechanisms, adding funds to liquidity pools can be quite expensive when Ethereum network is busy.
 
-Curve Finance significantly more complex than Uniswap and integrates more third party DeFi services into its products. 
+## Risks
 
-Therefore, Curve Finance carries more security risks.
+Curve Finance significantly more complex than Uniswap and integrates some third party DeFi services into its products. 
+
+So, from security point of view there is a higher chance of potential undiscovered issues in a smart contract.
+
+> Curve smart contract have [been audited](https://www.curve.fi/audits) by a third party service known as Trail Of Bits.
