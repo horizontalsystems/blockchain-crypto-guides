@@ -149,12 +149,6 @@
         "image_url": "guides/token_guides/images/snx-Main-l.png",
         "file_url": "guides/token_guides/synthetix.md",
         "updated_at": "01-09-2020"
-      },
-      {
-        "title": "Kyber in Simple Terms",
-        "image_url": "guides/token_guides/images/knc-Main-l.png",
-        "file_url": "guides/token_guides/kyber-network.md",
-        "updated_at": "01-09-2020"
       }
     ]
   },
