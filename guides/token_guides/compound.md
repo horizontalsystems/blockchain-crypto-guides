@@ -2,57 +2,108 @@
 
 # Compound in Simple Terms
 
-https://compound.finance/docs/comptroller#account-liquidity
+[Compound](https://app.compound.finance) is a decentralized platform that connects cryptocurrency lenders and borrowers. 
 
-Compound operates similar to a bank. You can deposit various cryptocurrencies and earn an annual interest on your deposits, similar to depositing your money into the bank. 
+In essence, users lend idle cryptocurrency assets to the Compound Finance liquidity pool, from which borrowers can borrow the assets.
 
-- earn interest when you deposit (Compound refers to this as “supply”) cryptocurrencies onto their platform. Once you have supplied cryptocurrencies onto the platform, you would be able to use Compound’s other features such as using these supplied cryptocurrencies as collateral to take out loans.
+- for cryptocurrency owners Compound allows to deposit their holdings into a smart contract and earn an interest on deposits. 
 
-- An important point to note is that Compound has floating interest rates which are subject to change. How Compound determines the interest rate is similar to the Federal Reserve, Compound would analyse the supply and demand for a particular cryptocurrency and then set a floating interest rate that will adjust based on market conditions. Compound also takes a 10% cut off your earned interest. Users can take back their cryptocurrencies at any time with a 15 second lag between executing the instruction and receiving their crypto.
+- at the same time potential borrowers may request credit from Compound for a fee and collateral deposit (in form of another cryptocurrency).
 
-- Compound requires users to put up 100% of the value of your intended loan. There are risks of doing this though which will be explained below where we look at Compound’s liquidation clause.
+Compound currently supports 8 cryptocurrencies: 
 
-- Borrowing cryptocurrencies does also require you to pay fees. For example in the below image you can see that taking out a loan of BAT will cost you a whopping 29.4% per year.
+- [wrapped BTC (WBTC)](https://compound.finance/markets/WBTC)
+- [Ethereum (ETH)](https://compound.finance/markets/ETH)
+- [USD Coin (USDC)](https://compound.finance/markets/USDC)
+- [Tether (USDT)](https://compound.finance/markets/USDT)
+- [Dai (DAI)](https://compound.finance/markets/DAI)
+- [Augur (Rep)](https://compound.finance/markets/REP)
+- [0x (ZRX)](https://compound.finance/markets/ZRX)
+- [Basic Attention Token (BAT)](https://compound.finance/markets/BAT)
 
-- You can also see from the above image how Compound makes money, since there is a spread between the amount of interest generated from depositing, say BAT and the amount of fees you need to pay for borrowing the same.
+Each supported cryptocurrency has its own borrowing and lending requirements in the platform:
 
-## Compound Finance vs. Aave
+- Interest Rates
 
-However, both have unique features that set them apart. 
+    Borrowing / lending  interest rates tend to change in real time depending on the market supply and demand for the given cryptocurrency asset.
+    
+- Collateral Factor
 
-- Compound does have USDT as a usable asset, but Aave has a wider range of tokens on offer. 
+    The amount of collateral needed to borrow some cryptocurrency. In other words, a collateral factor of 70%, means that user may borrow up to 70% of the collateral value.
+    
+By going to the individual asset pages on Compound (linked above) you can also see the total number of lenders, borrowers and the amount of a given asset available for borrowing. 
 
-- For Aave, their new interest rates and regulations, like rate switching gives them a slight edge. 
+The data shown on Compound website can be easily validated by looking up respective Compound smart contracts.
 
-- For first time users, Aave offers great incentive rates. However, lending rates and Borrow fees are higher on average with Aave.
+## Borrowing on Compound
 
-## COMP Token
+To borrow on Compound users have to put up a collateral in another cryptocurrency. The maximum amount users can borrow depends on the 'reserve factor' that's set on the Compound for a collateral. 
 
-Since May 2020, Compound has transitioned to community governance. This means holders of Compound’s token, $COMP can make proposals and vote on decisions relating to how Compound is to be developed or run, e.g. what kind of collateral should Compound support, or what the interest rates should be.
+> For instance, if a user supplies 100 DAI as collateral, and the collateral factor for DAI is 75%, then the user can borrow at most 75 DAI worth of other assets. 
 
-There is a total supply of 10 million $COMP, of which 42.3% is reserved for distribution to users to earn when they use Compound e.g. by supplying or borrowing cryptocurrencies. For every Ethereum block, 0.5 $COMP is distributed across Compound’s 9 markets in proportion to the interest accrued in the market. And within each of these markets, the amount of distributed $COMP is divided 50:50 between suppliers and borrowers of that particular cryptocurrency. Hence the cryptocurrency which is earning the most COMP per day is always changing. Users should check Compound’s User Distribution page, where they can see the amount of interest paid per day as well as the amount of $COMP distributed to suppliers and borrowers.
+So, each asset on Compound can have a different collateral factor. 
 
-- You can also earn $COMP by voting on various governance proposals concerning how Compound should be run.
+- Borrowing cryptocurrencies on Compound does require users to pay fees in a form of borrowing interest rate.
 
-- Users earn COMP when they supply or borrow cryptocurrencies on the platform. 
+- Compound has floating interest rates which are adjusted based on market supply and demand for a particular cryptocurrency.
 
-So in the below image we deposited 500 USDC and borrowed 300 USDT to get a net effective interest of -12.27% which on the face of it does not look profitable.
+- Once loan repaid, the account’s collateral can be entirely withdrawn to the external wallet. The loan can be repaid by a borrower or some third party account. 
 
-BUT at the same time we are also earning $COMP. This calculator shows you how much $COMP would be distributed depending on the type and amount of tokens supplied or borrowed. So as seen in the below image, whilst the net interest was -12.27% per annum, we EARNED 13.94% APY of $COMP. Basically, you are being PAID to take out a loan.
+Borrowing is not risk-free, there are some circumstances where collateral assets can be liquidated by the protocol.
 
-$COMP mining: Another way to potentially earn more $COMP
+The borrowers have to monitor price of collateral assets in real-time and make sure the value of the collateral never falls below the minimum required for the loan. 
 
-$COMP mining goes beyond simply supplying cryptocurrencies and profiting off the interest rates on Compound. Rather it is about getting as much $COMP rewards as possible in the shortest amount of time. Some methods even allow you to multiply your earnings by folding your position 4x.
+> It's recommended to always borrow less than max. allowed limit to ensure the value of collateral remains always above the minimum even if the price of collateral asset drops sharply.
 
-In a nutshell, people have have been finding ways to do this by first depositing USDC, borrowing USDT and then converting the USDT to USDC. Then depositing the USDC onto the platform, leveraging it, withdrawing USDT and depositing it onto the Compound platform several times over.
+A borrowing account becomes insolvent when the total borrowed balance exceeds the maximum allowed amount. 
 
-What cryptocurrencies does Compound support?
+When some account becomes insolvent, other platform users can repay a portion of its outstanding debt in exchange for a portion of its collateral, with a liquidation incentive — currently set at 8% but can change through governance system. 
 
-Compound currently supports 9 cryptocurrencies, namely: Ether (ETH), USD Coin (USDC), Basic Attention Token (BAT), Tether (USDT), 0x (ZRX), Wrapped BTC (WBTC), Dai (DAI), Augur (Rep) and Sai (Legacy DAI) (SAI).
+Having your account liquidated is bad because you lose some or all of your collateral.
 
-Developer Guide for Supplying Crypto Assets to the Compound Protocol
+## Lending on Compound 
 
-The Compound Protocol is a series of interest rate markets running on the Ethereum blockchain. When users and applications supply an asset to the Compound protocol, they begin earning a variable interest income instantly. Interest accrues every Ethereum block (~15 seconds), and users can withdraw their principal plus interest anytime.
-Under the hood, users are contributing their assets to a large pool of liquidity (a “market”) that is available for other users to borrow, and they share in the interest that borrowers pay back to the pool.
-When users supply assets, they receive cTokens from Compound in exchange. cTokens are ERC20 tokens that can be redeemed for their underlying assets at any time. As interest accrues to the assets supplied, cTokens are redeemable at an exchange rate (relative to the underlying asset) that constantly increases over time, based on the rate of interest earned by the underlying asset.
-Non-technical users can interact with the Compound protocol using an interface like Dharma or app.compound.finance; developers can create their own applications that interact with Compound’s smart contracts.
+- Lenders may withdraw their cryptocurrencies (along with earned interest) at any time with a 15-second lag.
+
+- When users supply assets, they receive cTokens from Compound in exchange. These cTokens are ERC20 tokens that can be redeemed for their underlying assets at any time. 
+
+- As interest accrues to the assets supplied, cTokens are redeemable at an exchange rate (relative to the underlying asset) that constantly increases over time, based on the rate of interest earned by the underlying asset.
+
+- The cTokens received by the lenders can also be used to borrow assets from the platform.
+
+Lending is not risk-free, there are some circumstances i.e. borrower default and liquidation malfunction that can affect the safety of the assets in the lending pool.
+
+To protect lenders against unforeseen situations Compound maintains a reserve pool that grows in size by taking a small cut from the rate paid by the lenders.
+ 
+## cTokens 
+
+cTokens are the primary means of interacting with the Compound Protocol; when a user mints, redeems, borrows, repays a borrow, liquidates a borrow, or transfers cTokens, she will do so using the cToken contract.
+
+Each supported cryptocurrency on Compound has its own respective cToken i.e. cDAI for DAI, cUSDT for USDT and so on.
+
+When users supply assets, they receive cTokens from Compound in exchange. cTokens are ERC20 tokens that can be redeemed for their underlying assets at any time.
+
+## Compound Governance
+
+Since May 2020, Compound has transitioned to community governance using its native COMP governance token.
+
+> COMP holders can make proposals and vote on decisions relating to how Compound should operate and developed. 
+>
+> What kind of collateral assets should Compound support, the value of interest rates and so on. 
+
+There is a total supply of 10 million COMP tokens:
+ 
+- 42.3% of total is reserved for distribution to active Compound users supplying or borrowing cryptocurrencies. On every Ethereum block, 0.5 COMP is distributed across Compound’s lending and borrowing pools.
+ 
+- Distributed tokens are divided 50:50 between suppliers and borrowers of that particular cryptocurrency. The cryptocurrency which is earning the most COMP per day is always changing.
+
+- Users may also earn $COMP by voting on various governance proposals.
+
+Compound is on the path to decentralize all aspects of the platform. You can read about the transition [here](https://medium.com/compound-finance/expanding-compound-governance-ce13fcd4fe36).
+
+## Links
+
+- [Official Compound Website](https://compound.finance)
+- [Governance Proposals](https://compound.finance/governance/proposals)
+- [Compound Owners Leaderboard](https://compound.finance/governance/leaderboard)
+- [Project Documentation](https://compound.finance/docs)
