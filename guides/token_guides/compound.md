@@ -10,6 +10,8 @@ In essence, users lend idle cryptocurrency assets to the Compound Finance liquid
 
 - at the same time potential borrowers may request credit from Compound for a fee and collateral deposit (in form of another cryptocurrency).
 
+- borrowing and lending available to regular users as well as smart contracts. This enables DeFi engineers to build services which are able to access liquidity in other DeFi services.
+
 Compound currently supports 8 cryptocurrencies: 
 
 - [wrapped BTC (WBTC)](https://compound.finance/markets/WBTC)
@@ -37,9 +39,9 @@ The data shown on Compound website can be easily validated by looking up respect
 
 ## Borrowing on Compound
 
-To borrow on Compound users have to put up a collateral in another cryptocurrency. The maximum amount users can borrow depends on the 'reserve factor' that's set on the Compound for a collateral. 
+To borrow on Compound users have to put up a collateral in another cryptocurrency. The maximum amount users can borrow depends on the 'reserve factor' for a collateral. 
 
-> For instance, if a user supplies 100 DAI as collateral, and the collateral factor for DAI is 75%, then the user can borrow at most 75 DAI worth of other assets. 
+> For instance, if a user supplies 100 DAI as collateral, and the collateral's reserve factor for DAI is 75%, then the user can borrow at most 75 DAI worth of other assets. 
 
 So, each asset on Compound can have a different collateral factor. 
 
@@ -87,9 +89,7 @@ When users supply assets, they receive cTokens from Compound in exchange. cToken
 
 Since May 2020, Compound has transitioned to community governance using its native COMP governance token.
 
-> COMP holders can make proposals and vote on decisions relating to how Compound should operate and developed. 
->
-> What kind of collateral assets should Compound support, the value of interest rates and so on. 
+> COMP holders can make proposals and vote on decisions relating to how Compound should operate, which collateral assets should be supported, interest rates and so on. 
 
 There is a total supply of 10 million COMP tokens:
  
