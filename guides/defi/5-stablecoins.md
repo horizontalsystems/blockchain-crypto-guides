@@ -4,13 +4,15 @@
 
 Stablecoin was one of the very first decentralized financial instruments emerging from DeFi ecosystem. 
 
-The term stablecoin refers to a type of cryptocurrency which attempts to peg its market value to some external asset. Usually it’s USD, EUR, Gold or some other cryptocurrency.
+The term stablecoin refers to a type of cryptocurrency which attempts to peg its market value to some external asset like USD, EUR, Gold or some other cryptocurrency.
 
 > DeFi smart contracts enabled creation of cryptocurrencies which have a fixed value i.e. equal to 1 USD or say 1 oz (ca. 38 g) of gold. 
 >
 > Depending on how a stablecoin is built it may various mechanisms in place to ensure its price always remains very close to the peg. 
 
 Stablecoins make it easy to convert cryptocurrency assets to fiat equivalent and thus avoid being exposed to cryptocurrency price swings.
+
+Most DeFi services operate with stablecoin cryptocurrencies due to their relatively stable value.
 
 While there are a lot of stablecoins in DeFi ecosystem each comes with its own specifics:
 
