@@ -25,19 +25,19 @@
         "fr": {
           "title": "Crypto-monnaie",
           "image": "guides/fundamentals/images/01-main-l.png",
-          "file": "guides/fundamentals/ru/1-cryptocurrency-basics.md",
+          "file": "guides/fundamentals/fr/1-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         },
         "de": {
           "title": "Kryptowährung",
           "image": "guides/fundamentals/images/01-main-l.png",
-          "file": "guides/fundamentals/ru/1-cryptocurrency-basics.md",
+          "file": "guides/fundamentals/de/1-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
           "title": "Cryptocurrency",
           "image": "guides/fundamentals/images/01-main-l.png",
-          "file": "guides/fundamentals/ru/1-cryptocurrency-basics.md",
+          "file": "guides/fundamentals/fa/1-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         }
       },
@@ -51,25 +51,25 @@
         "ru": {
           "title": "Доступно о кошельках",
           "image_url": "guides/fundamentals/images/02-main-l.png",
-          "file_url": "guides/fundamentals/2-wallets-basics.md",
+          "file_url": "guides/fundamentals/ru/2-wallets-basics.md",
           "updated_at": "01-06-2020"
         },
         "fr": {
           "title": "Les portefeuilles",
           "image_url": "guides/fundamentals/images/02-main-l.png",
-          "file_url": "guides/fundamentals/2-wallets-basics.md",
+          "file_url": "guides/fundamentals/fr/2-wallets-basics.md",
           "updated_at": "01-06-2020"
         },
         "de": {
           "title": "Wallets erklärt",
           "image_url": "guides/fundamentals/images/02-main-l.png",
-          "file_url": "guides/fundamentals/2-wallets-basics.md",
+          "file_url": "guides/fundamentals/de/2-wallets-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
           "title": "Crypto Wallets",
           "image_url": "guides/fundamentals/images/02-main-l.png",
-          "file_url": "guides/fundamentals/2-wallets-basics.md",
+          "file_url": "guides/fundamentals/fa/2-wallets-basics.md",
           "updated_at": "01-06-2020"
         }
       },
@@ -83,25 +83,25 @@
         "ru": {
           "title": "Приватные ключи",
           "image_url": "guides/fundamentals/images/03-main-l.png",
-          "file_url": "guides/fundamentals/3-private-keys-basics.md",
+          "file_url": "guides/fundamentals/ru/3-private-keys-basics.md",
           "updated_at": "01-06-2020"
         },
         "fr": {
           "title": "Clés privées",
           "image_url": "guides/fundamentals/images/03-main-l.png",
-          "file_url": "guides/fundamentals/3-private-keys-basics.md",
+          "file_url": "guides/fundamentals/fr/3-private-keys-basics.md",
           "updated_at": "01-06-2020"
         },
         "de": {
           "title": "Private Keys",
           "image_url": "guides/fundamentals/images/03-main-l.png",
-          "file_url": "guides/fundamentals/3-private-keys-basics.md",
+          "file_url": "guides/fundamentals/de/3-private-keys-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
           "title": "Private Keys",
           "image_url": "guides/fundamentals/images/03-main-l.png",
-          "file_url": "guides/fundamentals/3-private-keys-basics.md",
+          "file_url": "guides/fundamentals/fa/3-private-keys-basics.md",
           "updated_at": "01-06-2020"
         }
       },
@@ -115,25 +115,25 @@
         "ru": {
           "title": "Безопасное хранение",
           "image_url": "guides/fundamentals/images/04-main-l.png",
-          "file_url": "guides/fundamentals/4-safe-storage-basics.md",
+          "file_url": "guides/fundamentals/ru/4-safe-storage-basics.md",
           "updated_at": "01-06-2020"
         },
         "fr": {
           "title": "Achat de cryptomonnaie",
           "image_url": "guides/fundamentals/images/04-main-l.png",
-          "file_url": "guides/fundamentals/4-safe-storage-basics.md",
+          "file_url": "guides/fundamentals/fr/4-safe-storage-basics.md",
           "updated_at": "01-06-2020"
         },
         "de": {
           "title": "Safe Storage Tips",
           "image_url": "guides/fundamentals/images/04-main-l.png",
-          "file_url": "guides/fundamentals/4-safe-storage-basics.md",
+          "file_url": "guides/fundamentals/de/4-safe-storage-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
           "title": "Safe Storage Tips",
           "image_url": "guides/fundamentals/images/04-main-l.png",
-          "file_url": "guides/fundamentals/4-safe-storage-basics.md",
+          "file_url": "guides/fundamentals/fa/4-safe-storage-basics.md",
           "updated_at": "01-06-2020"
         }
       },
@@ -147,25 +147,25 @@
         "ru": {
           "title": "Unstoppable Intro",
           "image_url": "guides/fundamentals/images/05-main-l.png",
-          "file_url": "guides/fundamentals/5-unstoppable-basics.md",
+          "file_url": "guides/fundamentals/ru/5-unstoppable-basics.md",
           "updated_at": "01-06-2020"
         },
         "fr": {
           "title": "Unstoppable Intro",
           "image_url": "guides/fundamentals/images/05-main-l.png",
-          "file_url": "guides/fundamentals/5-unstoppable-basics.md",
+          "file_url": "guides/fundamentals/fr/5-unstoppable-basics.md",
           "updated_at": "01-06-2020"
         },
         "de": {
           "title": "Unstoppable Intro",
           "image_url": "guides/fundamentals/images/05-main-l.png",
-          "file_url": "guides/fundamentals/5-unstoppable-basics.md",
+          "file_url": "guides/fundamentals/de/5-unstoppable-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
           "title": "Unstoppable Intro",
           "image_url": "guides/fundamentals/images/05-main-l.png",
-          "file_url": "guides/fundamentals/5-unstoppable-basics.md",
+          "file_url": "guides/fundamentals/fa/5-unstoppable-basics.md",
           "updated_at": "01-06-2020"
         }
       },
@@ -179,25 +179,25 @@
         "ru":{
           "title": "Покупка криптовалюты",
           "image_url": "guides/fundamentals/images/06-main-l.png",
-          "file_url": "guides/fundamentals/6-buying-cryptocurrency-basics.md",
+          "file_url": "guides/fundamentals/ru/6-buying-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         },
         "fr":{
           "title": " Dépenser la crypto-monnaie",
           "image_url": "guides/fundamentals/images/06-main-l.png",
-          "file_url": "guides/fundamentals/6-buying-cryptocurrency-basics.md",
+          "file_url": "guides/fundamentals/fr/6-buying-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         },
         "de":{
           "title": "Buying Cryptocurrency",
           "image_url": "guides/fundamentals/images/06-main-l.png",
-          "file_url": "guides/fundamentals/6-buying-cryptocurrency-basics.md",
+          "file_url": "guides/fundamentals/de/6-buying-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa":{
           "title": "Buying Cryptocurrency",
           "image_url": "guides/fundamentals/images/06-main-l.png",
-          "file_url": "guides/fundamentals/6-buying-cryptocurrency-basics.md",
+          "file_url": "guides/fundamentals/fa/6-buying-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         }
       },
@@ -211,25 +211,25 @@
         "ru": {
           "title": "Расходование криптовалюты",
           "image_url": "guides/fundamentals/images/07-main-l.png",
-          "file_url": "guides/fundamentals/7-spending-cryptocurrency.md",
+          "file_url": "guides/fundamentals/ru/7-spending-cryptocurrency.md",
           "updated_at": "01-06-2020"
         },
         "fr": {
           "title": "Spending Cryptocurrency",
           "image_url": "guides/fundamentals/images/07-main-l.png",
-          "file_url": "guides/fundamentals/7-spending-cryptocurrency.md",
+          "file_url": "guides/fundamentals/fr/7-spending-cryptocurrency.md",
           "updated_at": "01-06-2020"
         },
         "de": {
           "title": "Spending Cryptocurrency",
           "image_url": "guides/fundamentals/images/07-main-l.png",
-          "file_url": "guides/fundamentals/7-spending-cryptocurrency.md",
+          "file_url": "guides/fundamentals/de/7-spending-cryptocurrency.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
           "title": "Spending Cryptocurrency",
           "image_url": "guides/fundamentals/images/07-main-l.png",
-          "file_url": "guides/fundamentals/7-spending-cryptocurrency.md",
+          "file_url": "guides/fundamentals/fa/7-spending-cryptocurrency.md",
           "updated_at": "01-06-2020"
         }
       },
@@ -243,25 +243,25 @@
         "ru": {
           "title": "Доступно о транзакциях",
           "image_url": "guides/fundamentals/images/08-main-l.png",
-          "file_url": "guides/fundamentals/8-transactions-basics.md",
+          "file_url": "guides/fundamentals/ru/8-transactions-basics.md",
           "updated_at": "01-06-2020"
         },
         "fr": {
           "title": "Transactions Explained",
           "image_url": "guides/fundamentals/images/08-main-l.png",
-          "file_url": "guides/fundamentals/8-transactions-basics.md",
+          "file_url": "guides/fundamentals/fr/8-transactions-basics.md",
           "updated_at": "01-06-2020"
         },
         "de": {
           "title": "Transactions Explained",
           "image_url": "guides/fundamentals/images/08-main-l.png",
-          "file_url": "guides/fundamentals/8-transactions-basics.md",
+          "file_url": "guides/fundamentals/de/8-transactions-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
           "title": "Transactions Explained",
           "image_url": "guides/fundamentals/images/08-main-l.png",
-          "file_url": "guides/fundamentals/8-transactions-basics.md",
+          "file_url": "guides/fundamentals/fa/8-transactions-basics.md",
           "updated_at": "01-06-2020"
         }
       }
