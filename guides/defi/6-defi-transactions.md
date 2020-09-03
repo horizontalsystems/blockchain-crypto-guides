@@ -76,7 +76,7 @@ One simple tip to mitigate this is to use multiple Ethereum wallets:
 
 - For Asset Storage
 
-    This wallet can be used for [safely storing](/guides/fundamentals/4-safe-storage-basics.md) your Ethereum tokens and assets. It should not be used for transacting with other entities as it will expose you balances to the receiving party.
+    This wallet can be used for [safely storing](/guides/fundamentals/en/4-safe-storage-basics.md) your Ethereum tokens and assets. It should not be used for transacting with other entities as it will expose you balances to the receiving party.
      
 - For Generic Payments
 

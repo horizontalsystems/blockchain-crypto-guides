@@ -44,7 +44,7 @@ After a few years of growth via word-of-mouth marketing the Bitcoin turned into 
 
 ## 2. Bitcoin Cryptocurrency
 
-As we have covered in our [guide on blockchains](../fundamentals/1-cryptocurrency-basics.md), the cryptocurrency is a unit of measure on a blockchain. 
+As we have covered in our [guide on blockchains](../fundamentals/en/1-cryptocurrency-basics.md), the cryptocurrency is a unit of measure on a blockchain. 
 
 The Bitcoin cryptocurrency, denoted by a BTC symbol, is the native unit of measurement on the Bitcoin blockchain.
 
@@ -222,14 +222,14 @@ For a comprehensive list of all the cryptocurrencies in existence, check out [Co
 
 When you're ready to get involved with the Bitcoin on a practical level you're welcome to check out following guides:
 
-1. [Cryptocurrency Explained](../fundamentals/1-cryptocurrency-basics.md)
-2. [Wallet Basics](../fundamentals/2-wallets-basics.md)
-3. [Private Keys Explained](../fundamentals/3-private-keys-basics.md)
-4. [Safe Storage Tips](../fundamentals/4-safe-storage-basics.md)
-5. [Unstoppable Wallet](../fundamentals/5-unstoppable-basics.md)
-6. [Buying Cryptocurrency](../fundamentals/6-buying-cryptocurrency-basics.md)
-7. [Spending Cryptocurrency](../fundamentals/7-spending-cryptocurrency.md)
-8. [Transactions Explained](../fundamentals/8-transactions-basics.md)
+1. [Cryptocurrency Explained](../fundamentals/en/1-cryptocurrency-basics.md)
+2. [Wallet Basics](../fundamentals/en/2-wallets-basics.md)
+3. [Private Keys Explained](../fundamentals/en/3-private-keys-basics.md)
+4. [Safe Storage Tips](../fundamentals/en/4-safe-storage-basics.md)
+5. [Unstoppable Wallet](../fundamentals/en/5-unstoppable-basics.md)
+6. [Buying Cryptocurrency](../fundamentals/en/6-buying-cryptocurrency-basics.md)
+7. [Spending Cryptocurrency](../fundamentals/en/7-spending-cryptocurrency.md)
+8. [Transactions Explained](../fundamentals/en/8-transactions-basics.md)
 
 ## 11. Address Formats
 

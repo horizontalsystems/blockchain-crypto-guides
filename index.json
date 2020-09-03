@@ -13,7 +13,7 @@
         "en": {
           "title": "Cryptocurrency Explained",
           "image": "guides/fundamentals/images/01-main-l.png",
-          "file": "guides/fundamentals/1-cryptocurrency-basics.md",
+          "file": "guides/fundamentals/en/1-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         },
         "ru": {
@@ -45,7 +45,7 @@
         "en": {
           "title": "Crypto Wallets",
           "image_url": "guides/fundamentals/images/02-main-l.png",
-          "file_url": "guides/fundamentals/2-wallets-basics.md",
+          "file_url": "guides/fundamentals/en/2-wallets-basics.md",
           "updated_at": "01-06-2020"
         },
         "ru": {
@@ -77,7 +77,7 @@
         "en": {
           "title": "Private Keys",
           "image_url": "guides/fundamentals/images/03-main-l.png",
-          "file_url": "guides/fundamentals/3-private-keys-basics.md",
+          "file_url": "guides/fundamentals/en/3-private-keys-basics.md",
           "updated_at": "01-06-2020"
         },
         "ru": {
@@ -109,7 +109,7 @@
         "en": {
           "title": "Safe Storage Tips",
           "image_url": "guides/fundamentals/images/04-main-l.png",
-          "file_url": "guides/fundamentals/4-safe-storage-basics.md",
+          "file_url": "guides/fundamentals/en/4-safe-storage-basics.md",
           "updated_at": "01-06-2020"
         },
         "ru": {
@@ -141,7 +141,7 @@
         "en": {
           "title": "Unstoppable Intro",
           "image_url": "guides/fundamentals/images/05-main-l.png",
-          "file_url": "guides/fundamentals/5-unstoppable-basics.md",
+          "file_url": "guides/fundamentals/en/5-unstoppable-basics.md",
           "updated_at": "01-06-2020"
         },
         "ru": {
@@ -173,7 +173,7 @@
         "en":{
         "title": "Buying Cryptocurrency",
         "image_url": "guides/fundamentals/images/06-main-l.png",
-        "file_url": "guides/fundamentals/6-buying-cryptocurrency-basics.md",
+        "file_url": "guides/fundamentals/en/6-buying-cryptocurrency-basics.md",
         "updated_at": "01-06-2020"
       },
         "ru":{
@@ -205,7 +205,7 @@
         "en": {
           "title": "Spending Cryptocurrency",
           "image_url": "guides/fundamentals/images/07-main-l.png",
-          "file_url": "guides/fundamentals/7-spending-cryptocurrency.md",
+          "file_url": "guides/fundamentals/en/7-spending-cryptocurrency.md",
           "updated_at": "01-06-2020"
         },
         "ru": {
@@ -237,7 +237,7 @@
         "en": {
           "title": "Transactions Explained",
           "image_url": "guides/fundamentals/images/08-main-l.png",
-          "file_url": "guides/fundamentals/8-transactions-basics.md",
+          "file_url": "guides/fundamentals/en/8-transactions-basics.md",
           "updated_at": "01-06-2020"
         },
         "ru": {

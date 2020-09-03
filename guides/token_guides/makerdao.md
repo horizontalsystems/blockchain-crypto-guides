@@ -112,9 +112,9 @@ At the same time, token holders collectively share the financial risks of DAI st
 
 At this point, there are slightly over a million of MKR tokens in circulation. The current [MKR market cap](https://coinmarketcap.com/currencies/maker/) exceeds half a billion USD.
 
-MKR tokens can be bought and sold on [cryptocurrency exchanges](../fundamentals/6-buying-cryptocurrency-basics.md) just like Bitcoin or Ethereum. The price of the MKR token is determined by the open market forces.
+MKR tokens can be bought and sold on [cryptocurrency exchanges](../fundamentals/en/6-buying-cryptocurrency-basics.md) just like Bitcoin or Ethereum. The price of the MKR token is determined by the open market forces.
 
-Just like the DAI, the MKR token is an Ethereum based token and can be stored in pretty much any [non-custodial wallet](../fundamentals/2-wallets-basics.md) like Unstoppable, [https://unstoppable.money](https://unstoppable.money).
+Just like the DAI, the MKR token is an Ethereum based token and can be stored in pretty much any [non-custodial wallet](../fundamentals/en/2-wallets-basics.md) like Unstoppable, [https://unstoppable.money](https://unstoppable.money).
 
 ### 1.4 Key Players
 

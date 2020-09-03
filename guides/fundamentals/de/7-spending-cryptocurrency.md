@@ -1,4 +1,4 @@
-![](images/07-main-l.png)
+![](../images/07-main-l.png)
 
 # Spending Cryptocurrency
 

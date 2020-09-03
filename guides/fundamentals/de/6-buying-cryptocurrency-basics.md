@@ -1,4 +1,4 @@
-![](images/06-main-l.png)
+![](../images/06-main-l.png)
 
 # Buying Cryptocurrency
 

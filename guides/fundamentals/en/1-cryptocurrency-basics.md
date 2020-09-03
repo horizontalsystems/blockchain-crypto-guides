@@ -1,4 +1,4 @@
-![](images/01-main-l.png)
+![](../images/01-main-l.png)
 
 # Cryptocurrency
 
@@ -31,7 +31,7 @@ So, what is a blockchain? While so many definitions make it sound complicated it
 >
 >**It can be a history of transactions, a history of votes submitted by electorates etc.**
 
-![](images/01-02-l.png)
+![](../images/01-02-l.png)
 
 While the actual history of records is not that special in itself, when it's put on a blockchain it gains certain attributes that make it socially valuable. These attributes are:
 
@@ -73,7 +73,7 @@ Now let's try to understand the basic nature of cryptocurrency.
 
 Cryptocurrencies are units of something on a blockchain. Depending on the characteristics of underlying blockchain one cryptocurrency may vary from another.
 
-![](images/01-03-l.png)
+![](../images/01-03-l.png)
 
 **For instance:**
 

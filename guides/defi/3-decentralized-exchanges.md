@@ -2,7 +2,7 @@
 
 # Decentralized Exchanges
 
-Nearly all major [cryptocurrency exchanges](/guides/fundamentals/6-buying-cryptocurrency-basics.md) that exist today are centralized. These exchanges allow easy way to trade cryptocurrency for fiat money like USD or EUR.
+Nearly all major [cryptocurrency exchanges](/guides/fundamentals/en/6-buying-cryptocurrency-basics.md) that exist today are centralized. These exchanges allow easy way to trade cryptocurrency for fiat money like USD or EUR.
     
 Due to centralized nature the access to these exchanges is limited and highly regulated. The users on centralized exchanges are also exposed to significant privacy and security issues as these exchanges are often targeted by hackers.
    

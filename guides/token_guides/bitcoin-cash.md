@@ -72,7 +72,7 @@ Here are some key points regarding how Bitcoin Cash fork took place:
 
 - both blockchains have the same amount of cryptocurrency units, capped at 21 million.
 
-- anyone who had Bitcoins in a [non-custodial wallet](../fundamentals/2-wallets-basics.md) at the time of fork also ended up with a [same amount](https://www.smh.com.au/business/markets/bitcoin-cash-is-essentially-printing-money-20170803-gxo981.html) of Bitcoin Cash units on the balance. While there were strong fork opponents on both camps, for the most users the event turned out to be an opportunity to get some free cryptocurrency.
+- anyone who had Bitcoins in a [non-custodial wallet](../fundamentals/en/2-wallets-basics.md) at the time of fork also ended up with a [same amount](https://www.smh.com.au/business/markets/bitcoin-cash-is-essentially-printing-money-20170803-gxo981.html) of Bitcoin Cash units on the balance. While there were strong fork opponents on both camps, for the most users the event turned out to be an opportunity to get some free cryptocurrency.
 
 Over the last few years Bitcoin Cash has managed to foster a significant community and became one of the few cryptocurrency projects that keeps evolving on various fronts.
 
@@ -142,7 +142,7 @@ As a result of the increased block size and post-fork blockchain code changes, t
     
 - **Low Transaction Fees**
 
-    The [transaction fees](../fundamentals/8-transactions-basics.md) become relevant when a blockchain receives more transactions than it can fit in the block. In such cases, fees used to prioritize transactions, giving priority to transactions that pay higher fees.
+    The [transaction fees](../fundamentals/en/8-transactions-basics.md) become relevant when a blockchain receives more transactions than it can fit in the block. In such cases, fees used to prioritize transactions, giving priority to transactions that pay higher fees.
 
     Due to larger block size limit and generally lower volume of transactions on the BCH blockchain, it has much lower fees. Even when someone pays 1 cent per transaction there is always enough space in the current block to process it.
     
@@ -176,11 +176,11 @@ Although Bitcoin Cash has one of the largest social media communities around it'
 
 When you're ready to get involved with the Bitcoin Cash on a practical level you're welcome to check out following guides:
 
-1. [Cryptocurrency Explained](../fundamentals/1-cryptocurrency-basics.md)
-2. [Wallet Basics](../fundamentals/2-wallets-basics.md)
-3. [Private Keys Explained](../fundamentals/3-private-keys-basics.md)
-4. [Safe Storage Tips](../fundamentals/4-safe-storage-basics.md)
-5. [Unstoppable Wallet](../fundamentals/5-unstoppable-basics.md)
-6. [Buying Cryptocurrency](../fundamentals/6-buying-cryptocurrency-basics.md)
-7. [Spending Cryptocurrency](../fundamentals/7-spending-cryptocurrency.md)
-8. [Transactions Explained](../fundamentals/8-transactions-basics.md)
+1. [Cryptocurrency Explained](../fundamentals/en/1-cryptocurrency-basics.md)
+2. [Wallet Basics](../fundamentals/en/2-wallets-basics.md)
+3. [Private Keys Explained](../fundamentals/en/3-private-keys-basics.md)
+4. [Safe Storage Tips](../fundamentals/en/4-safe-storage-basics.md)
+5. [Unstoppable Wallet](../fundamentals/en/5-unstoppable-basics.md)
+6. [Buying Cryptocurrency](../fundamentals/en/6-buying-cryptocurrency-basics.md)
+7. [Spending Cryptocurrency](../fundamentals/en/7-spending-cryptocurrency.md)
+8. [Transactions Explained](../fundamentals/en/8-transactions-basics.md)

@@ -2,7 +2,7 @@
 
 # Ethereum in Simple Terms
 
-Ethereum is regularly mentioned alongside Bitcoin as one of the most popular [decentralized cryptocurrencies](../fundamentals/1-cryptocurrency-basics.md). 
+Ethereum is regularly mentioned alongside Bitcoin as one of the most popular [decentralized cryptocurrencies](../fundamentals/en/1-cryptocurrency-basics.md). 
 
 Ethereum was first proposed in 2013 but came to prominence in 2015, some six years after Bitcoin. The Ethereum platform was developed by [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), along with several other contributors and co-founders. 
 
@@ -36,7 +36,7 @@ Conversely, with a regular lottery or voting apps, there is no way of checking t
 
 ## 2. Ethereum Blockchain
 
-Under the hood, Ethereum is a blockchain. If you are new to this concept then read our short [guide to blockchains](../fundamentals/1-cryptocurrency-basics.md).
+Under the hood, Ethereum is a blockchain. If you are new to this concept then read our short [guide to blockchains](../fundamentals/en/1-cryptocurrency-basics.md).
 
 The Ethereum blockchain is basically a history of all actions (aka transactions) that ever happened on Ethereum, starting from the very beginning.
 
@@ -152,7 +152,7 @@ At this point in time, there are thousands of DApps residing on Ethereum blockch
 
 For instance, in a smart contract that is built for organization management a token can be used to grant members voting power or allocate profit share. 
 
-Tokens belonging to popular DApps are usually tradable on public [cryptocurrency exchanges](../fundamentals/6-buying-cryptocurrency-basics.md). In that regard, these tokens are just like stocks that can rise and fall in value depending on the nature of the DApps, and the market demand for it.
+Tokens belonging to popular DApps are usually tradable on public [cryptocurrency exchanges](../fundamentals/en/6-buying-cryptocurrency-basics.md). In that regard, these tokens are just like stocks that can rise and fall in value depending on the nature of the DApps, and the market demand for it.
 
 Most of the DApps built on Ethereum are financial services and often referred to as Decentralized Finance services.
 
@@ -252,14 +252,14 @@ If one of the cryptocurrency exchanges gets hacked and hackers get their hands o
 
 When you're ready to get involved with holding Ethereum or Ethereum-based tokens you're welcome to check out following guides:
 
-1. [Cryptocurrency Explained](../fundamentals/1-cryptocurrency-basics.md)
-2. [Wallet Basics](../fundamentals/2-wallets-basics.md)
-3. [Private Keys Explained](../fundamentals/3-private-keys-basics.md)
-4. [Safe Storage Tips](../fundamentals/4-safe-storage-basics.md)
-5. [Unstoppable Wallet](../fundamentals/5-unstoppable-basics.md)
-6. [Buying Cryptocurrency](../fundamentals/6-buying-cryptocurrency-basics.md)
-7. [Spending Cryptocurrency](../fundamentals/7-spending-cryptocurrency.md)
-8. [Transactions Explained](../fundamentals/8-transactions-basics.md)
+1. [Cryptocurrency Explained](../fundamentals/en/1-cryptocurrency-basics.md)
+2. [Wallet Basics](../fundamentals/en/2-wallets-basics.md)
+3. [Private Keys Explained](../fundamentals/en/3-private-keys-basics.md)
+4. [Safe Storage Tips](../fundamentals/en/4-safe-storage-basics.md)
+5. [Unstoppable Wallet](../fundamentals/en/5-unstoppable-basics.md)
+6. [Buying Cryptocurrency](../fundamentals/en/6-buying-cryptocurrency-basics.md)
+7. [Spending Cryptocurrency](../fundamentals/en/7-spending-cryptocurrency.md)
+8. [Transactions Explained](../fundamentals/en/8-transactions-basics.md)
 
 ## Conclusion
 

@@ -1,4 +1,4 @@
-![](images/09-main-l.png)
+![](../images/09-main-l.png)
 
 # Investing
 

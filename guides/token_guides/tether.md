@@ -4,7 +4,7 @@
 
 Tether (symbol: USDT) is a cryptocurrency stablecoin with a value meant to mirror the value of the US dollar. It is the biggest stablecoin in the cryptocurrency space. Tether enables easy exposure to USD.
 
-Tether can be found on most [cryptocurrency exchanges](../fundamentals/6-buying-cryptocurrency-basics.md) and supported by most crypto currency wallets. It's usually traded in pairs with the highest daily trading volume. The [BTCUSDT](https://www.binance.com/en/trade/BTC_USDT) pair on Binance exchange alone occasionally exceeds half a billion USD in daily trading volume. 
+Tether can be found on most [cryptocurrency exchanges](../fundamentals/en/6-buying-cryptocurrency-basics.md) and supported by most crypto currency wallets. It's usually traded in pairs with the highest daily trading volume. The [BTCUSDT](https://www.binance.com/en/trade/BTC_USDT) pair on Binance exchange alone occasionally exceeds half a billion USD in daily trading volume. 
 
 The Market Capitalization of Tether has been consistently growing over the years and in May 2020 has exceeded [8 billion USD](https://coinmarketcap.com/currencies/tether/).
 
@@ -18,7 +18,7 @@ Tether tokens are primarily used by cryptocurrency traders to avoid volatility b
 
 ![landscape](images/usdt-Exchange-l.png)
 
-For individuals Tether opens up ways for anyone to store assets in USD equivalent on exchanges or ([non-custodial wallet](../fundamentals/2-wallets-basics.md) like Unstoppable) without the need to have a bank account.
+For individuals Tether opens up ways for anyone to store assets in USD equivalent on exchanges or ([non-custodial wallet](../fundamentals/en/2-wallets-basics.md) like Unstoppable) without the need to have a bank account.
 
 For cryptocurrency exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow. 
 
@@ -28,7 +28,7 @@ Tether tokens in circulation exist as cryptocurrency tokens (primarily on Ethere
 
 Any individual accepting Tether tokens as payment may potentially do so without knowing the identity of the sender. The sender only needs a [crypto wallet](https://unstoppable.money) that supports sending and receiving of Tether tokens.
 
-Tether tokens may be purchased directly from the [Tether’s website](https://tether.to) or on [cryptocurrency exchanges](../fundamentals/6-buying-cryptocurrency-basics.md) using fiat money (USD, EUR etc) or other cryptocurrency like Bitcoin. In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website. 
+Tether tokens may be purchased directly from the [Tether’s website](https://tether.to) or on [cryptocurrency exchanges](../fundamentals/en/6-buying-cryptocurrency-basics.md) using fiat money (USD, EUR etc) or other cryptocurrency like Bitcoin. In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website. 
 
 When someone wants to deposit fiat money to buy Tether tokens via Tether's website, there is a minimum deposit amount of 100,000 USD. The same minimum amount applies when redeeming Tether tokens into fiat currency.
 
