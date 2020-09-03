@@ -1,4 +1,4 @@
-![](images/knc-Main-l.png)
+![](../images/knc-Main-l.png)
 
 ### 4. Kyber DEX
 

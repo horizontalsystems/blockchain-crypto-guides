@@ -1,4 +1,4 @@
-![](images/defi-Main-l.png)
+![](../images/defi-Main-l.png)
 
 # DeFi Explained
 
@@ -22,13 +22,13 @@ Technologies like the internet, cryptography, and blockchain provided means to c
 
 The majority of DeFi services operate on top of Ethereum blockchain and take the form of decentralized apps, more commonly known as DApps. 
 
-It's recommended to go over the [Ethereum guide](/guides/token_guides/ethereum.md). A good understanding of Ethereum, Smart Contracts and DApps is essential to understand DeFi.
+It's recommended to go over the [Ethereum guide](/guides/token_guides/en/ethereum.md). A good understanding of Ethereum, Smart Contracts and DApps is essential to understand DeFi.
 
 ## DeFi Attributes
 
 Typically, DeFi services usually built around following principles:
 
-![](./images/defi-attributes-l.png)
+![](../images/defi-attributes-l.png)
 
 - Open To All
 
@@ -60,9 +60,9 @@ If a service provides means to freeze funds or censor users it cannot be classif
 
 Bitcoin and Ethereum are the original decentralized finance systems. Both are now controlled by large networks of distributed computers, not central authorities. 
 
-1. [Bitcoin](/guides/token_guides/bitcoin.md) was the first blockchain which paved the way for decentralized finance by allowing people to transact in Bitcoin (BTC) without the need for a third-party to execute that transaction. Today, Bitcoin blockchain handles on average [300K transactions a day](https://bitinfocharts.com/comparison/bitcoin-transactions.html#1y).
+1. [Bitcoin](/guides/token_guides/en/bitcoin.md) was the first blockchain which paved the way for decentralized finance by allowing people to transact in Bitcoin (BTC) without the need for a third-party to execute that transaction. Today, Bitcoin blockchain handles on average [300K transactions a day](https://bitinfocharts.com/comparison/bitcoin-transactions.html#1y).
 
-2. Few years later, [Ethereum](/guides/token_guides/ethereum.md) took the idea further and enabled conditional transactions. It enabled programmers to build complex financial services that are always online, censorship resistant and autonomous. 
+2. Few years later, [Ethereum](/guides/token_guides/en/ethereum.md) took the idea further and enabled conditional transactions. It enabled programmers to build complex financial services that are always online, censorship resistant and autonomous. 
 
 3. Over the last few years, Ethereum ecosystem has attracted a lot of engineers and entrepreneurs keen to build new generation of DeFi services. 
 
@@ -80,7 +80,7 @@ There are currently a lot of well-financed startups, entrepreneurs, and finance 
 
 - Around the same, cumulative market cap for DeFi projects accounted for [less than 10%](https://defimarketcap.io) of entire cryptocurrency ecosystem valued at 300 billion.
 
-![](./images/defi-indefi-l.png)
+![](../images/defi-indefi-l.png)
 
 Below is a basic overview of how building, financing and governance of DeFi services takes place:
 

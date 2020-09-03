@@ -1,4 +1,4 @@
-![](images/aave-Main-l.png)
+![](../images/aave-Main-l.png)
 
 # Aave in Simple Terms
 

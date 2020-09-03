@@ -1,4 +1,4 @@
-![](images/defi6-Main-l.png)
+![](../images/defi6-Main-l.png)
 
 # DeFi Transactions
 
@@ -33,7 +33,7 @@ To see a real life example of such transactions, checkout [this post](https://ww
 
 Anyone and anywhere can start experimenting with this using personal cryptocurrency or flash loans if access to capital is limited.
 
-![](images/defi6-Fees-l.png)
+![](../images/defi6-Fees-l.png)
 
 ## Transaction Fee
 
@@ -64,7 +64,7 @@ When user interacts with a smart contract it's not uncommon for a smart contract
 
 Most DeFi services will require an approval transaction to be completed before a uesr can make use of the DeFi service.
 
-![](images/defi6-defiprivacy-l.png)
+![](../images/defi6-defiprivacy-l.png)
 
 ## Privacy
 

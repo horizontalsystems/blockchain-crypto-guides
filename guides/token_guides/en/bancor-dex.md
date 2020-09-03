@@ -1,4 +1,4 @@
-![](images/bnt-Main-l.png)
+![](../images/bnt-Main-l.png)
 
 ## 5. Bancor DEX
 

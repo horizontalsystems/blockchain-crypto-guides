@@ -1,4 +1,4 @@
-![](images/comp-Main-l.png)
+![](../images/comp-Main-l.png)
 
 # Compound in Simple Terms
 

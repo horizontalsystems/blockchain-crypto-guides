@@ -1,4 +1,4 @@
-![](images/bal-Main-l.png)
+![](../images/bal-Main-l.png)
 
 # Balancer in Simple Terms
 

@@ -1,4 +1,4 @@
-![](images/uniswap-Main-l.png)
+![](../images/uniswap-Main-l.png)
 
 # Uniswap in Simple Terms
 

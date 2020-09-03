@@ -1,4 +1,4 @@
-![](images/dydx-Main-l.png)
+![](../images/dydx-Main-l.png)
 
 ### 6. dYdX DEX
 

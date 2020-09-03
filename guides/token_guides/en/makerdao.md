@@ -1,10 +1,10 @@
-![](images/mkr-Main-l.png)
+![](../images/mkr-Main-l.png)
 
 # MakerDAO & DAI in Simple Terms
 
 Let’s start with a brief introduction to Decentralized Finance or DeFi as everyone calls it.
 
-[Bitcoin](../token_guides/bitcoin.md) was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
+[Bitcoin](bitcoin.md) was the first blockchain which paved the way for decentralized finance that allowed anyone to receive, send and hold Bitcoin without third party service providers such as banks. 
 
 In its current state the Bitcoin blockchain is limited to plain transfers of Bitcoins from one address to another.
 
@@ -20,13 +20,13 @@ The term DeFi they usually used as a reference to financial services built on to
 
 That said, most of the high net worth projects serving the public in the DeFI ecosystem are currently working on top of the Ethereum blockchain. 
 
-If you would like to learn more about Ethereum and existing DeFi projects built on top of it, read our [Ethereum guide](../token_guides/ethereum.md).
+If you would like to learn more about Ethereum and existing DeFi projects built on top of it, read our [Ethereum guide](ethereum.md).
 
 ## 1. MakerDAO Overview
 
 MakerDAO is one of the very first DeFi projects built on top of Ethereum blockchain. 
 
-![](images/mkr-Map-l.png)
+![](../images/mkr-Map-l.png)
 
 The project currently controls worth over half a billion USD, all in an automated manner by a predefined set of rules (aka Smart Contracts) known as Maker Protocol.
 
@@ -86,13 +86,13 @@ The Maker Protocol controls the circulating supply of DAI and ensures tha price 
 >
 > **That collateral is always there to ensure that every single DAI in circulation can be bought by the MakerDAO smart contracts even if the market demand for DAI goes to zero.** 
 
-Unlike DAI, most stablecoins (including [Tether](../token_guides/tether.md)) are centralized and require a high level of trust from a person holding these coins. 
+Unlike DAI, most stablecoins (including [Tether](tether.md)) are centralized and require a high level of trust from a person holding these coins. 
 
 ### 1.3 MakerDAO Governance
 
 Being a DAO the MakerDAO project is entirely governed by anyone in possession of MKR tokens. The ownership of MKR token is directly proportional to the ownership and vote weight on any decision in the MakerDAO. 
 
-![](images/mkr-holders-l.png)
+![](../images/mkr-holders-l.png)
 
 Ongoing governance of the MakerDAO works through formal proposals which can be voted on and approved by MKR token holders.
 
@@ -112,9 +112,9 @@ At the same time, token holders collectively share the financial risks of DAI st
 
 At this point, there are slightly over a million of MKR tokens in circulation. The current [MKR market cap](https://coinmarketcap.com/currencies/maker/) exceeds half a billion USD.
 
-MKR tokens can be bought and sold on [cryptocurrency exchanges](../fundamentals/en/6-buying-cryptocurrency-basics.md) just like Bitcoin or Ethereum. The price of the MKR token is determined by the open market forces.
+MKR tokens can be bought and sold on [cryptocurrency exchanges](../../fundamentals/en/6-buying-cryptocurrency-basics.md) just like Bitcoin or Ethereum. The price of the MKR token is determined by the open market forces.
 
-Just like the DAI, the MKR token is an Ethereum based token and can be stored in pretty much any [non-custodial wallet](../fundamentals/en/2-wallets-basics.md) like Unstoppable, [https://unstoppable.money](https://unstoppable.money).
+Just like the DAI, the MKR token is an Ethereum based token and can be stored in pretty much any [non-custodial wallet](../../fundamentals/en/2-wallets-basics.md) like Unstoppable, [https://unstoppable.money](https://unstoppable.money).
 
 ### 1.4 Key Players
 
@@ -154,7 +154,7 @@ MakerDAO provides following services:
 
 The Oasis is peer-to-peer (decentralized) platform where anyone can exchange Ethereum and Ethereum based tokens including DAI. 
 
-![](images/mkr-Oasisex-l.png)
+![](../images/mkr-Oasisex-l.png)
 
 Being a decentralized platform, the service operates fully on Ethereum blockchain. It is open to all and free to use except for the actual Ethereum transaction fees for exchanging tokens.
 
@@ -277,7 +277,7 @@ Both Stability Fee and DAI Savings Rate, provide MakerDAO with the practical mea
 
 Let’s see how MakerDAO can keep the price of DAI token at $1 via supply and demand controlling mechanisms at its disposal.
 
-![](images/mkr-Stable-l.png)
+![](../images/mkr-Stable-l.png)
 
 **To increase the price of DAI:**
 

@@ -1,4 +1,4 @@
-![](images/defi2-Main-l.png)
+![](../images/defi2-Main-l.png)
 
 # How To DeFi
 
@@ -16,7 +16,7 @@ The most common way is to use a [Chrome](https://www.google.com/chrome/) browser
 
 Metamask is not the only wallet that you can use for DeFi, but it's by far the most popular one.
 
-![](images/defi2-start-l.png)
+![](../images/defi2-start-l.png)
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ Once Metamask has been installed, an icon the shape of a fox will appear on the 
 
 Once funded, open the browser and navigate to the DeFi service website you would like to use and look for 'connect wallet' button or a similar option. Click on it, follow through steps and done.
 
-![](images/defi2-risk-l.png)
+![](../images/defi2-risk-l.png)
 
 ## DeFi Risks
 

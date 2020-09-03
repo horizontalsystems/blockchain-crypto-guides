@@ -1,4 +1,4 @@
-![](images/snx-Main-l.png)
+![](../images/snx-Main-l.png)
 
 # Synthetix In Simple Terms 
 

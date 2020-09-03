@@ -20,7 +20,7 @@ Typically, cryptocurrency market participants borrow assets from smart contract 
 
 For instance, someone may borrow one cryptocurrency from one DeFi service and then lend it to another DeFi service with higher returns.
 
-![](images/defi4-colleteralloans-l.png)
+![](../images/defi4-colleteralloans-l.png)
 
 ## Collateralized Loans
 
@@ -32,7 +32,7 @@ For instance, someone may borrow one cryptocurrency from one DeFi service and th
 
 A borrower is incentivized to pay back loan and prevent their collateral from being liquidated in order not to lose part of the collateral.
 
-![](images/defi4-flashloans-l.png)
+![](../images/defi4-flashloans-l.png)
 
 ## Flash Loans
 
@@ -68,7 +68,7 @@ A currently popular decentralized service for borrowing and lending.
 
 Each asset on Compound can have a different collateral requirements.
     
-Read: [Compound in Simple Terms](/guides/token_guides/compound.md)
+Read: [Compound in Simple Terms](/guides/token_guides/en/compound.md)
     
 ## 2. Aave
 
@@ -78,7 +78,7 @@ The flash loans are provided from a liquidity pool which is financed by other us
     
 For collateralized loans a 0.01% fee of the loan amount is collected on loan origination.
     
-Read: [Aave in Simple Terms](/guides/token_guides/aave.md)    
+Read: [Aave in Simple Terms](/guides/token_guides/en/aave.md)    
     
 ## 3. Oasis
 
@@ -88,7 +88,7 @@ Read: [Aave in Simple Terms](/guides/token_guides/aave.md)
     
 - When DAI tokens are returned, the collateral paid back to the borrower and returned DAI tokens are destroyed by a smart contract.
     
-Read: [MakerDAO in Simple Terms](/guides/token_guides/makerdao.md)
+Read: [MakerDAO in Simple Terms](/guides/token_guides/en/makerdao.md)
 
 ## Risks
 

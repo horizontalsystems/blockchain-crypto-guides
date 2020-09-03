@@ -1,8 +1,8 @@
-![](images/eth-Main-l.png)
+![](../images/eth-Main-l.png)
 
 # Ethereum in Simple Terms
 
-Ethereum is regularly mentioned alongside Bitcoin as one of the most popular [decentralized cryptocurrencies](../fundamentals/en/1-cryptocurrency-basics.md). 
+Ethereum is regularly mentioned alongside Bitcoin as one of the most popular [decentralized cryptocurrencies](../../fundamentals/en/1-cryptocurrency-basics.md). 
 
 Ethereum was first proposed in 2013 but came to prominence in 2015, some six years after Bitcoin. The Ethereum platform was developed by [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), along with several other contributors and co-founders. 
 
@@ -36,7 +36,7 @@ Conversely, with a regular lottery or voting apps, there is no way of checking t
 
 ## 2. Ethereum Blockchain
 
-Under the hood, Ethereum is a blockchain. If you are new to this concept then read our short [guide to blockchains](../fundamentals/en/1-cryptocurrency-basics.md).
+Under the hood, Ethereum is a blockchain. If you are new to this concept then read our short [guide to blockchains](../../fundamentals/en/1-cryptocurrency-basics.md).
 
 The Ethereum blockchain is basically a history of all actions (aka transactions) that ever happened on Ethereum, starting from the very beginning.
 
@@ -48,7 +48,7 @@ Each Ethereum node has a live copy of the Ethereum blockchain. All nodes talk to
 
 As the case with all open blockchains, the Ethereum network nodes ensure availability 24/7 and censorship-resistance. Anyone can unconditionally operate an Ethereum node. The more nodes there are online the more secure Ethereum blockchain is.
 
-![](images/eth-chain-l.png)
+![](../images/eth-chain-l.png)
 
 Every node individually validates every transaction, ensuring only legitimate transactions enter the blockchain. A node cannot cheat the rest of the network.
 
@@ -60,7 +60,7 @@ Cumulatively, Ethereum nodes guarantee the openness, availability, decentralizat
 
 ## 3. Ether Currency
 
-Just like [Bitcoin blockchain](../token_guides/bitcoin.md), Ethereum blockchain has it own native cryptocurrency known as Ether, denoted by symbol ETH.
+Just like [Bitcoin blockchain](bitcoin.md), Ethereum blockchain has it own native cryptocurrency known as Ether, denoted by symbol ETH.
 
 Usually people refer to Ether cryptocurrency as Ethereum. A unit of Ether consists of smaller units knows as wei.
 
@@ -106,7 +106,7 @@ The services built on top of Ethereum ultimately attract even more to Ethereum p
 
 A smart contract is a piece of code that works on a blockchain to enforce the terms of a contractual agreement. In the simplest of terms, a smart contract is an example of a "when X takes place, do Y" scenario.
 
-![](images/eth-smartcontract-l.png)
+![](../images/eth-smartcontract-l.png)
 
 Every application or service residing on Ethereum or alike blockchain essentially consists of smart contracts.
 
@@ -120,7 +120,7 @@ To give you a better idea, it may be something as follows:
 
 - That contract may also require for participants to pay an entry fee to the contract (which will also be sent to the winner) to be able to participate in the challenge.
 
-![](images/eth-chain-lottery-l.png)
+![](../images/eth-chain-lottery-l.png)
 
 The development and use of smart contracts are one of the fundamental properties that differentiates Ethereum from other blockchains. It’s what makes it possible to build services on Ethereum that can go far beyond the mere transfer of currency tokens from one address to another.
 
@@ -152,7 +152,7 @@ At this point in time, there are thousands of DApps residing on Ethereum blockch
 
 For instance, in a smart contract that is built for organization management a token can be used to grant members voting power or allocate profit share. 
 
-Tokens belonging to popular DApps are usually tradable on public [cryptocurrency exchanges](../fundamentals/en/6-buying-cryptocurrency-basics.md). In that regard, these tokens are just like stocks that can rise and fall in value depending on the nature of the DApps, and the market demand for it.
+Tokens belonging to popular DApps are usually tradable on public [cryptocurrency exchanges](../../fundamentals/en/6-buying-cryptocurrency-basics.md). In that regard, these tokens are just like stocks that can rise and fall in value depending on the nature of the DApps, and the market demand for it.
 
 Most of the DApps built on Ethereum are financial services and often referred to as Decentralized Finance services.
 
@@ -208,7 +208,7 @@ Engineers worldwide are currently building user facing smartphone apps or websit
 
 These days Ethereum-based financial DApps cumulatively handle [over 1 billion USD](https://cointelegraph.com/news/value-locked-in-crypto-defi-markets-hits-1-billion-milestone) in value. 
 
-![](images/eth-billion-l.png)
+![](../images/eth-billion-l.png)
 
 Accessing, understanding and interacting with these DApps on a comfortable level is still a bit problematic for someone not familiar with blockchain and related technology. 
 
@@ -240,7 +240,7 @@ People you've transacted with can see your balances and full history of activity
 
 This is likely to change, but for the time being most wallets use a single Ethereum address. The balance and transactions belonging to any payment address are openly available for anyone on Ethereum blockchain.
 
-![](images/eth-tx-l.png)
+![](../images/eth-tx-l.png)
 
 So, when you transact with Ether, keep in mind that the other party can look up your balance as well as history of incoming/outgoing payments to/from that address.
 
@@ -252,14 +252,14 @@ If one of the cryptocurrency exchanges gets hacked and hackers get their hands o
 
 When you're ready to get involved with holding Ethereum or Ethereum-based tokens you're welcome to check out following guides:
 
-1. [Cryptocurrency Explained](../fundamentals/en/1-cryptocurrency-basics.md)
-2. [Wallet Basics](../fundamentals/en/2-wallets-basics.md)
-3. [Private Keys Explained](../fundamentals/en/3-private-keys-basics.md)
-4. [Safe Storage Tips](../fundamentals/en/4-safe-storage-basics.md)
-5. [Unstoppable Wallet](../fundamentals/en/5-unstoppable-basics.md)
-6. [Buying Cryptocurrency](../fundamentals/en/6-buying-cryptocurrency-basics.md)
-7. [Spending Cryptocurrency](../fundamentals/en/7-spending-cryptocurrency.md)
-8. [Transactions Explained](../fundamentals/en/8-transactions-basics.md)
+1. [Cryptocurrency Explained](../../fundamentals/en/1-cryptocurrency-basics.md)
+2. [Wallet Basics](../../fundamentals/en/2-wallets-basics.md)
+3. [Private Keys Explained](../../fundamentals/en/3-private-keys-basics.md)
+4. [Safe Storage Tips](../../fundamentals/en/4-safe-storage-basics.md)
+5. [Unstoppable Wallet](../../fundamentals/en/5-unstoppable-basics.md)
+6. [Buying Cryptocurrency](../../fundamentals/en/6-buying-cryptocurrency-basics.md)
+7. [Spending Cryptocurrency](../../fundamentals/en/7-spending-cryptocurrency.md)
+8. [Transactions Explained](../../fundamentals/en/8-transactions-basics.md)
 
 ## Conclusion
 
