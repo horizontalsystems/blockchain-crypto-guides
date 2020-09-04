@@ -31,8 +31,8 @@ function indexedData() {
   }
 
   const mapItem = (type, date, guide) => {
-    const slug = guide.file_url.replace(/^guides\//, '')
-    const image = guide.image_url.replace(/^guides\//, '/guide/')
+    const slug = guide.file.replace(/^guides\//, '')
+    const image = guide.image.replace(/^guides\//, '/guide/')
 
     return {
       slug,
@@ -43,21 +43,16 @@ function indexedData() {
     }
   }
 
-  json.forEach(({ title, guides }) => {
-    const mapped = {
-      en: []
-    }
+  json.forEach(({ category, guides }) => {
+    const mapped = {}
 
-    guides.forEach(item => {
-      const translation = item.translation || {}
+    guides.forEach(guide => {
+      Object.keys(guide).forEach(lang => {
+        const item = guide[lang]
+        const map = mapped[lang] || (mapped[lang] = [])
 
-      Object.keys(translation).forEach((lang, i) => {
-        const guide = translation[lang]
-        const langMap = mapped[lang] || (mapped[lang] = [])
-        langMap.push(mapItem(title, item.updated_at, guide))
+        map.push(mapItem(category[lang], item.updated_at, item))
       })
-
-      mapped.en.push(mapItem(title, item.updated_at, item))
     })
 
     Object.keys(mapped).forEach(lang => {
@@ -69,21 +64,23 @@ function indexedData() {
 }
 
 export function getGuideByLang(lang, slug, fields) {
-  const category = slug[0]
-  const filePath = slug.slice(1, slug.length).join('/')
-  const fullPath = path.join(process.cwd(), '../guides', category, lang, filePath)
+  const filePath = slug.join('/')
+  const fullPath = path.join(process.cwd(), '../guides', filePath)
+
   if (fs.existsSync(fullPath)) {
-    return getGuideBySlug([category, lang, filePath].join('/'), fields)
+    return getGuideBySlug(filePath, fields)
   }
 
-  return getGuideBySlug(slug.join('/'), fields)
+  const re = new RegExp(`\/${lang}\/`, 'i');
+
+  return getGuideBySlug(filePath.replace(re, '/en/'), fields)
 }
 
-export function getGuideBySlug(slug, fields = [], cacheSlug) {
+export function getGuideBySlug(slug, fields = []) {
   const fullPath = path.join(process.cwd(), '../guides', slug)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const cached = cache[cacheSlug] || cache[slug] || {}
 
+  const cached = cache[slug] || {}
   const data = {}
 
   fields.forEach(field => {
@@ -103,29 +100,28 @@ export function getGuideBySlug(slug, fields = [], cacheSlug) {
   return data
 }
 
-export default function getAllGuides(fields = [], lang = 'en') {
+export default function getAllGuides(fields = [], lang) {
   const files = {}
 
   const mapSlugs = item => {
     const folderName = /^guides\//
-    const url = item.file_url.replace(folderName, '')
-
-    if (lang === 'en') {
-      files[url] = url
-    } else {
-      const trMap = item.translation || {}
-      const trElement = trMap[lang]
-      if (trElement) {
-        files[url] = trElement.file_url.replace(folderName, '')
-      }
-    }
+    const url = item.file.replace(folderName, '')
+    files[url] = url
   }
 
   json.forEach(({ guides }) => {
-    guides.forEach(mapSlugs)
+    guides.forEach(item => {
+      Object.keys(item).forEach(key => {
+        if (!lang) {
+          mapSlugs(item[key])
+        } else if (lang === key) {
+          mapSlugs(item[key])
+        }
+      })
+    })
   })
 
   return Object.keys(files).map(slug =>
-    getGuideBySlug(slug, fields, files[slug])
+    getGuideBySlug(slug, fields)
   )
 }
