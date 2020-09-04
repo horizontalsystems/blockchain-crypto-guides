@@ -269,7 +269,7 @@
   },
   {
     "id": "currencies",
-    "title": {
+    "category": {
       "en": "Currencies"
     },
     "guides": [
@@ -300,8 +300,8 @@
     ]
   },
   {
-    "id": "DeFi",
-    "title": {
+    "id": "defi",
+    "category": {
       "en": "DeFi"
     },
     "guides": [
@@ -356,8 +356,8 @@
     ]
   },
   {
-    "id": "Exchanges",
-    "title": {
+    "id": "exchanges",
+    "category": {
       "en": "Exchanges"
     },
     "guides": [
@@ -404,8 +404,8 @@
     ]
   },
   {
-    "id": "Stablecoins",
-    "title": {
+    "id": "stablecoins",
+    "category": {
       "en": "Stablecoins"
     },
     "guides": [
@@ -428,8 +428,8 @@
     ]
   },
   {
-    "id": "Lending",
-    "title": {
+    "id": "lending",
+    "category": {
       "en": "Lending"
     },
     "guides": [
