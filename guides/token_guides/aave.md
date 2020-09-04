@@ -67,7 +67,7 @@ Borrowing from Aave requires a collateral in a form of another cryptocurrency su
 
 - A so called Loan-to-Value ratio represents the maximum borrowing power of a specific collateral. If a collateral has a LTV of 75%, the user can borrow up to 0.75 of the collateral value.
 
-- Aave allows borrowers to choose between fixed or varied interest rates for borrowing. Varied interest rates are typically lower than fixed rates but can change dramatically in a short period of time.
+- Aave allows borrowers to choose between fixed or varied interest rates for borrowing. Varied interest rates are typically lower than fixed rates but can change dramatically in a short period.
 
 - Every borrower needs to ensure that real-time value of collateral always remains above the minimum required for that specific collateral. 
 
