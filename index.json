@@ -1,194 +1,461 @@
 [
   {
-    "title": "Basics",
+    "id": "basics",
+    "category": {
+      "en": "Basics",
+      "ru": "Базовый",
+      "fr": "Basics",
+      "de": "Basics",
+      "fa": "Basics"
+    },
     "guides": [
       {
-        "title": "Cryptocurrency Explained",
-        "image_url": "guides/fundamentals/images/01-main-l.png",
-        "file_url": "guides/fundamentals/1-cryptocurrency-basics.md",
-        "updated_at": "01-06-2020",
-        "translation":{
-          "ru": {
-            "title": "1. Криптовалюта",
-            "image_url": "guides/fundamentals/images/01-main-l.png",
-            "file_url": "guides/fundamentals/ru/1-cryptocurrency-basics.md"
-          }
+        "en": {
+          "title": "Cryptocurrency Explained",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/en/1-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "ru": {
+          "title": "Криптовалюта",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/ru/1-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fr": {
+          "title": "Crypto-monnaie",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/fr/1-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "de": {
+          "title": "Kryptowährung",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/de/1-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fa": {
+          "title": "Cryptocurrency",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/fa/1-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
         }
       },
       {
-        "title": "Crypto Wallets",
-        "image_url": "guides/fundamentals/images/02-main-l.png",
-        "file_url": "guides/fundamentals/2-wallets-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Crypto Wallets",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/en/2-wallets-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "ru": {
+          "title": "Доступно о кошельках",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/ru/2-wallets-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fr": {
+          "title": "Les portefeuilles",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/fr/2-wallets-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "de": {
+          "title": "Wallets erklärt",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/de/2-wallets-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fa": {
+          "title": "Crypto Wallets",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/fa/2-wallets-basics.md",
+          "updated_at": "01-06-2020"
+        }
       },
       {
-        "title": "Private Keys",
-        "image_url": "guides/fundamentals/images/03-main-l.png",
-        "file_url": "guides/fundamentals/3-private-keys-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Private Keys",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/en/3-private-keys-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "ru": {
+          "title": "Приватные ключи",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/ru/3-private-keys-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fr": {
+          "title": "Clés privées",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/fr/3-private-keys-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "de": {
+          "title": "Private Keys",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/de/3-private-keys-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fa": {
+          "title": "Private Keys",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/fa/3-private-keys-basics.md",
+          "updated_at": "01-06-2020"
+        }
       },
       {
-        "title": "Safe Storage Tips",
-        "image_url": "guides/fundamentals/images/04-main-l.png",
-        "file_url": "guides/fundamentals/4-safe-storage-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Safe Storage Tips",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/en/4-safe-storage-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "ru": {
+          "title": "Безопасное хранение",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/ru/4-safe-storage-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fr": {
+          "title": "Achat de cryptomonnaie",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/fr/4-safe-storage-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "de": {
+          "title": "Safe Storage Tips",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/de/4-safe-storage-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fa": {
+          "title": "Safe Storage Tips",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/fa/4-safe-storage-basics.md",
+          "updated_at": "01-06-2020"
+        }
       },
       {
-        "title": "Unstoppable Intro",
-        "image_url": "guides/fundamentals/images/05-main-l.png",
-        "file_url": "guides/fundamentals/5-unstoppable-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Unstoppable Intro",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/en/5-unstoppable-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "ru": {
+          "title": "Unstoppable Intro",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/ru/5-unstoppable-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fr": {
+          "title": "Unstoppable Intro",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/fr/5-unstoppable-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "de": {
+          "title": "Unstoppable Intro",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/de/5-unstoppable-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fa": {
+          "title": "Unstoppable Intro",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/fa/5-unstoppable-basics.md",
+          "updated_at": "01-06-2020"
+        }
       },
       {
-        "title": "Buying Cryptocurrency",
-        "image_url": "guides/fundamentals/images/06-main-l.png",
-        "file_url": "guides/fundamentals/6-buying-cryptocurrency-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Buying Cryptocurrency",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/en/6-buying-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "ru": {
+          "title": "Покупка криптовалюты",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/ru/6-buying-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fr": {
+          "title": " Dépenser la crypto-monnaie",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/fr/6-buying-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "de": {
+          "title": "Buying Cryptocurrency",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/de/6-buying-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fa": {
+          "title": "Buying Cryptocurrency",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/fa/6-buying-cryptocurrency-basics.md",
+          "updated_at": "01-06-2020"
+        }
       },
       {
-        "title": "Spending Cryptocurrency",
-        "image_url": "guides/fundamentals/images/07-main-l.png",
-        "file_url": "guides/fundamentals/7-spending-cryptocurrency.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Spending Cryptocurrency",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/en/7-spending-cryptocurrency.md",
+          "updated_at": "01-06-2020"
+        },
+        "ru": {
+          "title": "Расходование криптовалюты",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/ru/7-spending-cryptocurrency.md",
+          "updated_at": "01-06-2020"
+        },
+        "fr": {
+          "title": "Spending Cryptocurrency",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/fr/7-spending-cryptocurrency.md",
+          "updated_at": "01-06-2020"
+        },
+        "de": {
+          "title": "Spending Cryptocurrency",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/de/7-spending-cryptocurrency.md",
+          "updated_at": "01-06-2020"
+        },
+        "fa": {
+          "title": "Spending Cryptocurrency",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/fa/7-spending-cryptocurrency.md",
+          "updated_at": "01-06-2020"
+        }
       },
       {
-        "title": "Transactions Explained",
-        "image_url": "guides/fundamentals/images/08-main-l.png",
-        "file_url": "guides/fundamentals/8-transactions-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Transactions Explained",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/en/8-transactions-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "ru": {
+          "title": "Доступно о транзакциях",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/ru/8-transactions-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fr": {
+          "title": "Transactions Explained",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/fr/8-transactions-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "de": {
+          "title": "Transactions Explained",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/de/8-transactions-basics.md",
+          "updated_at": "01-06-2020"
+        },
+        "fa": {
+          "title": "Transactions Explained",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/fa/8-transactions-basics.md",
+          "updated_at": "01-06-2020"
+        }
       }
     ]
   },
   {
-    "title": "Currencies",
+    "id": "currencies",
+    "category": {
+      "en": "Currencies"
+    },
     "guides": [
       {
-        "title": "Bitcoin in Simple Terms",
-        "image_url": "guides/token_guides/images/btc-Main-l.png",
-        "file_url": "guides/token_guides/bitcoin.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Bitcoin in Simple Terms",
+          "image": "guides/token_guides/images/btc-Main-l.png",
+          "file": "guides/token_guides/en/bitcoin.md",
+          "updated_at": "01-06-2020"
+        }
       },
       {
-        "title": "Ethereum in Simple Terms",
-        "image_url": "guides/token_guides/images/eth-Main-l.png",
-        "file_url": "guides/token_guides/ethereum.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Ethereum in Simple Terms",
+          "image": "guides/token_guides/images/eth-Main-l.png",
+          "file": "guides/token_guides/en/ethereum.md",
+          "updated_at": "01-06-2020"
+        }
       },
       {
-        "title": "Bitcoin Cash in Simple Terms",
-        "image_url": "guides/token_guides/images/bch-Main-l.png",
-        "file_url": "guides/token_guides/bitcoin-cash.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Bitcoin Cash in Simple Terms",
+          "image": "guides/token_guides/images/bch-Main-l.png",
+          "file": "guides/token_guides/en/bitcoin-cash.md",
+          "updated_at": "01-06-2020"
+        }
       }
     ]
   },
   {
-    "title": "DeFi",
+    "id": "defi",
+    "category": {
+      "en": "DeFi"
+    },
     "guides": [
       {
-        "title": "DeFi Explained",
-        "image_url": "guides/defi/images/defi-Main-l.png",
-        "file_url": "guides/defi/1-defi-explained.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "DeFi Explained",
+          "image": "guides/defi/images/defi-Main-l.png",
+          "file": "guides/defi/en/1-defi-explained.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "How to DeFi",
-        "image_url": "guides/defi/images/defi2-Main-l.png",
-        "file_url": "guides/defi/2-howto-defi.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "How to DeFi",
+          "image": "guides/defi/images/defi2-Main-l.png",
+          "file": "guides/defi/en/2-howto-defi.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "Decentralized Exchanges",
-        "image_url": "guides/defi/images/defi3-exchanges-l.png",
-        "file_url": "guides/defi/3-decentralized-exchanges.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "Decentralized Exchanges",
+          "image": "guides/defi/images/defi3-exchanges-l.png",
+          "file": "guides/defi/en/3-decentralized-exchanges.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "Lending Protocols",
-        "image_url": "guides/defi/images/defi4-Main-l.png",
-        "file_url": "guides/defi/4-lending-protocols.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "Lending Protocols",
+          "image": "guides/defi/images/defi4-Main-l.png",
+          "file": "guides/defi/en/4-lending-protocols.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "Stablecoins",
-        "image_url": "guides/defi/images/defi5-Main-l.png",
-        "file_url": "guides/defi/5-stablecoins.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "Stablecoins",
+          "image": "guides/defi/images/defi5-Main-l.png",
+          "file": "guides/defi/en/5-stablecoins.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "DeFi Transactions",
-        "image_url": "guides/defi/images/defi6-Main-l.png",
-        "file_url": "guides/defi/6-defi-transactions.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "DeFi Transactions",
+          "image": "guides/defi/images/defi6-Main-l.png",
+          "file": "guides/defi/en/6-defi-transactions.md",
+          "updated_at": "01-09-2020"
+        }
       }
     ]
   },
   {
-    "title": "Exchanges",
+    "id": "exchanges",
+    "category": {
+      "en": "Exchanges"
+    },
     "guides": [
       {
-        "title": "Uniswap in Simple Terms",
-        "image_url": "guides/token_guides/images/uniswap-Main-l.png",
-        "file_url": "guides/token_guides/uniswap.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "Uniswap in Simple Terms",
+          "image": "guides/token_guides/images/uniswap-Main-l.png",
+          "file": "guides/token_guides/en/uniswap.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "Curve in Simple Terms",
-        "image_url": "guides/token_guides/images/curve-Main-l.png",
-        "file_url": "guides/token_guides/curve-finance.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "Curve in Simple Terms",
+          "image": "guides/token_guides/images/curve-Main-l.png",
+          "file": "guides/token_guides/en/curve-finance.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "Balancer in Simple Terms",
-        "image_url": "guides/token_guides/images/bal-Main-l.png",
-        "file_url": "guides/token_guides/balancer-dex.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "Balancer in Simple Terms",
+          "image": "guides/token_guides/images/bal-Main-l.png",
+          "file": "guides/token_guides/en/balancer-dex.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "Synthetix in Simple Terms",
-        "image_url": "guides/token_guides/images/snx-Main-l.png",
-        "file_url": "guides/token_guides/synthetix.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "Synthetix in Simple Terms",
+          "image": "guides/token_guides/images/snx-Main-l.png",
+          "file": "guides/token_guides/en/synthetix.md",
+          "updated_at": "01-09-2020"
+        }
+      },
+      {
+        "en": {
+          "title": "Kyber in Simple Terms",
+          "image": "guides/token_guides/images/knc-Main-l.png",
+          "file": "guides/token_guides/en/kyber-network.md",
+          "updated_at": "01-09-2020"
+        }
       }
     ]
   },
   {
-    "title": "Stablecoins",
+    "id": "stablecoins",
+    "category": {
+      "en": "Stablecoins"
+    },
     "guides": [
       {
-        "title": "Tether in Simple Terms",
-        "image_url": "guides/token_guides/images/usdt-Main-l.png",
-        "file_url": "guides/token_guides/tether.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Tether in Simple Terms",
+          "image": "guides/token_guides/images/usdt-Main-l.png",
+          "file": "guides/token_guides/en/tether.md",
+          "updated_at": "01-06-2020"
+        }
       },
       {
-        "title": "DAI in Simple Terms",
-        "image_url": "guides/token_guides/images/mkr-Main-l.png",
-        "file_url": "guides/token_guides/makerdao.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "DAI in Simple Terms",
+          "image": "guides/token_guides/images/mkr-Main-l.png",
+          "file": "guides/token_guides/en/makerdao.md",
+          "updated_at": "01-06-2020"
+        }
       }
     ]
   },
   {
-    "title": "Lending",
+    "id": "lending",
+    "category": {
+      "en": "Lending"
+    },
     "guides": [
       {
-        "title": "Compound in Simple Terms",
-        "image_url": "guides/token_guides/images/comp-Main-l.png",
-        "file_url": "guides/token_guides/compound.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "Aave in Simple Terms",
+          "image": "guides/token_guides/images/aave-Main-l.png",
+          "file": "guides/token_guides/en/aave.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "Aave in Simple Terms",
-        "image_url": "guides/token_guides/images/aave-Main-l.png",
-        "file_url": "guides/token_guides/aave.md",
-        "updated_at": "01-09-2020"
+        "en": {
+          "title": "Compound in Simple Terms",
+          "image": "guides/token_guides/images/comp-Main-l.png",
+          "file": "guides/token_guides/en/compound.md",
+          "updated_at": "01-09-2020"
+        }
       },
       {
-        "title": "MakerDAO in Simple Terms",
-        "image_url": "guides/token_guides/images/mkr-Main-l.png",
-        "file_url": "guides/token_guides/makerdao.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "MakerDAO in Simple Terms",
+          "image": "guides/token_guides/images/mkr-Main-l.png",
+          "file": "guides/token_guides/en/makerdao.md",
+          "updated_at": "01-06-2020"
+        }
       }
     ]
   }

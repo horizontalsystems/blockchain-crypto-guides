@@ -47,16 +47,21 @@ class Header extends React.Component {
     const { router } = this.props
     const { query } = router
 
-    if (!query.slug || !query.lang) {
-      router.push(`/${lang}`)
-      // Router.pushI18n({ url: '/', options: { lang } })
+    if (query.lang === lang) {
       return
     }
 
-    const re = new RegExp(`^\/${query.lang}`, 'i');
-    const newRoute = router.asPath.replace(re, '')
-
-    Router.pushI18n({ url: newRoute, options: { lang } })
+    router.push(`/${lang}`)
+    // if (!query.slug || !query.lang) {
+    //   // Router.pushI18n({ url: '/', options: { lang } })
+    //   return
+    // }
+    //
+    // const newRoute = router.asPath
+    //   .replace(RegExp(`^\/${query.lang}`), '')
+    //   .replace(RegExp(`\/${query.lang}\/`), `/${lang}/`)
+    //
+    // Router.pushI18n({ url: newRoute, options: { lang } })
   }
 
   showLanguages = () => {

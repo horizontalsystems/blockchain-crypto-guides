@@ -1,6 +1,6 @@
 ![](../images/01-main-l.png)
 
-# Криптовалюта
+# Cryptocurrency
 
 The aim of this guide is to onboard someone with little knowledge about cryptocurrencies to the comfortable level as quickly as possible.
 
