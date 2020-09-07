@@ -19,9 +19,13 @@ The easiest option for buying smaller amounts is using a credit or debit card. W
 The following list contains safe websites and services to purchase cryptocurrency using a credit or debit card. 
 
 1. [Binance.com](https://www.binance.com/en/register?ref=42579924)
+
 2. [Cex.io](https://cex.io/r/2/up131140473/2)
+
 3. [Changelly.com](https://changelly.com/?ref_id=gj6utb868eyusrf7)
+
 4. [Coinbase.com](https://coinbase.com)
+
 5. [Coinmama.com](https://go.coinmama.com/visit/?bta=61248&nci=5370)
 
 The majority of these websites will work without fail for EU and US residents. However, those living in other areas of the world may find fewer opportunities.
@@ -55,9 +59,13 @@ While this is a fictional example, many exchanges use a similar tiered approach 
 Here is a list of trusted cryptocurrency exchanges:
 
 * [Binance.com](https://www.binance.com/en/register?ref=42579924)
+
 * [Coinbase.com](https://coinbase.com)
+
 * [Cex.io](https://cex.io/r/0/up131140473/0)
+
 * [Kraken.com](https://kraken.com)
+
 * [Coinmama.com](https://go.coinmama.com/visit/?bta=61248&nci=5343)
 
 ## 3. Getting Paid In Crypto
@@ -96,14 +104,17 @@ Decentralized exchanges connect buyers and sellers in a peer to peer manner acco
 
 Decentralized Exchanges:
 
-- [https://kyberswap.com](https://kyberswap.com)
-- [https://uniswap.exchange](https://uniswap.exchange/swap)
+- [Uniswap](https://uniswap.exchange/swap)
+- [Kyber](https://kyberswap.com)
 
 Expect to encounter following issues on most decentralized exchanges:
 
 - most such exchanges support trading only with Ethereum-based assets
+
 - no ways to deposit or withdraw fiat currencies i.e. USD, EUR etc
+
 - generally lower trading volumes and liquidity 
+
 - technical and complex to use 
 
 Such exchanges usually do not require account verification of any kind. There are no limitations in the amount that can be sold or purchased. Generally no data collected about the user.

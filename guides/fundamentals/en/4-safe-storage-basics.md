@@ -80,7 +80,7 @@ It doesn't necessarily mean some desktop wallet is less secure than some mobile-
 
 Some of the more popular desktop-based wallets are:
 
-- [Eelctrum](https://electrum.org)
+- [Electrum](https://electrum.org)
 - [Exodus](https://www.exodus.io)
 
 ## So, Which Wallet?
@@ -89,7 +89,9 @@ The classification above was primarily based around the notion of private key se
 
 For instance, a non-custodial mobile wallet app may potentially be more private than a hardware wallet. Or may have essential features not available in the hardware wallet.
 
-> The privacy aspect has many sides and generally should be taken into account as well. For instance, a hardware wallet may offer a superior security but unintentionally expose customers' personal data. A [recent breach](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) of company selling Ledger hardware wallets is a good example of that.
+The privacy aspect has many sides and generally should be taken into account as well.
+ 
+>**A hardware wallet may offer a superior security but unintentionally expose customers' personal data. A [recent breach](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) of company selling Ledger hardware wallets is a good example of that.**
 
 Keep in mind, you don't need a cartel level security if you're just starting out. The out of the box security on most well-known non-custodial wallet apps is already pretty good.
 
@@ -177,7 +179,9 @@ When storing private keys or hardware wallets offline, take into account followi
 - the hardware wallet should be protected by a PIN lock.
 - take necessary precautions against fire or floods.
 
-A backup of words can be stored in a metal container from [Crypto Steel](http://cryptosteel.com). The password can be memorized or stored physically in a separate location. As a result you end up with:
+A backup of words can be stored in a metal container from [Crypto Steel](http://cryptosteel.com). The password can be memorized or stored physically in a separate location. 
+
+As a result you end up with:
 
 1. hardware wallet device that is protected by a PIN.
 2. private key (useless without password)

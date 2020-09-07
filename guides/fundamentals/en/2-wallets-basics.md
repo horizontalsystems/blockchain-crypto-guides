@@ -6,7 +6,7 @@ By its very nature cryptocurrency gives the owner capabilities that are not avai
 
 It's vital to understand what these capabilities are, especially for someone looking to safely store and accumulate cryptocurrencies.
 
-- When dealing with traditional financial instruments such as deposits in the bank (or stocks with the broker) there is a notion of someone keeping assets on behalf of the user. The entity that keeps funds acts as a custodian of the assets and has a full control over them. Your access to these assets is dependent on the entity that keeps your assets in custody.
+- When dealing with traditional financial instruments such as deposits in the bank (or stocks with the broker) there is a notion of someone keeping assets on behalf of the user. The entity that keeps funds acts as a custodian of the assets and has a full control over them. Your access to these assets is dependent on that entity.
 
 - When it comes cryptocurrencies, there is an option for the user is to be the only entity that has access and control over the funds. Cryptocurrencies enable user to be the only custodian of the assets, without any dependence on intermediaries.
 

@@ -6,7 +6,9 @@ The aim of this guide is to onboard someone with little knowledge about cryptocu
 
 Cryptocurrencies are powered by a number of technologies, but primarily a blockchain technology. 
 
->**The blockchain technology was first applied in creating Bitcoin cryptocurrency. By applying this technology it was possible to design an all-accessible platform for value exchange where doing anything outside the scope of agreed rules becomes impossible.**
+>**The blockchain technology was first applied in creating Bitcoin cryptocurrency.**
+>
+>**It enabled emergence of all-accessible platform for value exchange where doing anything outside the scope of agreed rules is impossible.**
 
 When using a product built on top of such blockchain following statements hold true:
 
@@ -77,9 +79,9 @@ Cryptocurrencies are units of something on a blockchain. Depending on the charac
 
 **For instance:**
 
-- Bitcoin cryptocurrency is a native unit of measurement on the [Bitcoin](/token_guides/bitcoin.md) blockchain. It's denoted by a 'BTC' symbol. A single unit of Bitcoin is divisible into 100 million sub-units called Satoshi. By design Bitcoin blockchain caps the total amount to 21 million Bitcoins. The Bitcoin blockchain limited in the type of records it can store, mostly records of transactions from one address to another.
+- Bitcoin cryptocurrency is a native unit of measurement on the [Bitcoin](../../token_guides/en/bitcoin.md) blockchain. It's denoted by a 'BTC' symbol. A single unit of Bitcoin is divisible into 100 million sub-units called Satoshi. By design Bitcoin blockchain caps the total amount to 21 million Bitcoins. The Bitcoin blockchain limited in the type of records it can store, mostly records of transactions from one address to another.
 
-- Ether cryptocurrency is a native unit of measurement on [Ethereum]((/token_guides/ethereum.md)) blockchain, denoted by a 'ETH' symbol. A single unit of Ethereum consists of 100,000,000,000,000,000 wei. Unlike the Bitcoin, Ethereum blockchain doesn't cap the amount of Ether that can potentially exist on the blockchain. Also, Ethereum blockchain doesn't put any limitations in a type of records it can hold.
+- Ether cryptocurrency is a native unit of measurement on [Ethereum](../../token_guides/en/ethereum.md) blockchain, denoted by a 'ETH' symbol. A single unit of Ethereum consists of 100,000,000,000,000,000 wei. Unlike the Bitcoin, Ethereum blockchain doesn't cap the amount of Ether that can potentially exist on the blockchain. Also, Ethereum blockchain doesn't put any limitations in a type of records it can hold.
 
 Some blockchains like Ethereum enable ways to create your own 'units of something' for whatever purpose. These are often referred to as cryptocurrency tokens and can be used for various purposes as will be shown later.
 

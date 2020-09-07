@@ -36,7 +36,7 @@ When transacting using а non-custodial wallet transactions will go directly thr
 
     After the transaction sent from a wallet, it reaches the underlying blockchain network nearly instantly. Bitcoin transactions sent to Bitcoin network, Ether transactions to Ethereum network etc.
     
-    At this stage, both sender and recipient can already monitor the state of transaction in their wallet apps or on public blockchain explorer i.e. [blockchair.com](https://blockchair.com).
+    At this stage, both sender and recipient can already monitor the state of transaction in their wallet apps or on public blockchain explorer i.e. [Blockchair.com](https://blockchair.com).
 
 2. **Transaction Gets Confirmed**
 
@@ -108,11 +108,9 @@ Below we are going to expand a bit and specifically look at privacy risks when t
 
 - **Ethereum Privacy**
 
-    As mentioned above, in case of Bitcoin the address for receiving payments can change with each transaction.
-
     When it comes to Ethereum wallets your address to receive Ether payments will always be the same. Although it may change in the future, nearly all Ethereum wallets work with the single address nowadays. There are some technical reasons for that.
     
-    > **The Ethereum blockchain is fully transparent allowing anyone to see all incoming and outgoing transactions for the given payment address.** 
+    The Ethereum blockchain is fully transparent allowing anyone to see all incoming and outgoing transactions for the given payment address.
     
     So, when you send or receive Ethereum keep in mind that the party you're transacting with can potentially lookup your balance of Ether and other Ethereum based tokens just by knowing your address.
     
