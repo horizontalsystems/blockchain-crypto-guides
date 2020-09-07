@@ -171,16 +171,3 @@ Since then, [BCH price](https://coinmarketcap.com/currencies/bitcoin-cash/) hasn
 In the long run, the price of the cryptocurrency likely to reflect the growth of its blockchain network and the size of engineering/user community around the project.
 
 Although Bitcoin Cash has one of the largest social media communities around it's still significantly behind Ethereum and Bitcoin in that regard. In order for it to overtake the Bitcoin the demand for the Bitcoin Cash (BCH) cryptocurrency should exceed the demand for Bitcoin (BTC).
-
-## 6. Storage & Usage
-
-When you're ready to get involved with the Bitcoin Cash on a practical level you're welcome to check out following guides:
-
-1. [Cryptocurrency Explained](../../fundamentals/en/1-cryptocurrency-basics.md)
-2. [Wallet Basics](../../fundamentals/en/2-wallets-basics.md)
-3. [Private Keys Explained](../../fundamentals/en/3-private-keys-basics.md)
-4. [Safe Storage Tips](../../fundamentals/en/4-safe-storage-basics.md)
-5. [Unstoppable Wallet](../../fundamentals/en/5-unstoppable-basics.md)
-6. [Buying Cryptocurrency](../../fundamentals/en/6-buying-cryptocurrency-basics.md)
-7. [Spending Cryptocurrency](../../fundamentals/en/7-spending-cryptocurrency.md)
-8. [Transactions Explained](../../fundamentals/en/8-transactions-basics.md)

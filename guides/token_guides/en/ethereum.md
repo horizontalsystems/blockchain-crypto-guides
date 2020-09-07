@@ -160,7 +160,7 @@ Listed below are some real Ethereum DApps which managed to grow substantially an
 
 ### MakerDAO 
 
-MakerDAO is a decentralized autonomous organization that functions entirely on Ethereum blockchain. With about half a billion USD under its control MakerDAO is an ideal example for a type of financial service that can be built on Ethereum. 
+[MakerDAO](makerdao.md) is a decentralized autonomous organization that functions entirely on Ethereum blockchain. With about half a billion USD under its control MakerDAO is an ideal example for a type of financial service which can be built on Ethereum. 
 
 It is governed and owned by those in possession of special MKR token which can be purchased from someone on cryptocurrency exchange.
 
@@ -168,13 +168,11 @@ MakerDAO is a lending facility that gives out cryptocurrency loans in exchange f
 
 The DAI stablecoin, pegged 1:1 to the US dollar, is the currency of the loans given by MakerDAO. Anyone can take out a DAI denominated loan from the MakerDAO smart contract. 
 
-### 0x Protocol 
+### Uniswap
 
-There are many tokens belonging to all kinds of DApps on Ethereum blockchain. Just like the MakerDAO's MKR token, many of those tokens represent value and are traded on cryptocurrency exchanges. 
+There are many tokens belonging to all kinds of DApps on Ethereum blockchain. Just like the MakerDAO's MKR token, many of those tokens represent value and are traded on [cryptocurrency exchanges](../../fundamentals/en/6-buying-cryptocurrency-basics.md). 
 
-0x protocol is a set of smart contracts on Ethereum which enables users to exchange Ethereum-based tokens. 
-
-ZRX is the native token for the 0x Protocol and plays a key role in exchanging tokens represented by different smart contracts. Moreover, holding ZRX tokens allows users to vote on improvements to 0x Protocol.
+[Uniswap](uniswap.md) is a set of smart contracts on Ethereum which enables users to exchange Ethereum-based tokens without traditional intermediary body.
 
 ### Exchange Tokens 
 
@@ -186,19 +184,13 @@ Having those tokens on a blockchain adds transparency to the issuance as well as
 
 ### Stablecoins
 
-There are a number of smart contracts on Ethereum representing stablecoins. Stablecoins are tokens that pegged to the value of something (usually USD) and generally 1 to 1 backed by liquid reserves. The biggest such stablecoin is Tether (USDT).
+There are a number of smart contracts on Ethereum representing [stablecoins](../../defi/en/5-stablecoins.md). 
+
+These are cryptocurrency tokens that pegged to the value of something (usually USD) and generally 1 to 1 backed by liquid reserves. The biggest such stablecoin is Tether (USDT).
 
 Tether often used by cryptocurrency users for quick swapping their holdings to USD equivalent at a 1:1 ratio. USDC is another such stablecoin run by a different organization. 
 
 Both organizations utilize Ethereum blockchain to manage a public token representing value.
-
-### Basic Attention Token
-
-Basic Attention Token (BAT) is the native token powering the Brave advertising platform. 
-
-The BAT token integrated into the privacy-focused Brave web browser which is currently used by [over 8 million](https://brave.com/brave-reaches-8-million-monthly-active-users-and-delivers-nearly-400-privacy-preserving-ad-campaigns/) people per month. 
-
-As shown above, a DApp can take many forms. A large chunk of all cryptocurrencies out there are tokens belonging to some kind of Ethereum-based financial service where a token used for governance, voting, discount etc.
 
 ## 7. DApps Ecosystem
 
@@ -247,24 +239,3 @@ So, when you transact with Ether, keep in mind that the other party can look up 
 The only thing that adds some minimal privacy element into the mix is the fact there is no way to check who that address belongs to. However, with enough time and resources, someone could feasibly link certain transactions to individual users. 
 
 If one of the cryptocurrency exchanges gets hacked and hackers get their hands on user data, this would mean someone can map Ethereum payment addresses to real world identities.
-
-## 10. Storage & Usage
-
-When you're ready to get involved with holding Ethereum or Ethereum-based tokens you're welcome to check out following guides:
-
-1. [Cryptocurrency Explained](../../fundamentals/en/1-cryptocurrency-basics.md)
-2. [Wallet Basics](../../fundamentals/en/2-wallets-basics.md)
-3. [Private Keys Explained](../../fundamentals/en/3-private-keys-basics.md)
-4. [Safe Storage Tips](../../fundamentals/en/4-safe-storage-basics.md)
-5. [Unstoppable Wallet](../../fundamentals/en/5-unstoppable-basics.md)
-6. [Buying Cryptocurrency](../../fundamentals/en/6-buying-cryptocurrency-basics.md)
-7. [Spending Cryptocurrency](../../fundamentals/en/7-spending-cryptocurrency.md)
-8. [Transactions Explained](../../fundamentals/en/8-transactions-basics.md)
-
-## Conclusion
-
-You've reached the beginning of your Ethereum journey. The knowledge you've amassed in this short Ethereum guide will hold you in good stead for your first steps into the world of Ethereum, and other cryptocurrencies, too. 
-
-As one final note, please understand that this isn't a comprehensive guide. Ethereum is a vast subject, and cryptocurrency and blockchain even more. 
-
-However, you can use the information in this guide as your stepping stone onto bigger and greater things in the burgeoning world of cryptocurrency.

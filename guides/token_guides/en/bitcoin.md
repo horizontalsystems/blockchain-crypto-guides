@@ -90,7 +90,9 @@ Some users participate by running a Bitcoin node hosting a live copy of the Bitc
 
 > **The history of all Bitcoin transactions is also called the 'Bitcoin blockchain'.**
 >
-> **The Bitcoin blockchain is literally a chronological chain of blocks where each block holds a batch of transactions. A new block added to Bitcoin blockchain roughly every 10 minutes.**
+> **The Bitcoin blockchain is literally a chronological chain of blocks where each block holds a batch of transactions.** 
+>
+> **A new block added to Bitcoin blockchain roughly every 10 minutes.**
 
 Bitcoin network nodes ensure that only legitimate transactions are added to the blockchain. 
 
@@ -149,6 +151,7 @@ The technology seeks to provide a solution to some major socioeconomic and geopo
 Unlike traditional financial instruments, which are generally imposed by governments or other centralized organizations, the core driving force of Bitcoin is its global community. 
 
 ![](../images/btc-centralized-l.png)
+
 ![](../images/btc-decentralized-l.png)
 
 In the face of modern-day problems like money printing, currency debasements, over-regulation, sanctioning, growing number of people are moving towards Bitcoin. That trend in Bitcoin's popularity is likely to continue. 
