@@ -1,4 +1,4 @@
-![](./images/defi2-lendborrow-l.png)
+![](../images/defi3-pools-l.png)
 
 # Lending Pools
 
@@ -62,13 +62,13 @@ A flash loan allows you to essentially simultaneously perform multiple financial
 
 ## 1. Compound
 
-A currently popular decentralized service for borrowing and lending. 
+A currently popular decentralized service for borrowing and lending cryptocurrency. 
     
 [Compound Finance](https://compound.finance/markets) loans typically require a collateral which may change between 0-90% of the borrowed asset. 
 
-Each asset on Compound can have a different collateral requirements.
+Each asset on Compound can have a different collateral requirement.
     
-Read: [Compound in Simple Terms](/guides/token_guides/en/compound.md)
+Read: [Compound in Simple Terms](../../token_guides/en/compound.md)
     
 ## 2. Aave
 
@@ -78,7 +78,7 @@ The flash loans are provided from a liquidity pool which is financed by other us
     
 For collateralized loans a 0.01% fee of the loan amount is collected on loan origination.
     
-Read: [Aave in Simple Terms](/guides/token_guides/en/aave.md)    
+Read: [Aave in Simple Terms](../../token_guides/en/aave.md)    
     
 ## 3. Oasis
 
@@ -88,10 +88,10 @@ Read: [Aave in Simple Terms](/guides/token_guides/en/aave.md)
     
 - When DAI tokens are returned, the collateral paid back to the borrower and returned DAI tokens are destroyed by a smart contract.
     
-Read: [MakerDAO in Simple Terms](/guides/token_guides/en/makerdao.md)
+Read: [MakerDAO in Simple Terms](../../token_guides/en/makerdao.md)
 
 ## Risks
 
 As with other DeFi services, there is always a possibility of a hack or exploit which could drain the liquidity pool of the lending service, causing lenders to lose their assets.
 
-Therefore, lenders must be sure not to commit more money than they can afford to lose. 
+Therefore, lenders must be sure not to commit more money than they can afford to lose.

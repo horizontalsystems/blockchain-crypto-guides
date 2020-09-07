@@ -2,7 +2,7 @@
 
 # Decentralized Exchanges
 
-Nearly all major [cryptocurrency exchanges](/guides/fundamentals/en/6-buying-cryptocurrency-basics.md) that exist today are centralized. These exchanges allow easy way to trade cryptocurrency for fiat money like USD or EUR.
+Nearly all major [cryptocurrency exchanges](../../fundamentals/en/6-buying-cryptocurrency-basics.md) that exist today are centralized. These exchanges allow easy way to trade cryptocurrency for fiat money like USD or EUR.
     
 Due to centralized nature the access to these exchanges is limited and highly regulated. The users on centralized exchanges are also exposed to significant privacy and security issues as these exchanges are often targeted by hackers.
    
@@ -16,12 +16,14 @@ When trading on a DEX the exchange occurs without having to rely on an entity wh
 
 - Decentralized exchanges typically operate only with cryptocurrency and do not provide any means to use fiat currency.
 
-Today there are decentralized exchanges which average over 100 million worth of USD 24-hour trading volume. More DEX related stats can be seen on [Dune Analytics](https://explore.duneanalytics.com/public/dashboards/c87JEtVi2GlyIZHQOR02NsfyJV48eaKEQSiKplJ7) website.
+Today there are decentralized exchanges which average over 100 million worth of USD 24-hour trading volume. More DEX related stats can be seen on [DuneAnalytics.com](https://explore.duneanalytics.com/public/dashboards/c87JEtVi2GlyIZHQOR02NsfyJV48eaKEQSiKplJ7).
 
 As of August 2020, most popular decentralized exchanges to trade cryptocurrencies are:
  
 - [Uniswap](https://uniswap.info/home)
+
 - [Curve](https://curve.fi) 
+
 - [Balancer](https://pools.balancer.exchange/#/)
 
 There are also instruments like [1inch.exchange](https://1inch.exchange/) which can provide the best exchange prices on the market by splitting a trade order among multiple DEXes in one single transaction.
@@ -64,7 +66,7 @@ Exchange lists a lot of cryptocurrency tokens and has a free listing policy, all
     
 For traders, it costs 0.03% of the traded amount to execute transaction on Uniswap.
     
-Read: **[Uniswap in Simple Terms](/guides/token_guides/en/uniswap.md)**
+Read: **[Uniswap in Simple Terms](../../token_guides/en/uniswap.md)**
     
 ## Curve Finance
 
@@ -74,7 +76,7 @@ Liquidity pools on Curve are somewhat more profitable and can offer slightly bet
     
 Unlike Uniswap, Curve has a governance token which is aimed at decentralizing various aspects of the platform which are not yet decentralized.
 
-Read: **[Curve in Simple Terms](/guides/token_guides/en/curve-finance.md)**
+Read: **[Curve in Simple Terms](../../token_guides/en/curve-finance.md)**
 
 ## Balancer
     
@@ -84,4 +86,4 @@ Just like Curve and Uniswap, Balancer has a custom mechanism for liquidity pools
 
 One of the key uniques selling points of Balancer lies in ability to create cryptocurrency index funds without undertaking complex re-balancing actions.
     
-Read: **[Balancer in Simple Terms](/guides/token_guides/en/balancer-dex.md)**
+Read: **[Balancer in Simple Terms](../../token_guides/en/balancer-dex.md)**

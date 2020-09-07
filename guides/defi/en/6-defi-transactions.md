@@ -23,7 +23,7 @@ The example below assumes a transaction with 8 steps but potentially someone can
 5. On DEX2, convert USDT to USDC
 6. Send USDC to DEX3
 7. On DEX3, convert USDC to ETH
-8. Return ETH loan (keep profits, if any)
+8. Return ETH loan (keep profits)
 
 By its very nature, DeFi smart contracts are interoperable allowing anyone to programmatically connect multiple DeFi services just like lego blocks.
 
@@ -60,7 +60,7 @@ Transaction approvals is another important aspect to grasp.
 
 When user interacts with a smart contract it's not uncommon for a smart contract to require an owner's approval to access his/her capital in order to execute its service.
 
-> Granting a permission works in a form of another 'approval transaction' which is a transaction which doesn't transfer any money but only grants someone (can be a smart contract) a permission to spend a certain amount of your balance for a given token.
+> Granting a permission works in a form of another 'approval transaction' which is a transaction which doesn't transfer any money but only grants someone (i.e. a smart contract) a permission to spend a certain amount of your balance for a given token.
 
 Most DeFi services will require an approval transaction to be completed before a uesr can make use of the DeFi service.
 
@@ -76,7 +76,7 @@ One simple tip to mitigate this is to use multiple Ethereum wallets:
 
 - For Asset Storage
 
-    This wallet can be used for [safely storing](/guides/fundamentals/en/4-safe-storage-basics.md) your Ethereum tokens and assets. It should not be used for transacting with other entities as it will expose you balances to the receiving party.
+    This wallet can be used for [safely storing](../../fundamentals/en/4-safe-storage-basics.md) your Ethereum tokens and assets. It should not be used for transacting with other entities as it will expose you balances to the receiving party.
      
 - For Generic Payments
 

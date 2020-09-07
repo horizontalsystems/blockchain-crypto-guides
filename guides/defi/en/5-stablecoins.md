@@ -16,9 +16,9 @@ Most DeFi services operate with stablecoin cryptocurrencies due to their relativ
 
 While there are a lot of stablecoins in DeFi ecosystem each comes with its own specifics:
 
-- The [DAI](/guides/token_guides/en/makerdao.md) stablecoin is decentralized and fully governed by smart contracts without any privileged parties. It's a stablecoin that built per DeFi principles and to a large extent fully autonomous.
+- The [DAI](../../token_guides/en/makerdao.md) stablecoin is decentralized and fully governed by smart contracts without any privileged parties. It's a stablecoin that built per DeFi principles and to a large extent fully autonomous.
 
-- The Tether's [USDT](/guides/token_guides/en/tether.md) is also a stablecoin built on Ethereum. Unlike DAI, it is centralized where certain privileged parties (i.e. Tether Limited) can add new tokens into circulation at will as well as freeze tokens belonging to other users.
+- The Tether's [USDT](../../token_guides/en/tether.md) is also a stablecoin built on Ethereum. Unlike DAI, it is centralized where certain privileged parties (i.e. Tether Limited) can add new tokens into circulation at will as well as freeze tokens belonging to other users.
 
 ![](../images/defi5-Stablecoins-l.png)
 
@@ -30,7 +30,7 @@ Currently, the most decentralized stablecoin on Ethereum ecosystem.
     
 The DAI stablecoin is the financial service offered by DeFi entity known as MakerDAO.
     
-Read: [DAI in Simple Terms](/guides/token_guides/en/makerdao.md)
+Read: [DAI in Simple Terms](../../token_guides/en/makerdao.md)
     
 ### 2. USDT ( ~ USD)
 
@@ -38,7 +38,7 @@ The very first cryptocurrency stablecoin with a market cap over 10 billion USD.
     
 USDT token is highly liquid and has one of the biggest trading volumes across centralzied and decentralized cryptocurrency exchanges.
 
-Read: [USDT in Simple Terms](/guides/token_guides/en/tether.md)
+Read: [USDT in Simple Terms](../../token_guides/en/tether.md)
             
 ### 3. USDC ( ~ USD)
 
@@ -72,7 +72,7 @@ sUSD and sBTC are decentralized stablecoins pegged to the price of USD and BTC, 
 
 Both tokens are derivatives created on Synthetix DeFi platform where each such token backed by the collateral up to 800% of the asset value the token represents.
 
-Read: [Synthetix in Simple Terms](/guides/token_guides/en/synthetix.md)
+Read: [Synthetix in Simple Terms](../../token_guides/en/synthetix.md)
     
 ### 8. renBTC  ( ~ BTC)
 
