@@ -4,7 +4,7 @@
 
 [Uniswap](https://uniswap.info/home) is a peer-to-peer, decentralized cryptocurrency exchange to trade Ethereum and Ethereum-based tokens. 
 
-Uniswap is one of the first decentralized exchange services to emerge out of the Ethereum.
+Uniswap is one of the first [decentralized exchanges](../../defi/en/3-decentralized-exchanges.md) to emerge out of the Ethereum.
 
 - Uniswap smart contracts today manage hundreds of millions worth of cryptocurrency in autonomous and decentralized manner.
 

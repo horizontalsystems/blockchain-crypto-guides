@@ -47,9 +47,13 @@ The governance of the MakerDAO is executed through voting by those in possession
 If you’re not familiar with the concept of DAO, then simply think of it as a project or organization which meets following criteria: 
 
 - controlled by a distributed group of entities
+
 - governance exercised through ownership of some token
+
 - the DAO code operates on an open public blockchain
+
 - anyone can verify that organization operates as described
+
 - usually has no official address, office etc
 
 In a way, DAO is an alternative to a traditional corporation where ownership structure is defined by the number of shares someone owns. 
@@ -114,7 +118,7 @@ At this point, there are slightly over a million of MKR tokens in circulation. T
 
 MKR tokens can be bought and sold on [cryptocurrency exchanges](../../fundamentals/en/6-buying-cryptocurrency-basics.md) just like Bitcoin or Ethereum. The price of the MKR token is determined by the open market forces.
 
-Just like the DAI, the MKR token is an Ethereum based token and can be stored in pretty much any [non-custodial wallet](../../fundamentals/en/2-wallets-basics.md) like Unstoppable, [https://unstoppable.money](https://unstoppable.money).
+Just like the DAI, the MKR token is an Ethereum based token and can be stored in pretty much any [non-custodial wallet](../../fundamentals/en/2-wallets-basics.md).
 
 ### 1.4 Key Players
 
@@ -124,17 +128,19 @@ While the governance of the MakerDAO are exercised through token ownership there
 
 Some of such aspects are the weekly Governance and Risk meetings where the MKR holders talk about the key issues for the present day. 
 
-The link [here](https://calendar.google.com/calendar/embed?src=makerdao.com_3efhm2ghipksegl009ktniomdk%40group.calendar.google.com&ctz=America%2FLos_Angeles) shows the agenda for the past and upcoming meetings. Most of the past meetings are also available on [Youtube](https://www.youtube.com/watch?v=AcOm5yhqY38).
+The link [here](https://calendar.google.com/calendar/embed?src=makerdao.com_3efhm2ghipksegl009ktniomdk%40group.calendar.google.com&ctz=America%2FLos_Angeles) shows the agenda for the past and upcoming meetings. Most of the past meetings are also available on [Youtube](https://www.youtube.com/channel/UC4jqZlzQHUhzqf5rMd5ywTw).
 
 The Maker Foundation is currently working with the MakerDAO community to achieve complete decentralization of the project where all organizational aspects will be managed by the community.
 
 - [Self Sustaining MakerDAO](https://forum.makerdao.com/t/announcement-kickstarting-the-self-sustaining-makerdao-initiative/1864)
+
 - [Governance After Decentralization](https://blog.makerdao.com/what-will-maker-governance-look-like-after-complete-decentralization/)
+
 - [Design For Self Governing DAO](https://www.theblockcrypto.com/post/60702/maker-foundation-reveals-its-design-for-a-self-governing-dao-to-replace-its-role-in-the-ecosystem)
 
 For instance, until recently the Maker Foundation had an exclusive control over the smart contract that controlled the operational mechanics of the MKR token. While any changes to that smart contract can't go unnoticed, the Maker Foundation been privileged in ability to control it. 
 
-In March 2020, the control of that contract passed to the MakerDAO community. You can [read more](https://blog.makerdao.com/the-transfer-of-mkr-token-control-to-governance-the-final-step/) about it here. There are means to verify that this change actually took place by exploring the relevant transaction on Ethereum blockchain itself.
+In March 2020, the control of that contract passed to the MakerDAO community. You can read more about this [here](https://blog.makerdao.com/the-transfer-of-mkr-token-control-to-governance-the-final-step/). There are means to verify that this change actually took place by exploring the relevant transaction on Ethereum blockchain itself.
 
 There is also an entity known as DAI foundation which was formed to oversee and legally control MakerDAO's key intangible assets, such as trademarks and code copyrights. 
 
@@ -160,9 +166,11 @@ Being a decentralized platform, the service operates fully on Ethereum blockchai
 
 While the Oasis platform is accessible through a [website](https://oasis.app), the services it provides can be also accessed by communicating with the Ethereum blockchain directly.
 
-> **The Oasis website is just one of the many ways to interact with the Maker Protocol. Those familiar with programming on Ethereum can access MakerDAO services by interacting with Maker Protocol smart contracts using various means and not use the website at all.**
+> **The Oasis website is just one of the many ways to interact with the Maker Protocol.**
+>
+> **Those familiar with programming on Ethereum can access MakerDAO services by interacting with Maker Protocol smart contracts using various means and not use the website at all.**
 
-To deposit or withdraw funds from the Oasis website user needs one of the supported Ethereum wallets like [Metamask](https://metamask.io). Metamask is a non-custodial wallet built for Google Chrome. 
+To deposit or withdraw funds from the Oasis website user needs one of the supported Ethereum wallets like [Metamask wallet](https://metamask.io) built for Google Chrome. 
 
 Keep in mind when you interact with decentralized platforms like Oasis token exchange there are no means to roll back anything if you make a mistake with funds somewhere. All transactions are final and irreversible.
 
@@ -191,11 +199,11 @@ The borrowing steps:
 
 Users interact with Maker Vaults and the Maker Protocol directly. The user has complete and independent control over their deposited collateral as long the real-time value of collateral doesn’t fall below the required minimum level. 
 
-The Maker Vault is a core component of the Maker Protocol, which facilitates the generation of DAI against locked up collateral. All DAI in circulation are created by Maker Vaults and more importantly have underlying assets backing each DAI.
+> **The Maker Vault is a core component of the Maker Protocol, which facilitates the generation of DAI against locked up collateral.**
+> 
+> **All DAI in circulation are created by Maker Vaults and more importantly have underlying assets backing each DAI.**
 
-> **Each user borrowing DAI generates a unique Maker Vault as a result of that action.**
->
-> **he individual Maker Vaults created by users as a result of borrowing DAI are unique and may vary.**
+Each user borrowing DAI generates a unique Maker Vault as a result of that action.
 
 - **Collateral Type**
 

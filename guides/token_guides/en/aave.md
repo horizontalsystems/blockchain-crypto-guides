@@ -10,7 +10,7 @@ Aave launched in January 2020 and over the course of 8 months attracted close to
 
 - Borrowers obtain loans by tapping into these lending pools in exchange for a fee.
 
-- Unlike other lending service such as [Compound](/guides/token_guides/compound.md) or [MakerDAO](/guides/token_guides/makerdao.md), Aave provides means to borrow without a collateral. No need to deposit other cryptocurrency to get a loan.
+- Unlike other lending service such as [Compound](../../token_guides/en/compound.md) or [MakerDAO](../../token_guides/en/makerdao.md), Aave provides means to borrow without a collateral. No need to deposit other cryptocurrency to get a loan.
 
 - When compared to alternative service the lending and borrowing rates are generally higher on Aave.
 
@@ -91,7 +91,7 @@ In current form, flash loans are primarily accessible to programmers with tradin
 
 The Aave aims to be a fully community-governed decentralized autonomous organization where all aspects of this service are being overseen by the owners of the AAVE token (formerly LEND).
 
-In that regard, Aave project is on the path to become self-sustainable DAO with many similarities to [MakerDAO](/guides/token_guides/makerdao.md). 
+In that regard, Aave project is on the path to become self-sustainable DAO with many similarities to [MakerDAO](../../token_guides/en/makerdao.md). 
 
 - The native AAVE token is a core securing element of the Aave governance and can be used for voting on protocol improvements such as borrowing and lending related parameters.
 
@@ -117,7 +117,7 @@ A new version Aave 2.0 [was announced](https://medium.com/aave/aave-v2-the-seaml
 
 - Fixed Rates
 
-    As you may remember from [Compound](/guides/token_guides/compound.md), the lending and borrowing rates are adjusted every block depending on the market supply and demand for the given cryptocurrency asset.
+    As you may remember from [Compound](../../token_guides/en/compound.md), the lending and borrowing rates are adjusted every block depending on the market supply and demand for the given cryptocurrency asset.
     
     Aave 2.0 aims to add predictability here by having lending and borrowing rates which are not bound by market variations.
         

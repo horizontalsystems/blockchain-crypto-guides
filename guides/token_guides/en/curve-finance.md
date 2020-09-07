@@ -1,6 +1,6 @@
 # Curve in Simple Terms
 
-[Curve Finance](https://curve.fi) is a decentralized, Uniswap-like exchange but built specifically for [stablecoins](/guides/defi/en/8-stablecoins.md).
+[Curve Finance](https://curve.fi) is a decentralized, Uniswap-like exchange but built specifically for [stablecoins](../../defi/en/5-stablecoins.md).
 
 With DeFi growing in popularity there is a bigger demand now for trading between pairs of stablecoins, and that’s where Curve comes into play. Stablecoins are typically in high demand in DeFi ecosystem. 
 
@@ -21,15 +21,15 @@ Total supply: about 3 billion
 
 - Curve's uniques selling point comes from its trading algorithm which provides better prices when buying or selling large amount of cryptocurrency stablecoins.
 
-- In comparison to [Uniswap](/guides/token_guides/en/uniswap.md), Curve has a slightly higher fee for each trade measured at 0.04% of the trading amount.
+- In comparison to [Uniswap](../../token_guides/en/uniswap.md), Curve has a slightly higher fee for each trade measured at 0.04% of the trading amount.
 
 ## Liquidity Providers
 
 Liquidity pools on Curve are generally more profitable than pools on uniswap. 
 
-Apart from collecting trading fees, Curve's liquidity pools lend spare funds to external [DeFi lending](/guides/defi/en/4-lending-protocols.md) services and earn liquidity providers even more income. 
+Apart from collecting trading fees, Curve's liquidity pools lend spare funds to external [DeFi lending](../../defi/en/4-lending-protocols.md) services and earn liquidity providers even more income. 
 
-- At present, 4 out of 7 liquidity pools on Curve earn liquidity providers not only from trading fees but from lending liquidity to [Compound](/guides/token_guides/en/compound.md) lending pool as well.
+- At present, 4 out of 7 liquidity pools on Curve earn liquidity providers not only from trading fees but from lending liquidity to [Compound](../../token_guides/en/compound.md) lending pool as well.
 
 - Curve's liquidity pools do not require liquidity provider to deposit all tokens involved in the pool. The provider can just deposit one stablecoin.
 

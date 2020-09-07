@@ -2,11 +2,13 @@
 
 # Tether in Simple Terms
 
-Tether (symbol: USDT) is a cryptocurrency stablecoin with a value meant to mirror the value of the US dollar. It is the biggest stablecoin in the cryptocurrency space. Tether enables easy exposure to USD.
+Tether (symbol: USDT) is a cryptocurrency [stablecoin](../../defi/en/5-stablecoins.md) with a value meant to mirror the value of the US dollar. It is the biggest stablecoin in the cryptocurrency space. Tether enables easy exposure to USD.
 
-Tether can be found on most [cryptocurrency exchanges](../../fundamentals/en/6-buying-cryptocurrency-basics.md) and supported by most crypto currency wallets. It's usually traded in pairs with the highest daily trading volume. The [BTCUSDT](https://www.binance.com/en/trade/BTC_USDT) pair on Binance exchange alone occasionally exceeds half a billion USD in daily trading volume. 
+Tether can be found on most [cryptocurrency exchanges](../../fundamentals/en/6-buying-cryptocurrency-basics.md) and supported by most crypto currency wallets. It's usually traded in pairs with the highest daily trading volume. 
 
-The Market Capitalization of Tether has been consistently growing over the years and in May 2020 has exceeded [8 billion USD](https://coinmarketcap.com/currencies/tether/).
+- The [BTCUSDT](https://www.binance.com/en/trade/BTC_USDT) pair on Binance exchange alone occasionally exceeds half a billion USD in daily trading volume. 
+
+- The Market Capitalization of Tether has been consistently growing over the years and in May 2020 has exceeded [8 billion USD](https://coinmarketcap.com/currencies/tether/).
 
 While Tether tokens are issued on several blockchains, the largest amount are exists on [Ethereum blockchain](ethereum.md). 
 
@@ -53,7 +55,9 @@ When holding DAI tokens, users place trust on a pre-programmed code which can't 
 Asa result DAI stablecoin has following properties:
 
 - no entity can block someone from using DAI
+
 - no entity can freeze someone's DAI balance
+
 - no entity can misuse the collateral funds backing DAI
 
 Points above do not hold for Tether and users essentially have to place their trust in the company and people running the Tether Limited.
