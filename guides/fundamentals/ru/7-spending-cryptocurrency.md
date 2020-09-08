@@ -1,22 +1,22 @@
 ![](../images/07-main-l.png)
 
-# Spending Cryptocurrency
+# Расходование криптовалюты
 
-The ability to pay with Bitcoin or with some other cryptocurrency in stores remains uncommon. 
+Пока еще редко встречаются магазины, в которых можно оплачивать покупки  Биткоинами или какой-нибудь иной криптовалютой.
 
-While some merchants are slowly starting to accept payments in Bitcoin, the vast majority of retailers are still not on board. 
+Хотя некоторые предприниматели понемногу начинают принимать оплату в Биткоинах, большинство розничных магазинов пока не приняли такой способ оплаты.
 
-There are many reasons for the lack of adoption, primarily the absence of legal and regulatory guidelines when it comes to transacting and taxing cryptocurrencies.
+Существует множество причин такого неприятия, основной из которых является отсутствие правовых и нормативных документов, регулирующих вопросы осуществления транзакций в криптовалюте и их налогообложения. 
 
-## Crypto Debit Cards
+## Криптовалютные дебетоватые карты
 
-That said, there are some ways to spend your cryptocurrency. A number of companies provide debit cards which are tied to crypto on your balance and can be used to pay anywhere where Visa, MasterCard etc is accepted. 
+Тем не менее, существует ряд способов тратить вашу криптовалюту. Множество компаний предоставляют дебетовые карты, которые привязаны к вашему криптовалютному балансу и могут быть использованы для оплаты в любом месте, где принимают карты Visa, MasterCard, и т.п.
 
-1. You pay with a card as you would normally do. The card can also be used to withdraw cash from an ATM.
-2. The debit amount deducted from your crypto wallet balance using the current market rates.
-3. Depending on the card provider some additional fee or perks such as cashback rewards may apply.
+1. Вы платите картой, как обычно это делаете. Карта также может быть использована для снятия наличности в банкомате.
+2. Нужная сумма дебета будет списана с баланса вашего криптовалютного кошелька исходя из текущей рыночной цены.
+3. В зависимости от провайдера, к операциям по карте могут быть применены дополнительные тарифные ставки или льготы вроде кэшбэка.
 
-Below, you will see some of the more popular providers of crypto debit cards. Most of them are currently available to people living in the US or Europe. 
+Ниже предоставлен список некоторых наиболее популярных провайдеров криптовалютных дебетовых карт. На данный момент, большинство этих провайдеров обслуживает только жителей США и Европы.
  
 - [Crypterium.com](https://cards.crypterium.com)
 - [Crypto.com](https://crypto.com/en/cards.html)
@@ -25,12 +25,12 @@ Below, you will see some of the more popular providers of crypto debit cards. Mo
 - [Cryptopay.me](https://cryptopay.me/bitcoin-debit-card)
 - [2gether.global](https://www.2gether.global/card.html)
 
-Note that, all crypto debit card providers will require some kind of identification documents.
+Нужно отметить, что все провайдеры криптовалютных дебетовых карт требуют предоставления какого-либо удостоверяющего документа.
 
-## What To Know
+## Что нужно знать?
 
-When using the services, the card provider will usually issue you with a custodial cryptocurrency wallet that will be used as a source of funds for your card. 
+При использовании подобных услуг, провайдер карты, как правило, предоставляет вам попечительский криптовалютный кошелек, который будет служить источником средств, доступных на вашей карте.
 
-> **The wallet provided by a debit card provider will be a custodial wallet and therefore, you should never keep a lot of funds on it.**
+> **Кошелек, предоставляемый провайдером криптовалютной дебетовой карты, является попечительским, поэтому, вам не следует держать в нем крупные суммы.**
 
-Use a non-custodial wallet for your primary funds and occasionally top up the wallet provided by a card provider with amounts you're a planning to spend in the near term. 
+Используйте свободный кошелек для хранения ваших основных сбережений, а кошелек, предоставленный провайдером карты, периодически пополняйте суммами, которые планируете потратить в ближайшее время.

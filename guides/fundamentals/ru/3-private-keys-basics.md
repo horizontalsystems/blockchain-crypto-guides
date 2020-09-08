@@ -1,66 +1,66 @@
 ![](../images/03-main-l.png)
 
-# Private Keys
+# Личные ключи
 
-As we covered earlier, genuine cryptocurrency wallets store cryptographic keys that have control over certain amount of cryptocurrency.
+Как было отмечено ранее, настоящие криптовалютные кошельки хранят криптографические ключи, которые дают контроль над определенным количеством криптовалюты.
 
-From that cryptographic key the wallet app can understand the amount of cryptocurrency user owns as well as derive past transactions associated with the wallet. This cryptographic key usually referred to as private key. 
+Из этого криптографического ключа приложение-кошелек может понять, сколько криптовалюты есть у пользователя, а также вывести прошлые транзакции, связанные с данным кошельком. Криптографический кошелек обычно и называют личным ключом.
 
-> **The wallet app is an instrument that essentially stores your private key. This private key is what gives you control over certain amount of cryptocurrency.**
+> **Приложение-кошелек - это инструмент, в котором, по сути, хранится ваш личный ключ. Именно личный ключ дает вам контроль над определенным количеством криптовалюты.**
 >
-> **The non-custodial wallet app uses private key to retrieve cryptocurrency balances and past transactions from the blockchain.**
+> **Свободный кошелек-приложение использует личный ключ, чтобы извлечь криптовалютный баланс и историю транзакций из блокчейна.**
 
-We are not going to explain how the private keys work under the hood. Just know that a term private key usually refers to a cryptographic key we talked about earlier.
+Мы не будем вдаваться в технические детали устройства и работы личных ключей. Вам лишь необходимо знать, что под термином "личный ключ" обычно подразумевается криптографический ключ, о котором мы упомянули ранее. 
 
-Below, we are going to look a bit deeper into security aspects to give you a better understanding of private keys, and the related security aspects.
+Ниже, мы немного подробнее расскажем об аспектах безопасности, чтобы дать вам лучшее понимание о личных ключах, а также других связанных аспектах безопасности. 
 
-## 1. Keep Key Private
+## 1. Как обеспечить приватность личного ключа?
 
-Quite often scammers (by impersonating wallet support teams) trick users into sharing their private keys. When a user shares the key the scammer steals the funds on the balance. 
+Очень часто мошенники (выдающие себя за команду поддержки крипто-кошелька) обманом заставляют пользователей делиться своими личными ключами. Когда пользователь делится ключом, мошенник крадет средства, которые есть у пользователя на балансе.
 
-> **There is absolutely no valid reason for you as a wallet app user to ever share the private keys with anyone. This applies to all wallets.**
+> **Не существует абсолютно никаких причин, чтобы вы, как пользователь приложения кошелька, когда-либо должны были поделиться своим личным ключом с кем-либо.  Это применимо ко всем кошелькам.**
 >
-> **Never reveal your private key to anyone, even when you're communicating with people who built your wallet app.**
+> **Никогда не делитесь своим личным ключом с кем бы то ни было, даже при общении с людьми, которые создали приложение-кошелек, которым вы пользуетесь.**
 
-You may reveal your private key to someone only when you intentionally want to pass the ownership of your funds to that person. Almost all non-custodial wallet provides means for the user to access and view private key from within the wallet app.
+Вы можете раскрыть свой личный ключ человеку только если намерены передать этому человеку во владение свои средства. Почти все свободные кошельки предоставляют пользователю возможность для доступа и просмотра личного ключа прямо в самом приложении-кошельке.
 
-## 2. Backup Key
+## 2. Резервная копия ключа
 
-Most non-custodial wallet apps show the private key during the wallet app setup. The wallet app usually prompts user to write down the private key and store it somewhere safely offline.
+Большинство свободных приложений-кошельков отображают личный ключ при установке приложения-кошелька. Приложение-кошелек обычно запрашивает, чтобы пользователь записал личный ключ и сохранил его где-нибудь в безопасном месте вне сети.
  
-> **The private key is the only way to restore access to funds in case the device with the wallet app become inaccessible i.e. if it gets stolen or simply stops working.**
+> **Личный ключ - это единственный способ восстановить доступ к средствам, если устройство, на котором установлено приложение-кошелек  по каким-то причинам становится недоступным, т.е. его украли или оно попросту перестало работать.**
 
-To make it easier to backup the private key, blockchain engineers came up with a way to convert the private key to a plain set of 12 or 24 regular words. 
+Чтобы облегчить создание резервной копии личного ключа, инженеры блокчейн системы придумали способ преобразовать личный ключ в простую последовательность из 12 или 24 обычных слов.
 
-Most non-custodial wallets will display the private key in a human-readable form, generally in a form 12/24 words.
+Большинство свободных кошельков отображают личный ключ в поддающейся чтению форме, как правило, в виде последовательности из 12/24 слов.
 
 ![](../images/03-02-l.png)
 
-Backup the private key and make sure there are no typos in your backup. Other than actual words, the ordering is just as important. 
+Создайте копию личного ключа и удостоверьтесь в том, что в вашей копии нет опечаток. Помимо самих слов, их порядок в последовательности не менее важен.
 
-> **If you lose or unknowingly expose the private key to someone, they can get control of your cryptocurrency.**
+> **Если вы потеряете или нечаянно покажете свой личный ключ кому-либо, то этот человек сможет завладеть вашей криптовалютой.**
 
-The 12/24 words should be backed up in the correct order. A non-custodial wallet may understand if you make a typo in one of the words and show an appropriate warning. 
+Последовательность из 12/24 слов должна быть сохранена в правильном порядке. Свободный кошелек может понять, что вы сделали опечатку в одном из слов и вывести соответствующее уведомление.
 
-If the words positioned incorrectly a non-custodial wallet will still restore some random wallet, it just won't be yours. So, the correct order is just as important.
+Если слова будут расположены в неправильном порядке, свободный кошелек все равно восстановит какой-то случайный кошелек - только он не будет вашим. Поэтому, правильный порядок слов тоже не менее важен.
 
-## 3. Private Key Generation
+## 3. Создание личного ключа
 
-When you first setup a non-custodial wallet app, the code powering the wallet app randomly generates a secure private key for you. For the private key to be truly secure it's important for a wallet app to generate a private key which is truly random.
+Когда вы впервые устанавливаете приложение свободный кошелек, код, на котором работает приложение-кошелек, генерирует для вас безопасный личный ключ в случайном порядке.  Для того, чтобы личный ключ был действительно защищенным, очень важно, чтобы приложение-кошелек сгенерировало личный ключ, который будет по-настоящему случайным.
 
-> **If the private key generated by a non-custodial wallet is not random then the wallet is not safe.**
+> **Если личный ключ, сгенерированный свободным кошельком не будет случайным, то кошелек не будет защищен.**
 
-That's one of the reasons why non-custodial wallets keep the code open. Third-party engineers can then analyze the code and check whether the wallet app generates the private key correctly.
+Это одна из причин, почему свободные кошельки оставляют свой код в открытом доступе. Сторонние инженеры в последствии могут провести анализ кода и проверить, действительно ли приложение-кошелек правильно создает личные ключи.
 
-There are websites like [WalletScrutiny.com](https://walletscrutiny.com) which exist to ensure wallets published on Google Play in fact use the same code as the code publicly shared with the community.
+Существуют такие вебсайты как [WalletScrutiny.com](https://walletscrutiny.com) которые предназначены для того, чтобы удостовериться в том, что кошельки, размещаемые в сервисе Google Play, на самом деле используют именно тот код, который был опубликован в открытом доступ.
    
-Any good non-custodial wallet app should be engineered in accordance with the publicly documented security guidelines and wallet standards.
+Любой хороший свободный кошелек должен быть разработан в соответствии с публичными руководящими принципами по безопасности и стандартами, применимыми к приложениям-кошелькам.
 
-## 4. One Key, Many Coins
+## 4. Один ключ, много монет
 
-Another essential aspect, a single private key can be used to control balances for multiple cryptocurrencies. When using such key the wallet apps can automatically locate the balances for all supported cryptocurrencies.
+Другой важный аспект - один личный ключ может быть использован для управления балансами множества криптовалют. При использовании такого ключа, приложение-кошелек может автоматически установить местоположение баланса всех поддерживаемых приложением криптовалют.
 
-For instance, when creating the wallet on [Unstoppable wallet](https://unstoppable.money) the user gets a single private key for 5 cryptocurrencies:
+К примеру, при создании кошелька в приложении [Unstoppable wallet](https://unstoppable.money), пользователь получает единый личный ключ для 5 видов криптовалют:
 
 - Bitcoin
 - Dash
@@ -68,36 +68,36 @@ For instance, when creating the wallet on [Unstoppable wallet](https://unstoppab
 - Litecoin
 - Ethereum
 
-The same private key used to control multiple cryptocurrencies, each with its own balance and transactions.
+Лишь один личный ключ используется для управления множеством криптовалют, на каждую из которых приходится свой баланс и история транзакций.
 
-## 5. Balances & Transactions
+## 5. Балансы и транзакции
 
-As was mentioned above there are 'private key' standards designed by engineers throughout the years. These standards define how exactly wallet apps should handle the private key for use with multiple cryptocurrencies. 
+Как было отмечено выше, существуют стандарты для "личных ключей", которые были выработаны инженерами за годы работы. Эти стандарты определяют четкие критерии как приложения кошельки должны использовать личный ключ при работе с множеством криптовалют. 
 
-> **The wallet uses your private key to derive your payment address for each cryptocurrency. The payment address is the address you are sharing with others that want to pay you in cryptocurrency.**
+> **Кошелек использует ваш личный ключ, чтобы вывести ваш платежный адрес для каждой отдельной криптовалюты. Платежный адрес - это адрес которым вы делитесь с другими пользователями, которые желают заплатить вам криптовалютой.**
 
 ![](../images/03-03-l.png)
 
-Just by looking at your private key the wallet app should be able to derive your address for Bitcoin, Ethereum and many other cryptocurrencies. Different address for each cryptocurrency.
+Приложение-кошелек должно быть способно вывести ваш адрес для Биткоина, Эфириума и многих других криптовалют лишь на основе вашего личного ключа. Разные адреса для отдельных криптовалют.
 
-When you import the private key to another standard-compliant wallet that other app will also derive same addresses.
+При переносе личного ключа в другое приложение-кошелек, которое отвечает общепринятым стандартам, это другое приложение будет выводить те же самые адреса.
 
-That's basically how a wallet app can take a private key used on another app, and from that key restore balances and transactions for multiple cryptocurrencies
+В общем, таким образом приложение кошелек может использовать личный ключ, который был использован в другом приложении и при помощи этого ключа восстановить балансы и транзакции нескольких криптовалют.
 
-> **If a private key generated in a standard-compliant manner, then any other standard-compliant wallet should be able to correctly derive payment addresses and past transactions for each supported cryptocurrency.**
+> **Если личный ключ генерируется в соответствии со стандартом, то любой кошелек, разработанный с соблюдением стандартов, должен правильно вывести платежные адреса и прошлые транзакции для всех поддерживаемых приложением криптовалют.**
 
-Once the app knows the addresses for say Bitcoin, it connects to the Bitcoin blockchain and looks for transactions involving those addresses. As a result of that process the wallet app can display the balances and past transactions associated with that private key.
+Как только приложению становятся известны адреса, скажем для Биткоина, оно подключается к блокчейну Биткоина и запускает поиск транзакций, связанных с этими адресами. В результате данного процесса, приложение-кошелек может отображать балансы и транзакции, связанные с этим личным ключом.
 
-## 6. Moving Between Wallets
+## 6. Перенос личного ключа из одного кошелька в другой
 
-Good non-custodial wallets enable private key migration between wallets. In other words, a private key created on one non-custodial wallet app should be compatible with other non-custodial wallet apps. 
+Хорошие свободные кошельки позволяют осуществлять перенос личного ключа из одного кошелька в другой.  Иными словами, личный ключ, созданный в одном свободном кошельке, должен быть совместим с другими свободными кошельками. 
 
-> **The user should not be restricted to a single wallet provider and should be able easily migrate to other non-custodial wallet apps built by different parties.** 
+> **Пользователь не должен быть привязан к одному единственному провайдеру кошелька и должен свободно осуществлять перенос в другие свободные кошельки, созданные иными разработчиками.** 
 
-If your phone breaks, or the wallet app stops working, your funds are safe; you will always be able to restore access to your cryptocurrency using the private key. There are no time frames---the same key would work years later.
+Если даже ваш телефон сломался или приложение-кошелек перестает работать, ваши средства защищены - вы всегда сможете восстановить доступ к вашей криптовалюте, используя личный ключ.  Временных ограничений не существует - тот же ключ будет работать и через многие годы.
 
-When choosing a wallet look for one that is standard compliant and supports import/export of private keys.
+При выборе кошелька, ищите такой, который соответствует стандартам и поддерживает возможность переноса личных ключей в/из приложения.
 
-> **Note: When migrating your private key from one wallet to another you need the destination wallet to support all cryptocurrencies that private key controls.**
+> **Примечание: При переносе вашего личного ключа из одного кошелька в другой, вам нужно удостовериться в том, что тот кошелек, в который вы переносите свой ключ, также поддерживает все виды криптовалют, которые контролируются вашим личным ключом.**
 
-If your private key has some balance on Bitcoin and Ethereum but the destination wallet supports only Bitcoin then your Ethereum balance won't be visible. It will still be yours and accessible from some other wallet.
+Если на балансе вашего личного ключа есть суммы в Биткоинах и Эфириуме, но кошелек, в который вы переносите ваш личный ключ, поддерживает только Биткоин, то баланс Эфириума не будет отображаться в этом приложении. Он все еще будет принадлежать вам и будет доступен в каком-нибудь другом кошельке.

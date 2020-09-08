@@ -1,101 +1,101 @@
 ![](../images/02-main-l.png)
 
-# Wallets Explained
+# Доступно о кошельках
 
-By its very nature cryptocurrency gives the owner capabilities that are not available with traditional financial instruments.
+По своей натуре, криптовалюта предоставляет владельцу такие возможности, которые не доступны при использовании традиционных финансовых инструментов.
 
-It's vital to understand what these capabilities are, especially for someone looking to safely store and accumulate cryptocurrencies.
+Важно понимать, что представляют из себя эти возможности, в особенности для того, кто ищет способы безопасно хранить и накапливать криптовалюты.
 
-- When dealing with traditional financial instruments such as deposits in the bank (or stocks with the broker) there is a notion of someone keeping assets on behalf of the user. The entity that keeps funds acts as a custodian of the assets and has a full control over them. Your access to these assets is dependent on the entity that keeps your assets in custody.
+- Когда имеешь дело с традиционными финансовыми инструментами, такими как банковские депозиты (или операции с акциями через биржевых брокеров), предполагается, что кто-то хранит активы от лица их собственника. Лицо, которое хранит денежные средства, действует в качестве держателя активов и имеет полный контроль над ними. Ваш доступ к этим активам зависит от лица, которое выступает держателем ваших активов.
 
-- When it comes cryptocurrencies, there is an option for the user is to be the only entity that has access and control over the funds. Cryptocurrencies enable user to be the only custodian of the assets, without any dependence on intermediaries.
+- В случае с криптовалютами, у пользователя есть возможность выступать в качестве единственного лица, у которого есть доступ к денежным средствам и полный контроль над ними.  Криптовалюты дают возможность пользователю быть единственным держателем активов и не зависеть от посредников.
 
-For someone looking to safely store and subsequently accumulate crypto assets it's important to know how the aspect of ownership works in cryptocurrencies.
+Для того, кто ищет способ безопасно хранить и в последствии накапливать криптовалютные активы важно знать, как аспект владения работает с криптовалютами.
 
-A lot of people enter the space and start accumulating cryptocurrencies without understanding these fundamentals. This exposes them to risks that may result in the loss of funds.
+Многие люди входят в эту среду и начинают накапливать криптовалюту, не понимая этих основополагающих принципов. Это подвергает их рискам, которые могут привести к потере денежных средств.
 
-## How Ownership Works
+## Как устроено владение крипто-активами?
 
-Most cryptocurrencies operate on top of the blockchain that powers that specific cryptocurrency. Bitcoin is the native currency of the Bitcoin blockchain, the Ethereum crypto currency has its own blockchain and so on.
+Большинство криптовалют функционируют на базе блокчейна, который обеспечивает работу этой самой криптовалюты. Биткоин - оригинальная валюта блокчейна Биткоин, криптовалюта Эфириум имеет свой блокчейн и так далее.
 
-The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet. 
+Понятие, что кто-то владеет Биткоином или Эфириумом значительно отличается от владения традиционной наличностью в вашем кошельке.
 
->**The ownership in cryptocurrency means the ownership of special cryptographic key which has a power to spend a certain amount of cryptocurrency.**
+>**Владение криптовалютой означает владение специальным криптографическим ключом, который позволяет тратить определенное количество криптовалюты.**
 
-So, when someone says s/he has 5 Bitcoins what this essentially means is that this person is in the possession of the cryptographic key which can spend 5 Bitcoins.
+Итак, когда кто-то говорит, что он или она обладает 5-ю Биткоинами, это означает, что у этого человека есть криптографический ключ, с помощью которого можно потратить 5 Биткоинов.
 
 ![](../images/02-02-l.png)
 
-When a person sends 1 Bitcoin to another person, the sender uses his/her cryptographic key to sign off 1 Bitcoin from the available balance and pass the ownership of that 1 Bitcoin to the recipient. After the transaction took place, that 1 Bitcoin can only be spent by the cryptographic key belonging to the recipient.
+Когда человек отправляет 1 Биткоин другому человеку, отправитель использует свой криптографический ключ, чтобы списать 1 Биткоин с доступного баланса и передать владение этим 1 Биткоином получателю. После совершения транзакции, этот 1 Биткоин может быть потрачен только криптографическим ключом, принадлежащим получателю.
 
-So, the takeaway point here is that the ownership of certain amount of crypto basically means the ownership of special cryptographic key.
+В общем, из этого следует, что владение определенным количеством криптовалюты означает владение специальным криптографическим ключом.
 
-Under the hood the key may look something like this:
+В своем исходном виде, ключ может выглядеть примерно так:
 
 >**5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF**
 
-Revealing the cryptographic key to someone or loosing it essentially means loosing access to the crypto it controls. Note that it's impossible for someone (even the most powerful computer) to guess that key, even if it tries to do it over a billion years. 
+Раскрытие криптографического ключа кому-либо или его потеря, по сути, означает потерю доступа к криптовалюте, которую он контролирует.  Нужно отметить, что невозможно угадать этот ключ (даже самому мощному суперкомпьютеру), если даже делать попытку за попыткой на протяжении более миллиарда лет.
 
-It was not uncommon to see people loosing key to their Bitcoins in the early days. As a result a lot of Bitcoins (maybe 10-15%) ended up dormant this way. The Bitcoins are still out there, but the cryptographic key controlling these Bitcoins is lost.
+В начале, потеря пользователями ключей к своим Биткоинам была вполне распространенным явлением. В результате, очень большое количество Биткоинов (вероятно 10-15%) осталось не активым. Эти Биткоины все еще находятся в блокчейне, но криптографические ключи, контролирующие их, были утрачены.
 
-In practical terms, the private key can be thought of as a secure alternative to traditional username and password authentication method but without the means to recover if lost.
+В практическом смысле, личный ключ можно сравнивать с безопасной альтернативой традиционной проверке подлинности при помощи имени пользователя и пароля, но без возможности восстановления, если ключ утерян.
 
-## Cryptocurrency Wallets
+## Криптовалютные кошельки
 
-Cryptocurrency wallets are merely the instruments meant to hold and manage cryptographic keys. 
+Криптовалютные кошельки являются всего лишь инструментами, предназначенными для хранения и управления криптографическими ключами.
 
->**The wallets do not physically store cryptocurrencies, instead wallets store cryptographic keys which can exercise over certain amount of cryptocurrencies.**
+>**Кошельки на самом деле не хранят криптовалюту - вместо этого они хранят криптографические ключи, которые в свою очередь контролируют определенное количество криптовалюты.**
 
-Genuine cryptocurrency wallets enable safe and private storage of cryptographic keys. We deliberately said "genuine" because cryptocurrency wallets come in many forms. 
+Настоящие криптовалютные кошельки позволяют безопасно и приватно хранить криптографические ключи. Мы намеренно использовали слово "настоящие", поскольку криптовалютные кошельки имеют множество форм.
 
-Building genuine wallet is significantly more difficult and thus most wallet providers build pseudo currency wallets. Pseudo wallets do not provide users with a genuine control over the assets.
+Создание настоящего кошелька является значительно более сложной задачей, поэтому большинство разработчиков создают "псевдо-криптовалютные кошельки". Псевдо-кошельки не предоставляют пользователям безграничный контроль над активами.
 
-While there are a lot of things that can potentially be taken into account when it comes evaluating wallets in this section we are going to focus on the core principle. The unconditional ownership!
+Хотя существует множество разных моментов, которые можно принимать во внимание при оценке кошельков, в этом разделе мы сосредоточимся на основных принципах. Безусловное владение!
 
-The minimum requirement for any decent wallet should be full unconditional ownership by the user over the funds the wallet holds.
+Минимальным требованием для любого достойного внимания кошелька должно быть полное и безусловное владение пользователем денежными средствами, которые хранятся в этом кошельке. 
 
-Not all wallet are equal in that regard. Depending on how the wallet built it may provide full unconditional ownership over the crypto, partial or none at all.
+Не все кошельки равны в этом отношении. В зависимости от того, как устроен кошелек, он может давать полное безусловное владение над криптовалютой, частичное или совсем никакого. 
 
-### 1) Non-Custodial Wallets
+### 1) Свободные кошельки
 
-A non-custodial wallet type gives the user exclusive control over their funds. The entity providing the wallet does not have any control over the user assets. 
+Свободный - это тип кошелька, который дает пользователю эксклюзивный контроль над своими средствами. Провайдер этого кошелька не имеет контроля над средствами пользователя.
 
-Such wallets are theoretically the most secure form of a cryptocurrency wallet as no third-party can interfere with the wallet funds. The user has exclusive control over the funds and doesn't have to trust any entity.
+Теоретически, такие кошельки являются наиболее защищенными видами криптовалютных кошельков, поскольку ни одно третье лицо не может совершать какие-либо манипуляции со средствами, хранящимися в нем. Пользователь обладает эксклюзивным контролем над средствами без необходимости доверять какому-либо иному учреждению или лицу.
 
-Non-custodial wallets keep the wallet code open to the public for scrutiny.
+Свободные кошельки оставляют код кошелька в открытом доступе для проверки.
 
->**The users of non-custodial wallets expected to have an understanding that funds on the wallet are under exclusive control of the user.**
+>**Предполагается, что пользователи свободных кошельков должны обладать пониманием того, что у них есть эксклюзивный контроль над средствами в кошельке.**
 >
->**User get full control as well as full responsibility when dealing with crypto assets on the wallet.**
+>**Пользователь получает полный контроль и берет на себя всю полноту ответственности при использовании криптовалютных активов, хранящихся на своем кошельке.**
 
-This is the only type of wallet we recommend for safe storage. In the later sections we are going to look deeper into the differences between various non-custodial wallets and risks associated with them.
+Это единственный вид кошелька, который мы рекомендуем для безопасного хранения. В следующих разделах, мы более детально рассмотрим разницу между различными свободными кошельками и риски, которые с ними связаны.
 
-### 2) Custodial Wallets
+### 2) Попечительские кошельки
 
-A custodial wallet does not give the user exclusive control over the crypto funds on the wallet. A wallet provider basically gives "pseudo" wallet that shows balance and transactions. 
+Попечительский кошелек не дает пользователю эксклюзивный контроль над криптовалютными средствами, хранящимися в кошельке. Провайдер кошелька в основном предоставляет "псевдо-кошелек", в котором отражаются баланс и транзакции.
 
-Whenever user executes a transaction it's the wallet provider who actually sends those funds on user's behalf. Such wallets are the least secure wallets. The users' funds and access to them are fully in the hands of the wallet provider. 
+Когда пользователем совершается транзакция, на самом деле эти средства отправляются провайдером от имени пользователя. Такие кошельки являются наименее защищенными из кошельков. Средства пользователя и доступ к ним полностью находятся в руках провайдера такого кошелька.
 
->**A wallet provider may easily block a user from accessing the wallet or even freeze the funds.**
+>**Провайдер кошелька с легкостью может закрыть пользователю доступ к кошельку или даже заморозить средства, находящиеся в нем.**
 > 
->**Unlike banks which also act as a middleman wallet providers are not financial institutions and thus not as regulated. There is a lot of risk for users holding large amount of cryptocurrency on custodial wallets.**
+>**В отличие от банков, которые также выступают в качестве посредников, провайдеры кошельков не являются финансовыми учреждениями и потому не подвергаются регулированию в такой же степени. Существует очень много рисков для пользователей, которые хранят большую сумму криптовалюты в попечительском кошельке.**
 
-Furthermore, custodial wallets are not private as the wallet provider knows full transaction history of the user.
+Более того, попечительские кошельки не являются приватными, поскольку провайдеру кошелька известна вся история транзакций пользователя.
 
-It should be noted that cryptocurrency exchanges usually provide users with custodial wallets. Therefore, it's not advised to use wallet provided by cryptocurrency exchange for keeping cryptocurrency for extended periods.
+Необходимо отметить, что криптовалютные биржи, как правило, предоставляют пользователям попечительские кошельки. Таким образом, не рекомендуется использовать кошельки, предоставляемые криптовалютными биржами, для длительного хранения криптовалюты. 
 
->**If you leave crypto funds on cryptocurrency exchange, or any type of custodial wallet, the funds are vulnerable to hacking or other types of data breaches. This happened a lot in the past and likely to happen in the future.**
+>**Если вы оставите криптовалютные средства на криптовалютной бирже или каком-либо ином попечительском кошельке, средства будут уязвимы для хакерских атак или иных видов утечек данных. Это часто случалось в прошлом и вероятно еще случится в будущем.**
 
-When your funds remain on the custodial wallet, the wallet provider could feasibly freeze funds, restrict your usage, or even block you from your wallet/account without warning.
+Когда ваши средства остаются в попечительском кошельке, провайдер кошелька может попросту заморозить эти средства, наложить ограничения на их использование или даже закрыть вам доступ к кошельку/счету без уведомления.
 
-Majority of the popular wallets out there are unfortunately of custodial nature.
+Большинство популярных кошельков, существующих на рынке, к сожалению, являются попечительскими по своей сути.
 
 ![](../images/02-03-l.png)
 
-### 3) Hybrid Wallets
+### 3) Гибридные кошельки
 
-Neither the wallet owner or the wallet provider has full control over the wallet funds. A hybrid wallet programmed to require approval from both parties before the funds can be spent. 
+Ни владелец кошелька, ни провайдер кошелька не имеют полного контроля над средствами, хранящимися на кошельке. Гибридный кошелек запрограммирован требовать одобрения от обеих сторон, прежде чем средства могут быть потрачены.
 
-The hybrid wallet system protects against hacking wallet provider but opens the door for wallet provider to censor users in certain scenarios.
+Система гибридных кошельков защищает провайдера кошелька от хакерских атак, но также и откывает возможность для того же провайдера налагать ограничения на пользователей в определенных ситуациях.
 
-Only when using non-custodial wallet you can be sure the funds are indeed under your control and not dependent on any third party.
+Только используя свободный кошелек, вы можете быть уверены в том, что средства действительно находятся в вашем контроле и не зависят от прихоти какого-либо третьего лица.

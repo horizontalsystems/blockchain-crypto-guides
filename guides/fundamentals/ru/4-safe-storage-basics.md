@@ -1,196 +1,196 @@
 ![](../images/04-main-l.png)
 
-# Safe Storage
+# Безопасное хранение
 
-Now let's look at different types of non-custodial wallets.
+Теперь, давайте рассмотрим различные типы свободных кошельков.
 
-First, there is no such thing as the most suitable wallet for all. Certain non-custodial wallets may be more appropriate for some and not for others. It depends on things like:
+Во-первых, нет такого понятия как "самый подходящий" кошелек для всех. Определенные свободные кошельки могут быть более подходящими для одних, и совершенно не подходящими для других людей. Это зависит от таких вещей как:
 
-* familiarity with security aspects
-* the place the person lives in
-* the amount of cryptocurrency to store
-* whether the person is a potential target
-* how frequently the wallet to be accessed
+* осведомленность об аспектах безопасности
+* место проживания человека
+* количество криптовалюты, которая будет храниться в кошельке 
+* является ли человек потенциальной жертвой мошенничества
+* как часто будет осуществляться доступ в кошелек
 
-Some wallets are more user-friendly and appropriate for new people with smaller balances. At the same time, for people with a crypto capital in millions and extensive security knowledge the expectations from wallets are considerably higher. Those people may prefer to use wallets engineered for higher security needs.
+Некоторые кошельки могут быть более удобными в использовании и более подходящими для новичков, у которых относительно небольшие суммы на балансе. В то же время, у людей с многомиллионным криптовалютным капиталом и обширными познаниями в области безопасности, ожидания от кошелька будут значительно выше. Такие люди могут отдать предпочтение кошелькам, разработанным с учетом более высоких требований к безопасности.
 
-In this section we will try to look at common non-custodial wallets and get a balanced overview of the security aspects. A balanced approach involves a tiered approach, where the higher security requirements introduced as the risk factor grows. 
+В данном разделе мы постараемся охватить наиболее распространенные свободные кошельки и предоставить сбалансированный обзор аспектов безопасности. Сбалансированный подход подразумевает градацию, где более высокие требования к безопасности появляются по мере повышения фактора риска.
 
-An ideal wallet for someone new with a capital below 10K is not the same as for someone in space for years and capital over 100K.
+Идеальный кошелек для новичка с капиталом менее $10 тыс. не будет таковым для человека, который вошел в эту среду много лет назад и имеет капитал свыше $100 тыс.
 
-As the user's crypto capital grows so does the potential cost of loosing it. In such cases the capital can be divided into multiple wallets, where a larger chunk kept with extra secure considerations in mind while the remaining in potentially less secure but easily accessible wallet. 
+По мере роста криптовалютного капитала, принадлежащего пользователю, растет и возможный ущерб от потери этого капиала. В таких случаях, капитал может быть распределен между несколькими кошельками, так чтобы большая часть капитала хранилась с учетом дополнительных мер защиты, а остаток возможно в менее защищенном, но легко доступном кошельке.
 
-## Non-custodial Wallet Types
+## Типы свободных кошельков
 
-All non-custodial wallets out there provide users with full control over the crypto. That's an underlying characteristic of such a wallet. 
+Все существующие свободные кошельки предоставляют пользователям полный контроль над их криптовалютой. Это основополагающая характеристика таких кошельков.
 
-There 3 main types of non-custodial wallets:
+Существуют 3 типа свободных кошельков:
 
 ![](../images/04-02-l.png)
 
-1. hardware wallets 
-2. mobile app wallets
-3. desktop software wallets
+1. аппаратные кошельки/кошельки устройства 
+2. кошельки-приложения для мобильных устройств
+3. программы-кошельки для персональных компьютеров
 
-Non-custodial wallets potentially differ in the extent to which wallet private keys are protected. Some wallets are designed taking into account even the most unlikely scenarios.
+Свободные кошельки потенциально отличаются друг от друга по степени обеспечиваемой кошельком защиты личных ключей.  Некоторые кошельки разрабатываются с учетом даже самых невероятных сценариев.
 
-For instance, ensuring a safe storage of the private key in an up-to-date iOS or Android wallet app is easier than on a desktop wallet running on all-purpose Windows computer.
+К примеру, обеспечение безопасного хранения личного ключа в обновленной версии приложения кошелька в операционных системах на базе iOS или Android легче, чем в программе кошельке, установленной на обычном компьютере, работающем на базе ОС "Windows".
 
-### 1. Hardware Wallets
+### 1. Аппаратные кошельки/Кошельки устройства
 
-The hardware wallets usually come in a form of small hardware devices resembling USB thumb drives and engineered for the sole purpose of storing large amount of cryptocurrencies securely.
+Аппаратные кошельки обычно производятся в виде небольших устройств, напоминающих USB-флэш-накопители, которые созданы с единственной целью - безопасно хранить большие суммы криптовалюты.
 
-Without going into technicals, it's enough to know that these devices are widely considered as ones with the highest level of security. The security considerations are built around the idea of making the physical extraction of the private keys impossible, even if the attacker has your wallet device in physical possession.
+Без углубления в технические детали, достаточно знать лишь то, что такой тип устройств, по мнению большинства пользователей, обеспечивает наивысший уровень защиты.  Критерии безопасности основаны на идее, чтобы сделать невозможным извлечение личных ключей из устройства, если даже преступнику удалось физически завладеть вашим устройством-кошельком.
 
-From usability point of view hardware wallets are somewhat more difficult to use. It's not difficult for someone familiar with ins and outs of cryptocurrencies but definitely not as easy for those new to the field.
+С точки зрения удобства использования, кошельки-устройства доставляют некоторые трудности. Для человека, хорошо осведомленного о криптовалютах, использование такого устройства не представляет особых затруднений, но для новичка - эта задача определенно сложнее.
 
-Generally speaking, for someone with a large amount of crypto assets ( > $ 50,000) it would be advisable to use the hardware wallet. Or at the very least start exploring these wallets with the intent to move a chunk of their assets to a hardware wallet in the future.
+В общем, для человека, обладающего значительными криптовалютными активами (более 50 000 долл. США), рекомендуется использование аппаратного кошелька. Как минимум, такому человеку следует озаботиться изучением таких кошельков с целью перенести часть своих активов в аппаратный кошелек в будущем.
 
-Two well-known hardware wallet providers are:
+Двумя наиболее известными на рынке провайдерами аппаратных кошельков являются:
 
 - [Trezor](https://trezor.io)
 - [Ledger Wallet](https://www.ledgerwallet.com)
 
-Both companies have a wide range of products to choose from. It's important to buy those directly from the provider's website.
+Обе эти компании предлагают широкий ассортимент продукции на выбор. Важно приобретать устройства непосредственно на вебсайте провайдера.
 
-### 2. Mobile Wallets
+### 2. Мобильные кошельки
 
-The mobile based wallets for iOS and Android are the most common type of non-custodial wallet apps. These wallets are generally more user-friendly. 
+Кошельки для мобильных устройств, работающих на базе операционных систем iOS и Android, являются наиболее распространенным видом свободных кошельков-приложений.  Такие кошельки, как правило, являются более удобными в использовании.
 
-Some of our favorites are:
+Вот некоторые из наших любимых приложений:
 
 - [Unstoppable Wallet](https://unstoppable.money)
 - [Bread Wallet](https://brd.com)
 
-From security point of view, the hardware wallet considered more secure than a mobile wallet.
+С точки зрения безопасности, аппаратные кошельки считаются более безопасными, нежели мобильные кошельки.
 
-The main point here is that there are more ways to attack a wallet running on a mobile operating system then a small hardware device that is designed to do one small thing. 
+Суть здесь в том, что существует больше возможностей для совершения атаки на кошелек, работающий на базе операционной системы мобильного устройства, чем на небольшое аппаратное устройство, разработанное для выполнения одной простой задачи.
 
-Mobile wallets operate on an all-purpose operating system (iOS, Android) with a lot of software components. The smartphone device itself has a lot of hardware components that potentially open up new attack surfaces.
+Мобильные кошельки работают на базе универсальной операционной системы (iOS, Android) со множеством программных компонентов. Смартфоны также имеют множество аппаратных компонентов, которые могут потенциально содержать дополнительные уязвимости для хакерских атак.
 
-Both Google's Android and Apple's iOS operating system come with so called 'secure element' which is specifically designed for handling highly sensitive data. Good wallets make use of that and therefore keep the private key unreachable even if the phone ends up in the hands of someone looking to extract it.
+Обе операционные системы - как Android от Google, так и iOS от Apple - оснащены так называемым "защитным элементом", который специально создан для особо важных данных.   Хорошие кошельки используют его, чтобы сделать личный ключ недоступным, даже если телефон окажется в руках человека, желающего его извлечь.
 
-### 3. Desktop Wallets
+### 3. Кошельки для персональных компьютеров
 
-Desktop wallets are theoretically less secure when compared to a mobile wallet for the same reason why a mobile wallet is less secure than a hardware wallet. 
+Кошельки для ПК теоретически являются менее защищенными по сравнению с мобильными кошельками по той же причине, что и мобильные кошельки являются менее защищенными, чем аппаратные кошельки.
 
-The potential attack surface on a desktop operating system is even larger than that of mobile. That's just the nature of a desktop platform.
+Потенциальные возможности для хакерской атаки на операционную систему ПК даже гораздо шире, чем у мобильных устройств. Это попросту естественно для платформы ПК.
 
-It doesn't necessarily mean some desktop wallet is less secure than some mobile-based wallet app. 
+Это не означает, что определенный кошелек для ПК является менее защищенным, чем какое-нибудь приложение-кошелек для мобильного устройства.
 
-Some of the more popular desktop-based wallets are:
+Вот некоторые из наиболее популярных кошельков для ПК:
 
-- [Eelctrum](https://electrum.org)
+- [Electrum](https://electrum.org)
 - [Exodus](https://www.exodus.io)
 
-## So, Which Wallet?
+## Итак, какой же кошелёк выбрать?
 
-The classification above was primarily based around the notion of private key security. While it's the most important factor it should not be the only one when choosing the wallet. There are a lot of factors to consider.
+Приведенная выше классификация основана преимущественно на идее безопасности личного ключа. Хотя это и есть наиболее важный фактор, при выборе кошелька не стоит ограничиваться лишь одним этим фактором. Существует множество других факторов, которые следует брать в расчет.
 
-For instance, a non-custodial mobile wallet app may potentially be more private than a hardware wallet. Or may have essential features not available in the hardware wallet.
+К примеру, свободный кошелек как мобильное приложение может потенциально оказаться более защищенным, чем аппаратный кошелек.  Или же он может обладать важными функциями, которые могут быть недоступны при использовании аппаратного кошелька.
 
 > The privacy aspect has many sides and generally should be taken into account as well. For instance, a hardware wallet may offer a superior security but unintentionally expose customers' personal data. A [recent breach](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) of company selling Ledger hardware wallets is a good example of that.
 
-Keep in mind, you don't need a cartel level security if you're just starting out. The out of the box security on most well-known non-custodial wallet apps is already pretty good.
+Помните, что вам не нужна защита картельного уровня, если вы новичок в этом деле. Уровень защиты, предоставляемый по умолчанию наиболее известными свободными кошельками приложениями, уже является достаточно высоким.  
 
-> **A balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.**
+> **Сбалансированный подход к защите - это когда более высокие требования к безопасности применяются по мере роста фактора риска.**
 
-The minimum security requirements for using any non-custodial wallet app should be as follows.
+Минимальные требования безопасности при использовании любого свободного кошелька-приложения должны быть такими, как описано далее.
  
-- **Security Basics**
+- **Основы безопасности**
 
-    The owner of the device should have a basic understanding of digital security. If it's a mobile wallet the mobile OS should remain clean of unauthorized applications and stay up to date.
+    Владелец устройства должен иметь базовое понимание принципов цифровой безопасности. Если речь идет о мобильном кошельке, то операционная система устройства должна быть обновлена до последней версии и на ней не должно быть несанкционированных приложений. 
  
-- **Standard Compliant**
+- **Соответствие стандартам**
 
-    The wallet should generate private keys per publicly documented security standards. This will allow for seamless migration to a third party wallet should there ever be a need for that.
+    Кошелек должен генерировать личные ключи в соответствии со стандартами безопасности, опубликованными в открытом доступе. Это позволит обеспечить безболезненный перенос в какой-либо другой кошелек, если это когда-нибудь станет необходимым.
 
-- **Unauthorized Access**
+- **Несанкционированный доступ**
     
-    The access to the wallet device should be protected with the PIN or somilar mechanism. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
+    Доступ к кошельку на устройстве должен быть защищен ПИН-кодом или иным схожим механизмом. Если предположить, что злоумышленник знает, что ищет - криптовалютный кошелек, приложение для доступа к бирже и т.д. - то он может с легкостью обчистить ваши криптовалютные счета, если телефон не защищен ПИН-кодом. То же самое относится и к ПИН-блокировке на аппаратном кошельке.
     
-## Multiple Wallets
+## Множественные кошельки
 
-While your crypto remains relatively small (ex: < $10,000) stick to standard security measures. As the capital grows gradually become more demanding by introducing additional security measures like splitting the capital into multiple wallets.
+Пока ваш баланс криптовалюты остается относительно небольшим (напр., менее 10 000 долл. США), придерживайтесь обычных мер безопасности. По мере роста капитала, повышайте требования к безопасности путем применения дополнительных защитных мер, таких как распределение капитала между множеством кошельков.
 
 ![](../images/04-03-l.png)
 
-For instance, someone may start with a single wallet with an initial crypto capital valued at $10,000. As the value of the capital grows the user may move to a tiered approach as below.
+К примеру, человек может начать с использования одного единственного кошелька с первоначальным капиталом, оцениваемым в 10 000 долл. США. По мере увеличения капитала, этот пользователь может перейти к использованию комбинированного подхода как описано ниже.
 
-- **Generic Wallet**
+- **Основной кошелек**
 
-    Mobile or a desktop non-custodial wallet that always with you and stores smaller amounts for all-purpose transactions. 
+    Свободный мобильный или ПК кошелек, который всегда с вами и на котором хранится небольшая сумма криптовалюты для всевозможных транзакций.
     
-- **Investment Wallet**
+- **Инвестиционный кошелек**
 
-    Mobile non-custodial wallet that keeps the capital meant for active investments. Meant for easy and frequent access to the funds.
+    Свободный мобильный кошелек, на котором хранится капитал, предназначенный для активных инвестиций.  Предназначен для легкого и регулярного доступа к средствам.
     
-- **Cold Storage Wallet**
+- **Кошелек для долгосрочного хранения**
 
-    Hardware wallet that holds crypto meant for long term storage without the need for regular access.
+    Аппаратный кошелек, на котором хранится криптовалюта, предназначенная для долгосрочного хранения без необходимости регулярного доступа.
 
 ![](../images/04-04-l.png)
     
-Those making their way into cryptocurrency for the first time are likely to find mobile-based wallets easier to use.
+Людям, которые только вошли в сферу криптовалюты, с большой вероятностью отдадут предпочтение мобильным кошелькам с точки зрения удобства использования. 
 
-Keeping your mobile wallet on your phone is handy. Your cryptocurrency remains close, easy to access, and you can use funds to invest, make payments wherever you are. 
+Удобно, когда ваш кошелек всегда под рукой на вашем мобильнике. Ваша криптовалюта находится в досягаемости, к ней легко получить доступ. а вы можете использовать средства для инвестиций и платежей где бы вы не находились.
 
-Those holding large amounts in cryptocurrency can jump to a tiered approach from the start. 
+Пользователи, держащие крупные суммы в криптовалюте, могут перейти к комбинированному подходу с самого начала.
 
-> **The basic principle can be based around the concept of keeping a larger portion of the dormant holdings in a hardware wallet that's not meant to be accessed frequently.**
+> **Основной принцип может быть основан на том, чтобы держать бОльшую часть пассивных активов в аппаратном кошельке, который не предназначен для регулярного доступа.**
 
-If the sum to be stored in the hardware wallet is substantial then as a further precaution it's advised to split between two or more hardware wallets.
+Если на аппаратном кошельке предполагается хранение значительной суммы, то в качестве дополнительной меры предосторожности, рекомендуется разделить сумму между двумя или более аппаратными кошельками.
 
-## Wallet Backup Tips
+## Советы по созданию резервных копий кошельков
 
-As was mentioned earlier, having a backup of a private key for each wallet is critical.
+Как было упомянуто ранее, очень важно иметь резервную копию личного ключа для каждого кошелька.
 
-Some people prefer to write the private key (presented in a form words) down on a piece of paper and store it somehow somewhere. Some prefer writing the words on a file and then store the encrypted copy online.
+Некоторые предпочитают записывать личные ключи (выводимые в виде последовательности слов) на листке бумаги и хранить его где-нибудь в укромном месте. Некоторые предпочитают записывать слова в каком-нибудь файле и хранить зашифрованную копию где-нибудь в сети.
 
-> **Note that it's not a good idea to have a digital version of the private key (even if it's encrypted) for any wallet with large amount of crypto.**
+> **Отметим, что хранить цифровую копию личного ключа (даже если она зашифрована) для любого кошелька с крупной суммой криптовалюты на балансе - это не очень хорошая идея.**
 > 
-> **For smaller amounts should not be a significant issue as long as you understand the risks.** 
+> **Для небольших сумм это не критично, при условии, что вы осведомлены о сопутствующих рисках.** 
 
-For mobile non-custodial wallets that are meant to be accessed frequently make sure backup of the private key stored safely and easily accessible on demand.
+Для свободных мобильных кошельков, которые вы используете регулярно, следует удостовериться в том, что у вас есть резервная копия личного ключа, хранящаяся в надежном и легкодоступном для вас месте. 
 
-### 1. Optional Password
+### 1. Опция защиты паролем
 
-When setting up new wallet apps some wallet apps enable users to add a password next to the 12/24 words.
+При установке нового приложения кошелька, некоторые из таких приложений позволяют пользователям добавить пароль к последовательности из 12/24 слов. 
 
-It's an additional security measure that allows the person to keep the 12/24 words separately from the password. 
+Это дополнительная защитная мера, которая позволяет хранить последовательность из 12/24 слов отдельно от пароля.
 
-> **Doing so allows the owner of the wallet to remain safe even if someone finds the list with words. The password will still be needed to access crypto funds.**
+> **Это позволяет владельцу кошелька обезопасить себя в том случае, если кто-то все же найдет список со словами.   Для доступа к криптовалюте все еще нужен будет пароль.**
 
-The password can be memorized or written down and kept separately from the list of words.
+Пароль можно запомнить или записать его и хранить отдельно от списка слов.
 
-That said, adding a password next to 12/24 words to some extent limits the options when it comes to migrating to a third party wallet in the future. Not many non-custodial wallets support passwords.
+При этом, однако, добавление пароля к последовательности из 12/24 слов несколько ограничивает ваши варианты, если в будущем вам вдруг понадобится перенести личный ключ в другой кошелек. Не многие свободные кошельки поддерживают функцию защиты паролем.
 
-For private key backup for hardware wallets holding large sums it's recommended to set up private key in a form of 12/24 words + password. That option should be available on all hardware wallets. Those wallets enable creating and restore of such private keys.
+Для создания резервной копии личного ключа к аппаратному кошельку, на котором хранятся большие суммы, рекомендуется установка личного ключа в виде 12/24 слов с дополнительной защитой паролем. Эта опция, как правило, доступна на всех аппаратных кошельках.  Такие кошельки позволяют создавать и восстанавливать такие личные ключи.
 
-### 2. Offline Backups
+### 2. Офлайн копии
 
-When storing private keys or hardware wallets offline, take into account following:
+При хранении личных ключей или аппаратных кошельков за пределами глобальной сети, следует принять во внимание следующее:
 
-- private key backup should be kept in separate location from wallet device. 
-- if private key consists of words and a password, both should be kept separately.
-- private key backup or wallet device can potentially be found by someone else.
-- the hardware wallet should be protected by a PIN lock.
-- take necessary precautions against fire or floods.
+- личный ключ следует хранить отдельно от устройства-кошелька. 
+- если личный ключ состоит из последовательности слов и пароля, их следует хранить отдельно друг от друга.
+- резервная копия личного ключа или устройства-кошелька может быть найдена другим человеком.
+- аппаратный кошелек должен быть защищен ПИН-кодом.
+- примите меры предосторожности на случай пожара или наводнения. 
 
-A backup of words can be stored in a metal container from [Crypto Steel](http://cryptosteel.com). The password can be memorized or stored physically in a separate location. As a result you end up with:
+Копия последовательности слов может быть помещена в металлический контейнер от компании [Crypto Steel](http://cryptosteel.com). Пароль можно запомнить наизусть или хранить физическую копию в другом месте. В результате, у вас может получиться следующая комбинация:
 
-1. hardware wallet device that is protected by a PIN.
-2. private key (useless without password)
-3. password (useless without words)
+1. аппаратный кошелек, защищенный ПИН-кодом.
+2. личный ключ (бесполезен без пароля)
+3. пароль (бесполезен без слов)
 
-If all three items stored separately you are achieving a fairly good level of crypto security. To access your funds you will either need a wallet device + pin, or the private key + password.
+Если все три компонента хранятся отдельно друг от друга, что вы получаете весьма высокий уровень крипто-безопасности. Для доступа к вашим средствам вам нужны будут либо устройство-кошелек + ПИН-код, либо личный ключ + пароль.
 
-It's also advised to share enough information with your close ones so that they can recover the access to funds should for some reason you become unreachable.
+Также рекомендуется поделиться достаточными сведениями с близкими вам людьми, чтобы они смогли восстановить доступ к средствам, на случай если вы станете недоступны по каким-то причинам.
 
-## Conclusion
+## Заключение
 
-If you have a basic understanding of what has been covered by now you already know quite a lot!
+Если у вас появилось базовое понимание того, что было охвачено нами выше, то вы уже знаете довольно много!
 
-The aim was to explain that non-custodial wallet type is the only wallet that can guarantee the ownership of held cryptocurrencies. Wallets provided by cryptocurrency exchanges are custodial and can censor or block the funds should there ever be a need for that.
+Наша цель заключалась в разъяснении чтого, что свободный кошелек - единственный тип кошелька, который может гарантировать вам владение криптовалютными средствами, принадлежащими вам. Кошельки, предоставляемые криптовалютными биржами, являются попечительскими и средства на них могут быть заблокированы или заморожены, если в этом когда-либо возникнет необходимость.
 
-Those holding large amounts of crypto should consider splitting the funds into multiple wallets with a larger portion of the sum being on a hardware wallet.
+Людям, владеющим крупными суммами в криптовалютах, следует задуматься над тем, чтобы распределить свои средства между множеством кошельков, где большая часть суммы будет храниться на аппаратном кошельке.

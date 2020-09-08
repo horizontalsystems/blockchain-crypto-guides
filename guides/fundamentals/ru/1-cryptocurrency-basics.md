@@ -2,123 +2,121 @@
 
 # Криптовалюта
 
-The aim of this guide is to onboard someone with little knowledge about cryptocurrencies to the comfortable level as quickly as possible.
+Задача этого руководства - как можно быстро ввести в курс человека, обладающего минимальными знаниями о криптовалютах, так чтобы это было для него комфортно.
 
-Cryptocurrencies are powered by a number of technologies, but primarily a blockchain technology. 
+Криптовалюты существуют и функционируют на базе множества технологий, но основной из них является технология блокчейн (от англ. "blockchain" - цепь блоков).
 
->**The blockchain technology was first applied in creating Bitcoin cryptocurrency. By applying this technology it was possible to design an all-accessible platform for value exchange where doing anything outside the scope of agreed rules becomes impossible.**
+>**Технология блокчейн была впервые применена при создании криптовалюты "Биткоин". Применение этой технологии позволило разработать доступную всем платформу для обмена ценностями, где любые действия, выходящие за пределы согласованных правил, становятся невозможными.**
 
-When using a product built on top of such blockchain following statements hold true:
+При использовании продукта, созданного на основе подобного блокчейна, следующие утверждения являются действительными:
 
-- user doesn't have to trust anyone
-- user doesn't need permission to participate
-- user has an unconditional control over assets
-- blockchain records are unchangeable
+- пользователю не нужно кому-либо доверять;
+- пользователю не нужно разрешение для участия;
+- пользователь имеет безусловный контроль над своими активами;
+- записи в блокчейне невозможно изменить.
 
-Blockchain technology can potentially be applied to anything where notions like trust, censorship-resistance and immutability are essential. Think notary services, elections and so on.
+Технология блокчейн потенциально может быть применена везде, где такие понятия как доверие, сопротивление цензуре и неизменность являются ключевыми. Это могут быть нотариальные услуги, выборы и так далее.
 
-At the time being, a lot of financial and legal agencies exist to enforce things that can be enforced by a blockchain in impartial manner. Should the blockchain technology continue to grow these services are likely to be ported over to a blockchain.
+В настоящее время, многие финансовые и юридические конторы существуют для обеспечения того, что может быть обеспечено технологией блокчейн беспристрастно.  При дальнейшем развитии технологии блокчейн, эти услуги вероятно будут перенесены в среду блокчейн.
 
->**The first generation of blockchain-based products like Bitcoin aim to deliver a financial platform for value exchange without the need for a system to rely on intermediaries such as banks.**
+>**Первое поколение основанных на блокчене продуктов, таких как Биткоин, ставят своей целью предоставить финансовую платформу для обмена ценностями, исключая при этом зависимость системы от посредников, таких как банки.**
 
-In that regard, the Bitcoin is the first product where the idea of blockchain was applied to challenge areas currently controlled by financial system.
+В этом смысле, Биткоин является первым продуктом, где идея блокчейна была применена, чтобы бросить вызов в тех сферах, которые ныне контролируются финансовой системой.
 
-## Blockchain Attributes
+## Атрибуты Блокчейна
 
-So, what is a blockchain? While so many definitions make it sound complicated it's fairly simple in reality.
+Итак, что же такое блокчейн? Несмотря на то, что из-за множества определений это кажется очень сложным, на деле все гораздо проще.
 
->**Without going technical, think about a blockchain as a chronological history of records.**
+>**Без углубления в технические детали, представьте себе блокчейн в виде хронологической истории записей.**
 >
->**It can be a history of transactions, a history of votes submitted by electorates etc.**
+>**Это может быть история операций, история голосов, внесенных избирателями, и т.п.**
 
 ![](../images/01-02-l.png)
 
-While the actual history of records is not that special in itself, when it's put on a blockchain it gains certain attributes that make it socially valuable. These attributes are:
+Хотя сама по себе история записей ничем не примечательна, когда она вносится в блокчейн, она приобретает определенные атрибуты, которые придают ей социальную значимость. Такими атрибутами являются:
 
-- **Distributed Nature**
+- **Децентрализованность**
 
-    Instead of being held in one centralized location, the blockchain allows for the 'history of records' to be held in thousands of locations at the same time. Every copy connected to the internet and gets updated in close to real time.   
+    Вместо хранения в одном централизованном месте, блокчейн позволяет "истории записей" храниться в тысячах различных мест одновременно. Каждая копия имеет соединение с интернетом и обновляется практически в реальном времени.
 
-- **Peer-to-peer Transmission**
+- **Пиринговая передача (от пользователя к пользователю)**
 
-    Anyone can add new records to a global 'history of records' by communicating with any entity that keeps the records. This ensures availability 24/7 and unconditional access to participation.  
+    Любой пользователь может добавлять новые записи в глобальную "историю записей", связавшись с любым устройством, которое ведет записи. Это обеспечивает круглосуточную доступность и безусловный доступ для участия.
 
-- **Transparency & Pseudonymity**
+- **Прозрачность и анонимность**
 
-    Blockchains are generally transparent where the entire 'history of records' is public and accessible for anyone for scrutiny. While records are public the entities involved are masked: any third party can see what's taking place but can't tell who exactly was involved.
+    Блокчейны как правило прозрачны - вся "история записей" находится в открытом доступе и любой может зайти и просмотреть их. Хотя записи находятся в открытом доступе, вовлеченные лица замаскированы - любое третье лицо может видеть, что происходит, но не может точно определить кто вовлечен.
 
-- **Irreversibility Of Records**
+- **Необратимость записей**
 
-    The blockchains designed in a way where after an action took place it's impossible to change it. This ensures that no entity is able to change something in the history of records.
+    Блокчейны созданы таким образом, что после свершения какого-либо действия, изменить его уже невозможно. Это исключает возможность для какого-либо лица вносить какие-либо изменения в историю записей.
+ 
+- **Деловая логика**
 
-- **Business Logic**
-
-    In our 'history of records' example we might have unintentionally assumed that these records are of specific type like "User1 paid User2 X bitcoins". The present day blockchains allow adding conditional logic to records. Instead of regular 'A paid B x bitcoins' it can have a record like 'A paid B x bitcoins, but B can't spend them for 10 years'.
+    В нашем примере об "истории записей", мы могли ненамеренно предположить, что эти записи определенного типа, вроде "Пользователь1 заплатил Пользователю2 Х биткоинов". Современные блокчейны позволяют вносить в записи условные логические элементы. Вместо обычного "А заплатил Б х биткоинов", запись может выглядеть так: "А заплатил Б х биткоинов, но Б не может их тратить в течении 10 лет".
    
-So, blockchains are a lot more than just plain history of records. The technology opened up ways for a society to organize and exchange in ways that previously required a third party to operate.
+Таким образом, блокчейны гораздо сложнее, чем простая "история записей". Технологии открыли обществу возможности организоваться и обмениваться такими способами, которые прежде требовали участия в качестве оператора третьей стороны.
 
-## Blockchains Are Free
+## Блокчейны бесплатны
 
-Generally, blockchains have open source code making it possible for anyone to reuse it for whatever purpose. Both Bitcoin and Ethereum blockchains are open source.
+Как правило, блокчейны имеют открытый исходный код, что позволяет любому человеку воспользоваться им для любых целей. Блокчейны Биткоин и Эфириум находятся в открытом доступе.
 
-Thousands of engineers worldwide work on improving these blockchains in distributed manner. Major blockchains are constant work in progress and tend to attract more engineers.
+Тысячи инженеров-программистов работают над усовершенствованием этих блокчейнов отдельно друг от друга.  Крупнейшие блокчейны подразумевают непрерывную работу и, как правило, привлекают все больше инженеров.
 
-While most blockchains created by a small group of people at first, the major blockchain projects now are driven by a large group of independent engineers.
+Хотя большинство блокчейнов изначально создаются небольшими группами людей, сейчас крупные блокчейн-проекты поддерживаются многочисленными группами независимых инженеров. 
 
-It's impossible for any party to shut down compromise or censor the blockchain network like Bitcoin or Ethereum. 
+Невозможно выключить, скомпрометировать или установить цензуру на блокчейн-сеть вроде Биткоина или Эфириума.  
 
-## Cryptocurrencies Explained
+## Доступно о криптовалютах
 
-Now let's try to understand the basic nature of cryptocurrency.
+Теперь, давайте попробуем понять основную суть криптовалюты.
 
-Cryptocurrencies are units of something on a blockchain. Depending on the characteristics of underlying blockchain one cryptocurrency may vary from another.
+Криптовалюты - это единицы чего-либо в блокчейне. В зависимости от характеристик самого блокчейна, одна криптовалюта может отличаться от другой.
 
 ![](../images/01-03-l.png)
 
-**For instance:**
+**Например:**
 
-- Bitcoin cryptocurrency is a native unit of measurement on the [Bitcoin](/token_guides/bitcoin.md) blockchain. It's denoted by a 'BTC' symbol. A single unit of Bitcoin is divisible into 100 million sub-units called Satoshi. By design Bitcoin blockchain caps the total amount to 21 million Bitcoins. The Bitcoin blockchain limited in the type of records it can store, mostly records of transactions from one address to another.
+- Криптовалюта Биткоин - это оригинальная единица измерения в блокчейне [Биткоин](/token_guides/en/bitcoin.md). Она обозначается сиволом "BTC". Одна единица Биткоина делится на 100 миллионов подъединиц, называемых Сатоси. По замыслу, в блокчейне Биткоина установлен предельный порог на общую сумму 21 млн Биткоинов. Блокчейн Биткоина ограничен в видах записей, которые могут в нем храниться, в основном, это записи транзакций с одного адреса на другой.
 
-- Ether cryptocurrency is a native unit of measurement on [Ethereum]((/token_guides/ethereum.md)) blockchain, denoted by a 'ETH' symbol. A single unit of Ethereum consists of 100,000,000,000,000,000 wei. Unlike the Bitcoin, Ethereum blockchain doesn't cap the amount of Ether that can potentially exist on the blockchain. Also, Ethereum blockchain doesn't put any limitations in a type of records it can hold.
+- Криптовалюта Эфир - оригинальная единица измерения в блокчейне [Эфириум]((/token_guides/en/ethereum.md)) и обозначается символом "ETH". Одна единица Эфириума состоит из 100,000,000,000,000,000 вэй (wei). В отличие от Биткоина, блокчейн Эфириум не ограничивает количество Эфира, которое потенциально может существовать в блокчейне. Кроме того, блокчейн Эфириум не налагает ограничений на виды записей, которые могут в нем храниться.
 
-Some blockchains like Ethereum enable ways to create your own 'units of something' for whatever purpose. These are often referred to as cryptocurrency tokens and can be used for various purposes as will be shown later.
+Некоторые блокчейны, такие как Эфириум, позволяют пользователям создавать свои "единицы чего-либо" для каких бы то ни было целей. Эти единицы часто называются криптовалютными токенами и могут быть использованы для различных целей, о чем мы расскажем чуть позже.
 
-Tokens make up 80-90% of [all cryptocurrencies](https://coinmarketcap.com) out there. The Ethereum blockchain is usually a preferred blockchain platform for creating cryptocurrency tokens.
+Токены составляют 80-90% от [всех существующих криптовалют](https://coinmarketcap.com). Блокчейн Эфириум как правило является наиболее предпочитаемой блокчейн-платформой для создания криптовалютных токенов.
 
-In a technical sense, the word 'token' should be used to refer to those cryptocurrencies which are built on top of an existing blockchain, rather than having their own unique blockchain. A cryptocurrency token can take many forms depending on its use cases.
+## Как растут криптовалюты?
 
-## How Cryptocurrencies Grow
+Многие люди удивляются, почему существует так много криптовалют и почему некоторые из них популярнее других.
 
-Many people wonder why there are so many cryptocurrencies out there and why some are more popular or expensive than others.
+Хотя некоторые криптовалюты уникальны с точки зрения структуры их блокчейна, существует и множество "подражателей".
 
-While some cryptocurrencies are unique in the way the underlying blockchain is built there are a lot of copy cats. 
+Поскольку исходный код блокчейнов находится в открытом доступе, любой может запустить аналогичную криптовалюту без особых усилий. В этом смысле, аналог не будет существенно отличаться от оригинала, кроме как размером сети.
 
-As blockchains have an open code anyone can launch a duplicate cryptocurrency without much effort. In that regard, the duplicate won't really be any different from original substantially except for the size of the network.
+>**Размер основополагающей сети и есть то, что делает одну криптовалюту ценнее другой.**
 
->**A size of the underlying network is what makes one cryptocurrency more valuable than the other.**
+Простой способ получить представление о размере сети - это количество людей, взаимодействующих с данным блокчейном.
 
-A simple way to think about the size of the network is the number of people interacting with the given blockchain. 
+1. Чем больше сторон участвует в блокчейне, тем больше его сеть. 
 
-1. The more parties there are participating on the blockchain the bigger is its network. 
+2. Чем шире разрастается сеть блокчейна, тем сильнее становится безопасность и децентрализация этого блокчейна.
 
-2. As the blockchain network grows so is the security and decentralization of the blockchain.
+3. По мере присоединения большего количества людей к этой сети, блокчейн превращается в открытую платформу для участия и оказания услуг любым человеком.
 
-3. As more people join the network the blockchain becomes an open platform for anyone to participate and offer services.
+Хорошим примером этому служит блокчейн Биткоина.
 
-A good example to illustrate this is the Bitcoin blockchain.
+Блокчейн Биткоина был запущен в 2009 году и то, что в начале было эдакой прикольной игрушкой для небольшой группы людей, за годы привлекло к себе миллионы людей.
 
-The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a small group of people has attracted millions of people over the years. 
-
->**Nowadays, thousands people run Bitcoin blockchain servers on their computers. By keeping a live copy of the Bitcoin blockchain (history of records) these participants act as both keepers and validators of a blockchain.**
+>**В наши дни, серверы блокчейна Биткоин работают на компьютерах тысяч людей. Храня копию блокчейна Биткоин в режиме реального времени (историю записей), эти участники действуют как в качестве хранителей, так и валидаторов блокчейна.**
 >
->**Even more people participate in the Bitcoin ecosystem by using Bitcoin or by building services around the Bitcoin ecosystem.**
+>**Еще больше людей принимают участие в экосистеме Биткоина используя Биткоин или оказывая услуги, созданные на базе этой экосистемы.**
 
-Today, Bitcoin became global and censorship-resistant platform that is open to all. 
+Сегодня, Биткоин приобрел масштабы глобальной и устойчивой к цензуре платформы, которая открыта для всех.
 
-The fact that Bitcoin and alike platforms are open and permission-less means anyone can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. Any entity can build a service operating on top of Bitcoin blockchain.
+Тот факт, что Биткоин и подобные ему платформы являются открытыми и не требуют разрешения, означает что любой может присоединиться к участию в этой экосистеме. Такое участие может происходить как в виде обычного пользователя, так и в виде поставщика услуг. Любое лицо может создать услугу, которая будет предоставляться на базе блокчейна Биткоин.
 
->**The bigger the network of a blockchain, the more attractive it's for the service providers.**
+>**Чем больше сеть блокчейна, тем привлекательнее она для поставщиков услуг.**
 
-So, along with the previously mentioned blockchain attributes the key element for evaluating blockchain is its network size. 
+Итак, наряду с упомянутыми ранее атрибутами блокчейна, ключевым элементом оценки блокчейна является размер его сети.
 
-The most valuable cryptocurrency is generally the one with the biggest network and not necessarily the one with most features.
+Наиболее ценная криптовалюта, как правило, та, что имеет наибольшую сеть и не обязательно самый широкий функционал. 

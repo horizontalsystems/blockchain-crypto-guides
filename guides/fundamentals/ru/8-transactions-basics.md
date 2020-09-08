@@ -1,125 +1,125 @@
 ![](../images/08-main-l.png)
 
-# Transactions Explained
+# Доступно о транзакциях
 
-Time to learn the ins and outs of cryptocurrency transactions.
+Настало время изучить подноготную криптовалютных транзакций.
 
-While the process of sending and receiving payments is similar for all cryptocurrencies there are some aspects which tend to change from one cryptocurrency to another. 
+Хотя процесс отправки и получения платежей является примерно одинаковым в отношении всех криптовалют, существуют некоторые аспекты, которые могут меняться от одной криптовалюты к другой.  
 
-In this section we'll go over the essentials to give you a clear understanding of how the transactions work for almost all cryptocurrencies.
+В данном разделе, мы рассмотрим основные моменты, чтобы у вас было четкое понимание того, как устроен процесс осуществления транзакций практически во всех криптовалютах.
 
-## Send & Receive
+## Отправка и получение
 
-The process of Sending and Receiving crypto is pretty much the same on all wallets.
+Процесс отправки и получения "крипты" устроен практически одинаково во всех кошельках.
 
-- **To Send Crypto**
+- **Отправить крипту**
     
-    Within your wallet app, look for the option to "send" or the app's equivalent. If the wallet app supports multiple currencies make sure to select the correct cryptocurrency.
+    В вашем приложении-кошельке, найдите опцию "отправить" или другой эквивалент, предусмотренный приложением. Если ваше приложение-кошелек поддерживает несколько криптовалют, убедитесь в том, что вами была выбрана правильная криптовалюта.
     
-    Enter the amount, the address of the recipient, the transaction fee (more on that below) and click on the send button.
+    Введите сумму, адрес получателя, ставку транзакции (подробнее об этом расскажем ниже) и нажмите на кнопку "отправить".
     
-- **To Receive Crypto**
+- **Получить крипту**
 
-    Open the wallet app and look for the option to "receive" or the app's equivalent. As mentioned earlier make sure you're copying the address for the right coin.
+    Откройте приложение-кошелек и найдите опцию "получить" или ее эквивалент, предусмотренный приложением.  Как было упомянуто ранее, убедитесь в том, что вы копируете адрес для правильной криптовалюты.
     
-    The wallet app will provide a distinct receive address for some cryptocurrencies, and the same address for others. For instance, all Ethereum based cryptocurrencies will have the same receive address within one wallet app.
+    Приложение-кошелек выдает определенный адрес для получения некоторых криптовалют, который так же используется для других криптовалют.    Например, криптовалюты, существующие на базе блокчейна Эфириум, будут иметь один и тот же адрес получения в одном приложении-кошельке.
     
-    Send that address to the sender and wait for the cryptocurrency to appear in your wallet.
+    Отправьте этот адрес отправителю и ждите поступления криптовалюты в ваш кошелек.
 
-## Transaction Phases
+## Этапы транзакции
 
-Cryptocurrency transactions are not instant. For some cryptocurrencies it takes a second while for other it may span a few minutes or in some cases even hours.
+Криптовалютные транзакции не осуществляются мгновенно. Для некоторых криптовалют, этот процесс занимает несколько секунд, для других - может затянуться на несколько минут, а в иных случаях и на несколько часов. 
 
-When transacting using а non-custodial wallet transactions will go directly through a blockchain in the following order:
+При осуществлении операций с помощью свободного кошелька, транзакции проходят напрямую через блокчейн в следующем порядке:
 
-1. **Transaction Is Pending**
+1. **Этапы ожидания**
 
-    After the transaction sent from a wallet, it reaches the underlying blockchain network nearly instantly. Bitcoin transactions sent to Bitcoin network, Ether transactions to Ethereum network etc.
+    После того, как транзакция осуществляется в кошельке, она практически мгновенно достигает соответствующей блокчейн сети. Транзакции с Биткоинами отправляются в сеть Биткоин, транзакции с Эфиром - в сеть Эфириум и т.д.
     
-    At this stage, both sender and recipient can already monitor the state of transaction in their wallet apps or on public blockchain explorer i.e. [blockchair.com](https://blockchair.com).
+    На данном этапе, как отправитель, так и получатель уже могут отслеживать статус транзакции в своих приложениях-кошельках или в общедоступном блокчейн-поисковике, т.е. blockchair.com [blockchair.com](https://blockchair.com).
 
-2. **Transaction Gets Confirmed**
+2. **Этапы подтверждения**
 
-    Given that the transaction is valid, all nodes on that blockchain will race to include it to the blockchain. The duration of that steps vary from one blockchain to another. 
+    При условии, что транзакция действительна, все узлы в данном блокчейне будут стремиться включить ее в блокчейн. Продолжительность этих этапов может меняться от блокчейна к блокчейну.
     
-    For Bitcoin it can generally take up to 10 minutes, for Ethereum about 2-3 minutes etc. This step may take considerably longer if the blockchain is busy with a lot of pending transactions.
+    В блокчейне Биткоин, она может составлять до 10 минут, в Эфириуме - примерно 2-3 минуты и т.д. Этот этап может занимать гораздо больше времени, если блокчейн перегружен множеством транзакций, ожидающих своей очереди.
     
-    A transaction considered complete after it has been added to the blockchain.
+    Транзакция считается завершенной, посте того как она была добавлена в блокчейн.
 
-3. **Transaction Is Final**
+3. **Финализация транзакции**
 
-    Once the transaction has been added to the blockchain it can be considered final. That said, for some blockchains and Bitcoin in particular it's recommended to wait until a certain number of new blocks added. 
+    После того, как транзакция была добавлена в блокчейн, она может считаться финализированной. Не смотря на это, в случае с некоторыми блокчейнами, в частности Биткоином, рекомендуется выждать, пока не будет добавлено еще несколько новых блоков.
     
-    For large sums, it's generally recommended to wait for up to 6 blocks to pass before the transaction can be considered theoretically irreversible. For the most payments, 1-2 confirmations should be fine.
+    При осуществлении транзакций на крупные суммы, как правило рекомендуется выждать, пока не будет добавлено до 6 блоков, прежде чем транзакция может считаться теоретически необратимой. Для большинства платежей, 1-2 подтверждения считается достаточным.
 
-## Transaction Fees
+## Плата за транзакцию
 
-When sending cryptocurrencies like Bitcoin or Ethereum the sender expected to pay a transaction fee. That fee goes as compensation to one of the blockchain nodes which will be the first to add the transaction to a blockchain.
+При отправке криптовалют, таких как Биткоин или Эфир, отправитель должен оплатить комиссию за осуществление транзакции. Эта комиссия выплачивается в качестве вознаграждения одному из узлов блокчейна, который первым добавит транзакцию в блокчейн.
 
 Generally, blockchains are free to participate however require its native cryptocurrency to do anything. Both on Ethereum and Bitcoin, sender also pays a service fee to the blockchain network on every transaction.
 
-> **You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction within a few seconds after it's sent.** 
+> **Вам не нужно вникать в детали этого процесса - просто помните, что тысячи узлов, поддерживающих работу блокчейна, получат транзакцию через несколько секунд после ее отправки.** 
 >
-> **The node that adds it first to the blockchain will get the associated fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee for using the network.**
+> **Узел, который первым добавит ее в блокчейн, получит в качестве награды соответствующую плату. Каждый раз, осуществляя транзакцию, вы оплачиваете комиссию разным узлам. Считайте, что это плата за услугу использования сети.**
 
-Depending on the cryptocurrency you're sending the transaction fees may vary. For some blockchains the fee may be as low as a fraction of a cent, for other like Bitcoin it can easily exceed 1$.
+В зависимости от того, какую криптовалюту вы отправляете, плата за транзакцию может меняться. В некоторых блокчейнах плата может составлять в разы меньше одного цента, а в других, таких как Биткоин, легко может превысить 1 доллар.
 
-The blockchains powering cryptocurrencies like Bitcoin and Ethereum currently limited to a few million transactions per day. The transaction fee used as an instrument to prioritize desired transactions by giving it a higher fee.  
+Блокчейны, поддерживающие такие криптовалюты как Биткоин и Эфир, на данный момент имеют ограничение в несколько миллионов транзакций, которые могут быть проведены за один день. Плата за транзакцию используется в качестве инструмента, с помощью которого желаемой транзакции присваивается более высокий приоритет посредством более высокой платы.
 
-If the fee is far below the network average your transaction may remain pending for hours, if it's well above the average expect it to be added to the blockchain usually within a few minutes.
+Если плата гораздо ниже средней ставки по сети, то ваша транзакция может ждать своей очереди несколько часов, а если она гораздо выше средней ставки, то она, как правило, добавляется в блокчейн за считанные минуты.
 
-> **If transaction remains pending for a few days due to a low fee it may be rejected, as if it was never sent.**
+> **Если транзакция остается в ожидании на протяжении нескольких дней по причине низкой установленной платы, она может быть отклонена, как будто ее никогда не осуществляли.**
 >
-> **If you have a pending transaction that is taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**
+> **Если одна из ваших транзакций находится в ожидании и долго не подтверждается, в большинстве случаев рано или поздно она все же будет принята, при условии, что вы подождете достаточно долгое время.**
 
-Some wallets out there would recommend the optimal transaction fee amount taking into account the current state of activity on the network.
+Некоторые существующие кошельки предложат вам оптимальную сумму платы за транзакцию с учетом текущей активности в сети.
 
-When sending large sums or time critical payments always try to provide a fee amount that is well above average. That would ensure that your transaction reaches the recipient without delay.
+При отправке крупных сумм или срочных платежей, старайтесь всегда устанавливать плату, которая будет существенно выше средней. Это обеспечит поступление вашей транзакции получателю без задержек.
 
-## Cancelling Transaction
+## Отмена транзакции
 
-Sometimes you may end up in a situation where a transaction needs to be cancelled. In some cases, it's possible to cancel or modify transaction while it's still in pending state. 
+Иногда, вы можете оказаться в ситуации, когда транзакцию необходимо отменить. В некоторых случаях, отмена или изменение транзакции возможна, если она все еще находится в ожидании. 
 
-Both Bitcoin and Ethereum transactions can be modified while in pending state but in order to be able to do that the wallet app should provide a way to do that.
+Можно внести корректировки в транзакции как с Биткоинами, так и с Эфиром, пока они находятся в ожидании, но для того чтобы это сделать, приложение-кошелек должно предоставлять такую опцию.
 
-That said, once the transaction added to the blockchain there is usually no practical way to cancel it. So, once transactions added to the blockchain they are final.
+При этом, после того как транзакция добавляется в блокчейн, зачастую уже нет доступных способов ее отменить. Поэтому, как только транзакция добавляется в блокчейн, она является финализированной.
 
-## Transaction Privacy
+## Анонимность транзакции
 
-Lastly, there are some vital considerations to keep in mind when it comes to transactions and privacy.
+В заключение, имеются некоторые важные аспекты, которые необходимо учитывать в отношении транзакций и их анонимности.
 
-Transactions on most blockchains stored openly. Anyone can see when the transaction took place, the amounts involved, and the sender receiver addresses. While a third party can see the addresses involved there is no connection to a real world identity.
+Транзакции во многих блокчейнах хранятся в открытом доступе. Любой может видеть когда была осуществлена транзакция, на какую сумму, а также адреса отправителя и получателя. Хотя сторонние лица и могут видеть участвующие в транзакции адреса, в них нет связи с личностью в реальном мире.
 
 ![](../images/08-02-l.png)
 
-While some privacy focused cryptocurrencies (i.e. Monero) do not reveal any information about the transaction, for the most cryptocurrencies incl. Bitcoin and Ethereum blockchains store transaction data openly.
+Тогда как некоторые криптовалюты, делающие упор на анонимность (такие как Monero), не раскрывают каких-либо сведений о транзакциях, большинство криптовалют, в том числе блокчейны Биткоин и Эфир, хранят данные о транзакциях в открытом доступе.
 
-Below we are going to expand a bit and specifically look at privacy risks when transacting using Bitcoin and Ethereum.
+Далее, мы несколько углубимся в эту тему и обособленно рассмотрим риски для конфиденциальности при осуществлении транзакций в Биткоинах и Эфире.
 
-- **Bitcoin Privacy**
+- **Конфиденциальность Биткоина**
 
-    The Bitcoin wallets built in a way where user can potentially generate millions of addresses that can be used to receive payments within one wallet app. Each payment address can be used once, many times or not used at all. It's up to the user. 
+    Кошельки в Биткоине разработаны таким образом, что пользователь потенциально может создать миллионы адресов, которые могут быть использованы для получения платежей через одно приложение-кошелек. Каждый платежный адрес может быть использован однажды, многократно или вообще никогда. Это решает пользователь по своему усмотрению.
     
-    A good wallet will always generate a new receive address after it receives a payment to the latest address. This is done to discourage a user to use the same 'receive' address over and over.
+    Хороший кошелек всегда генерирует новый адрес для получения платежа, после получения предыдущего платежа на последний адрес. Это делается для того, чтобы у пользователя не возникало желание использовать один и тот же адрес для получения платежей раз за разом.
     
-    If user uses the same address then anyone can take a single transaction of the user and from that locate other incoming and outgoing transactions belonging to the user. From that you can potentially derive entire balance and transaction history!
+    Если пользователь постоянно использует один и тот же адрес, кто угодно может по одной транзакции этого пользователя определить и другие входящие и исходящие транзакции, осуществленные им.  На основании этой информации, можно потенциально определить весь баланс и историю транзакций пользователя. 
     
-    So, try to use new receive address for each party you're transacting with.
+    Поэтому, старайтесь использовать новый адрес для получения платежей для каждой стороны, с которой осуществляете транзакции.
 
-- **Ethereum Privacy**
+- **Конфиденциальность Эфириума**
 
-    As mentioned above, in case of Bitcoin the address for receiving payments can change with each transaction.
+    Как было отмечено выше, в случае с Биткоином, адрес для получения платежей может быть разным для каждой отдельной транзакции.
 
-    When it comes to Ethereum wallets your address to receive Ether payments will always be the same. Although it may change in the future, nearly all Ethereum wallets work with the single address nowadays. There are some technical reasons for that.
+    В случае с кошельками для Эфириума, ваш адрес для получения платежей в Эфире всегда будет оставаться неизменным.  Хотя это может поменяться в будущем, сейчас почти все кошельки для Эфириума используют лишь один адрес. Для этого есть свои технические причины.
     
-    > **The Ethereum blockchain is fully transparent allowing anyone to see all incoming and outgoing transactions for the given payment address.** 
+    > **Блокчейн Эфириум полностью прозрачен, что позволяет любому человеку видеть все входящие и исходящие транзакции, связанные с определенным платежным адресом.** 
     
-    So, when you send or receive Ethereum keep in mind that the party you're transacting with can potentially lookup your balance of Ether and other Ethereum based tokens just by knowing your address.
+    В связи с этим, при отправке или получении Эфира, помните о том, что другая сторона транзакции потенциально может узнать ваш баланс в Эфире и прочих токенах, существующих на базе Эфириума, зная лишь ваш платежный адрес.
     
-    Therefore, it's advised to use separate wallets for transacting with people and for asset accumulation. 
+    Поэтому, рекомендуется использовать отдельные кошельки для осуществления транзакций с другими людьми и для накопления активов.
     
-    The wallet used for transactions should not hold a lot of funds on it in order not to expose you.
+    Кошелек, используемый для транзакций не должен содержать много средств, чтобы не подвергать вас рискам.
     
-To sum up, in its current state, Bitcoin transactions provide users with more privacy than Ethereum transactions. 
+В общем, на сегодняшний день транзакции в Биткоинах обеспечивают пользователям более высокий уровень анонимности, чем транзакции в Эфире.
 
-The only thing that adds some minimal privacy element into the mix is the fact there is no way to check who that address belongs to.
+Единственное, что добавляет немного конфиденциальности в этом вопросе - это тот факт, что нет способов установить личность владельца конкретного адреса.

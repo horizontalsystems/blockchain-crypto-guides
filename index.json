@@ -4,8 +4,8 @@
     "category": {
       "en": "Basics",
       "ru": "Базовый",
-      "fr": "Basics",
-      "de": "Basics",
+      "fr": "L'essentiel",
+      "de": "Grundlagen",
       "fa": "Basics"
     },
     "guides": [
@@ -35,7 +35,7 @@
           "updated_at": "01-06-2020"
         },
         "fa": {
-          "title": "Cryptocurrency",
+          "title": "رمزارز یا کریپتوکارنسی",
           "image": "guides/fundamentals/images/01-main-l.png",
           "file": "guides/fundamentals/fa/1-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
@@ -67,7 +67,7 @@
           "updated_at": "01-06-2020"
         },
         "fa": {
-          "title": "Crypto Wallets",
+          "title": "توضیح کیف پول",
           "image": "guides/fundamentals/images/02-main-l.png",
           "file": "guides/fundamentals/fa/2-wallets-basics.md",
           "updated_at": "01-06-2020"
@@ -81,7 +81,7 @@
           "updated_at": "01-06-2020"
         },
         "ru": {
-          "title": "Приватные ключи",
+          "title": "Личные ключи",
           "image": "guides/fundamentals/images/03-main-l.png",
           "file": "guides/fundamentals/ru/3-private-keys-basics.md",
           "updated_at": "01-06-2020"
@@ -99,7 +99,7 @@
           "updated_at": "01-06-2020"
         },
         "fa": {
-          "title": "Private Keys",
+          "title": "کلیدهای خصوصی",
           "image": "guides/fundamentals/images/03-main-l.png",
           "file": "guides/fundamentals/fa/3-private-keys-basics.md",
           "updated_at": "01-06-2020"
@@ -119,19 +119,19 @@
           "updated_at": "01-06-2020"
         },
         "fr": {
-          "title": "Achat de cryptomonnaie",
+          "title": "Stockage sécurisé",
           "image": "guides/fundamentals/images/04-main-l.png",
           "file": "guides/fundamentals/fr/4-safe-storage-basics.md",
           "updated_at": "01-06-2020"
         },
         "de": {
-          "title": "Safe Storage Tips",
+          "title": "Sichere Aufbewahrung",
           "image": "guides/fundamentals/images/04-main-l.png",
           "file": "guides/fundamentals/de/4-safe-storage-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
-          "title": "Safe Storage Tips",
+          "title": "ذخیره سازی ایمن",
           "image": "guides/fundamentals/images/04-main-l.png",
           "file": "guides/fundamentals/fa/4-safe-storage-basics.md",
           "updated_at": "01-06-2020"
@@ -145,13 +145,13 @@
           "updated_at": "01-06-2020"
         },
         "ru": {
-          "title": "Unstoppable Intro",
+          "title": "Unstoppable Кошелек",
           "image": "guides/fundamentals/images/05-main-l.png",
           "file": "guides/fundamentals/ru/5-unstoppable-basics.md",
           "updated_at": "01-06-2020"
         },
         "fr": {
-          "title": "Unstoppable Intro",
+          "title": "Intro Unstoppable",
           "image": "guides/fundamentals/images/05-main-l.png",
           "file": "guides/fundamentals/fr/5-unstoppable-basics.md",
           "updated_at": "01-06-2020"
@@ -183,19 +183,19 @@
           "updated_at": "01-06-2020"
         },
         "fr": {
-          "title": " Dépenser la crypto-monnaie",
+          "title": "Achat de cryptomonnaie",
           "image": "guides/fundamentals/images/06-main-l.png",
           "file": "guides/fundamentals/fr/6-buying-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         },
         "de": {
-          "title": "Buying Cryptocurrency",
+          "title": "Kryptowährung kaufen",
           "image": "guides/fundamentals/images/06-main-l.png",
           "file": "guides/fundamentals/de/6-buying-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
-          "title": "Buying Cryptocurrency",
+          "title": "خرید رمزارز",
           "image": "guides/fundamentals/images/06-main-l.png",
           "file": "guides/fundamentals/fa/6-buying-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
@@ -215,19 +215,19 @@
           "updated_at": "01-06-2020"
         },
         "fr": {
-          "title": "Spending Cryptocurrency",
+          "title": "Dépenser la crypto-monnaie",
           "image": "guides/fundamentals/images/07-main-l.png",
           "file": "guides/fundamentals/fr/7-spending-cryptocurrency.md",
           "updated_at": "01-06-2020"
         },
         "de": {
-          "title": "Spending Cryptocurrency",
+          "title": "Krypto ausgeben",
           "image": "guides/fundamentals/images/07-main-l.png",
           "file": "guides/fundamentals/de/7-spending-cryptocurrency.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
-          "title": "Spending Cryptocurrency",
+          "title": "مخارج رمزارز",
           "image": "guides/fundamentals/images/07-main-l.png",
           "file": "guides/fundamentals/fa/7-spending-cryptocurrency.md",
           "updated_at": "01-06-2020"
@@ -247,19 +247,19 @@
           "updated_at": "01-06-2020"
         },
         "fr": {
-          "title": "Transactions Explained",
+          "title": "Transactions expliquées",
           "image": "guides/fundamentals/images/08-main-l.png",
           "file": "guides/fundamentals/fr/8-transactions-basics.md",
           "updated_at": "01-06-2020"
         },
         "de": {
-          "title": "Transactions Explained",
+          "title": "Transaktionen erklärt",
           "image": "guides/fundamentals/images/08-main-l.png",
           "file": "guides/fundamentals/de/8-transactions-basics.md",
           "updated_at": "01-06-2020"
         },
         "fa": {
-          "title": "Transactions Explained",
+          "title": "معاملات توضیح داده شده است",
           "image": "guides/fundamentals/images/08-main-l.png",
           "file": "guides/fundamentals/fa/8-transactions-basics.md",
           "updated_at": "01-06-2020"
@@ -270,7 +270,11 @@
   {
     "id": "currencies",
     "category": {
-      "en": "Currencies"
+      "en": "Currencies",
+      "ru": "Currencies",
+      "fr": "Monnaies",
+      "de": "Währungen",
+      "fa": "Currencies"
     },
     "guides": [
       {
@@ -302,7 +306,11 @@
   {
     "id": "defi",
     "category": {
-      "en": "DeFi"
+      "en": "DeFi",
+      "ru": "DeFi",
+      "fr": "DeFi",
+      "de": "DeFi",
+      "fa": "DeFi"
     },
     "guides": [
       {
@@ -358,7 +366,11 @@
   {
     "id": "exchanges",
     "category": {
-      "en": "Exchanges"
+      "en": "Exchanges",
+      "ru": "Exchanges",
+      "fr": "Plateformes d'échange",
+      "de": "Börsen",
+      "fa": "Exchanges"
     },
     "guides": [
       {
@@ -398,7 +410,11 @@
   {
     "id": "stablecoins",
     "category": {
-      "en": "Stablecoins"
+      "en": "Stablecoins",
+      "ru": "Stablecoins",
+      "fr": "Stablecoins",
+      "de": "Stablecoins",
+      "fa": "Stablecoins"
     },
     "guides": [
       {
@@ -422,7 +438,11 @@
   {
     "id": "lending",
     "category": {
-      "en": "Lending"
+      "en": "Lending",
+      "ru": "Lending",
+      "fr": "Prêts",
+      "de": "Verleihen",
+      "fa": "Lending"
     },
     "guides": [
       {
