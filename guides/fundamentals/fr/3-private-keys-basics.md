@@ -1,66 +1,66 @@
 ![](../images/03-main-l.png)
 
-# Private Keys
+# Clés privées
 
-As we covered earlier, genuine cryptocurrency wallets store cryptographic keys that have control over certain amount of cryptocurrency.
+Comme nous l'avons vu précédemment, les portefeuilles de crypto-monnaies authentiques contiennent des clés cryptographiques qui permettent de contrôler une certaine quantité de crypto-monnaie.
 
-From that cryptographic key the wallet app can understand the amount of cryptocurrency user owns as well as derive past transactions associated with the wallet. This cryptographic key usually referred to as private key. 
+À partir de cette clé cryptographique, l'application de portefeuille peut comprendre la quantité de crypto-monnaie possédée par l'utilisateur et dériver les transactions passées associées au portefeuille. Cette clé cryptographique est généralement appelée clé privée.
 
-> **The wallet app is an instrument that essentially stores your private key. This private key is what gives you control over certain amount of cryptocurrency.**
+> **L'application portefeuille est un instrument qui stocke essentiellement votre clé privée. C'est cette clé privée qui vous permet de contrôler une certaine quantité de crypto-monnaies.**
 >
-> **The non-custodial wallet app uses private key to retrieve cryptocurrency balances and past transactions from the blockchain.**
+> **L'application de portefeuille non privative utilise une clé privée pour récupérer les soldes de crypto-monnaies et les transactions passées de la blockchain.**
 
-We are not going to explain how the private keys work under the hood. Just know that a term private key usually refers to a cryptographic key we talked about earlier.
+Nous n'allons pas expliquer comment les clés privées fonctionnent en détail. Sachez simplement que le terme de clé privée fait généralement référence à la clé cryptographique dont nous avons parlé plus haut.
 
-Below, we are going to look a bit deeper into security aspects to give you a better understanding of private keys, and the related security aspects.
+Ci-dessous, nous allons baisser un peu plus le niveau de sécurité pour vous donner une meilleure compréhension des clés privées, et des aspects de sécurité qui y sont liés.
 
-## 1. Keep Key Private
+## 1. Gardez la clé privée
 
-Quite often scammers (by impersonating wallet support teams) trick users into sharing their private keys. When a user shares the key the scammer steals the funds on the balance. 
+Très souvent, les fraudeurs (en se faisant passer pour des équipes d'assistance au portefeuille) trompent les utilisateurs en leur faisant partager leurs clés privées. Lorsqu'un utilisateur partage la clé, le fraudeur vole les fonds qui se trouvent sur le solde.
 
-> **There is absolutely no valid reason for you as a wallet app user to ever share the private keys with anyone. This applies to all wallets.**
+> **Rien ne justifie que vous, en tant qu'utilisateur d'une application de portefeuille, partagiez les clés privées avec qui que ce soit. Cela s'applique à tous les portefeuilles.**
 >
-> **Never reveal your private key to anyone, even when you're communicating with people who built your wallet app.**
+> **Ne révélez jamais votre clé privée à quiconque, même lorsque vous communiquez avec les personnes qui ont créé votre application portefeuille.**
 
-You may reveal your private key to someone only when you intentionally want to pass the ownership of your funds to that person. Almost all non-custodial wallet provides means for the user to access and view private key from within the wallet app.
+Vous ne pouvez révéler votre clé privée à quelqu'un que lorsque vous voulez intentionnellement lui transmettre la propriété de vos fonds. Pratiquement tous les portefeuilles non privatifs permettent à l'utilisateur d'accéder à sa clé privée et de la consulter à partir de l'application portefeuille.
 
-## 2. Backup Key
+## 2. Clé de sauvegarde
 
-Most non-custodial wallet apps show the private key during the wallet app setup. The wallet app usually prompts user to write down the private key and store it somewhere safely offline.
+La plupart des applications portefeuille non privatives affichent la clé privée lors de la configuration de l'application portefeuille. L'application portefeuille invite généralement l'utilisateur à noter la clé privée et à la stocker dans un endroit sûr hors ligne.
  
-> **The private key is the only way to restore access to funds in case the device with the wallet app become inaccessible i.e. if it gets stolen or simply stops working.**
+> **La clé privée est le seul moyen de restaurer l'accès aux fonds au cas où le dispositif avec l'application portefeuille deviendrait inaccessible, c'est-à-dire s'il est volé ou s'il cesse simplement de fonctionner.**
 
-To make it easier to backup the private key, blockchain engineers came up with a way to convert the private key to a plain set of 12 or 24 regular words. 
+Pour faciliter la sauvegarde de la clé privée, les ingénieurs de blockchain ont trouvé un moyen de convertir la clé privée en un simple ensemble de 12 ou 24 mots réguliers.
 
-Most non-custodial wallets will display the private key in a human-readable form, generally in a form 12/24 words.
+La plupart des portefeuilles non privatifs afficheront la clé privée sous une forme lisible par un être humain, généralement sous une forme de 12/24 mots.
 
 ![](../images/03-02-l.png)
 
-Backup the private key and make sure there are no typos in your backup. Other than actual words, the ordering is just as important. 
+Sauvegardez la clé privée et assurez-vous qu'il n'y a pas de fautes de frappe dans votre sauvegarde. En plus des mots, l'ordre est tout aussi important.
 
-> **If you lose or unknowingly expose the private key to someone, they can get control of your cryptocurrency.**
+> **Si vous perdez votre clé privée ou que vous la révélez à quelqu'un sans vous en rendre compte, cette personne peut prendre le contrôle de vos crypto-monnaies.**
 
-The 12/24 words should be backed up in the correct order. A non-custodial wallet may understand if you make a typo in one of the words and show an appropriate warning. 
+Les 12/24 mots doivent être sauvegardés dans le bon ordre. Un portefeuille non privatif peut comprendre si vous faites une faute de frappe dans l'un des mots et afficher un avertissement approprié.
 
-If the words positioned incorrectly a non-custodial wallet will still restore some random wallet, it just won't be yours. So, the correct order is just as important.
+Si les mots sont mal positionnés, un portefeuille non privatif vous restituera tout de même un portefeuille quelconque, mais ce ne sera pas le vôtre. Le bon ordre est donc tout aussi important.
 
-## 3. Private Key Generation
+## 3. Génération de clé privée
 
-When you first setup a non-custodial wallet app, the code powering the wallet app randomly generates a secure private key for you. For the private key to be truly secure it's important for a wallet app to generate a private key which is truly random.
+Lorsque vous installez une application portefeuille non privative pour la première fois, le code qui alimente l'application portefeuille vous fournit une clé privée sécurisée de manière aléatoire. Pour que la clé privée soit vraiment sécurisée, il est important qu'une application portefeuille génère une clé privée qui soit vraiment aléatoire.
 
-> **If the private key generated by a non-custodial wallet is not random then the wallet is not safe.**
+> **Si la clé privée générée par un portefeuille non privatif n'est pas aléatoire, alors le portefeuille n'est pas sécurisé.**
 
-That's one of the reasons why non-custodial wallets keep the code open. Third-party engineers can then analyze the code and check whether the wallet app generates the private key correctly.
+C'est l'une des raisons pour lesquelles les portefeuilles non privatifs maintiennent le code ouvert. Des ingénieurs tiers peuvent alors analyser le code et vérifier si l'application de portefeuille génère correctement la clé privée.
 
-There are websites like [WalletScrutiny.com](https://walletscrutiny.com) which exist to ensure wallets published on Google Play in fact use the same code as the code publicly shared with the community.
+Il existe des sites Web comme [WalletScrutiny.com](https://walletscrutiny.com) qui veillent à ce que les portefeuilles publiés sur Google Play utilisent en fait le même code que le code partagé publiquement avec la communauté.
    
-Any good non-custodial wallet app should be engineered in accordance with the publicly documented security guidelines and wallet standards.
+Toute bonne application portefeuille non privative doit être conçue en conformité avec les directives de sécurité et les normes de portefeuille publiquement documentées.
 
-## 4. One Key, Many Coins
+## 4. Une clé, beaucoup de monnaies
 
-Another essential aspect, a single private key can be used to control balances for multiple cryptocurrencies. When using such key the wallet apps can automatically locate the balances for all supported cryptocurrencies.
+Autre aspect essentiel, une seule clé privée peut être utilisée pour contrôler les soldes de plusieurs crypto-monnaies. En utilisant une telle clé, les applications portefeuille peuvent automatiquement localiser les soldes pour toutes les crypto-monnaies prises en charge.
 
-For instance, when creating the wallet on [Unstoppable wallet](https://unstoppable.money) the user gets a single private key for 5 cryptocurrencies:
+Par exemple, lors de la création du portefeuille avec [Unstoppable wallet](https://unstoppable.money) l'utilisateur obtient une seule clé privée pour 5 crypto-monnaies:
 
 - Bitcoin
 - Dash
@@ -68,36 +68,36 @@ For instance, when creating the wallet on [Unstoppable wallet](https://unstoppab
 - Litecoin
 - Ethereum
 
-The same private key used to control multiple cryptocurrencies, each with its own balance and transactions.
+La même clé privée est utilisée pour contrôler plusieurs crypto-monnaies, chacune ayant son propre solde et ses propres transactions.
 
-## 5. Balances & Transactions
+## 5. Soldes et transactions
 
-As was mentioned above there are 'private key' standards designed by engineers throughout the years. These standards define how exactly wallet apps should handle the private key for use with multiple cryptocurrencies. 
+Comme nous l'avons déjà mentionné, il existe des normes de "clé privée" conçues par des ingénieurs au fil des ans. Ces normes définissent exactement comment les applications portefeuille doivent gérer la clé privée pour une utilisation avec plusieurs crypto-monnaies.
 
-> **The wallet uses your private key to derive your payment address for each cryptocurrency. The payment address is the address you are sharing with others that want to pay you in cryptocurrency.**
+> **Le portefeuille utilise votre clé privée pour obtenir votre adresse de paiement pour chaque crypto-monnaie. L'adresse de paiement est l'adresse que vous partagez avec d'autres personnes qui veulent vous payer en crypto-monnaie.**
 
 ![](../images/03-03-l.png)
 
-Just by looking at your private key the wallet app should be able to derive your address for Bitcoin, Ethereum and many other cryptocurrencies. Different address for each cryptocurrency.
+Il suffit de regarder votre clé privée pour que l'application portefeuille puisse dériver votre adresse pour Bitcoin, Ethereum et bien d'autres crypto-monnaies. Une adresse différente pour chaque cryptomonnaie.
 
-When you import the private key to another standard-compliant wallet that other app will also derive same addresses.
+Lorsque vous importez la clé privée dans une autre application portefeuille conforme aux normes, cette autre application en déduit également les mêmes adresses.
 
-That's basically how a wallet app can take a private key used on another app, and from that key restore balances and transactions for multiple cryptocurrencies
+C'est essentiellement ainsi qu'une application portefeuille peut prendre une clé privée utilisée sur une autre application, et à partir de cette clé, restaurer les soldes et les transactions pour plusieurs cryptomonnaies.
 
-> **If a private key generated in a standard-compliant manner, then any other standard-compliant wallet should be able to correctly derive payment addresses and past transactions for each supported cryptocurrency.**
+> **Si une clé privée est générée d'une manière conforme aux normes, alors tout autre portefeuille conforme aux normes devrait être en mesure de dériver correctement les adresses de paiement et les transactions passées pour chaque cryptomonnaie prise en charge.**
 
-Once the app knows the addresses for say Bitcoin, it connects to the Bitcoin blockchain and looks for transactions involving those addresses. As a result of that process the wallet app can display the balances and past transactions associated with that private key.
+Une fois que l'application connaît les adresses de, disons, Bitcoin, elle se connecte à la blockchain de Bitcoin et recherche les transactions utilisant ces adresses. Grâce à ce processus, l'application portefeuille peut afficher les soldes et les transactions passées associés à cette clé privée.
 
-## 6. Moving Between Wallets
+## 6. Passer d'un portefeuille à l'autre
 
-Good non-custodial wallets enable private key migration between wallets. In other words, a private key created on one non-custodial wallet app should be compatible with other non-custodial wallet apps. 
+Les bons portefeuilles non privatifs permettent la migration des clés privées d'un portefeuille à l'autre. En d'autres termes, une clé privée créée sur une application portefeuille non privative doit être compatible avec les autres applications portefeuille non privatives.
 
-> **The user should not be restricted to a single wallet provider and should be able easily migrate to other non-custodial wallet apps built by different parties.** 
+> **L'utilisateur ne devrait pas être limité à un seul fournisseur de portefeuille et devrait pouvoir migrer facilement vers d'autres applications portefeuille non privatives construites par des tiers.** 
 
-If your phone breaks, or the wallet app stops working, your funds are safe; you will always be able to restore access to your cryptocurrency using the private key. There are no time frames---the same key would work years later.
+Si votre téléphone tombe en panne, ou si l'application portefeuille cesse de fonctionner, vos fonds sont en sécurité ; vous pourrez toujours rétablir l'accès à votre crypto-monnaie en utilisant la clé privée. Il n'y a pas de durée de vie, la même clé pourrait fonctionner des années plus tard.
 
-When choosing a wallet look for one that is standard compliant and supports import/export of private keys.
+Lorsque vous choisissez un portefeuille, recherchez-en un qui soit conforme aux normes et qui permette l'importation/exportation de clés privées.
 
-> **Note: When migrating your private key from one wallet to another you need the destination wallet to support all cryptocurrencies that private key controls.**
+> **Remarque : lors de la migration de votre clé privée d'un portefeuille à un autre, vous avez besoin du portefeuille de destination pour prendre en charge toutes les crypto-monnaies que la clé privée contrôle.**
 
-If your private key has some balance on Bitcoin and Ethereum but the destination wallet supports only Bitcoin then your Ethereum balance won't be visible. It will still be yours and accessible from some other wallet.
+Si votre clé privée a un certain solde de Bitcoin et Ethereum mais que le portefeuille de destination ne prend en charge que Bitcoin, alors votre solde Ethereum ne sera pas visible. Il sera toujours votre propriété et accessible à partir d'un autre portefeuille. 

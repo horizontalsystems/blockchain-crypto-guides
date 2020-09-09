@@ -1,196 +1,196 @@
 ![](../images/04-main-l.png)
 
-# Safe Storage
+# Stockage sécurisé
 
-Now let's look at different types of non-custodial wallets.
+Examinons maintenant différents types de portefeuilles non-privatifs.
 
-First, there is no such thing as the most suitable wallet for all. Certain non-custodial wallets may be more appropriate for some and not for others. It depends on things like:
+Premièrement, il n'existe pas de portefeuille qui convienne à tous. Certains portefeuilles non-privatifs de liberté peuvent être plus appropriés pour certains et pas pour d'autres. Cela dépend de facteurs tels que :
 
-* familiarity with security aspects
-* the place the person lives in
-* the amount of cryptocurrency to store
-* whether the person is a potential target
-* how frequently the wallet to be accessed
+* familiarité avec les aspects de sécurité
+* l'endroit où vit la personne
+* la quantité de cryptomonnaie à stocker
+* si la personne est une cible potentielle
+* la fréquence d'accès au portefeuille
 
-Some wallets are more user-friendly and appropriate for new people with smaller balances. At the same time, for people with a crypto capital in millions and extensive security knowledge the expectations from wallets are considerably higher. Those people may prefer to use wallets engineered for higher security needs.
+Certains portefeuilles sont plus faciles à utiliser et conviennent aux nouveaux arrivants dont le solde est plus faible. En même temps, pour les personnes disposant d'un capital cryptographique de plusieurs millions et de connaissances approfondies en matière de sécurité, les attentes vis-à-vis des portefeuilles sont considérablement plus élevées. Ces personnes peuvent préférer utiliser des portefeuilles conçus pour des besoins de sécurité plus importants.
 
-In this section we will try to look at common non-custodial wallets and get a balanced overview of the security aspects. A balanced approach involves a tiered approach, where the higher security requirements introduced as the risk factor grows. 
+Dans cette section, nous allons essayer d'examiner les portefeuilles non-privatifs de liberté courants et d'obtenir un aperçu équilibré des aspects de sécurité. Une approche équilibrée implique une approche à plusieurs niveaux, dans laquelle les exigences de sécurité plus élevées sont introduites à mesure que le facteur de risque augmente.
 
-An ideal wallet for someone new with a capital below 10K is not the same as for someone in space for years and capital over 100K.
+Un portefeuille idéal pour quelqu'un qui débute avec un capital inférieur à 10 K n'est pas le même que pour quelqu'un qui est dans le domaine depuis des années, mais dont le capital est supérieur à 100 K.
 
-As the user's crypto capital grows so does the potential cost of loosing it. In such cases the capital can be divided into multiple wallets, where a larger chunk kept with extra secure considerations in mind while the remaining in potentially less secure but easily accessible wallet. 
+Au fur et à mesure que le capital crypto de l'utilisateur augmente, le coût potentiel de sa perte augmente également. Dans ce cas, le capital peut être divisé en plusieurs portefeuilles, dont une plus grande partie est conservée en tenant compte de considérations de sécurité supplémentaires, bien que l'autre partie se trouve dans un portefeuille potentiellement moins sûr mais facilement accessible.
 
-## Non-custodial Wallet Types
+## Types de portefeuille non-privatifs
 
-All non-custodial wallets out there provide users with full control over the crypto. That's an underlying characteristic of such a wallet. 
+Tous les portefeuilles non-privatifs de liberté disponibles sur le marché permettent aux utilisateurs de contrôler totalement la crypto. C'est une caractéristique sous-jacente d'un tel portefeuille.
 
-There 3 main types of non-custodial wallets:
+Il existe 3 principaux types de portefeuilles non-privatifs :
 
 ![](../images/04-02-l.png)
 
-1. hardware wallets 
-2. mobile app wallets
-3. desktop software wallets
+1. portefeuilles  matériels 
+2. portefeuilles d'applications mobiles
+3. portefeuilles de logiciels de bureau
 
-Non-custodial wallets potentially differ in the extent to which wallet private keys are protected. Some wallets are designed taking into account even the most unlikely scenarios.
+Les portefeuilles non-privatifs diffèrent sensiblement dans la mesure où les clés privées sont protégées. Certains portefeuilles sont conçus en tenant compte des scénarios même les plus improbables.
 
-For instance, ensuring a safe storage of the private key in an up-to-date iOS or Android wallet app is easier than on a desktop wallet running on all-purpose Windows computer.
+Par exemple, il est plus facile d'assurer un stockage sûr de la clé privée dans une application de portefeuille iOS ou Android à jour que dans un portefeuille de bureau fonctionnant sur un ordinateur Windows polyvalent.
 
-### 1. Hardware Wallets
+### 1. Portefeuilles matériels
 
-The hardware wallets usually come in a form of small hardware devices resembling USB thumb drives and engineered for the sole purpose of storing large amount of cryptocurrencies securely.
+Ces portefeuilles se présentent généralement sous la forme de petits dispositifs physiques ressemblant à des clés USB et conçus dans le seul but de stocker en toute sécurité une grande quantité de cryptomonnaie.
 
-Without going into technicals, it's enough to know that these devices are widely considered as ones with the highest level of security. The security considerations are built around the idea of making the physical extraction of the private keys impossible, even if the attacker has your wallet device in physical possession.
+Sans entrer dans les détails techniques, il suffit de savoir que ces appareils sont largement considérés comme ceux qui présentent le plus haut niveau de sécurité. Les considérations de sécurité s'articulent autour de l'idée de rendre impossible l'extraction physique des clés privées, même si l'agresseur est en possession physique de votre portefeuille.
 
-From usability point of view hardware wallets are somewhat more difficult to use. It's not difficult for someone familiar with ins and outs of cryptocurrencies but definitely not as easy for those new to the field.
+Du point de vue de la convivialité, les portefeuilles matériels sont un peu plus difficiles à utiliser. Ce n'est pas très difficile pour quelqu'un qui connaît les tenants et les aboutissants de la cryptomonnaie, mais ce n'est certainement pas aussi facile pour ceux qui débutent dans ce domaine.
 
-Generally speaking, for someone with a large amount of crypto assets ( > $ 50,000) it would be advisable to use the hardware wallet. Or at the very least start exploring these wallets with the intent to move a chunk of their assets to a hardware wallet in the future.
+En règle générale, pour une personne disposant d'une grande quantité de crypto (> 50 000 $), il est conseillé d'utiliser le portefeuille matériel. Ou, tout au moins, commencer à étudier ces portefeuilles dans l'intention de transférer une partie de leurs actifs vers un portefeuille matériel dans le futur.
 
-Two well-known hardware wallet providers are:
+Les deux fournisseurs de portefeuilles matériels bien connus sont :
 
 - [Trezor](https://trezor.io)
 - [Ledger Wallet](https://www.ledgerwallet.com)
 
-Both companies have a wide range of products to choose from. It's important to buy those directly from the provider's website.
+Les deux sociétés proposent un large choix de produits. Il est important de les acheter directement sur le site web du fournisseur.
 
-### 2. Mobile Wallets
+### 2. Portefeuilles mobiles
 
-The mobile based wallets for iOS and Android are the most common type of non-custodial wallet apps. These wallets are generally more user-friendly. 
+Les portefeuilles mobiles pour iOS et Android sont le type le plus courant d'applications de portefeuille non-privatives de liberté. Ces portefeuilles sont généralement plus conviviaux.
 
-Some of our favorites are:
+Parmi nos préférés :
 
 - [Unstoppable Wallet](https://unstoppable.money)
 - [Bread Wallet](https://brd.com)
 
-From security point of view, the hardware wallet considered more secure than a mobile wallet.
+Du point de vue de la sécurité, le portefeuille matériel est considéré comme plus sûr qu'un portefeuille de portable.
 
-The main point here is that there are more ways to attack a wallet running on a mobile operating system then a small hardware device that is designed to do one small thing. 
+Le plus important ici est qu'il y a plus de moyens d'attaquer un portefeuille fonctionnant sur un système d'exploitation mobile qu'un petit appareil matériel conçu pour faire une seule petite chose.
 
-Mobile wallets operate on an all-purpose operating system (iOS, Android) with a lot of software components. The smartphone device itself has a lot of hardware components that potentially open up new attack surfaces.
+Les portefeuilles mobiles fonctionnent sur un système d'exploitation universel (iOS, Android) avec de nombreux composants logiciels. Le smartphone lui-même possède de nombreux composants matériels qui offrent potentiellement de nouvelles surfaces d'attaque.
 
-Both Google's Android and Apple's iOS operating system come with so called 'secure element' which is specifically designed for handling highly sensitive data. Good wallets make use of that and therefore keep the private key unreachable even if the phone ends up in the hands of someone looking to extract it.
+Les systèmes d'exploitation Android de Google et iOS d'Apple sont tous deux dotés d'un "élément sécurisé" spécialement conçu pour le traitement de données hautement sensibles. Les portefeuilles de qualité en font usage et gardent donc la clé privée hors d'atteinte même si le téléphone finit dans les mains de quelqu'un qui cherche à l'extraire.
 
-### 3. Desktop Wallets
+### 3. Portefeuilles de bureau
 
-Desktop wallets are theoretically less secure when compared to a mobile wallet for the same reason why a mobile wallet is less secure than a hardware wallet. 
+Les portefeuilles de bureau sont théoriquement moins sûrs que les portefeuilles mobiles, pour la même raison qu'un portefeuille mobile est moins sûr qu'un portefeuille matériel.
 
-The potential attack surface on a desktop operating system is even larger than that of mobile. That's just the nature of a desktop platform.
+La surface d'attaque potentielle d'un système d'exploitation d'un ordinateur de bureau est encore plus importante que celle d'un téléphone portable. C'est la nature même de ce genre de système.
 
-It doesn't necessarily mean some desktop wallet is less secure than some mobile-based wallet app. 
+Cela ne signifie pas nécessairement qu'un portefeuille d'ordinateur est moins sûr qu'une application de portefeuille sur téléphone portable.
 
-Some of the more popular desktop-based wallets are:
+Parmi les portefeuilles de bureau les plus populaires, on trouve :
 
-- [Eelctrum](https://electrum.org)
+- [Electrum](https://electrum.org)
 - [Exodus](https://www.exodus.io)
 
-## So, Which Wallet?
+## Alors, quel portefeuille ?
 
-The classification above was primarily based around the notion of private key security. While it's the most important factor it should not be the only one when choosing the wallet. There are a lot of factors to consider.
+La classification ci-dessus repose principalement sur la notion de sécurité des clés privées. Bien que ce soit le facteur le plus important, ce ne doit pas être le seul à prendre en compte dans le choix du portefeuille. Il y a beaucoup de facteurs à considérer.
 
-For instance, a non-custodial mobile wallet app may potentially be more private than a hardware wallet. Or may have essential features not available in the hardware wallet.
+Par exemple, une application de portefeuille mobile non-privative peut potentiellement être plus privée qu'un portefeuille matériel. Ou bien peut avoir des caractéristiques essentielles non-disponibles sur le portefeuille matériel.
 
 > The privacy aspect has many sides and generally should be taken into account as well. For instance, a hardware wallet may offer a superior security but unintentionally expose customers' personal data. A [recent breach](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) of company selling Ledger hardware wallets is a good example of that.
 
-Keep in mind, you don't need a cartel level security if you're just starting out. The out of the box security on most well-known non-custodial wallet apps is already pretty good.
+N'oubliez pas que vous n'avez pas besoin de la sécurité du niveau d'un cartel si vous débutez. La sécurité des applications de portefeuille non-privatives de liberté les plus connues est déjà bien assurée.
 
-> **A balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.**
+> **Une approche équilibrée est une approche à plusieurs niveaux, dans laquelle les exigences de sécurité plus élevées sont introduites à mesure que le facteur de risque augmente.**
 
-The minimum security requirements for using any non-custodial wallet app should be as follows.
+Les exigences minimales de sécurité pour l'utilisation de toute application de portefeuille non-privative de liberté doivent être les suivantes.
  
-- **Security Basics**
+- **Les bases de sécurité**
 
-    The owner of the device should have a basic understanding of digital security. If it's a mobile wallet the mobile OS should remain clean of unauthorized applications and stay up to date.
+    Le propriétaire de l'appareil doit avoir une connaissance de base de la sécurité numérique. S'il s'agit d'un portefeuille mobile, le système d'exploitation mobile doit rester exempt d'applications non autorisées et rester à jour.
  
-- **Standard Compliant**
+- **Conformité aux normes**
 
-    The wallet should generate private keys per publicly documented security standards. This will allow for seamless migration to a third party wallet should there ever be a need for that.
+    Le portefeuille doit générer des clés privées selon des normes de sécurité publiquement documentées. Cela permettra une migration sans heurts vers le portefeuille d'un tiers, si jamais cela s'avérait nécessaire.
 
-- **Unauthorized Access**
+- **Accès non autorisé**
     
-    The access to the wallet device should be protected with the PIN or somilar mechanism. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
+    L'accès au dispositif du portefeuille doit être protégé par le code PIN ou un mécanisme similaire. En supposant qu'un escroc sache ce qu'il cherche - portefeuilles en cryptomonnaie, applications d'échange, etc. - il pourrait vider vos comptes de cryptomonnaie s'il n'y a pas de code PIN sur le smartphone. Il en va de même pour le verrouillage par code PIN du portefeuille matériel.
     
-## Multiple Wallets
+## Portefeuilles multiples
 
-While your crypto remains relatively small (ex: < $10,000) stick to standard security measures. As the capital grows gradually become more demanding by introducing additional security measures like splitting the capital into multiple wallets.
+Si votre volume de cryptage reste relativement faible (ex : < 10 000 $), respectez les mesures de sécurité standard. À mesure que le capital augmente, devenez progressivement plus exigeant en introduisant des mesures de sécurité supplémentaires comme la division du capital en plusieurs portefeuilles.
 
 ![](../images/04-03-l.png)
 
-For instance, someone may start with a single wallet with an initial crypto capital valued at $10,000. As the value of the capital grows the user may move to a tiered approach as below.
+Par exemple, une personne peut commencer avec un seul portefeuille avec un capital initial de crypto évalué à 10 000 $. Au fur et à mesure que la valeur du capital augmente, l'utilisateur peut passer à une approche graduelle comme ci-dessous.
 
-- **Generic Wallet**
+- **Portefeuille générique**
 
-    Mobile or a desktop non-custodial wallet that always with you and stores smaller amounts for all-purpose transactions. 
+    Portefeuille non-privatif de liberté pour téléphone portable ou ordinateur de bureau, qui vous accompagne toujours et stocke de petits montants pour les transactions courantes.
     
-- **Investment Wallet**
+- **Portefeuille d'investissement**
 
-    Mobile non-custodial wallet that keeps the capital meant for active investments. Meant for easy and frequent access to the funds.
+    Portefeuille mobile non-privatif qui conserve le capital destiné à des investissements actifs. Destiné à un accès facile et fréquent aux fonds.
     
-- **Cold Storage Wallet**
+- **Portefeuille de stockage au froid**
 
-    Hardware wallet that holds crypto meant for long term storage without the need for regular access.
+    Portefeuille matériel contenant une crypto destiné au stockage à long terme sans besoin d'accès régulier.
 
 ![](../images/04-04-l.png)
     
-Those making their way into cryptocurrency for the first time are likely to find mobile-based wallets easier to use.
+Ceux qui se lancent dans la cryptomonnaie pour la première fois trouveront probablement que les portefeuilles basés sur le téléphone portable sont plus faciles à utiliser.
 
-Keeping your mobile wallet on your phone is handy. Your cryptocurrency remains close, easy to access, and you can use funds to invest, make payments wherever you are. 
+Garder son portefeuille sur son téléphone portable est pratique. Votre cryptomonnaie reste à proximité, facile d'accès, et vous pouvez utiliser les fonds pour investir, effectuer des paiements où que vous soyez.
 
-Those holding large amounts in cryptocurrency can jump to a tiered approach from the start. 
+Ceux qui détiennent de grandes quantités de cryptomonnaie peuvent adopter une approche progressive dès le départ.
 
-> **The basic principle can be based around the concept of keeping a larger portion of the dormant holdings in a hardware wallet that's not meant to be accessed frequently.**
+> **Le principe de base peut être fondé sur l'idée de conserver une plus grande partie des fonds dormants dans un portefeuille physique qui n'est pas destiné à être consulté fréquemment.**
 
-If the sum to be stored in the hardware wallet is substantial then as a further precaution it's advised to split between two or more hardware wallets.
+Si la somme à stocker dans le portefeuille matériel est importante, il est conseillé, par mesure de précaution supplémentaire, de la répartir entre deux ou plusieurs portefeuilles.
 
-## Wallet Backup Tips
+## Conseils pour la sauvegarde du portefeuille
 
-As was mentioned earlier, having a backup of a private key for each wallet is critical.
+Comme nous l'avons déjà mentionné, il est essentiel de disposer d'une clé privée de secours pour chaque portefeuille.
 
-Some people prefer to write the private key (presented in a form words) down on a piece of paper and store it somehow somewhere. Some prefer writing the words on a file and then store the encrypted copy online.
+Certains préfèrent noter la clé privée (présentée sous forme de mots de passe) sur un morceau de papier et la conserver d'une manière ou d'une autre quelque part. Certains préfèrent écrire les mots sur un fichier et ensuite stocker la copie cryptée en ligne.
 
-> **Note that it's not a good idea to have a digital version of the private key (even if it's encrypted) for any wallet with large amount of crypto.**
+> **Notez que ce n'est pas une bonne idée d'avoir une version numérique de la clé privée (même si elle est cryptée) pour tout portefeuille contenant une grande quantité de crypto.**
 > 
-> **For smaller amounts should not be a significant issue as long as you understand the risks.** 
+> **Pour les petits montants, cela ne devrait pas être un problème majeur tant que vous en comprenez les risques.** 
 
-For mobile non-custodial wallets that are meant to be accessed frequently make sure backup of the private key stored safely and easily accessible on demand.
+Pour les portefeuilles portables non-privatifs qui sont censés être consultés fréquemment, assurez-vous que la sauvegarde de la clé privée est conservée en toute sécurité et facilement accessible.
 
-### 1. Optional Password
+### 1. Mot de passe facultatif
 
-When setting up new wallet apps some wallet apps enable users to add a password next to the 12/24 words.
+Lors de la mise en place de nouvelles applications de portefeuille, certaines d'entre elles permettent aux utilisateurs d'ajouter un mot de passe à côté des 12/24 mots.
 
-It's an additional security measure that allows the person to keep the 12/24 words separately from the password. 
+Il s'agit d'une mesure de sécurité supplémentaire qui permet à la personne de conserver les 12/24 mots séparément du mot de passe.
 
-> **Doing so allows the owner of the wallet to remain safe even if someone finds the list with words. The password will still be needed to access crypto funds.**
+> **Cela permet au propriétaire du portefeuille de se protéger même si quelqu'un trouve la liste de mots. Le mot de passe sera toujours nécessaire pour accéder aux fonds de crypto.**
 
-The password can be memorized or written down and kept separately from the list of words.
+Le mot de passe peut être mémorisé ou écrit et conservé séparément de la liste de mots.
 
-That said, adding a password next to 12/24 words to some extent limits the options when it comes to migrating to a third party wallet in the future. Not many non-custodial wallets support passwords.
+Cela dit, l'ajout d'un mot de passe à côté de 12/24 mots limite dans une certaine mesure les options lorsqu'il s'agit de migrer vers un portefeuille tiers à l'avenir. Peu de portefeuilles non-privatifs de liberté acceptent les mots de passe.
 
-For private key backup for hardware wallets holding large sums it's recommended to set up private key in a form of 12/24 words + password. That option should be available on all hardware wallets. Those wallets enable creating and restore of such private keys.
+Pour la sauvegarde de clés privées pour les portefeuilles matériels, il est recommandé de définir une clé privée sous la forme de 12/24 mots + mot de passe. Cette option devrait être disponible sur tous ces types de portefeuilles matériels. Ces portefeuilles permettent la création et la restauration de ces clés privées. 
 
-### 2. Offline Backups
+### 2. Sauvegardes hors ligne
 
-When storing private keys or hardware wallets offline, take into account following:
+Lorsque vous stockez des clés privées ou des portefeuilles matériels hors ligne, tenez compte des points suivants :
 
-- private key backup should be kept in separate location from wallet device. 
-- if private key consists of words and a password, both should be kept separately.
-- private key backup or wallet device can potentially be found by someone else.
-- the hardware wallet should be protected by a PIN lock.
-- take necessary precautions against fire or floods.
+- La sauvegarde de la clé privée doit être conservée dans un emplacement distinct de l'appareil portefeuille.
+- Si la clé privée se compose de mots et d'un mot de passe, les deux doivent être conservés séparément.
+- Un périphérique de sauvegarde de clé privée ou de portefeuille peut potentiellement être trouvé par quelqu'un d'autre.
+- Le portefeuille matériel doit être protégé par un code PIN.
+- Prenez les précautions nécessaires contre les incendies ou les inondations.
 
-A backup of words can be stored in a metal container from [Crypto Steel](http://cryptosteel.com). The password can be memorized or stored physically in a separate location. As a result you end up with:
+Une sauvegarde des mots peut être stockée dans un conteneur métallique [Crypto Steel](http://cryptosteel.com). Le mot de passe peut être mémorisé ou stocké physiquement dans un endroit séparé. C'est ainsi que vous vous retrouvez avec :
 
-1. hardware wallet device that is protected by a PIN.
-2. private key (useless without password)
-3. password (useless without words)
+1. périphérique de portefeuille matériel protégé par un code PIN.
+2. clé privée (inutile sans mot de passe)
+3. mot de passe (inutile sans mots)
 
-If all three items stored separately you are achieving a fairly good level of crypto security. To access your funds you will either need a wallet device + pin, or the private key + password.
+Si les trois éléments sont stockés séparément, vous atteignez un assez bon niveau de sécurité cryptographique. Pour accéder à vos fonds, vous aurez besoin soit d'un portefeuille matériel + code PIN, soit de la clé privée + mot de passe.
 
-It's also advised to share enough information with your close ones so that they can recover the access to funds should for some reason you become unreachable.
+Il est également conseillé de partager suffisamment d'informations avec vos proches afin qu'ils puissent récupérer l'accès aux fonds si, pour une raison quelconque, vous devenez inaccessible.
 
 ## Conclusion
 
-If you have a basic understanding of what has been covered by now you already know quite a lot!
+Si vous avez une compréhension de base de ce qui a été couvert jusqu'à présent, vous en savez déjà beaucoup !
 
-The aim was to explain that non-custodial wallet type is the only wallet that can guarantee the ownership of held cryptocurrencies. Wallets provided by cryptocurrency exchanges are custodial and can censor or block the funds should there ever be a need for that.
+L'objectif était d'expliquer que le type de portefeuille non privatif est le seul qui puisse garantir la propriété des cryptomonnaies détenues. Les portefeuilles fournis par les plateformes d'échange de cryptomonnaie sont conservés et peuvent censurer ou bloquer les fonds si jamais cela s'avérait nécessaire.
 
-Those holding large amounts of crypto should consider splitting the funds into multiple wallets with a larger portion of the sum being on a hardware wallet.
+Ceux qui détiennent de grandes quantités de crypto devraient envisager de fractionner les fonds en plusieurs portefeuilles, une plus grande partie de la somme se trouvant sur un portefeuille matériel.
