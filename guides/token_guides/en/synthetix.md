@@ -2,72 +2,145 @@
 
 # Synthetix In Simple Terms
 
-[Synthetix](https://synthetix.io/) is a decentralized platform for creating and trading synthetic assets (called Synths) on Ethereum blockchain.
+[Synthetix](https://synthetix.io/) is a decentralized platform on Ethereum for trading synthetic assets (called Synths).
  
-> Synths are ERC-20 token representations of cryptocurrencies, stocks, fiat currencies, precious metals, and potentially any other tradable asset.
+> Synths are ERC-20 token representations of cryptocurrencies, stocks, fiat currencies, precious metals, and potentially any other tradable assets.
 
-The purpose of the Synthetix is to allow users on Ethereum blockchain to bet on the price of various financial instruments (outside Ethereum) without holding the actual asset. 
+Synths are programmed to copy the price of an asset they are linked to and leave behind all of its other properties. 
 
-Synth assets:
+For instance, sBTC is a synthetic Bitcoin synth asset that can be bought and sold on Synthetix exchange at current Bitcoin price.
 
-- sUSD : synthetic USD
-- sEUR : synthetic EUR
-- sAUD : synthetic Australian Dollar
-- sBTC : synthetic Bitcoin
-- sETH : synthetic Ether
-- sMKR : synthetic Maker
-- sBNB : synthetic Binance Token
-- sXAU : synthetic Gold
+In the same way, an sMKR synth token has the same price as a real [MKR](../../token_guides/en/makerdao.md) token, but without the voting rights an actual MKR token holder would have. 
 
-Synthetix enables someone to go long or short on cryptocurrencies, fiat currencies, precious metals, commodities etc directly from Ethereum blockchain.
+- from an asset price perspective owning synth tokens has same benefits as owning the tokens these synths represent.
 
-> Synths are programmed to copy the price of an asset they are linked to and leave behind all of its other properties.
+- users are able to bet on the price of various financial instruments (outside Ethereum) without holding the actual asset.
 
-For instance:
+- synth assets are transferable between users and tradable on decentralized exchanges.
 
-- sBTC is a synthetic Bitcoin synth asset whose price is pegged to the price of Bitcoin (BTC). 
+To conclude, Synthetix enables creation of Ethereum-based tokens of ERC20 type which represent real-world assets.
 
-- In the same way, sMKR is a synthetic asset representing [MakerDAO's](../../token_guides/en/makerdao.md) MKR token.
+> Any tradable asset with a price feed can be potentially added to the Synthetix platform in a form of synth asset.
 
-> An sMKR synth token has the same price as a real MKR token, but without the voting rights an actual MKR token holder would have. 
+Current synth assets include cryptocurrencies, stocks and precious metals. In the long run, Synthetix will likely have a lot more assets that are available on traditional markets such as stocks.
 
-To sum up, from an asset price perspective owning synth tokens has same benefits as owning the tokens these synths represent.
+## Supported Synths
 
-Therefore, Synthetix enables creation of Ethereum-based tokens of ERC20 type which represent real-world assets.
+While Synthetix platform supports about two dozen different synths, there are no barriers for it to have a lot more.
 
-## Synth Assets
+> Any asset which has a market price can technically be added to Synthetix platform. 
+>
+> Smart contract powering Synthetix platform only require the price feed for the given asset (and approval from its community) to add new synth asset into ecosystem.
 
-Anyone looking for exposure to the price of Bitcoin on Ethereum can do so via one of the following options:
+Therefore, should Synthetix continue growing expect to see many more synthetic assets to be added to the platform.
 
-1. by acquiring sBTC tokens on [Synthetix.Exchange](https://synthetix.exchange/#/) or some other [decentralized exchange](../../defi/en/3-decentralized-exchanges.md), generally using Ethereum's ETH tokens.
+Currently, there are two types of synth assets:
 
-2. or via Synthetix's [Mintr](https://mintr.synthetix.io/) smart contract to create sUSD synth tokens by locking personal SNX tokens. Typically, the amount which needs to be locked is somewhere between 600-800 % of the issued sUSD token value.
+1) Standard Synths 
 
-Synthetix allows anyone to create any of supported synth assets against the market value of SNX tokens.
+    Follow the price of the asset they represent and meant for those who would like to go long on the assets.
 
-> This is done by locking own SNX tokens into a smart contract at an approximate ratio of 600% to the synth token being minted. 
+    - sUSD : synthetic USD
+    - sEUR : synthetic EUR
+    - sAUD : synthetic AUSDollar
+    - sBTC : synthetic Bitcoin
+    - sETH : synthetic Ether
+    - sMKR : synthetic Maker
+    - sBNB : synthetic BNB
+    - sXTZ : synthetic Tezos
+    - sADA : synthetic Cardano
+    - sXRP : synthetic Ripple
+    - sLTC : synthetic Litecoin
+    - sBCH : synthetic Bitcoin Cash 
+    - sXAU : synthetic Gold Ounce
+    - sXAG : synthetic Silver Ounce
+    - sDEFI : synthetic DEFI Index
+    - sLINK : synthetic Chainlink          
 
-> If 1000 SNX is locked at a price value of 6 USD, at most 1000 sUSD tokens can be minted against it. 
+2) Inverse Synths 
 
-The ratio is chosen by Synthetix community and meant to provide a protection to the stability of the synth asset against the price fluctuations of the backing SNX token. 
+    Allow anyone to essentially go short on the price of an asset and profit inversely to any price depreciation of the asset synth represents. 
 
-> As SNX price fluctuates, the SNX stakers need to monitor the value of their locked SNX and make sure overall value of the locked SNX tokens to minted debt always remain above the required ratio.
+    - iBTC : inverse Bitcoin
+    - iETH : inverse Ethereum
+    - iBNB : inverse Binance
+    - iXTZ : inverse Tezos
+    - iADA : inverse Cardano
+    - iXRP : inverse Ripple    
+    - iLTC : inverse Litecoin
+    - iBCH : inverse Bitcoin Cash  
+    - iDEFI : inverse DEFI Index
+    - iLINK : inverse Chainlink
+    
+Synths are traded 24/7 on non-custodial [Synthetix.Exchange](https://synthetix.exchange) allowing anyone in [Ethereum ecosystem](../../token_guides/en/ethereum.md) to go long or short on various assets.
+    
+## How Synths Created
 
-### SNX Staking
+To understand the mechanics of Synthetix platform it's crucial to understand the process by which new synths assets are added and removed from circulation.
 
-Those willing to stake their SNX into Synthetix platform receive two kinds of rewards: 
+1. Synthetix allows creation of sUSD (synthetic USD) token by [locking](https://mintr.synthetix.io/) own SNX tokens into a smart contract at an approximate ratio of 600% to the sUSD synth token being minted.
+
+2. If someone wants to create 1000 sUSD tokens the person needs to lock at least 6000 worth SNX tokens into a smart contract. Locked tokens are returned when user returns the borrowed amount (which changes in real time as will be shown later).
+
+3. Once sUSD tokens are created the borrower can trade them on Synthetix exchange for other synth assets at current market prices.
+
+4. The orders on Synthetix exchange are instant and at market prices.
+
+5. The traders always trades against the exchange which buys synth asset from the user (i.e. sUSD) and gives him/her another synth asset (i.e. sBTC) taking into account current market prices of both assets.
+
+6. Note that, during the exchange process, Synthetix basically destroys (removed from circulation) the asset it received from user and creates (adds to circulation) a synth asset user bought from it. 
+
+7. For instance, if the current price of Bitcoin is $10,000, buying sBTC from Synthetix exchange would mean destroying 10,000 sUSD tokens and creating 1 sBTC token in Synthetix ecosystem.
+
+Every single synth in circulation comes into existence as per the steps shown above. 
+
+> The process above ensures that every single synth asset in the ecosystem is backed by a collateral in a form of SNX tokens.
+
+User looking to speculate on synth assets do not have to go through steps above but can purchase existing sUSD or sETH from someone on a [decentralized exchange](../../defi/en/3-decentralized-exchanges.md) like [Uniswap](../../token_guides/en/uniswap.md), generally using native Ethereum's ETH token.
+
+## How Synths Traded
+
+Synthetix ecosystem comes with its own decentralized exchange platform for trading synths known as [Synthetix.Exchange](https://synthetix.exchange).
+
+- Unlike other decentralized exchanges Synthetix exchange doesn't require any kind of liquidity matching instruments like order books or [liquidity pools](../../defi/en/3-decentralized-exchanges.md). 
+
+- All orders are guaranteed to happen at market prices in a few seconds time. 
+
+- This can be a big deal for many traders as most decentralized exchanges will incur a significant price slippage for larger trades.
+
+- There is a 0.1% - 1% (typically 0.3%) fee for each trade on Synthetix exchange. That fee goes to the entities creating sUSD tokens on the platform by locking their SNX tokens as collateral. 
+
+From a trader's perspective trading on Synthetic exchange is significantly cheaper especially for larger orders.
+
+So, there is an economic incentive for someone to use the Synthetix exchange rather than a DEX like [Uniswap](../../token_guides/en/uniswap.md) or [Curve](../../token_guides/en/curve-finance.md).
+
+## Why Create Synths
+
+Above we covered the process of how new synths enter the ecosystem as well as the incentives for someone to trade synths rather than the assets these synths represent. 
+
+> Trading synths is not only cheaper but comes with a convenience of being able to get exposure to an asset of any tradable asset in the world, all on Ethereum blockchain
+
+So, there are strong incentives for speculators to trade Synths rather than actual assets.
+
+The only question that remains is what are the incentives for someone to create new synths given that those creating synths need to lock 600% of the created value in SNX tokens as a collateral.
+
+> Note that, the 600% ratio is chosen by Synthetix community and meant to provide a protection to the stability of the synth asset against the price fluctuations of the backing SNX token. 
+
+Those willing to lock their SNX into Synthetix platform any by doing so create new synths, receive two kinds of rewards: 
 
 1. SNX staking rewards, which are created through the inflationary monetary policy of SNX token.     
 
     Between March 2019 - August 2023, the total SNX supply will increase from 100,000,000 to 260,263,816, with a weekly decay rate of 1.25%. 
 
-2. Exchanging synths on [Synthetix.Exchange](https://synthetix.exchange/#/) costs traders between 0.1% - 1% (typically 0.3%) for each trade.  
+2. Exchanging synths on [Synthetix.Exchange](https://synthetix.exchange/#/) typically costs %0.3 to the trader.
    
     These fees are sent to a fee pool, available for SNX stakers to claim their proportion from it each week.
 
-As explained above, stakers essentilly create a debt position when they lock and stake their SNX tokens. 
+The entities staking their SNX tokens essentially create a debt position when they lock their SNX tokens. 
 
-- This debt begins as the amount of sUSD they initially mint and changes according to price gains or losses made by all other Synth assets in the ecosystem. 
+- This debt begins as the amount of sUSD they initially mint.
+
+- The debt increases or decreases according to price gains or losses made by all other Synth assets in the ecosystem. 
 
 - If at any time there is a Synth asset that appreciates in value, that gain is covered proportionally by all the staked SNX holders’ debts. 
 
@@ -79,19 +152,16 @@ For example:
 
 - On the other hand, if only 50% of the ecosystem were sBTC, and BTC doubled in price, each staker’s debt—would increase by one quarter. 
 
-In this way, SNX stakers act as a pooled counterparty to all Synth exchanges; stakers take on the risk of the overall debt in the system. 
+In this way, SNX stakers act as a pooled counterparty to all Synth exchanges; stakers take on the risk of the overall debt in the system.
 
-## Synthetix.Exchange
+## Synthetix Stats
 
-[Synthetix.Exchange](https://synthetix.exchange) offers a decentralized trading platform for its synth tokens, allowing someone to go long or short on those synths.
+If you would like to know the amount of funds currently locked on Synthetix platform as well as the number of synths in circulation go to Synthetix overview on [DeFi Pulse](https://defipulse.com/synthetix).
 
-- Before traders can participate, SNX investors stake their tokens to mint liquidity for the network. 
+Here are some key stats what we have as of September 9, 2020:
 
-- When traders execute a transaction, they pay a fee to trade against the stakers. 
-
-- A trader's profit adds to the global debt pool and a trader's loss subtracts from it.
-
-## Links
-
-- [Synthetix stats](https://defipulse.com/synthetix)
-- https://messari.io/asset/synthetix/profile
+- Total Locked (in USD): $650.2M
+- Total Locked (in ETH): 1.9M ETH
+- Total Locked (in BTC): 63.3K BTC
+- Total Locked (in SNX): 141M SNX
+- % of SNX Supply Locked: 70.36%
