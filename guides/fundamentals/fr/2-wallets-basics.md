@@ -1,101 +1,101 @@
 ![](../images/02-main-l.png)
 
-# Wallets Explained
+# Les portefeuilles expliqués
 
-By its very nature cryptocurrency gives the owner capabilities that are not available with traditional financial instruments.
+Par sa nature même, la cryptomonnaie donne au propriétaire des capacités qui ne sont pas offertes par les moyens financiers traditionnels.
 
-It's vital to understand what these capabilities are, especially for someone looking to safely store and accumulate cryptocurrencies.
+Il est essentiel de comprendre quelles sont ces capacités, en particulier pour quelqu'un qui souhaite stocker et accumuler des crypto-monnaies en toute sécurité.
 
-- When dealing with traditional financial instruments such as deposits in the bank (or stocks with the broker) there is a notion of someone keeping assets on behalf of the user. The entity that keeps funds acts as a custodian of the assets and has a full control over them. Your access to these assets is dependent on the entity that keeps your assets in custody.
+- Lorsqu'il s'agit de produits financiers traditionnels tels que les dépôts à la banque (ou les actions auprès d'un courtier), il existe une notion de personne qui conserve les actifs au nom de l'utilisateur. L'entité qui conserve les fonds agit en tant que dépositaire des actifs et exerce un contrôle total sur ces derniers. Votre accès à ces biens dépend de l'entité qui en assure la garde. 
 
-- When it comes cryptocurrencies, there is an option for the user is to be the only entity that has access and control over the funds. Cryptocurrencies enable user to be the only custodian of the assets, without any dependence on intermediaries.
+- En ce qui concerne les crypto-monnaies, la seule option pour l'utilisateur est d'être la seule entité ayant accès et contrôle sur les fonds. Les crypto-monnaies permettent à l'utilisateur d'être le seul dépositaire des actifs, sans aucune dépendance vis-à-vis des intermédiaires.
 
-For someone looking to safely store and subsequently accumulate crypto assets it's important to know how the aspect of ownership works in cryptocurrencies.
+Pour quelqu'un qui cherche à stocker en toute sécurité et ensuite accumuler des biens cryptés, il est important de savoir comment fonctionne la notion de propriété dans le domaine de la cryptomonnaie.
 
-A lot of people enter the space and start accumulating cryptocurrencies without understanding these fundamentals. This exposes them to risks that may result in the loss of funds.
+Beaucoup de personnes entrent dans cet espace et commencent à accumuler des crypto-monnaies sans comprendre ces principes fondamentaux. Cette situation les expose à des risques qui peuvent entraîner la perte de fonds.
 
-## How Ownership Works
+## Comment fonctionne la propriété
 
-Most cryptocurrencies operate on top of the blockchain that powers that specific cryptocurrency. Bitcoin is the native currency of the Bitcoin blockchain, the Ethereum crypto currency has its own blockchain and so on.
+La plupart des crypto-monnaies fonctionnent au-dessus de la blockchain qui alimente cette crypto-monnaie spécifique. Le bitcoin est la monnaie créée à partir de la blockchain Bitcoin, la crypto monnaie Ethereum a sa propre blockchain et ainsi de suite.
 
-The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet. 
+La notion de possession de Bitcoin ou d'Ethereum est très différente de celle de la notion d'argent liquide traditionnel dans votre portefeuille.
 
->**The ownership in cryptocurrency means the ownership of special cryptographic key which has a power to spend a certain amount of cryptocurrency.**
+>**Dans le monde de la cryptomonnaie, la propriété est définie par la possession d'une clé cryptographique spéciale qui permet de dépenser une certaine quantité de cryptomonnaie.**
 
-So, when someone says s/he has 5 Bitcoins what this essentially means is that this person is in the possession of the cryptographic key which can spend 5 Bitcoins.
+Par conséquent, lorsque quelqu'un dit qu'il possède 5 Bitcoins, cela signifie essentiellement que cette personne est en possession de la clé cryptographique qui peut dépenser 5 Bitcoins.
 
 ![](../images/02-02-l.png)
 
-When a person sends 1 Bitcoin to another person, the sender uses his/her cryptographic key to sign off 1 Bitcoin from the available balance and pass the ownership of that 1 Bitcoin to the recipient. After the transaction took place, that 1 Bitcoin can only be spent by the cryptographic key belonging to the recipient.
+Lorsqu'une personne envoie 1 bitcoin à une autre personne, l'expéditeur utilise sa clé cryptographique pour signer 1 bitcoin du solde disponible et transmettre la propriété de ce 1 bitcoin au bénéficiaire. Après que la transaction a eu lieu, cette Bitcoin ne peut être dépensé que par la clé cryptographique appartenant au bénéficiaire.
 
-So, the takeaway point here is that the ownership of certain amount of crypto basically means the ownership of special cryptographic key.
+Donc, le point à retenir ici est que la possession d'une certaine quantité de crypto signifie essentiellement la possession d'une clé cryptographique spéciale.
 
-Under the hood the key may look something like this:
+Si on regarde sous le capot, la clé pourrait ressembler à quelque chose de ce genre :
 
 >**5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF**
 
-Revealing the cryptographic key to someone or loosing it essentially means loosing access to the crypto it controls. Note that it's impossible for someone (even the most powerful computer) to guess that key, even if it tries to do it over a billion years. 
+Révéler la clé cryptographique à quelqu'un ou la perdre signifie essentiellement perdre l'accès à la cryptographie qu'elle contrôle. Notez qu'il est impossible pour quelqu'un (même avec l'ordinateur le plus puissant) de deviner cette clé, même s'il essaie de le faire pendant un milliard d'années.
 
-It was not uncommon to see people loosing key to their Bitcoins in the early days. As a result a lot of Bitcoins (maybe 10-15%) ended up dormant this way. The Bitcoins are still out there, but the cryptographic key controlling these Bitcoins is lost.
+Dans les premiers temps, il n'était pas rare de voir les gens perdre la clé de leurs Bitcoins. En conséquence, beaucoup de Bitcoins (peut-être 10-15 %) se sont retrouvés en dormance de cette façon. Les Bitcoins existent toujours, mais la clé cryptographique qui les contrôle est perdue.
 
-In practical terms, the private key can be thought of as a secure alternative to traditional username and password authentication method but without the means to recover if lost.
+En termes pratiques, la clé privée peut être considérée comme une alternative sûre à la méthode traditionnelle d'authentification par nom d'utilisateur et mot de passe, mais sans les moyens de la récupérer en cas de perte.
 
-## Cryptocurrency Wallets
+## Portefeuilles de cryptomonnaie
 
-Cryptocurrency wallets are merely the instruments meant to hold and manage cryptographic keys. 
+Les portefeuilles de cryptomonnaies ne sont que les instruments destinés à conserver et à gérer les clés cryptographiques.
 
->**The wallets do not physically store cryptocurrencies, instead wallets store cryptographic keys which can exercise over certain amount of cryptocurrencies.**
+>**Les portefeuilles ne stockent pas physiquement des cryptomonnaies, mais plutôt des clés cryptographiques qui peuvent s'exercer sur une certaine quantité de cryptomonnaies.**
 
-Genuine cryptocurrency wallets enable safe and private storage of cryptographic keys. We deliberately said "genuine" because cryptocurrency wallets come in many forms. 
+Les véritables portefeuilles de cryptomonnaies permettent de stocker les clés cryptographiques de manière sûre et privée. Nous avons délibérément utilisé le mot " véritable " car les portefeuilles de cryptomonnaies se présentent sous de nombreuses formes.
 
-Building genuine wallet is significantly more difficult and thus most wallet providers build pseudo currency wallets. Pseudo wallets do not provide users with a genuine control over the assets.
+Il est beaucoup plus difficile de constituer un véritable portefeuille et la plupart des fournisseurs de portefeuilles construisent donc des portefeuilles de pseudo-monnaie. Les pseudo portefeuilles ne fournissent pas aux utilisateurs un véritable contrôle sur les actifs.
 
-While there are a lot of things that can potentially be taken into account when it comes evaluating wallets in this section we are going to focus on the core principle. The unconditional ownership!
+Bien que beaucoup de choses puissent potentiellement être prises en compte lorsqu'il s'agit d'évaluer les portefeuilles, dans cette section nous allons nous concentrer sur le principe de base. La propriété inconditionnelle !
 
-The minimum requirement for any decent wallet should be full unconditional ownership by the user over the funds the wallet holds.
+L'exigence minimale pour tout portefeuille digne de ce nom devrait être la pleine propriété inconditionnelle de l'utilisateur sur les fonds qu'il détient.
 
-Not all wallet are equal in that regard. Depending on how the wallet built it may provide full unconditional ownership over the crypto, partial or none at all.
+A cet égard, tous les portefeuilles ne sont pas équivalents. Selon la façon dont le portefeuille a été construit, il peut offrir une propriété inconditionnelle totale, partielle ou nulle sur la crypto.
 
-### 1) Non-Custodial Wallets
+### 1) Portefeuilles non privatifs de liberté
 
-A non-custodial wallet type gives the user exclusive control over their funds. The entity providing the wallet does not have any control over the user assets. 
+Un portefeuille de type non privatif donne à l'utilisateur un contrôle exclusif sur ses fonds. L'entité qui fournit le portefeuille n'a aucun contrôle sur les actifs de l'utilisateur.
 
-Such wallets are theoretically the most secure form of a cryptocurrency wallet as no third-party can interfere with the wallet funds. The user has exclusive control over the funds and doesn't have to trust any entity.
+Ces portefeuilles sont théoriquement la forme la plus sûre de portefeuille de cryptomonnaies car aucun tiers ne peut interférer avec les fonds du portefeuille. L'utilisateur a un contrôle exclusif sur les fonds et il n'a besoin de faire confiance à aucune entité.
 
-Non-custodial wallets keep the wallet code open to the public for scrutiny.
+Les portefeuilles non privatifs de liberté gardent le code du portefeuille ouvert au public pour examen.
 
->**The users of non-custodial wallets expected to have an understanding that funds on the wallet are under exclusive control of the user.**
+>**Les utilisateurs de portefeuilles non privatifs de liberté sont censés comprendre que les fonds contenus dans le portefeuille sont sous le contrôle exclusif de l'utilisateur.**
 >
->**User get full control as well as full responsibility when dealing with crypto assets on the wallet.**
+>**L'utilisateur a le plein contrôle et l'entière responsabilité de la gestion des ressources cryptographiques contenues dans son portefeuille.**
 
-This is the only type of wallet we recommend for safe storage. In the later sections we are going to look deeper into the differences between various non-custodial wallets and risks associated with them.
+C'est le seul type de portefeuille que nous recommandons pour une utilisation en toute sécurité. Un peu plus loin, nous allons examiner plus en détail les différences entre les divers portefeuilles non privatifs de liberté et les risques qui y sont associés.
 
-### 2) Custodial Wallets
+### 2) Portefeuilles non privatifs de liberté
 
-A custodial wallet does not give the user exclusive control over the crypto funds on the wallet. A wallet provider basically gives "pseudo" wallet that shows balance and transactions. 
+Un portefeuille privatif ne donne pas à l'utilisateur un contrôle exclusif sur les fonds cryptés qu'il contient. Un fournisseur de portefeuille offre essentiellement un "pseudo" portefeuille qui indique le solde et les transactions.
 
-Whenever user executes a transaction it's the wallet provider who actually sends those funds on user's behalf. Such wallets are the least secure wallets. The users' funds and access to them are fully in the hands of the wallet provider. 
+Chaque fois qu'un utilisateur effectue une transaction, c'est le fournisseur de portefeuille qui envoie effectivement les fonds au nom de l'utilisateur. Ces portefeuilles sont les moins sûrs. Les fonds des utilisateurs et l'accès à ceux-ci sont entièrement entre les mains du fournisseur de portefeuille.
 
->**A wallet provider may easily block a user from accessing the wallet or even freeze the funds.**
+>**Un fournisseur de portefeuille peut facilement bloquer l'accès d'un utilisateur au portefeuille ou même geler les fonds.**
 > 
->**Unlike banks which also act as a middleman wallet providers are not financial institutions and thus not as regulated. There is a lot of risk for users holding large amount of cryptocurrency on custodial wallets.**
+>**Contrairement aux banques qui agissent également en tant qu'intermédiaires, les fournisseurs de portefeuilles ne sont pas des institutions financières et ne sont donc pas aussi réglementés. Il y a beaucoup de risques pour les utilisateurs qui détiennent une grande quantité de cryptomonnaies dans leur portefeuille privatifs.**
 
-Furthermore, custodial wallets are not private as the wallet provider knows full transaction history of the user.
+En outre, ces portefeuilles ne sont pas privés car le prestataire du portefeuille connaît l'historique complet des transactions de l'utilisateur.
 
-It should be noted that cryptocurrency exchanges usually provide users with custodial wallets. Therefore, it's not advised to use wallet provided by cryptocurrency exchange for keeping cryptocurrency for extended periods.
+Il convient de noter que les bourses de cryptomonnaies fournissent généralement aux utilisateurs des portefeuilles privatifs. Il est donc déconseillé d'utiliser un portefeuille fourni par une plateforme de trading pour conserver une cryptomonnaie sur une longue période.
 
->**If you leave crypto funds on cryptocurrency exchange, or any type of custodial wallet, the funds are vulnerable to hacking or other types of data breaches. This happened a lot in the past and likely to happen in the future.**
+>**Si vous laissez des fonds cryptés sur une plateforme de trading de cryptomonnaies, ou sur tout autre type de portefeuille privatif, les fonds sont vulnérables au piratage ou à d'autres types de brèches de données. Cela s'est déjà produit souvent dans le passé et risque de se reproduire à l'avenir.**
 
-When your funds remain on the custodial wallet, the wallet provider could feasibly freeze funds, restrict your usage, or even block you from your wallet/account without warning.
+Lorsque vos fonds restent sur un portefeuille privatif, le fournisseur du portefeuille peut, en pratique, geler les fonds, restreindre votre utilisation ou même vous bloquer de votre portefeuille/compte sans avertissement.
 
-Majority of the popular wallets out there are unfortunately of custodial nature.
+La majorité des portefeuilles prisés qui existent sont malheureusement de nature privative.
 
 ![](../images/02-03-l.png)
 
-### 3) Hybrid Wallets
+### 3) Portefeuilles hybrides
 
-Neither the wallet owner or the wallet provider has full control over the wallet funds. A hybrid wallet programmed to require approval from both parties before the funds can be spent. 
+Ni le propriétaire ni le fournisseur du portefeuille n'ont un contrôle total sur les fonds du portefeuille. Un portefeuille hybride est programmé pour nécessiter l'approbation des deux partis avant que les fonds puissent être dépensés.
 
-The hybrid wallet system protects against hacking wallet provider but opens the door for wallet provider to censor users in certain scenarios.
+Le système de portefeuille hybride protège contre le piratage du fournisseur de portefeuille, mais ouvre la porte au fournisseur de portefeuille pour censurer les utilisateurs dans certains scénarios.
 
-Only when using non-custodial wallet you can be sure the funds are indeed under your control and not dependent on any third party.
+Ce n’est que lorsque vous utilisez un portefeuille non privatif de liberté que vous pouvez être sûr que les fonds sont bien sous votre contrôle et ne dépendent d’aucun tiers.

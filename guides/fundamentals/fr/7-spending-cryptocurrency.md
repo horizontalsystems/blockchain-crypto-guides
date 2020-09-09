@@ -1,22 +1,22 @@
 ![](../images/07-main-l.png)
 
-# Spending Cryptocurrency
+# Dépenser la crypto-monnaie
 
-The ability to pay with Bitcoin or with some other cryptocurrency in stores remains uncommon. 
+La possibilité de payer avec Bitcoin ou avec une autre cryptomonnaie dans le commerce reste peu courante.
 
-While some merchants are slowly starting to accept payments in Bitcoin, the vast majority of retailers are still not on board. 
+Bien que certains commerçants commencent lentement à accepter les paiements en Bitcoin, la grande majorité des détaillants ne sont pas encore convaincus.
 
-There are many reasons for the lack of adoption, primarily the absence of legal and regulatory guidelines when it comes to transacting and taxing cryptocurrencies.
+De nombreuses raisons expliquent ce phénomène, principalement l'absence de directives légales et réglementaires en matière de transactions et de taxation de la cryptomonnaie.
 
-## Crypto Debit Cards
+## Cartes de débit crypto
 
-That said, there are some ways to spend your cryptocurrency. A number of companies provide debit cards which are tied to crypto on your balance and can be used to pay anywhere where Visa, MasterCard etc is accepted. 
+Cela dit, il existe plusieurs façons de dépenser votre cryptomonnaie. Un certain nombre de sociétés fournissent des cartes de débit qui sont liées au solde d'une crypto et peuvent être utilisées pour payer partout où les cartes Visa, MasterCard, etc. sont acceptées.
 
-1. You pay with a card as you would normally do. The card can also be used to withdraw cash from an ATM.
-2. The debit amount deducted from your crypto wallet balance using the current market rates.
-3. Depending on the card provider some additional fee or perks such as cashback rewards may apply.
+1. Vous réglez avec une carte comme vous le faites normalement. Vous pouvez également utiliser la carte pour retirer de l'argent liquide à un distributeur automatique.
+2. Le montant du débit est déduit du solde de votre portefeuille crypté en utilisant les taux actuels du marché.
+3. Des frais supplémentaires ou des avantages tels que les récompenses de remise en espèces peuvent s'appliquer selon l'émetteur de la carte.
 
-Below, you will see some of the more popular providers of crypto debit cards. Most of them are currently available to people living in the US or Europe. 
+Vous trouverez ci-dessous certains des émetteurs de cartes de débit crypto les plus prisés. La plupart sont actuellement disponibles pour les personnes vivant aux États-Unis ou en Europe.
  
 - [Crypterium.com](https://cards.crypterium.com)
 - [Crypto.com](https://crypto.com/en/cards.html)
@@ -25,12 +25,12 @@ Below, you will see some of the more popular providers of crypto debit cards. Mo
 - [Cryptopay.me](https://cryptopay.me/bitcoin-debit-card)
 - [2gether.global](https://www.2gether.global/card.html)
 
-Note that, all crypto debit card providers will require some kind of identification documents.
+Notez que tous les émetteurs de cartes de débit crypto exigent des documents d'identification.
 
-## What To Know
+## Ce qu’il faut savoir
 
-When using the services, the card provider will usually issue you with a custodial cryptocurrency wallet that will be used as a source of funds for your card. 
+Lors de la demande de services, l'émetteur de la carte vous remettra généralement un portefeuille privatif qui sera utilisé comme source de fonds pour votre carte.
 
-> **The wallet provided by a debit card provider will be a custodial wallet and therefore, you should never keep a lot of funds on it.**
+> **Le portefeuille fourni par l'émetteur de la carte de débit sera un portefeuille privatif et, par conséquent, vous ne devriez jamais garder beaucoup de fonds dessus.**
 
-Use a non-custodial wallet for your primary funds and occasionally top up the wallet provided by a card provider with amounts you're a planning to spend in the near term. 
+Utilisez un portefeuille non-privatif pour vos fonds principaux et, à l'occasion, complétez le portefeuille fourni par l'émetteur de la carte avec les montants que vous prévoyez de dépenser à court terme.

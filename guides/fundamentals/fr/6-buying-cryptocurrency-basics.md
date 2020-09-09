@@ -1,22 +1,22 @@
 ![](../images/06-main-l.png)
 
-# Buying Cryptocurrency
+# Achat de cryptomonnaie
 
-By now you are expected to have a solid understanding of basics when it comes to dealing with cryptocurrencies and wallets.
+À ce stade, vous devriez avoir acquis de solides connaissances de base en matière de cryptomonnaie et de portefeuille.
 
-In this section let's explore various ways of acquiring cryptocurrency.
+Dans cette section, nous allons explorer les différentes façons d'acquérir de la cryptomonnaie.
 
-- buying with credit card
-- buying on centralized exchange
-- getting paid in crypto
-- buying with cash
-- buying on decentralized exchange
+- acheter avec carte de crédit
+- achat sur plateforme d'échange
+- être payé en crypto
+- acheter avec du liquide
+- acheter sur une plateforme d'échange décentralisée
 
-## 1. Buying Crypto With Credit Card
+## 1. Achat de crypto avec carte de crédit
 
-The easiest option for buying smaller amounts is using a credit or debit card. While the option to buy cryptocurrency is convenient, you often pay a slight premium for the privilege. 
+L'option la plus simple pour les achats de petits montants est d'utiliser une carte de crédit ou de débit. Bien que cette option soit pratique, vous payez souvent une petite majoration pour ce privilège.
 
-The following list contains safe websites and services to purchase cryptocurrency using a credit or debit card. 
+La liste suivante contient des sites Web et des services sûrs pour acheter de la cryptomonnaie en utilisant une carte de crédit ou de débit.
 
 1. [Binance.com](https://www.binance.com/en/register?ref=42579924)
 2. [Cex.io](https://cex.io/r/2/up131140473/2)
@@ -24,35 +24,35 @@ The following list contains safe websites and services to purchase cryptocurrenc
 4. [Coinbase.com](https://coinbase.com)
 5. [Coinmama.com](https://go.coinmama.com/visit/?bta=61248&nci=5370)
 
-The majority of these websites will work without fail for EU and US residents. However, those living in other areas of the world may find fewer opportunities.
+La majorité de ces sites Web fonctionneront sans problème pour les résidents de l'UE et des États-Unis. Cependant, ceux qui vivent dans d'autres régions du monde risquent de trouver moins d'opportunités.
 
-## 2. Buying Crypto On Exchange
+## 2. Achat de crypto sur une plateforme d'échange
 
-If you plan to acquire a large amount of cryptocurrency, you should consider signing up to and using an exchange. A cryptocurrency exchange will usually feature a more competitive price than a straight credit card. 
+Si vous prévoyez d'acquérir une grande quantité de cryptomonnaie, vous devriez envisager de vous inscrire auprès d'un bureau de change et de l'utiliser. Une plateforme pour cryptomonnaie propose généralement des tarifs plus compétitifs qu'une carte de crédit classique.
 
-A cryptocurrency exchange lists hundreds of different cryptocurrencies which you can trade for fiat currency like USD or other cryptocurrencies. Trading on an exchange may sound confusing if you have never traded stocks, but it isn't difficult once you get into the swing of things. 
+Une plateforme de change répertorie des centaines de cryptomonnaies différentes que vous pouvez échanger contre des devises fiduciaires comme le dollar américain ou d'autres cryptomonnaies. Négocier sur une plateforme d'échange peut sembler déroutant si vous n'avez jamais négocié d'actions, mais ce n'est pas difficile une fois que vous en avez pris l'habitude.
 
-Cryptocurrency exchanges must adhere to local currency dealing laws. Financial regulations vary from country to country, so not all exchanges are available around the globe. 
+Les échanges en cryptomonnaie sont soumis aux lois locales sur les opérations en devises. Les réglementations financières varient d'un pays à l'autre, de sorte que toutes les plateformes ne sont pas accessibles dans le monde entier.
 
-Most cryptocurrency exchanges will practice Know Your Customer ([KYC](https://en.wikipedia.org/wiki/Know_your_customer)) and Anti-Money Laundering ([AML](https://en.wikipedia.org/wiki/Money_laundering#Combating)) checks before allowing you to make your first cryptocurrency purchase.
+La plupart des plateformes d'échanges de cryptomonnaie mettent en pratique les principes de connaissance client ([KYC](https://en.wikipedia.org/wiki/Know_your_customer)) et de lutte contre le blanchiment d'argent ([AML](https://en.wikipedia.org/wiki/Money_laundering#Combating)) avant de vous permettre d'effectuer votre premier achat de cryptomonnaie.
 
-Cryptocurrency exchanges and even some peer-to-peer crypto vendors practice these regulations to ensure they are not handling stolen fiat currency or engaging with identity fraud.
+Les plateformes d'échange, et même certains fournisseurs de crypto pair à pair pratiquent ces réglementations pour s'assurer de ne pas manipuler de la monnaie fiduciaire volée ou de ne pas être impliqués dans un vol d'identité.
 
-The process for purchasing cryptocurrency on an exchange usually goes as follows:
+Le processus d'achat de cryptomonnaie sur une plateforme d'échange se déroule généralement comme suit :
 
-1. Create an account on exchange
-2. Verify identity
-3. Transfer funds to your account
-4. Purchase cryptocurrency
-5. Withdraw cryptocurrency to a wallet
+1. création d'un compte sur la plateforme
+2. vérification d'identité
+3. transfert des fonds sur votre compte
+4. achat de crypto-monnaie
+5. retrait de cryptomonnaie d'un portefeuille
 
-The amount you can purchase on an exchange usually changes depending on the level of verification. 
+Le montant que vous pouvez dépenser sur une plateforme d'échange varie généralement en fonction du niveau de vérification.
 
-For example, if you sign-up and verify your email address on an exchange, you can purchase $500-$1000 worth of Bitcoin. However, if you sign-up, verify your email address, add an official ID document, and verify your address, you can purchase a lot more. 
+Si vous vous inscrivez et vérifiez votre adresse électronique sur une plateforme d'échange, par exemple, vous pouvez acheter pour 500 à 1000 dollars de Bitcoin. Toutefois, si vous vous inscrivez, vérifiez votre adresse électronique, ajoutez une pièce d'identité officielle et vérifiez votre adresse, vous pouvez acheter beaucoup plus.
 
-While this is a fictional example, many exchanges use a similar tiered approach to user verification. 
+Bien que ceci soit un exemple fictif, de nombreuses plateformes d'échange utilisent une approche à plusieurs niveaux similaire en matière de vérification des utilisateurs.
 
-Here is a list of trusted cryptocurrency exchanges:
+Voici une liste de plateformes d'échange de cryptomonnaie de confiance :
 
 * [Binance.com](https://www.binance.com/en/register?ref=42579924)
 * [Coinbase.com](https://coinbase.com)
@@ -60,52 +60,52 @@ Here is a list of trusted cryptocurrency exchanges:
 * [Kraken.com](https://kraken.com)
 * [Coinmama.com](https://go.coinmama.com/visit/?bta=61248&nci=5343)
 
-## 3. Getting Paid In Crypto
+## 3. Être payé en crypto
 
-It's not uncommon these days for online freelancers to accept cryptocurrencies as a means of payment. 
+De nos jours, il n'est pas rare que les travailleurs indépendants en ligne acceptent la cryptomonnaie comme moyen de paiement.
 
-If you provide some kind of services online or have an online store look for the ways to accept payments in cryptocurrencies. There are several options available including services like [BitPay.com](https://bitpay.com) or the one from [Coinbase](https://commerce.coinbase.com).
+Si vous fournissez des services en ligne ou si vous avez une boutique en ligne et que vous cherchez à accepter des paiements en cryptomonnaie. Il existe plusieurs options disponibles, y compris des [BitPay.com](https://bitpay.com) ou celui de [Coinbase](https://commerce.coinbase.com).
 
-There are also free DIY solutions like [BTCPayServer](https://btcpayserver.org) if you familiar with programming.
+Il existe également des solutions à réaliser soi-même, comme [BTCPayServer](https://btcpayserver.org) par exemple , si vous êtes un habitué de la programmation.
 
-Should you need a thorough overview of the options available check out [this video](https://www.youtube.com/watch?v=OA08wZNvN8c) on Youtube.
+Si vous souhaitez avoir un aperçu complet des options disponibles, veuillez consulter  [cette video](https://www.youtube.com/watch?v=OA08wZNvN8c) sur Youtube.
 
-You can also just use a non-custodial cryptocurrency wallet to receive payments directly.
+Vous pouvez aussi simplement utiliser un portefeuille de cryptomonnaie non-privatif pour recevoir directement les paiements.
 
-## 4. Buying via P2P Platform
+## Achat via la plate-forme P2P
 
-If you know someone who would be willing to sell you some crypto then buying it with cash is not a bad idea. In fact most people make get their first cryptocurrency from someone they know.
+Si vous connaissez quelqu'un qui serait prêt à vous vendre une crypto, alors la payer en liquide n'est pas une mauvaise idée. En fait, la plupart des gens se procurent leur première cryptomonnaie auprès de quelqu'un qu'ils connaissent.
 
-For that you only need a non-custodial wallet. Open the app, copy the 'receive' address for the cryptocurrency you plan on receiving, send it to the sender and wait for the cryptocurrency to appear in your wallet.
+Pour cela, vous n'avez besoin que d'un portefeuille non-privatif. Ouvrez l'application, copiez l'adresse de réception de la cryptomonnaie que vous prévoyez de recevoir, envoyez-la à l'expéditeur et attendez que la cryptomonnaie apparaisse dans votre portefeuille.
 
-There are also P2P platforms like [LocalBitcoins.com](https://localbitcoins.com) and [Bisq](https://bisq.network) which connect buyers and sellers from different regions allowing them to exchange assets via various options. 
+Il existe également des plateformes P2P comme [LocalBitcoins.com](https://localbitcoins.com) et [Bisq](https://bisq.network) qui mettent en relation des acheteurs et des vendeurs de différentes régions, leur permettant d'échanger des actifs via diverses options. 
 
-Such platforms might be useful in regions where access to cryptocurrency exchanges listed above is not an option. 
+Ces plateformes peuvent être utiles dans les régions où l'accès aux plateformes d'échange de cryptomonnaie énumérées ci-dessus n'est pas envisageable.
 
-While a lot of people are using those platforms there is a lot of risks. It's hard to know whether the selling party is a legit one and not a scammer trying to rob you. 
+Bien que de nombreuses personnes utilisent ces plates-formes, il existe de nombreux risques. Il est difficile de savoir si le vendeur est légitime et s'il ne s'agit pas d'un escroc qui essaie de vous escroquer.
 
-Thus, be careful and proceed with care before transacting with large sums.
+Soyez donc prudent et procédez avec précaution avant d'effectuer des transactions avec de grosses sommes.
 
-## 5. Buying on Decentralized Exchange
+## 5. Acheter sur une plateforme d'échange décentralisée
 
-Decentralized Exchange (aka DEX) is a fairly new phenomena. Just like the cryptocurrency itself, decentralized exchanges utilize the blockchain technology to provide a platform for direct cryptocurrency exchanges. 
+La plateforme d'échange décentralisée (ou DEX) est un phénomène relativement nouveau. Tout comme la cryptomonnaie elle-même, les échanges décentralisés utilisent la technologie des blockchains pour proposer une plateforme d'échanges directs de cryptomonnaie. 
 
-Generally, a decentralized exchange is the most secure and private way to purchase cryptocurrency. At the moment, most such exchanges work only for exchanging Ethereum and Ethereum based tokens.
+En général, une plateforme d'échange décentralisée est le moyen le plus sûr et le plus discret d'acheter de la cryptomonnaie. À l'heure actuelle, la plupart de ces plateformes d'échange ne fonctionnent que pour l'échange d'Ethereum et de tokens basés sur Ethereum.
 
-Decentralized exchanges connect buyers and sellers in a peer to peer manner according to a pre-programmed protocol. There is no room to cheat for any party.
+Les plateformes d'échange décentralisées connectent les acheteurs et les vendeurs de manière pair à pair selon un protocole pré-programmé. Il n'y a pas de place pour tricher, quelle que soit le tiers.
 
-Decentralized Exchanges:
+Échanges décentralisés :
 
 - [https://kyberswap.com](https://kyberswap.com)
 - [https://uniswap.exchange](https://uniswap.exchange/swap)
 
-Expect to encounter following issues on most decentralized exchanges:
+Attendez-vous à rencontrer les problèmes suivants sur la plupart des plateformes d'échange décentralisées :
 
-- most such exchanges support trading only with Ethereum-based assets
-- no ways to deposit or withdraw fiat currencies i.e. USD, EUR etc
-- generally lower trading volumes and liquidity 
-- technical and complex to use 
+- La plupart de ces échanges ne prennent pas en charge le trading qu'avec des actifs basés sur Ethereum.
+- Aucun moyen de déposer ou de retirer des devises fiduciaires, par exemple USD, EUR, etc.
+- Des volumes de transactions et une liquidité généralement plus faibles.
+- Technique et complexe à utiliser.
 
-Such exchanges usually do not require account verification of any kind. There are no limitations in the amount that can be sold or purchased. Generally no data collected about the user.
+Ces échanges ne nécessitent généralement aucune vérification de compte. Il n'y a pas de limites quant au montant qui peut être mis en vente ou acheté. Généralement aucune donnée collectée sur l'utilisateur.
 
-At this point in time it's fairly difficult for a beginner level user to participate in those.
+À l'heure actuelle, il est assez difficile pour un utilisateur de niveau débutant d'y participer.
