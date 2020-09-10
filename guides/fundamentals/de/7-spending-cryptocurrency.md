@@ -1,22 +1,22 @@
 ![](../images/07-main-l.png)
 
-# Spending Cryptocurrency
+# Kryptowährung ausgeben
 
-The ability to pay with Bitcoin or with some other cryptocurrency in stores remains uncommon. 
+Die Möglichkeit, mit Bitcoin oder mit einer anderen Kryptowährung in Geschäften zu bezahlen, ist nach wie vor unüblich.
 
-While some merchants are slowly starting to accept payments in Bitcoin, the vast majority of retailers are still not on board. 
+Während einige Händler langsam anfangen, Zahlungen in Bitcoin zu akzeptieren, ist die große Mehrheit der Einzelhändler noch immer nicht eingestiegen.
 
-There are many reasons for the lack of adoption, primarily the absence of legal and regulatory guidelines when it comes to transacting and taxing cryptocurrencies.
+Es gibt viele Gründe für die mangelnde Akzeptanz, vor allem das Fehlen rechtlicher und regulatorischer Richtlinien bei der Abwicklung und Besteuerung von Kryptowährungen.
 
-## Crypto Debit Cards
+## Krypto-Debitkarten
 
-That said, there are some ways to spend your cryptocurrency. A number of companies provide debit cards which are tied to crypto on your balance and can be used to pay anywhere where Visa, MasterCard etc is accepted. 
+Es gibt jedoch einige Möglichkeiten, Ihre Kryptowährung auszugeben. Zahlreiche Unternehmen bieten Debitkarten an, die mit Ihrem Saldo an die Kryptowährung gebunden sind und mit denen Sie überall dort bezahlen können, wo Visa, MasterCard usw. akzeptiert werden.
 
-1. You pay with a card as you would normally do. The card can also be used to withdraw cash from an ATM.
-2. The debit amount deducted from your crypto wallet balance using the current market rates.
-3. Depending on the card provider some additional fee or perks such as cashback rewards may apply.
+1. Sie bezahlen mit einer Karte, wie Sie es normalerweise tun würden. Mit der Karte können Sie auch Bargeld an einem Geldautomaten abheben.
+2. Der Lastschriftbetrag wird von Ihrem Krypto-Wallet-Saldo abgezogen, wobei die aktuellen Marktkurse verwendet werden.
+3. Je nach Kartenanbieter können zusätzliche Gebühren oder Vergünstigungen wie Cashback-Prämien anfallen.
 
-Below, you will see some of the more popular providers of crypto debit cards. Most of them are currently available to people living in the US or Europe. 
+Nachfolgend sehen Sie einige Anbieter von Krypto-Debitkarten, die populärer sind. Die meisten davon sind derzeit für Personen verfügbar, die in den USA oder Europa leben.
  
 - [Crypterium.com](https://cards.crypterium.com)
 - [Crypto.com](https://crypto.com/en/cards.html)
@@ -25,12 +25,12 @@ Below, you will see some of the more popular providers of crypto debit cards. Mo
 - [Cryptopay.me](https://cryptopay.me/bitcoin-debit-card)
 - [2gether.global](https://www.2gether.global/card.html)
 
-Note that, all crypto debit card providers will require some kind of identification documents.
+Beachten Sie, dass alle Anbieter von Krypto-Debitkarten eine Art Ausweisdokument verlangen.
 
-## What To Know
+## Was Sie wissen sollten
 
-When using the services, the card provider will usually issue you with a custodial cryptocurrency wallet that will be used as a source of funds for your card. 
+Wenn Sie die Dienstleistungen in Anspruch nehmen, stellt Ihnen der Kartenanbieter in der Regel ein Custodial Wallet für die Kryptowährung aus, das als Geldquelle für Ihre Karte dient.
 
-> **The wallet provided by a debit card provider will be a custodial wallet and therefore, you should never keep a lot of funds on it.**
+> **Das von einem Debitkarten-Anbieter zur Verfügung gestellte Wallet wird eine Custodial Wallet sein, weshalb Sie keinesfalls viel Geld darauf aufbewahren sollten.**
 
-Use a non-custodial wallet for your primary funds and occasionally top up the wallet provided by a card provider with amounts you're a planning to spend in the near term. 
+Verwenden Sie eine Non-Custodial Wallet für Ihr Hauptguthaben und laden Sie gelegentlich das von einem Kartenanbieter zur Verfügung gestellte Wallet mit Beträgen auf, die Sie in naher Zukunft ausgeben möchten.

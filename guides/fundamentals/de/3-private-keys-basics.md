@@ -1,66 +1,66 @@
-![](../images/03-main-l.png)
+``![](../images/03-main-l.png)
 
 # Private Keys
 
-As we covered earlier, genuine cryptocurrency wallets store cryptographic keys that have control over certain amount of cryptocurrency.
+Wie bereits erwähnt, speichern echte Kryptowährung-Wallets kryptographische Schlüssel, die die Kontrolle über eine bestimmte Menge an Kryptowährung haben.
 
-From that cryptographic key the wallet app can understand the amount of cryptocurrency user owns as well as derive past transactions associated with the wallet. This cryptographic key usually referred to as private key. 
+Anhand dieses kryptografischen Schlüssels kann die Wallet-App die Menge an Kryptowährung, die der Benutzer besitzt, erkennen und frühere Transaktionen im Zusammenhang mit dem Wallet ableiten. Dieser kryptografische Schlüssel wird gewöhnlich als Private Key bezeichnet.
 
-> **The wallet app is an instrument that essentially stores your private key. This private key is what gives you control over certain amount of cryptocurrency.**
+> **Die Wallet-App ist ein Instrument, das im Wesentlichen Ihren Private Key speichert. Dieser Private Key gibt Ihnen die Kontrolle über eine bestimmte Menge an Kryptowährung.**
 >
-> **The non-custodial wallet app uses private key to retrieve cryptocurrency balances and past transactions from the blockchain.**
+> **Die Non-Custodial Wallet-App verwendet Private Keys, um Kryptowährung-Salden und vergangene Transaktionen aus der Blockchain abzurufen.**
 
-We are not going to explain how the private keys work under the hood. Just know that a term private key usually refers to a cryptographic key we talked about earlier.
+Wir werden nicht erklären, wie die Private Keys im Verborgenen funktionieren. Sie sollten nur wissen, dass sich der Begriff Private Key gewöhnlich auf einen kryptographischen Schlüssel bezieht, über den wir vorhin gesprochen haben.
 
-Below, we are going to look a bit deeper into security aspects to give you a better understanding of private keys, and the related security aspects.
+Im Folgenden gehen wir etwas tiefer auf Sicherheitsaspekte ein, um Ihnen ein besseres Verständnis der Private Keys und der damit verbundenen Sicherheitsaspekte zu vermitteln.
 
-## 1. Keep Key Private
+## 1. Schlüssel privat halten
 
-Quite often scammers (by impersonating wallet support teams) trick users into sharing their private keys. When a user shares the key the scammer steals the funds on the balance. 
+Häufig täuschen Betrüger (indem sie sich als Wallet-Support-Teams ausgeben) Benutzer dazu, ihre Private Keys weiterzugeben. Wenn ein Benutzer den Schlüssel weitergibt, stiehlt der Betrüger das Guthaben.
 
-> **There is absolutely no valid reason for you as a wallet app user to ever share the private keys with anyone. This applies to all wallets.**
+> **Für Sie als Benutzer der Wallet-App gibt es absolut keinen triftigen Grund, die Private Keys jemals mit jemandem zu teilen. Dies gilt für alle Wallets.**
 >
-> **Never reveal your private key to anyone, even when you're communicating with people who built your wallet app.**
+> **Geben Sie Ihren Private Key niemals an Dritte weiter, auch nicht, wenn Sie mit Personen kommunizieren, die Ihre Wallet-App entwickelt haben.**
 
-You may reveal your private key to someone only when you intentionally want to pass the ownership of your funds to that person. Almost all non-custodial wallet provides means for the user to access and view private key from within the wallet app.
+Sie dürfen Ihren Private Key nur dann jemandem gegenüber offen legen, wenn Sie das Eigentum Ihrer Geldmittel absichtlich auf diese Person übertragen wollen. Fast alle Non-Custodial Wallets bieten dem Benutzer die Möglichkeit, von der Wallet-App aus auf den Private Key zuzugreifen und diesen einzusehen.
 
 ## 2. Backup Key
 
-Most non-custodial wallet apps show the private key during the wallet app setup. The wallet app usually prompts user to write down the private key and store it somewhere safely offline.
+Die meisten Apps für Non-Custodial Wallets zeigen den Private Key bei der Einrichtung der Wallet-App an. Die Wallet-App fordert den Benutzer normalerweise auf, den Private Key aufzuschreiben und ihn an einem sicheren Ort offline zu speichern.
  
-> **The private key is the only way to restore access to funds in case the device with the wallet app become inaccessible i.e. if it gets stolen or simply stops working.**
+> **Der Private Key ist die einzige Möglichkeit, den Zugriff auf Gelder wiederherzustellen, falls das Gerät mit der Wallet-App unzugänglich wird, d.h. wenn es gestohlen wird oder einfach nicht mehr funktioniert.**
 
-To make it easier to backup the private key, blockchain engineers came up with a way to convert the private key to a plain set of 12 or 24 regular words. 
+Um die Sicherung des Private Keys zu erleichtern, haben sich die Blockchain-Ingenieure eine Möglichkeit ausgedacht, den Private Key in einen einfachen Satz von 12 oder 24 regulären Wörtern umzuwandeln.
 
-Most non-custodial wallets will display the private key in a human-readable form, generally in a form 12/24 words.
+Die meisten Non-Custodial Wallets zeigen den Private Key in einer von Menschen lesbaren Form, im Allgemeinen in einer Form von 12/24 Worten.
 
 ![](../images/03-02-l.png)
 
-Backup the private key and make sure there are no typos in your backup. Other than actual words, the ordering is just as important. 
+Sichern Sie den Private Key und stellen Sie sicher, dass Ihre Sicherung keine Tippfehler enthält. Abgesehen von den eigentlichen Wörtern ist die Reihenfolge genauso wichtig.
 
-> **If you lose or unknowingly expose the private key to someone, they can get control of your cryptocurrency.**
+> **Wenn Sie den Private Key verlieren oder ihn unwissentlich jemandem preisgeben, kann dieser die Kontrolle über Ihre Kryptowährung erlangen.**
 
-The 12/24 words should be backed up in the correct order. A non-custodial wallet may understand if you make a typo in one of the words and show an appropriate warning. 
+Die 12/24 Wörter sollten in der richtigen Reihenfolge hinterlegt werden. Ein Non-Custodial Wallet erkennt, wenn Sie in einem der Wörter einen Tippfehler machen und eine entsprechende Warnung anzeigen.
 
-If the words positioned incorrectly a non-custodial wallet will still restore some random wallet, it just won't be yours. So, the correct order is just as important.
+Wenn die Wörter falsch angeordnet sind, wird ein Non-Custodial Wallet trotzdem ein zufälliges Wallet wiederherstellen, es wird nur nicht Ihres sein. Die richtige Reihenfolge ist also genauso wichtig.
 
-## 3. Private Key Generation
+## 3. Generieren eines Private Key
 
-When you first setup a non-custodial wallet app, the code powering the wallet app randomly generates a secure private key for you. For the private key to be truly secure it's important for a wallet app to generate a private key which is truly random.
+Wenn Sie eine Non-Custodial Wallet-App zum ersten Mal einrichten, erzeugt der für die Wallet-App verwendete Code zufällig einen sicheren Private Key für Sie. Damit der Private Key wirklich sicher ist, ist es wichtig, dass eine Wallet-App einen wirklich zufällig generierten Private Key erzeugt.
 
-> **If the private key generated by a non-custodial wallet is not random then the wallet is not safe.**
+> **Wenn der von einem Non-Custodial Wallet erzeugte Private Key nicht zufällig ist, ist das Wallet nicht sicher.**
 
-That's one of the reasons why non-custodial wallets keep the code open. Third-party engineers can then analyze the code and check whether the wallet app generates the private key correctly.
+Das ist einer der Gründe, warum Non-Custodial Wallets den Code offen halten. Techniker Dritter können dann den Code analysieren und prüfen, ob die Wallet-App den Private Key korrekt generiert.
 
-There are websites like [WalletScrutiny.com](https://walletscrutiny.com) which exist to ensure wallets published on Google Play in fact use the same code as the code publicly shared with the community.
+Es gibt Websites wie [WalletScrutiny.com](https://walletscrutiny.com) , die sicherstellen sollen, dass auf Google Play veröffentlichte Wallets tatsächlich den gleichen Code verwenden wie der Code, der der Community öffentlich mitgeteilt wird.
    
-Any good non-custodial wallet app should be engineered in accordance with the publicly documented security guidelines and wallet standards.
+Jede gute Non-Custodial Wallet-App sollte in Übereinstimmung mit den öffentlich dokumentierten Sicherheitsrichtlinien und Wallet-Standards entwickelt werden.
 
-## 4. One Key, Many Coins
+## 4. Ein Key, viele Coins
 
-Another essential aspect, a single private key can be used to control balances for multiple cryptocurrencies. When using such key the wallet apps can automatically locate the balances for all supported cryptocurrencies.
+Ein weiterer wesentlicher Aspekt ist, dass ein einziger Private Key zur Saldokontrolle für mehrere Kryptowährungen verwendet werden kann. Wenn ein solcher Schlüssel verwendet wird, können die Wallet-Apps automatisch die Salden für alle unterstützten Kryptowährungen ermitteln.
 
-For instance, when creating the wallet on [Unstoppable wallet](https://unstoppable.money) the user gets a single private key for 5 cryptocurrencies:
+Bei der Erstellung des Wallets auf dem [Unstoppable wallet](https://unstoppable.money) zum Beispiel erhält der Benutzer einen einzigen Private Key für 5 Kryptowährungen:
 
 - Bitcoin
 - Dash
@@ -68,36 +68,36 @@ For instance, when creating the wallet on [Unstoppable wallet](https://unstoppab
 - Litecoin
 - Ethereum
 
-The same private key used to control multiple cryptocurrencies, each with its own balance and transactions.
+Derselbe Private Key wird zur Verwaltung mehrerer Kryptowährungen mit jeweils eigenem Saldo und eigenen Transaktionen verwendet.
 
-## 5. Balances & Transactions
+## 5. Salden & Transaktionen
 
-As was mentioned above there are 'private key' standards designed by engineers throughout the years. These standards define how exactly wallet apps should handle the private key for use with multiple cryptocurrencies. 
+Wie bereits erwähnt, gibt es Standards für „Private Keys“, die von Ingenieuren im Laufe der Jahre entwickelt wurden. Diese Standards legen fest, wie genau Wallet-Apps den Private Key für die Verwendung mit mehreren Kryptowährungen handhaben sollten.
 
-> **The wallet uses your private key to derive your payment address for each cryptocurrency. The payment address is the address you are sharing with others that want to pay you in cryptocurrency.**
+> **Das Wallet verwendet Ihren Private Key, um Ihre Zahlungsadresse für jede Kryptowährung abzuleiten. Die Zahlungsadresse ist die von Ihnen an andere Personen weitergegebene Adresse, welche Ihnen in Kryptowährung bezahlen wollen.**
 
 ![](../images/03-03-l.png)
 
-Just by looking at your private key the wallet app should be able to derive your address for Bitcoin, Ethereum and many other cryptocurrencies. Different address for each cryptocurrency.
+Anhand Ihres Private Keys sollte die Wallet-App in der Lage sein, Ihre Adresse für Bitcoin, Ethereum und viele andere Kryptowährungen abzuleiten. Unterschiedliche Adressen für jede Kryptowährung.
 
-When you import the private key to another standard-compliant wallet that other app will also derive same addresses.
+Wenn Sie den Private Key in ein anderes standardkonformes Wallet importieren, wird diese andere Wallet-App ebenfalls dieselben Adressen ableiten.
 
-That's basically how a wallet app can take a private key used on another app, and from that key restore balances and transactions for multiple cryptocurrencies
+Auf diese Weise kann eine Wallet-App einen auf einer anderen App verwendeten Private Key nehmen und von diesem Key aus Guthaben und Transaktionen für mehrere Kryptowährungen wiederherstellen.
 
-> **If a private key generated in a standard-compliant manner, then any other standard-compliant wallet should be able to correctly derive payment addresses and past transactions for each supported cryptocurrency.**
+> **Wenn ein Private Key auf standardkonforme Weise erzeugt wurde, dann sollte jedes andere standardkonforme Wallet in der Lage sein, Zahlungsadressen und vergangene Transaktionen für jede unterstützte Kryptowährung korrekt abzuleiten.**
 
-Once the app knows the addresses for say Bitcoin, it connects to the Bitcoin blockchain and looks for transactions involving those addresses. As a result of that process the wallet app can display the balances and past transactions associated with that private key.
+Sobald die App die Adressen für z.B. Bitcoin kennt, verbindet sie sich mit der Bitcoin-Blockchain und sucht nach Transaktionen, die diese Adressen betreffen. Als Ergebnis dieses Prozesses kann die Wallet-App die mit diesem Private Key verbundenen Salden und früheren Transaktionen anzeigen.
 
-## 6. Moving Between Wallets
+## 6. Zwischen den Wallets wechseln
 
-Good non-custodial wallets enable private key migration between wallets. In other words, a private key created on one non-custodial wallet app should be compatible with other non-custodial wallet apps. 
+Gute Non-Custodial Wallets ermöglichen die Migration von Private Keys zwischen den Wallets. Mit anderen Worten, ein mit einer Non-Custodial Wallet-App erzeugter Private Key sollte mit anderen Non-Custodial Wallet-Apps kompatibel sein.
 
-> **The user should not be restricted to a single wallet provider and should be able easily migrate to other non-custodial wallet apps built by different parties.** 
+> **Der Benutzer sollte nicht auf einen einzigen Wallet-Anbieter beschränkt sein und sollte problemlos zu anderen Non-Custodial Wallet-Apps verschiedener Hersteller migrieren können.** 
 
-If your phone breaks, or the wallet app stops working, your funds are safe; you will always be able to restore access to your cryptocurrency using the private key. There are no time frames---the same key would work years later.
+Wenn Ihr Smartphone kaputt geht oder die Wallet-App nicht mehr funktioniert, ist Ihr Guthaben sicher; Sie können jederzeit den Zugriff auf Ihre Kryptowährung mit dem Private Key wiederherstellen. Es gibt keine Zeitrahmen – der gleiche Schlüssel würde auch Jahre später noch funktionieren.
 
-When choosing a wallet look for one that is standard compliant and supports import/export of private keys.
+Achten Sie bei der Wahl des Wallets darauf, dass es standardkonform ist und den Import/Export von Private Keys unterstützt.
 
-> **Note: When migrating your private key from one wallet to another you need the destination wallet to support all cryptocurrencies that private key controls.**
+> **Hinweis: Wenn Sie Ihren Private Key von einem Wallet in ein anderes Wallet migrieren, muss das Ziel-Wallet alle Kryptowährungen unterstützen, die der Private Key verwaltet..**
 
-If your private key has some balance on Bitcoin and Ethereum but the destination wallet supports only Bitcoin then your Ethereum balance won't be visible. It will still be yours and accessible from some other wallet.
+Wenn Ihr Private Key ein Guthaben von Bitcoin und Ethereum hat, aber das Ziel-Wallet nur Bitcoin unterstützt, ist Ihr Ethereum-Guthaben nicht sichtbar. Es wird weiterhin Ihnen gehören und von einem anderen Wallet aus zugänglich sein.

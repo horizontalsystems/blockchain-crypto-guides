@@ -2,121 +2,119 @@
 
 # Unstoppable Wallet
 
-In this section we will focus on practical aspects and go through 'things to know' when using non-custodial wallet apps.
+In diesem Abschnitt konzentrieren wir uns auf praktische Aspekte und gehen auf „Wissenswertes“ bei der Verwendung von Non-Custodial Wallet-Apps ein.
 
-From user's perspective, basic expectations from any non-custodial wallet app should be:
+Aus der Sicht der Nutzer sollten die grundlegenden Erwartungen an jede Non-Custodial Wallet-App sein:
 
-1. the wallet app should generate private keys in a standard-compliant manner. This ensures that private keys are safe and are compatible with other third party wallet apps.
+1. die Wallet-App sollte Private Keys auf normgerechte Weise erzeugen. Dadurch wird sichergestellt, dass Private Keys sicher und mit anderen Wallet-Apps von Drittanbietern kompatibel sind.
+2. die Wallet-App, die mehrere Kryptowährungen unterstützt, sollte die Zahlungsadressen für jede Kryptowährung korrekt verwalten. Beispielsweise unterscheidet sich die Adresse des Nutzers für den Empfang von Zahlungen in Bitcoin von der Adresse für den Empfang von Ethereum.
+3. die Wallet-App sollte Private Keys gemäß den dokumentierten Richtlinien aufbewahren. Sowohl die iOS- als auch die Android-Wallet-Apps sollten sichere vom Betriebssystem bereitgestellte Speichermechanismen nutzen, um den Private Key sicher aufzubewahren.
 
-2. the wallet app supporting multiple cryptocurrencies should correctly manage the payment addresses for each cryptocurrency. For example, the user's address for receiving payments in Bitcoin varies from the address for receiving Ethereum.
+Abgesehen von den oben genannten „Must-Haves“ kann es je nach Zielgruppe andere Erwartungen an das Wallet geben. Wer eine umfassende Privatsphäre wünscht, benötigt möglicherweise zusätzliche private Funktionen, die in den meisten Wallet-Apps nicht verfügbar sind.
 
-3. the wallet app should store private keys as per documented guidelines. Both the iOS and Android wallet apps should make use of safe storage mechanisms provided by the operating system to keep the private key secure.
+> **Disclaimer: Das [Unstoppable Wallet](https://unstoppable.money) wurde von [Horizontal Systems](https://horizontalsystems.io), hergestellt, dem Unternehmen hinter diesen Leitfäden.**
 
-Apart from the above must-haves, there may be other expectations from the wallet depending on the target user. Someone looking for extensive privacy may require extra private features which are not available in most wallet apps.
+Im Folgenden gehen wir auf einige wichtige Punkte ein, die bei der Verwendung von Non-Custodial Wallet-Apps zu beachten sind. Wir werden die Unstoppable Wallet-App verwenden, um diese wichtigen Aspekte zu veranschaulichen.
 
-> **Disclaimer: The [Unstoppable Wallet](https://unstoppable.money) was built by [Horizontal Systems](https://horizontalsystems.io), the company behind these guides.**
+### 1. Einrichten / Wiederherstellen 
 
-Below we will go through some important points to keep in mind when using non-custodial wallet apps. We are going to use Unstoppable wallet app to illustrate these important aspects. 
-
-### 1. Setup / Restore 
-
-Every non-custodial wallet starts either with the process of a wallet setup or migration of the existing wallet.
+Jede Non-Custodial Wallet beginnt entweder mit dem Prozess der Einrichtung eines Wallets oder der Migration des bestehenden Wallets.
 
 ![portrait](../images/05-02-s.png)
 
-- The 'Create Wallet' button generates a new private key and shows it in a form of 12 words which needs to be backed up.
-- The 'Restore Wallet' option restores an existing wallet that might have been created earlier in Unstoppable or some other standard compliant wallet. 
+- Die Schaltfläche „Wallet erstellen“ generiert einen neuen Private Key und zeigt diesen in einer Form von 12 Wörtern an, die gespeichert werden müssen.
+- Die Option „Wallet wiederherstellen“ stellt ein existierendes Wallet wieder her, das früher in Unstoppable oder einem anderen standardkonformen Wallet erstellt worden sein könnte.
+	
+Denken Sie daran, dass die Wiederherstellung von Custodial Wallets zwischen einigen Minuten bis zu einigen Stunden dauern kann.
 
-Keep in mind that non-custodial wallets will require anywhere from a few minutes to a couple of hours to complete restore process. 
+### 2. Berechtigungssperre
 
-### 2. Authorization Lock
-
-It's important for any non-custodial wallet app to come with inbuilt unauthorized access measures. Both mobile and hardware wallets implement that in a form of unlock code which is required in order to access the wallet.
+Es ist wichtig, dass jede Non-Custodial Wallet-App mit integrierten Maßnahmen für unbefugten Zugriff ausgestattet ist. Sowohl Mobile Wallets als auch Hardware Wallets implementieren dies in Form eines Freischaltcodes, der für den Zugriff auf das Wallet erforderlich ist.
 
 ![portrait](../images/05-03-s.png)
 
-This measure is essential to keep your funds safe even when an unauthorized entity gets your wallet device.
+Diese Maßnahme ist unerlässlich, um Ihre Gelder auch dann sicher aufzubewahren, wenn eine nicht autorisierte Person an Ihr Wallet-Gerät gelangt.
 
-### 3. Supported Cryptocurrencies
+### 3. Unterstützte Kryptowährungen
        
-The more currencies the wallet able to handle the better. It's a matter of convenience interacting with one app rather than switching between many apps for different cryptocurrencies.
+Je mehr Währungen das Wallet verarbeiten kann, desto besser. Es ist eine Frage der Bequemlichkeit, mit einer App zu interagieren, anstatt zwischen vielen Apps für verschiedene Kryptowährungen zu wechseln.
 
 ![portrait](../images/05-04-s.png)
 
-The wallet app also needs to have access to current cryptocurrency prices to display your cryptocurrency balances in a currency you're used to such as USD or EUR. 
+Die Wallet-App muss auch Zugriff auf die aktuellen Preise der Kryptowährung haben, um Ihre Kryptowährung-Salden in einer Ihnen vertrauten Währung wie USD oder EUR anzuzeigen.
 
-Moreover, current prices are necessary for sending payments. Sending someone 90$ worth of Bitcoin is not easy when you try to do the math in your head.
+Außerdem sind aktuelle Preise für das Senden von Zahlungen erforderlich. Jemandem Bitcoin im Wert von 90 USD zu senden, ist nicht einfach, wenn man die Rechnung in Gedanken zu machen versucht.
 
-### 4. Coin Overviews
+### 4. Überblick über Coins
 
-Each cryptocurrency is essentially a project with its own set of specifics. It's important to know about these specifics for anyone looking to purchase these cryptocurrencies.
+Jede Kryptowährung ist im Wesentlichen ein Projekt mit ihren eigenen Besonderheiten. Für jeden, der diese Kryptowährungen kaufen möchte, sollten diese Besonderheiten bekannt sein.
 
-While for some cryptocurrencies transactions are cheap for other the fees can be high. Moreover, the speed and privacy of individual transactions can also vary greatly between cryptocurrencies.
+Während für gewisse Kryptowährungen Transaktionen günstig sind, können die Gebühren für andere hoch sein. Darüber hinaus können auch die Geschwindigkeit und der Datenschutz einzelner Transaktionen zwischen Kryptowährungen stark variieren.
 
-While there are a lot of different cryptocurrencies there is lack of information describing these projects in accessible manner. Many projects are fairly obscure even for the experienced newcomers with a technical background.
+Es gibt zwar viele verschiedene Kryptowährungen, aber es fehlt an Informationen, die diese Projekte in zugänglicher Form beschreiben. Viele Projekte sind selbst für erfahrene Einsteiger mit technischem Hintergrund ziemlich undurchsichtig.
 
-Unstoppable aims to provide a comprehensive overview for various cryptocurrencies in simple terms.
+Unstoppable will in einfachen Worten einen umfassenden Überblick über die verschiedenen Kryptowährungen geben.
 
 ![portrait](../images/05-05-s.png)
 
-An investor-friendly wallet app should provide detailed information about each supported cryptocurrency.
+Eine anlegerfreundliche Wallet-App sollte detaillierte Informationen über jede unterstützte Kryptowährung liefern.
 
-### 5. Price Charts
+### 5. Preis-Charts
 
-Always look for the wallet that displays historical market exchange rates for each supported cryptocurrency. 
+Sehen Sie stets nach dem Wallet, das historische Marktwechselkurse für jede unterstützte Kryptowährung anzeigt.
 
 ![portrait](../images/05-06-s.png)
 
-Historical prices provide an overview of how the price of the cryptocurrency has changed in the past.
+Historische Preise geben einen Überblick darüber, wie sich der Preis der Kryptowährung in der Vergangenheit verändert hat.
 
-### 6. Price Alerts
+### 6. Preis-Warnungen
 
-In addition to price charts it is helpful to have notifications for price changes.
+Zusätzlich zu den Preis-Charts ist es hilfreich, Benachrichtigungen für Preisänderungen zu erhalten.
 
-A wallet like Unstoppable can notify the user when the asset price has experienced a change over 2/3/5% in 24-hour period. 
+Ein Wallet wie Unstoppable kann den Benutzer benachrichtigen, wenn sich der Anlagenpreis innerhalb von 24 Stunden um mehr als 2/3/5% verändert hat.
 
 ![portrait](../images/05-07-s.png)
 
-Moreover, the Unstoppable can send alerts when the price trend for cryptocurrency changes indicating a good time to purchase or sell any given cryptocurrency.
+Darüber hinaus kann das Unstoppable Warnungen versenden, wenn sich der Preistrend der Kryptowährung ändert, was auf einen guten Zeitpunkt für den Kauf oder Verkauf einer bestimmten Kryptowährung hinweist.
 
-### 7. Privacy
+### 7. Privatsphäre
 
-When it comes to non-custodial wallets, the privacy aspect has many sides and may vary substantially between wallets.
+In Bezug auf Non-Custodial Wallets hat der Aspekt des Datenschutzes viele Seiten und kann von Wallet zu Wallet sehr unterschiedlich sein.
 
 ![portrait](../images/05-08-s.png)
 
-Certain points should be taken into consideration when evaluating non-custodial wallet for privacy features:
+Bestimmte Punkte sollten bei der Bewertung eines Non-Custodial Wallets im Hinblick auf Datenschutzmerkmale berücksichtigt werden:
 
-- **Basic User Data**
+- **Grundlegende Benutzerdaten**
     
-    Depending on how the wallet built, it may be possible for the wallet provider to know some non-identifiable data like the user's IP address and location. When that data kept on some server there is always a risk of leak.
+    Je nach Aufbau des Wallets kann es für den Wallet-Anbieter möglich sein, einige nicht identifizierbare Daten wie die IP-Adresse und den Standort des Benutzers zu erfahren. Wenn diese Daten auf irgendeinem Server aufbewahrt werden, dann besteht stets die Gefahr eines Lecks.
     
-- **Balance and Transactions**
+- **Saldo und Transaktionen**
 
-    Non-custodial wallet apps usually allow users to restore or migrate an existing wallet to the wallet app. To serve those users, wallet providers may keep a special server specifically optimized for that task. 
+    Non-Custodial Wallet-Apps ermöglichen es Benutzern in der Regel, ein existierendes Wallet wiederherzustellen oder in die Wallet-App zu migrieren. Um diese Benutzer zu bedienen, können Wallet-Anbieter einen speziellen Server unterhalten, der speziell für diese Aufgabe optimiert ist.
     
-    While this method is convenient for the wallet provider it can potentially expose some info about user's balance and transactions.
+    Obwohl diese Methode für den Wallet-Anbieter praktisch ist, kann sie unter Umständen bestimmte Informationen über den Kontostand und die Transaktionen des Benutzers offenlegen.
     
-    To address this, some wallets like Unstoppable support restoring directly from the blockchain network itself rather than via a third-party server. This ensures that wallet provider has no clue about balance or transactions of the user.
+    Um dem entgegenzuwirken, unterstützen einige Wallets wie Unstoppable die Wiederherstellung direkt aus dem Blockchain-Netzwerk selbst und nicht über einen Server eines Drittanbieters. Dadurch wird sichergestellt, dass der Wallet-Anbieter keinerlei Informationen über Guthaben oder Transaktionen des Benutzers hat.
     
-- **Blockchain Privacy**
+- **Blockchain-Privatsphäre**
 
-    Different blockchains provide varying level of privacy: when you transact in Bitcoin the level of privacy is higher than when compared to Ethereum. 
+    Verschiedene Blockchains bieten ein unterschiedliches Maß an Privatsphäre: Wenn Sie mit Bitcoin handeln, ist das Maß an Privatsphäre höher als im Vergleich zu Ethereum.
     
-    Certain non-custodial wallets may have additional features which increase the privacy on that specific blockchain. For instance, Unstoppable wallet app integrates certain instruments which make it significantly more difficult linking different blockchain transactions to a single entity. 
+    Bestimmte Non-Custodial Wallets können zusätzliche Merkmale aufweisen, die den Datenschutz auf dieser speziellen Blockchain erhöhen. Zum Beispiel integriert die Unstoppable Wallet-App bestimmte Instrumente, die das Verbinden verschiedener Blockchain-Transaktionen mit einer einzigen Einheit erheblich erschweren.
     
-While many wallets brand themselves as non-custodial and peer to peer they may still have privacy risks. The most private wallet is the one which knows absolutely nothing about the user.
+Auch wenn sich viele Wallets als Non-Custodial Wallet und Peer-to-Peer bezeichnen, können sie dennoch Datenschutzrisiken bergen. Das privateste Wallet ist jenes, das absolut nichts über den Benutzer weiß.
 
-### 8. Censorship-Resistance
+### 8. Schutz vor Zensur
 
-Due to the young and revolutionary nature of cryptocurrencies some governments are reluctant to legalize cryptocurrencies and provide clear regulations.
+Aufgrund des jungen und revolutionären Charakters von Kryptowährungen zögern gewisse Regierungen, Kryptowährungen zu legalisieren und klare Vorschriften zu erlassen.
 
-Therefore, look for a wallet app which is engineered in a way where it's impossible for someone to:
+Suchen Sie daher nach einer Wallet-App, die so entwickelt wurde, dass es unmöglich ist, dass jemand:
 
-- censor your access to the app
-- censor the app in your region
-- stop you from transacting
+- Ihren Zugriff auf die App zensieren kann
+- die App in Ihrer Region zensieren kann
+- Sie daran hindert, Transaktionen zu tätigen
 
-A genuine non-custodial wallet should be built in a way where it works everywhere and always accessible for transactions.
+Ein echtes Non-Custodial Wallet sollte so aufgebaut sein, dass es überall funktioniert und für Transaktionen jederzeit zugänglich ist.
 
-Keep in mind, if you're using a non-custodial which was somehow blocked in your region you should be able to migrate your private key to another non-custodial wallet app.
+Denken Sie daran, wenn Sie ein in Ihrer Region teilweise blockiertes Non-Custodial Wallet verwenden, sollten Sie in der Lage sein, Ihren Private Key in eine andere Non-Custodial Wallet-App zu migrieren.

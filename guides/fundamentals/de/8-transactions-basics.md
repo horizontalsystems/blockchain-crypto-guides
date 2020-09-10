@@ -1,125 +1,125 @@
 ![](../images/08-main-l.png)
 
-# Transactions Explained
+# Transaktionen erklärt
 
-Time to learn the ins and outs of cryptocurrency transactions.
+Zeit, die Besonderheiten von Kryptowährung-Transaktionen kennenzulernen.
 
-While the process of sending and receiving payments is similar for all cryptocurrencies there are some aspects which tend to change from one cryptocurrency to another. 
+Zwar ist der Prozess des Sendens und Empfangens von Zahlungen für alle Kryptowährungen ähnlich, doch gibt es bestimmte Aspekte, durch die man von einer Kryptowährung zur anderen wechselt.
 
-In this section we'll go over the essentials to give you a clear understanding of how the transactions work for almost all cryptocurrencies.
+In diesem Abschnitt gehen wir auf das Wesentliche ein, um Ihnen ein klares Verständnis dafür zu vermitteln, wie die Transaktionen für fast alle Kryptowährungen funktionieren.
 
-## Send & Receive
+## Senden & empfangen
 
-The process of Sending and Receiving crypto is pretty much the same on all wallets.
+Der Prozess des Sendens und Empfangens von Krypto ist bei allen Wallets so ziemlich derselbe.
 
-- **To Send Crypto**
+- **Um Krypto zu senden**
     
-    Within your wallet app, look for the option to "send" or the app's equivalent. If the wallet app supports multiple currencies make sure to select the correct cryptocurrency.
+    Suchen Sie in Ihrer Wallet-App nach der Option „Senden“ oder dem Äquivalent der App. Wenn die Wallet-App mehrere Währungen unterstützt, achten Sie darauf, die richtige Kryptowährung auszuwählen.
     
-    Enter the amount, the address of the recipient, the transaction fee (more on that below) and click on the send button.
+    Geben Sie den Betrag, die Adresse des Empfängers, die Transaktionsgebühr ein (mehr dazu weiter unten) und klicken Sie auf die Schaltfläche Senden.
     
-- **To Receive Crypto**
+- **Um Krypto zu empfangen**
 
-    Open the wallet app and look for the option to "receive" or the app's equivalent. As mentioned earlier make sure you're copying the address for the right coin.
+    Öffnen Sie die Wallet-App und suchen Sie nach der Option „Empfangen“ oder dem Äquivalent der App. Wie bereits erwähnt, achten Sie darauf, dass Sie die Adresse für die richtige Coin kopieren.
     
-    The wallet app will provide a distinct receive address for some cryptocurrencies, and the same address for others. For instance, all Ethereum based cryptocurrencies will have the same receive address within one wallet app.
+    Die Wallet-App bietet eine eindeutige Empfangsadresse für gewisse Kryptowährungen und die gleiche Adresse für andere. Zum Beispiel werden alle auf Ethereum-basierenden Kryptowährungen innerhalb einer Wallet-App die gleiche Empfangsadresse haben.
     
-    Send that address to the sender and wait for the cryptocurrency to appear in your wallet.
+    Senden Sie diese Adresse an den Absender und warten Sie, bis die Kryptowährung in Ihrem Wallet erscheint.
 
-## Transaction Phases
+## Transaktionsphasen
 
-Cryptocurrency transactions are not instant. For some cryptocurrencies it takes a second while for other it may span a few minutes or in some cases even hours.
+Kryptowährung-Transaktionen erfolgen nicht sofort. Bei einigen Kryptowährungen dauert es nur einen Augenblick, während es bei anderen einige Minuten oder in manchen Fällen sogar Stunden dauern kann.
 
-When transacting using а non-custodial wallet transactions will go directly through a blockchain in the following order:
+Bei Transaktionen mit einem Non-Custodial Wallet durchlaufen die Transaktionen direkt eine Blockchain in der folgenden Reihenfolge:
 
-1. **Transaction Is Pending**
+1. **Die Transaktion steht noch aus**
 
-    After the transaction sent from a wallet, it reaches the underlying blockchain network nearly instantly. Bitcoin transactions sent to Bitcoin network, Ether transactions to Ethereum network etc.
+    Nachdem die Transaktion vom Wallet gesendet wurde, erreicht sie fast augenblicklich das darunter liegende Blockchain-Netzwerk. Bitcoin-Transaktionen werden an das Bitcoin-Netzwerk gesendet, Ether-Transaktionen an das Ethereum-Netzwerk usw.
     
-    At this stage, both sender and recipient can already monitor the state of transaction in their wallet apps or on public blockchain explorer i.e. [blockchair.com](https://blockchair.com).
+    Zu diesem Zeitpunkt können sowohl Absender als auch Empfänger den Status der Transaktion bereits in ihren Wallet-Apps oder im öffentlichen Blockchain-Explorer, d.h.[blockchair.com](https://blockchair.com) überwachen.
 
-2. **Transaction Gets Confirmed**
+2. **Transaktion wird bestätigt**
 
-    Given that the transaction is valid, all nodes on that blockchain will race to include it to the blockchain. The duration of that steps vary from one blockchain to another. 
+    Wenn die Transaktion gültig ist, werden alle Nodes in dieser Blockchain um die Aufnahme in die Blockchain wetteifern. Die Dauer dieser Schritte variiert von Blockchain zu Blockchain.
     
-    For Bitcoin it can generally take up to 10 minutes, for Ethereum about 2-3 minutes etc. This step may take considerably longer if the blockchain is busy with a lot of pending transactions.
+    Bei Bitcoin dauert es in der Regel bis zu 10 Minuten, bei Ethereum etwa 2-3 Minuten usw. Dieser Schritt kann erheblich länger dauern, wenn die Blockchain mit vielen ausstehenden Transaktionen beschäftigt ist.
     
-    A transaction considered complete after it has been added to the blockchain.
+    Eine Transaktion gilt als abgeschlossen, nachdem sie der Blockchain hinzugefügt wurde.
 
-3. **Transaction Is Final**
+3. **Transaktion ist abgeschlossen**
 
-    Once the transaction has been added to the blockchain it can be considered final. That said, for some blockchains and Bitcoin in particular it's recommended to wait until a certain number of new blocks added. 
+    Sobald die Transaktion der Blockchain hinzugefügt wurde, kann sie als endgültig betrachtet werden. Bei einigen Blockchains und insbesondere bei Bitcoin empfiehlt es sich jedoch zu warten, bis eine bestimmte Anzahl neuer Blöcke hinzugefügt wurde.
     
-    For large sums, it's generally recommended to wait for up to 6 blocks to pass before the transaction can be considered theoretically irreversible. For the most payments, 1-2 confirmations should be fine.
+    Bei großen Summen wird im Allgemeinen empfohlen, bis zu 6 Blöcke abzuwarten, bevor die Transaktion als theoretisch irreversibel angesehen werden kann. Für die meisten Zahlungen sollten 1-2 Bestätigungen ausreichend sein.
 
-## Transaction Fees
+## Transaktionsgebühren
 
-When sending cryptocurrencies like Bitcoin or Ethereum the sender expected to pay a transaction fee. That fee goes as compensation to one of the blockchain nodes which will be the first to add the transaction to a blockchain.
+Beim Senden von Kryptowährungen wie Bitcoin oder Ethereum hat der Sender eine Transaktionsgebühr zu erwarten. Diese Gebühr geht als Ausgleich an einen der Blockchain-Nodes, der die Transaktion als erster einer Blockchain hinzufügt.
 
-Generally, blockchains are free to participate however require its native cryptocurrency to do anything. Both on Ethereum and Bitcoin, sender also pays a service fee to the blockchain network on every transaction.
+Im Allgemeinen steht es Blockchains frei, sich zu beteiligen, sie benötigen jedoch ihre eigene Kryptowährung, um etwas zu tun. Sowohl bei Ethereum als auch bei Bitcoin zahlt der Absender bei jeder Transaktion auch eine Servicegebühr an das Blockchain-Netzwerk.
 
-> **You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction within a few seconds after it's sent.** 
+> **Sie müssen die Details an dieser Stelle nicht verstehen, denken Sie nur daran, dass Tausende von Nodes, die die Blockchain antreiben, die Transaktion innerhalb weniger Sekunden nach ihrem Versand erhalten.** 
 >
-> **The node that adds it first to the blockchain will get the associated fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee for using the network.**
+> **Der Node, der ihn zuerst der Blockchain hinzufügt, erhält als Belohnung die entsprechende Gebühr. Jedes Mal, wenn Sie eine Transaktion senden, zahlen Sie Gebühren an einen anderen Node. Betrachten Sie dies als eine Dienstleistungsgebühr für die Nutzung des Netzwerks.**
 
-Depending on the cryptocurrency you're sending the transaction fees may vary. For some blockchains the fee may be as low as a fraction of a cent, for other like Bitcoin it can easily exceed 1$.
+Abhängig von der von Ihnen gesendeten Kryptowährung können die Transaktionsgebühren variieren. Bei einigen Blockchains kann die Gebühr nur einen Bruchteil eines Cent betragen, bei anderen wie Bitcoin kann sie durchaus 1$ übersteigen.
 
-The blockchains powering cryptocurrencies like Bitcoin and Ethereum currently limited to a few million transactions per day. The transaction fee used as an instrument to prioritize desired transactions by giving it a higher fee.  
+Die für solche Kryptowährungen wie Bitcoin und Ethereum verwendeten Blockchains sind derzeit auf einige Millionen Transaktionen pro Tag beschränkt. Die Transaktionsgebühr wird als Instrument zur Priorisierung gewünschter Transaktionen verwendet, indem man ihr eine höhere Gebühr zugesteht.
 
-If the fee is far below the network average your transaction may remain pending for hours, if it's well above the average expect it to be added to the blockchain usually within a few minutes.
+Wenn die Gebühr weit unter dem Netzwerkdurchschnitt liegt, kann Ihre Transaktion stundenlang ausstehend bleiben. Wenn sie weit über dem Durchschnitt liegt, ist zu erwarten, dass sie üblicherweise innerhalb weniger Minuten in die Blockchain aufgenommen wird.
 
-> **If transaction remains pending for a few days due to a low fee it may be rejected, as if it was never sent.**
+> **Wenn eine Transaktion aufgrund einer niedrigen Gebühr einige Tage lang ausstehend bleibt, kann sie abgelehnt werden, als wäre sie nie abgeschickt worden.**
 >
-> **If you have a pending transaction that is taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**
+> **Wenn Sie eine ausstehende Transaktion haben, deren Bestätigung in den meisten Fällen eine Weile dauert, wird sie endgültig akzeptiert, wenn Sie lange genug warten.**
 
-Some wallets out there would recommend the optimal transaction fee amount taking into account the current state of activity on the network.
+Einige Wallets empfehlen die optimale Höhe der Transaktionsgebühren unter Berücksichtigung des aktuellen Standes der Aktivitäten im Netzwerk.
 
-When sending large sums or time critical payments always try to provide a fee amount that is well above average. That would ensure that your transaction reaches the recipient without delay.
+Versuchen Sie bei großen Beträgen oder zeitkritischen Zahlungen stets, einen weit über dem Durchschnitt liegenden Gebührenbetrag bereitzustellen. Das würde sicherstellen, dass Ihre Transaktion den Empfänger ohne Verzögerung erreicht.
 
-## Cancelling Transaction
+## Transaktion stornieren
 
-Sometimes you may end up in a situation where a transaction needs to be cancelled. In some cases, it's possible to cancel or modify transaction while it's still in pending state. 
+Gelegentlich kann es vorkommen, dass Sie in eine Situation geraten, in der eine Transaktion storniert werden muss. In gewissen Fällen ist es möglich, eine Transaktion zu stornieren oder zu ändern, solange sie sich noch im ausstehenden Status befindet.
 
-Both Bitcoin and Ethereum transactions can be modified while in pending state but in order to be able to do that the wallet app should provide a way to do that.
+Sowohl Bitcoin- als auch Ethereum-Transaktionen können modifiziert werden, während sie sich im ausstehenden Status befinden. Hierfür sollte die Wallet-App eine Möglichkeit bieten, das zu tun.
 
-That said, once the transaction added to the blockchain there is usually no practical way to cancel it. So, once transactions added to the blockchain they are final.
+Sobald die Transaktion jedoch der Blockchain hinzugefügt wurde, gibt es in der Regel keine praktische Möglichkeit, sie zu widerrufen. Sobald die Transaktion der Blockchain hinzugefügt wurde, ist sie also endgültig.
 
-## Transaction Privacy
+## Datenschutz bei Transaktionen
 
-Lastly, there are some vital considerations to keep in mind when it comes to transactions and privacy.
+Schließlich gibt es einige wichtige Aspekte im Zusammenhang mit Transaktionen und Datenschutz zu beachten.
 
-Transactions on most blockchains stored openly. Anyone can see when the transaction took place, the amounts involved, and the sender receiver addresses. While a third party can see the addresses involved there is no connection to a real world identity.
+Transaktionen werden bei den meisten Blockchains offen gespeichert. Jeder kann sehen, wann die Transaktion stattgefunden hat, um welche Beträge es sich handelte und welche Empfängeradressen der Sender hat. Auch wenn eine dritte Partei die beteiligten Adressen sehen kann, gibt es keine Verbindung zu einer Identität aus der realen Welt.
 
 ![](../images/08-02-l.png)
 
-While some privacy focused cryptocurrencies (i.e. Monero) do not reveal any information about the transaction, for the most cryptocurrencies incl. Bitcoin and Ethereum blockchains store transaction data openly.
+Während manche auf den Datenschutz fokussierte Kryptowährungen (z.B. Monero) keine Informationen über die Transaktion preisgeben, speichern die meisten Kryptowährungen, einschließlich Bitcoin und Ethereum-Blockchains, Transaktionsdaten offen.
 
-Below we are going to expand a bit and specifically look at privacy risks when transacting using Bitcoin and Ethereum.
+Im Folgenden gehen wir etwas ausführlicher auf die Risiken für den Datenschutz bei der Abwicklung von Transaktionen mit Bitcoin und Ethereum ein.
 
-- **Bitcoin Privacy**
+- **Bitcoin Datenschutz**
 
-    The Bitcoin wallets built in a way where user can potentially generate millions of addresses that can be used to receive payments within one wallet app. Each payment address can be used once, many times or not used at all. It's up to the user. 
+    Die Bitcoin Wallets sind so aufgebaut, dass die Benutzer potenziell Millionen von Adressen generieren können, die für den Empfang von Zahlungen innerhalb einer Wallet-App verwendet werden können. Jede Zahlungsadresse kann einmal, mehrmals oder gar nicht verwendet werden. Die Entscheidung liegt beim Benutzer.
     
-    A good wallet will always generate a new receive address after it receives a payment to the latest address. This is done to discourage a user to use the same 'receive' address over and over.
+    Ein gutes Wallet erzeugt immer eine neue Empfangsadresse, nachdem es eine Zahlung an die neueste Adresse erhalten hat. Dies geschieht, um einen Benutzer davon abzuhalten, dieselbe „Empfangsadresse“ immer wieder zu verwenden.
     
-    If user uses the same address then anyone can take a single transaction of the user and from that locate other incoming and outgoing transactions belonging to the user. From that you can potentially derive entire balance and transaction history!
+    Wenn ein Benutzer die gleiche Adresse verwendet, kann jeder eine einzelne Transaktion des Benutzers vornehmen und von dort aus andere eingehende und ausgehende Transaktionen des Benutzers lokalisieren. Daraus können Sie potentiell die gesamte Saldo- und Transaktionshistorie ableiten!
     
-    So, try to use new receive address for each party you're transacting with.
+    Verwenden Sie also für jede Ihrer Geschäftspartner eine neue Empfangsadresse.
 
-- **Ethereum Privacy**
+- **Ethereum Datenschutz**
 
-    As mentioned above, in case of Bitcoin the address for receiving payments can change with each transaction.
+    Wie oben erwähnt, kann sich im Falle von Bitcoin die Adresse für den Zahlungseingang bei jeder Transaktion ändern.
 
-    When it comes to Ethereum wallets your address to receive Ether payments will always be the same. Although it may change in the future, nearly all Ethereum wallets work with the single address nowadays. There are some technical reasons for that.
+     Bezüglich der Ethereum Wallets ist Ihre Adresse für Zahlungen mit Ether immer die gleiche. Auch wenn sich das in Zukunft ändern kann, funktionieren heutzutage fast alle Wallets von Ethereum mit einer einzigen Adresse. Dafür gibt es einige technische Gründe. 
     
-    > **The Ethereum blockchain is fully transparent allowing anyone to see all incoming and outgoing transactions for the given payment address.** 
+    > **Die Ethereum Blockchain ist vollständig transparent, so dass jeder alle ein- und ausgehenden Transaktionen für die jeweilige Zahlungsadresse einsehen kann.** 
     
-    So, when you send or receive Ethereum keep in mind that the party you're transacting with can potentially lookup your balance of Ether and other Ethereum based tokens just by knowing your address.
+    Wenn Sie also Ethereum senden oder empfangen, denken Sie daran, dass Ihr Geschäftspartner möglicherweise Ihren Kontostand von Ether und anderen auf Ethereum-basierenden Tokens abfragen kann, nur weil er Ihre Adresse kennt.
     
-    Therefore, it's advised to use separate wallets for transacting with people and for asset accumulation. 
+    Daher ist es ratsam, für Transaktionen mit Personen und zum Vermögensaufbau separate Wallets zu verwenden.
     
-    The wallet used for transactions should not hold a lot of funds on it in order not to expose you.
+    Das für Transaktionen verwendete Wallet sollte nicht zu viel Geld enthalten, um Sie nicht zu entlarven.
     
-To sum up, in its current state, Bitcoin transactions provide users with more privacy than Ethereum transactions. 
+Zusammenfassend lässt sich sagen, dass Bitcoin-Transaktionen in ihrem momentanen Zustand den Benutzern mehr Privatsphäre bieten als Ethereum-Transaktionen.
 
-The only thing that adds some minimal privacy element into the mix is the fact there is no way to check who that address belongs to.
+Lediglich durch das Fehlen einer Möglichkeit zur Überprüfung, wem diese Adresse gehört, besteht eine minimale Privatsphäre.
