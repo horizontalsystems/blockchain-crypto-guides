@@ -87,7 +87,7 @@ Mit manchen Blockchains wie Ethereum können Sie Ihre eigenen „Einheiten von e
 
 Tokens machen 80-90% [alle Kryptowährungen](https://coinmarketcap.com) aus. Die Ethereum-Blockchain ist in der Regel eine bevorzugte Blockchain-Plattform für die Erstellung von Kryptowährung-Token.
 
-In a technical sense, the word 'token' should be used to refer to those cryptocurrencies which are built on top of an existing blockchain, rather than having their own unique blockchain. A cryptocurrency token can take many forms depending on its use cases.
+In einem technischen Sinne sollte das Wort "Token" verwendet werden, um jene Kryptowährungen zu bezeichnen, die auf einer bestehenden Blockchain basieren, und nicht auf einer eigenen Blockchain. Ein Kryptowährung-Token kann viele Formen annehmen, abhängig von seinen Anwendungsfällen.
 
 ## Wie Kryptowährungen wachsen
 

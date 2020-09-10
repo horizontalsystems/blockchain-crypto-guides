@@ -89,7 +89,7 @@ La classification ci-dessus repose principalement sur la notion de sécurité de
 
 Par exemple, une application de portefeuille mobile non-privative peut potentiellement être plus privée qu'un portefeuille matériel. Ou bien peut avoir des caractéristiques essentielles non-disponibles sur le portefeuille matériel.
 
-> The privacy aspect has many sides and generally should be taken into account as well. For instance, a hardware wallet may offer a superior security but unintentionally expose customers' personal data. A [recent breach](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) of company selling Ledger hardware wallets is a good example of that.
+> L'aspect de la confidentialité présente de nombreuses facettes qui doivent généralement être également prises en compte. Par exemple, un portefeuille électronique peut offrir une sécurité supérieure mais divulguer involontairement les données personnelles des clients. Un  [piratage récent](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) du fabricant de portefeuille électroniques Ledger en est un bon exemple.
 
 N'oubliez pas que vous n'avez pas besoin de la sécurité du niveau d'un cartel si vous débutez. La sécurité des applications de portefeuille non-privatives de liberté les plus connues est déjà bien assurée.
 

@@ -80,7 +80,7 @@ Das bedeutet nicht unbedingt, dass ein Desktop Wallet weniger sicher ist als ein
 
 Zu den beliebtesten Desktop-basierten Wallets gehören:
 
-- [Eelctrum](https://electrum.org)
+- [Electrum](https://electrum.org)
 - [Exodus](https://www.exodus.io)
 
 ## Also, welches Wallet?
@@ -89,7 +89,7 @@ Die vorgenannte Klassifizierung basiert in erster Linie auf dem Begriff der Sich
 
 Zum Beispiel kann eine Non-Custodial Mobile Wallet-App möglicherweise privater sein als ein Hardware Wallet. Oder sie kann wesentliche Funktionen haben, die in dem Hardware Wallet nicht verfügbar sind.
 
-> The privacy aspect has many sides and generally should be taken into account as well. For instance, a hardware wallet may offer a superior security but unintentionally expose customers' personal data. A [recent breach](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) of company selling Ledger hardware wallets is a good example of that.
+> Der Aspekt der Privatsphäre hat viele Seiten und sollte generell ebenfalls berücksichtigt werden. Zum Beispiel kann ein Hardware-Wallet eine höhere Sicherheit bieten, jedoch unbeabsichtigt persönliche Daten von Kunden preisgeben. Ei [jüngster Verstoß](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) eines Unternehmens, das Ledger-Hardware-Wallets verkauft, ist ein gutes Beispiel dafür.
 
 Denken Sie daran, dass Sie keine Sicherheit auf höchster Ebene benötigen, wenn Sie gerade erst anfangen. Die Out-of-the-Box-Sicherheit der meisten bekannten Non-Custodial Wallet-Apps ist schon recht gut.
 
