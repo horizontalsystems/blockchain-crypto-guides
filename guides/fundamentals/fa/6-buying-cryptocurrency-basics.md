@@ -1,22 +1,22 @@
 ![](../images/06-main-l.png)
 
-# Buying Cryptocurrency
+# خرید رمزارز
 
-By now you are expected to have a solid understanding of basics when it comes to dealing with cryptocurrencies and wallets.
+تا اینجا انتظار می رود که درک کاملی از اصول اولیه مرتبط با رمز ارز ها و کیف پول ها داشته باشید. 
 
-In this section let's explore various ways of acquiring cryptocurrency.
+در این بخش راه های مختلف دستیابی به رمزارز را بررسی می کنیم.
 
-- buying with credit card
-- buying on centralized exchange
-- getting paid in crypto
-- buying with cash
-- buying on decentralized exchange
+خرید با کارت اعتباری
+خرید در بورس متمرکز
+دریافت پول به صورت ارز رمزپایه
+خرید با پول نقد
+خرید در بورس غیرمتمرکز
 
-## 1. Buying Crypto With Credit Card
+##  خرید ارز رمزپایه با کارت اعتباری. ۱
 
-The easiest option for buying smaller amounts is using a credit or debit card. While the option to buy cryptocurrency is convenient, you often pay a slight premium for the privilege. 
+ساده ترین گزینه برای خرید در مبالغ کمتر استفاده از کارت اعتباری یا کارت بدهی است. در حالی که گزینه خرید رمزارز آسان است، شما اغلب حق امتیاز کمی برای این امتیاز پرداخت می کنید.
 
-The following list contains safe websites and services to purchase cryptocurrency using a credit or debit card. 
+لیست زیر شامل وب سایت ها و خدمات ایمن برای خرید رمزارز با استفاده از کارت اعتباری یا کارت بدهی است.
 
 1. [Binance.com](https://www.binance.com/en/register?ref=42579924)
 2. [Cex.io](https://cex.io/r/2/up131140473/2)
@@ -24,35 +24,35 @@ The following list contains safe websites and services to purchase cryptocurrenc
 4. [Coinbase.com](https://coinbase.com)
 5. [Coinmama.com](https://go.coinmama.com/visit/?bta=61248&nci=5370)
 
-The majority of these websites will work without fail for EU and US residents. However, those living in other areas of the world may find fewer opportunities.
+اکثر این وب سایت ها برای ساکنین اتحادیه اروپا و ایالات متحده بدون هیچگونه مشکلی کار خواهند کرد. با این حال ، کسانی که در دیگر مناطق جهان زندگی می کنند، ممکن است فرصت های کمتری داشته باشند.
 
-## 2. Buying Crypto On Exchange
+##  خرید ارز رمزپایه در بورس. ۲
 
-If you plan to acquire a large amount of cryptocurrency, you should consider signing up to and using an exchange. A cryptocurrency exchange will usually feature a more competitive price than a straight credit card. 
+اگر قصد دارید مبلغ زیادی از رمزارز بدست آورید، باید در بورس ثبت نام کرده و از آن استفاده کنید. رمزارز بورس معمولاً قیمت رقابتی تری نسبت به کارت اعتباری مستقیم دارد.
 
-A cryptocurrency exchange lists hundreds of different cryptocurrencies which you can trade for fiat currency like USD or other cryptocurrencies. Trading on an exchange may sound confusing if you have never traded stocks, but it isn't difficult once you get into the swing of things. 
+رمزارز بورس صدها رمزارز مختلف را لیست می کند که می توانید با ارزهای فیات مانند دلار آمریکا یا رمزارز های دیگر معامله کنید. اگر تا کنون هیچ سهامی را معامله نکرده اید، تجارت در بورس ممکن است گیج کننده به نظر برسد، اما به محض ورود به معاملات دیگر چندان دشوار نیست.
 
-Cryptocurrency exchanges must adhere to local currency dealing laws. Financial regulations vary from country to country, so not all exchanges are available around the globe. 
+مبادلات رمزارز باید بر پایه قوانین معاملات ارزی محلی باشند. مقررات مالی از یک کشور به کشور دیگر متفاوت است، بنابراین همه مبادلات در سراسر جهان در دسترس نیستند.
 
-Most cryptocurrency exchanges will practice Know Your Customer ([KYC](https://en.wikipedia.org/wiki/Know_your_customer)) and Anti-Money Laundering ([AML](https://en.wikipedia.org/wiki/Money_laundering#Combating)) checks before allowing you to make your first cryptocurrency purchase.
+بیشتر مبادلات رمز ارز، پیش از اینکه به شما اجازه دهد اولین خرید رمزارز خود را انجام دهید، از بررسی های مشتری خود را بشناسید (کی وای سی) و ضد پولشویی  (ای ام ال)  پیروی می کنند.
 
-Cryptocurrency exchanges and even some peer-to-peer crypto vendors practice these regulations to ensure they are not handling stolen fiat currency or engaging with identity fraud.
+مبادلات رمزارز و حتی برخی از فروشندگان ارز رمزپایه همپایه از این قوانین پیروی می کنند تا اطمینان حاصل کنند که با ارزهای دزدیده شده فیات یا با کلاهبرداری هویت درگیر نیستند.
 
-The process for purchasing cryptocurrency on an exchange usually goes as follows:
+فرآیند خرید رمزارز در بورس معمولاً به شرح زیر است:
 
-1. Create an account on exchange
-2. Verify identity
-3. Transfer funds to your account
-4. Purchase cryptocurrency
-5. Withdraw cryptocurrency to a wallet
+ایجاد یک حساب کاربری در بورس
+تایید هویت
+انتقال وجوه به حساب شما
+خرید رمزارز
+برداشت رمزارز و انتقال آن به کیف پول
 
-The amount you can purchase on an exchange usually changes depending on the level of verification. 
+مبلغ خریداری شده در بورس معمولاً با توجه به سطح تأیید تغییر می کند.
 
-For example, if you sign-up and verify your email address on an exchange, you can purchase $500-$1000 worth of Bitcoin. However, if you sign-up, verify your email address, add an official ID document, and verify your address, you can purchase a lot more. 
+به عنوان مثال، اگر از طریق بورس، آدرس ایمیل خود را ثبت و تأیید کنید، می توانید بیت کوین به ارزش ۵۰۰ تا ۱۰۰۰ دلار خریداری کنید. اما اگر ثبت نام کنید، آدرس ایمیل خود را تأیید کنید، یک مدرک شناسایی رسمی اضافه کنید و آدرس خود را تأیید کنید، می توانید مبالغ بیشتری خریداری کنید.
 
-While this is a fictional example, many exchanges use a similar tiered approach to user verification. 
+در حالی که این یک نمونه فرضی است، بسیاری از مبادلات از رویکردی مشابه برای تأیید هویت کاربر استفاده می کنند.
 
-Here is a list of trusted cryptocurrency exchanges:
+در اینجا لیستی از بورس های معتبر رمزارز آمده است:
 
 * [Binance.com](https://www.binance.com/en/register?ref=42579924)
 * [Coinbase.com](https://coinbase.com)
@@ -60,52 +60,53 @@ Here is a list of trusted cryptocurrency exchanges:
 * [Kraken.com](https://kraken.com)
 * [Coinmama.com](https://go.coinmama.com/visit/?bta=61248&nci=5343)
 
-## 3. Getting Paid In Crypto
+## پرداخت در ارز رمزپایه ۳. 
 
-It's not uncommon these days for online freelancers to accept cryptocurrencies as a means of payment. 
+این روزها غیر منتظره نیست که فریلسنرهای آنلاین بتوانند رمز ارزها را به عنوان شیوه پرداخت بپذیرند.
 
-If you provide some kind of services online or have an online store look for the ways to accept payments in cryptocurrencies. There are several options available including services like [BitPay.com](https://bitpay.com) or the one from [Coinbase](https://commerce.coinbase.com).
+اگر نوعی از خدمات را به صورت آنلاین ارائه می دهید یا فروشگاه آنلاین دارید، به دنبال راهی برای پذیرفتن مبلغ به صورت رمزارز باشید. گزینه های مختلف زیادی وجود دارد از جمله می توان به این دو اشاره کرد.
+[BitPay.com](https://bitpay.com), [Coinbase](https://commerce.coinbase.com)
+همچنین اگر با برنامه نویسی آشنا باشید، روش های دستی رایگان دیگری هم وجود دارند مانند 
+[BTCPayServer](https://btcpayserver.org)
 
-There are also free DIY solutions like [BTCPayServer](https://btcpayserver.org) if you familiar with programming.
+در صورت نیاز به یک مرور اجتمالی درباره گزینههای موجود می توانید این ویدئو را در یوتیوب مشاهده کنید.
 
-Should you need a thorough overview of the options available check out [this video](https://www.youtube.com/watch?v=OA08wZNvN8c) on Youtube.
+همچنین می توانید فقط از یک کیف پول رمزارز بدون حساب امانی استفاده کنید تا مستقیماً پرداخت را دریافت کنید.
 
-You can also just use a non-custodial cryptocurrency wallet to receive payments directly.
+## P2P خرید از طریق پلتفرم ۴.  
+  
+اگر کسی را می شناسید که مایل است تعدادی ارز رمزپایه به شما بفروشد ، خرید آن با پول نقد ایده خوبی است. در حقیقت اغلب افراد اولین رمزارز خود را از کسی دریافت می کنند که به خوبی می شناسند.
 
-## 4. Buying via P2P Platform
+برای این کار شما فقط به یک کیف پول بدون حساب امانی احتیاج دارید. برنامه را باز کنید، آدرس "دریافت" را برای رمزارز خود که می خواهید دریافت کنید کپی کنید، آن را برای فرستنده ارسال کنید و منتظر باشید تا رمزارز در کیف پول شما ظاهر شود.
 
-If you know someone who would be willing to sell you some crypto then buying it with cash is not a bad idea. In fact most people make get their first cryptocurrency from someone they know.
+همچنین پلتفرم هایی LocalBitcoins.com و Bisq  مانند P2P وجود دارند که خریداران و فروشندگان مناطق مختلف را به یکدیگر متصل میکنند و به آنها امکان میدهد از طریق گزینههای مختلف تبادل دارایی کنند.
 
-For that you only need a non-custodial wallet. Open the app, copy the 'receive' address for the cryptocurrency you plan on receiving, send it to the sender and wait for the cryptocurrency to appear in your wallet.
+چنین پلتفرمهایی ممکن است در مناطقی مفید باشد که دسترسی به مبادلات رمزارز که در بالا ذکر شد، در دسترس نباشد.
 
-There are also P2P platforms like [LocalBitcoins.com](https://localbitcoins.com) and [Bisq](https://bisq.network) which connect buyers and sellers from different regions allowing them to exchange assets via various options. 
+در حالی که افراد زیادی از این پلتفرم ها استفاده می کنند، ریسک زیادی نیز وجود دارد. دشوار است بدانید که بدانید آیا طرف فروش قانونی است و یا کلاهبرداری که قصد سرقت از شما را دارد.
 
-Such platforms might be useful in regions where access to cryptocurrency exchanges listed above is not an option. 
+بنابراین، مراقب باشید و قبل از معامله با مبالغ بالا احتیاط کنید.
 
-While a lot of people are using those platforms there is a lot of risks. It's hard to know whether the selling party is a legit one and not a scammer trying to rob you. 
+##    خرید در بورس غیر متمرکز. ۵
 
-Thus, be careful and proceed with care before transacting with large sums.
+عدم تمرکز ارز (موسوم به دی ای ایکس) تقریبا یک پدیده نسبتاً جدید است. دقیقاً مانند خود رمزارز ، مبادلات غیرمتمرکز از تکنولوژی بلاک چین برای فراهم کردن بستری برای مبادلات مستقیم رمزارز استفاده می کنند.
 
-## 5. Buying on Decentralized Exchange
+به طور کلی، بورس غیرمتمرکز امن ترین و خصوصی ترین روش برای خرید رمزارز است. در حال حاضر، بیشتر این مبادلات تنها برای تبادل اتریوم و توکنهای بر پایه اتریوم کار می کنند.
 
-Decentralized Exchange (aka DEX) is a fairly new phenomena. Just like the cryptocurrency itself, decentralized exchanges utilize the blockchain technology to provide a platform for direct cryptocurrency exchanges. 
+مبادلات غیر متمرکز بر طبق پروتکل از پیش برنامه ریزی شده، خریداران و فروشندگان را به صورت همتا و همپایه مرتبط میکند. جایی برای تقلب برای هر مهمانی جایی ندارد.
 
-Generally, a decentralized exchange is the most secure and private way to purchase cryptocurrency. At the moment, most such exchanges work only for exchanging Ethereum and Ethereum based tokens.
-
-Decentralized exchanges connect buyers and sellers in a peer to peer manner according to a pre-programmed protocol. There is no room to cheat for any party.
-
-Decentralized Exchanges:
+بورس های غیر متمرکز:
 
 - [https://kyberswap.com](https://kyberswap.com)
 - [https://uniswap.exchange](https://uniswap.exchange/swap)
 
-Expect to encounter following issues on most decentralized exchanges:
+انتظار داشته باشید که با این موارد در اکثر مبادلات غیرمتمرکز روبرو شوید:
 
-- most such exchanges support trading only with Ethereum-based assets
-- no ways to deposit or withdraw fiat currencies i.e. USD, EUR etc
-- generally lower trading volumes and liquidity 
-- technical and complex to use 
+بسیاری از این بورس ها تنها تجارت با دارایی های مبتنی بر اتریوم را پشتیبانی می کنند
+ واریز یا برداشت به صورت ارزهای فیات یعنی دلار آمریکا ، یورو و غیره ممکن نیست
+به طور کلی حجم معاملات و نقدینگی کمتر است
+کار با آنها بسیار فنی و پیچیده است
 
-Such exchanges usually do not require account verification of any kind. There are no limitations in the amount that can be sold or purchased. Generally no data collected about the user.
+چنین مبادلاتی معمولاً نیاز به هیچگونه تأیید اعتبار از هیچ نوع ندارد. هیچ محدودیتی در مورد مبلغ قابل فروش و خریداری شده وجود ندارد. به طور کلی هیچ گونه اطلاعاتی از کاربر جمع آوری نشده است.
 
-At this point in time it's fairly difficult for a beginner level user to participate in those.
+در این مرحله از کار، مشارکت برای یک کاربر مبتدی نسبتاً دشوار است.
