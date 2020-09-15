@@ -20,84 +20,83 @@
 
 هاافراد زیادی وارد فضا می شوند و بدون درک این اصول شروع به انباشت رمزارز می کنند. این امر آنها را در معرض خطراتی
 
-The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet. 
+تصور کسی که دارای بیت کوین یا اتریوم است با ایده پول سنتی در کیف پول شما متفاوت است.
 
->**The ownership in cryptocurrency means the ownership of special cryptographic key which has a power to spend a certain amount of cryptocurrency.**
+>**مالکیت در رمزارز به معنای تملک کلید رمزنگاری ویژه ای است که قدرت صرف مقدار مشخصی از رمزنگاری را دارد.**
 
-So, when someone says s/he has 5 Bitcoins what this essentially means is that this person is in the possession of the cryptographic key which can spend 5 Bitcoins.
+ بنابراین ، وقتی شخصی می گوید ۵ بیت کوین داشته باشد ، این بدان معنی است که این شخص دارای کلید رمزارزی است که می تواند ۵ بیت کوین را خرج کند.
 
 ![](../images/02-02-l.png)
 
-When a person sends 1 Bitcoin to another person, the sender uses his/her cryptographic key to sign off 1 Bitcoin from the available balance and pass the ownership of that 1 Bitcoin to the recipient. After the transaction took place, that 1 Bitcoin can only be spent by the cryptographic key belonging to the recipient.
+وقتی شخصی ۱ بیت کوین را به شخص دیگری ارسال می کند ، فرستنده از کلید رمزارزی خود استفاده می کند تا ۱ بیت کوین را از مانده موجود خارج کند و مالکیت آن ۱ بیت کوین را به گیرنده منتقل کند. پس از انجام معامله ، آن بیت کوین فقط با رمزارز متعلق به گیرنده می تواند هزینه شود.
+.بنابراین ، نکته قابل قبول اینجاست که مالکیت مقدار مشخصی از رمزارزها اساسا به معنای مالکیت کلید رمزنگاری ویژه است
 
-So, the takeaway point here is that the ownership of certain amount of crypto basically means the ownership of special cryptographic key.
-
-Under the hood the key may look something like this:
+کلید زیر هود ممکن است چیزی شبیه به این باشد:
 
 >**5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF**
 
-آشکار کردن کلید رمزنگاری شده برای شخصی یا از دست دادن آن در اصل به معنای از دست رفتن دسترسی به رمزنگاری است که کنترل می کند. توجه داشته باشید که غیر ممکن است کسی (حتی قدرتمندترین رایانه) آن کلید را حدس بزند ، حتی اگر سعی کند
+آشکار کردن کلید رمزنگاری شده برای شخصی یا از دست دادن آن در اصل به معنای از دست رفتن دسترسی به رمزنگاری است که کنترل می کند. توجه داشته باشید که غیر ممکن است کسی (حتی قدرتمندترین رایانه) آن کلید را حدس بزند ، حتی اگر سعی کند این کار را بیش از یک میلیارد سال انجام دهد.
 
-It was not uncommon to see people loosing key to their Bitcoins in the early days. As a result a lot of Bitcoins (maybe 10-15%) ended up dormant this way. The Bitcoins are still out there, but the cryptographic key controlling these Bitcoins is lost.
+غیر معمولی نبود که در روزهای ابتدایی افرادی را پیدا کنید که کلید بیت کوین خود را از دست می دهند. در نتیجه بسیاری از بیت کوین ها (شاید ۱۰-۱۵٪) به این روش خسته شوند. بیت کوین ها هنوز در آنجا هستند ، اما کلید رمزنگاری کنترل این بیت کوین ها از بین می رود.
 
-In practical terms, the private key can be thought of as a secure alternative to traditional username and password authentication method but without the means to recover if lost.
+از نظر عملی ، می توان کلید خصوصی را به عنوان یک جایگزین مطمئن برای نام کاربری سنتی و روش تأیید رمز عبور تصور کرد اما بدون وسیله ای برای بازیابی در صورت گم شدن ان.
 
-## Cryptocurrency Wallets
+## کیف رمزارزی
 
-Cryptocurrency wallets are merely the instruments meant to hold and manage cryptographic keys. 
+کیف پول های رمزارز صرفا ابزاری برای نگه داشتن و مدیریت کلیدهای رمزنگاری هستند.
 
->**The wallets do not physically store cryptocurrencies, instead wallets store cryptographic keys which can exercise over certain amount of cryptocurrencies.**
+>**در عوض کیف پول کیف پول رمزهای رمزگذاری شده را ذخیره نمی کند ، در عوض کیف پول کلیدهای رمزنگاری را ذخیره می کند که می توانند بیش از مقدار مشخصی از ارزهای رمزپایه استفاده کنند.**
 
-Genuine cryptocurrency wallets enable safe and private storage of cryptographic keys. We deliberately said "genuine" because cryptocurrency wallets come in many forms. 
+کیف پولهای اصلی رمزارز امکان ذخیره ایمن و خصوصی کلیدهای رمزنگاری را فراهم می کنند. ما عمدا گفتیم "اصلی" زیرا کیف پول های رمزنگاری شده به اشکال مختلفی عرضه می شوند.
 
-Building genuine wallet is significantly more difficult and thus most wallet providers build pseudo currency wallets. Pseudo wallets do not provide users with a genuine control over the assets.
+ساخت کیف پول واقعی به طور قابل توجهی دشوار است و بنابراین بیشتر ارائه دهندگان کیف پول کیف پول ارز شبه ایجاد می کنند. کیف پول های شبه کنترل واقعی بر دارایی ها در اختیار کاربران قرار نمی دهند.
 
-While there are a lot of things that can potentially be taken into account when it comes evaluating wallets in this section we are going to focus on the core principle. The unconditional ownership!
+در حالی که موارد زیادی وجود دارد که می توان هنگام ارزیابی کیف پول در این بخش مورد توجه قرار گرفت ، ما می خواهیم به اصل توجه کنیم. مالکیت بی قید و شرط.
 
-The minimum requirement for any decent wallet should be full unconditional ownership by the user over the funds the wallet holds.
+حداقل هزینه لازم برای هر کیف پول مناسب باید مالکیت کامل بدون قید و شرط کاربر از بودجه کیف پول باشد.
 
-Not all wallet are equal in that regard. Depending on how the wallet built it may provide full unconditional ownership over the crypto, partial or none at all.
+همه کیف پول از این نظر برابر نیستند. بسته به نحوه ساخت این کیف پول ممکن است مالکیت کاملی بدون قید و شرط بر روی .رمزپایه ، جزئی یا اصل وجود داشته باشد
 
-### 1) Non-Custodial Wallets
+### کیف پول های غیر حضانت .۱
 
-A non-custodial wallet type gives the user exclusive control over their funds. The entity providing the wallet does not have any control over the user assets. 
+یک نوع کیف پول غیر حضوری کنترل منحصر به فرد بر وجوه خود را به کاربر می دهد. نهاد ارائه دهنده کیف پول هیچ کنترلی بر دارایی های کاربر ندارد.
 
-Such wallets are theoretically the most secure form of a cryptocurrency wallet as no third-party can interfere with the wallet funds. The user has exclusive control over the funds and doesn't have to trust any entity.
+چنین کیف پول هایی از لحاظ نظری امن ترین شکل کیف پول رمزنگاری هستند زیرا هیچ شخص ثالثی نمی تواند در وجوه کیف پول اختلل ایجاد کند. کاربر کنترل انحصاری روی وجوه را دارد و نیازی به اعتماد به هیچ موجودیتی ندارد.
 
-Non-custodial wallets keep the wallet code open to the public for scrutiny.
+کیف پولهای غیر حضوری کد کیفی را برای بررسی در معرض دید عموم قرار می دهند.
 
->**The users of non-custodial wallets expected to have an understanding that funds on the wallet are under exclusive control of the user.**
+>**انتظار می رود کاربران کیف پول های غیر متعهد این درک را داشته باشند که وجوه روی کیف پول تحت کنترل انحصاری کاربراست**
 >
->**User get full control as well as full responsibility when dealing with crypto assets on the wallet.**
+>**هنگام برخورد با دارایی های رمزپایه روی کیف پول ، کاربر کنترل کامل و همچنین مسئولیت کامل را به دست می آورد.**
 
-This is the only type of wallet we recommend for safe storage. In the later sections we are going to look deeper into the differences between various non-custodial wallets and risks associated with them.
+این تنها نوع کیف پول است که ما برای ذخیره سازی ایمن توصیه می کنیم. در بخش های بعدی می خواهیم به تفاوت های موجود .بین کیف پول های مختلف غیرقانونی و خطرات مرتبط با آنها بپردازیم
 
-### 2) Custodial Wallets
+### کیف پول های حضانت .۱
 
-A custodial wallet does not give the user exclusive control over the crypto funds on the wallet. A wallet provider basically gives "pseudo" wallet that shows balance and transactions. 
+یک کیف پول نگهبان کنترل اختصاصی وجوه رمزنگاری روی کیف پول را به کاربر نمی دهد. ارائه دهنده کیف پول در اصل به کیف پول "شبه" می دهد که تعادل و معاملت را نشان می دهد.
 
-Whenever user executes a transaction it's the wallet provider who actually sends those funds on user's behalf. Such wallets are the least secure wallets. The users' funds and access to them are fully in the hands of the wallet provider. 
+هر زمان کاربر معامله ای را انجام دهد ، ارائه دهنده کیف پول است که در واقع آن وجوه را از طرف کاربر ارسال می کند. چنین کیف پولهایی کمترین کیف پول هستند. بودجه کاربران و دسترسی به آنها کامل در اختیار تهیه کننده کیف پول است.
 
->**A wallet provider may easily block a user from accessing the wallet or even freeze the funds.**
+>**ارائه دهنده کیف پول به راحتی می تواند کاربر را از دسترسی به کیف پول منع کند یا حتی وجوه را مسدود کند.**
 > 
->**Unlike banks which also act as a middleman wallet providers are not financial institutions and thus not as regulated. There is a lot of risk for users holding large amount of cryptocurrency on custodial wallets.**
+>**برخلف بانکهایی که به عنوان ارائه دهنده کیف پول واسطه ای نیز فعالیت می کنند ، مؤسسات مالی نیستند و بنابراین به همین ترتیب تنظیم نشده اند. خطر زیادی برای کاربرانی که مقدار زیادی رمزپرداخت در کیف پولهای نگهبان را دارند ، وجود دارد.**
 
-Furthermore, custodial wallets are not private as the wallet provider knows full transaction history of the user.
+علوه بر این ، کیف پولهای حضانت خصوصی نیستند زیرا ارائه دهنده کیف پول تاریخچه معامله کامل کاربر را می داند.
 
-It should be noted that cryptocurrency exchanges usually provide users with custodial wallets. Therefore, it's not advised to use wallet provided by cryptocurrency exchange for keeping cryptocurrency for extended periods.
+لازم به ذکر است که تبادلات رمزارز معمولا کیف پولهای حضانت را در اختیار کاربران قرار می دهد. بنابراین ، توصیه نمی شود از کیف پول تهیه شده توسط مبادله رمزارز برای نگه داشتن رمزارز برای مدت طولانی استفاده کنید.
 
->**If you leave crypto funds on cryptocurrency exchange, or any type of custodial wallet, the funds are vulnerable to hacking or other types of data breaches. This happened a lot in the past and likely to happen in the future.**
+>**اگر وجوه رمزپایه را در مبادله رمزارز یا هر نوع کیف پول نگهبانی رها کنید ، این صندوق ها در برابر هک شدن یا انواع دیگری از نقض داده ها آسیب پذیر هستند. این اتفاق در گذشته بسیار رخ داده و احتمالا در آینده نیز اتفاق خواهد افتاد.**
 
-When your funds remain on the custodial wallet, the wallet provider could feasibly freeze funds, restrict your usage, or even block you from your wallet/account without warning.
+هنگامی که وجوه شما روی کیف پول نگهبان باقی می ماند ، ارائه دهنده کیف پول می تواند وجوه را یخ بزند ، استفاده شما را محدود کند ، یا حتی شما را بدون هشدار از کیف پول / حساب خود مسدود کند.
 
-Majority of the popular wallets out there are unfortunately of custodial nature.
+متأسفانه بیشتر کیف پولهای مشهور در خارج از کشور متشکل از آن است که از نظر طبیعت حضانت برخوردار است.
 
 ![](../images/02-03-l.png)
 
-### 3) Hybrid Wallets
+### کیف پول ترکیبی .۳
 
-Neither the wallet owner or the wallet provider has full control over the wallet funds. A hybrid wallet programmed to require approval from both parties before the funds can be spent. 
+نه صاحب کیف پول و نه ارائه دهنده کیف پول کنترل کامل بر بودجه کیف پول را ندارند. یک کیف پول ترکیبی که برای تأمین .اعتبار لازم از طرفین برنامه ریزی شده است ، قبل از صرف بودجه می تواند
 
-The hybrid wallet system protects against hacking wallet provider but opens the door for wallet provider to censor users in certain scenarios.
+سیستم کیف پول ترکیبی در برابر هک ارائه دهنده کیف پول محافظت می کند اما در ارائه دهنده کیف پول را برای سانسور کاربران .در سناریوهای خاص باز می کند
 
-Only when using non-custodial wallet you can be sure the funds are indeed under your control and not dependent on any third party.
+فقط هنگام استفاده از کیف پول غیر حضوری می توانید مطمئن باشید که این وجوه تحت کنترل شما هستند و به شخص ثالثی وابسته .نیستند
