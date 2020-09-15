@@ -39,8 +39,7 @@
           "image": "guides/fundamentals/images/01-main-l.png",
           "file": "guides/fundamentals/fa/1-cryptocurrency-basics.md",
           "updated_at": "01-06-2020"
-        },
-
+        }
       },
       {
         "en": {
@@ -473,5 +472,3 @@
     ]
   }
 ]
-
-
