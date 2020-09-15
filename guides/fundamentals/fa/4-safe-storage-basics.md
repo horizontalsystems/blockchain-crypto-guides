@@ -1,196 +1,196 @@
 ![](../images/04-main-l.png)
 
-# Safe Storage
+# ذخیره سازی ایمن
 
-Now let's look at different types of non-custodial wallets.
+حالا بیایید انواع مختلف کیف پولهای بدون حساب امانی را بررسی کنیم.
 
-First, there is no such thing as the most suitable wallet for all. Certain non-custodial wallets may be more appropriate for some and not for others. It depends on things like:
+اول اینکه، چیزی به عنوان مناسب ترین کیف پول برای همه وجود ندارد. برخی از کیف پولهای بدون حساب امانی ممکن است برای برخی مناسب تر و برای برخی دیگر نا مناسب باشند. این بستگی به مواردی مانند این مسایل دارد:
 
-* familiarity with security aspects
-* the place the person lives in
-* the amount of cryptocurrency to store
-* whether the person is a potential target
-* how frequently the wallet to be accessed
+آشنایی با جنبه های امنیتی
+مکانی که شخص در آنجا زندگی می کند
+مقدار رمزارزبرای ذخیره
+اینکه آیا فرد هدف بالقوه است
+هر چند وقت یک بار نیاز به دسترسی به کیف پول وجود دارد
 
-Some wallets are more user-friendly and appropriate for new people with smaller balances. At the same time, for people with a crypto capital in millions and extensive security knowledge the expectations from wallets are considerably higher. Those people may prefer to use wallets engineered for higher security needs.
+برخی از کیف پولها برای افراد جدید با تراکنش های کمتر، کاربرپسندتر و مناسب تر هستند. در عین حال، برای افرادی که دارای سرمایه رمزپایه ای در میلیون ها نفر و دانش گسترده امنیتی هستند ، انتظارات از کیف پول به طور قابل توجهی بیشتر است. این افراد ممکن است ترجیح دهند از کیف پول های مهندسی شده با نیازهای امنیتی بالاتر استفاده کنند.
 
-In this section we will try to look at common non-custodial wallets and get a balanced overview of the security aspects. A balanced approach involves a tiered approach, where the higher security requirements introduced as the risk factor grows. 
+در این بخش سعی خواهیم کرد که به کیف پولهای بدون حساب امانی متداول بپردازیم و یک نگاه اجمالی از جنبه های امنیتی داشته باشیم. یک رویکرد متعادل شامل یک رویکرد مرتب است  که در آن الزامات امنیتی بالاتر که به عنوان عامل خطر رشد می کنند معرفی می شوند.
 
-An ideal wallet for someone new with a capital below 10K is not the same as for someone in space for years and capital over 100K.
+یک کیف پول ایده آل برای شخصی جدید با سرمایه زیر ۱۰ ک ، همانند کسی نیست که سال ها در فضا و سرمایه بالای ۱۰۰ک داشته باشد..
 
-As the user's crypto capital grows so does the potential cost of loosing it. In such cases the capital can be divided into multiple wallets, where a larger chunk kept with extra secure considerations in mind while the remaining in potentially less secure but easily accessible wallet. 
+همچنانکه سرمایه رمزنگاری کاربر افزایش پیدا می کند، هزینه بالقوه از دست دادن آن نیز افزایش می یابد. در چنین مواردی ، سرمایه را می توان به چند کیف پول تقسیم کرد ، جایی که یک مبلغ بزرگتر با ملاحظات ایمنی اضافی در ذهن نگه داشته می شود ، در حالی که باقی مانده در کیف پول بالقوه ایمن اما به راحتی در دسترس است.
 
-## Non-custodial Wallet Types
+## انواع کیف پول بدون حساب امانی
 
-All non-custodial wallets out there provide users with full control over the crypto. That's an underlying characteristic of such a wallet. 
+تمام کیف پول های بدون حساب امانی در آنجا کنترل کاملی از رمزنگاری را در اختیار کاربران قرار می دهند. این ویژگی اساسی چنین کیف پول است.
 
-There 3 main types of non-custodial wallets:
+۳ نوع کیف پول اصلی غیرقانونی وجود دارد:
 
 ![](../images/04-02-l.png)
 
-1. hardware wallets 
-2. mobile app wallets
-3. desktop software wallets
+۱. کیف پول سخت افزاری
+۲. کیف پول برنامه تلفن همراه
+۳. کیف پول نرم افزار دسک تاپ
 
-Non-custodial wallets potentially differ in the extent to which wallet private keys are protected. Some wallets are designed taking into account even the most unlikely scenarios.
+کیف پولهای بدون حساب امانی به طور بالقوه در درجه محافظت از کلیدهای خصوصی کیف پول متفاوت هستند. برخی از کیف پول ها به گونه ای طراحی شده اند که حتی بعید ترین سناریوها را نیز در نظر گرفته اند.
 
-For instance, ensuring a safe storage of the private key in an up-to-date iOS or Android wallet app is easier than on a desktop wallet running on all-purpose Windows computer.
+به عنوان مثال ، اطمینان از ذخیره ایمن کلید خصوصی در برنامه به روزرسانی کیف پول با آی او اس یا اندروید آسان تر از یک کیف پول دسک تاپ است که در کامپیوتر ویندوز همه کاره اجرا می شود. 
 
-### 1. Hardware Wallets
+### ۱. کیف پول سخت افزاری
 
-The hardware wallets usually come in a form of small hardware devices resembling USB thumb drives and engineered for the sole purpose of storing large amount of cryptocurrencies securely.
+کیف پولهای سخت افزاری معمولاً به صورت دستگاههای سخت افزاری کوچک شبیه به درایوهای یو. اس.بی. ساخته می شوند و به منظور صرفه جویی در ذخیره مقادیر زیاد ارزهای رمزپایه به صورت ایمن ساخته شده اند.
 
-Without going into technicals, it's enough to know that these devices are widely considered as ones with the highest level of security. The security considerations are built around the idea of making the physical extraction of the private keys impossible, even if the attacker has your wallet device in physical possession.
+بدون وارد شدن به موارد فنی ، کافی است بدانید که این دستگاه ها به طور گسترده ای به عنوان وسایل دارای بالاترین سطح امنیتی در نظر گرفته می شوند. ملاحظات امنیتی حول این ایده ساخته شده است که استخراج فیزیکی از کلیدهای خصوصی غیرممکن است ، حتی اگر مهاجم وسیله کیف پول شما را به صورت فیزیکی در اختیار داشته باشد.
 
-From usability point of view hardware wallets are somewhat more difficult to use. It's not difficult for someone familiar with ins and outs of cryptocurrencies but definitely not as easy for those new to the field.
+از نظر قابلیت استفاده ، استفاده از کیف پولهای سخت افزاری سخت تر است. برای کسی که با پول و مسافرتهای خارج از ارزهای رمزپایه آشنا است کار دشواری نیست اما قطعاً برای کسانی که در این حوزه تازه وارد هستند نیز آسان نیست.
 
-Generally speaking, for someone with a large amount of crypto assets ( > $ 50,000) it would be advisable to use the hardware wallet. Or at the very least start exploring these wallets with the intent to move a chunk of their assets to a hardware wallet in the future.
+به طور کلی ، برای کسی که مقدار زیادی از دارایی های رمزنگاری (> ۵۰۰.۰۰۰ دلار) دارد توصیه می شود از کیف پول سخت افزاری استفاده کند. یا حداقل در آینده کاوش این کیف پولها را با هدف انتقال بخشی از دارایی های خود به کیف پول سخت افزاری در آینده آغاز کند.
 
-Two well-known hardware wallet providers are:
+دو ارائه دهنده کیف پول سخت افزاری شناخته شده عبارتند از:
 
 - [Trezor](https://trezor.io)
 - [Ledger Wallet](https://www.ledgerwallet.com)
 
-Both companies have a wide range of products to choose from. It's important to buy those directly from the provider's website.
+هر دو شرکت طیف گسترده ای از محصولات را برای انتخاب دارند. نکته بسیار مهم خرید این موارد به طور مستقیم از وب سایت ارائه دهنده می باشد.
 
-### 2. Mobile Wallets
+### ۱. کیف پول موبایل
 
-The mobile based wallets for iOS and Android are the most common type of non-custodial wallet apps. These wallets are generally more user-friendly. 
+کیف پول های مبتنی بر تلفن همراه برای آی او اس و اندروید رایج ترین نوع برنامه های کیف پول بدون حساب امانی است. این کیف پولها معمولاً کاربرپسند تر هستند.
 
-Some of our favorites are:
+برخی از موارد مورد علاقه ما عبارتند از:
 
 - [Unstoppable Wallet](https://unstoppable.money)
 - [Bread Wallet](https://brd.com)
 
-From security point of view, the hardware wallet considered more secure than a mobile wallet.
+از نظر امنیتی ، کیف پول سخت افزاری نسبت به کیف پول موبایل امن تر به نظر می رسید.
 
-The main point here is that there are more ways to attack a wallet running on a mobile operating system then a small hardware device that is designed to do one small thing. 
+نکته اصلی در اینجا این است که روش های بیشتری برای حمله به یک کیف پول که روی یک سیستم عامل موبایل اجرا می شود وجود دارد و سپس یک دستگاه سخت افزاری کوچک که برای انجام یک کار کوچک طراحی شده است.
 
-Mobile wallets operate on an all-purpose operating system (iOS, Android) with a lot of software components. The smartphone device itself has a lot of hardware components that potentially open up new attack surfaces.
+کیف پولهای موبایل با یک سیستم عامل همه منظوره  آی او اس یا اندروید با بسیاری از ویژگی های نرم افزار کار می کنند. دستگاه تلفن هوشمند خود دارای بسیاری از قطعات سخت افزاری است که به طور بالقوه سطوح جدید حمله را باز می کنند.
 
-Both Google's Android and Apple's iOS operating system come with so called 'secure element' which is specifically designed for handling highly sensitive data. Good wallets make use of that and therefore keep the private key unreachable even if the phone ends up in the hands of someone looking to extract it.
+سیستم عامل آی او اس و اندروید گوگل و سیستم عامل  آی او اس اپل دارای سیستم عامل ایمن هستند که به طور خاص برای دستیابی به داده های بسیار حساس طراحی شده اند. کیف پولهای خوب از آن استفاده می کنند و بنابراین کلید خصوصی را حتی اگر تلفن در دست کسی باشد که به دنبال استخراج آن باشد در دسترس نیست.
 
-### 3. Desktop Wallets
+### کیف پول دسکتاپ. ۳
 
-Desktop wallets are theoretically less secure when compared to a mobile wallet for the same reason why a mobile wallet is less secure than a hardware wallet. 
+کیف پولهای دسکتاپ از نظر تئوری نسبت به کیف پول موبایل به همین دلیل از امنیت کمتری برخوردار هستند اما به همین دلیل کیف پول موبایل نسبت به کیف پول سخت افزاری ایمن تر است.
 
-The potential attack surface on a desktop operating system is even larger than that of mobile. That's just the nature of a desktop platform.
+سطح حمله بالقوه بر روی سیستم عامل دسک تاپ حتی بزرگتر از سطح موبایل است. این فقط ماهیت یک پلتفرم دسکتاپ است.
 
-It doesn't necessarily mean some desktop wallet is less secure than some mobile-based wallet app. 
+لزوماً به این معنا نیست که برخی از کیف پول دسکتاپ نسبت به برخی از برنامه های کیف پول مبتنی بر موبایل از امنیت کمتری برخوردار هستند.
 
-Some of the more popular desktop-based wallets are:
+برخی از کیف پولهای رایج مبتنی بر دسکتاپ عبارتند از:
 
-- [Eelctrum](https://electrum.org)
+- [Electrum](https://electrum.org)
 - [Exodus](https://www.exodus.io)
 
-## So, Which Wallet?
+## بنابراین ، کدام کیف پول بهتر است؟
 
-The classification above was primarily based around the notion of private key security. While it's the most important factor it should not be the only one when choosing the wallet. There are a lot of factors to consider.
+طبقه بندی فوق در درجه اول حول مفهوم امنیت کلید خصوصی بود. در حالی که این مهمترین عامل است در انتخاب کیف پول نباید تنها باشد. عوامل زیادی برای در نظر گرفتن وجود دارد.
 
-For instance, a non-custodial mobile wallet app may potentially be more private than a hardware wallet. Or may have essential features not available in the hardware wallet.
+به عنوان مثال ، یک برنامه کاربردی کیف پول موبایل غیرقانونی ممکن است خصوصی تر از یک کیف پول سخت افزاری باشد. یا ممکن است دارای ویژگی های اساسی باشد که در کیف پول سخت افزاری موجود نیست.
 
 > The privacy aspect has many sides and generally should be taken into account as well. For instance, a hardware wallet may offer a superior security but unintentionally expose customers' personal data. A [recent breach](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) of company selling Ledger hardware wallets is a good example of that.
 
-Keep in mind, you don't need a cartel level security if you're just starting out. The out of the box security on most well-known non-custodial wallet apps is already pretty good.
+به خاطر داشته باشید ، اگر تازه کار را شروع کردید ، به امنیت سطح کارتل احتیاج ندارید. خارج از امنیت جعبه در بسیاری از برنامه های معروف کیف پول بدون حساب امانی ، اکنون بسیار خوب است.
 
-> **A balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.**
+> **یک رویکرد متعادل یک راه حل است که در آن با افزایش ضریب خطر ، الزامات امنیتی بالاتر معرفی می شود.**
 
-The minimum security requirements for using any non-custodial wallet app should be as follows.
+حداقل الزامات امنیتی برای استفاده از هر برنامه کیف پول بدون حساب امانی باید به شرح زیر باشد.
  
-- **Security Basics**
+- **مبانی امنیتی**
 
-    The owner of the device should have a basic understanding of digital security. If it's a mobile wallet the mobile OS should remain clean of unauthorized applications and stay up to date.
- 
-- **Standard Compliant**
+    صاحب دستگاه باید درک اساسی از امنیت دیجیتال داشته باشد. اگر این یک کیف پول موبایل باشد ، سیستم عامل موبایل باید از برنامه های غیر مجاز تمیز و به روز باشد.
 
-    The wallet should generate private keys per publicly documented security standards. This will allow for seamless migration to a third party wallet should there ever be a need for that.
+- **منطبق با استاندارد**
 
-- **Unauthorized Access**
+کیف پول باید کلیدهای خصوصی را مطابق با استانداردهای امنیتی مستند عمومی تولید کند. در صورت نیاز به این امر ، تغییر یکپارچه به کیف پول شخص ثالث امکان پذیر خواهد بود.    
+
+- **دسترسی غیرمجاز**
     
-    The access to the wallet device should be protected with the PIN or somilar mechanism. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
+دسترسی به دستگاه کیف پول باید با مکانیسم  پین یا سومیلار محافظت شود. با فرض اینکه یک دزد می داند چه چیزی را جستجو می کنید --- کیف پول رمزارز ، تبادل برنامه ها و موارد دیگر - - آنها می توانند حساب های رمزارز شما را تمیز کنند که هیچ پین روی تلفن هوشمند وجود ندارد. همین مورد در مورد قفل پین روی کیف پول سخت افزار نیز صدق می کند.    
     
-## Multiple Wallets
+## چند کیف پول
 
-While your crypto remains relatively small (ex: < $10,000) stick to standard security measures. As the capital grows gradually become more demanding by introducing additional security measures like splitting the capital into multiple wallets.
+در حالی که رمزارز شما نسبتاً کوچک است (به عنوان مثال: <۱۰.۰۰۰ دلار) به اقدامات امنیتی استاندارد می پردازد. با افزایش تدابیر امنیتی اضافی مانند تقسیم سرمایه به چندین کیف پول ، به تدریج رشد می یابد.
 
 ![](../images/04-03-l.png)
 
-For instance, someone may start with a single wallet with an initial crypto capital valued at $10,000. As the value of the capital grows the user may move to a tiered approach as below.
+به عنوان مثال ، ممکن است شخصی با یک کیف پول واحد با سرمایه اولیه رمزپایه به ارزش ۱۰.۰۰۰ دلار شروع کند. با افزایش ارزش سرمایه ، کاربر ممکن است به شکل زیر تنظیم کند.
 
-- **Generic Wallet**
+- **کیف پول عمومی**
 
-    Mobile or a desktop non-custodial wallet that always with you and stores smaller amounts for all-purpose transactions. 
+    موبایل یا کیف پول بدون حساب امانی دسک تاپ که همیشه با شما همراه است و مبلغ کمتری را برای انجام معاملات همه منظوره ذخیره می کند.
+   
+- **کیف پول سرمایه گذاری**
+
+کیف پول بدون حساب امانی موبایل که سرمایه را به معنای سرمایه گذاری های فعال نگه می دارد. به معنای دسترسی آسان و مکرر به بودجه است.    
     
-- **Investment Wallet**
+- **کیف پول ذخیره سازی سرد**
 
-    Mobile non-custodial wallet that keeps the capital meant for active investments. Meant for easy and frequent access to the funds.
-    
-- **Cold Storage Wallet**
-
-    Hardware wallet that holds crypto meant for long term storage without the need for regular access.
+کیف پول سخت افزاری که دارای رمزنگاری است به معنای ذخیره طولانی مدت و بدون نیاز به دسترسی منظم است.    
 
 ![](../images/04-04-l.png)
     
-Those making their way into cryptocurrency for the first time are likely to find mobile-based wallets easier to use.
+افرادی که برای اولین بار راه ورود به رمزارز را انجام می دهند ، احتمالاً استفاده از کیف پولهای مبتنی بر موبایل را آسانتر می یابند.
 
-Keeping your mobile wallet on your phone is handy. Your cryptocurrency remains close, easy to access, and you can use funds to invest, make payments wherever you are. 
+نگه داشتن کیف پول تلفن همراه خود بسیار مفید است. رمزنگاری شما نزدیک ، دسترسی آسان باقی مانده است و می توانید برای سرمایه گذاری از بودجه استفاده کنید ، در هر کجا که هستید پرداخت کنید.
 
-Those holding large amounts in cryptocurrency can jump to a tiered approach from the start. 
+افرادی که مقادیر زیادی رمز ارز دارند ، می توانند از ابتدا به رویکردی پرش به بالا پرش کنند.
 
-> **The basic principle can be based around the concept of keeping a larger portion of the dormant holdings in a hardware wallet that's not meant to be accessed frequently.**
+> **این اصل اساسی می تواند مبتنی بر مفهوم نگه داشتن بخش بیشتری از منابع نهفته در یک کیف پول سخت افزاری باشد که به معنای دسترسی مکرر آن نیست.**
 
-If the sum to be stored in the hardware wallet is substantial then as a further precaution it's advised to split between two or more hardware wallets.
+اگر مبلغ قابل ذخیره در کیف پول سخت افزاری قابل توجه باشد ، پس به عنوان یک احتیاط بیشتر ، توصیه می شود بین دو یا چند کیف پول سخت افزاری تقسیم شود.
 
-## Wallet Backup Tips
+## نکات مهم برای پشتیبان گیری از کیف پول
 
-As was mentioned earlier, having a backup of a private key for each wallet is critical.
+همانطور که قبلاً نیز اشاره ش ، تهیه نسخه پشتیبان از یک کلید خصوصی برای هر کیف پول بسیار مهم است.
 
-Some people prefer to write the private key (presented in a form words) down on a piece of paper and store it somehow somewhere. Some prefer writing the words on a file and then store the encrypted copy online.
+برخی افراد ترجیح می دهند که کلید خصوصی (به صورت کلمات ارائه شده) را روی یک کاغذ بنویسید و آن را به نوعی در جایی ذخیره کنند. برخی ترجیح می دهند کلمات را روی یک فایل بنویسید و سپس نسخه رمزگذاری شده را بصورت آنلاین ذخیره کنید.
 
-> **Note that it's not a good idea to have a digital version of the private key (even if it's encrypted) for any wallet with large amount of crypto.**
+> **توجه داشته باشید که داشتن یک نسخه دیجیتالی از کلید خصوصی (حتی اگر آن را رمزگذاری کنید) برای هر کیف پول با هر مقدار رمزارز ایده خوبی نیست.**
 > 
-> **For smaller amounts should not be a significant issue as long as you understand the risks.** 
+> **تا زمانی که با این جنبه ریسک آگاه هستید، برای مقادیر کوچکتر نباید مسئله مهمی باشد.** 
 
-For mobile non-custodial wallets that are meant to be accessed frequently make sure backup of the private key stored safely and easily accessible on demand.
+در مورد کیف پولهای بدون حساب امانی تلفن همراه که به طور مکرر قابل دسترسی هستند، اطمینان حاصل کنید که از پشتیبان گیری از کلید خصوصی که با امنیت و به راحتی در صورت تقاضا ذخیره شده است استفاده می کنید.
 
-### 1. Optional Password
+###  رمز عبور اختیاری. ۱
 
-When setting up new wallet apps some wallet apps enable users to add a password next to the 12/24 words.
+هنگام تنظیم برنامه های جدید کیف پول برخی از برنامه های کیف پول به کاربران این امکان را می دهند که یک رمز عبور را در کنار کلمات ۱۲/۲۴ اضافه کنند.
 
-It's an additional security measure that allows the person to keep the 12/24 words separately from the password. 
+این یک اقدام امنیتی بیشتر است که به شخص اجازه می دهد کلمات ۱۲/۲۴ را جدا از رمز عبور نگه دارد.
 
-> **Doing so allows the owner of the wallet to remain safe even if someone finds the list with words. The password will still be needed to access crypto funds.**
+> **انجام این کار باعث می شود صاحب کیف پول حتی اگر کسی لیست را با کلمات پیدا کند ایمن بماند. برای دسترسی به وجوه رمزارز،  رمز عبور هنوز الزامی خواهد بود.**
 
-The password can be memorized or written down and kept separately from the list of words.
+رمز عبور را می توان به خاطر سپرد یا یادداشت کرد و جدا از لیست کلمات نگه داشت.
 
-That said, adding a password next to 12/24 words to some extent limits the options when it comes to migrating to a third party wallet in the future. Not many non-custodial wallets support passwords.
+گفته می شود، افزودن رمزعبور در کنار کلمات ۱۲/۲۴ تا حدی گزینه هایی را برای انتقال به کیف پول شخص ثالث در آینده محدود می کند. بسیاری از کیف پول های  بدون حساب امانی از رمزهای عبور پشتیبانی نمی کنند.
 
-For private key backup for hardware wallets holding large sums it's recommended to set up private key in a form of 12/24 words + password. That option should be available on all hardware wallets. Those wallets enable creating and restore of such private keys.
+برای تهیه نسخه پشتیبان از کلید خصوصی برای کیف پول های سخت افزاری که مبالغ زیادی دارند ، توصیه می شود که کلید خصوصی را به شکل ۱۲/۲۴ کلمه   رمز عبور تنظیم کنید. این گزینه باید در همه کیف پولهای سخت افزاری موجود باشد. این کیف پول ها ایجاد و بازیابی چنین کلیدهای خصوصی را امکان پذیر می کنند.
 
-### 2. Offline Backups
+### پشتیبان گیری آفلاین. ۱
 
-When storing private keys or hardware wallets offline, take into account following:
+هنگام ذخیره کلیدهای خصوصی یا کیف پولهای سخت افزاری به صورت آفلاین ، موارد زیر را در نظر بگیرید:
 
-- private key backup should be kept in separate location from wallet device. 
-- if private key consists of words and a password, both should be kept separately.
-- private key backup or wallet device can potentially be found by someone else.
-- the hardware wallet should be protected by a PIN lock.
-- take necessary precautions against fire or floods.
+پشتیبان گیری از کلید خصوصی باید در مکانی جداگانه از دستگاه کیف پول نگهداری شود.
+اگر کلید خصوصی از کلمات و رمز عبور تشکیل شده باشد ، هر دو باید به صورت جداگانه نگه داشته شوند.
+پشتیبان گیری از کلید خصوصی یا دستگاه کیف پول می تواند به طور بالقوه توسط شخص دیگری پیدا شود.
+کیف پول سخت افزار باید توسط یک قفل پین محافظت شود.
+اقدامات احتیاطی لازم در برابر آتش سوزی یا سیل را انجام دهید.
 
-A backup of words can be stored in a metal container from [Crypto Steel](http://cryptosteel.com). The password can be memorized or stored physically in a separate location. As a result you end up with:
+نسخه پشتیبان از کلمات را می توان در یک ظرف فلزی از کریپتا استیل ذخیره کرد. رمز عبور را می توان به صورت فیزیکی در یک مکان جداگانه حفظ یا ذخیره کرد. در نتیجه موارد زیر را خواهید داشت:
 
-1. hardware wallet device that is protected by a PIN.
-2. private key (useless without password)
-3. password (useless without words)
+دستگاه کیف پول سخت افزاری که توسط یک پین محافظت می شود.
+کلید خصوصی (بی فایده بدون رمز عبور)
+رمز عبور (بی فایده بدون کلمات)
 
-If all three items stored separately you are achieving a fairly good level of crypto security. To access your funds you will either need a wallet device + pin, or the private key + password.
+اگر هر سه مورد که به طور جداگانه ذخیره شده اند ، به سطح نسبتاً خوبی از امنیت رمزنگاری دست یابید. برای دسترسی به بودجه خود به یک دستگاه کیف پول  پین یا کلید خصوصی  رمز عبور نیاز خواهید داشت.
 
-It's also advised to share enough information with your close ones so that they can recover the access to funds should for some reason you become unreachable.
+همچنین توصیه می شود که اطلاعات کافی را با افراد نزدیک خود به اشتراک بگذارید تا بتوانند دسترسی به بودجه را به دلایلی که شما غیرقابل دسترسی می شوید را پس بگیرند.
 
-## Conclusion
+## نتیجه
 
-If you have a basic understanding of what has been covered by now you already know quite a lot!
+اگر درک اساسی از آنچه در حال حاضر تحت پوشش است  دارید کاملاً می دانید!
 
-The aim was to explain that non-custodial wallet type is the only wallet that can guarantee the ownership of held cryptocurrencies. Wallets provided by cryptocurrency exchanges are custodial and can censor or block the funds should there ever be a need for that.
+هدف این بود که توضیح دهیم که نوع کیف پول بدون حساب امانی تنها کیف پول است که می تواند مالکیت رمزارز ها را تضمین کند. کیف پول های ارائه شده توسط بورس های رمزارز، اقساطی هستند و می توانند در صورت نیاز به این امر ، بودجه را سانسور یا مسدود کنند.
 
-Those holding large amounts of crypto should consider splitting the funds into multiple wallets with a larger portion of the sum being on a hardware wallet.
+افرادی که مقادیر زیادی رمزارز در اختیار دارند ، باید وجوه را در چند کیف پول تقسیم کنند که بخش بیشتری از آن روی یک کیف پول سخت افزاری است.

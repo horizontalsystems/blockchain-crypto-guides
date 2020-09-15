@@ -1,125 +1,127 @@
 ![](../images/08-main-l.png)
 
-# Transactions Explained
+# معاملات توضیح داده شده است
 
-Time to learn the ins and outs of cryptocurrency transactions.
+زمان برای یادگیری صندوق های عقب و خارج از معاملات رمزارز.
 
-While the process of sending and receiving payments is similar for all cryptocurrencies there are some aspects which tend to change from one cryptocurrency to another. 
+در حالی که روند ارسال و دریافت پرداخت برای همه ارزهای رمزنگاری مشابه است ، جنبه هایی وجود دارد که تمایل به تغییر از یک رمزنگاری به دیگری دارند.
 
-In this section we'll go over the essentials to give you a clear understanding of how the transactions work for almost all cryptocurrencies.
+در این بخش ما به موارد ضروری می پردازیم تا درک روشنی از نحوه عملکرد معاملات تقریباً برای تمام ارزهای رمزپایه به شما واضح بگوییم.
 
-## Send & Receive
+## ارسال و دریافت
 
-The process of Sending and Receiving crypto is pretty much the same on all wallets.
+روند ارسال و دریافت رمزنگاری تقریباً در همه کیف پولها یکسان است.
 
-- **To Send Crypto**
+- **برای ارسال رمزنگاری**
     
-    Within your wallet app, look for the option to "send" or the app's equivalent. If the wallet app supports multiple currencies make sure to select the correct cryptocurrency.
+در برنامه کیف پول خود ، گزینه "ارسال" یا معادل برنامه را جستجو کنید. اگر برنامه کیف پول از چندین ارز پشتیبانی می کند ، حتماً رمزارزصحیح را انتخاب کنید.   
     
-    Enter the amount, the address of the recipient, the transaction fee (more on that below) and click on the send button.
+   مبلغ ، آدرس گیرنده ، هزینه تراکنش (بیشتر در مورد آن را در زیر) وارد کنید و بر روی دکمه ارسال کلیک کنید.
     
-- **To Receive Crypto**
+- **برای دریافت رمزنگاری**
 
-    Open the wallet app and look for the option to "receive" or the app's equivalent. As mentioned earlier make sure you're copying the address for the right coin.
+برنامه کیف پول را باز کنید و به دنبال گزینه "دریافت" یا معادل آن برنامه باشید. همانطور که قبلاً ذکر شد ، اطمینان حاصل کنید که آدرس سکه مناسب را کپی می کنید.   
     
-    The wallet app will provide a distinct receive address for some cryptocurrencies, and the same address for others. For instance, all Ethereum based cryptocurrencies will have the same receive address within one wallet app.
+برنامه کیف پول برای برخی از ارزهای رمزنگاری شده و همان آدرس برای دیگران ، آدرس مشخصی را ارائه می دهد. به عنوان مثال ، تمام ارزهای رمزنگاری شده مستقر در اتریوم همان آدرس دریافتی را در یک برنامه کیف پول دارند.   
     
-    Send that address to the sender and wait for the cryptocurrency to appear in your wallet.
+آن آدرس را به فرستنده ارسال کنید و صبر کنید تا رمزارزدر کیف پول شما ظاهر شود.   
 
-## Transaction Phases
+## مراحل تراکنش
 
-Cryptocurrency transactions are not instant. For some cryptocurrencies it takes a second while for other it may span a few minutes or in some cases even hours.
+معاملات رمزنگاری سریع انجام نمی شود. برای برخی از ارزهای رمزنگاری شده ثانیه طول می کشد در حالی که برای سایر موارد ممکن است چند دقیقه یا در بعضی موارد حتی ساعت ها طول بکشد.
 
-When transacting using а non-custodial wallet transactions will go directly through a blockchain in the following order:
+هنگام انجام معاملات با استفاده از معاملات کیف پول غیر حضوری ، به ترتیب زیر مستقیماً از طریق یک زنجیره بلوکی عبور می کنید:
 
-1. **Transaction Is Pending**
+-  **معامله در انتظار است**
 
-    After the transaction sent from a wallet, it reaches the underlying blockchain network nearly instantly. Bitcoin transactions sent to Bitcoin network, Ether transactions to Ethereum network etc.
+پس از معامله ارسال شده از یک کیف پول ، تقریبا بلافاصله به شبکه زیربنایی زنجیره بلوکی می رسد. معاملات بیت کوین ارسال شده به شبکه بیت کوین ، معاملات اتر به شبکه اتریوم و غیره.  
+   
+ در این مرحله ، هم فرستنده و هم گیرنده می توانند از قبل وضعیت معامله را در برنامه های کیف پول خود یا در 
+ 
+  کنترل کنند. blockchair.com عمومی یعنی   explorer blockchain
+
+-  **معامله تأیید می شود**
+
+با توجه به اینکه معامله معتبر است ، تمام گره های موجود در آن زنجیره بلوکی مسابقه خواهند یافت تا آن را به ر وارد کنند. مدت زمان این مراحل از یک زنجیره به دیگری متفاوت است.   
     
-    At this stage, both sender and recipient can already monitor the state of transaction in their wallet apps or on public blockchain explorer i.e. [blockchair.com](https://blockchair.com).
-
-2. **Transaction Gets Confirmed**
-
-    Given that the transaction is valid, all nodes on that blockchain will race to include it to the blockchain. The duration of that steps vary from one blockchain to another. 
+   برای بیت کوین به طور کلی می تواند ۱۰ دقیقه طول بکشد ، در اتریوم حدود ۳-۳ دقیقه و غیره.
     
-    For Bitcoin it can generally take up to 10 minutes, for Ethereum about 2-3 minutes etc. This step may take considerably longer if the blockchain is busy with a lot of pending transactions.
-    
-    A transaction considered complete after it has been added to the blockchain.
+   معامله ای که بعد از افزودن به زنجیره بلوکی کامل تلقی شود.
 
-3. **Transaction Is Final**
+-  **معامله نهایی است**
 
-    Once the transaction has been added to the blockchain it can be considered final. That said, for some blockchains and Bitcoin in particular it's recommended to wait until a certain number of new blocks added. 
-    
-    For large sums, it's generally recommended to wait for up to 6 blocks to pass before the transaction can be considered theoretically irreversible. For the most payments, 1-2 confirmations should be fine.
+پس از افزودن معامله به زنجیره بلوکی ، می توان نهایی را در نظر گرفت. گفته می شود ، برای برخی از زنجیره بلوکی ها و به ویژه بیت کوین توصیه می شود تا تعداد مشخصی از بلوک های جدید منتظر بمانند.   
 
-## Transaction Fees
+   برای مبالغ زیاد ، معمولاً قبل از اینکه معامله را از نظر تئوری غیرقابل برگشت تلقی کنید ، باید منتظر بمانید تا ۶ بلوک منتقل شود. برای بیشترین پرداخت ، ۲-۱ تائید باید خوب باشد.
 
-When sending cryptocurrencies like Bitcoin or Ethereum the sender expected to pay a transaction fee. That fee goes as compensation to one of the blockchain nodes which will be the first to add the transaction to a blockchain.
+  
+## هزینه های معامله
 
-Generally, blockchains are free to participate however require its native cryptocurrency to do anything. Both on Ethereum and Bitcoin, sender also pays a service fee to the blockchain network on every transaction.
+معامله تأیید می شودهنگام ارسال ارزهای رمزنگاری مانند بیت کوین یا اتریوم ، فرستنده انتظار دارد مبلغ تراکنش را بپردازد. این هزینه به عنوان یکی از گره های زنجیره بلوکی که اولین کسی خواهد بود که معامله را به یک زنجیره بلوکی  اضافه می کند ، جبران می شود.
 
-> **You don't need to understand the details here, just keep in mind that thousands of nodes powering the blockchain will receive the transaction within a few seconds after it's sent.** 
+
+> **لازم نیست جزئیات را در اینجا بفهمید ، فقط بخاطر داشته باشید که هزاران گره نیرو بخش زنجیره بلوکی پس از ارسال ، معامله را طی چند ثانیه دریافت می کنند.** 
 >
-> **The node that adds it first to the blockchain will get the associated fee as a reward. Every time you send a transaction you will be paying fees to a different node. Consider it as a service fee for using the network.**
+> **گره ای که ابتدا آن را به زنجیره بلوکی اضافه می کند ، هزینه همراه را به عنوان پاداش دریافت می کند. هر بار که معامله ارسال می کنید هزینه های دیگری را به گره دیگر پرداخت می کنید. آن را به عنوان هزینه خدمات برای استفاده از شبکه در نظر بگیرید.** <
 
-Depending on the cryptocurrency you're sending the transaction fees may vary. For some blockchains the fee may be as low as a fraction of a cent, for other like Bitcoin it can easily exceed 1$.
+بسته به اعتبار رمزارز شما می توانید هزینه های معامله متفاوت باشد. برای برخی از زنجیره بلوکی هزینه ممکن است به عنوان کسری از درصد کم باشد ، برای سایر مانند بیت کوین می تواند به راحتی از ۱ دلار آمریکا  فراتر رود.
 
-The blockchains powering cryptocurrencies like Bitcoin and Ethereum currently limited to a few million transactions per day. The transaction fee used as an instrument to prioritize desired transactions by giving it a higher fee.  
+بلاکچین های دارای ارز رمزنگاری مانند بیت کوین و اتریوم در حال حاضر محدود به چند میلیون معاملات در روز هستند. هزینه معامله به عنوان ابزاری برای اولویت بندی معاملات مورد نظر با تعیین هزینه بالاتر از آن استفاده می شود.
 
-If the fee is far below the network average your transaction may remain pending for hours, if it's well above the average expect it to be added to the blockchain usually within a few minutes.
+اگر هزینه بسیار کمتر از متوسط ​​شبکه باشد ، معامله شما ممکن است ساعت ها در انتظار باشد ، اگر خیلی بالاتر از حد متوسط باشد ، انتظار دارید که معمولاً در عرض چند دقیقه به زنجیره اضافه شود.
 
-> **If transaction remains pending for a few days due to a low fee it may be rejected, as if it was never sent.**
+> **اگر معامله به دلیل هزینه کم برای چند روز در انتظار باقی بماند ممکن است رد شود ، مثل اینکه هرگز ارسال نشده است.**
 >
-> **If you have a pending transaction that is taking a while to confirm in most cases it will ultimately be accepted if you wait long enough.**
+> **اگر معامله معلق دارید که در بیشتر موارد تأیید می شود ، در بیشتر موارد اگر در حد کافی منتظر بمانید ، در نهایت پذیرفته می شود.**
 
-Some wallets out there would recommend the optimal transaction fee amount taking into account the current state of activity on the network.
+برخی از کیف پول های موجود در آنجا مبلغ بهینه هزینه معامله را با در نظر گرفتن وضعیت فعلی فعالیت در شبکه توصیه می کنند.
 
-When sending large sums or time critical payments always try to provide a fee amount that is well above average. That would ensure that your transaction reaches the recipient without delay.
+هنگام ارسال مبالغ زیاد یا پرداخت های حساس زمانه ، همیشه سعی کنید مبلغی را پرداخت کنید که بسیار بالاتر از حد متوسط ​​باشد. این اطمینان حاصل می کند که معامله شما بدون تأخیر به گیرنده می رسد.
 
-## Cancelling Transaction
+##     معامله را لغو کنید
 
-Sometimes you may end up in a situation where a transaction needs to be cancelled. In some cases, it's possible to cancel or modify transaction while it's still in pending state. 
+بعضی اوقات ممکن است در شرایطی قرار بگیرید که یک معامله باید فسخ شود. در بعضی موارد ، امکان لغو یا تغییر معاملات در حالی که هنوز در حالت انتظار است وجود دارد.
 
-Both Bitcoin and Ethereum transactions can be modified while in pending state but in order to be able to do that the wallet app should provide a way to do that.
+هر دو معاملات بیت کوین و اتریوم می توانند در حالی که در حالت انتظار هستند تغییر دهند اما برای اینکه بتوانند این کار را انجام دهند ، برنامه کیف پول باید راهی برای انجام آن فراهم کند.
 
-That said, once the transaction added to the blockchain there is usually no practical way to cancel it. So, once transactions added to the blockchain they are final.
+گفته می شود ، به محض افزودن معامله به زنجیره بلوکی  ، معمولاً هیچ روش عملی برای فسخ آن وجود ندارد. بنابراین ، پس از اضافه شدن معاملات به زنجیره بلوکی ، نهایی می شوند.
 
-## Transaction Privacy
+## حریم خصوصی معاملات
 
-Lastly, there are some vital considerations to keep in mind when it comes to transactions and privacy.
+در آخر اینکه ، در مورد معاملات و حریم خصوصی ، ملاحظات حیاتی وجود دارد که باید در نظر داشته باشید.
 
-Transactions on most blockchains stored openly. Anyone can see when the transaction took place, the amounts involved, and the sender receiver addresses. While a third party can see the addresses involved there is no connection to a real world identity.
+معاملات در اکثر بلاکچینها که به صورت علنی ذخیره می شوند. هر کس می تواند ببیند چه زمان معامله انجام شده ، مبالغ درج شده و آدرس گیرنده فرستنده را مشاهده می کند. در حالی که شخص ثالث می تواند آدرس های موجود را مشاهده کند ، هیچ ارتباطی با هویت دنیای واقعی ندارد.
 
 ![](../images/08-02-l.png)
 
-While some privacy focused cryptocurrencies (i.e. Monero) do not reveal any information about the transaction, for the most cryptocurrencies incl. Bitcoin and Ethereum blockchains store transaction data openly.
+در حالی که برخی از ارزهای رمزنگاری شده با محوریت حفظ حریم خصوصی (به عنوان مثال مونرو) هیچ اطلاعاتی در مورد معامله را نشان نمی دهند ، برای بیشترین ارزهای رمزنگاری. زنجیره بلوکی بیت کوین و اتریوم داده های معامله را آشکارا ذخیره می کند.
 
-Below we are going to expand a bit and specifically look at privacy risks when transacting using Bitcoin and Ethereum.
+در زیر می خواهیم کمی گسترش دهیم و به طور خاص خطرات حریم خصوصی هنگام تعامل با استفاده از بیت کوین و اتریوم را بررسی کنیم.
 
-- **Bitcoin Privacy**
+- **حریم خصوصی بیت کوین**
 
-    The Bitcoin wallets built in a way where user can potentially generate millions of addresses that can be used to receive payments within one wallet app. Each payment address can be used once, many times or not used at all. It's up to the user. 
+کیف پول های بیت کوین به شکلی ساخته شده است که کاربر به طور بالقوه می تواند میلیون ها آدرس را ایجاد کند که می تواند برای دریافت پرداخت در یک برنامه کیف پول ایجاد کند. هر آدرس پرداخت می تواند یک بار ، چندین بار یا اصلاً استفاده نشود. بستگی به کاربر دارد.    
     
-    A good wallet will always generate a new receive address after it receives a payment to the latest address. This is done to discourage a user to use the same 'receive' address over and over.
+یک کیف پول خوب همیشه پس از دریافت پرداخت به آخرین آدرس ، آدرس جدید دریافت می کند. این کار برای ناامید کردن کاربر از استفاده از همان آدرس "دریافت" بارها و بارها انجام می شود.    
     
-    If user uses the same address then anyone can take a single transaction of the user and from that locate other incoming and outgoing transactions belonging to the user. From that you can potentially derive entire balance and transaction history!
+اگر کاربر از همان آدرس استفاده کند ، هرکسی می تواند یک تراکنش کاربر را انجام دهد و از آن طریق سایر معاملات ورودی و خروجی متعلق به کاربر را پیدا کند. از آن به طور بالقوه می توانید کل ترازو و تاریخ معامله را استخراج کنید!    
     
-    So, try to use new receive address for each party you're transacting with.
+بنابراین ، سعی کنید از آدرس دریافت جدید برای هر مهمانی که با آنها معامله کرده اید استفاده کنید.    
 
-- **Ethereum Privacy**
+- **حریم خصوصی اتریوم**
 
-    As mentioned above, in case of Bitcoin the address for receiving payments can change with each transaction.
+همانطور که گفته شد در صورت بیت کوین آدرس دریافت پرداخت با هر تراکنش قابل تغییر است.   
 
-    When it comes to Ethereum wallets your address to receive Ether payments will always be the same. Although it may change in the future, nearly all Ethereum wallets work with the single address nowadays. There are some technical reasons for that.
+وقتی صحبت از کیف پول اتریوم می شود ، آدرس شما برای دریافت پرداخت های اتر همیشه یکسان خواهد بود. اگرچه ممکن است در آینده تغییر کند ، تقریباً امروزه تقریباً همه کیف پولهای اتریوم با یک آدرس واحد کار می کنند. دلایل فنی زیادی برای آن وجود دارد.   
     
-    > **The Ethereum blockchain is fully transparent allowing anyone to see all incoming and outgoing transactions for the given payment address.** 
+ >   **زنجیره بلوکی اتریوم کاملاً شفاف است و به هر کسی امکان مشاهده کلیه معاملات ورودی و خروجی برای آدرس پرداخت داده شده را می دهد.** 
     
-    So, when you send or receive Ethereum keep in mind that the party you're transacting with can potentially lookup your balance of Ether and other Ethereum based tokens just by knowing your address.
+بنابراین ، هنگامی که اتریوم را ارسال یا دریافت می کنید این نکته را بخاطر بسپار که مهمانی که با آنها معامله می کنید ، می تواند به طور بالقوه با دانستن آدرس خود ، تعادل اتر و سایر نشانهای مبتنی بر اتریوم را جستجو کند.   
     
-    Therefore, it's advised to use separate wallets for transacting with people and for asset accumulation. 
+بنابراین توصیه می شود از کیف پول های جداگانه برای معامله با مردم و برای انباشت دارایی استفاده کنید.   
     
-    The wallet used for transactions should not hold a lot of funds on it in order not to expose you.
+کیف پول مورد استفاده برای معاملات نباید بودجه زیادی را روی آن نگه دارد تا در معرض دید شما قرار نگیرد.   
     
-To sum up, in its current state, Bitcoin transactions provide users with more privacy than Ethereum transactions. 
+به طور خلاصه ، در شرایط فعلی ، معاملات بیت کوین نسبت به معاملات اتریوم حریم خصوصی بیشتری را در اختیار کاربران قرار می دهد.
 
-The only thing that adds some minimal privacy element into the mix is the fact there is no way to check who that address belongs to.
+تنها چیزی که برخی از عناصر حداقل حفظ حریم خصوصی را به مخلوط اضافه می کند این واقعیت است که هیچ راهی برای بررسی اینکه این آدرس متعلق به چه کسی باشد ، نیست.

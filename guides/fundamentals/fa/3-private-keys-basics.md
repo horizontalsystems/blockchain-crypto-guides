@@ -1,103 +1,106 @@
 ![](../images/03-main-l.png)
 
-# Private Keys
+# کلیدهای خصوصی
 
-As we covered earlier, genuine cryptocurrency wallets store cryptographic keys that have control over certain amount of cryptocurrency.
+همانطور که قبلاً پوشیده بودیم ، کیف پولهای اصلی رمزنگاری کلیدهای رمزنگاری را کنترل می کنند که کنترل مقدار مشخصی از رمزنگاری را دارند.
 
-From that cryptographic key the wallet app can understand the amount of cryptocurrency user owns as well as derive past transactions associated with the wallet. This cryptographic key usually referred to as private key. 
+از طریق آن کلید رمزنگاری شده ، برنامه کیف پول می تواند مقدار کاربر رمزارزرا در اختیار داشته باشد و همچنین معاملات گذشته مربوط به کیف پول را بدست آورد. این کلید رمزنگاری معمولاً به عنوان کلید خصوصی گفته می شودو.
 
-> **The wallet app is an instrument that essentially stores your private key. This private key is what gives you control over certain amount of cryptocurrency.**
+> **برنامه کیف پول ابزاری است که در اصل کلید خصوصی شما را ذخیره می کند. این کلید خصوصی همان چیزی است که به شما امکان کنترل مقدار مشخصی از رمزنگاری را می دهد.**
 >
-> **The non-custodial wallet app uses private key to retrieve cryptocurrency balances and past transactions from the blockchain.**
+> **برنامه کیف پول غیر حضوری با استفاده از کلید خصوصی برای بازیابی مانده های رمزارزو معاملات گذشته از زنجیره بلوکی استفاده می کند.**
 
-We are not going to explain how the private keys work under the hood. Just know that a term private key usually refers to a cryptographic key we talked about earlier.
+ما قصد نداریم نحوه عملکرد کلیدهای خصوصی را در زیر کاپوت توضیح دهیم. فقط بدانید که اصطلاح کلید خصوصی معمولاً به یک کلید رمزنگاری است که قبلاً در مورد آن صحبت کردیم.
 
-Below, we are going to look a bit deeper into security aspects to give you a better understanding of private keys, and the related security aspects.
+در زیر ، ما می خواهیم کمی عمیق تر به جنبه های امنیتی بپردازیم تا درک بهتری از کلیدهای خصوصی و جنبه های امنیتی مرتبط با آن داشته باشیم.
 
-## 1. Keep Key Private
+## کلید را خصوصی نگه دارید ۱. 
 
-Quite often scammers (by impersonating wallet support teams) trick users into sharing their private keys. When a user shares the key the scammer steals the funds on the balance. 
+اکثر اوقات کلاهبرداران (با جعل هویت تیم های پشتیبانی کیف پول) کاربران را برای به اشتراک گذاشتن کلیدهای خصوصی خود فریب می دهند. هنگامی که کاربر کلید را به اشتراک گذاشت ، کلاهبردار بودجه موجودی را در ترازو سرقت می کند.
 
-> **There is absolutely no valid reason for you as a wallet app user to ever share the private keys with anyone. This applies to all wallets.**
+> **هیچ دلیل معتبری برای شما به عنوان کاربر برنامه کیف پول وجود ندارد که بتوانید همیشه کلیدهای خصوصی را با هر کسی به اشتراک بگذارید. این در مورد همه کیف پولها صدق می کند.**
 >
-> **Never reveal your private key to anyone, even when you're communicating with people who built your wallet app.**
+> **هرگز کلید خصوصی خود را برای کسی فاش نکنید ، حتی وقتی با افرادی که برنامه کیف پول شما را ساخته اند ارتباط برقرار کنید.**
 
-You may reveal your private key to someone only when you intentionally want to pass the ownership of your funds to that person. Almost all non-custodial wallet provides means for the user to access and view private key from within the wallet app.
+شما می توانید کلید خصوصی خود را فقط برای شخصی فاش کنید که عمداً بخواهید مالکیت وجوه خود را به آن شخص منتقل کنید. تقریباً همه کیف پول های غیر حضوری وسیله ای برای دسترسی و مشاهده کلید خصوصی از داخل برنامه کیف پول فراهم می کند.
 
-## 2. Backup Key
+## کلید پشتیبان .۲
 
-Most non-custodial wallet apps show the private key during the wallet app setup. The wallet app usually prompts user to write down the private key and store it somewhere safely offline.
+بیشتر برنامه های کیف پول غیر حضوری ، کلید خصوصی را هنگام تنظیم برنامه کیف پول نشان می دهد. برنامه کیف پول معمولاً باعث می شود کاربر كلید خصوصی را بنویسد و آن را در یك كاملاً آفلاین ذخیره كند.
  
-> **The private key is the only way to restore access to funds in case the device with the wallet app become inaccessible i.e. if it gets stolen or simply stops working.**
+> **کلید خصوصی تنها راه برای بازگرداندن دسترسی به وجوه است در صورت تبدیل شدن دستگاه به وسیله کیف پول ، یعنی اگر به سرقت برود یا به سادگی از کار بیفتد ، غیرقابل دسترسی باشد.**
 
-To make it easier to backup the private key, blockchain engineers came up with a way to convert the private key to a plain set of 12 or 24 regular words. 
+برای تهیه نسخه پشتیبان از کلید خصوصی ، مهندسین زنجیره بلوکیراهی برای تبدیل کلید خصوصی به مجموعه ساده از ۱۲ یا ۲۴ کلمه معمولی ارائه دادند.
 
-Most non-custodial wallets will display the private key in a human-readable form, generally in a form 12/24 words.
+بیشتر کیف پولهای غیر حضوری ، کلید خصوصی را به صورت قابل خواندن توسط انسان ، به طور کلی به صورت ۱۲/۲۴ کلمه نمایش می دهند.
 
 ![](../images/03-02-l.png)
 
-Backup the private key and make sure there are no typos in your backup. Other than actual words, the ordering is just as important. 
+از کلید خصوصی پشتیبان تهیه کنید و مطمئن شوید که هیچگونه علامتی در پشتیبان شما وجود ندارد. به غیر از کلمات واقعی ، سفارش همان اهمیت دارد.
 
-> **If you lose or unknowingly expose the private key to someone, they can get control of your cryptocurrency.**
+> **اگر کلید خصوصی را از دست داده یا ناآگاهانه در معرض کسی قرار دهید ، می توانند کنترل رمزنگاری شما را به دست آورند.**
 
-The 12/24 words should be backed up in the correct order. A non-custodial wallet may understand if you make a typo in one of the words and show an appropriate warning. 
+کلمات ۱۲/۲۴ باید به ترتیب صحیح پشتیبان گرفته شوند. یک کیف پول غیر حضوری ممکن است درک کند که آیا در یکی از کلمات تایپ می کنید و یک هشدار مناسب نشان می دهید.
 
-If the words positioned incorrectly a non-custodial wallet will still restore some random wallet, it just won't be yours. So, the correct order is just as important.
+اگر کلمات مستقر در اشتباه یک کیف پول غیر متعهد هنوز هم یک کیف پول تصادفی را بازیابی کنند ، فقط متعلق به شما نخواهد بود. بنابراین ، نظم درست نیز به همان اندازه مهم است.
 
-## 3. Private Key Generation
+## ۳. تولید کلید خصوصی
 
-When you first setup a non-custodial wallet app, the code powering the wallet app randomly generates a secure private key for you. For the private key to be truly secure it's important for a wallet app to generate a private key which is truly random.
+هنگامی که برای اولین بار برنامه کیف پول غیرمجاز را تنظیم می کنید ، کدی که به برنامه کیف پول می دهد بطور تصادفی یک کلید خصوصی مطمئن برای شما ایجاد می کند. برای اطمینان کامل از کلید خصوصی ، مهم است که یک برنامه کیف پول یک کلید خصوصی تولید کند که کاملاً تصادفی باشد.
 
-> **If the private key generated by a non-custodial wallet is not random then the wallet is not safe.**
+> **اگر کلید خصوصی ایجاد شده توسط یک کیف پول غیر حضوری تصادفی نباشد ، کیف پول ایمن نیست.**
 
-That's one of the reasons why non-custodial wallets keep the code open. Third-party engineers can then analyze the code and check whether the wallet app generates the private key correctly.
+این یکی از دلایلی است که باعث می شود کیف پول های غیر حضوری کد را باز نگه دارند. مهندسین شخص ثالث می توانند کد را تجزیه و تحلیل کرده و بررسی کنند که آیا برنامه کیف پول کلید خصوصی را به درستی تولید می کند یا خیر.
 
-There are websites like [WalletScrutiny.com](https://walletscrutiny.com) which exist to ensure wallets published on Google Play in fact use the same code as the code publicly shared with the community.
+وجود دارد که برای اطمینان از استفاده از کیف پول های منتشر شده در گوگل پلی ،  WalletScrutiny.com وب سایت هایی مانند در واقع از همان کدی استفاده می کنند که به طور عمومی با جامعه به اشتراک گذاشته شده است.
+
+ [WalletScrutiny.com](https://walletscrutiny.com) 
    
-Any good non-custodial wallet app should be engineered in accordance with the publicly documented security guidelines and wallet standards.
+هر برنامه کیف پول خوب غیر متولی باید مطابق با دستورالعمل های امنیتی مستند و استانداردهای کیف پول مهندسی شود.
 
-## 4. One Key, Many Coins
+##  ۴. یک کلید ، بسیاری از سکه
 
-Another essential aspect, a single private key can be used to control balances for multiple cryptocurrencies. When using such key the wallet apps can automatically locate the balances for all supported cryptocurrencies.
+جنبه اساسی دیگر ، یک کلید خصوصی منفرد می تواند برای کنترل تعادل برای چندین ارز رمزنگاری استفاده شود. هنگام استفاده از چنین کلید ، برنامه های کیف پول می توانند به طور خودکار تعادل همه ارزهای پشتیبانی شده را پیدا کنند.
 
-For instance, when creating the wallet on [Unstoppable wallet](https://unstoppable.money) the user gets a single private key for 5 cryptocurrencies:
+به عنوان مثال ، هنگام ایجاد کیف پول روی کیف پول غیرقابل توقف ، کاربر یک کلید خصوصی اختصاصی برای ۵ ارز رمزنگاری دریافت می کند:
+[Unstoppable wallet](https://unstoppable.money) 
 
-- Bitcoin
-- Dash
-- Bitcoin Cash
-- Litecoin
-- Ethereum
+بیت کوین
+خط تیره
+بیت کوین نقدی
+لیت کوین
+اتریوم
 
-The same private key used to control multiple cryptocurrencies, each with its own balance and transactions.
+همان کلید خصوصی که برای کنترل چندین ارز رمزنگاری استفاده شده است ، هر کدام ترازو و معاملات خاص خود را دارند.
 
-## 5. Balances & Transactions
+## ۵. توازن و معاملات
 
-As was mentioned above there are 'private key' standards designed by engineers throughout the years. These standards define how exactly wallet apps should handle the private key for use with multiple cryptocurrencies. 
+همانطور که در بالا گفته شد استاندارد های "کلید خصوصی" وجود دارد که توسط مهندسین در طول سال ها طراحی شده اند. این استانداردها تعریف می کنند که دقیقاً چگونه برنامه های کیف پول باید کلید خصوصی را برای استفاده با چندین ارز رمزنگاری کنترل کنند.
 
-> **The wallet uses your private key to derive your payment address for each cryptocurrency. The payment address is the address you are sharing with others that want to pay you in cryptocurrency.**
+> **کیف پول از کلید خصوصی شما برای دریافت آدرس پرداخت خود برای هر رمزنگاری استفاده می کند. آدرس پرداخت ، آدرسی است که با دیگران به اشتراک می گذارید و می خواهید به صورت رمزارز به شما پرداخت کنند.**
 
 ![](../images/03-03-l.png)
 
-Just by looking at your private key the wallet app should be able to derive your address for Bitcoin, Ethereum and many other cryptocurrencies. Different address for each cryptocurrency.
+برنامه کیف پول فقط با نگاه کردن به کلید خصوصی شما می تواند آدرس شما را برای بیت کوین ، اتریوم و بسیاری دیگر از ارزهای رمزنگاری دریافت کند. آدرس مختلف برای هر رمزنگاری.
 
-When you import the private key to another standard-compliant wallet that other app will also derive same addresses.
+هنگامی که کلید خصوصی را به یک کیف پول سازگار با استاندارد دیگر وارد می کنید ، برنامه دیگر نیز همان آدرس را دریافت می کند.
 
-That's basically how a wallet app can take a private key used on another app, and from that key restore balances and transactions for multiple cryptocurrencies
+این اساساً این است که چگونه یک برنامه کیف پول می تواند یک کلید خصوصی را که در یک برنامه دیگر استفاده می شود ، بگیرد و از این کلید ، ترازو و معاملات را برای چندین ارز رمزنگاری بازگرداند.
 
-> **If a private key generated in a standard-compliant manner, then any other standard-compliant wallet should be able to correctly derive payment addresses and past transactions for each supported cryptocurrency.**
+> **اگر یک کلید خصوصی به روشی مطابق با استاندارد ایجاد شود ، هر کیف پول سازگار با استاندارد دیگر باید بتواند آدرس های پرداخت و معاملات گذشته را برای هر رمزارز پشتیبانی شده به درستی به دست آورد.**
 
-Once the app knows the addresses for say Bitcoin, it connects to the Bitcoin blockchain and looks for transactions involving those addresses. As a result of that process the wallet app can display the balances and past transactions associated with that private key.
+هنگامی که برنامه آدرس های مربوط به بیت کوین را می داند ، به زنجیره بلوکی بیت کوین متصل می شود و به دنبال معاملات مربوط به آن آدرس ها می باشد. در نتیجه این فرآیند ، برنامه کیف پول می تواند تعادل و معاملات گذشته در ارتباط با آن کلید خصوصی را نشان دهد.
 
-## 6. Moving Between Wallets
+## ۶. جابجایی بین کیف پول
 
-Good non-custodial wallets enable private key migration between wallets. In other words, a private key created on one non-custodial wallet app should be compatible with other non-custodial wallet apps. 
+کیف پول های غیر متعهد خوب امکان انتقال کلید خصوصی بین کیف پول را فراهم می کند. به عبارت دیگر ، یک کلید خصوصی ایجاد شده در یک برنامه کیف پول غیر حضوری باید با سایر برنامه های کیف پول غیر حضوری سازگار باشد.
 
-> **The user should not be restricted to a single wallet provider and should be able easily migrate to other non-custodial wallet apps built by different parties.** 
+> **کاربر نباید فقط به یک ارائه دهنده کیف پول محدود شود و باید بتواند به راحتی به سایر برنامه های کیف پول غیرمجاز ساخته شده توسط احزاب مختلف مهاجرت کند.** 
 
-If your phone breaks, or the wallet app stops working, your funds are safe; you will always be able to restore access to your cryptocurrency using the private key. There are no time frames---the same key would work years later.
+اگر تلفن شما خراب شود یا برنامه کیف پول متوقف شود ، بودجه شما ایمن است. شما همیشه می توانید با استفاده از کلید خصوصی دسترسی به رمزارز خود را بازیابی کنید. هیچ فریم زمانی وجود ندارد --- همین کلید سالها بعد کار می کند.
 
-When choosing a wallet look for one that is standard compliant and supports import/export of private keys.
+هنگام انتخاب کیف پول ، به دنبال متناسب با استاندارد باشید و از واردات / صادرات کلیدهای خصوصی پشتیبانی کند/
 
-> **Note: When migrating your private key from one wallet to another you need the destination wallet to support all cryptocurrencies that private key controls.**
+> **توجه: هنگام انتقال کلید خصوصی خود از یک کیف پول به دیگری ، به کیف پول مقصد نیاز دارید تا از تمام ارزهای رمزگذاری شده که کلید خصوصی را کنترل می کند پشتیبانی کنید.**
 
-If your private key has some balance on Bitcoin and Ethereum but the destination wallet supports only Bitcoin then your Ethereum balance won't be visible. It will still be yours and accessible from some other wallet.
+اگر کلید خصوصی شما دارای تعادل در بیت کوین و اتریوم باشد اما کیف پول مقصد فقط از بیت کوین پشتیبانی می کند ، ترازوی اتریوم شما قابل مشاهده نخواهد بود. هنوز هم از این کیف پول دیگر برای شما و قابل دسترسی خواهد بود.
