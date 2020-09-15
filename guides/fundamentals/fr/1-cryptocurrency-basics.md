@@ -87,7 +87,7 @@ Certaines blockchains comme Ethereum permettent de créer ses propres "unités d
 
 Les tokens représentent 80 à 90 % de [toutes les cryptomonnaies](https://coinmarketcap.com) en circulation. La blockchain Ethereum est généralement une plate-forme de choix pour la création de tokens pour les crypto-monnaies.
 
-In a technical sense, the word 'token' should be used to refer to those cryptocurrencies which are built on top of an existing blockchain, rather than having their own unique blockchain. A cryptocurrency token can take many forms depending on its use cases.
+D'un point de vue technique, le mot "token" devrait être utilisé pour désigner les cryptomonnaies qui sont construites sur une blockchain existante, plutôt que de posséder leur propre blockchain unique. Un token de cryptomonnaie peut prendre plusieurs formes selon les cas d'utilisation.
 
 ## La croissance des crypto-monnaies
 
