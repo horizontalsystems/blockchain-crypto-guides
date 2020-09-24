@@ -8,6 +8,9 @@ export default function GuideNext({ list }) {
     return null
   }
 
+  const count = Math.max(2, list.length)
+  const chunkCount = Math.min(4, count)
+
   return (
     <div className="Guide-next-wrap">
       <Container className="Container-banner" clipped={false}>
@@ -15,7 +18,7 @@ export default function GuideNext({ list }) {
           <div className="Guide-next-title">
             Next Guides
           </div>
-          <Slider slidesToScroll={4} slidesToShow={4}>
+          <Slider slidesToScroll={chunkCount} slidesToShow={chunkCount}>
             {list.map((item, i) =>
               <Link key={i} href="/[lang]/guide/[...slug]" as={`/guide/${item.slug}`}>
                 <a className="Guide-next-card">
