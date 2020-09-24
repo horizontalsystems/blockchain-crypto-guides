@@ -117,8 +117,11 @@ class Header extends React.Component {
       <div className="nav-icon nav-language" onClick={this.showLanguages}>
         <Icon name="globe" />
         <div className="dropdown-menu dropdown-menu-center">
-          <a className="dropdown-item" onClick={() => this.onChangeLng('en')}>English</a>
-          <a className="dropdown-item" onClick={() => this.onChangeLng('ru')}>Russian</a>
+          <div className="dropdown-item" onClick={() => this.onChangeLng('en')}>English</div>
+          <div className="dropdown-item" onClick={() => this.onChangeLng('ru')}>Russian</div>
+          <div className="dropdown-item" onClick={() => this.onChangeLng('fr')}>French</div>
+          <div className="dropdown-item" onClick={() => this.onChangeLng('de')}>Dutch</div>
+          <div className="dropdown-item" onClick={() => this.onChangeLng('fa')}>Farsi</div>
         </div>
       </div>
       <div className="nav-icon" onClick={darkMode.toggle}>
@@ -135,6 +138,9 @@ class Header extends React.Component {
     <div className="nav">
       <div className="Button-nav nav-item" onClick={() => this.onChangeLng('en')}>English</div>
       <div className="Button-nav nav-item" onClick={() => this.onChangeLng('ru')}>Russian</div>
+      <div className="Button-nav nav-item" onClick={() => this.onChangeLng('fr')}>French</div>
+      <div className="Button-nav nav-item" onClick={() => this.onChangeLng('de')}>Dutch</div>
+      <div className="Button-nav nav-item" onClick={() => this.onChangeLng('fa')}>Farsi</div>
     </div>
   )
 }

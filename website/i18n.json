@@ -1,7 +1,10 @@
 {
   "allLanguages": [
+    "en",
     "ru",
-    "en"
+    "fr",
+    "de",
+    "fa"
   ],
   "defaultLanguage": "en"
 }
