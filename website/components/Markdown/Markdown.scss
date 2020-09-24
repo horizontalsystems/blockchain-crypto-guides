@@ -151,6 +151,14 @@
       margin: 0;
     }
   }
+
+  img:first-child {
+    min-height: 550px;
+
+    @include sm {
+      min-height: 230px;
+    }
+  }
 }
 
 .dark-mode .Markdown blockquote {
