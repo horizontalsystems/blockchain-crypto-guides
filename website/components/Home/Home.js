@@ -90,7 +90,7 @@ class Home extends React.Component {
 
   render() {
     const { i18n } = this.props
-    const { items, filters, filterActive, pages, pageActive } = this.state
+    const { items, filters, filterActive } = this.state
 
     return (
       <Layout>
@@ -124,34 +124,46 @@ class Home extends React.Component {
             )}
           </div>
 
-          <div className="Guides-pagination text-center">
-            <div className={cn('Button-circle mr-6', { 'Button-circle-yellow': pageActive !== 1 })}
-                 onClick={() => this.selectPage(Math.max(pageActive - 1, 1))}>
-              <Icon name="arrow" />
-            </div>
-
-            {pages.map(page =>
-              <Button
-                key={page}
-                title={page}
-                onClick={() => this.selectPage(page)}
-                className={cn('Button-page-number', {
-                  'text-yellow': page === pageActive,
-                  'text-grey': page !== pageActive
-                })}
-              />
-            )}
-
-            <div onClick={() => this.selectPage(Math.min(pageActive + 1, pages.length))}
-                 className={cn('Button-circle Arrow-right ml-6', {
-                   'Button-circle-yellow': pageActive !== pages.length
-                 })}>
-              <Icon name="arrow" />
-            </div>
-          </div>
+          {this.renderPagination()}
         </Container>
         <BannerWallet />
       </Layout>
+    )
+  }
+
+  renderPagination() {
+    const { pages, pageActive } = this.state
+
+    if (pages.length < 2) {
+      return <div className="Guides-pagination" />
+    }
+
+    return (
+      <div className="Guides-pagination text-center">
+        <div className={cn('Button-circle mr-6', { 'Button-circle-yellow': pageActive !== 1 })}
+             onClick={() => this.selectPage(Math.max(pageActive - 1, 1))}>
+          <Icon name="arrow" />
+        </div>
+
+        {pages.map(page =>
+          <Button
+            key={page}
+            title={page}
+            onClick={() => this.selectPage(page)}
+            className={cn('Button-page-number', {
+              'text-yellow': page === pageActive,
+              'text-grey': page !== pageActive
+            })}
+          />
+        )}
+
+        <div onClick={() => this.selectPage(Math.min(pageActive + 1, pages.length))}
+             className={cn('Button-circle Arrow-right ml-6', {
+               'Button-circle-yellow': pageActive !== pages.length
+             })}>
+          <Icon name="arrow" />
+        </div>
+      </div>
     )
   }
 }
