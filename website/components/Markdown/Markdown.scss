@@ -126,6 +126,10 @@
     }
   }
 
+  pre {
+    overflow: auto;
+  }
+
   blockquote {
     background: $light;
     color: $grey;
