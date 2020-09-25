@@ -10,6 +10,7 @@ import BannerWallet from '../Banner/BannerWallet'
 import Button from '../Button'
 import Card from '../Card'
 import Icon from '../Icon'
+import isSafari from '../helper'
 import { withI18n } from '../../i18n'
 
 class Home extends React.Component {
@@ -81,6 +82,10 @@ class Home extends React.Component {
 
     if (this.guides) {
       this.guides.scrollIntoView()
+
+      if (isSafari()) {
+        document.documentElement.scrollTop = document.documentElement.scrollTop - 200
+      }
     }
   }
 
