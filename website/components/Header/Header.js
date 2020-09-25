@@ -59,7 +59,7 @@ class Header extends React.Component {
       <header className="Header">
         <Container clipped={false}>
           <div className="navbar">
-            <Link href="/[lang]" as={`/${query.lang}`}>
+            <Link href="/[lang]" as={`/${query.lang || 'en'}`}>
               <a><HeaderLogo className="Header-logo" /></a>
             </Link>
 
@@ -87,10 +87,10 @@ class Header extends React.Component {
 
   navigationMenu = ({ darkMode, i18n }) => (
     <div className="nav">
-      <a href="https://horizontalsystems.io">
+      <a href="https://horizontalsystems.io" target="_blank" rel="noopener noreferrer">
         <div className="Button-nav nav-item">{i18n.t('common:about')}</div>
       </a>
-      <a href="https://t.me/unstoppable_development">
+      <a href="https://t.me/unstoppable_development" target="_blank" rel="noopener noreferrer">
         <div className="Button-nav nav-item">{i18n.t('common:contact')}</div>
       </a>
       <div className="nav-icon nav-language" onClick={this.showLanguages}>
