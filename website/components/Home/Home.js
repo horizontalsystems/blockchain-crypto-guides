@@ -23,9 +23,16 @@ class Home extends React.Component {
     pageActive: 1
   }
 
-  constructor({ guides }) {
-    super();
+  constructor(props) {
+    super(props);
+    this.resetState(props.guides, false)
+  }
 
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    this.resetState(nextProps.guides, true)
+  }
+
+  resetState(guides = [], forceUpdate) {
     const state = this.state
     const cache = guides.reduce((acc, cur) => {
       if (acc[cur.type]) {
@@ -41,6 +48,10 @@ class Home extends React.Component {
     state.filters = Object.keys(cache)
     state.items = cache['All'].slice(0, state.filterSize)
     state.pages = this.pages(guides.length)
+
+    if (forceUpdate) {
+      this.setState(state)
+    }
   }
 
   pages(count) {
