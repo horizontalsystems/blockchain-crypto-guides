@@ -38,12 +38,13 @@
 }
 
 .close {
-  color: #000000;
+  color: $grey;
   float: right;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
   position: absolute;
   right: 15px;
+  top: 2px;
   z-index: 1;
 }
 

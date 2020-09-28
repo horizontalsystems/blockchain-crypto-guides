@@ -1,7 +1,7 @@
 @import "../../pages/styles/utils";
 @import "Input";
 
-.Modal-form, .Contact-success {
+.Modal-form, .Contact-success, .Share-modal {
   margin: auto;
   background: #FFFFFF;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,6 +19,7 @@
 }
 
 .dark-mode .Modal-form,
+.dark-mode .Share-modal,
 .dark-mode .Contact-success {
   background: $dark;
 

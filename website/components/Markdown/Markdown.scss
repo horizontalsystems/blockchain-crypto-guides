@@ -66,7 +66,7 @@
     position: relative;
 
     @include md {
-      scroll-margin-top: 120px;
+      //scroll-margin-top: 120px;
     }
 
     a {
@@ -283,15 +283,27 @@
   align-items: center;
 }
 
-.Markdown-title-action {
+.Markdown-text-actions {
+  display: flex;
+  align-items: center;
+}
+
+.Markdown-text-size {
   display: flex;
   align-items: center;
   border: 1px solid $yellow-l;
   border-radius: 8px;
   overflow: hidden;
+  margin-left: 16px;
 }
 
-.Markdown-title-icon {
+.Markdown-share-icon {
+  @include sm1024 {
+    display: none;
+  }
+}
+
+.Markdown-text-icon {
   padding: 10px 12px;
   cursor: pointer;
   height: 36px;
@@ -309,7 +321,7 @@
   }
 }
 
-.dark-mode .Markdown-title-icon:hover path {
+.dark-mode .Markdown-text-icon:hover path {
   fill: $darkest;
 }
 
@@ -323,7 +335,29 @@
   display: none;
 
   @include sm1024 {
-    display: block;
+    display: flex;
+  }
+}
+
+.share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  .share-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: $grey;
+  }
+
+  .share-links {
+    display: flex;
+
+    a {
+      margin-left: 12px;
+    }
   }
 }
 
