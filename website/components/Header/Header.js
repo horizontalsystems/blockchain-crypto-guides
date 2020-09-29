@@ -1,6 +1,5 @@
-import Link from 'next-translate/Link'
+import Link from 'next/link'
 import withTranslation from 'next-translate/withTranslation'
-import Router from 'next-translate/Router'
 import { withRouter } from 'next/router'
 import Container from '../Container'
 import Icon from '../Icon'
@@ -43,27 +42,6 @@ class Header extends React.Component {
     showModal(<SubscribeFormModal formId="2166978" formCode="d8h6h7" onClose={() => showModal(null)} />)
   }
 
-  onChangeLng = lang => {
-    const { router } = this.props
-    const { query } = router
-
-    if (query.lang === lang) {
-      return
-    }
-
-    router.push(`/${lang}`)
-    // if (!query.slug || !query.lang) {
-    //   // Router.pushI18n({ url: '/', options: { lang } })
-    //   return
-    // }
-    //
-    // const newRoute = router.asPath
-    //   .replace(RegExp(`^\/${query.lang}`), '')
-    //   .replace(RegExp(`\/${query.lang}\/`), `/${lang}/`)
-    //
-    // Router.pushI18n({ url: newRoute, options: { lang } })
-  }
-
   showLanguages = () => {
     const { style } = this.dropdownNav
     if (style.display === 'none') {
@@ -74,13 +52,14 @@ class Header extends React.Component {
   }
 
   render() {
+    const { query } = this.props.router
     const { language } = this.state
 
     return (
       <header className="Header">
         <Container clipped={false}>
           <div className="navbar">
-            <Link href="/[lang]" as="/">
+            <Link href="/[lang]" as={`/${query.lang || 'en'}`}>
               <a><HeaderLogo className="Header-logo" /></a>
             </Link>
 
@@ -108,17 +87,20 @@ class Header extends React.Component {
 
   navigationMenu = ({ darkMode, i18n }) => (
     <div className="nav">
-      <a href="https://horizontalsystems.io">
+      <a href="https://horizontalsystems.io" target="_blank" rel="noopener noreferrer">
         <div className="Button-nav nav-item">{i18n.t('common:about')}</div>
       </a>
-      <a href="https://t.me/unstoppable_development">
+      <a href="https://t.me/unstoppable_development" target="_blank" rel="noopener noreferrer">
         <div className="Button-nav nav-item">{i18n.t('common:contact')}</div>
       </a>
       <div className="nav-icon nav-language" onClick={this.showLanguages}>
         <Icon name="globe" />
         <div className="dropdown-menu dropdown-menu-center">
-          <a className="dropdown-item" onClick={() => this.onChangeLng('en')}>English</a>
-          <a className="dropdown-item" onClick={() => this.onChangeLng('ru')}>Russian</a>
+          <Link href='/[lang]' as="/en" replace><a className="dropdown-item">English</a></Link>
+          <Link href='/[lang]' as="/ru" replace><a className="dropdown-item">Russian</a></Link>
+          <Link href='/[lang]' as="/fr" replace><a className="dropdown-item">French</a></Link>
+          <Link href='/[lang]' as="/de" replace><a className="dropdown-item">Dutch</a></Link>
+          <Link href='/[lang]' as="/fa" replace><a className="dropdown-item">Farsi</a></Link>
         </div>
       </div>
       <div className="nav-icon" onClick={darkMode.toggle}>
@@ -133,8 +115,11 @@ class Header extends React.Component {
 
   languageMenu = () => (
     <div className="nav">
-      <div className="Button-nav nav-item" onClick={() => this.onChangeLng('en')}>English</div>
-      <div className="Button-nav nav-item" onClick={() => this.onChangeLng('ru')}>Russian</div>
+      <Link href='/[lang]' as="/en"><a className="Button-nav nav-item">English</a></Link>
+      <Link href='/[lang]' as="/ru"><a className="Button-nav nav-item">Russian</a></Link>
+      <Link href='/[lang]' as="/fr"><a className="Button-nav nav-item">French</a></Link>
+      <Link href='/[lang]' as="/de"><a className="Button-nav nav-item">Dutch</a></Link>
+      <Link href='/[lang]' as="/fa"><a className="Button-nav nav-item">Farsi</a></Link>
     </div>
   )
 }

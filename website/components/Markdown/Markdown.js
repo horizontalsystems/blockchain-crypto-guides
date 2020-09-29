@@ -3,6 +3,13 @@ import GithubSlugger from 'github-slugger'
 import throttle from 'lodash.throttle'
 import Container from '../Container'
 import Icon from '../Icon'
+import ShareModal from './ShareModal'
+import { ReactComponent as Twitter } from '../Icon/twitter-small.svg'
+import { ReactComponent as Telegram } from '../Icon/telegram-small.svg'
+import { ReactComponent as Facebook } from '../Icon/facebook-small.svg'
+import { ReactComponent as Copy } from '../Icon/copy-small.svg'
+import { ReactComponent as Share } from '../Icon/share.svg'
+import { copyToClipboard } from '../helper'
 
 class Markdown extends React.Component {
   state = {
@@ -143,27 +150,69 @@ class Markdown extends React.Component {
     })
   }
 
-  sidebar({ fontSize, fontSizeMax, fontSizeMin }, closeOnClick) {
+  sidebar({ fontSize, fontSizeMax, fontSizeMin }, closeOnClick, share) {
     return (
       <div className="Markdown-side-content">
         <div className="Markdown-side-title Markdown-menu-bordered">
           <div className="Markdown-side-head cursor-pointer" onClick={() => this.onClickToggle()}>Contents</div>
-          <div className="Markdown-title-action">
-            <div className="Markdown-title-icon"
-                 onClick={() => this.onChangeTexSize(Math.min(fontSize + 1, fontSizeMax))}>
-              <Icon name="tbig" />
+          <div className="Markdown-text-actions">
+            <div className="Markdown-share-icon cursor-pointer" onClick={this.onShare}>
+              <Share />
             </div>
-            <div className="Markdown-title-divider" />
-            <div className="Markdown-title-icon"
-                 onClick={() => this.onChangeTexSize(Math.max(fontSize - 1, fontSizeMin))}>
-              <Icon name="tsmall" />
+            <div className="Markdown-text-size">
+              <div className="Markdown-text-icon"
+                   onClick={() => this.onChangeTexSize(Math.min(fontSize + 1, fontSizeMax))}>
+                <Icon name="tbig" />
+              </div>
+              <div className="Markdown-title-divider" />
+              <div className="Markdown-text-icon"
+                   onClick={() => this.onChangeTexSize(Math.max(fontSize - 1, fontSizeMin))}>
+                <Icon name="tsmall" />
+              </div>
             </div>
           </div>
         </div>
         <div className="Markdown-menu">
           {this.mapMenu(this.props.guide.headings, closeOnClick)}
         </div>
-        <div className="Markdown-side-title Markdown-side-bottom" />
+        <div className="Markdown-side-title Markdown-side-bottom">
+          {share}
+        </div>
+      </div>
+    )
+  }
+
+  onShare = () => {
+    const { setModal } = this.props
+    setModal(<ShareModal onClose={() => setModal(null)} />)
+  }
+
+  share() {
+    return (
+      <div className="share">
+        <div className="share-text">Share:</div>
+        <div className="share-links">
+          <a
+            href="https://twitter.com/intent/tweet/?text=Master%20fundamentals%20and%20learn%20about%20crypto%20projects%20in%20simple%20terms.&url=https%3A%2F%2Flitrex.academy"
+            target="_blank" rel="noopener">
+            <Twitter width="18" height="18" className="share-button" />
+          </a>
+          <a
+            href="https://telegram.me/share/url?text=Master%20fundamentals%20and%20learn%20about%20crypto%20projects%20in%20simple%20terms.&url=https%3A%2F%2Flitrex.academy"
+            target="_blank" rel="noopener">
+            <Telegram width="18" height="18" className="share-button" />
+          </a>
+
+          <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Flitrex.academy"
+             target="_blank"
+             rel="noopener">
+            <Facebook width="18" height="18" className="share-button" />
+          </a>
+
+          <a href="#" onClick={() => copyToClipboard('https://litrex.academy/')}>
+            <Copy width="18" height="18" className="share-button" />
+          </a>
+        </div>
       </div>
     )
   }
@@ -171,6 +220,7 @@ class Markdown extends React.Component {
   render() {
     const { scrolled, fontSize, lineHeight } = this.state
     const { guide } = this.props
+    const share = this.share()
 
     return (
       <Container className="Markdown-container" clipped={false}>
@@ -180,7 +230,7 @@ class Markdown extends React.Component {
 
         <div className="Markdown">
           <div className="Markdown-sidebar Markdown-side-top">
-            {this.sidebar(this.state, true)}
+            {this.sidebar(this.state, true, share)}
           </div>
           <div
             className="Markdown-content"
@@ -189,7 +239,7 @@ class Markdown extends React.Component {
           />
         </div>
         <div className="Markdown-sidebar Markdown-side">
-          {this.sidebar(this.state)}
+          {this.sidebar(this.state, false, share)}
         </div>
       </Container>
     )

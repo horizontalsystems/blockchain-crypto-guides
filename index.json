@@ -3,7 +3,7 @@
     "id": "basics",
     "category": {
       "en": "Basics",
-      "ru": "Базовый",
+      "ru": "Основы",
       "fr": "L'essentiel",
       "de": "Grundlagen",
       "fa": "Basics"
@@ -81,7 +81,7 @@
           "updated_at": "01-06-2020"
         },
         "ru": {
-          "title": "Личные ключи",
+          "title": "Приватные ключи",
           "image": "guides/fundamentals/images/03-main-l.png",
           "file": "guides/fundamentals/ru/3-private-keys-basics.md",
           "updated_at": "01-06-2020"
@@ -271,7 +271,7 @@
     "id": "currencies",
     "category": {
       "en": "Currencies",
-      "ru": "Currencies",
+      "ru": "Валюты",
       "fr": "Monnaies",
       "de": "Währungen",
       "fa": "Currencies"
@@ -367,7 +367,7 @@
     "id": "exchanges",
     "category": {
       "en": "Exchanges",
-      "ru": "Exchanges",
+      "ru": "Биржи",
       "fr": "Plateformes d'échange",
       "de": "Börsen",
       "fa": "Exchanges"
@@ -411,7 +411,7 @@
     "id": "stablecoins",
     "category": {
       "en": "Stablecoins",
-      "ru": "Stablecoins",
+      "ru": "Стейблкоины",
       "fr": "Stablecoins",
       "de": "Stablecoins",
       "fa": "Stablecoins"
@@ -439,7 +439,7 @@
     "id": "lending",
     "category": {
       "en": "Lending",
-      "ru": "Lending",
+      "ru": "Займы",
       "fr": "Prêts",
       "de": "Verleihen",
       "fa": "Lending"

@@ -30,20 +30,21 @@ function indexedData() {
     })
   }
 
-  const mapItem = (type, date, guide) => {
+  const mapItem = (id, type, date, guide) => {
     const slug = guide.file.replace(/^guides\//, '')
     const image = guide.image.replace(/^guides\//, '/guide/')
 
     return {
+      id,
+      type,
       slug,
       image,
       date,
-      type,
       title: guide.title
     }
   }
 
-  json.forEach(({ category, guides }) => {
+  json.forEach(({ id, category, guides }) => {
     const mapped = {}
 
     guides.forEach(guide => {
@@ -51,7 +52,7 @@ function indexedData() {
         const item = guide[lang]
         const map = mapped[lang] || (mapped[lang] = [])
 
-        map.push(mapItem(category[lang], item.updated_at, item))
+        map.push(mapItem(id, category[lang], item.updated_at, item))
       })
     })
 

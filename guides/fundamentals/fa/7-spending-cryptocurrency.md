@@ -1,22 +1,22 @@
 ![](../images/07-main-l.png)
 
-# Spending Cryptocurrency
+# مخارج رمزارز
 
-The ability to pay with Bitcoin or with some other cryptocurrency in stores remains uncommon. 
+توانایی پرداخت با بیت کوین یا برخی دیگر از رمزارز در فروشگاه ها غیر معمول است.
 
-While some merchants are slowly starting to accept payments in Bitcoin, the vast majority of retailers are still not on board. 
+در حالی که برخی از بازرگانان به آرامی شروع به پذیرش پرداخت در بیت کوین می کنند ، اکثریت قریب به اتفاق خرده فروشان هنوز در هیئت مدیره نیستند.
 
-There are many reasons for the lack of adoption, primarily the absence of legal and regulatory guidelines when it comes to transacting and taxing cryptocurrencies.
+دلایل زیادی برای عدم تصویب وجود دارد ، در درجه اول عدم وجود دستورالعمل های قانونی و نظارتی هنگام معامله و مالیات ارزهای رمزپایه.
 
-## Crypto Debit Cards
+## کارت های بدهی رمزنگاری
 
-That said, there are some ways to spend your cryptocurrency. A number of companies provide debit cards which are tied to crypto on your balance and can be used to pay anywhere where Visa, MasterCard etc is accepted. 
+گفته می شود ، روش های زیادی برای صرفه جویی در رمزگذاری شما وجود دارد. تعدادی از شرکت ها کارتهای بدهی ارائه می دهند که به ترازوی شما با رمزنگاری گره خورده است و از آنها می توان برای پرداخت هرجای دیگری که ویزا ، مستر کارت و غیره پذیرفته شود ، استفاده می کنید.
 
-1. You pay with a card as you would normally do. The card can also be used to withdraw cash from an ATM.
-2. The debit amount deducted from your crypto wallet balance using the current market rates.
-3. Depending on the card provider some additional fee or perks such as cashback rewards may apply.
+شما با کارت به طور معمول پرداخت می کنید. همچنین از این کارت برای برداشت پول نقد از دستگاه خودپرداز استفاده می شود.
+مبلغ بدهی با استفاده از نرخ فعلی بازار از مانده حساب کیف پول رمزنگاری شما کسر می شود.
+بسته به ارائه دهنده کارت ، ممکن است هزینه اضافی یا هزینه های اضافی مانند پاداش بازپرداخت پول اعمال شود.
 
-Below, you will see some of the more popular providers of crypto debit cards. Most of them are currently available to people living in the US or Europe. 
+در زیر ، برخی از ارائه دهنده های محبوب کارتهای بدهکاری رمزنگاری را مشاهده خواهید کرد. بیشتر آنها در حال حاضر در دسترس افرادی است که در ایالات متحده یا اروپا زندگی می کنند.
  
 - [Crypterium.com](https://cards.crypterium.com)
 - [Crypto.com](https://crypto.com/en/cards.html)
@@ -25,12 +25,12 @@ Below, you will see some of the more popular providers of crypto debit cards. Mo
 - [Cryptopay.me](https://cryptopay.me/bitcoin-debit-card)
 - [2gether.global](https://www.2gether.global/card.html)
 
-Note that, all crypto debit card providers will require some kind of identification documents.
+توجه داشته باشید که همه ارائه دهندگان کارت بدهی رمزنگاری به نوعی مدارک شناسایی احتیاج دارند.
 
-## What To Know
+## چه باید دانست
 
-When using the services, the card provider will usually issue you with a custodial cryptocurrency wallet that will be used as a source of funds for your card. 
+هنگام استفاده از خدمات ، ارائه دهنده کارت معمولاً شما را با استفاده از کیف پول رمزارز نگهبانی که به عنوان منبع وجهی برای کارت شما استفاده می شود ، صادر می کند.
 
-> **The wallet provided by a debit card provider will be a custodial wallet and therefore, you should never keep a lot of funds on it.**
+> **کیف پول ارائه شده توسط ارائه دهنده کارت بدهی یک کیف پول نگهدارنده خواهد بود و بنابراین ، شما هرگز نباید بودجه زیادی را روی آن نگه دارید.**
 
-Use a non-custodial wallet for your primary funds and occasionally top up the wallet provided by a card provider with amounts you're a planning to spend in the near term. 
+برای وجوه اولیه از یک کیف پول غیر متعهد استفاده کنید و گاهی اوقات کیف پول را تهیه کنید که توسط یک ارائه دهنده کارت با مبلغی که قصد دارید در مدت زمان نزدیک برای آنها هزینه کنید ، جمع کنید.

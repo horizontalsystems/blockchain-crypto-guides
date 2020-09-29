@@ -10,6 +10,7 @@ import BannerWallet from '../Banner/BannerWallet'
 import Button from '../Button'
 import Card from '../Card'
 import Icon from '../Icon'
+import isSafari from '../helper'
 import { withI18n } from '../../i18n'
 
 class Home extends React.Component {
@@ -23,9 +24,16 @@ class Home extends React.Component {
     pageActive: 1
   }
 
-  constructor({ guides }) {
-    super();
+  constructor(props) {
+    super(props);
+    this.resetState(props.guides, false)
+  }
 
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    this.resetState(nextProps.guides, true)
+  }
+
+  resetState(guides = [], forceUpdate) {
     const state = this.state
     const cache = guides.reduce((acc, cur) => {
       if (acc[cur.type]) {
@@ -41,6 +49,10 @@ class Home extends React.Component {
     state.filters = Object.keys(cache)
     state.items = cache['All'].slice(0, state.filterSize)
     state.pages = this.pages(guides.length)
+
+    if (forceUpdate) {
+      this.setState(state)
+    }
   }
 
   pages(count) {
@@ -70,6 +82,10 @@ class Home extends React.Component {
 
     if (this.guides) {
       this.guides.scrollIntoView()
+
+      if (isSafari()) {
+        document.documentElement.scrollTop = document.documentElement.scrollTop - 200
+      }
     }
   }
 
@@ -90,7 +106,7 @@ class Home extends React.Component {
 
   render() {
     const { i18n } = this.props
-    const { items, filters, filterActive, pages, pageActive } = this.state
+    const { items, filters, filterActive } = this.state
 
     return (
       <Layout>
@@ -124,34 +140,46 @@ class Home extends React.Component {
             )}
           </div>
 
-          <div className="Guides-pagination text-center">
-            <div className={cn('Button-circle mr-6', { 'Button-circle-yellow': pageActive !== 1 })}
-                 onClick={() => this.selectPage(Math.max(pageActive - 1, 1))}>
-              <Icon name="arrow" />
-            </div>
-
-            {pages.map(page =>
-              <Button
-                key={page}
-                title={page}
-                onClick={() => this.selectPage(page)}
-                className={cn('Button-page-number', {
-                  'text-yellow': page === pageActive,
-                  'text-grey': page !== pageActive
-                })}
-              />
-            )}
-
-            <div onClick={() => this.selectPage(Math.min(pageActive + 1, pages.length))}
-                 className={cn('Button-circle Arrow-right ml-6', {
-                   'Button-circle-yellow': pageActive !== pages.length
-                 })}>
-              <Icon name="arrow" />
-            </div>
-          </div>
+          {this.renderPagination()}
         </Container>
         <BannerWallet />
       </Layout>
+    )
+  }
+
+  renderPagination() {
+    const { pages, pageActive } = this.state
+
+    if (pages.length < 2) {
+      return <div className="Guides-pagination" />
+    }
+
+    return (
+      <div className="Guides-pagination text-center">
+        <div className={cn('Button-circle mr-6', { 'Button-circle-yellow': pageActive !== 1 })}
+             onClick={() => this.selectPage(Math.max(pageActive - 1, 1))}>
+          <Icon name="arrow" />
+        </div>
+
+        {pages.map(page =>
+          <Button
+            key={page}
+            title={page}
+            onClick={() => this.selectPage(page)}
+            className={cn('Button-page-number', {
+              'text-yellow': page === pageActive,
+              'text-grey': page !== pageActive
+            })}
+          />
+        )}
+
+        <div onClick={() => this.selectPage(Math.min(pageActive + 1, pages.length))}
+             className={cn('Button-circle Arrow-right ml-6', {
+               'Button-circle-yellow': pageActive !== pages.length
+             })}>
+          <Icon name="arrow" />
+        </div>
+      </div>
     )
   }
 }

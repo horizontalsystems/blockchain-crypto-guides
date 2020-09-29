@@ -6,11 +6,12 @@ import { getI18nProps } from '../i18n'
 export async function getStaticProps(ctx) {
   const i18nProps = await getI18nProps(ctx, ['common'])
   const guides = getAllGuides([
+    'id',
+    'type',
     'title',
     'date',
     'image',
-    'slug',
-    'type'
+    'slug'
   ], i18nProps.lang)
 
   return {
