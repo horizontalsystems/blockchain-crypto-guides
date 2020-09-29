@@ -1,5 +1,5 @@
 import Guide from '../../components/Guide'
-import getAllGuides, { getGuideByLang } from '../../api/guides-api'
+import { getAllGuideSlugs, getGuideByLang } from '../../api/guides-api'
 import { getI18nPaths, getI18nProps, withI18n } from '../../i18n'
 import { mapChild, parse } from '../parser'
 
@@ -30,16 +30,16 @@ export async function getStaticProps(ctx) {
 }
 
 export const getStaticPaths = async () => {
-  const guides = getAllGuides(['slug'])
-  const i18nPaths = getI18nPaths()
   const paths = []
+  const slugs = getAllGuideSlugs()
+  const i18nPaths = getI18nPaths()
 
-  guides.forEach(guide => {
+  slugs.forEach(slug => {
     i18nPaths.forEach(i18n => {
       paths.push({
         params: {
           lang: i18n.params.lang,
-          slug: guide.slug.split('/')
+          slug: slug.split('/')
         }
       })
     })
@@ -47,6 +47,6 @@ export const getStaticPaths = async () => {
 
   return {
     paths,
-    fallback: false,
+    fallback: false
   }
 }

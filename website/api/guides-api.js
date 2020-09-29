@@ -101,28 +101,58 @@ export function getGuideBySlug(slug, fields = []) {
   return data
 }
 
-export default function getAllGuides(fields = [], lang) {
-  const files = {}
+export function getAllCategories() {
+  const categories = {}
+
+  json.forEach(({ id, category }) => {
+    categories[id] = category
+  })
+
+  return categories
+}
+
+export function getAllGuideSlugs() {
+  const slugs = []
 
   const mapSlugs = item => {
     const folderName = /^guides\//
     const url = item.file.replace(folderName, '')
-    files[url] = url
+    slugs.push(url)
   }
 
   json.forEach(({ guides }) => {
     guides.forEach(item => {
-      Object.keys(item).forEach(key => {
-        if (!lang) {
-          mapSlugs(item[key])
-        } else if (lang === key) {
-          mapSlugs(item[key])
-        }
-      })
+      Object.keys(item).forEach(key => mapSlugs(item[key]))
     })
   })
 
-  return Object.keys(files).map(slug =>
-    getGuideBySlug(slug, fields)
-  )
+  return slugs
+}
+
+export function getAllGuides(fields = [], lang, categoryId) {
+  const slugs = {}
+
+  const mapSlugs = item => {
+    const folderName = /^guides\//
+    const url = item.file.replace(folderName, '')
+    slugs[url] = url
+  }
+
+  for (let i = 0; i < json.length; i++) {
+    const { id, guides } = json[i]
+
+    if (categoryId && categoryId !== id) {
+      continue
+    }
+
+    guides.forEach(guideMap => {
+      Object.keys(guideMap).forEach(guideLang => {
+        if (!lang || lang === guideLang) {
+          mapSlugs(guideMap[guideLang])
+        }
+      })
+    })
+  }
+
+  return Object.keys(slugs).map(slug => getGuideBySlug(slug, fields))
 }
