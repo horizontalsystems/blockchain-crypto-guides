@@ -152,11 +152,11 @@ For example:
 
 - On the other hand, if only 50% of the ecosystem were sBTC, and BTC doubled in price, each staker’s debt—would increase by one quarter. 
 
-In this way, SNX stakers act as a pooled counterparty to all Synth exchanges; stakers take on the risk of the overall debt in the system.
+In this way, SNX stakers act as a pooled counter party to all Synth exchanges; stakers take on the risk of the overall debt in the system.
 
 ## Synthetix Stats
 
-If you would like to know the amount of funds currently locked on Synthetix platform as well as the number of synths in circulation go to Synthetix overview on [DeFi Pulse](https://defipulse.com/synthetix).
+If you would like to know the amount of funds currently locked on Synthetix platform as well as the number of synths in circulation and other parameters go to Synthetix overview on [DeFi Pulse](https://dashboard.synthetix.io).
 
 Here are some key stats what we have as of September 9, 2020:
 
