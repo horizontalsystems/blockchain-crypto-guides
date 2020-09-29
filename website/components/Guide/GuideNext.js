@@ -3,7 +3,7 @@ import Container from '../Container'
 import Card from '../Card'
 import Slider from '../Slider/Slider'
 
-export default function GuideNext({ list }) {
+export default function GuideNext({ list, lang }) {
   if (!list || !list.length) {
     return null
   }
@@ -20,9 +20,9 @@ export default function GuideNext({ list }) {
           </div>
           <Slider slidesToScroll={chunkCount} slidesToShow={chunkCount}>
             {list.map((item, i) =>
-              <Link key={i} href="/[lang]/guide/[...slug]" as={`/guide/${item.slug}`}>
+              <Link key={i} href="/[lang]/[...slug]" as={`/${item.slug}`}>
                 <a className="Guide-next-card">
-                  <Card title={item.title} date={item.date} image={item.image} />
+                  <Card title={item.title} date={item.date} image={`/${lang}/${item.image}`} />
                 </a>
               </Link>
             )}

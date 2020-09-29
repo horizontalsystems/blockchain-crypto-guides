@@ -134,8 +134,8 @@ class Home extends React.Component {
           </div>
           <div className="Guides grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4" ref={r => this.guides = r}>
             {items.map((item, i) =>
-              <Link key={i} href="[lang]/guide/[...slug]" as={`/guide/${item.slug}`}>
-                <a><Card title={item.title} date={item.date} image={item.image} /></a>
+              <Link key={i} href="[lang]/[...slug]" as={`/${item.slug}`}>
+                <a><Card title={item.title} date={item.date} image={`/${i18n.lang}/${item.image}`} /></a>
               </Link>
             )}
           </div>

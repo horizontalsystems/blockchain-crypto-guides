@@ -32,7 +32,7 @@ function indexedData() {
 
   const mapItem = (id, type, date, guide) => {
     const slug = guide.file.replace(/^guides\//, '')
-    const image = guide.image.replace(/^guides\//, '/guide/')
+    const image = guide.image.replace(/^guides\//, '')
 
     return {
       id,

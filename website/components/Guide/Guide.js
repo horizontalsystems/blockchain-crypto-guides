@@ -3,16 +3,16 @@ import Layout from '../Layout'
 import GuideNext from './GuideNext'
 import Markdown from '../Markdown'
 
-export default function Guide({ guide }) {
+export default function Guide({ guide, lang }) {
   const render = ({ setModal }) => {
     return (
       <>
         <Head>
           {guide.title && <title>{guide.title}</title>}
-          {guide.image && <meta property="og:image" content={guide.image} />}
+          {guide.image && <meta property="og:image" content={`/${lang}/${guide.image}`} />}
         </Head>
         <Markdown guide={guide} setModal={setModal} />
-        <GuideNext list={guide.next} />
+        <GuideNext list={guide.next} lang={lang} />
       </>
     )
   }
