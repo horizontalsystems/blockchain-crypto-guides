@@ -76,6 +76,6 @@ As the price changes of assets plays an important role in profit calculation, it
 
 ## Uniswap Token
 
-Uniswap doesn't have any native project token associated with the project. 
+In September 2020, Uniswap [announced](https://uniswap.org/blog/uni/) a native governance token called UNI.
 
-As a result there is no such thing as governance or any voting mechanisms.
+The primary use case for token is to participate in a decision making and other governance aspects such as funds in community-managed treasury.
