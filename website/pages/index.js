@@ -5,7 +5,7 @@ import { getI18nProps } from '../i18n'
 
 export async function getStaticProps(ctx) {
   const i18nProps = await getI18nProps(ctx, ['common'])
-  const fields = ['id', 'type', 'title', 'date', 'image', 'slug']
+  const fields = ['id', 'type', 'title', 'description', 'date', 'image', 'slug']
   const guides = getAllGuides(fields, i18nProps.lang)
 
   return {

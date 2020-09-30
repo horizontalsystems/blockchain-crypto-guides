@@ -40,7 +40,8 @@ function indexedData() {
       slug,
       image,
       date,
-      title: guide.title
+      title: guide.title,
+      description: guide.description || null
     }
   }
 

@@ -10,7 +10,7 @@ export async function getStaticProps(ctx) {
   const { lang, slug } = ctx.params
 
   const guide = getGuideByLang(lang, slug, [
-    'id', 'type', 'title', 'image', 'date', 'slug', 'content', 'next'
+    'id', 'type', 'title', 'description', 'image', 'date', 'slug', 'content', 'next'
   ])
 
   const { content, node } = await parse(guide.content)
