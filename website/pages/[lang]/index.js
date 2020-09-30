@@ -7,14 +7,14 @@ export async function getStaticProps(ctx) {
   const i18nProps = await getI18nProps(ctx, ['common'])
   const fields = ['id', 'type', 'title', 'description', 'date', 'image', 'slug']
   const guides = getAllGuides(fields, i18nProps.lang)
-  const categories = getAllCategories()
+  const categories = getAllCategories(i18nProps.lang)
 
   return {
     props: {
       ...i18nProps,
       guides,
       categories
-    },
+    }
   }
 }
 

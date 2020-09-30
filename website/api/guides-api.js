@@ -102,11 +102,15 @@ export function getGuideBySlug(slug, fields = []) {
   return data
 }
 
-export function getAllCategories() {
-  const categories = {}
+export function getAllCategories(lang) {
+  const categories = {
+    recent: {}
+  }
 
-  json.forEach(({ id, category }) => {
-    categories[id] = category
+  json.forEach(({ id, category, guides }) => {
+    if (!lang || guides.find(item => item[lang])) {
+      categories[id] = category
+    }
   })
 
   return categories
@@ -139,20 +143,20 @@ export function getAllGuides(fields = [], lang, categoryId) {
     slugs[url] = url
   }
 
+  const mapGuides = guides => {
+    Object.keys(guides).forEach(guideLang => {
+      if (!lang || lang === guideLang) {
+        mapSlugs(guides[guideLang])
+      }
+    })
+  }
+
   for (let i = 0; i < json.length; i++) {
     const { id, guides } = json[i]
 
-    if (categoryId && categoryId !== id) {
-      continue
+    if (!categoryId || categoryId === 'recent' || categoryId === id) {
+      guides.forEach(mapGuides)
     }
-
-    guides.forEach(guideMap => {
-      Object.keys(guideMap).forEach(guideLang => {
-        if (!lang || lang === guideLang) {
-          mapSlugs(guideMap[guideLang])
-        }
-      })
-    })
   }
 
   return Object.keys(slugs).map(slug => getGuideBySlug(slug, fields))

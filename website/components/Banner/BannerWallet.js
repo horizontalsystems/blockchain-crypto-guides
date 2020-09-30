@@ -1,3 +1,4 @@
+import React from 'react'
 import Container from '../Container'
 import Button from '../Button'
 import { ReactComponent as UWallet } from './uw.svg'

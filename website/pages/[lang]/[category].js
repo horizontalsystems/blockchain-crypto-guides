@@ -1,7 +1,22 @@
 import React from 'react'
+import Head from 'next/head'
+import withTranslation from 'next-translate/withTranslation'
+import Layout from '../../components/Layout'
 import GuideList from '../../components/Guide/GuideList'
-import { getI18nPaths, getI18nProps } from '../../i18n'
+import { getI18nPaths, getI18nProps, withI18n } from '../../i18n'
 import { getAllCategories, getAllGuides } from '../../api/guides-api'
+
+function Category(props) {
+  return (
+    <Layout>
+      <Head>
+        <title>{props.i18n.t('common:title')}</title>
+      </Head>
+
+      <GuideList {...props} />
+    </Layout>
+  )
+}
 
 export async function getStaticProps(ctx) {
   const i18nProps = await getI18nProps(ctx, ['common'])
@@ -9,7 +24,7 @@ export async function getStaticProps(ctx) {
 
   const { lang, category } = ctx.params
   const guides = getAllGuides(fields, lang, category)
-  const categories = getAllCategories()
+  const categories = getAllCategories(lang)
 
   return {
     props: {
@@ -22,17 +37,14 @@ export async function getStaticProps(ctx) {
 }
 
 export const getStaticPaths = async () => {
-  const categories = getAllCategories()
   const i18nPaths = getI18nPaths()
-  const paths = []
 
-  Object.keys(categories).forEach(category => {
-    i18nPaths.forEach(i18n => {
+  const paths = []
+  i18nPaths.forEach(({ params }) => {
+    const categories = getAllCategories(params.lang)
+    Object.keys(categories).forEach(category => {
       paths.push({
-        params: {
-          lang: i18n.params.lang,
-          category: category
-        }
+        params: { category, lang: params.lang }
       })
     })
   })
@@ -43,4 +55,4 @@ export const getStaticPaths = async () => {
   }
 }
 
-export default GuideList
+export default withI18n(withTranslation(Category))

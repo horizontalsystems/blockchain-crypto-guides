@@ -1,12 +1,6 @@
 import React from 'react'
-import Head from 'next/head'
 import Link from 'next-translate/Link'
-import withTranslation from 'next-translate/withTranslation'
 import Container from '../Container'
-import Layout from '../Layout'
-import Banner from '../Banner'
-import BannerWallet from '../Banner/BannerWallet'
-import { withI18n } from '../../i18n'
 import Card from '../Card'
 import Button from '../Button'
 import cn from 'classnames'
@@ -88,70 +82,48 @@ class GuideList extends React.Component {
     const { items } = this.state
 
     return (
-      <Layout>
-        <Head>
-          <title>{i18n.t('common:title')}</title>
-        </Head>
-        <Banner
-          title="Learn, Invest, Make"
-          info="Master fundamentals and learn about crypto projects in simple terms."
-        />
-        <Container clipped={false}>
-          <div className="Guides-filter">
-            {this.renderFilters()}
-          </div>
+      <Container clipped={false}>
+        <div className="Guides-filter">
+          {this.renderFilters()}
+        </div>
 
-          <div className="Guides grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4" ref={r => this.guides = r}>
-            {items.map((guide, i) =>
-              <Link key={i} href="/[lang]/[...slug]" as={`/${guide.slug}`}>
-                <a><Card title={guide.title} date={guide.date} image={`/${i18n.lang}/${guide.image}`} /></a>
-              </Link>
-            )}
-          </div>
+        <div className="Guides grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4" ref={r => this.guides = r}>
+          {items.map((guide, i) =>
+            <Link key={i} href="/[lang]/[...slug]" as={`/${guide.slug}`}>
+              <a><Card title={guide.title} date={guide.date} image={`/${i18n.lang}/${guide.image}`} /></a>
+            </Link>
+          )}
+        </div>
 
-          <div className="Guides-pagination">
-            {this.renderPagination()}
-          </div>
-        </Container>
-        <BannerWallet />
-      </Layout>
+        <div className="Guides-pagination">
+          {this.renderPagination()}
+        </div>
+      </Container>
     )
   }
 
   renderFilters() {
     const { categories, category, i18n } = this.props
-    const filters = {
-      new: {
-        en: 'New'
-      },
-      ...categories
-    }
 
-    const link = (i, key, child) => {
-      let href = '/[lang]/[category]'
-      let as = `/${key}`
-
-      if (key === 'new') {
-        href = '/[lang]'
-        as = '/'
-      }
+    return Object.keys(categories).map((key, i) => {
+      const categoryName = (key === 'recent')
+        ? i18n.t('common:recent')
+        : categories[key][i18n.lang]
 
       return (
-        <Link key={i} href={href} as={as}>
-          <a>{child}</a>
+        <Link key={i} href="/[lang]/[category]" as={`/${key}`}>
+          <a>
+            <Button
+              title={categoryName}
+              className={cn('Button-filter mr-4', {
+                'Button-yellow': key === category,
+                'Button-filter-inactive': key !== category
+              })}
+            />
+          </a>
         </Link>
       )
-    }
-
-    return Object.keys(filters).map((key, i) => link(i, key,
-      <Button
-        title={filters[key][i18n.lang]}
-        className={cn('Button-filter mr-4', {
-          'Button-yellow': key === category,
-          'Button-filter-inactive': key !== category
-        })}
-      />
-    ))
+    })
   }
 
   renderPagination() {
@@ -191,4 +163,4 @@ class GuideList extends React.Component {
   }
 }
 
-export default withI18n(withTranslation(GuideList))
+export default GuideList
