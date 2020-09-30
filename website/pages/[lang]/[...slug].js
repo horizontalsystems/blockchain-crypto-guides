@@ -1,7 +1,7 @@
 import Guide from '../../components/Guide'
 import { getAllGuideSlugs, getGuideByLang } from '../../api/guides-api'
 import { getI18nPaths, getI18nProps, withI18n } from '../../i18n'
-import { mapChild, parse } from '../parser'
+import { mapChild, parse } from '../../api/parser'
 
 export default withI18n(Guide)
 
