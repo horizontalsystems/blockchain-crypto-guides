@@ -43,6 +43,7 @@ function analyticsScript() {
 }
 
 function sendPageView() {
+  if (!window || !window.ga) return
   window.ga('send', {
     hitType: 'pageview',
     page: window.location.pathname
