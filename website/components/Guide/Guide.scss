@@ -6,6 +6,7 @@
   scroll-margin-top: 160px;
 
   @include md {
+    grid-template-rows: 1fr 1fr auto;
     scroll-margin-top: 110px + 88px;
   }
 }
