@@ -9,7 +9,7 @@ import { ReactComponent as Telegram } from '../Icon/telegram-small.svg'
 import { ReactComponent as Facebook } from '../Icon/facebook-small.svg'
 import { ReactComponent as Copy } from '../Icon/copy-small.svg'
 import { ReactComponent as Share } from '../Icon/share.svg'
-import { copyToClipboard } from '../helper'
+import isSafari, { copyToClipboard } from '../helper'
 
 class Markdown extends React.Component {
   state = {
@@ -137,6 +137,10 @@ class Markdown extends React.Component {
       behavior: 'smooth',
       block: 'start'
     });
+
+    if (isSafari()) {
+      document.documentElement.scrollTop = document.documentElement.scrollTop - 160
+    }
 
     if (closeSidebar) {
       this.onClickToggle(true)
