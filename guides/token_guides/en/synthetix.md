@@ -32,6 +32,8 @@ While Synthetix platform supports about two dozen different synths, there are no
 >
 > Smart contract powering Synthetix platform only require the price feed for the given asset (and approval from its community) to add new synth asset into ecosystem.
 
+![](../images/snx-btcsbtc-l.png)
+
 Therefore, should Synthetix continue growing expect to see many more synthetic assets to be added to the platform.
 
 Currently, there are two types of synth assets:
@@ -92,7 +94,9 @@ To understand the mechanics of Synthetix platform it's crucial to understand the
 
 7. For instance, if the current price of Bitcoin is $10,000, buying sBTC from Synthetix exchange would mean destroying 10,000 sUSD tokens and creating 1 sBTC token in Synthetix ecosystem.
 
-Every single synth in circulation comes into existence as per the steps shown above. 
+Every single synth in circulation comes into existence as per the steps shown above.
+
+![](../images/snx-sUSD-l.png)
 
 > The process above ensures that every single synth asset in the ecosystem is backed by a collateral in a form of SNX tokens.
 
@@ -101,6 +105,8 @@ User looking to speculate on synth assets do not have to go through steps above 
 ## How Synths Traded
 
 Synthetix ecosystem comes with its own decentralized exchange platform for trading synths known as [Synthetix.Exchange](https://synthetix.exchange).
+
+![](../images/snx-sUSD-sBTC-l.png)
 
 - Unlike other decentralized exchanges Synthetix exchange doesn't require any kind of liquidity matching instruments like order books or [liquidity pools](../../defi/en/3-decentralized-exchanges.md). 
 
@@ -151,6 +157,8 @@ For example:
 - If 100% of the Synths in the Synthetix ecosystem were synthetic Bitcoin (sBTC), which say halved in price, the total debt in the system would halve as well. Every staker’s debt would also halve as a result. 
 
 - On the other hand, if only 50% of the ecosystem were sBTC, and BTC doubled in price, each staker’s debt—would increase by one quarter. 
+
+![](../images/snx-debt-l.png)
 
 In this way, SNX stakers act as a pooled counter party to all Synth exchanges; stakers take on the risk of the overall debt in the system.
 
