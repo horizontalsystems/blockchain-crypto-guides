@@ -90,7 +90,7 @@ class Header extends React.Component {
       <a href="https://horizontalsystems.io" target="_blank" rel="noopener noreferrer">
         <div className="Button-nav nav-item">{i18n.t('common:about')}</div>
       </a>
-      <a href="https://t.me/unstoppable_development" target="_blank" rel="noopener noreferrer">
+      <a href="https://horizontalsystems.io" target="_blank" rel="noopener noreferrer">
         <div className="Button-nav nav-item">{i18n.t('common:contact')}</div>
       </a>
       <div className="nav-icon nav-language" onClick={this.showLanguages}>
