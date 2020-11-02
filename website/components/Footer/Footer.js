@@ -4,7 +4,6 @@ import Icon from '../Icon/Icon'
 import Container from '../Container/Container'
 import SubscribeForm from '../Contact/SubscribeForm'
 import { ReactComponent as Logo } from './HSlogo.svg'
-import Link from 'next/link'
 
 function Footer() {
   return (
@@ -28,7 +27,7 @@ function Footer() {
         <hr className="Divider" />
 
         <div className="Footer-bottom">
-          <a href="https://horizontalsystems.io">
+          <a href="https://horizontalsystems.io" target="_blank" rel="noopener noreferrer" >
             <Logo className="Logo" />
 
             <div className="Logo-icon">
