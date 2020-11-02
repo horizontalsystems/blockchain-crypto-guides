@@ -1,6 +1,7 @@
 import React from 'react'
 import GithubSlugger from 'github-slugger'
 import throttle from 'lodash.throttle'
+import { withRouter } from 'next/router'
 import Container from '../Container'
 import Icon from '../Icon'
 import ShareModal from './ShareModal'
@@ -20,31 +21,38 @@ class Markdown extends React.Component {
     fontSizeMin: 12
   }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.scrollProgress);
+  constructor({ guide, router }) {
+    super()
 
-    this.mainNavLinks = document.querySelectorAll('.Markdown-menu a');
+    this.state.title = encodeURIComponent(guide.title)
+    this.state.url = encodeURIComponent('https://litrex.academy' + router.asPath)
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.scrollProgress)
+
+    this.mainNavLinks = document.querySelectorAll('.Markdown-menu a')
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll)
   }
 
   scrollProgress = () => {
     const doc = document.documentElement
-    const scrollPx = doc.scrollTop;
-    const winHeightPx = doc.scrollHeight - doc.clientHeight;
-    const scrolled = `${scrollPx / winHeightPx * 100}%`;
+    const scrollPx = doc.scrollTop
+    const winHeightPx = doc.scrollHeight - doc.clientHeight
+    const scrolled = `${scrollPx / winHeightPx * 100}%`
 
     this.setState({
       scrolled: scrolled
-    });
+    })
 
     this.handleScroll()
   }
 
   handleScroll = throttle(() => {
-    const fromTop = window.scrollY;
+    const fromTop = window.scrollY
     const actives = []
 
     this.mainNavLinks.forEach(link => {
@@ -54,15 +62,15 @@ class Markdown extends React.Component {
       if (section.offsetTop <= fromTop) {
         actives.push(link)
       } else {
-        link.classList.remove('current');
+        link.classList.remove('current')
       }
     })
 
     actives.forEach((link, index) => {
       if (actives.length - 1 === index) {
-        link.classList.add('current');
+        link.classList.add('current')
       } else {
-        link.classList.remove('current');
+        link.classList.remove('current')
       }
     })
   }, 100)
@@ -128,15 +136,15 @@ class Markdown extends React.Component {
   }
 
   onClickLink(event, closeSidebar) {
-    event.preventDefault();
+    event.preventDefault()
     const id = event.target.hash.replace(/^#/, '')
-    const target = document.getElementById(id);
+    const target = document.getElementById(id)
     if (!target) return
 
     target.scrollIntoView({
       behavior: 'smooth',
       block: 'start'
-    });
+    })
 
     if (isSafari()) {
       document.documentElement.scrollTop = document.documentElement.scrollTop - 160
@@ -187,33 +195,30 @@ class Markdown extends React.Component {
   }
 
   onShare = () => {
+    const { title, url } = this.state
     const { setModal } = this.props
-    setModal(<ShareModal onClose={() => setModal(null)} />)
+    setModal(<ShareModal title={title} url={url} onClose={() => setModal(null)} />)
   }
 
   share() {
+    const { title, url } = this.state
+
     return (
       <div className="share">
         <div className="share-text">Share:</div>
         <div className="share-links">
-          <a
-            href="https://twitter.com/intent/tweet/?text=Master%20fundamentals%20and%20learn%20about%20crypto%20projects%20in%20simple%20terms.&url=https%3A%2F%2Flitrex.academy"
-            target="_blank" rel="noopener">
+          <a href={`https://twitter.com/intent/tweet/?text=${title}.&url=${url}`} target="_blank" rel="noopener">
             <Twitter width="18" height="18" className="share-button" />
           </a>
-          <a
-            href="https://telegram.me/share/url?text=Master%20fundamentals%20and%20learn%20about%20crypto%20projects%20in%20simple%20terms.&url=https%3A%2F%2Flitrex.academy"
-            target="_blank" rel="noopener">
+          <a href={`https://telegram.me/share/url?text=${title}&url=${url}`} target="_blank" rel="noopener">
             <Telegram width="18" height="18" className="share-button" />
           </a>
 
-          <a href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Flitrex.academy"
-             target="_blank"
-             rel="noopener">
+          <a href={`https://facebook.com/sharer/sharer.php?u=${url}`} target="_blank" rel="noopener">
             <Facebook width="18" height="18" className="share-button" />
           </a>
 
-          <a href="#" onClick={() => copyToClipboard('https://litrex.academy/')}>
+          <a href="#" onClick={() => copyToClipboard(url)}>
             <Copy width="18" height="18" className="share-button" />
           </a>
         </div>
@@ -250,4 +255,4 @@ class Markdown extends React.Component {
   }
 }
 
-export default Markdown
+export default withRouter(Markdown)
