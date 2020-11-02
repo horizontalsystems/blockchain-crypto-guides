@@ -73,7 +73,7 @@ export function getGuideByLang(lang, slug, fields) {
     return getGuideBySlug(filePath, fields)
   }
 
-  const re = new RegExp(`\/${lang}\/`, 'i');
+  const re = new RegExp(`\/${lang}\/`, 'i')
 
   return getGuideBySlug(filePath.replace(re, '/en/'), fields)
 }
@@ -159,5 +159,7 @@ export function getAllGuides(fields = [], lang, categoryId) {
     }
   }
 
-  return Object.keys(slugs).map(slug => getGuideBySlug(slug, fields))
+  return Object.keys(slugs)
+    .map(slug => getGuideBySlug(slug, fields))
+    .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 }
