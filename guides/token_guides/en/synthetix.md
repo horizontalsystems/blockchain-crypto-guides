@@ -38,41 +38,41 @@ Therefore, should Synthetix continue growing expect to see many more synthetic a
 
 Currently, there are two types of synth assets:
 
-1) Standard Synths 
+1) Standard Synths
 
-    Follow the price of the asset they represent and meant for those who would like to go long on the assets.
+  Follow the price of the asset they represent and meant for those who would like to go long on the assets.
 
-    - sUSD : synthetic USD
-    - sEUR : synthetic EUR
-    - sAUD : synthetic AUSDollar
-    - sBTC : synthetic Bitcoin
-    - sETH : synthetic Ether
-    - sMKR : synthetic Maker
-    - sBNB : synthetic BNB
-    - sXTZ : synthetic Tezos
-    - sADA : synthetic Cardano
-    - sXRP : synthetic Ripple
-    - sLTC : synthetic Litecoin
-    - sBCH : synthetic Bitcoin Cash 
-    - sXAU : synthetic Gold Ounce
-    - sXAG : synthetic Silver Ounce
-    - sDEFI : synthetic DEFI Index
-    - sLINK : synthetic Chainlink          
+  - sUSD : synthetic USD
+  - sEUR : synthetic EUR
+  - sAUD : synthetic AUSDollar
+  - sBTC : synthetic Bitcoin
+  - sETH : synthetic Ether
+  - sMKR : synthetic Maker
+  - sBNB : synthetic BNB
+  - sXTZ : synthetic Tezos
+  - sADA : synthetic Cardano
+  - sXRP : synthetic Ripple
+  - sLTC : synthetic Litecoin
+  - sBCH : synthetic Bitcoin Cash
+  - sXAU : synthetic Gold Ounce
+  - sXAG : synthetic Silver Ounce
+  - sDEFI : synthetic DEFI Index
+  - sLINK : synthetic Chainlink
 
-2) Inverse Synths 
+2) Inverse Synths
 
-    Allow anyone to essentially go short on the price of an asset and profit inversely to any price depreciation of the asset synth represents. 
+  Allow anyone to essentially go short on the price of an asset and profit inversely to any price depreciation of the asset synth represents.
 
-    - iBTC : inverse Bitcoin
-    - iETH : inverse Ethereum
-    - iBNB : inverse Binance
-    - iXTZ : inverse Tezos
-    - iADA : inverse Cardano
-    - iXRP : inverse Ripple    
-    - iLTC : inverse Litecoin
-    - iBCH : inverse Bitcoin Cash  
-    - iDEFI : inverse DEFI Index
-    - iLINK : inverse Chainlink
+  - iBTC : inverse Bitcoin
+  - iETH : inverse Ethereum
+  - iBNB : inverse Binance
+  - iXTZ : inverse Tezos
+  - iADA : inverse Cardano
+  - iXRP : inverse Ripple
+  - iLTC : inverse Litecoin
+  - iBCH : inverse Bitcoin Cash
+  - iDEFI : inverse DEFI Index
+  - iLINK : inverse Chainlink
     
 Synths are traded 24/7 on non-custodial [Synthetix.Exchange](https://synthetix.exchange) allowing anyone in [Ethereum ecosystem](../../token_guides/en/ethereum.md) to go long or short on various assets.
     
@@ -148,15 +148,15 @@ The entities staking their SNX tokens essentially create a debt position when th
 
 - The debt increases or decreases according to price gains or losses made by all other Synth assets in the ecosystem. 
 
-- If at any time there is a Synth asset that appreciates in value, that gain is covered proportionally by all the staked SNX holders’ debts. 
+- If at any time there is a Synth asset that appreciates in value, that gain is covered proportionally by all the staked SNX holders??? debts. 
 
 - Every staker must pay off their debt to a smart contract before they can unlock their staked SNX tokens.
 
 For example:
 
-- If 100% of the Synths in the Synthetix ecosystem were synthetic Bitcoin (sBTC), which say halved in price, the total debt in the system would halve as well. Every staker’s debt would also halve as a result. 
+- If 100% of the Synths in the Synthetix ecosystem were synthetic Bitcoin (sBTC), which say halved in price, the total debt in the system would halve as well. Every staker???s debt would also halve as a result. 
 
-- On the other hand, if only 50% of the ecosystem were sBTC, and BTC doubled in price, each staker’s debt—would increase by one quarter. 
+- On the other hand, if only 50% of the ecosystem were sBTC, and BTC doubled in price, each staker???s debt???would increase by one quarter. 
 
 ![](../images/snx-debt-l.png)
 
