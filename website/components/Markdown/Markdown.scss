@@ -163,6 +163,7 @@
 
   img:first-child {
     min-height: 550px;
+    object-fit: contain;
 
     @include sm {
       min-height: 230px;
