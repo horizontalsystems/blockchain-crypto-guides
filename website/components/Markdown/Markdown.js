@@ -25,7 +25,7 @@ class Markdown extends React.Component {
     super()
 
     this.state.title = encodeURIComponent(guide.title)
-    this.state.url = encodeURIComponent('https://litrex.academy' + router.asPath)
+    this.state.url = 'https://litrex.academy' + router.asPath
   }
 
   componentDidMount() {
@@ -202,19 +202,20 @@ class Markdown extends React.Component {
 
   share() {
     const { title, url } = this.state
+    const urlEncoded = encodeURIComponent(url)
 
     return (
       <div className="share">
         <div className="share-text">Share:</div>
         <div className="share-links">
-          <a href={`https://twitter.com/intent/tweet/?text=${title}.&url=${url}`} target="_blank" rel="noopener">
+          <a href={`https://twitter.com/intent/tweet/?text=${title}.&url=${urlEncoded}`} target="_blank" rel="noopener">
             <Twitter width="18" height="18" className="share-button" />
           </a>
-          <a href={`https://telegram.me/share/url?text=${title}&url=${url}`} target="_blank" rel="noopener">
+          <a href={`https://telegram.me/share/url?text=${title}&url=${urlEncoded}`} target="_blank" rel="noopener">
             <Telegram width="18" height="18" className="share-button" />
           </a>
 
-          <a href={`https://facebook.com/sharer/sharer.php?u=${url}`} target="_blank" rel="noopener">
+          <a href={`https://facebook.com/sharer/sharer.php?u=${urlEncoded}`} target="_blank" rel="noopener">
             <Facebook width="18" height="18" className="share-button" />
           </a>
 
