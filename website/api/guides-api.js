@@ -7,13 +7,13 @@ const cache = indexedData()
 function indexedData() {
   const cached = {}
 
-  const getNext = (list, i, max = 4) => {
+  const getNext = (list, nextIndex, max = 4) => {
     if (list.length <= 1) return null
     if (list.length <= max) {
-      return list
+      return list.filter((v, index) => index !== nextIndex - 1)
     }
 
-    const res = list.slice(i, i + max)
+    const res = list.slice(nextIndex, nextIndex + max)
     if (res.length < max) {
       return [...res, ...list.slice(0, max - res.length)]
     }

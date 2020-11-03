@@ -2,10 +2,17 @@
 
 .Guide-next-card {
   margin: 0 12px 58px;
+  max-width: 300px;
 }
 
 .Guide-next {
   width: 100%;
+}
+
+.Guide-next-few .slick-slide {
+  @include md {
+    width: auto !important;
+  }
 }
 
 .Guide-next-title {

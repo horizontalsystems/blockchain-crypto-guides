@@ -1,4 +1,5 @@
 import Link from 'next-translate/Link'
+import cn from 'classnames'
 import Container from '../Container'
 import Card from '../Card'
 import Slider from '../Slider/Slider'
@@ -8,13 +9,12 @@ export default function GuideNext({ list, lang }) {
     return null
   }
 
-  const count = Math.max(2, list.length)
-  const chunkCount = Math.min(4, count)
+  const chunkCount = Math.min(4, list.length)
 
   return (
     <div className="Guide-next-wrap">
       <Container className="Container-banner" clipped={false}>
-        <div className="Guide-next">
+        <div className={cn('Guide-next', { 'Guide-next-few': list.length < 4 })}>
           <div className="Guide-next-title">
             Next Guides
           </div>
