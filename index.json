@@ -75,7 +75,7 @@
       },
       {
         "en": {
-          "title": "Private Keys",
+          "title": "What Are Private Keys",
           "image": "guides/fundamentals/images/03-main-l.png",
           "file": "guides/fundamentals/en/3-private-keys-basics.md",
           "updated_at": "01-06-2020"
@@ -107,7 +107,7 @@
       },
       {
         "en": {
-          "title": "Safe Storage Tips",
+          "title": "Keeping Crypto Safe",
           "image": "guides/fundamentals/images/04-main-l.png",
           "file": "guides/fundamentals/en/4-safe-storage-basics.md",
           "updated_at": "01-06-2020"
@@ -235,7 +235,7 @@
       },
       {
         "en": {
-          "title": "Transactions Explained",
+          "title": "Cryptocurrency Transactions",
           "image": "guides/fundamentals/images/08-main-l.png",
           "file": "guides/fundamentals/en/8-transactions-basics.md",
           "updated_at": "01-06-2020"
@@ -299,6 +299,14 @@
           "image": "guides/token_guides/images/bch-Main-l.png",
           "file": "guides/token_guides/en/bitcoin-cash.md",
           "updated_at": "01-06-2020"
+        }
+      },
+      {
+        "en": {
+          "title": "Zcash in Simple Terms",
+          "image": "guides/token_guides/images/zec-Main-l.png",
+          "file": "guides/token_guides/en/zcash.md",
+          "updated_at": "15-11-2020"
         }
       }
     ]
