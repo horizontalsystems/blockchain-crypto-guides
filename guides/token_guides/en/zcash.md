@@ -29,11 +29,11 @@ Privacy aspects aside, Zcash is actually a fork of the Bitcoin project and share
 
 > Just like on Bitcoin, Zcash transactions are publicly visible on a public blockchain.
 >
-> However, on Zcash, there are two types of transactions: public and private. Private transactions don't reveal any information about sender, receiver and amount transferred. 
 >
-> Nodes on Zcash network can validate such private transactions without the need to know transaction details.
+> However, on Zcash, there are two types of transactions: public and private. Private transactions don't reveal any information about sender, receiver and amount transferred.
 >
-> So, Zcash cryptocurrency provides an option of confidential transactions.
+>
+> Nodes on Zcash network can validate such private transactions without the need to know transaction details. So, Zcash cryptocurrency provides an option of confidential transactions.
 
 For purposes of compliance or audits (where transparency is required) Zcash blockchain provides selective payment disclosure feature. Selective disclosures enable users to share details of specific transactions while keeping other information private.
 
