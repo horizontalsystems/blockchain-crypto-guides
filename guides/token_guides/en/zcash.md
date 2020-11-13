@@ -2,37 +2,38 @@
 
 # Zcash In Simple Terms
 
-Zcash is a Bitcoin-like cryptocurrency project with a heavy focus on privacy which uses some of the most cutting-edge cryptography in the industry. 
+Zcash is a [Bitcoin-like](bitcoin.md) cryptocurrency project but with a heavy focus on privacy which uses some of the most cutting-edge cryptography in the industry. 
 
-This guide aims to explain what makes Zcash unique, how it works and how to transact with it in simple terms and in an easy-to-digest manner.
+This guide aims to explain what makes Zcash unique, how it works and how to transact with it in simple terms.
 
 
 ## 1. Zcash Origins
 
 Zcash grew out of an experimental proposal from a bunch of computer scientists and mathematicians looking to fix lack of privacy on Bitcoin cryptocurrency. 
 
-Zcash launched on October 28, 2016 by Electric Coin Co and was the first cryptocurrency project making use of so called zk-SNARKs technology, also known as zero-knowledge proofs.
+Zcash launched on October 28, 2016 by Electric Coin Co and was the first cryptocurrency project making use of so called [zk-SNARKs](https://www.investopedia.com/terms/z/zksnark.asp) technology, also known as zero-knowledge proofs.
 
 > In simple terms, a zk-SNARK is a proof allowing one party to prove it possesses certain information without revealing information contents to the observer. 
 
-By using zk-SNARKs it's possible to have transactions on Zcash blockchain which are verified for validity (i.e. spender having enough funds) by blockchain network nodes without exposing private data of the entities involved in that transaction.
+As a result, it's possible to have transactions on Zcash blockchain which are verifiable for validity (i.e. spender having enough funds) without exposing private data of the entities involved in that transaction.
 
-On the other hand, every single Bitcoin transaction exposes some other information about sender's balance as well as past and future transactions.
-
+In comparison, every single Bitcoin transaction exposes some information about sender's balance as well as past and future transactions. 
 
 ## 2. Zcash vs Bitcoin
 
-In essence, when compared to Bitcoin or Ethereum blockchains Zcash provides enhanced privacy and allows for fully confidential transactions.
+When compared to Bitcoin or Ethereum blockchains Zcash provides enhanced privacy and allows for fully confidential transactions.
 
-Zcash can work both in public and provide modes. Wallet users are able to send both public and private transactions depending on the situation and context of the transaction.
+Wallet users are able to send both public and private transactions depending on the situation and context of that specific transaction.
 
 Privacy aspects aside, Zcash is actually a fork of the Bitcoin project and shares a lot of fundamental properties such as having a limited supply of at most 21 million ZEC tokens.
 
-> Just like on Bitcoin, Zcash transactions are publicly visible on a public blockchain. Bitcoin network nodes require that data in order to validate each transaction.
+> Just like on Bitcoin, Zcash transactions are publicly visible on a public blockchain.
 >
-> However, unlike Bitcoin, certain Zcash transactions don't reveal any information about sender, receiver and amount transferred. Unlike Bitcoin, nodes on Zcash network can validate transactions without the need to have this data being open to the public.
+> However, on Zcash, there are two types of transactions: public and private. Private transactions don't reveal any information about sender, receiver and amount transferred. 
 >
-> So, Zcash cryptocurrency provides an option of confidential transactions and financial privacy through shielded addresses.
+> Nodes on Zcash network can validate such private transactions without the need to know transaction details.
+>
+> So, Zcash cryptocurrency provides an option of confidential transactions.
 
 For purposes of compliance or audits (where transparency is required) Zcash blockchain provides selective payment disclosure feature. Selective disclosures enable users to share details of specific transactions while keeping other information private.
 
@@ -44,7 +45,7 @@ Zcash cryptocurrency has a fixed supply of 21 million Zcash currency units or ZE
  
 - 1 ZEC unit of Zcash cryptocurrency consists of 100 million sub-units known as zatoshi. It's same for Bitcoin but instead of zatoshi the sub-units are called satoshi :).
 
-- Like Bitcoin, the amount of the block reward cuts in half about every four years until all 21 million ZEC are in circulation.
+- Just like Bitcoin, the amount of the block reward cuts in half about every four years until all 21 million ZEC are in circulation.
 
 
 ## 3. Zcash Privacy
