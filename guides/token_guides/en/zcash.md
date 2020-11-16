@@ -39,6 +39,8 @@ For purposes of compliance or audits (where transparency is required) Zcash bloc
 
 Zcash cryptocurrency has a fixed supply of 21 million Zcash currency units or ZECs, denoted by the symbol 'ZEC'. 
 
+![](../images/zec-ZcashCryptocurrency_l.png)
+
 - While Bitcoin blockchain takes about 10 minutes to process a block with new transactions, on Zcash the blocks are on average processed once in about 75 seconds.
 
 - Every time the block is process and added to blockchain, a network node (miner) receives a reward of newly created ZECs. As of November 18, 2020, the block reward is 3.125 ZEC. It gets reduced by half, about once in 4 years.
@@ -64,6 +66,8 @@ Between the two Zcash address types, there are four Zcash transaction types:
 - partially shielded (z-to-t)
 - partially shielded (t-to-z)
 - fully transparent (t-to-t)
+
+![](../images/zec-ZcashAddressTypes-l.png)
 
 These different transactions provide varying layers of privacy.
 
