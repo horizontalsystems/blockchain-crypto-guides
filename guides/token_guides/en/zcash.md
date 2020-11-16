@@ -40,6 +40,8 @@ Zcash highlights:
 
 - Zcash cryptocurrency denoted by the symbol 'ZEC'. A single ZEC unit consists of 100 million sub-units known as zatoshi. It's same for Bitcoin but instead of zatoshi the sub-units are called satoshi :).
 
+![](../images/zec-ZcashCryptocurrency_l.png)
+
 - While Bitcoin blockchain takes about 10 minutes to process a block with new transactions, on Zcash the blocks are on average processed once in about 75 seconds.
 
 - Every time the block is processed and added to blockchain, a network node (miner) receives a reward of newly created ZECs. As of November 2020 the block reward is 3.125 ZEC.
@@ -63,6 +65,8 @@ Between the two Zcash address types, there are four Zcash transaction types:
 - partially shielded (z-to-t)
 - partially shielded (t-to-z)
 - fully transparent (t-to-t)
+
+![](../images/zec-ZcashAddressTypes-l.png)
 
 These different transactions provide varying layers of privacy.
 
