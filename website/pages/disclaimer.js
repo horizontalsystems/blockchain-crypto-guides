@@ -4,15 +4,15 @@ import withTranslation from 'next-translate/withTranslation'
 import renderToString from 'next-mdx-remote/render-to-string'
 import Container from '../components/Container'
 import Layout from '../components/Layout'
-import privacy from '../components/Markdown/privacy.md'
+import disclaimer from '../components/Markdown/disclaimer.md'
 
 import { getI18nPaths, getI18nProps, withI18n } from '../i18n'
 
-function PrivacyPage({ markdown }) {
+function Disclaimer({ markdown }) {
   return (
     <Layout>
       <Head>
-        <title>Privacy Policy</title>
+        <title>Disclaimer</title>
       </Head>
       <Container className="Markdown-container" clipped={false}>
         <div className="Markdown Markdown-full-width">
@@ -28,7 +28,7 @@ function PrivacyPage({ markdown }) {
 
 export async function getStaticProps(ctx) {
   const i18nProps = await getI18nProps(ctx, ['common'])
-  const doc = await renderToString(privacy.markdown)
+  const doc = await renderToString(disclaimer.markdown)
 
   return {
     props: {
@@ -38,4 +38,4 @@ export async function getStaticProps(ctx) {
   }
 }
 
-export default withI18n(withTranslation(PrivacyPage))
+export default withI18n(withTranslation(Disclaimer))
