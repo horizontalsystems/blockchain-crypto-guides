@@ -1,6 +1,6 @@
 import React from 'react'
 import Done from '../Icon/done.svg'
-import Link from 'next-translate/Link'
+import Link from 'next/link'
 
 class SubscribeForm extends React.Component {
   componentDidMount() {

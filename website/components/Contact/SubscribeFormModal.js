@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon from '../Icon'
-import Link from 'next-translate/Link'
+import Link from 'next/link'
 
 class SubscribeFormModal extends React.Component {
   componentDidMount() {
