@@ -1,5 +1,6 @@
 import React from 'react'
 import Icon from '../Icon'
+import Link from 'next-translate/Link'
 
 class SubscribeFormModal extends React.Component {
   componentDidMount() {
@@ -32,7 +33,7 @@ class SubscribeFormModal extends React.Component {
             <input type="checkbox" defaultChecked={true} required />
             <span className="checkbox-custom" />
             <div className="Contact-checkbox-description">
-              By signing up, you agree to Horizontal Systems <a href="https://horizontalsystems.io/privacy">Privacy Policy</a>
+              By signing up, you agree to Horizontal Systems <Link href='/privacy' as="/privacy">Privacy Policy</Link>
             </div>
           </label>
           <div className="Contact-form-group">
