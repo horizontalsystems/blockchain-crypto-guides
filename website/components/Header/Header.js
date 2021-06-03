@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import withTranslation from 'next-translate/withTranslation'
 import { withRouter } from 'next/router'
+import { ReactComponent as HeaderLogo } from './HeaderLogo.svg'
+import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
+
 import Container from '../Container'
 import Icon from '../Icon'
 import Button from '../Button'
 import SubscribeFormModal from '../Contact/SubscribeFormModal'
-import { ReactComponent as HeaderLogo } from './HeaderLogo.svg'
-import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 class Header extends React.Component {
   dropdown = false
@@ -93,14 +94,17 @@ class Header extends React.Component {
       <a href="https://horizontalsystems.io" target="_blank" rel="noopener noreferrer">
         <div className="Button-nav nav-item">{i18n.t('common:contact')}</div>
       </a>
+      <Link href="/posts" as="/posts">
+        <div className="Button-nav nav-item">Blog</div>
+      </Link>
       <div className="nav-icon nav-language" onClick={this.showLanguages}>
         <Icon name="globe" />
         <div className="dropdown-menu dropdown-menu-center">
-          <Link href='/[lang]' as="/en" replace><a className="dropdown-item">English</a></Link>
-          <Link href='/[lang]' as="/ru" replace><a className="dropdown-item">Russian</a></Link>
-          <Link href='/[lang]' as="/fr" replace><a className="dropdown-item">French</a></Link>
-          <Link href='/[lang]' as="/de" replace><a className="dropdown-item">Dutch</a></Link>
-          <Link href='/[lang]' as="/fa" replace><a className="dropdown-item">Farsi</a></Link>
+          <Link href="/[lang]" as="/en" replace><a className="dropdown-item">English</a></Link>
+          <Link href="/[lang]" as="/ru" replace><a className="dropdown-item">Russian</a></Link>
+          <Link href="/[lang]" as="/fr" replace><a className="dropdown-item">French</a></Link>
+          <Link href="/[lang]" as="/de" replace><a className="dropdown-item">Dutch</a></Link>
+          <Link href="/[lang]" as="/fa" replace><a className="dropdown-item">Farsi</a></Link>
         </div>
       </div>
       <div className="nav-icon" onClick={darkMode.toggle}>
@@ -115,11 +119,11 @@ class Header extends React.Component {
 
   languageMenu = () => (
     <div className="nav">
-      <Link href='/[lang]' as="/en"><a className="Button-nav nav-item">English</a></Link>
-      <Link href='/[lang]' as="/ru"><a className="Button-nav nav-item">Russian</a></Link>
-      <Link href='/[lang]' as="/fr"><a className="Button-nav nav-item">French</a></Link>
-      <Link href='/[lang]' as="/de"><a className="Button-nav nav-item">Dutch</a></Link>
-      <Link href='/[lang]' as="/fa"><a className="Button-nav nav-item">Farsi</a></Link>
+      <Link href="/[lang]" as="/en"><a className="Button-nav nav-item">English</a></Link>
+      <Link href="/[lang]" as="/ru"><a className="Button-nav nav-item">Russian</a></Link>
+      <Link href="/[lang]" as="/fr"><a className="Button-nav nav-item">French</a></Link>
+      <Link href="/[lang]" as="/de"><a className="Button-nav nav-item">Dutch</a></Link>
+      <Link href="/[lang]" as="/fa"><a className="Button-nav nav-item">Farsi</a></Link>
     </div>
   )
 }

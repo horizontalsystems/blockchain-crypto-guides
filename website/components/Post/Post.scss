@@ -1,0 +1,56 @@
+@import "../../pages/styles/utils";
+
+.Guides {
+  row-gap: 36px;
+  column-gap: 24px;
+  scroll-margin-top: 160px;
+
+  @include md {
+    grid-template-rows: 1fr 1fr auto;
+    scroll-margin-top: 110px + 88px;
+  }
+}
+
+.Guides-filter {
+  padding: 12px 5px;
+  display: flex;
+  overflow-y: auto;
+  position: sticky;
+  top: $header-sm - 1px;
+  background: $light-steal;
+
+  @include md {
+    top: $header-height - 1px;
+    margin: 34px -5px;
+    margin-right: -24px;
+    padding: 24px 5px;
+  }
+
+  @include sm {
+    margin: 12px -24px;
+    padding-left: 24px;
+  }
+}
+
+.dark-mode .Guides-filter {
+  background: $black;
+}
+
+.Guides-pagination {
+  padding-top: 36px;
+  padding-bottom: 58px;
+}
+
+.text-yellow {
+  color: $yellow-l;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.text-dark {
+  color: $darkest;
+}
+
+@import "GuideNext";
