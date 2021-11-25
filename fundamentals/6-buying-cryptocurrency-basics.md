@@ -30,11 +30,11 @@ The majority of these websites will work without fail for EU and US residents. H
 
 If you plan to acquire a large amount of cryptocurrency, you should consider signing up to and using an exchange. A cryptocurrency exchange will usually feature a more competitive price than a straight credit card. 
 
-A cryptocurrency exchange lists hundreds of different cryptocurrencies which you can trade for fiat currency like USD or other cryptocurrencies. Trading on an exchange may sound confusing if you have never traded stocks, but it isn't difficult once you get into the swing of things. 
+A cryptocurrency exchange lists hundreds of different cryptocurrencies which users may trade for fiat currency like USD or other cryptocurrencies. Trading on an exchange may sound confusing, but it isn't difficult once you get into the swing of things. 
 
 Cryptocurrency exchanges must adhere to local currency dealing laws. Financial regulations vary from country to country, so not all exchanges are available around the globe. 
 
-Most cryptocurrency exchanges will practice Know Your Customer ([KYC](https://en.wikipedia.org/wiki/Know_your_customer)) and Anti-Money Laundering ([AML](https://en.wikipedia.org/wiki/Money_laundering#Combating)) checks before allowing you to make your first cryptocurrency purchase.
+Most cryptocurrency exchanges will practice Know Your Customer ([KYC](https://en.wikipedia.org/wiki/Know_your_customer)) and Anti-Money Laundering ([AML](https://en.wikipedia.org/wiki/Money_laundering#Combating)) checks before allowing users to make cryptocurrency purchase.
 
 Cryptocurrency exchanges and even some peer-to-peer crypto vendors practice these regulations to ensure they are not handling stolen fiat currency or engaging with identity fraud.
 
@@ -42,13 +42,13 @@ The process for purchasing cryptocurrency on an exchange usually goes as follows
 
 1. Create an account on exchange
 2. Verify identity
-3. Transfer funds to your account
+3. Transfer funds to account
 4. Purchase cryptocurrency
 5. Withdraw cryptocurrency to a wallet
 
-The amount you can purchase on an exchange usually changes depending on the level of verification. 
+The amount a user can purchase on an exchange usually changes depending on the level of verification of the user. 
 
-For example, if you sign-up and verify your email address on an exchange, you can purchase $500-$1000 worth of Bitcoin. However, if you sign-up, verify your email address, add an official ID document, and verify your address, you can purchase a lot more. 
+For example, if you signup and verify email address on an exchange, you will be able to purchase $500-$1000 worth of Bitcoin. However, if you sign-up, verify email address, add an official ID document, and verify address, you can purchase a lot more. 
 
 While this is a fictional example, many exchanges use a similar tiered approach to user verification. 
 
@@ -56,9 +56,11 @@ Here is a list of trusted cryptocurrency exchanges:
 
 * [Binance.com](https://www.binance.com/en/register?ref=42579924)
 * [Coinbase.com](https://coinbase.com)
-* [Cex.io](https://cex.io/r/0/up131140473/0)
 * [Kraken.com](https://kraken.com)
+* [Cex.io](https://cex.io/r/0/up131140473/0)
 * [Coinmama.com](https://go.coinmama.com/visit/?bta=61248&nci=5343)
+
+For users looking to purchase cryptocurrency in large amounts, stablecoin issuers like [Tether](https://tether.to) and [Circle](https://www.circle.com/en/usdc) can be a good option. Both of these platforms enables someone to buy large amount of cryptocurrency stablecoins for fiat via bank deposit.
 
 ## 3. Getting Paid In Crypto
 
@@ -66,7 +68,7 @@ It's not uncommon these days for online freelancers to accept cryptocurrencies a
 
 If you provide some kind of services online or have an online store look for the ways to accept payments in cryptocurrencies. There are several options available including services like [BitPay.com](https://bitpay.com) or the one from [Coinbase](https://commerce.coinbase.com).
 
-There are also free DIY solutions like [BTCPayServer](https://btcpayserver.org) if you familiar with programming.
+There are also free DIY solutions like [BTCPayServer](https://btcpayserver.org) for technical folks who are able to set it up on their own.
 
 Should you need a thorough overview of the options available check out [this video](https://www.youtube.com/watch?v=OA08wZNvN8c) on Youtube.
 
@@ -96,15 +98,15 @@ Decentralized exchanges connect buyers and sellers in a peer to peer manner acco
 
 Decentralized Exchanges:
 
-- [https://kyberswap.com](https://kyberswap.com)
+- [https://app.sushi.com/swap](https://app.sushi.com/swap)
 - [https://uniswap.exchange](https://uniswap.exchange/swap)
 
 Expect to encounter following issues on most decentralized exchanges:
 
 - most such exchanges support trading only with Ethereum-based assets
-- no ways to deposit or withdraw fiat currencies i.e. USD, EUR etc
-- generally lower trading volumes and liquidity 
-- technical and complex to use 
+- no way to deposit or withdraw fiat currencies i.e. USD, EUR etc
+- generally lower trading volumes and liquidity
+- swap transaction fees may be high
 
 Such exchanges usually do not require account verification of any kind. There are no limitations in the amount that can be sold or purchased. Generally no data collected about the user.
 
