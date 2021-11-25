@@ -16,7 +16,7 @@ A lot of people enter the space and start accumulating cryptocurrencies without 
 
 ## How Ownership Works
 
-Most cryptocurrencies operate on top of the blockchain that powers that specific cryptocurrency. Bitcoin is the native currency of the Bitcoin blockchain, the Ethereum crypto currency has its own blockchain and so on.
+Most cryptocurrencies operate on top of the blockchain that powers that specific cryptocurrency. Bitcoin is the native currency of the Bitcoin blockchain, the Ethereum cryptocurrency has its own blockchain and so on.
 
 The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet. 
 
@@ -68,7 +68,7 @@ Non-custodial wallets keep the wallet code open to the public for scrutiny.
 >
 >**User get full control as well as full responsibility when dealing with crypto assets on the wallet.**
 
-This is the only type of wallet we recommend for safe storage. In the later sections we are going to look deeper into the differences between various non-custodial wallets and risks associated with them.
+This is the only type of wallet we recommend for safe storage. In later sections we are going to look deeper into the differences between various non-custodial wallets and risks associated with them.
 
 ### 2) Custodial Wallets
 

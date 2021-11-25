@@ -51,25 +51,29 @@ Moreover, current prices are necessary for sending payments. Sending someone 90$
 
 Each cryptocurrency is essentially a project with its own set of specifics. It's important to know about these specifics for anyone looking to purchase these cryptocurrencies.
 
-While for some cryptocurrencies transactions are cheap for other the fees can be high. Moreover, the speed and privacy of individual transactions can also vary greatly between cryptocurrencies.
-
-While there are a lot of different cryptocurrencies there is lack of information describing these projects in accessible manner. Many projects are fairly obscure even for the experienced newcomers with a technical background.
+While there are a lot of different cryptocurrencies there is lack of information describing these projects in accessible manner. Many projects are fairly obscure even for the newcomers with a technical background.
 
 Unstoppable aims to provide a comprehensive overview for various cryptocurrencies in simple terms.
 
 ![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-05-s.png)
 
-An investor-friendly wallet app should provide detailed information about each supported cryptocurrency.
+Unstoppable is an investor-oriented wallet app that aims to provide a detailed information about each cryptocurrency token.
 
 ### 5. Price Charts
 
-Always look for the wallet that displays historical market exchange rates for each supported cryptocurrency. 
+Always look for the wallet that displays historical market exchange rates for tokens. 
 
 ![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-06-s.png)
 
-Historical prices provide an overview of how the price of the cryptocurrency has changed in the past.
+Historical prices provide an overview of how the price of the cryptocurrency has changed in the past as well as enables user to see historical exchange rates on past transactions.
 
-### 6. Price Alerts
+### 6. Multi Wallet
+
+Some wallets including Unstoppable enables creation of unlimited number of wallets within a single app. 
+
+Having a wallet app capable of storing many wallets allows its owner to easily manage multiple cryptocurrency portfolios.
+
+### 7. Price Alerts
 
 In addition to price charts it is helpful to have notifications for price changes.
 
@@ -79,7 +83,7 @@ A wallet like Unstoppable can notify the user when the asset price has experienc
 
 Moreover, the Unstoppable can send alerts when the price trend for cryptocurrency changes indicating a good time to purchase or sell any given cryptocurrency.
 
-### 7. Privacy
+### 8. Privacy
 
 When it comes to non-custodial wallets, the privacy aspect has many sides and may vary substantially between wallets.
 
@@ -95,7 +99,7 @@ Certain points should be taken into consideration when evaluating non-custodial 
 
     Non-custodial wallet apps usually allow users to restore or migrate an existing wallet to the wallet app. To serve those users, wallet providers may keep a special server specifically optimized for that task. 
     
-    While this method is convenient for the wallet provider it can potentially expose some info about user's balance and transactions.
+    While this method is convenient for the wallet provider it can potentially expose some info about user's balance and past transactions.
     
     To address this, some wallets like Unstoppable support restoring directly from the blockchain network itself rather than via a third-party server. This ensures that wallet provider has no clue about balance or transactions of the user.
     
@@ -103,9 +107,11 @@ Certain points should be taken into consideration when evaluating non-custodial 
 
     Different blockchains provide varying level of privacy: when you transact in Bitcoin the level of privacy is higher than when compared to Ethereum. 
     
-    Certain non-custodial wallets may have additional features which increase the privacy on that specific blockchain. For instance, Unstoppable wallet app integrates certain instruments which make it significantly more difficult linking different blockchain transactions to a single entity. 
+    Certain non-custodial wallets may have additional features which increase the privacy on that specific blockchain. For instance, Unstoppable wallet app integrates features which make it significantly more difficult linking different Bitcoin transactions to a single entity. 
     
-While many wallets brand themselves as non-custodial and peer to peer they may still have privacy risks. The most private wallet is the one which knows absolutely nothing about the user.
+While many wallets brand themselves as non-custodial and peer to peer they may still have privacy risks. 
+
+The minimum privacy requirement for the user should be a wallet which knows absolutely nothing about its users.
 
 ### 8. Censorship-Resistance
 
@@ -113,10 +119,10 @@ Due to the young and revolutionary nature of cryptocurrencies some governments a
 
 Therefore, look for a wallet app which is engineered in a way where it's impossible for someone to:
 
-- censor your access to the app
-- censor the app in your region
-- stop you from transacting
+- censor access to the app
+- censor the app in a region
+- stop users from transacting
 
 A genuine non-custodial wallet should be built in a way where it works everywhere and always accessible for transactions.
 
-Keep in mind, if you're using a non-custodial which was somehow blocked in your region you should be able to migrate your private key to another non-custodial wallet app.
+Keep in mind, if you're using a non-custodial which was somehow blocked from operating in your region, it should be possible to migrate private keys to another non-custodial wallet app.

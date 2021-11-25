@@ -7,10 +7,10 @@ Now let's look at different types of non-custodial wallets.
 First, there is no such thing as the most suitable wallet for all. Certain non-custodial wallets may be more appropriate for some and not for others. It depends on things like:
 
 * familiarity with security aspects
-* the place the person lives in
 * the amount of cryptocurrency to store
-* whether the person is a potential target
 * how frequently the wallet to be accessed
+* whether the person is a potential target
+* the place the person lives in
 
 Some wallets are more user-friendly and appropriate for new people with smaller balances. At the same time, for people with a crypto capital in millions and extensive security knowledge the expectations from wallets are considerably higher. Those people may prefer to use wallets engineered for higher security needs.
 
@@ -34,7 +34,7 @@ There 3 main types of non-custodial wallets:
 
 Non-custodial wallets potentially differ in the extent to which wallet private keys are protected. Some wallets are designed taking into account even the most unlikely scenarios.
 
-For instance, ensuring a safe storage of the private key in an up-to-date iOS or Android wallet app is easier than on a desktop wallet running on all-purpose Windows computer.
+For instance, ensuring a safe storage of the private key in a iOS or Android wallet running on a well-maintained phone is easier than on a desktop wallet running on an all-purpose Windows computer.
 
 ### 1. Hardware Wallets
 
@@ -42,9 +42,9 @@ The hardware wallets usually come in a form of small hardware devices resembling
 
 Without going into technicals, it's enough to know that these devices are widely considered as ones with the highest level of security. The security considerations are built around the idea of making the physical extraction of the private keys impossible, even if the attacker has your wallet device in physical possession.
 
-From usability point of view hardware wallets are somewhat more difficult to use. It's not difficult for someone familiar with ins and outs of cryptocurrencies but definitely not as easy for those new to the field.
+From usability point of view hardware wallets are somewhat more difficult to use. It's not difficult for someone familiar with ins and outs of cryptocurrencies but definitely not as easy for the newcomers.
 
-Generally speaking, for someone with a large amount of crypto assets ( > $ 50,000) it would be advisable to use the hardware wallet. Or at the very least start exploring these wallets with the intent to move a chunk of their assets to a hardware wallet in the future.
+Generally speaking, for someone with a large amount of crypto assets it would be advisable to use the hardware wallet. Or at the very least start exploring these wallets with the intent to move a chunk of their assets to a hardware wallet in the future.
 
 Two well-known hardware wallet providers are:
 
@@ -55,12 +55,7 @@ Both companies have a wide range of products to choose from. It's important to b
 
 ### 2. Mobile Wallets
 
-The mobile based wallets for iOS and Android are the most common type of non-custodial wallet apps. These wallets are generally more user-friendly. 
-
-Some of our favorites are:
-
-- [Unstoppable Wallet](https://unstoppable.money)
-- [Bread Wallet](https://brd.com)
+The mobile based wallets for iOS and Android are the most common type of non-custodial wallet apps. These wallets are generally more user-friendly. Our very own [Unstoppable Wallet](https://unstoppable.money) is such a wallet.
 
 From security point of view, the hardware wallet considered more secure than a mobile wallet.
 
@@ -68,7 +63,7 @@ The main point here is that there are more ways to attack a wallet running on a 
 
 Mobile wallets operate on an all-purpose operating system (iOS, Android) with a lot of software components. The smartphone device itself has a lot of hardware components that potentially open up new attack surfaces.
 
-Both Google's Android and Apple's iOS operating system come with so called 'secure element' which is specifically designed for handling highly sensitive data. Good wallets make use of that and therefore keep the private key unreachable even if the phone ends up in the hands of someone looking to extract it.
+Both Google's Android and Apple's iOS operating system come with so called 'secure element' which is specifically designed for handling highly sensitive data. Thus, well engineered wallets make use of that and keep the private key unreachable even if the phone ends up in the hands of someone looking to extract it.
 
 ### 3. Desktop Wallets
 
@@ -91,7 +86,7 @@ For instance, a non-custodial mobile wallet app may potentially be more private 
 
 > The privacy aspect has many sides and generally should be taken into account as well. For instance, a hardware wallet may offer a superior security but unintentionally expose customers' personal data. A [recent breach](https://decrypt.co/37063/bitcoin-wallet-ledgers-database-hacked-for-1-million-emails) of company selling Ledger hardware wallets is a good example of that.
 
-Keep in mind, you don't need a cartel level security if you're just starting out. The out of the box security on most well-known non-custodial wallet apps is already pretty good.
+Keep in mind, you don't need a cartel level security if you're just starting out. The out-of-the-box security on most well-known non-custodial wallet apps is already pretty good.
 
 > **A balanced approach is a tiered one, where the higher security requirements are introduced as the risk factor grows.**
 
@@ -107,7 +102,7 @@ The minimum security requirements for using any non-custodial wallet app should 
 
 - **Unauthorized Access**
     
-    The access to the wallet device should be protected with the PIN or somilar mechanism. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
+    The access to the wallet device should be protected with the PIN or a similar mechanism. Presuming a thief knows what they're looking for---cryptocurrency wallets, exchange apps, and so on---they could clean out your cryptocurrency accounts there is no PIN on the smartphone. The same applies to the PIN lock on the hardware wallet.
     
 ## Multiple Wallets
 
@@ -151,11 +146,9 @@ Some people prefer to write the private key (presented in a form words) down on 
 > 
 > **For smaller amounts should not be a significant issue as long as you understand the risks.** 
 
-For mobile non-custodial wallets that are meant to be accessed frequently make sure backup of the private key stored safely and easily accessible on demand.
+### Tip 1 : Optional Password
 
-### 1. Optional Password
-
-When setting up new wallet apps some wallet apps enable users to add a password next to the 12/24 words.
+Some wallet apps enable users to add an optional password next to 12/24 words when setting up a new wallet.
 
 It's an additional security measure that allows the person to keep the 12/24 words separately from the password. 
 
@@ -163,13 +156,13 @@ It's an additional security measure that allows the person to keep the 12/24 wor
 
 The password can be memorized or written down and kept separately from the list of words.
 
-That said, adding a password next to 12/24 words to some extent limits the options when it comes to migrating to a third party wallet in the future. Not many non-custodial wallets support passwords.
+That said, adding a password next to 12/24 words to some extent limits the options when it comes to migrating to a third party wallet in the future. Not many non-custodial wallets currently support passwords.
 
-For private key backup for hardware wallets holding large sums it's recommended to set up private key in a form of 12/24 words + password. That option should be available on all hardware wallets. Those wallets enable creating and restore of such private keys.
+For hardware wallets holding large sums it's recommended to set up private key in a form of 12/24 words + password. That option should be available on all hardware wallets. Those wallets enable creating and restore of such private keys.
 
-### 2. Offline Backups
+### Tip 2 : Offline Backups
 
-When storing private keys or hardware wallets offline, take into account following:
+When storing private keys (or hardware wallets) offline, take into account following:
 
 - private key backup should be kept in separate location from wallet device. 
 - if private key consists of words and a password, both should be kept separately.
@@ -185,12 +178,14 @@ A backup of words can be stored in a metal container from [Crypto Steel](http://
 
 If all three items stored separately you are achieving a fairly good level of crypto security. To access your funds you will either need a wallet device + pin, or the private key + password.
 
-It's also advised to share enough information with your close ones so that they can recover the access to funds should for some reason you become unreachable.
+It's also advised to share enough information with your close ones so that they can recover the access to funds if for some reason you become unreachable.
 
 ## Conclusion
 
 If you have a basic understanding of what has been covered by now you already know quite a lot!
 
-The aim was to explain that non-custodial wallet type is the only wallet that can guarantee the ownership of held cryptocurrencies. Wallets provided by cryptocurrency exchanges are custodial and can censor or block the funds should there ever be a need for that.
+The aim was to explain that non-custodial wallet type is the only wallet that can guarantee the ownership of held cryptocurrencies. 
+
+Wallets provided by cryptocurrency exchanges are custodial and can censor or block the access to funds at their sole discretion.
 
 Those holding large amounts of crypto should consider splitting the funds into multiple wallets with a larger portion of the sum being on a hardware wallet.

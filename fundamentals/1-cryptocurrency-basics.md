@@ -113,7 +113,7 @@ The Bitcoin blockchain launched in 2009 and what initially was a fun toy for a s
 
 Today, Bitcoin became global and censorship-resistant platform that is open to all. 
 
-The fact that Bitcoin and alike platforms are open and permission-less means anyone can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. Any entity can build a service operating on top of Bitcoin blockchain.
+The fact that Bitcoin and alike platforms are open and permission-less means anyone can start participating in the ecosystem. That participation can take place both in a form of a regular user or even a service provider. Any entity can build a service operating on top of a Bitcoin blockchain.
 
 >**The bigger the network of a blockchain, the more attractive it's for the service providers.**
 
