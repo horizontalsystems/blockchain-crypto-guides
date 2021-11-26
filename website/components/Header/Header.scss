@@ -1,0 +1,163 @@
+@import "../../pages/styles/utils";
+@import "Dropdown";
+
+.Header {
+  position: fixed;
+  top: 0;
+  height: $header-sm;
+  width: 100%;
+  z-index: 4;
+  background: $white;
+  display: flex;
+  align-items: center;
+
+  @include md {
+    height: $header-height;
+  }
+}
+
+.dark-mode .Header {
+  background: $dark;
+}
+
+.Header-logo {
+  width: 100%;
+  cursor: pointer;
+}
+
+.light-mode .HeaderLogo_svg__brand {
+  fill: black;
+}
+
+.dark-mode .HeaderLogo_svg__brand {
+  fill: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  align-items: center;
+
+  .nav-item, .nav-icon {
+    margin-left: 20px;
+    cursor: pointer;
+
+    &:hover {
+      color: $yellow-l;
+
+      path {
+        fill: $yellow-l;
+      }
+    }
+  }
+
+  .nav-item-subscribe {
+    margin-left: 20px;
+    color: white;
+  }
+
+  @include sm {
+    display: none;
+  }
+}
+
+.nav-language {
+  position: relative;
+  padding: 14px 10px;
+  margin-left: 10px !important;
+  margin-right: -10px !important;
+
+  &:hover > .dropdown-menu {
+    display: block;
+  }
+
+  @include sm {
+    padding: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+.navbar-dropdown {
+  display: none;
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 110vh;
+  padding-top: 100px;
+  top: 0;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    overflow: auto;
+  }
+
+  .nav-item, .nav-icon {
+    border: none;
+    background: transparent;
+    margin: 20px 0;
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .nav-item-subscribe {
+    font-size: 22px;
+    line-height: 29px;
+    margin-left: 0;
+    margin-top: 20px;
+    color: $yellow-l;
+    background: transparent !important;
+  }
+
+  .dropdown-menu {
+    @include sm {
+      display: none !important;
+    }
+  }
+}
+
+.dark-mode .navbar-dropdown {
+  background: $dark;
+}
+
+.Menu-wrap {
+  z-index: 5;
+  display: none;
+  cursor: pointer;
+
+  @include sm {
+    display: block;
+  }
+}
+
+.Menu-close {
+  display: none;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 30%;
+}
+
+.light-mode .Button-nav {
+  color: $darkest;
+}
+
+.dark-mode .Button-nav {
+  color: $grey-light;
+}

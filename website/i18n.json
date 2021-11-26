@@ -1,0 +1,10 @@
+{
+  "allLanguages": [
+    "en",
+    "ru",
+    "fr",
+    "de",
+    "fa"
+  ],
+  "defaultLanguage": "en"
+}

@@ -1,0 +1,50 @@
+@import "../../pages/styles/utils";
+
+.dropdown-menu {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  text-align: center;
+  list-style: none;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+
+  &:hover {
+    display: block;
+  }
+}
+
+.dark-mode .dropdown-menu {
+  background: $dark-soft;
+  color: $grey;
+}
+
+.light-mode .dropdown-menu {
+  background: #ffffff;
+  color: #212529;
+}
+
+.dropdown-menu-center {
+  right: 0;
+  left: auto;
+  transform: translateX(40%);
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+
+  &:hover {
+    color: $yellow-l;
+  }
+}

@@ -1,0 +1,115 @@
+@import "../../pages/styles/utils";
+
+.Button {
+  color: white;
+  font-family: $ibm-plex-sans;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px 24px;
+  border-radius: 8px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    color: $light-steal;
+    background: $grey-light;
+    cursor: not-allowed;
+  }
+}
+
+.Button-filter {
+  @apply rounded-full;
+}
+
+.Button-bordered {
+  border: 1px solid $grey-light;
+}
+
+.Button-circle {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 40px;
+  border: 1px solid $grey-light;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button-circle-yellow {
+  border: 1px solid $yellow-l;
+  background: $yellow-l;
+  color: white;
+
+  path {
+    fill: white;
+  }
+}
+
+.Arrow-right path {
+  transform: translate(100%, 100%) rotate(180deg);
+}
+
+.Button-page-number {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.Button-grey {
+  background: $grey;
+
+  &:enabled:hover {
+    background: lighten($grey, 2%);
+  }
+}
+
+.Button-yellow {
+  background: $yellow-l;
+
+  &:enabled:hover {
+    background: lighten($yellow-l, 2%);
+  }
+}
+
+.Button-filter-inactive {
+  @apply Button-grey;
+
+  &:enabled:hover {
+    background: $yellow-l;
+  }
+}
+
+.dark-mode {
+  .Button-circle {
+    border: 1px solid $dark-light;
+
+    path {
+      fill: #37393B;
+    }
+  }
+
+  .Button-circle-yellow {
+    border: 1px solid $yellow-l;
+
+    path {
+      fill: $darkest;
+    }
+  }
+
+  .Button-yellow {
+    color: $darkest;
+  }
+
+  .Button-filter-inactive {
+    background: $dark;
+    color: $yellow-l;
+
+    &:enabled:hover {
+      background: $yellow-l;
+      color: $darkest;
+    }
+  }
+}

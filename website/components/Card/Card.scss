@@ -1,0 +1,47 @@
+@import "../../pages/styles/utils";
+
+.Card {
+  background: $light;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.dark-mode .Card {
+  background: $dark-soft;
+}
+
+.Card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.Card-info {
+  padding: 22px 24px 24px;
+  background: #FFFFFF;
+  height: 100%;
+}
+
+.dark-mode .Card-info {
+  background: $dark;
+}
+
+.Card-date {
+  font-size: 14px;
+  line-height: 19px;
+  color: $grey;
+}
+
+.Card-title {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: $darkest;
+}
+
+.dark-mode .Card-title {
+  color: $grey-light;
+}

@@ -1,0 +1,81 @@
+@import "../../pages/styles/utils";
+
+.Container-banner-wallet {
+  padding-top: 58px;
+}
+
+.Banner-wrap-wallet {
+  background: $light;
+  padding-bottom: 58px;
+}
+
+.dark-mode .Banner-wrap-wallet {
+  background: $dark-soft;
+}
+
+.Banner-wallet {
+  background: black;
+  position: relative;
+
+  @include sm {
+    align-items: flex-start;
+  }
+
+  .Banner-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+    padding: 72px 24px 72px 72px;
+
+    @include sm {
+      padding: 24px;
+      width: 100%;
+      z-index: 1;
+    }
+  }
+
+  .Banner-end {
+    width: 60%;
+    padding: 0 30px;
+
+    @include sm {
+      width: 100%;
+      height: 100%;
+      padding: 25% 0 0;
+      position: absolute;
+    }
+  }
+
+  .Banner-image-gradient {
+    @include sm {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      bottom: 0;
+      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    }
+  }
+
+  .Banner-text {
+    color: white;
+    font-size: 24px;
+    line-height: 31px;
+
+    @include md {
+      font-size: 36px;
+      line-height: 47px;
+    }
+  }
+
+  .Banner-action {
+    padding-top: 24px;
+
+    @include sm {
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

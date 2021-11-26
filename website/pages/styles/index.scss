@@ -1,0 +1,66 @@
+@import "~tailwindcss/base.css";
+@import "~tailwindcss/components.css";
+@import "~tailwindcss/utilities";
+@import "~normalize.css";
+@import "~animate.css/animate.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "utils";
+
+@import "../../components/Container/Container";
+@import "../../components/Header/Header";
+@import "../../components/Banner/Banner";
+@import "../../components/Button/Button";
+@import "../../components/Footer/Footer";
+@import "../../components/Contact/SubscribeForm";
+@import "../../components/Card/Card";
+@import "../../components/Guide/Guide";
+@import "../../components/Markdown/Markdown";
+@import "../../components/Markdown/ShareModal";
+@import "../../components/Modal/Modal";
+@import "../../components/Slider/Slider";
+@import "../../components/CookieConsent/CookieConsent";
+
+body {
+  font-family: $font-family-base;
+  font-size: 62.6%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+
+  &.light-mode {
+    background: $light-steal;
+    color: $darkest;
+    transition: background-color 0.3s ease;
+  }
+
+  &.dark-mode {
+    background-color: #000000;
+    color: $grey-light;
+  }
+}
+
+main {
+  padding-top: $header-height;
+
+  @include sm {
+    padding-top: $header-sm;
+  }
+}
+
+@include md {
+  .md-hidden {
+    display: none;
+  }
+}
+
+@include sm {
+  .sm-show {
+    display: block;
+  }
+
+  .sm-hidden {
+    display: none;
+  }
+}

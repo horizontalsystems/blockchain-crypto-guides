@@ -1,0 +1,426 @@
+@import "../../pages/styles/utils.scss";
+
+@mixin sm1024 {
+  @media (min-width: 1025px) {
+    @content;
+  }
+}
+
+.Markdown-container {
+  display: flex;
+  position: relative;
+
+  @include sm {
+    padding: 0;
+  }
+}
+
+.Progress-container {
+  height: 2px;
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+.light-mode .Progress-container {
+  background: $light-soft;
+}
+
+.dark-mode .Progress-container {
+  background: $dark-light;
+}
+
+.Progress-bar {
+  height: 2px;
+  background: $yellow-l;
+}
+
+.Markdown {
+  p, ul, ol, blockquote {
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+
+  a {
+    color: $yellow-l;
+    text-decoration: underline;
+  }
+
+  ul, ol {
+    list-style: inherit;
+    padding-left: 1.5em;
+  }
+
+  .icon-link {
+    width: 16px;
+    height: 16px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADiSURBVHgBzZLNDYJAEIXfAhcPJpZAJ5ZACdbA1cSA8edsC5ZgB1qJlEBiiCd2nFkBCcye9uK7wM7uvJn5dg0Uvc/YtBYXA6zgE6GKYpRG22tOePKB2hJuvvzIIONPmnjcU07eL3cofQavgzMpIgQq2CDxAZP2miMKt+iALba4zgx4ViFZjYFJMsfuLeHRrTPLRfh3bqABk8qS3Md6YNoI4Qw88Vralsqi2GBN307KobK8A2ajGpBFbmJ3x65t+iUNY3Cs5v5zmZfGzppkX85pe3/wkDABplbpgKkGU2CaBmCKPsIJXILYmYoSAAAAAElFTkSuQmCC');
+    background-size: cover;
+    display: block;
+    visibility: hidden;
+  }
+
+  h1, h2, h3 {
+    scroll-margin-top: 160px;
+    position: relative;
+
+    @include md {
+      scroll-margin-top: 120px;
+    }
+
+    a {
+      position: absolute;
+      left: -30px;
+      padding: 5px 10px 5px 5px;
+    }
+
+    &:hover .icon,
+    a:hover .icon {
+      visibility: visible;
+    }
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+
+    a {
+      top: 10px;
+
+      @include sm {
+        left: -25px;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 500;
+
+    a {
+      top: 5px;
+      left: -25px;
+    }
+
+    .icon {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 27px;
+
+    a {
+      top: 3px;
+      left: -23px;
+    }
+
+    .icon {
+      width: 13px;
+      height: 13px;
+    }
+  }
+
+  pre {
+    overflow: auto;
+  }
+
+  blockquote {
+    background: $light;
+    color: $grey;
+    padding: 12px 12px 12px 16px;
+    position: relative;
+    font-weight: 600;
+
+    &:before {
+      position: absolute;
+      top: 13px;
+      bottom: 13px;
+      margin-left: -16px;
+      width: 4px;
+      display: block;
+      content: "";
+      background: $grey;
+    }
+
+    @include md {
+      padding-left: 24px;
+
+      &:before {
+        margin-left: -24px;
+      }
+    }
+
+    > * {
+      margin: 0;
+    }
+  }
+
+  img:first-child {
+    min-height: 550px;
+    object-fit: contain;
+
+    @include sm {
+      min-height: 230px;
+    }
+  }
+}
+
+.dark-mode .Markdown blockquote {
+  background: $dark-soft;
+}
+
+.Markdown-content {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 0;
+  padding: 0 24px 24px;
+  border-radius: 0;
+  overflow: hidden;
+
+  @include md {
+    padding: 36px 88px;
+  }
+
+  @include sm1024 {
+    border-radius: 16px;
+    margin-top: 36px;
+    margin-right: 24px;
+    margin-bottom: 58px;
+  }
+}
+
+.Markdown {
+  width: 100%;
+
+  @include sm1024 {
+    width: 75%;
+  }
+}
+
+.Markdown-full-width {
+  width: 100%;
+}
+
+.Markdown-sidebar {
+  width: 100%;
+
+  @include sm1024 {
+    width: 25%;
+  }
+}
+
+.Markdown-side {
+  display: none;
+
+  @include sm1024 {
+    display: block;
+  }
+}
+
+.Markdown-side-top {
+  display: block;
+
+  @include sm1024 {
+    display: none;
+  }
+}
+
+.Markdown-side-content {
+  box-shadow: none;
+  border-radius: 0;
+  position: sticky;
+  top: $header-height+36px;
+  margin-bottom: 0;
+
+  @include sm1024 {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-bottom: 58px;
+  }
+}
+
+.light-mode .Markdown-content,
+.light-mode .Markdown-side-content {
+  background: $white;
+}
+
+.dark-mode .Markdown-content,
+.dark-mode .Markdown-side-content {
+  background: $dark;
+}
+
+.Markdown-side-top {
+  position: sticky;
+  width: 100%;
+  top: 80px;
+  z-index: 1;
+
+  @include md {
+    top: 110px;
+  }
+}
+
+.Markdown-side-head {
+  flex: 1;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-family: $ibm-plex-sans;
+  font-weight: 500;
+}
+
+.Markdown-side-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 16px 32px;
+  min-height: 50px;
+  max-height: 72px;
+  color: $yellow-l;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Markdown-text-actions {
+  display: flex;
+  align-items: center;
+}
+
+.Markdown-text-size {
+  display: flex;
+  align-items: center;
+  border: 1px solid $yellow-l;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 16px;
+}
+
+.Markdown-share-icon {
+  @include sm1024 {
+    display: none;
+  }
+}
+
+.Markdown-text-icon {
+  padding: 10px 12px;
+  cursor: pointer;
+  height: 36px;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: $yellow-l;
+
+    path {
+      fill: white;
+    }
+  }
+}
+
+.dark-mode .Markdown-text-icon:hover path {
+  fill: $darkest;
+}
+
+.Markdown-title-divider {
+  width: 1px;
+  height: 36px;
+  background: $yellow-l;
+}
+
+.Markdown-side-bottom {
+  display: none;
+
+  @include sm1024 {
+    display: flex;
+  }
+}
+
+.share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  .share-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: $grey;
+  }
+
+  .share-links {
+    display: flex;
+
+    a {
+      margin-left: 12px;
+    }
+  }
+}
+
+.Markdown-menu {
+  width: 100%;
+  max-height: 300px;
+  overflow: auto;
+  display: none;
+  position: absolute;
+
+  @include sm1024 {
+    position: relative;
+    display: block;
+  }
+}
+
+.light-mode .Markdown-menu {
+  background: $light;
+}
+
+.dark-mode .Markdown-menu {
+  background: $dark-soft;
+}
+
+.Markdown-menu-head {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.Markdown-menu-item {
+  padding: 12px 32px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  a {
+    color: $grey;
+    padding: 12px 0;
+  }
+}
+
+.light-mode .Markdown-menu-item,
+.light-mode .Markdown-menu-bordered {
+  border-bottom: 1px solid $light-soft;
+
+  a:hover,
+  a.current {
+    color: $darkest;
+  }
+}
+
+.dark-mode .Markdown-menu-item,
+.dark-mode .Markdown-menu-bordered {
+  border-bottom: 1px solid $dark-light;
+
+  a:hover,
+  a.current {
+    color: $grey-light;
+  }
+}

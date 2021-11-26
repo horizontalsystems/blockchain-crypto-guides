@@ -1,0 +1,38 @@
+@import "../../pages/styles/utils";
+
+.Guide-next-card {
+  margin: 0 12px 58px;
+  max-width: 300px;
+}
+
+.Guide-next {
+  width: 100%;
+}
+
+.Guide-next-few .slick-slide {
+  @include md {
+    width: auto !important;
+  }
+}
+
+.Guide-next-title {
+  font-size: 24px;
+  line-height: 33px;
+  padding-bottom: 36px;
+}
+
+.light-mode .Guide-next-wrap {
+  background: $light-soft;
+}
+
+.dark-mode .Guide-next-wrap {
+  background: $dark-light;
+}
+
+.light-mode .Guide-next-title {
+  color: $darkest;
+}
+
+.dark-mode .Guide-next-title {
+  color: $grey-light;
+}

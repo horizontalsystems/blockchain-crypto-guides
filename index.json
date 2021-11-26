@@ -1,89 +1,481 @@
 [
   {
-    "title": "Basics",
+    "id": "basics",
+    "category": {
+      "en": "Basics",
+      "ru": "Основы",
+      "fr": "L'essentiel",
+      "de": "Grundlagen",
+      "fa": "Basics"
+    },
     "guides": [
       {
-        "title": "1. Cryptocurrency",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/1-cryptocurrency-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Cryptocurrency Explained",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/en/1-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "ru": {
+          "title": "Криптовалюта",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/ru/1-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fr": {
+          "title": "Crypto-monnaie",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/fr/1-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "de": {
+          "title": "Kryptowährung",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/de/1-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fa": {
+          "title": "رمزارز یا کریپتوکارنسی",
+          "image": "guides/fundamentals/images/01-main-l.png",
+          "file": "guides/fundamentals/fa/1-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "2. Wallets",
-        "image_url":"https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/02-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/2-wallets-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Crypto Wallets",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/en/2-wallets-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "ru": {
+          "title": "Доступно о кошельках",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/ru/2-wallets-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fr": {
+          "title": "Les portefeuilles",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/fr/2-wallets-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "de": {
+          "title": "Wallets erklärt",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/de/2-wallets-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fa": {
+          "title": "توضیح کیف پول",
+          "image": "guides/fundamentals/images/02-main-l.png",
+          "file": "guides/fundamentals/fa/2-wallets-basics.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "3. Private Keys",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/03-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/3-private-keys-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "What Are Private Keys",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/en/3-private-keys-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "ru": {
+          "title": "Приватные ключи",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/ru/3-private-keys-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fr": {
+          "title": "Clés privées",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/fr/3-private-keys-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "de": {
+          "title": "Private Keys",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/de/3-private-keys-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fa": {
+          "title": "کلیدهای خصوصی",
+          "image": "guides/fundamentals/images/03-main-l.png",
+          "file": "guides/fundamentals/fa/3-private-keys-basics.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "4. Safe Storage Tips",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/04-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/4-safe-storage-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Keeping Crypto Safe",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/en/4-safe-storage-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "ru": {
+          "title": "Безопасное хранение",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/ru/4-safe-storage-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fr": {
+          "title": "Stockage sécurisé",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/fr/4-safe-storage-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "de": {
+          "title": "Sichere Aufbewahrung",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/de/4-safe-storage-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fa": {
+          "title": "ذخیره سازی ایمن",
+          "image": "guides/fundamentals/images/04-main-l.png",
+          "file": "guides/fundamentals/fa/4-safe-storage-basics.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "5. Unstoppable Wallet",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/5-unstoppable-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Unstoppable Intro",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/en/5-unstoppable-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "ru": {
+          "title": "Unstoppable Кошелек",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/ru/5-unstoppable-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fr": {
+          "title": "Intro Unstoppable",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/fr/5-unstoppable-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "de": {
+          "title": "Unstoppable Intro",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/de/5-unstoppable-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fa": {
+          "title": "Unstoppable Intro",
+          "image": "guides/fundamentals/images/05-main-l.png",
+          "file": "guides/fundamentals/fa/5-unstoppable-basics.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "6. Buying Cryptocurrency",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/06-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/6-buying-cryptocurrency-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Buying Cryptocurrency",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/en/6-buying-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "ru": {
+          "title": "Покупка криптовалюты",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/ru/6-buying-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fr": {
+          "title": "Achat de cryptomonnaie",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/fr/6-buying-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "de": {
+          "title": "Kryptowährung kaufen",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/de/6-buying-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fa": {
+          "title": "خرید رمزارز",
+          "image": "guides/fundamentals/images/06-main-l.png",
+          "file": "guides/fundamentals/fa/6-buying-cryptocurrency-basics.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "7. Spending Cryptocurrency",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/07-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/7-spending-cryptocurrency.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Spending Cryptocurrency",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/en/7-spending-cryptocurrency.md",
+          "updated_at": "2020-06-01"
+        },
+        "ru": {
+          "title": "Расходование криптовалюты",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/ru/7-spending-cryptocurrency.md",
+          "updated_at": "2020-06-01"
+        },
+        "fr": {
+          "title": "Dépenser la crypto-monnaie",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/fr/7-spending-cryptocurrency.md",
+          "updated_at": "2020-06-01"
+        },
+        "de": {
+          "title": "Krypto ausgeben",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/de/7-spending-cryptocurrency.md",
+          "updated_at": "2020-06-01"
+        },
+        "fa": {
+          "title": "مخارج رمزارز",
+          "image": "guides/fundamentals/images/07-main-l.png",
+          "file": "guides/fundamentals/fa/7-spending-cryptocurrency.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "8. Transactions",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/08-main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/8-transactions-basics.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Cryptocurrency Transactions",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/en/8-transactions-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "ru": {
+          "title": "Доступно о транзакциях",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/ru/8-transactions-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fr": {
+          "title": "Transactions expliquées",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/fr/8-transactions-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "de": {
+          "title": "Transaktionen erklärt",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/de/8-transactions-basics.md",
+          "updated_at": "2020-06-01"
+        },
+        "fa": {
+          "title": "معاملات توضیح داده شده است",
+          "image": "guides/fundamentals/images/08-main-l.png",
+          "file": "guides/fundamentals/fa/8-transactions-basics.md",
+          "updated_at": "2020-06-01"
+        }
       }
     ]
   },
   {
-    "title": "Coins",
+    "id": "currencies",
+    "category": {
+      "en": "Currencies",
+      "ru": "Валюты",
+      "fr": "Monnaies",
+      "de": "Währungen",
+      "fa": "Currencies"
+    },
     "guides": [
       {
-        "title": "Bitcoin in Simple Terms",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/btc-Main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/bitcoin.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Bitcoin in Simple Terms",
+          "image": "guides/token_guides/images/btc-Main-l.png",
+          "file": "guides/token_guides/en/bitcoin.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "Ethereum in Simple Terms",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/eth-Main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/ethereum.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Ethereum in Simple Terms",
+          "image": "guides/token_guides/images/eth-Main-l.png",
+          "file": "guides/token_guides/en/ethereum.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "Bitcoin Cash in Simple Terms",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/bch-Main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/bitcoin-cash.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Bitcoin Cash in Simple Terms",
+          "image": "guides/token_guides/images/bch-Main-l.png",
+          "file": "guides/token_guides/en/bitcoin-cash.md",
+          "updated_at": "2020-06-01"
+        }
       },
       {
-        "title": "Tether in Simple Terms",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/usdt-Main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/tether.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "Zcash in Simple Terms",
+          "image": "guides/token_guides/images/Zcash-Main-l.png",
+          "file": "guides/token_guides/en/zcash.md",
+          "updated_at": "2020-11-15"
+        }
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "category": {
+      "en": "DeFi",
+      "ru": "DeFi",
+      "fr": "DeFi",
+      "de": "DeFi",
+      "fa": "DeFi"
+    },
+    "guides": [
+      {
+        "en": {
+          "title": "DeFi Explained",
+          "image": "guides/defi/images/defi-Main-l.png",
+          "file": "guides/defi/en/1-defi-explained.md",
+          "updated_at": "2020-09-01"
+        }
       },
       {
-        "title": "MakerDAO & DAI in Simple Terms",
-        "image_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/images/mkr-Main-l.png",
-        "file_url": "https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/token_guides/makerdao.md",
-        "updated_at": "01-06-2020"
+        "en": {
+          "title": "How to DeFi",
+          "image": "guides/defi/images/defi2-Main-l.png",
+          "file": "guides/defi/en/2-howto-defi.md",
+          "updated_at": "2020-09-01"
+        }
+      },
+      {
+        "en": {
+          "title": "Decentralized Exchanges",
+          "image": "guides/defi/images/defi3-exchanges-l.png",
+          "file": "guides/defi/en/3-decentralized-exchanges.md",
+          "updated_at": "2020-09-01"
+        }
+      },
+      {
+        "en": {
+          "title": "Lending Protocols",
+          "image": "guides/defi/images/defi4-Main-l.png",
+          "file": "guides/defi/en/4-lending-protocols.md",
+          "updated_at": "2020-09-01"
+        }
+      },
+      {
+        "en": {
+          "title": "Stablecoins",
+          "image": "guides/defi/images/defi5-Main-l.png",
+          "file": "guides/defi/en/5-stablecoins.md",
+          "updated_at": "2020-09-01"
+        }
+      },
+      {
+        "en": {
+          "title": "DeFi Transactions",
+          "image": "guides/defi/images/defi6-Main-l.png",
+          "file": "guides/defi/en/6-defi-transactions.md",
+          "updated_at": "2020-09-01"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exchanges",
+    "category": {
+      "en": "Exchanges",
+      "ru": "Биржи",
+      "fr": "Plateformes d'échange",
+      "de": "Börsen",
+      "fa": "Exchanges"
+    },
+    "guides": [
+      {
+        "en": {
+          "title": "Uniswap in Simple Terms",
+          "image": "guides/token_guides/images/uniswap-Main-l.png",
+          "file": "guides/token_guides/en/uniswap.md",
+          "updated_at": "2020-10-01"
+        }
+      },
+      {
+        "en": {
+          "title": "Curve in Simple Terms",
+          "image": "guides/token_guides/images/curve-Main-l.png",
+          "file": "guides/token_guides/en/curve-finance.md",
+          "updated_at": "2020-09-01"
+        }
+      },
+      {
+        "en": {
+          "title": "Balancer in Simple Terms",
+          "image": "guides/token_guides/images/bal-Main-l.png",
+          "file": "guides/token_guides/en/balancer-dex.md",
+          "updated_at": "2020-09-01"
+        }
+      },
+      {
+        "en": {
+          "title": "Synthetix in Simple Terms",
+          "image": "guides/token_guides/images/snx-Main-l.png",
+          "file": "guides/token_guides/en/synthetix.md",
+          "updated_at": "2020-09-01"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stablecoins",
+    "category": {
+      "en": "Stablecoins",
+      "ru": "Стейблкоины",
+      "fr": "Stablecoins",
+      "de": "Stablecoins",
+      "fa": "Stablecoins"
+    },
+    "guides": [
+      {
+        "en": {
+          "title": "Tether in Simple Terms",
+          "image": "guides/token_guides/images/usdt-Main-l.png",
+          "file": "guides/token_guides/en/tether.md",
+          "updated_at": "2020-06-01"
+        }
+      },
+      {
+        "en": {
+          "title": "DAI in Simple Terms",
+          "image": "guides/token_guides/images/mkr-Main-l.png",
+          "file": "guides/token_guides/en/makerdao.md",
+          "updated_at": "2020-06-01"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lending",
+    "category": {
+      "en": "Lending",
+      "ru": "Займы",
+      "fr": "Prêts",
+      "de": "Verleihen",
+      "fa": "Lending"
+    },
+    "guides": [
+      {
+        "en": {
+          "title": "Aave in Simple Terms",
+          "image": "guides/token_guides/images/aave-Main-l.png",
+          "file": "guides/token_guides/en/aave.md",
+          "updated_at": "2020-09-01"
+        }
+      },
+      {
+        "en": {
+          "title": "Compound in Simple Terms",
+          "image": "guides/token_guides/images/comp-Main-l.png",
+          "file": "guides/token_guides/en/compound.md",
+          "updated_at": "2020-09-01"
+        }
+      },
+      {
+        "en": {
+          "title": "MakerDAO in Simple Terms",
+          "image": "guides/token_guides/images/mkr-Main-l.png",
+          "file": "guides/token_guides/en/makerdao.md",
+          "updated_at": "2020-06-01"
+        }
       }
     ]
   }

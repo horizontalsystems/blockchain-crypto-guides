@@ -1,0 +1,121 @@
+@import "../../pages/styles/utils";
+
+.Container-banner {
+  padding-top: 36px !important;
+  padding-bottom: 32px;
+
+  @include sm {
+    padding-bottom: 15px;
+  }
+}
+
+.Banner-wrap {
+  position: relative;
+}
+
+.Banner-half {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  background: #F3F3F3;
+}
+
+.dark-mode .Banner-half {
+  background: $dark-soft;
+}
+
+.Banner {
+  width: 100%;
+  height: 420px;
+  background: #FFFFFF;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.dark-mode .Banner {
+  background: $dark;
+}
+
+.dark-mode .Banner-wallet {
+  background: $black;
+}
+
+.Banner-info {
+  padding: 24px;
+
+  @include md {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+  }
+
+  @include lg {
+    padding: 0 96px;
+  }
+}
+
+.Banner-title {
+  color: $darkest;
+  font-size: 36px;
+  line-height: 49px;
+
+  @include md {
+    font-size: 52px;
+    line-height: 71px;
+  }
+}
+
+.dark-mode .Banner-title {
+  color: $grey-light;
+}
+
+.Banner-light, .Banner-dark {
+  display: none;
+}
+
+.light-mode .Banner-light {
+  display: block;
+}
+
+.dark-mode .Banner-dark {
+  display: block;
+}
+
+.Banner-description {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: $grey;
+}
+
+.Banner-dots {
+  position: absolute;
+  bottom: -18px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.Banner-dot {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.Banner-dot-active circle {
+  fill: $yellow;
+}
+
+@import "BannerGuide";
+@import "BannerWallet";
