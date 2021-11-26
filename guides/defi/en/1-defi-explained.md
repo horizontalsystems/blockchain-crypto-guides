@@ -20,7 +20,9 @@ Technologies like the internet, cryptography, and blockchain provided means to c
 
 > DeFi is an ecosystem, even a movement, driven by an aim to create a financial system that’s open to everyone and minimizes one’s need to trust and rely on central authorities.
 
-The majority of DeFi services operate on top of Ethereum blockchain and take the form of decentralized apps, more commonly known as DApps. 
+Today, the majority of DeFi services operate on top of Ethereum blockchain and take the form of decentralized apps, more commonly known as DApps. 
+
+While Ethereum is not the only platform where DeFi services are being built it is by far the most popular one. Thus, in this guide we'll specifically focus on DeFi services operating on Ethereum.
 
 It's recommended to go over the [Ethereum guide](../../token_guides/en/ethereum.md). A good understanding of Ethereum, Smart Contracts and DApps is essential to understand DeFi.
 
@@ -32,7 +34,7 @@ Typically, DeFi services usually built around following principles:
 
 - Open To All
 
-    Anyone worldwide with an internet connection and some cryptocurrency can use a service regardless of location, age, experience, status etc. 
+    Anyone worldwide with an internet connection and some cryptocurrency can use a service regardless of location, age, experience, social status etc. 
     
 - Censorship Resistant
 
@@ -58,9 +60,9 @@ If a service provides means to freeze funds or censor users it cannot be classif
     
 ## DeFi History
 
-Bitcoin and Ethereum are the original decentralized finance systems. Both are now controlled by large networks of distributed computers, not central authorities. 
+Bitcoin and Ethereum are the DeFi systems. Both are now controlled by large networks of distributed computers, not central authorities. 
 
-1. [Bitcoin](../../token_guides/en/bitcoin.md) was the first blockchain which paved the way for decentralized finance by allowing people to transact in Bitcoin (BTC) without the need for a third-party to execute that transaction. Today, Bitcoin blockchain handles on average [300K transactions a day](https://bitinfocharts.com/comparison/bitcoin-transactions.html#1y).
+1. [Bitcoin](../../token_guides/en/bitcoin.md) was the first blockchain which paved the way for decentralized finance by allowing people to transact in Bitcoin (BTC) without the need for a third party to execute that transaction. Today, Bitcoin blockchain handles on average [300K transactions a day](https://bitinfocharts.com/comparison/bitcoin-transactions.html#1y).
 
 2. Few years later, [Ethereum](../../token_guides/en/ethereum.md) took the idea further and enabled conditional transactions. It enabled programmers to build complex financial services that are always online, censorship resistant and autonomous. 
 
@@ -74,18 +76,14 @@ Being a disruptive technology, the upside potential of the industry remains extr
 
 ## DeFi Today
 
-There are currently a lot of well-financed startups, entrepreneurs, and finance people working in DeFi ecosystem.
+There are currently a lot of well-financed startups, entrepreneurs, and finance people working in DeFi ecosystem. In Nov 2021, the total sum controlled by top DeFi projects exceeded 100 billion USD in value.
 
-- In August 2020, the total sum controlled by DeFi smart contracts has exceeded [4 billion USD](https://news.bitcoin.com/total-value-locked-in-defi-surpasses-4-billion-eth-up-over-70-last-30-days/) in value.
-
-- Around the same, cumulative market cap for DeFi projects accounted for [less than 10%](https://defimarketcap.io) of entire cryptocurrency ecosystem valued at 300 billion.
+If interested check out [defimarketcap.io](https://defimarketcap.io) to see top DeFi services on the market today.
 
 ![](../images/defi-indefi-l.png)
 
-Below is a basic overview of how building, financing and governance of DeFi services takes place:
-
-- All DeFi projects expected to have an open source code. This speeds up development of the entire ecosystem by enabling engineers reuse various components from other projects.
+All DeFi projects expected to have an open source code. This speeds up development of the entire ecosystem by enabling engineers reuse various components from other projects.
         
-- To raise funds DeFi projects generally conduct token sale via a process such as ICO (Initial Coin Offering) or similar. The project sells a specific cryptocurrency token representing governance weight or profit share in a project. 
+To raise funds DeFi projects generally conduct token sale via a process such as ICO (Initial Coin Offering) or similar. The project sells a specific cryptocurrency token representing governance weight or profit share in a project. 
 
-- DeFi projects usually governed by a group of entities which may not even know each other. The governance may take place via proposals and voting mechanisms.
+DeFi projects usually take the form of a DAO (Decentralized Autonomous Organization) and are governed by a group of entities which may not even know each other. The governance may take place via proposals and voting mechanism.

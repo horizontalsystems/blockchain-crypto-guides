@@ -35,13 +35,13 @@ Anyone and anywhere can start experimenting with this using personal cryptocurre
 
 ![](../images/defi6-Fees-l.png)
 
-## Transaction Fee
+## Transaction Fees
 
 Generic Ethereum transactions that send Ethereum or Ethereum-based tokens from one address to another are typically simple (and therefore lot cheaper) than DeFi transactions.
 
 > Ethereum DeFi transaction are typically complex and require higher processing fees than typical token transfer transactions.
 
-The high fee issue may no longer be relevant when Ethereum blockchain expands its capacity to handle more transactions. 
+The high fee issue may no longer be relevant when Ethereum blockchain expands its capacity to handle more transactions. Or when using a DeFi service operating on a blockchain capable of executing transactions much faster than Ethereum. These includes blockchains like Solana, Avalanche, Algorand etc.
 
 Until then DeFi transactions costs are likely to keep increasing, especially as DeFi ecosystem and services attract more and more people.
 
@@ -54,11 +54,13 @@ For instance, a decentralized exchange charges trader a small service fee for ea
 - a service fee (ex: 0.02 % - 0.04 %) paid to a DEX smart contract
 - a transaction fee paid to the Ethereum network nodes
 
+In the same way, a lending service like Aave or Compound charges service users a fee for lending cryptocurrency. These fees are paid in addition to transaction fees paid for the transaction on the blockchain.
+
 ## Approval Transactions
 
 Transaction approvals is another important aspect to grasp.
 
-When user interacts with a smart contract it's not uncommon for a smart contract to require an owner's approval to access his/her capital in order to execute its service.
+When user interacts with a smart contract it's not uncommon for a smart contract to require an owner's approval to access his/her capital.
 
 > Granting a permission works in a form of another 'approval transaction' which is a transaction which doesn't transfer any money but only grants someone (i.e. a smart contract) a permission to spend a certain amount of your balance for a given token.
 
@@ -66,13 +68,13 @@ Most DeFi services will require an approval transaction to be completed before a
 
 ![](../images/defi6-defiprivacy-l.png)
 
-## Privacy
+## DeFi Privacy
 
-As most of the DeFi projects built on top of Ethereum blockchain the privacy on DeFi is basically the privacy you get with the Ethereum. 
+As most of the DeFi projects built on top of Ethereum blockchain the privacy level on DeFi is basically that of Ethereum. 
 
 All DeFi related transactions will expose your Ethereum address. While there is no way for someone to match that address to your identity it allows the person to see the entire history of actions associated with that address as well as balances for other Ethereum based tokens.
 
-One simple tip to mitigate this is to use multiple Ethereum wallets: 
+One simple tip to mitigate this to some extent is to use multiple Ethereum wallets: 
 
 - For Asset Storage
 

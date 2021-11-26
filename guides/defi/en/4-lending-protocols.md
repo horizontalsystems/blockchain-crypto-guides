@@ -16,7 +16,7 @@ These are DeFi services which facilitate cryptocurrency lending and borrowing se
     
     The lender can pull deposits out of smart contract at any time along with accrued interest.
 
-Typically, cryptocurrency market participants borrow assets from smart contract in order to utilize these funds in activity where these assets can make more returns than the cost of borrowing them.
+Typically, cryptocurrency market participants borrow assets from a smart contract in order to utilize these funds in activity where these assets can make more returns than the cost of borrowing them.
 
 For instance, someone may borrow one cryptocurrency from one DeFi service and then lend it to another DeFi service with higher returns.
 
@@ -62,7 +62,7 @@ A flash loan allows you to essentially simultaneously perform multiple financial
 
 ## 1. Compound
 
-A currently popular decentralized service for borrowing and lending cryptocurrency. 
+A popular decentralized service for borrowing and lending cryptocurrency. 
     
 [Compound Finance](https://compound.finance/markets) loans typically require a collateral which may change between 0-90% of the borrowed asset. 
 

@@ -1,1 +1,0 @@
-https://medium.com/mycrypto/the-journey-from-mnemonic-phrase-to-address-6c5e86e11e14
