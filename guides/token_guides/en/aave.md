@@ -2,11 +2,11 @@
 
 # Aave in Simple Terms
 
-[Aave](https://app.aave.com/) is a non-custodial Ethereum-based decentralized service which allows lending and borrowing Ethereum-based cryptocurrency assets. 
+[Aave](https://app.aave.com/) is a non-custodial Ethereum-based decentralized service which allows lending and borrowing Ethereum-based cryptocurrency assets.
 
-Aave launched in January 2020 and over the course of 8 months attracted close to 2 billion USD worth of cryptocurrency to its platform. 
+Aave launched in January 2020 and over the course of 8 months attracted close to 2 billion USD worth of cryptocurrency to its platform.
 
-- Depositors provide liquidity by depositing cryptocurrencies into a decentralized lending pool and earn interest. 
+- Depositors provide liquidity by depositing cryptocurrencies into a decentralized lending pool and earn interest.
 
 - Borrowers obtain loans by tapping into these lending pools in exchange for a fee.
 
@@ -45,45 +45,45 @@ Each listed asset on Aave has its own set of borrowing and lending requirements.
 
 According to the project's decentralization roadmap the control over the cryptocurrencies that are available on Aave will be passed to Aave token holders.
 
-> At the moment power to remove and add new cryptocurrency to the platform lies with the Aave team. 
+> At the moment power to remove and add new cryptocurrency to the platform lies with the Aave team.
 
 ## Lending on Aave
 
-Cryptocurrency owners may lend any of the supported assets to Aave protocol and earn interest. 
+Cryptocurrency owners may lend any of the supported assets to Aave protocol and earn interest.
 
-- The lending rates as well as some risk-related parameters vary between supported cryptocurrency assets. 
+- The lending rates as well as some risk-related parameters vary between supported cryptocurrency assets.
 
 - The lender's deposits on Aave are secured by the collateral (in a form of another cryptocurrency) provided by those borrowing from Aave protocol.
 
 - When lenders deposit assets into Aave they receive the interest-earning aTokens which can always be used to withdraw the deposits in the future along with earnings.
 
-- The aToken is pegged 1:1 to the value of the underlying asset deposited with Aave. The aTokens are destroyed by Aave protocol when redeemed by a lender for his/her collateral. 
+- The aToken is pegged 1:1 to the value of the underlying asset deposited with Aave. The aTokens are destroyed by Aave protocol when redeemed by a lender for his/her collateral.
 
 ## Borrowing on Aave
 
 Borrowing from Aave requires a collateral in a form of another cryptocurrency supported by Aave protocol.
 
-- The borrowing terms vary from one collateral to another. Using one currency as collateral may offer better terms to borrowers. 
+- The borrowing terms vary from one collateral to another. Using one currency as collateral may offer better terms to borrowers.
 
 - A so called Loan-to-Value ratio represents the maximum borrowing power of a specific collateral. If a collateral has a LTV of 75%, the user can borrow up to 0.75 of the collateral value.
 
 - Aave allows borrowers to choose between fixed or varied interest rates for borrowing. Varied interest rates are typically lower than fixed rates but can change dramatically in a short period.
 
-- Every borrower needs to ensure that real-time value of collateral always remains above the minimum required for that specific collateral. 
+- Every borrower needs to ensure that real-time value of collateral always remains above the minimum required for that specific collateral.
 
 - Should the value of collateral fall below the minimum the Aave protocol is programmed to sell collateral at discount and attempt to recover borrowed assets.
 
-- So, every borrower on Aave is economically incentivized to keep their loans healthy to avoid loosing part or some of the collateral.
+- So, every borrower on Aave is economically incentivized to keep their loans healthy to avoid losing part or some of the collateral.
 
 ## Flash Loans
 
-Aave has one feature that sets it apart from other lending services. Flash loans allow customers or to take out loans without any collateral. 
+Aave has one feature that sets it apart from other lending services. Flash loans allow customers or to take out loans without any collateral.
 
-- Flash loans enable a customised smart contract to borrow assets from Aave’s reserve pools within one transaction. 
+- Flash loans enable a customised smart contract to borrow assets from Aave’s reserve pools within one transaction.
 
 - The loan is made on the condition that the loan is returned to the pool before the transaction ends.
 
-- Aave charges a 0.09% fee on flash loans which needs to be repaid together with the flash loan. 
+- Aave charges a 0.09% fee on flash loans which needs to be repaid together with the flash loan.
 
 In current form, flash loans are primarily accessible to programmers with trading experience. Flash loans enable someone to participate in activities i.e. arbitrage and refinancing which normally require the access to capital.
 
@@ -91,7 +91,7 @@ In current form, flash loans are primarily accessible to programmers with tradin
 
 The Aave aims to be a fully community-governed decentralized autonomous organization where all aspects of this service are being overseen by the owners of the AAVE token (formerly LEND).
 
-In that regard, Aave project is on the path to become self-sustainable DAO with many similarities to [MakerDAO](../../token_guides/en/makerdao.md). 
+In that regard, Aave project is on the path to become self-sustainable DAO with many similarities to [MakerDAO](../../token_guides/en/makerdao.md).
 
 - The native AAVE token is a core securing element of the Aave governance and can be used for voting on protocol improvements such as borrowing and lending related parameters.
 
@@ -111,7 +111,7 @@ A new version Aave 2.0 [was announced](https://medium.com/aave/aave-v2-the-seaml
 
 - Pay With Collateral
 
-    Currently, if users want to repay an existing Aave loan with part of their collateral they need to do 4 separate transactions. 
+    Currently, if users want to repay an existing Aave loan with part of their collateral they need to do 4 separate transactions.
     
     Aave 2.0 aims to provide a feature where such loan repayment transactions can be made in 1 transaction.
 
@@ -127,7 +127,7 @@ A new version Aave 2.0 [was announced](https://medium.com/aave/aave-v2-the-seaml
 
 - Trading Features
 
-    Aave v2 will introduce the ability for users to natively trade their debt position from one asset to another, i.e. you can borrow DAI, and if USDC becomes cheaper to borrow, you could change your debt position to USDC in one transaction. 
+    Aave v2 will introduce the ability for users to natively trade their debt position from one asset to another, i.e. you can borrow DAI, and if USDC becomes cheaper to borrow, you could change your debt position to USDC in one transaction.
     
     Users can also trade their deposited assets across the various cryptocurrencies supported by Aave, even when it is being used as collateral
 
@@ -135,7 +135,7 @@ A new version Aave 2.0 [was announced](https://medium.com/aave/aave-v2-the-seaml
 
 As with any DeFi service the largest risk of interacting with Aave come from a possibility of undisovered bug in smart contract powering Aave platform.
 
-That said, Aave Protocol has had its smart contracts audited by Trail of Bits, Open Zeppelin and Consensys Diligence. 
+That said, Aave Protocol has had its smart contracts audited by Trail of Bits, Open Zeppelin and Consensys Diligence.
 
 There is also an ongoing bug bounty program where community members can report any bugs or vulnerabilities and get rewarded.
     

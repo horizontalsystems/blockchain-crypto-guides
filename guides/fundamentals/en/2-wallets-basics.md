@@ -18,7 +18,7 @@ A lot of people enter the space and start accumulating cryptocurrencies without 
 
 Most cryptocurrencies operate on top of the blockchain that powers that specific cryptocurrency. Bitcoin is the native currency of the Bitcoin blockchain, the Ethereum cryptocurrency has its own blockchain and so on.
 
-The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet. 
+The notion of someone owning Bitcoin or Ethereum is quite different from the idea of traditional cash in your wallet.
 
 >**The ownership in cryptocurrency means the ownership of special cryptographic key which has a power to spend a certain amount of cryptocurrency.**
 
@@ -34,9 +34,9 @@ Under the hood the key may look something like this:
 
 >**5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF**
 
-Revealing the cryptographic key to someone or loosing it essentially means loosing access to the crypto it controls. Note that it's impossible for someone (even the most powerful computer) to guess that key, even if it tries to do it over a billion years. 
+Revealing the cryptographic key to someone or losing it essentially means losing access to the crypto it controls. Note that it's impossible for someone (even the most powerful computer) to guess that key, even if it tries to do it over a billion years.
 
-It was not uncommon to see people loosing key to their Bitcoins in the early days. As a result a lot of Bitcoins (maybe 10-15%) ended up dormant this way. The Bitcoins are still out there, but the cryptographic key controlling these Bitcoins is lost.
+It was not uncommon to see people losing key to their Bitcoins in the early days. As a result a lot of Bitcoins (maybe 10-15%) ended up dormant this way. The Bitcoins are still out there, but the cryptographic key controlling these Bitcoins is lost.
 
 In practical terms, the private key can be thought of as a secure alternative to traditional username and password authentication method but without the means to recover if lost.
 
@@ -46,7 +46,7 @@ Cryptocurrency wallets are merely the instruments meant to hold and manage crypt
 
 >**The wallets do not physically store cryptocurrencies, instead wallets store cryptographic keys which can exercise over certain amount of cryptocurrencies.**
 
-Genuine cryptocurrency wallets enable safe and private storage of cryptographic keys. We deliberately said "genuine" because cryptocurrency wallets come in many forms. 
+Genuine cryptocurrency wallets enable safe and private storage of cryptographic keys. We deliberately said "genuine" because cryptocurrency wallets come in many forms.
 
 Building genuine wallet is significantly more difficult and thus most wallet providers build pseudo currency wallets. Pseudo wallets do not provide users with a genuine control over the assets.
 
@@ -58,7 +58,7 @@ Not all wallet are equal in that regard. Depending on how the wallet built it ma
 
 ### 1) Non-Custodial Wallets
 
-A non-custodial wallet type gives the user exclusive control over their funds. The entity providing the wallet does not have any control over the user assets. 
+A non-custodial wallet type gives the user exclusive control over their funds. The entity providing the wallet does not have any control over the user assets.
 
 Such wallets are theoretically the most secure form of a cryptocurrency wallet as no third-party can interfere with the wallet funds. The user has exclusive control over the funds and doesn't have to trust any entity.
 
@@ -72,9 +72,9 @@ This is the only type of wallet we recommend for safe storage. In later sections
 
 ### 2) Custodial Wallets
 
-A custodial wallet does not give the user exclusive control over the crypto funds on the wallet. A wallet provider basically gives "pseudo" wallet that shows balance and transactions. 
+A custodial wallet does not give the user exclusive control over the crypto funds on the wallet. A wallet provider basically gives "pseudo" wallet that shows balance and transactions.
 
-Whenever user executes a transaction it's the wallet provider who actually sends those funds on user's behalf. Such wallets are the least secure wallets. The users' funds and access to them are fully in the hands of the wallet provider. 
+Whenever user executes a transaction it's the wallet provider who actually sends those funds on user's behalf. Such wallets are the least secure wallets. The users' funds and access to them are fully in the hands of the wallet provider.
 
 >**A wallet provider may easily block a user from accessing the wallet or even freeze the funds.**
 > 
@@ -94,7 +94,7 @@ Majority of the popular wallets out there are unfortunately of custodial nature.
 
 ### 3) Hybrid Wallets
 
-Neither the wallet owner or the wallet provider has full control over the wallet funds. A hybrid wallet programmed to require approval from both parties before the funds can be spent. 
+Neither the wallet owner or the wallet provider has full control over the wallet funds. A hybrid wallet programmed to require approval from both parties before the funds can be spent.
 
 The hybrid wallet system protects against hacking wallet provider but opens the door for wallet provider to censor users in certain scenarios.
 
