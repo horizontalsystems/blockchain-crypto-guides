@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 export default class Meta extends React.Component {
   componentDidMount() {
-    sendPageView()
+    // sendPageView()
   }
 
   render() {
@@ -24,21 +24,19 @@ export default class Meta extends React.Component {
         <script dangerouslySetInnerHTML={{ __html: mlScript() }} />
 
         {/* Global site tag (gtag.js) - Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179170365-1" />
-        <script dangerouslySetInnerHTML={{ __html: analyticsScript() }} />
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} />
+        <script dangerouslySetInnerHTML={{ __html: analyticsScript(process.env.NEXT_PUBLIC_MEASUREMENT_ID) }} />
       </Head>
     )
   }
 }
 
-function analyticsScript() {
+function analyticsScript(id) {
   return (`
     window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'UA-179170365-1');
+    gtag('config', '${id}');
   `)
 }
 

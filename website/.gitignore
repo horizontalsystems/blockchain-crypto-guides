@@ -20,6 +20,7 @@
 
 # IDE
 .idea
+.env
 
 # debug
 npm-debug.log*
